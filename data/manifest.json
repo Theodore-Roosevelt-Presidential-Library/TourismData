@@ -1,0 +1,29 @@
+{
+  "bts_airports_annual": {
+    "fetched_at": "2026-09-16T20:36:41+00:00",
+    "rows": 6,
+    "years": [
+      2024
+    ]
+  },
+  "bts_border_monthly": {
+    "fetched_at": "2026-09-16T20:36:40+00:00",
+    "latest_month": "2026-07",
+    "rows": 6448
+  },
+  "nps_monthly": {
+    "failed": [],
+    "fetched_at": "2026-09-16T20:36:38+00:00",
+    "latest_month": {
+      "BADL": "2026-08",
+      "DETO": "2026-08",
+      "KNRI": "2026-08",
+      "LIBI": "2026-08",
+      "MORU": "2026-08",
+      "THRO": "2026-08",
+      "WICA": "2026-08",
+      "YELL": "2026-08"
+    },
+    "parks": 8
+  }
+}

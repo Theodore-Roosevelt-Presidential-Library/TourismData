@@ -1,0 +1,72 @@
+name: Update data and deploy dashboard
+
+on:
+  schedule:
+    # 16th of every month, 14:00 UTC (NPS posts the prior month around the 15th)
+    - cron: "0 14 16 * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", "config/**", "docs/index.html", ".github/workflows/update-data.yml"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Fetch NPS IRMA monthly visits
+        run: python scripts/fetch_nps.py
+        continue-on-error: true
+      - name: Fetch BTS border crossings
+        run: python scripts/fetch_bts_border.py
+        continue-on-error: true
+      - name: Fetch BTS airport enplanements
+        run: python scripts/fetch_bts_airports.py
+        continue-on-error: true
+
+      - name: Build dashboard data
+        run: python scripts/build.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs/data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: fetch
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
