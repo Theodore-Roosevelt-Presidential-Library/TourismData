@@ -9,6 +9,7 @@ station,name,route,county,year,month,madt,weekday_adt,weekend_adt,days_monitored
 00221,Fairfield (US 85 north of I-94),US 85,Stark,2024,8,3728,3995,3022,31,August2025
 00221,Fairfield (US 85 north of I-94),US 85,Stark,2024,9,3667,3919,2941,30,September2025
 00221,Fairfield (US 85 north of I-94),US 85,Stark,2024,10,3411,3699,2648,31,October2025
+00221,Fairfield (US 85 north of I-94),US 85,Stark,2024,11,2861,3091,2225,29,November2025
 00221,Fairfield (US 85 north of I-94),US 85,Stark,2024,12,2621,2729,2173,31,December2025
 00221,Fairfield (US 85 north of I-94),US 85,Stark,2025,1,2463,2666,1826,31,January2025
 00221,Fairfield (US 85 north of I-94),US 85,Stark,2025,2,2474,2605,1971,28,February2025
@@ -20,6 +21,7 @@ station,name,route,county,year,month,madt,weekday_adt,weekend_adt,days_monitored
 00221,Fairfield (US 85 north of I-94),US 85,Stark,2025,8,3636,3863,2990,31,August2025
 00221,Fairfield (US 85 north of I-94),US 85,Stark,2025,9,3549,3762,2904,30,September2025
 00221,Fairfield (US 85 north of I-94),US 85,Stark,2025,10,3255,3483,2645,31,October2025
+00221,Fairfield (US 85 north of I-94),US 85,Stark,2025,11,2770,3043,2239,28,November2025
 00221,Fairfield (US 85 north of I-94),US 85,Stark,2025,12,2393,2604,1891,31,December2025
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2024,1,6247,6437,5505,31,January2025
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2024,2,6936,6904,6582,29,February2025
@@ -30,6 +32,7 @@ station,name,route,county,year,month,madt,weekday_adt,weekend_adt,days_monitored
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2024,8,10516,10247,10511,26,August2025
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2024,9,9863,9576,9708,29,September2025
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2024,10,9187,8957,9018,28,October2025
+00223,New Salem (I-94 west of Bismarck),I-94,Morton,2024,11,7999,7894,7672,29,November2025
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2024,12,7109,6737,7257,31,December2025
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2025,1,6388,6483,5641,30,January2025
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2025,2,6673,6584,6263,28,February2025
@@ -40,6 +43,7 @@ station,name,route,county,year,month,madt,weekday_adt,weekend_adt,days_monitored
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2025,8,10574,10352,10377,26,August2025
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2025,9,10027,9840,9690,27,September2025
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2025,10,9447,9299,9214,29,October2025
+00223,New Salem (I-94 west of Bismarck),I-94,Morton,2025,11,8297,8358,7897,28,November2025
 00223,New Salem (I-94 west of Bismarck),I-94,Morton,2025,12,6802,6825,6470,30,December2025
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2024,1,2876,2934,2697,29,January2025
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2024,2,3260,3187,3280,27,February2025
@@ -51,6 +55,7 @@ station,name,route,county,year,month,madt,weekday_adt,weekend_adt,days_monitored
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2024,8,7247,6754,7893,28,August2025
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2024,9,6428,6010,6954,28,September2025
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2024,10,5089,5017,4986,31,October2025
+00279,Painted Canyon (I-94 at Medora),I-94,Billings,2024,11,3884,3792,3816,28,November2025
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2024,12,3259,3130,3246,30,December2025
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2025,1,3015,3085,2649,31,January2025
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2025,2,3057,3005,2943,28,February2025
@@ -62,4 +67,5 @@ station,name,route,county,year,month,madt,weekday_adt,weekend_adt,days_monitored
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2025,8,7381,6903,7961,30,August2025
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2025,9,6450,6122,6759,29,September2025
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2025,10,5137,5059,5039,31,October2025
+00279,Painted Canyon (I-94 at Medora),I-94,Billings,2025,11,4101,4161,3953,28,November2025
 00279,Painted Canyon (I-94 at Medora),I-94,Billings,2025,12,3111,3127,3059,30,December2025
