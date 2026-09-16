@@ -35,8 +35,11 @@ jobs:
       - name: Fetch BTS border crossings
         run: python scripts/fetch_bts_border.py
         continue-on-error: true
-      - name: Fetch BTS airport enplanements
-        run: python scripts/fetch_bts_airports.py
+      - name: Fetch airport passengers (BTS T-100 monthly + FAA annual)
+        run: python scripts/fetch_airports.py
+        continue-on-error: true
+      - name: Fetch NDDOT monthly traffic counts (I-94 at Medora)
+        run: python scripts/fetch_nddot_atr.py
         continue-on-error: true
       - name: Fetch ND taxable sales (quarterly, by county)
         run: python scripts/fetch_nd_tax.py

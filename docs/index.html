@@ -192,9 +192,11 @@ async function main() {
     const bandMin = shaped.band.map(b => b ? b.min : null), bandMax = shaped.band.map(b => b ? b.max : null);
     const yc = shaped.years[String(cur)] || [], yp = shaped.years[String(prev)] || [];
     const hover = opts.hover || "%{y:,}";
+    const hasBand = shaped.band_years && shaped.band_years.length && bandMax.some(v => v != null);
     const traces = [
+      ...(hasBand ? [
       { x: xLabels, y: bandMax, mode: "lines", line: { width: 0 }, hoverinfo: "skip", showlegend: false },
-      { x: xLabels, y: bandMin, mode: "lines", line: { width: 0 }, fill: "tonexty", fillcolor: css("--band"), name: `${shaped.band_years[0]}–${shaped.band_years.at(-1)} range`, hoverinfo: "skip" },
+      { x: xLabels, y: bandMin, mode: "lines", line: { width: 0 }, fill: "tonexty", fillcolor: css("--band"), name: `${shaped.band_years[0]}–${shaped.band_years.at(-1)} range`, hoverinfo: "skip" }] : []),
       { x: xLabels, y: yp, mode: "lines", name: String(prev), line: { color: css("--gray-mark"), width: 2 }, hovertemplate: hover },
       { x: xLabels, y: yc, mode: "lines+markers", name: String(cur), line: { color: css("--s1"), width: 2.5 }, marker: { size: 8, line: { color: css("--surface"), width: 2 } }, hovertemplate: hover },
     ];
@@ -298,19 +300,60 @@ async function main() {
     table("c8", ["Year", ...names.map(n => n + " ($M)")], yrs8.map((y, i) => [y, ...names.map(n => d.wy.counties[n].visitor_spend_m[i].toFixed(1))]).reverse());
   }
 
-  // ---- Airports table
-  const el = document.createElement("section");
-  el.className = "card";
-  el.innerHTML = `<h2>Regional airports, annual enplanements</h2>
-    <p class="note">BTS T-100 via the USDOT geodata service. Annual snapshot only (${[...new Set(d.airports.map(a => a.year))].join(", ")}); monthly T-100 requires the TranStats form and is on the to-do list.</p>
-    <table><thead><tr><th>Airport</th><th>Year</th><th>Enplanements</th><th>Departures</th></tr></thead><tbody>
-    ${d.airports.map(a => `<tr><td>${a.airport}</td><td>${a.year}</td><td>${fmt(a.enplanements)}</td><td>${fmt(a.departures)}</td></tr>`).join("")}</tbody></table>`;
-  document.getElementById("main").appendChild(el);
+  // ---- Airports: monthly (T-100) and annual (FAA)
+  if (d.airports && d.airports.monthly) {
+    const A = d.airports, ay = A.current_year, alm = A.latest_month;
+    const ranked = A.ytd.filter(r => r.pct != null).sort((a, b) => a.pct - b.pct);
+    card("c9", `Regional airports: passengers, Jan–${MON[alm - 1]} ${ay} vs ${ay - 1}`,
+      `Year-to-date departing passengers by airport (BTS T-100, U.S. carriers, ~3-month lag). Dickinson (DIK) is the Library's airport and is highlighted; Bismarck (BIS) is the practical gateway for most fly-drive visitors.`);
+    Plotly.newPlot("c9", [{
+      type: "bar", orientation: "h", y: ranked.map(r => r.airport), x: ranked.map(r => r.pct),
+      marker: { color: ranked.map(r => r.airport === "DIK" ? css("--s1") : css("--gray-mark")) },
+      text: ranked.map(r => pctTxt(r.pct)), textposition: "outside", textfont: { color: css("--ink-2") }, cliponaxis: false,
+      customdata: ranked.map(r => [r.cur, r.prev]), hovertemplate: "%{y}<br>%{x:+.1f}%<br>%{customdata[0]:,} vs %{customdata[1]:,}<extra></extra>",
+    }], baseLayout({
+      hovermode: "closest", margin: { l: 60, r: 60, t: 8, b: 40 }, showlegend: false, bargap: 0.35,
+      xaxis: { ticksuffix: "%", gridcolor: css("--grid"), zeroline: true, zerolinecolor: css("--axis"), tickfont: { color: css("--muted") },
+        range: [Math.min(0, ...ranked.map(r => r.pct)) * 1.9 - 4, Math.max(0, ...ranked.map(r => r.pct)) * 1.18 + 4] },
+      yaxis: { tickfont: { color: css("--ink-2") }, automargin: true },
+    }), CONFIG);
+    table("c9", ["Airport", `YTD ${ay}`, `YTD ${ay - 1}`, "Change"], ranked.slice().reverse().map(r => [r.airport, r.cur, r.prev, pctTxt(r.pct)]));
+
+    for (const [code, label] of [["BIS", "Bismarck (BIS)"], ["DIK", "Dickinson (DIK)"]]) {
+      if (!A.monthly[code]) continue;
+      card("c9" + code, `${label} departing passengers, monthly`,
+        `${ay} against ${ay - 1} and the ${A.monthly[code].band_years[0]}–${A.monthly[code].band_years.at(-1)} range. Source: BTS T-100 Domestic Market, U.S. carriers.`);
+      seasonalChart("c9" + code, MON, A.monthly[code], ay, { periodName: "Month", openingIndex: 6 });
+    }
+    if (A.annual) {
+      const codes = Object.keys(A.annual);
+      const yrs = [...new Set(codes.flatMap(c => A.annual[c].years))].sort();
+      const el = document.createElement("section"); el.className = "card";
+      el.innerHTML = `<h2>Regional airports, annual enplanements (FAA)</h2>
+        <p class="note">FAA calendar-year enplanements at commercial-service airports; the latest year is preliminary. Long-run context for the monthly chart above.</p>
+        <table><thead><tr><th>Year</th>${codes.map(c => `<th>${c}</th>`).join("")}</tr></thead><tbody>
+        ${yrs.slice().reverse().map(y => `<tr><td>${y}</td>${codes.map(c => { const i = A.annual[c].years.indexOf(y); return `<td>${i >= 0 ? fmt(A.annual[c].enplanements[i]) : "–"}</td>`; }).join("")}</tr>`).join("")}</tbody></table>`;
+      document.getElementById("main").appendChild(el);
+    }
+  }
+
+  // ---- NDDOT: I-94 at Medora
+  if (d.nddot && d.nddot.stations && d.nddot.stations["00279"]) {
+    const st = d.nddot.stations["00279"], ny = d.nddot.current_year;
+    card("c10", "I-94 traffic at Medora (NDDOT counter 279, Painted Canyon), average daily vehicles by month",
+      `Month average daily traffic on I-94 7.8 miles west of US 85, both directions, from NDDOT's monthly Automatic Traffic Data reports. ${ny} against ${ny - 1}. NDDOT had not posted 2026 reports when this was built; they are picked up automatically when they appear. Weekend averages are in the table.`);
+    seasonalChart("c10", MON, st.madt, ny, Object.assign({ periodName: "Month" }, ny === cur ? { openingIndex: 6 } : {}));
+    const wk = st.weekend.years;
+    table("c10", ["Month", `MADT ${ny - 1}`, `MADT ${ny}`, "Change", `Weekend ${ny - 1}`, `Weekend ${ny}`], MON.map((m, i) => {
+      const a = st.madt.years[String(ny)]?.[i], b = st.madt.years[String(ny - 1)]?.[i];
+      return [m, fmt(b), fmt(a), a != null && b ? pctTxt((a - b) / b * 100) : "–", fmt(wk[String(ny - 1)]?.[i]), fmt(wk[String(ny)]?.[i])];
+    }));
+  }
 
   const m = d.manifest;
   document.getElementById("footer").innerHTML =
     `Built ${d.built_at.replace("T", " ").slice(0, 16)} UTC. NPS fetched ${m.nps_monthly.fetched_at.slice(0, 10)}; BTS border ${m.bts_border_monthly.fetched_at.slice(0, 10)}. ` +
-    `Data: <a href="data/nps_monthly.csv">nps_monthly.csv</a> · <a href="data/bts_border_monthly.csv">bts_border_monthly.csv</a> · <a href="data/bts_airports_annual.csv">bts_airports_annual.csv</a> · <a href="data/nd_taxable_sales_quarterly.csv">nd_taxable_sales_quarterly.csv</a> · <a href="data/nd_taxable_sales_industry_quarterly.csv">nd_taxable_sales_industry_quarterly.csv</a> · <a href="data/nd_city_tax_distributions_monthly.csv">nd_city_tax_distributions_monthly.csv</a> · <a href="data/mt_nonresident_visitation_monthly.csv">mt_nonresident_visitation_monthly.csv</a> · <a href="data/mt_nonresident_survey_shares.csv">mt_nonresident_survey_shares.csv</a> · <a href="data/wy_county_travel_impacts_annual.csv">wy_county_travel_impacts_annual.csv</a> · <a href="data/dashboard.json">dashboard.json</a>. ` +
+    `Data: <a href="data/nps_monthly.csv">nps_monthly.csv</a> · <a href="data/bts_border_monthly.csv">bts_border_monthly.csv</a> · <a href="data/airports_monthly.csv">airports_monthly.csv</a> · <a href="data/airports_annual.csv">airports_annual.csv</a> · <a href="data/nddot_atr_monthly.csv">nddot_atr_monthly.csv</a> · <a href="data/nd_taxable_sales_quarterly.csv">nd_taxable_sales_quarterly.csv</a> · <a href="data/nd_taxable_sales_industry_quarterly.csv">nd_taxable_sales_industry_quarterly.csv</a> · <a href="data/nd_city_tax_distributions_monthly.csv">nd_city_tax_distributions_monthly.csv</a> · <a href="data/mt_nonresident_visitation_monthly.csv">mt_nonresident_visitation_monthly.csv</a> · <a href="data/mt_nonresident_survey_shares.csv">mt_nonresident_survey_shares.csv</a> · <a href="data/wy_county_travel_impacts_annual.csv">wy_county_travel_impacts_annual.csv</a> · <a href="data/dashboard.json">dashboard.json</a>. ` +
     `NPS monthly counts are preliminary until the annual close. Theodore Roosevelt Presidential Library.`;
 }
 main().catch(e => { document.getElementById("subtitle").textContent = "Could not load data: " + e; });

@@ -216,9 +216,41 @@ def wy_block() -> dict:
     return out
 
 
-def airports_block() -> list[dict]:
-    df = pd.read_csv(DATA / "bts_airports_annual.csv")
-    return df.sort_values("enplanements", ascending=False).to_dict("records")
+def airports_block() -> dict:
+    out = {}
+    mp = DATA / "airports_monthly.csv"
+    if mp.exists():
+        m = pd.read_csv(mp)
+        cur = int(m["year"].max())
+        lm = int(m[m["year"] == cur]["month"].max())
+        out.update({"current_year": cur, "latest_month": lm, "monthly": {}, "ytd": []})
+        for ap, g in m.groupby("airport"):
+            out["monthly"][ap] = seasonal(g, "month", "passengers", 12, BAND_YEARS)
+            yc = g[(g["year"] == cur) & (g["month"] <= lm)]["passengers"].sum()
+            yp = g[(g["year"] == cur - 1) & (g["month"] <= lm)]["passengers"].sum()
+            out["ytd"].append({"airport": ap, "cur": int(yc), "prev": int(yp), "pct": pct(yc, yp)})
+    ap = DATA / "airports_annual.csv"
+    if ap.exists():
+        a = pd.read_csv(ap)
+        out["annual"] = {air: {"years": [int(y) for y in g["year"]], "enplanements": [int(x) for x in g["enplanements"]]} for air, g in a.sort_values("year").groupby("airport")}
+    return out
+
+
+def nddot_block() -> dict:
+    p = DATA / "nddot_atr_monthly.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p, dtype={"station": str})
+    cur = int(df["year"].max())
+    out = {"current_year": cur, "stations": {}}
+    for sid, g in df.groupby("station"):
+        out["stations"][sid] = {
+            "name": g["name"].iloc[0],
+            "route": g["route"].iloc[0],
+            "madt": seasonal(g, "month", "madt", 12, [y for y in BAND_YEARS if y < cur - 1]),
+            "weekend": seasonal(g, "month", "weekend_adt", 12, [y for y in BAND_YEARS if y < cur - 1]),
+        }
+    return out
 
 
 def main() -> None:
@@ -238,6 +270,7 @@ def main() -> None:
         "parks": parks,
         "border": border_block(),
         "airports": airports_block(),
+        "nddot": nddot_block(),
         "nd_tax": nd_tax_block(),
         "nd_city": nd_city_block(),
         "mt": mt_block(),

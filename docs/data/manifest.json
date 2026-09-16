@@ -1,4 +1,12 @@
 {
+  "airports": {
+    "annual_years": [
+      2011,
+      2025
+    ],
+    "fetched_at": "2026-09-16T22:27:45+00:00",
+    "monthly_latest": "2026-06"
+  },
   "bts_airports_annual": {
     "fetched_at": "2026-09-16T22:24:36+00:00",
     "rows": 6,
@@ -43,6 +51,36 @@
     "fetched_at": "2026-09-16T22:24:38+00:00",
     "latest_quarter": "2026 Q2",
     "rows": 1650
+  },
+  "nddot_atr_monthly": {
+    "fetched": [
+      "January2025",
+      "February2025",
+      "March2025",
+      "April2025",
+      "May2025",
+      "June2025",
+      "July2025",
+      "August2025",
+      "September2025",
+      "October2025",
+      "December2025"
+    ],
+    "fetched_at": "2026-09-16T22:30:34+00:00",
+    "latest_month": "2025-12",
+    "missing_reports": [
+      "November2025",
+      "January2026",
+      "February2026",
+      "March2026",
+      "April2026",
+      "May2026",
+      "June2026",
+      "July2026",
+      "August2026",
+      "September2026"
+    ],
+    "rows": 64
   },
   "nps_monthly": {
     "failed": [],

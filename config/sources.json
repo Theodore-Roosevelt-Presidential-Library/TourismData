@@ -94,14 +94,6 @@
     ],
     "since": "2019-01-01"
   },
-  "bts_airports": [
-    "DIK",
-    "BIS",
-    "BIL",
-    "RAP",
-    "FAR",
-    "MOT"
-  ],
   "opening_date": "2026-07-04",
   "wy_impacts_pdfs": [
     {
@@ -137,5 +129,29 @@
       "OCCUPANCY"
     ],
     "since": "01/01/2019"
-  }
+  },
+  "airports": {
+    "DIK": "ND",
+    "BIS": "ND",
+    "FAR": "ND",
+    "MOT": "ND",
+    "BIL": "MT",
+    "RAP": "SD"
+  },
+  "airports_since": 2019,
+  "nddot_stations": {
+    "00279": {
+      "name": "Painted Canyon (I-94 at Medora)",
+      "route": "I-94"
+    },
+    "00221": {
+      "name": "Fairfield (US 85 north of I-94)",
+      "route": "US 85"
+    },
+    "00223": {
+      "name": "New Salem (I-94 west of Bismarck)",
+      "route": "I-94"
+    }
+  },
+  "nddot_since": "2025-01-01"
 }
