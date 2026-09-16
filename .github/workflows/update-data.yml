@@ -38,6 +38,15 @@ jobs:
       - name: Fetch BTS airport enplanements
         run: python scripts/fetch_bts_airports.py
         continue-on-error: true
+      - name: Fetch ND taxable sales (quarterly, by county)
+        run: python scripts/fetch_nd_tax.py
+        continue-on-error: true
+      - name: Fetch MT ITRR nonresident visitation and survey shares
+        run: python scripts/fetch_mt_itrr.py
+        continue-on-error: true
+      - name: Fetch WY county travel impacts (Dean Runyan PDF)
+        run: python scripts/fetch_wy_impacts.py
+        continue-on-error: true
 
       - name: Build dashboard data
         run: python scripts/build.py

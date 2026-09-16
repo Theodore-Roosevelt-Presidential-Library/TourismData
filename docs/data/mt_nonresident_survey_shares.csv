@@ -1,0 +1,2098 @@
+year,quarter,dimension,value,weighted_visitors,share
+2021,1,entry_point,Superior,210.7,0.2032
+2021,1,entry_point,Fairview,117.8,0.1137
+2021,1,entry_point,Bozeman Air,89.7,0.0865
+2021,1,entry_point,Lodge Grass,73.6,0.071
+2021,1,entry_point,Wibaux/Beach,68.5,0.0661
+2021,1,entry_point,Monida,62.8,0.0605
+2021,1,entry_point,Bridger 72,52.0,0.0501
+2021,1,entry_point,Sidney,45.3,0.0437
+2021,1,entry_point,Targhee Pass,44.0,0.0424
+2021,1,entry_point,Culbertson/Bainville,33.0,0.0318
+2021,1,entry_point,Raynolds Pass,32.7,0.0315
+2021,1,entry_point,Kalispell Air,30.1,0.029
+2021,1,entry_point,Bridger 310,28.0,0.027
+2021,1,entry_point,Troy,24.9,0.024
+2021,1,entry_point,Billings Air,23.0,0.0222
+2021,1,entry_point,Alzada,18.0,0.0173
+2021,1,entry_point,Heron,16.0,0.0154
+2021,1,entry_point,Missoula Air,13.1,0.0126
+2021,1,entry_point,Biddle,10.7,0.0103
+2021,1,entry_point,Great Falls Air,9.0,0.0087
+2021,1,entry_point,Sula,8.0,0.0077
+2021,1,entry_point,Baker,4.5,0.0043
+2021,1,entry_point,Decker,4.0,0.0039
+2021,1,entry_point,Lolo,4.0,0.0039
+2021,1,entry_point,Helena Air,3.5,0.0034
+2021,1,entry_point,Sweetgrass,2.6,0.0025
+2021,1,entry_point,Rooseville,2.5,0.0024
+2021,1,entry_point,Other MT road,2.0,0.0019
+2021,1,entry_point,West Yellowstone Air,1.0,0.001
+2021,1,entry_point,Thompson Falls,0.7,0.0007
+2021,1,entry_point,Butte Air,0.6,0.0006
+2021,1,entry_point,N Fk Rd Trail Creek Stn,0.3,0.0003
+2021,1,entry_point,Grant,0.1,0.0001
+2021,1,entry_point,Wildhorse,0.1,0.0001
+2021,1,entry_point,Gardiner,0.0,0.0
+2021,1,entry_point,Red Lodge,0.0,0.0
+2021,1,entry_point,West Yellowstone,0.0,0.0
+2021,2,entry_point,Superior,258.3,0.1425
+2021,2,entry_point,West Yellowstone,184.0,0.1015
+2021,2,entry_point,Lodge Grass,170.3,0.0939
+2021,2,entry_point,Gardiner,133.4,0.0736
+2021,2,entry_point,Fairview,120.9,0.0667
+2021,2,entry_point,Targhee Pass,116.0,0.064
+2021,2,entry_point,Monida,93.5,0.0516
+2021,2,entry_point,Bozeman Air,87.8,0.0484
+2021,2,entry_point,Wibaux/Beach,85.5,0.0471
+2021,2,entry_point,Bridger 72,60.5,0.0334
+2021,2,entry_point,Raynolds Pass,51.4,0.0283
+2021,2,entry_point,Sidney,48.5,0.0268
+2021,2,entry_point,Troy,45.7,0.0252
+2021,2,entry_point,Alzada,38.9,0.0214
+2021,2,entry_point,Kalispell Air,37.4,0.0206
+2021,2,entry_point,Missoula Air,37.0,0.0204
+2021,2,entry_point,Sula,33.1,0.0182
+2021,2,entry_point,Bridger 310,32.0,0.0177
+2021,2,entry_point,Billings Air,30.6,0.0169
+2021,2,entry_point,Culbertson/Bainville,29.9,0.0165
+2021,2,entry_point,Heron,20.4,0.0113
+2021,2,entry_point,Biddle,17.6,0.0097
+2021,2,entry_point,Lolo,16.2,0.0089
+2021,2,entry_point,Great Falls Air,14.1,0.0078
+2021,2,entry_point,Painted Rocks,8.3,0.0046
+2021,2,entry_point,Red Lodge,7.4,0.0041
+2021,2,entry_point,Decker,5.9,0.0033
+2021,2,entry_point,Baker,5.7,0.0032
+2021,2,entry_point,Helena Air,5.0,0.0028
+2021,2,entry_point,Dagmar,4.0,0.0022
+2021,2,entry_point,Other MT airport,3.0,0.0017
+2021,2,entry_point,Other MT road,2.0,0.0011
+2021,2,entry_point,Westby,1.8,0.001
+2021,2,entry_point,Sweetgrass,1.6,0.0009
+2021,2,entry_point,Butte Air,1.3,0.0007
+2021,2,entry_point,West Yellowstone Air,1.3,0.0007
+2021,2,entry_point,Train from ID,1.0,0.0006
+2021,2,entry_point,Thompson Falls,0.9,0.0005
+2021,2,entry_point,Rooseville,0.4,0.0002
+2021,2,entry_point,Grant,0.2,0.0001
+2021,2,entry_point,Chief Mountain,0.0,0.0
+2021,2,entry_point,Del Bonita,0.0,0.0
+2021,2,entry_point,N Fk Rd Trail Creek Stn,0.0,0.0
+2021,2,entry_point,Opheim,0.0,0.0
+2021,2,entry_point,Piegan,0.0,0.0
+2021,2,entry_point,Raymond,0.0,0.0
+2021,2,entry_point,Turner,0.0,0.0
+2021,3,entry_point,Superior,361.4,0.146
+2021,3,entry_point,West Yellowstone,268.0,0.1083
+2021,3,entry_point,Gardiner,252.9,0.1022
+2021,3,entry_point,Lodge Grass,235.1,0.095
+2021,3,entry_point,Wibaux/Beach,145.7,0.0589
+2021,3,entry_point,Fairview,135.5,0.0547
+2021,3,entry_point,Monida,125.6,0.0508
+2021,3,entry_point,Bozeman Air,124.8,0.0504
+2021,3,entry_point,Targhee Pass,120.0,0.0485
+2021,3,entry_point,Alzada,74.3,0.03
+2021,3,entry_point,Raynolds Pass,68.9,0.0278
+2021,3,entry_point,Kalispell Air,53.5,0.0216
+2021,3,entry_point,Troy,51.0,0.0206
+2021,3,entry_point,Culbertson/Bainville,48.3,0.0195
+2021,3,entry_point,Missoula Air,45.6,0.0184
+2021,3,entry_point,Bridger 72,44.0,0.0178
+2021,3,entry_point,Sidney,40.7,0.0164
+2021,3,entry_point,Bridger 310,40.0,0.0162
+2021,3,entry_point,Sula,40.1,0.0162
+2021,3,entry_point,Red Lodge,32.9,0.0133
+2021,3,entry_point,Heron,31.1,0.0126
+2021,3,entry_point,Billings Air,26.7,0.0108
+2021,3,entry_point,Biddle,18.0,0.0073
+2021,3,entry_point,Lolo,15.3,0.0062
+2021,3,entry_point,Baker,13.9,0.0056
+2021,3,entry_point,Great Falls Air,13.8,0.0056
+2021,3,entry_point,Decker,8.0,0.0032
+2021,3,entry_point,Helena Air,7.1,0.0029
+2021,3,entry_point,Painted Rocks,5.7,0.0023
+2021,3,entry_point,Sweetgrass,4.5,0.0018
+2021,3,entry_point,Westby,4.5,0.0018
+2021,3,entry_point,Other MT road,4.0,0.0016
+2021,3,entry_point,West Yellowstone Air,3.7,0.0015
+2021,3,entry_point,Train from ND,3.0,0.0012
+2021,3,entry_point,Thompson Falls,2.1,0.0008
+2021,3,entry_point,Train from ID,2.0,0.0008
+2021,3,entry_point,Rooseville,1.4,0.0005
+2021,3,entry_point,Butte Air,1.0,0.0004
+2021,3,entry_point,Grant,0.4,0.0002
+2021,3,entry_point,Chief Mountain,0.0,0.0
+2021,3,entry_point,Del Bonita,0.0,0.0
+2021,3,entry_point,Piegan,0.0,0.0
+2021,3,entry_point,Raymond,0.0,0.0
+2021,3,entry_point,Wildhorse,0.0,0.0
+2021,4,entry_point,Superior,191.3,0.1661
+2021,4,entry_point,Fairview,120.9,0.1049
+2021,4,entry_point,Lodge Grass,101.2,0.0879
+2021,4,entry_point,Wibaux/Beach,86.7,0.0753
+2021,4,entry_point,Monida,76.3,0.0663
+2021,4,entry_point,Bozeman Air,57.0,0.0495
+2021,4,entry_point,Targhee Pass,56.0,0.0486
+2021,4,entry_point,Bridger 72,50.4,0.0438
+2021,4,entry_point,Culbertson/Bainville,39.2,0.034
+2021,4,entry_point,Raynolds Pass,36.6,0.0318
+2021,4,entry_point,West Yellowstone,32.0,0.0278
+2021,4,entry_point,Gardiner,30.2,0.0262
+2021,4,entry_point,Sidney,28.6,0.0248
+2021,4,entry_point,Alzada,26.6,0.0231
+2021,4,entry_point,Troy,26.5,0.023
+2021,4,entry_point,Billings Air,25.7,0.0223
+2021,4,entry_point,Heron,24.8,0.0215
+2021,4,entry_point,Bridger 310,24.0,0.0208
+2021,4,entry_point,Sweetgrass,20.3,0.0177
+2021,4,entry_point,Kalispell Air,18.6,0.0162
+2021,4,entry_point,Missoula Air,12.0,0.0104
+2021,4,entry_point,Great Falls Air,10.7,0.0093
+2021,4,entry_point,Biddle,9.7,0.0084
+2021,4,entry_point,Sula,8.0,0.0069
+2021,4,entry_point,Lolo,6.4,0.0056
+2021,4,entry_point,Baker,4.9,0.0043
+2021,4,entry_point,Dagmar,4.0,0.0035
+2021,4,entry_point,Decker,4.0,0.0035
+2021,4,entry_point,Helena Air,4.0,0.0035
+2021,4,entry_point,Rooseville,3.5,0.0031
+2021,4,entry_point,Train from ID,2.0,0.0017
+2021,4,entry_point,Raymond,1.7,0.0015
+2021,4,entry_point,Red Lodge,1.7,0.0014
+2021,4,entry_point,Westby,1.6,0.0014
+2021,4,entry_point,Butte Air,1.1,0.0009
+2021,4,entry_point,Other MT airport,1.0,0.0009
+2021,4,entry_point,Piegan,0.8,0.0007
+2021,4,entry_point,Thompson Falls,0.8,0.0007
+2021,4,entry_point,Del Bonita,0.3,0.0002
+2021,4,entry_point,Wildhorse,0.2,0.0002
+2021,4,entry_point,Grant,0.2,0.0001
+2021,4,entry_point,Scobey,0.1,0.0001
+2021,4,entry_point,Turner,0.1,0.0001
+2021,4,entry_point,Witlash,0.0,0.0
+2022,1,entry_point,Superior,171.9,0.1845
+2022,1,entry_point,Lodge Grass,84.8,0.091
+2022,1,entry_point,Fairview,80.7,0.0867
+2022,1,entry_point,Monida,71.0,0.0762
+2022,1,entry_point,Bozeman Air,68.0,0.073
+2022,1,entry_point,Targhee Pass,64.0,0.0687
+2022,1,entry_point,Wibaux/Beach,57.5,0.0617
+2022,1,entry_point,Bridger 310,48.4,0.052
+2022,1,entry_point,Culbertson/Bainville,35.7,0.0383
+2022,1,entry_point,Bridger 72,32.0,0.0343
+2022,1,entry_point,Kalispell Air,31.8,0.0341
+2022,1,entry_point,Alzada,26.1,0.028
+2022,1,entry_point,Raynolds Pass,24.0,0.0258
+2022,1,entry_point,Heron,20.0,0.0215
+2022,1,entry_point,Missoula Air,16.5,0.0177
+2022,1,entry_point,Billings Air,16.0,0.0172
+2022,1,entry_point,Sidney,15.8,0.0169
+2022,1,entry_point,Biddle,10.4,0.0111
+2022,1,entry_point,Sweetgrass,10.4,0.0111
+2022,1,entry_point,Great Falls Air,9.1,0.0097
+2022,1,entry_point,Sula,8.0,0.0086
+2022,1,entry_point,Helena Air,6.3,0.0067
+2022,1,entry_point,Other MT road,6.0,0.0064
+2022,1,entry_point,Lolo,4.7,0.005
+2022,1,entry_point,Baker,3.2,0.0034
+2022,1,entry_point,Decker,3.1,0.0033
+2022,1,entry_point,Raymond,2.1,0.0023
+2022,1,entry_point,Piegan,1.6,0.0017
+2022,1,entry_point,Westby,1.2,0.0013
+2022,1,entry_point,Del Bonita,0.5,0.0005
+2022,1,entry_point,Grant,0.5,0.0005
+2022,1,entry_point,Thompson Falls,0.4,0.0004
+2022,1,entry_point,Wildhorse,0.2,0.0002
+2022,1,entry_point,Morgan,0.1,0.0001
+2022,1,entry_point,Red Lodge,0.0,0.0
+2022,1,entry_point,West Yellowstone,0.0,0.0
+2022,1,entry_point,Witlash,0.0,0.0
+2022,2,entry_point,Superior,328.6,0.1558
+2022,2,entry_point,West Yellowstone,212.0,0.1005
+2022,2,entry_point,Lodge Grass,171.2,0.0812
+2022,2,entry_point,Targhee Pass,156.0,0.074
+2022,2,entry_point,Wibaux/Beach,123.3,0.0585
+2022,2,entry_point,Monida,123.2,0.0584
+2022,2,entry_point,Bozeman Air,112.8,0.0535
+2022,2,entry_point,Gardiner,112.0,0.0531
+2022,2,entry_point,Bridger 310,62.8,0.0298
+2022,2,entry_point,Fairview,61.3,0.029
+2022,2,entry_point,Raynolds Pass,56.0,0.0266
+2022,2,entry_point,Troy,53.6,0.0254
+2022,2,entry_point,Bridger 72,52.5,0.0249
+2022,2,entry_point,Alzada,49.1,0.0233
+2022,2,entry_point,Culbertson/Bainville,47.2,0.0224
+2022,2,entry_point,Heron,40.7,0.0193
+2022,2,entry_point,Kalispell Air,40.5,0.0192
+2022,2,entry_point,Other MT road,40.0,0.019
+2022,2,entry_point,Missoula Air,37.2,0.0177
+2022,2,entry_point,Sula,35.6,0.0169
+2022,2,entry_point,Billings Air,35.5,0.0168
+2022,2,entry_point,Sweetgrass,27.7,0.0131
+2022,2,entry_point,Sidney,23.8,0.0113
+2022,2,entry_point,Biddle,17.0,0.008
+2022,2,entry_point,Lolo,15.8,0.0075
+2022,2,entry_point,Rooseville,15.3,0.0073
+2022,2,entry_point,Great Falls Air,13.4,0.0064
+2022,2,entry_point,Piegan,8.9,0.0042
+2022,2,entry_point,Helena Air,6.7,0.0032
+2022,2,entry_point,Red Lodge,6.4,0.003
+2022,2,entry_point,Baker,5.5,0.0026
+2022,2,entry_point,Decker,5.4,0.0026
+2022,2,entry_point,Raymond,3.9,0.0019
+2022,2,entry_point,Butte Air,1.8,0.0009
+2022,2,entry_point,Train from ID,1.0,0.0005
+2022,2,entry_point,Train from ND,1.0,0.0005
+2022,2,entry_point,Del Bonita,0.9,0.0004
+2022,2,entry_point,Grant,0.8,0.0004
+2022,2,entry_point,Wildhorse,0.9,0.0004
+2022,2,entry_point,Thompson Falls,0.7,0.0003
+2022,2,entry_point,Turner,0.4,0.0002
+2022,2,entry_point,Morgan,0.3,0.0001
+2022,2,entry_point,Opheim,0.1,0.0001
+2022,2,entry_point,Scobey,0.3,0.0001
+2022,3,entry_point,Superior,485.5,0.14
+2022,3,entry_point,West Yellowstone,436.4,0.1258
+2022,3,entry_point,Targhee Pass,408.0,0.1176
+2022,3,entry_point,Lodge Grass,277.3,0.08
+2022,3,entry_point,Wibaux/Beach,186.6,0.0538
+2022,3,entry_point,Monida,168.2,0.0485
+2022,3,entry_point,Bozeman Air,153.4,0.0442
+2022,3,entry_point,Alzada,148.2,0.0427
+2022,3,entry_point,Fairview,133.3,0.0384
+2022,3,entry_point,Raynolds Pass,110.2,0.0318
+2022,3,entry_point,Bridger 310,80.6,0.0233
+2022,3,entry_point,Kalispell Air,77.2,0.0223
+2022,3,entry_point,Troy,76.4,0.022
+2022,3,entry_point,Bridger 72,75.5,0.0218
+2022,3,entry_point,Culbertson/Bainville,69.1,0.0199
+2022,3,entry_point,Heron,63.7,0.0184
+2022,3,entry_point,Sula,49.5,0.0143
+2022,3,entry_point,Sidney,45.8,0.0132
+2022,3,entry_point,Sweetgrass,44.2,0.0128
+2022,3,entry_point,Gardiner,44.0,0.0127
+2022,3,entry_point,Biddle,41.0,0.0118
+2022,3,entry_point,Rooseville,40.2,0.0116
+2022,3,entry_point,Missoula Air,36.0,0.0104
+2022,3,entry_point,Billings Air,35.9,0.0103
+2022,3,entry_point,Piegan,34.9,0.0101
+2022,3,entry_point,Red Lodge,34.8,0.01
+2022,3,entry_point,Lolo,21.4,0.0062
+2022,3,entry_point,Baker,17.0,0.0049
+2022,3,entry_point,Great Falls Air,14.5,0.0042
+2022,3,entry_point,Decker,12.0,0.0035
+2022,3,entry_point,Raymond,10.1,0.0029
+2022,3,entry_point,Helena Air,8.3,0.0024
+2022,3,entry_point,Dagmar,8.0,0.0023
+2022,3,entry_point,Westby,6.2,0.0018
+2022,3,entry_point,Other MT road,3.0,0.0009
+2022,3,entry_point,Train from ID,3.0,0.0009
+2022,3,entry_point,Thompson Falls,2.1,0.0006
+2022,3,entry_point,Del Bonita,1.8,0.0005
+2022,3,entry_point,Grant,1.7,0.0005
+2022,3,entry_point,Wildhorse,1.8,0.0005
+2022,3,entry_point,Turner,0.6,0.0002
+2022,3,entry_point,Morgan,0.4,0.0001
+2022,3,entry_point,Opheim,0.2,0.0001
+2022,3,entry_point,Scobey,0.4,0.0001
+2022,3,entry_point,Witlash,0.1,0.0
+2022,4,entry_point,Superior,174.2,0.1599
+2022,4,entry_point,Lodge Grass,119.3,0.1095
+2022,4,entry_point,Monida,84.6,0.0777
+2022,4,entry_point,Targhee Pass,82.3,0.0756
+2022,4,entry_point,Wibaux/Beach,80.3,0.0737
+2022,4,entry_point,Fairview,58.7,0.0538
+2022,4,entry_point,Bozeman Air,49.7,0.0456
+2022,4,entry_point,Alzada,49.4,0.0454
+2022,4,entry_point,West Yellowstone,48.0,0.044
+2022,4,entry_point,Culbertson/Bainville,37.3,0.0342
+2022,4,entry_point,Troy,35.7,0.0328
+2022,4,entry_point,Sweetgrass,33.2,0.0305
+2022,4,entry_point,Billings Air,24.0,0.022
+2022,4,entry_point,Bridger 72,24.0,0.022
+2022,4,entry_point,Heron,22.6,0.0207
+2022,4,entry_point,Missoula Air,20.2,0.0185
+2022,4,entry_point,Raynolds Pass,20.0,0.0184
+2022,4,entry_point,Sula,19.7,0.0181
+2022,4,entry_point,Biddle,15.6,0.0143
+2022,4,entry_point,Kalispell Air,14.0,0.0129
+2022,4,entry_point,Sidney,13.8,0.0127
+2022,4,entry_point,Bridger 310,12.0,0.011
+2022,4,entry_point,Great Falls Air,11.7,0.0107
+2022,4,entry_point,Rooseville,8.0,0.0073
+2022,4,entry_point,Lolo,4.6,0.0042
+2022,4,entry_point,Raymond,4.6,0.0042
+2022,4,entry_point,Baker,4.0,0.0037
+2022,4,entry_point,Dagmar,4.0,0.0037
+2022,4,entry_point,Helena Air,3.5,0.0032
+2022,4,entry_point,Piegan,2.7,0.0024
+2022,4,entry_point,Other MT road,2.0,0.0018
+2022,4,entry_point,Red Lodge,1.6,0.0015
+2022,4,entry_point,Westby,1.5,0.0014
+2022,4,entry_point,Del Bonita,0.6,0.0006
+2022,4,entry_point,Grant,0.6,0.0005
+2022,4,entry_point,Wildhorse,0.5,0.0005
+2022,4,entry_point,Thompson Falls,0.5,0.0004
+2022,4,entry_point,Turner,0.3,0.0003
+2022,4,entry_point,Morgan,0.2,0.0002
+2023,1,entry_point,Superior,116.3,0.1545
+2023,1,entry_point,Fairview,63.9,0.0848
+2023,1,entry_point,Monida,61.3,0.0814
+2023,1,entry_point,Lodge Grass,50.5,0.0671
+2023,1,entry_point,Wibaux/Beach,50.3,0.0669
+2023,1,entry_point,Bozeman Air,44.0,0.0584
+2023,1,entry_point,Bridger 310,42.1,0.0559
+2023,1,entry_point,Targhee Pass,40.0,0.0531
+2023,1,entry_point,Bridger 72,34.9,0.0463
+2023,1,entry_point,Culbertson/Bainville,26.0,0.0345
+2023,1,entry_point,Heron,24.2,0.0322
+2023,1,entry_point,Raynolds Pass,24.0,0.0319
+2023,1,entry_point,Kalispell Air,22.7,0.0301
+2023,1,entry_point,Billings Air,20.7,0.0275
+2023,1,entry_point,Sweetgrass,19.3,0.0256
+2023,1,entry_point,Missoula Air,15.2,0.0202
+2023,1,entry_point,Alzada,14.4,0.0191
+2023,1,entry_point,Sula,13.8,0.0183
+2023,1,entry_point,Sidney,13.1,0.0174
+2023,1,entry_point,Rooseville,11.9,0.0158
+2023,1,entry_point,Biddle,8.7,0.0116
+2023,1,entry_point,Troy,8.0,0.0106
+2023,1,entry_point,Great Falls Air,6.9,0.0092
+2023,1,entry_point,Dagmar,4.0,0.0053
+2023,1,entry_point,Raymond,3.4,0.0045
+2023,1,entry_point,Lolo,2.9,0.0039
+2023,1,entry_point,Baker,2.8,0.0037
+2023,1,entry_point,Decker,2.7,0.0035
+2023,1,entry_point,Piegan,1.8,0.0024
+2023,1,entry_point,Westby,1.1,0.0014
+2023,1,entry_point,Other MT road,1.0,0.0013
+2023,1,entry_point,Del Bonita,0.3,0.0004
+2023,1,entry_point,Thompson Falls,0.3,0.0004
+2023,1,entry_point,Wildhorse,0.2,0.0003
+2023,1,entry_point,Turner,0.1,0.0002
+2023,1,entry_point,Scobey,0.1,0.0001
+2023,1,entry_point,Gardiner,0.0,0.0
+2023,1,entry_point,Opheim,0.0,0.0
+2023,1,entry_point,West Yellowstone,0.0,0.0
+2023,1,entry_point,Witlash,0.0,0.0
+2023,2,entry_point,Superior,245.0,0.1277
+2023,2,entry_point,West Yellowstone,194.9,0.1016
+2023,2,entry_point,Gardiner,164.0,0.0855
+2023,2,entry_point,Targhee Pass,144.0,0.075
+2023,2,entry_point,Monida,136.1,0.0709
+2023,2,entry_point,Bozeman Air,122.9,0.064
+2023,2,entry_point,Lodge Grass,121.2,0.0632
+2023,2,entry_point,Wibaux/Beach,118.6,0.0618
+2023,2,entry_point,Fairview,85.2,0.0444
+2023,2,entry_point,Troy,60.4,0.0315
+2023,2,entry_point,Bridger 310,48.8,0.0254
+2023,2,entry_point,Alzada,41.9,0.0219
+2023,2,entry_point,Kalispell Air,42.1,0.0219
+2023,2,entry_point,Heron,40.2,0.0209
+2023,2,entry_point,Culbertson/Bainville,39.7,0.0207
+2023,2,entry_point,Sula,36.2,0.0188
+2023,2,entry_point,Raynolds Pass,32.0,0.0167
+2023,2,entry_point,Billings Air,31.5,0.0164
+2023,2,entry_point,Missoula Air,31.4,0.0164
+2023,2,entry_point,Sweetgrass,26.9,0.014
+2023,2,entry_point,Rooseville,25.9,0.0135
+2023,2,entry_point,Sidney,24.7,0.0128
+2023,2,entry_point,Bridger 72,24.0,0.0125
+2023,2,entry_point,Great Falls Air,15.6,0.0081
+2023,2,entry_point,Biddle,13.7,0.0072
+2023,2,entry_point,Lolo,12.2,0.0063
+2023,2,entry_point,Piegan,9.9,0.0051
+2023,2,entry_point,Helena Air,6.8,0.0035
+2023,2,entry_point,Red Lodge,5.7,0.003
+2023,2,entry_point,Baker,5.1,0.0027
+2023,2,entry_point,Raymond,5.1,0.0027
+2023,2,entry_point,Butte Air,1.3,0.0007
+2023,2,entry_point,Del Bonita,1.0,0.0005
+2023,2,entry_point,Other MT airport,1.0,0.0005
+2023,2,entry_point,Other MT road,1.0,0.0005
+2023,2,entry_point,Wildhorse,0.9,0.0005
+2023,2,entry_point,Grant,0.8,0.0004
+2023,2,entry_point,Thompson Falls,0.6,0.0003
+2023,2,entry_point,Scobey,0.3,0.0002
+2023,2,entry_point,Turner,0.4,0.0002
+2023,2,entry_point,Opheim,0.1,0.0001
+2023,2,entry_point,Witlash,0.0,0.0
+2023,3,entry_point,Superior,483.5,0.1344
+2023,3,entry_point,West Yellowstone,468.0,0.1301
+2023,3,entry_point,Gardiner,260.0,0.0723
+2023,3,entry_point,Lodge Grass,201.6,0.056
+2023,3,entry_point,Monida,197.3,0.0549
+2023,3,entry_point,Bozeman Air,182.0,0.0506
+2023,3,entry_point,Wibaux/Beach,167.5,0.0466
+2023,3,entry_point,Fairview,166.4,0.0463
+2023,3,entry_point,Targhee Pass,164.0,0.0456
+2023,3,entry_point,Raynolds Pass,132.7,0.0369
+2023,3,entry_point,Alzada,129.8,0.0361
+2023,3,entry_point,Kalispell Air,77.1,0.0214
+2023,3,entry_point,Rooseville,73.7,0.0205
+2023,3,entry_point,Troy,66.7,0.0186
+2023,3,entry_point,Red Lodge,64.5,0.0179
+2023,3,entry_point,Bridger 72,64.0,0.0178
+2023,3,entry_point,Bridger 310,58.6,0.0163
+2023,3,entry_point,Culbertson/Bainville,58.6,0.0163
+2023,3,entry_point,Sula,58.1,0.0162
+2023,3,entry_point,Missoula Air,57.3,0.0159
+2023,3,entry_point,Piegan,53.7,0.0149
+2023,3,entry_point,Heron,51.8,0.0144
+2023,3,entry_point,Billings Air,48.2,0.0134
+2023,3,entry_point,Sweetgrass,47.3,0.0131
+2023,3,entry_point,Sidney,46.2,0.0129
+2023,3,entry_point,Biddle,43.2,0.012
+2023,3,entry_point,Other MT road,31.0,0.0086
+2023,3,entry_point,Lolo,27.0,0.0075
+2023,3,entry_point,Great Falls Air,20.4,0.0057
+2023,3,entry_point,Baker,18.7,0.0052
+2023,3,entry_point,Dagmar,15.9,0.0044
+2023,3,entry_point,Decker,15.3,0.0043
+2023,3,entry_point,Raymond,9.2,0.0026
+2023,3,entry_point,Helena Air,8.9,0.0025
+2023,3,entry_point,Westby,7.7,0.0021
+2023,3,entry_point,West Yellowstone Air,3.2,0.0009
+2023,3,entry_point,Del Bonita,2.8,0.0008
+2023,3,entry_point,Train from ND,3.0,0.0008
+2023,3,entry_point,Wildhorse,2.6,0.0007
+2023,3,entry_point,Thompson Falls,2.0,0.0006
+2023,3,entry_point,Grant,1.7,0.0005
+2023,3,entry_point,Butte Air,1.3,0.0004
+2023,3,entry_point,Train from ID,1.0,0.0003
+2023,3,entry_point,Carlyle,0.7,0.0002
+2023,3,entry_point,Morgan,0.7,0.0002
+2023,3,entry_point,Scobey,0.9,0.0002
+2023,3,entry_point,Turner,0.8,0.0002
+2023,3,entry_point,Opheim,0.3,0.0001
+2023,4,entry_point,Superior,196.2,0.1568
+2023,4,entry_point,Targhee Pass,96.0,0.0767
+2023,4,entry_point,Monida,93.2,0.0745
+2023,4,entry_point,Bozeman Air,68.0,0.0544
+2023,4,entry_point,Fairview,67.9,0.0542
+2023,4,entry_point,Wibaux/Beach,65.9,0.0527
+2023,4,entry_point,Alzada,52.9,0.0423
+2023,4,entry_point,Lodge Grass,45.7,0.0366
+2023,4,entry_point,Raynolds Pass,44.0,0.0352
+2023,4,entry_point,Sweetgrass,42.3,0.0338
+2023,4,entry_point,Billings Air,41.4,0.0331
+2023,4,entry_point,Bridger 72,39.5,0.0315
+2023,4,entry_point,Missoula Air,36.3,0.029
+2023,4,entry_point,West Yellowstone,36.0,0.0288
+2023,4,entry_point,Bridger 310,34.3,0.0274
+2023,4,entry_point,Troy,32.9,0.0263
+2023,4,entry_point,Gardiner,31.6,0.0253
+2023,4,entry_point,Culbertson/Bainville,28.7,0.0229
+2023,4,entry_point,Kalispell Air,26.5,0.0212
+2023,4,entry_point,Heron,24.1,0.0193
+2023,4,entry_point,Rooseville,22.8,0.0183
+2023,4,entry_point,Sula,22.1,0.0177
+2023,4,entry_point,Great Falls Air,19.3,0.0155
+2023,4,entry_point,Biddle,19.0,0.0152
+2023,4,entry_point,Sidney,16.0,0.0128
+2023,4,entry_point,Piegan,7.2,0.0058
+2023,4,entry_point,Lolo,7.0,0.0056
+2023,4,entry_point,Other MT road,6.0,0.0048
+2023,4,entry_point,Dagmar,5.2,0.0041
+2023,4,entry_point,Baker,4.9,0.004
+2023,4,entry_point,Decker,4.6,0.0037
+2023,4,entry_point,Red Lodge,3.3,0.0027
+2023,4,entry_point,Westby,2.2,0.0018
+2023,4,entry_point,Raymond,2.2,0.0017
+2023,4,entry_point,Del Bonita,1.1,0.0008
+2023,4,entry_point,Train from ID,1.0,0.0008
+2023,4,entry_point,Grant,0.7,0.0005
+2023,4,entry_point,Wildhorse,0.7,0.0005
+2023,4,entry_point,Thompson Falls,0.5,0.0004
+2023,4,entry_point,Turner,0.5,0.0004
+2023,4,entry_point,Witlash,0.5,0.0004
+2023,4,entry_point,Scobey,0.4,0.0003
+2023,4,entry_point,Morgan,0.3,0.0002
+2023,4,entry_point,Opheim,0.1,0.0001
+2024,1,entry_point,Superior,114.9,0.1674
+2024,1,entry_point,Fairview,65.4,0.0954
+2024,1,entry_point,Monida,64.8,0.0944
+2024,1,entry_point,Targhee Pass,48.0,0.0699
+2024,1,entry_point,Wibaux/Beach,48.0,0.0699
+2024,1,entry_point,Sweetgrass,33.5,0.0488
+2024,1,entry_point,Lodge Grass,30.7,0.0447
+2024,1,entry_point,Bridger 310,28.4,0.0413
+2024,1,entry_point,Bozeman Air,28.0,0.0408
+2024,1,entry_point,Kalispell Air,27.8,0.0405
+2024,1,entry_point,Culbertson/Bainville,25.2,0.0367
+2024,1,entry_point,Billings Air,24.4,0.0356
+2024,1,entry_point,Bridger 72,20.0,0.0291
+2024,1,entry_point,Heron,20.0,0.0291
+2024,1,entry_point,Rooseville,18.0,0.0263
+2024,1,entry_point,Alzada,13.2,0.0193
+2024,1,entry_point,Sidney,12.1,0.0177
+2024,1,entry_point,Troy,12.0,0.0175
+2024,1,entry_point,Great Falls Air,10.7,0.0156
+2024,1,entry_point,Biddle,10.0,0.0146
+2024,1,entry_point,Dagmar,4.0,0.0058
+2024,1,entry_point,Missoula Air,4.0,0.0058
+2024,1,entry_point,Sula,4.0,0.0058
+2024,1,entry_point,Baker,3.1,0.0044
+2024,1,entry_point,Lolo,3.0,0.0043
+2024,1,entry_point,Piegan,3.0,0.0043
+2024,1,entry_point,Raymond,2.9,0.0043
+2024,1,entry_point,Other MT road,2.4,0.0036
+2024,1,entry_point,Decker,2.3,0.0034
+2024,1,entry_point,Train from ID,1.2,0.0018
+2024,1,entry_point,Del Bonita,0.4,0.0006
+2024,1,entry_point,Thompson Falls,0.3,0.0004
+2024,1,entry_point,Wildhorse,0.2,0.0003
+2024,1,entry_point,Scobey,0.1,0.0002
+2024,1,entry_point,Turner,0.2,0.0002
+2024,1,entry_point,Morgan,0.1,0.0001
+2024,1,entry_point,Gardiner,0.0,0.0
+2024,1,entry_point,West Yellowstone,0.0,0.0
+2024,2,entry_point,Superior,337.1,0.1518
+2024,2,entry_point,Monida,166.6,0.075
+2024,2,entry_point,Targhee Pass,164.0,0.0739
+2024,2,entry_point,Gardiner,159.6,0.0719
+2024,2,entry_point,West Yellowstone,152.0,0.0685
+2024,2,entry_point,Bozeman Air,136.0,0.0612
+2024,2,entry_point,Fairview,118.1,0.0532
+2024,2,entry_point,Lodge Grass,116.4,0.0524
+2024,2,entry_point,Wibaux/Beach,98.8,0.0445
+2024,2,entry_point,Raynolds Pass,67.3,0.0303
+2024,2,entry_point,Bridger 72,60.9,0.0274
+2024,2,entry_point,Troy,60.0,0.027
+2024,2,entry_point,Alzada,50.3,0.0226
+2024,2,entry_point,Kalispell Air,47.9,0.0216
+2024,2,entry_point,Sweetgrass,47.5,0.0214
+2024,2,entry_point,Bridger 310,46.9,0.0211
+2024,2,entry_point,Culbertson/Bainville,44.8,0.0202
+2024,2,entry_point,Rooseville,42.4,0.0191
+2024,2,entry_point,Billings Air,41.3,0.0186
+2024,2,entry_point,Missoula Air,40.9,0.0184
+2024,2,entry_point,Sula,36.9,0.0166
+2024,2,entry_point,Sidney,28.3,0.0127
+2024,2,entry_point,Heron,27.7,0.0125
+2024,2,entry_point,Piegan,22.9,0.0103
+2024,2,entry_point,Great Falls Air,17.7,0.008
+2024,2,entry_point,Biddle,17.4,0.0078
+2024,2,entry_point,Lolo,17.1,0.0077
+2024,2,entry_point,Raymond,8.8,0.004
+2024,2,entry_point,Red Lodge,8.8,0.004
+2024,2,entry_point,Helena Air,8.3,0.0037
+2024,2,entry_point,Dagmar,8.0,0.0036
+2024,2,entry_point,Baker,6.3,0.0028
+2024,2,entry_point,Decker,4.0,0.0018
+2024,2,entry_point,Westby,2.8,0.0013
+2024,2,entry_point,Butte Air,1.3,0.0006
+2024,2,entry_point,Del Bonita,1.3,0.0006
+2024,2,entry_point,Wildhorse,1.4,0.0006
+2024,2,entry_point,Scobey,0.7,0.0003
+2024,2,entry_point,Thompson Falls,0.6,0.0003
+2024,2,entry_point,Grant,0.5,0.0002
+2024,2,entry_point,Morgan,0.4,0.0002
+2024,2,entry_point,Carlyle,0.2,0.0001
+2024,2,entry_point,Opheim,0.2,0.0001
+2024,2,entry_point,Other MT road,0.0,0.0
+2024,2,entry_point,Train from ID,0.0,0.0
+2024,2,entry_point,Witlash,0.1,0.0
+2024,3,entry_point,Superior,425.1,0.1249
+2024,3,entry_point,West Yellowstone,409.7,0.1204
+2024,3,entry_point,Gardiner,272.0,0.0799
+2024,3,entry_point,Targhee Pass,260.0,0.0764
+2024,3,entry_point,Bozeman Air,188.7,0.0555
+2024,3,entry_point,Lodge Grass,186.9,0.0549
+2024,3,entry_point,Monida,178.8,0.0525
+2024,3,entry_point,Wibaux/Beach,153.3,0.045
+2024,3,entry_point,Fairview,139.1,0.0409
+2024,3,entry_point,Raynolds Pass,125.2,0.0368
+2024,3,entry_point,Alzada,110.7,0.0325
+2024,3,entry_point,Kalispell Air,85.9,0.0252
+2024,3,entry_point,Troy,80.7,0.0237
+2024,3,entry_point,Bridger 72,72.5,0.0213
+2024,3,entry_point,Missoula Air,69.1,0.0203
+2024,3,entry_point,Sweetgrass,65.2,0.0192
+2024,3,entry_point,Rooseville,64.4,0.0189
+2024,3,entry_point,Piegan,57.9,0.017
+2024,3,entry_point,Bridger 310,57.5,0.0169
+2024,3,entry_point,Sula,53.2,0.0156
+2024,3,entry_point,Culbertson/Bainville,49.1,0.0144
+2024,3,entry_point,Heron,48.0,0.0141
+2024,3,entry_point,Billings Air,40.1,0.0118
+2024,3,entry_point,Sidney,38.5,0.0113
+2024,3,entry_point,Biddle,36.2,0.0106
+2024,3,entry_point,Red Lodge,36.0,0.0106
+2024,3,entry_point,Great Falls Air,20.1,0.0059
+2024,3,entry_point,Baker,15.5,0.0045
+2024,3,entry_point,Lolo,15.4,0.0045
+2024,3,entry_point,Helena Air,9.1,0.0027
+2024,3,entry_point,Raymond,9.2,0.0027
+2024,3,entry_point,Dagmar,8.0,0.0024
+2024,3,entry_point,Westby,6.4,0.0019
+2024,3,entry_point,Decker,4.0,0.0012
+2024,3,entry_point,Del Bonita,2.4,0.0007
+2024,3,entry_point,Wildhorse,2.5,0.0007
+2024,3,entry_point,Thompson Falls,1.6,0.0005
+2024,3,entry_point,Butte Air,1.2,0.0003
+2024,3,entry_point,Grant,0.9,0.0003
+2024,3,entry_point,Morgan,0.5,0.0002
+2024,3,entry_point,Scobey,0.8,0.0002
+2024,3,entry_point,Turner,0.8,0.0002
+2024,3,entry_point,Carlyle,0.5,0.0001
+2024,3,entry_point,Other MT road,0.3,0.0001
+2024,3,entry_point,Other MT airport,0.0,0.0
+2024,3,entry_point,Train from ND,0.0,0.0
+2024,3,entry_point,Witlash,0.1,0.0
+2024,4,entry_point,Superior,208.7,0.1319
+2024,4,entry_point,Lodge Grass,120.3,0.0761
+2024,4,entry_point,Fairview,112.0,0.0708
+2024,4,entry_point,Monida,94.7,0.0599
+2024,4,entry_point,Bozeman Air,88.0,0.0556
+2024,4,entry_point,Wibaux/Beach,84.2,0.0532
+2024,4,entry_point,Targhee Pass,80.0,0.0506
+2024,4,entry_point,Billings Air,64.6,0.0409
+2024,4,entry_point,Missoula Air,59.1,0.0373
+2024,4,entry_point,Alzada,56.9,0.036
+2024,4,entry_point,Bridger 310,54.8,0.0347
+2024,4,entry_point,West Yellowstone,53.5,0.0338
+2024,4,entry_point,Bridger 72,51.8,0.0327
+2024,4,entry_point,Kalispell Air,50.8,0.0321
+2024,4,entry_point,Sweetgrass,46.3,0.0293
+2024,4,entry_point,Raynolds Pass,44.0,0.0278
+2024,4,entry_point,Culbertson/Bainville,41.5,0.0262
+2024,4,entry_point,Gardiner,41.4,0.0262
+2024,4,entry_point,Troy,40.9,0.0258
+2024,4,entry_point,Great Falls Air,28.2,0.0178
+2024,4,entry_point,Rooseville,24.0,0.0152
+2024,4,entry_point,Sula,23.6,0.0149
+2024,4,entry_point,Heron,22.2,0.014
+2024,4,entry_point,Biddle,19.5,0.0123
+2024,4,entry_point,Sidney,19.0,0.012
+2024,4,entry_point,Piegan,10.7,0.0067
+2024,4,entry_point,Helena Air,9.8,0.0062
+2024,4,entry_point,Raymond,7.0,0.0045
+2024,4,entry_point,Baker,5.0,0.0032
+2024,4,entry_point,Lolo,4.2,0.0026
+2024,4,entry_point,Decker,4.0,0.0025
+2024,4,entry_point,Westby,2.2,0.0014
+2024,4,entry_point,Red Lodge,2.0,0.0013
+2024,4,entry_point,Butte Air,1.7,0.0011
+2024,4,entry_point,Del Bonita,1.3,0.0008
+2024,4,entry_point,Other MT road,0.9,0.0006
+2024,4,entry_point,Wildhorse,0.8,0.0005
+2024,4,entry_point,Thompson Falls,0.6,0.0004
+2024,4,entry_point,Turner,0.6,0.0004
+2024,4,entry_point,Scobey,0.5,0.0003
+2024,4,entry_point,Morgan,0.3,0.0002
+2024,4,entry_point,Train from ID,0.3,0.0002
+2025,1,entry_point,Superior,104.1,0.1376
+2025,1,entry_point,Monida,74.6,0.0987
+2025,1,entry_point,Lodge Grass,71.5,0.0945
+2025,1,entry_point,Fairview,62.9,0.0831
+2025,1,entry_point,Wibaux/Beach,55.9,0.0739
+2025,1,entry_point,Bridger 310,40.0,0.0529
+2025,1,entry_point,Bridger 72,34.6,0.0457
+2025,1,entry_point,Sweetgrass,32.1,0.0424
+2025,1,entry_point,Bozeman Air,32.0,0.0423
+2025,1,entry_point,Raynolds Pass,32.0,0.0423
+2025,1,entry_point,Kalispell Air,28.0,0.037
+2025,1,entry_point,Billings Air,20.8,0.0276
+2025,1,entry_point,Targhee Pass,20.0,0.0264
+2025,1,entry_point,Heron,18.8,0.0249
+2025,1,entry_point,Sula,16.9,0.0224
+2025,1,entry_point,Troy,16.0,0.0212
+2025,1,entry_point,Missoula Air,15.4,0.0204
+2025,1,entry_point,Sidney,14.7,0.0194
+2025,1,entry_point,Alzada,12.3,0.0162
+2025,1,entry_point,Biddle,9.4,0.0124
+2025,1,entry_point,Culbertson/Bainville,8.0,0.0106
+2025,1,entry_point,Rooseville,8.0,0.0106
+2025,1,entry_point,Dagmar,4.0,0.0053
+2025,1,entry_point,Great Falls Air,4.0,0.0053
+2025,1,entry_point,Other MT road,4.0,0.0053
+2025,1,entry_point,West Yellowstone,4.0,0.0053
+2025,1,entry_point,Raymond,3.0,0.004
+2025,1,entry_point,Red Lodge,3.0,0.004
+2025,1,entry_point,Baker,2.9,0.0038
+2025,1,entry_point,Lolo,2.0,0.0026
+2025,1,entry_point,Gardiner,1.0,0.0013
+2025,1,entry_point,Thompson Falls,0.3,0.0004
+2025,1,entry_point,Willow Creek,0.2,0.0003
+2025,1,entry_point,Opheim,0.1,0.0001
+2025,2,entry_point,Superior,227.6,0.1361
+2025,2,entry_point,West Yellowstone,176.0,0.1052
+2025,2,entry_point,Lodge Grass,134.4,0.0804
+2025,2,entry_point,Monida,122.6,0.0733
+2025,2,entry_point,Fairview,98.6,0.0589
+2025,2,entry_point,Gardiner,96.0,0.0574
+2025,2,entry_point,Wibaux/Beach,95.8,0.0573
+2025,2,entry_point,Bozeman Air,86.1,0.0515
+2025,2,entry_point,Sidney,61.2,0.0366
+2025,2,entry_point,Raynolds Pass,50.3,0.0301
+2025,2,entry_point,Bridger 310,42.3,0.0253
+2025,2,entry_point,Troy,42.3,0.0253
+2025,2,entry_point,Kalispell Air,38.4,0.0229
+2025,2,entry_point,Alzada,36.6,0.0219
+2025,2,entry_point,Bridger 72,36.0,0.0215
+2025,2,entry_point,Culbertson/Bainville,33.5,0.0201
+2025,2,entry_point,Missoula Air,33.3,0.0199
+2025,2,entry_point,Heron,32.6,0.0195
+2025,2,entry_point,Targhee Pass,32.0,0.0191
+2025,2,entry_point,Billings Air,31.2,0.0187
+2025,2,entry_point,Sula,29.3,0.0175
+2025,2,entry_point,Sweetgrass,25.8,0.0155
+2025,2,entry_point,Rooseville,21.9,0.0131
+2025,2,entry_point,Lolo,12.2,0.0073
+2025,2,entry_point,Biddle,11.7,0.007
+2025,2,entry_point,Great Falls Air,11.6,0.0069
+2025,2,entry_point,Piegan,11.3,0.0068
+2025,2,entry_point,Red Lodge,6.6,0.004
+2025,2,entry_point,Baker,6.2,0.0037
+2025,2,entry_point,Other MT road,6.0,0.0036
+2025,2,entry_point,Helena Air,5.8,0.0035
+2025,2,entry_point,Raymond,4.6,0.0028
+2025,2,entry_point,Chief Mountain,3.8,0.0023
+2025,2,entry_point,Decker,3.6,0.0021
+2025,2,entry_point,Butte Air,1.4,0.0009
+2025,2,entry_point,Whitetail,1.0,0.0006
+2025,2,entry_point,Del Bonita,0.8,0.0005
+2025,2,entry_point,Willow Creek,0.8,0.0005
+2025,2,entry_point,Grant,0.4,0.0002
+2025,2,entry_point,Scobey,0.4,0.0002
+2025,2,entry_point,Opheim,0.2,0.0001
+2025,3,entry_point,Superior,401.2,0.1347
+2025,3,entry_point,West Yellowstone,364.0,0.1222
+2025,3,entry_point,Gardiner,204.0,0.0685
+2025,3,entry_point,Lodge Grass,195.5,0.0656
+2025,3,entry_point,Bozeman Air,167.6,0.0563
+2025,3,entry_point,Monida,150.3,0.0504
+2025,3,entry_point,Wibaux/Beach,148.6,0.0499
+2025,3,entry_point,Fairview,137.3,0.0461
+2025,3,entry_point,Targhee Pass,132.0,0.0443
+2025,3,entry_point,Alzada,101.1,0.034
+2025,3,entry_point,Raynolds Pass,80.3,0.027
+2025,3,entry_point,Kalispell Air,78.8,0.0265
+2025,3,entry_point,Troy,72.8,0.0244
+2025,3,entry_point,Sidney,66.7,0.0224
+2025,3,entry_point,Bridger 72,66.0,0.0221
+2025,3,entry_point,Bridger 310,62.7,0.021
+2025,3,entry_point,Missoula Air,57.7,0.0194
+2025,3,entry_point,Culbertson/Bainville,52.2,0.0175
+2025,3,entry_point,Sula,51.4,0.0173
+2025,3,entry_point,Sweetgrass,51.0,0.0171
+2025,3,entry_point,Rooseville,48.8,0.0164
+2025,3,entry_point,Billings Air,46.1,0.0155
+2025,3,entry_point,Heron,37.5,0.0126
+2025,3,entry_point,Red Lodge,34.4,0.0116
+2025,3,entry_point,Biddle,29.6,0.0099
+2025,3,entry_point,Piegan,21.4,0.0072
+2025,3,entry_point,Other MT road,17.0,0.0057
+2025,3,entry_point,Lolo,16.0,0.0054
+2025,3,entry_point,Chief Mountain,13.6,0.0046
+2025,3,entry_point,Great Falls Air,13.5,0.0045
+2025,3,entry_point,Baker,9.2,0.0031
+2025,3,entry_point,Dagmar,8.0,0.0027
+2025,3,entry_point,Helena Air,7.8,0.0026
+2025,3,entry_point,Westby,6.4,0.0022
+2025,3,entry_point,Del Bonita,4.8,0.0016
+2025,3,entry_point,Raymond,4.2,0.0014
+2025,3,entry_point,Decker,4.0,0.0013
+2025,3,entry_point,West Yellowstone Air,3.4,0.0012
+2025,3,entry_point,Thompson Falls,2.8,0.0009
+2025,3,entry_point,Wildhorse,1.8,0.0006
+2025,3,entry_point,Butte Air,1.6,0.0005
+2025,3,entry_point,Grant,0.9,0.0003
+2025,3,entry_point,Train from ID,1.0,0.0003
+2025,3,entry_point,Train from ND,1.0,0.0003
+2025,3,entry_point,Willow Creek,0.9,0.0003
+2025,3,entry_point,Scobey,0.6,0.0002
+2025,3,entry_point,Morgan,0.3,0.0001
+2025,3,entry_point,Opheim,0.2,0.0001
+2025,3,entry_point,Witlash,0.1,0.0
+2025,4,entry_point,Superior,170.5,0.1404
+2025,4,entry_point,Fairview,102.4,0.0843
+2025,4,entry_point,Lodge Grass,100.3,0.0826
+2025,4,entry_point,Monida,85.9,0.0707
+2025,4,entry_point,Wibaux/Beach,73.5,0.0605
+2025,4,entry_point,Bozeman Air,60.0,0.0494
+2025,4,entry_point,West Yellowstone,50.3,0.0414
+2025,4,entry_point,Raynolds Pass,47.9,0.0395
+2025,4,entry_point,Missoula Air,47.6,0.0392
+2025,4,entry_point,Bridger 72,42.9,0.0353
+2025,4,entry_point,Kalispell Air,41.6,0.0343
+2025,4,entry_point,Alzada,41.3,0.034
+2025,4,entry_point,Culbertson/Bainville,41.0,0.0338
+2025,4,entry_point,Sweetgrass,32.3,0.0266
+2025,4,entry_point,Billings Air,32.0,0.0264
+2025,4,entry_point,Gardiner,29.3,0.0241
+2025,4,entry_point,Troy,27.9,0.023
+2025,4,entry_point,Sula,25.1,0.0207
+2025,4,entry_point,Targhee Pass,24.0,0.0198
+2025,4,entry_point,Great Falls Air,19.7,0.0163
+2025,4,entry_point,Heron,19.0,0.0156
+2025,4,entry_point,Sidney,17.2,0.0142
+2025,4,entry_point,Rooseville,16.7,0.0137
+2025,4,entry_point,Biddle,12.0,0.0099
+2025,4,entry_point,Bridger 310,12.0,0.0099
+2025,4,entry_point,Helena Air,10.3,0.0085
+2025,4,entry_point,Baker,6.4,0.0053
+2025,4,entry_point,Decker,4.5,0.0037
+2025,4,entry_point,Lolo,4.5,0.0037
+2025,4,entry_point,Dagmar,4.0,0.0033
+2025,4,entry_point,Piegan,4.0,0.0033
+2025,4,entry_point,Raymond,3.2,0.0026
+2025,4,entry_point,Other MT road,2.0,0.0016
+2025,4,entry_point,Thompson Falls,1.2,0.001
+2025,4,entry_point,Grant,0.4,0.0004
+2025,4,entry_point,Scobey,0.3,0.0003
+2025,4,entry_point,Turner,0.4,0.0003
+2025,4,entry_point,Morgan,0.2,0.0002
+2025,4,entry_point,Opheim,0.1,0.0001
+2021,1,origin,North Dakota,201.0,0.1887
+2021,1,origin,Washington,152.5,0.1431
+2021,1,origin,Idaho,113.7,0.1067
+2021,1,origin,Wyoming,109.5,0.1028
+2021,1,origin,Minnesota,56.5,0.053
+2021,1,origin,California,47.3,0.0444
+2021,1,origin,Utah,45.5,0.0427
+2021,1,origin,Colorado,41.9,0.0393
+2021,1,origin,Texas,34.0,0.0319
+2021,1,origin,Oregon,29.1,0.0273
+2021,1,origin,Arizona,19.5,0.0183
+2021,1,origin,South Dakota,17.0,0.016
+2021,1,origin,Wisconsin,14.5,0.0136
+2021,1,origin,Illinois,13.4,0.0126
+2021,1,origin,North Carolina,13.5,0.0126
+2021,1,origin,Alaska,12.1,0.0114
+2021,1,origin,Michigan,12.1,0.0114
+2021,1,origin,"Alberta, Canada",11.9,0.0111
+2021,1,origin,Virginia,9.4,0.0088
+2021,1,origin,Tennessee,8.6,0.0081
+2021,1,origin,Nevada,8.3,0.0078
+2021,1,origin,Ohio,7.9,0.0074
+2021,1,origin,Indiana,7.8,0.0073
+2021,1,origin,Massachusetts,7.2,0.0068
+2021,1,origin,Florida,7.1,0.0066
+2021,1,origin,Iowa,5.5,0.0052
+2021,1,origin,New York,5.4,0.0051
+2021,1,origin,New Mexico,4.9,0.0046
+2021,1,origin,Mississippi,4.1,0.0039
+2021,1,origin,Georgia,3.9,0.0037
+2021,1,origin,Connecticut,3.7,0.0035
+2021,1,origin,Louisiana,3.0,0.0028
+2021,1,origin,Kansas,2.9,0.0027
+2021,1,origin,New Hampshire,2.9,0.0027
+2021,1,origin,"Washington, D.C.",2.9,0.0027
+2021,1,origin,"British Columbia, Canada",2.4,0.0023
+2021,1,origin,South Carolina,2.4,0.0022
+2021,1,origin,Missouri,2.3,0.0021
+2021,1,origin,Nebraska,2.2,0.0021
+2021,1,origin,New Jersey,2.3,0.0021
+2021,1,origin,Arkansas,2.0,0.0019
+2021,1,origin,Oklahoma,1.9,0.0018
+2021,1,origin,West Virginia,1.7,0.0016
+2021,1,origin,"Quebec, Canada",1.2,0.0011
+2021,1,origin,Alabama,1.0,0.001
+2021,1,origin,Hawaii,1.0,0.0009
+2021,1,origin,Lithuania,0.9,0.0009
+2021,1,origin,Maryland,0.7,0.0007
+2021,1,origin,Pennsylvania,0.6,0.0006
+2021,1,origin,China,0.6,0.0005
+2021,1,origin,Kentucky,0.5,0.0005
+2021,1,origin,"Saskatchewan, Canada",0.6,0.0005
+2021,1,origin,"Manitoba, Canada",0.5,0.0004
+2021,1,origin,"Ontario, Canada",0.2,0.0002
+2021,1,origin,Panama,0.1,0.0001
+2021,2,origin,Washington,218.2,0.1197
+2021,2,origin,North Dakota,193.5,0.1061
+2021,2,origin,Idaho,150.5,0.0825
+2021,2,origin,California,123.9,0.068
+2021,2,origin,Minnesota,103.9,0.057
+2021,2,origin,Wyoming,103.7,0.0569
+2021,2,origin,Colorado,76.3,0.0418
+2021,2,origin,Utah,62.8,0.0344
+2021,2,origin,Florida,58.4,0.0321
+2021,2,origin,Oregon,55.5,0.0305
+2021,2,origin,Texas,52.2,0.0286
+2021,2,origin,Wisconsin,50.1,0.0275
+2021,2,origin,Arizona,48.5,0.0266
+2021,2,origin,Ohio,47.4,0.026
+2021,2,origin,Illinois,34.5,0.0189
+2021,2,origin,Nebraska,33.8,0.0185
+2021,2,origin,Michigan,32.9,0.018
+2021,2,origin,Nevada,29.5,0.0162
+2021,2,origin,Alaska,27.1,0.0148
+2021,2,origin,Tennessee,24.0,0.0132
+2021,2,origin,Missouri,24.0,0.0131
+2021,2,origin,North Carolina,20.4,0.0112
+2021,2,origin,Georgia,20.1,0.011
+2021,2,origin,Oklahoma,19.5,0.0107
+2021,2,origin,South Dakota,18.5,0.0102
+2021,2,origin,Pennsylvania,18.1,0.01
+2021,2,origin,New York,16.6,0.0091
+2021,2,origin,Virginia,15.5,0.0085
+2021,2,origin,Iowa,14.9,0.0082
+2021,2,origin,New Mexico,14.6,0.008
+2021,2,origin,Massachusetts,13.7,0.0075
+2021,2,origin,Arkansas,13.5,0.0074
+2021,2,origin,"Alberta, Canada",12.0,0.0066
+2021,2,origin,Indiana,8.7,0.0048
+2021,2,origin,Louisiana,8.5,0.0047
+2021,2,origin,Alabama,8.2,0.0045
+2021,2,origin,Maine,7.5,0.0041
+2021,2,origin,"Washington, D.C.",7.0,0.0039
+2021,2,origin,Kansas,6.3,0.0034
+2021,2,origin,South Carolina,5.4,0.0029
+2021,2,origin,New Jersey,4.0,0.0022
+2021,2,origin,West Virginia,3.0,0.0016
+2021,2,origin,Maryland,2.4,0.0013
+2021,2,origin,Kentucky,2.3,0.0012
+2021,2,origin,Connecticut,1.8,0.001
+2021,2,origin,"Saskatchewan, Canada",1.9,0.001
+2021,2,origin,New Hampshire,1.5,0.0008
+2021,2,origin,Costa Rica,1.0,0.0005
+2021,2,origin,Hawaii,0.9,0.0005
+2021,2,origin,Mississippi,1.0,0.0005
+2021,2,origin,Netherlands,0.8,0.0004
+2021,2,origin,Ukraine,0.8,0.0004
+2021,2,origin,Vermont,0.8,0.0004
+2021,2,origin,"Manitoba, Canada",0.5,0.0003
+2021,2,origin,"British Columbia, Canada",0.4,0.0002
+2021,2,origin,Bahrain,0.1,0.0001
+2021,2,origin,Croatia,0.1,0.0001
+2021,2,origin,Mexico,0.1,0.0001
+2021,2,origin,"Ontario, Canada",0.2,0.0001
+2021,3,origin,Washington,277.2,0.1106
+2021,3,origin,North Dakota,186.2,0.0743
+2021,3,origin,California,156.5,0.0625
+2021,3,origin,Idaho,141.5,0.0565
+2021,3,origin,Minnesota,131.9,0.0526
+2021,3,origin,Florida,116.2,0.0464
+2021,3,origin,Oregon,116.0,0.0463
+2021,3,origin,Texas,106.5,0.0425
+2021,3,origin,Wisconsin,101.2,0.0404
+2021,3,origin,Wyoming,100.9,0.0403
+2021,3,origin,Colorado,86.9,0.0347
+2021,3,origin,Utah,82.2,0.0328
+2021,3,origin,Arizona,79.3,0.0316
+2021,3,origin,Missouri,48.1,0.0192
+2021,3,origin,Michigan,47.1,0.0188
+2021,3,origin,Pennsylvania,45.3,0.0181
+2021,3,origin,Virginia,45.4,0.0181
+2021,3,origin,Illinois,44.7,0.0178
+2021,3,origin,Iowa,44.1,0.0176
+2021,3,origin,New York,43.5,0.0173
+2021,3,origin,Ohio,39.2,0.0156
+2021,3,origin,Georgia,38.9,0.0155
+2021,3,origin,South Dakota,36.0,0.0144
+2021,3,origin,North Carolina,35.0,0.0139
+2021,3,origin,Indiana,31.1,0.0124
+2021,3,origin,Nevada,31.1,0.0124
+2021,3,origin,South Carolina,30.0,0.012
+2021,3,origin,New Jersey,24.8,0.0099
+2021,3,origin,Tennessee,24.2,0.0097
+2021,3,origin,Nebraska,19.0,0.0076
+2021,3,origin,Kentucky,18.5,0.0074
+2021,3,origin,New Hampshire,17.5,0.007
+2021,3,origin,Maryland,17.4,0.0069
+2021,3,origin,Kansas,14.5,0.0058
+2021,3,origin,Oklahoma,14.2,0.0057
+2021,3,origin,Alabama,14.0,0.0056
+2021,3,origin,Mississippi,13.6,0.0054
+2021,3,origin,Alaska,11.5,0.0046
+2021,3,origin,"Alberta, Canada",10.4,0.0042
+2021,3,origin,Massachusetts,9.8,0.0039
+2021,3,origin,New Mexico,7.2,0.0029
+2021,3,origin,Maine,6.4,0.0026
+2021,3,origin,"Washington, D.C.",6.3,0.0025
+2021,3,origin,Louisiana,5.6,0.0022
+2021,3,origin,Arkansas,4.9,0.0019
+2021,3,origin,Connecticut,4.1,0.0016
+2021,3,origin,Delaware,3.8,0.0015
+2021,3,origin,Vermont,3.4,0.0014
+2021,3,origin,"British Columbia, Canada",2.6,0.001
+2021,3,origin,Ghana,1.6,0.0006
+2021,3,origin,Guam,1.6,0.0006
+2021,3,origin,Hawaii,1.4,0.0006
+2021,3,origin,West Virginia,1.4,0.0006
+2021,3,origin,Brazil,0.9,0.0004
+2021,3,origin,France,1.0,0.0004
+2021,3,origin,Guatemala,1.0,0.0004
+2021,3,origin,"Manitoba, Canada",0.5,0.0002
+2021,3,origin,Mexico,0.3,0.0001
+2021,3,origin,Rhode Island,0.3,0.0001
+2021,3,origin,"Saskatchewan, Canada",0.4,0.0001
+2021,3,origin,Virgin Islands,0.1,0.0
+2021,3,origin,"Yukon Territory, Canada",0.1,0.0
+2021,4,origin,Washington,186.8,0.1597
+2021,4,origin,North Dakota,164.3,0.1405
+2021,4,origin,Idaho,101.0,0.0863
+2021,4,origin,Wyoming,73.6,0.0629
+2021,4,origin,California,69.1,0.0591
+2021,4,origin,Minnesota,62.2,0.0532
+2021,4,origin,"Alberta, Canada",45.3,0.0387
+2021,4,origin,Utah,42.8,0.0366
+2021,4,origin,Oregon,40.4,0.0346
+2021,4,origin,Colorado,30.5,0.0261
+2021,4,origin,Texas,30.6,0.0261
+2021,4,origin,Florida,23.9,0.0205
+2021,4,origin,Arizona,23.6,0.0202
+2021,4,origin,Alaska,21.8,0.0186
+2021,4,origin,Georgia,19.4,0.0166
+2021,4,origin,Wisconsin,18.7,0.016
+2021,4,origin,South Dakota,18.0,0.0154
+2021,4,origin,Michigan,16.1,0.0138
+2021,4,origin,Illinois,15.6,0.0134
+2021,4,origin,Nevada,14.3,0.0122
+2021,4,origin,Iowa,11.0,0.0094
+2021,4,origin,North Carolina,9.8,0.0084
+2021,4,origin,Oklahoma,8.6,0.0073
+2021,4,origin,Pennsylvania,8.3,0.0071
+2021,4,origin,Indiana,8.1,0.007
+2021,4,origin,Nebraska,7.8,0.0067
+2021,4,origin,"Saskatchewan, Canada",7.2,0.0061
+2021,4,origin,Louisiana,7.0,0.006
+2021,4,origin,Ohio,6.8,0.0058
+2021,4,origin,"British Columbia, Canada",6.7,0.0057
+2021,4,origin,Virginia,6.7,0.0057
+2021,4,origin,Kansas,6.5,0.0055
+2021,4,origin,Alabama,5.9,0.005
+2021,4,origin,Tennessee,5.4,0.0047
+2021,4,origin,"Manitoba, Canada",5.3,0.0045
+2021,4,origin,Missouri,5.0,0.0042
+2021,4,origin,Connecticut,4.5,0.0038
+2021,4,origin,Kentucky,3.7,0.0032
+2021,4,origin,Maryland,3.3,0.0028
+2021,4,origin,Mississippi,3.3,0.0028
+2021,4,origin,New York,3.3,0.0028
+2021,4,origin,Massachusetts,2.8,0.0024
+2021,4,origin,South Carolina,2.7,0.0023
+2021,4,origin,New Jersey,2.6,0.0022
+2021,4,origin,Arkansas,2.0,0.0017
+2021,4,origin,Germany,1.4,0.0012
+2021,4,origin,West Virginia,1.2,0.001
+2021,4,origin,Hawaii,1.0,0.0009
+2021,4,origin,"Ontario, Canada",0.8,0.0007
+2021,4,origin,New Mexico,0.7,0.0006
+2021,4,origin,New Hampshire,0.6,0.0005
+2021,4,origin,Rhode Island,0.5,0.0004
+2021,4,origin,Vermont,0.5,0.0004
+2021,4,origin,Denmark,0.3,0.0003
+2021,4,origin,"Newfoundland, Canada",0.2,0.0002
+2021,4,origin,Delaware,0.1,0.0
+2021,4,origin,Mexico,0.1,0.0
+2021,4,origin,South Africa,0.1,0.0
+2021,4,origin,"Washington, D.C.",0.1,0.0
+2022,1,origin,North Dakota,144.8,0.1515
+2022,1,origin,Washington,121.8,0.1274
+2022,1,origin,Wyoming,98.5,0.103
+2022,1,origin,Idaho,92.0,0.0963
+2022,1,origin,"Alberta, Canada",55.6,0.0582
+2022,1,origin,Colorado,50.4,0.0528
+2022,1,origin,Minnesota,43.8,0.0459
+2022,1,origin,California,38.0,0.0398
+2022,1,origin,Oregon,34.1,0.0357
+2022,1,origin,Utah,23.3,0.0243
+2022,1,origin,Texas,22.5,0.0235
+2022,1,origin,Wisconsin,22.3,0.0234
+2022,1,origin,South Dakota,18.0,0.0188
+2022,1,origin,Michigan,14.3,0.015
+2022,1,origin,"Saskatchewan, Canada",13.8,0.0145
+2022,1,origin,Illinois,12.3,0.0129
+2022,1,origin,Ohio,11.6,0.0121
+2022,1,origin,Massachusetts,11.0,0.0115
+2022,1,origin,Florida,10.7,0.0112
+2022,1,origin,Arizona,9.3,0.0097
+2022,1,origin,Louisiana,9.0,0.0094
+2022,1,origin,New Jersey,8.5,0.0089
+2022,1,origin,North Carolina,8.0,0.0083
+2022,1,origin,New York,7.7,0.0081
+2022,1,origin,Pennsylvania,7.5,0.0078
+2022,1,origin,Oklahoma,6.5,0.0068
+2022,1,origin,Tennessee,6.1,0.0064
+2022,1,origin,Arkansas,6.0,0.0063
+2022,1,origin,Indiana,5.4,0.0057
+2022,1,origin,Georgia,4.7,0.0049
+2022,1,origin,"British Columbia, Canada",4.5,0.0047
+2022,1,origin,Nebraska,4.4,0.0046
+2022,1,origin,West Virginia,4.0,0.0042
+2022,1,origin,Nevada,3.5,0.0037
+2022,1,origin,Missouri,3.1,0.0033
+2022,1,origin,Alabama,2.6,0.0027
+2022,1,origin,Kansas,2.6,0.0027
+2022,1,origin,Mississippi,2.3,0.0024
+2022,1,origin,Iowa,2.1,0.0022
+2022,1,origin,Alaska,1.6,0.0017
+2022,1,origin,Connecticut,1.2,0.0013
+2022,1,origin,Kentucky,1.2,0.0013
+2022,1,origin,Virginia,1.3,0.0013
+2022,1,origin,New Hampshire,1.1,0.0012
+2022,1,origin,Delaware,1.1,0.0011
+2022,1,origin,Maryland,1.1,0.0011
+2022,1,origin,"Ontario, Canada",0.2,0.0002
+2022,1,origin,New Mexico,0.1,0.0001
+2022,1,origin,South Carolina,0.1,0.0001
+2022,2,origin,Washington,214.0,0.0994
+2022,2,origin,California,189.1,0.0878
+2022,2,origin,Idaho,171.4,0.0796
+2022,2,origin,North Dakota,149.4,0.0694
+2022,2,origin,"Alberta, Canada",140.1,0.0651
+2022,2,origin,Colorado,127.8,0.0593
+2022,2,origin,Wyoming,106.5,0.0494
+2022,2,origin,Utah,94.1,0.0437
+2022,2,origin,Minnesota,79.4,0.0368
+2022,2,origin,Texas,70.8,0.0329
+2022,2,origin,Oregon,64.2,0.0298
+2022,2,origin,Florida,61.0,0.0283
+2022,2,origin,Arizona,54.9,0.0255
+2022,2,origin,Wisconsin,47.2,0.0219
+2022,2,origin,Illinois,38.9,0.0181
+2022,2,origin,Michigan,37.3,0.0173
+2022,2,origin,"Saskatchewan, Canada",33.8,0.0157
+2022,2,origin,South Dakota,33.7,0.0156
+2022,2,origin,Nevada,27.4,0.0127
+2022,2,origin,Virginia,26.8,0.0125
+2022,2,origin,Ohio,24.8,0.0115
+2022,2,origin,Alaska,18.2,0.0085
+2022,2,origin,"British Columbia, Canada",18.0,0.0083
+2022,2,origin,Nebraska,17.6,0.0082
+2022,2,origin,New Mexico,17.4,0.0081
+2022,2,origin,Tennessee,16.7,0.0078
+2022,2,origin,North Carolina,15.2,0.0071
+2022,2,origin,Pennsylvania,15.0,0.007
+2022,2,origin,Arkansas,14.7,0.0068
+2022,2,origin,New York,14.6,0.0068
+2022,2,origin,Iowa,13.1,0.0061
+2022,2,origin,Georgia,12.8,0.0059
+2022,2,origin,Oklahoma,12.7,0.0059
+2022,2,origin,New Hampshire,12.5,0.0058
+2022,2,origin,Alabama,11.2,0.0052
+2022,2,origin,Indiana,10.3,0.0048
+2022,2,origin,Missouri,10.1,0.0047
+2022,2,origin,Maryland,9.8,0.0046
+2022,2,origin,Massachusetts,9.8,0.0046
+2022,2,origin,Kansas,8.5,0.004
+2022,2,origin,Louisiana,8.6,0.004
+2022,2,origin,Connecticut,8.0,0.0037
+2022,2,origin,"Manitoba, Canada",6.9,0.0032
+2022,2,origin,"Ontario, Canada",6.6,0.0031
+2022,2,origin,Vermont,6.6,0.003
+2022,2,origin,Kentucky,5.8,0.0027
+2022,2,origin,"Washington, D.C.",5.3,0.0025
+2022,2,origin,Germany,5.1,0.0024
+2022,2,origin,South Carolina,5.2,0.0024
+2022,2,origin,France,5.0,0.0023
+2022,2,origin,Delaware,4.5,0.0021
+2022,2,origin,Mississippi,4.0,0.0019
+2022,2,origin,Netherlands,4.0,0.0019
+2022,2,origin,Switzerland,4.0,0.0019
+2022,2,origin,England,3.9,0.0018
+2022,2,origin,New Jersey,3.1,0.0015
+2022,2,origin,Rhode Island,3.3,0.0015
+2022,2,origin,Maine,2.8,0.0013
+2022,2,origin,West Virginia,2.0,0.0009
+2022,2,origin,Mexico,1.8,0.0008
+2022,2,origin,Argentina,1.1,0.0005
+2022,2,origin,Hawaii,1.1,0.0005
+2022,2,origin,"New Brunswick, Canada",1.0,0.0005
+2022,2,origin,Holland,0.9,0.0004
+2022,2,origin,South Africa,0.9,0.0004
+2022,2,origin,Australia,0.5,0.0002
+2022,2,origin,"Northwest Territories, Canada",0.4,0.0002
+2022,2,origin,Puerto Rico,0.3,0.0002
+2022,2,origin,Guam,0.1,0.0
+2022,2,origin,Norway,0.1,0.0
+2022,3,origin,Washington,391.0,0.1115
+2022,3,origin,Idaho,354.3,0.101
+2022,3,origin,California,229.1,0.0653
+2022,3,origin,North Dakota,185.5,0.0529
+2022,3,origin,Texas,174.4,0.0497
+2022,3,origin,Utah,173.2,0.0494
+2022,3,origin,Minnesota,159.4,0.0455
+2022,3,origin,Wyoming,151.9,0.0433
+2022,3,origin,Colorado,148.7,0.0424
+2022,3,origin,Oregon,117.7,0.0336
+2022,3,origin,"Alberta, Canada",106.6,0.0304
+2022,3,origin,Arizona,103.0,0.0294
+2022,3,origin,Wisconsin,88.4,0.0252
+2022,3,origin,Florida,76.0,0.0217
+2022,3,origin,Illinois,75.0,0.0214
+2022,3,origin,Ohio,58.6,0.0167
+2022,3,origin,Michigan,58.0,0.0166
+2022,3,origin,South Dakota,55.4,0.0158
+2022,3,origin,Georgia,45.6,0.013
+2022,3,origin,South Carolina,44.0,0.0126
+2022,3,origin,Missouri,42.5,0.0121
+2022,3,origin,Nevada,37.5,0.0107
+2022,3,origin,Indiana,36.8,0.0105
+2022,3,origin,Pennsylvania,36.9,0.0105
+2022,3,origin,North Carolina,33.1,0.0094
+2022,3,origin,Tennessee,32.4,0.0093
+2022,3,origin,Massachusetts,32.4,0.0092
+2022,3,origin,New York,31.6,0.009
+2022,3,origin,New Mexico,29.2,0.0083
+2022,3,origin,"British Columbia, Canada",26.9,0.0077
+2022,3,origin,Virginia,26.5,0.0076
+2022,3,origin,Kentucky,26.5,0.0075
+2022,3,origin,Iowa,23.5,0.0067
+2022,3,origin,"Saskatchewan, Canada",22.4,0.0064
+2022,3,origin,Nebraska,21.9,0.0062
+2022,3,origin,Alabama,19.8,0.0057
+2022,3,origin,Arkansas,18.7,0.0053
+2022,3,origin,Maryland,15.9,0.0045
+2022,3,origin,Kansas,15.0,0.0043
+2022,3,origin,Alaska,14.8,0.0042
+2022,3,origin,New Hampshire,14.9,0.0042
+2022,3,origin,"Ontario, Canada",14.8,0.0042
+2022,3,origin,"Quebec, Canada",14.8,0.0042
+2022,3,origin,Louisiana,13.4,0.0038
+2022,3,origin,Mississippi,12.2,0.0035
+2022,3,origin,New Jersey,12.1,0.0034
+2022,3,origin,Oklahoma,9.6,0.0027
+2022,3,origin,Australia,8.2,0.0023
+2022,3,origin,Connecticut,7.5,0.0021
+2022,3,origin,Germany,6.3,0.0018
+2022,3,origin,"Manitoba, Canada",6.5,0.0018
+2022,3,origin,Maine,5.8,0.0016
+2022,3,origin,Netherlands,5.1,0.0015
+2022,3,origin,West Virginia,4.9,0.0014
+2022,3,origin,"Washington, D.C.",4.5,0.0013
+2022,3,origin,Delaware,3.8,0.0011
+2022,3,origin,Vermont,4.0,0.0011
+2022,3,origin,Hawaii,3.3,0.0009
+2022,3,origin,England,2.5,0.0007
+2022,3,origin,France,2.4,0.0007
+2022,3,origin,Israel,2.3,0.0006
+2022,3,origin,Colombia,1.8,0.0005
+2022,3,origin,China,1.0,0.0003
+2022,3,origin,Italy,1.0,0.0003
+2022,3,origin,Spain,0.9,0.0003
+2022,3,origin,Guam,0.6,0.0002
+2022,3,origin,Mexico,0.6,0.0002
+2022,3,origin,Korea,0.2,0.0001
+2022,3,origin,"New Brunswick, Canada",0.3,0.0001
+2022,3,origin,New Zealand,0.2,0.0001
+2022,3,origin,South Africa,0.3,0.0001
+2022,3,origin,Ukraine,0.4,0.0001
+2022,4,origin,Washington,165.5,0.1514
+2022,4,origin,Idaho,136.3,0.1247
+2022,4,origin,North Dakota,86.1,0.0787
+2022,4,origin,Wyoming,81.2,0.0743
+2022,4,origin,Minnesota,64.4,0.0589
+2022,4,origin,"Alberta, Canada",57.2,0.0523
+2022,4,origin,Utah,42.5,0.0389
+2022,4,origin,South Dakota,38.8,0.0355
+2022,4,origin,California,37.1,0.0339
+2022,4,origin,Oregon,36.7,0.0336
+2022,4,origin,Colorado,31.1,0.0284
+2022,4,origin,Texas,28.4,0.026
+2022,4,origin,"British Columbia, Canada",23.1,0.0211
+2022,4,origin,Wisconsin,23.0,0.021
+2022,4,origin,Michigan,19.8,0.0181
+2022,4,origin,Florida,19.6,0.0179
+2022,4,origin,Arizona,19.5,0.0178
+2022,4,origin,Nevada,17.2,0.0158
+2022,4,origin,Georgia,12.9,0.0118
+2022,4,origin,"Saskatchewan, Canada",11.4,0.0104
+2022,4,origin,Louisiana,9.7,0.0089
+2022,4,origin,New York,8.7,0.008
+2022,4,origin,Indiana,7.7,0.007
+2022,4,origin,Nebraska,7.6,0.0069
+2022,4,origin,Virginia,7.2,0.0066
+2022,4,origin,Pennsylvania,6.3,0.0057
+2022,4,origin,Tennessee,6.3,0.0057
+2022,4,origin,Illinois,5.6,0.0052
+2022,4,origin,Alabama,5.5,0.005
+2022,4,origin,"Ontario, Canada",5.0,0.0046
+2022,4,origin,"Manitoba, Canada",4.9,0.0045
+2022,4,origin,Alaska,4.7,0.0043
+2022,4,origin,Ohio,4.7,0.0043
+2022,4,origin,Hawaii,4.6,0.0042
+2022,4,origin,Mexico,4.4,0.004
+2022,4,origin,Kentucky,4.0,0.0037
+2022,4,origin,North Carolina,4.0,0.0036
+2022,4,origin,Vermont,3.8,0.0035
+2022,4,origin,Iowa,3.6,0.0033
+2022,4,origin,Australia,3.2,0.0029
+2022,4,origin,New Hampshire,3.2,0.0029
+2022,4,origin,Rhode Island,2.9,0.0027
+2022,4,origin,Kansas,2.8,0.0026
+2022,4,origin,New Mexico,2.7,0.0025
+2022,4,origin,Mississippi,2.3,0.0021
+2022,4,origin,Massachusetts,2.2,0.002
+2022,4,origin,Oklahoma,2.1,0.0019
+2022,4,origin,Missouri,1.8,0.0016
+2022,4,origin,Brazil,1.6,0.0014
+2022,4,origin,South Carolina,1.6,0.0014
+2022,4,origin,New Jersey,1.0,0.0009
+2022,4,origin,West Virginia,1.0,0.0009
+2022,4,origin,England,0.8,0.0007
+2022,4,origin,"Washington, D.C.",0.8,0.0007
+2022,4,origin,Maryland,0.6,0.0006
+2022,4,origin,"Quebec, Canada",0.6,0.0006
+2022,4,origin,Arkansas,0.5,0.0004
+2022,4,origin,"New Brunswick, Canada",0.4,0.0004
+2022,4,origin,Virgin Islands,0.5,0.0004
+2022,4,origin,"Yukon Territory, Canada",0.4,0.0004
+2022,4,origin,Connecticut,0.3,0.0003
+2023,1,origin,North Dakota,108.2,0.1421
+2023,1,origin,Wyoming,94.7,0.1243
+2023,1,origin,Idaho,94.3,0.1238
+2023,1,origin,Washington,79.2,0.1039
+2023,1,origin,Minnesota,47.4,0.0622
+2023,1,origin,"Alberta, Canada",39.2,0.0515
+2023,1,origin,"Saskatchewan, Canada",34.5,0.0453
+2023,1,origin,Colorado,30.5,0.04
+2023,1,origin,Oregon,26.0,0.0341
+2023,1,origin,Utah,25.6,0.0336
+2023,1,origin,California,24.8,0.0326
+2023,1,origin,Florida,18.5,0.0243
+2023,1,origin,Texas,16.7,0.0219
+2023,1,origin,South Dakota,14.7,0.0193
+2023,1,origin,Wisconsin,12.7,0.0167
+2023,1,origin,"British Columbia, Canada",9.1,0.0119
+2023,1,origin,Iowa,6.5,0.0085
+2023,1,origin,Alaska,6.0,0.0079
+2023,1,origin,New Mexico,5.6,0.0073
+2023,1,origin,Arizona,5.1,0.0067
+2023,1,origin,Massachusetts,4.2,0.0055
+2023,1,origin,Michigan,4.1,0.0054
+2023,1,origin,Georgia,4.0,0.0053
+2023,1,origin,New Jersey,4.0,0.0053
+2023,1,origin,"Quebec, Canada",4.0,0.0053
+2023,1,origin,Tennessee,4.0,0.0053
+2023,1,origin,Indiana,4.0,0.0052
+2023,1,origin,Nevada,4.0,0.0052
+2023,1,origin,Oklahoma,3.0,0.0039
+2023,1,origin,Louisiana,2.9,0.0038
+2023,1,origin,"Ontario, Canada",2.7,0.0035
+2023,1,origin,Illinois,2.5,0.0032
+2023,1,origin,Ohio,2.3,0.003
+2023,1,origin,Arkansas,2.2,0.0029
+2023,1,origin,Alabama,1.7,0.0023
+2023,1,origin,Pennsylvania,1.7,0.0022
+2023,1,origin,Missouri,1.3,0.0017
+2023,1,origin,New York,1.2,0.0016
+2023,1,origin,South Carolina,1.2,0.0016
+2023,1,origin,Vermont,1.2,0.0016
+2023,1,origin,Virginia,1.1,0.0015
+2023,1,origin,"Manitoba, Canada",1.1,0.0014
+2023,1,origin,Maryland,0.8,0.0011
+2023,1,origin,Nebraska,0.8,0.0011
+2023,1,origin,North Carolina,0.8,0.0011
+2023,1,origin,"Yukon Territory, Canada",0.5,0.0007
+2023,1,origin,Kansas,0.4,0.0005
+2023,1,origin,Maine,0.4,0.0005
+2023,1,origin,Mississippi,0.4,0.0005
+2023,2,origin,Washington,188.3,0.097
+2023,2,origin,Idaho,168.9,0.087
+2023,2,origin,North Dakota,135.8,0.07
+2023,2,origin,California,102.3,0.0527
+2023,2,origin,"Alberta, Canada",101.6,0.0523
+2023,2,origin,Wyoming,91.2,0.047
+2023,2,origin,Minnesota,82.4,0.0425
+2023,2,origin,Texas,80.5,0.0415
+2023,2,origin,Florida,75.2,0.0387
+2023,2,origin,Colorado,73.5,0.0379
+2023,2,origin,Arizona,72.5,0.0373
+2023,2,origin,Utah,66.5,0.0343
+2023,2,origin,Oregon,63.1,0.0325
+2023,2,origin,Michigan,39.0,0.0201
+2023,2,origin,New York,36.0,0.0185
+2023,2,origin,Wisconsin,31.3,0.0161
+2023,2,origin,Georgia,30.5,0.0157
+2023,2,origin,Illinois,30.5,0.0157
+2023,2,origin,Ohio,29.5,0.0152
+2023,2,origin,Nevada,28.9,0.0149
+2023,2,origin,South Dakota,28.3,0.0146
+2023,2,origin,North Carolina,26.7,0.0138
+2023,2,origin,Maryland,25.2,0.013
+2023,2,origin,Tennessee,24.2,0.0125
+2023,2,origin,"British Columbia, Canada",22.0,0.0113
+2023,2,origin,"Saskatchewan, Canada",21.5,0.0111
+2023,2,origin,Pennsylvania,20.8,0.0107
+2023,2,origin,Louisiana,20.7,0.0106
+2023,2,origin,Iowa,19.6,0.0101
+2023,2,origin,New Mexico,18.0,0.0093
+2023,2,origin,Alaska,16.6,0.0085
+2023,2,origin,Missouri,16.3,0.0084
+2023,2,origin,Nebraska,16.3,0.0084
+2023,2,origin,"Ontario, Canada",15.8,0.0081
+2023,2,origin,Virginia,14.1,0.0072
+2023,2,origin,Massachusetts,9.8,0.0051
+2023,2,origin,Mississippi,9.8,0.005
+2023,2,origin,Kansas,8.1,0.0042
+2023,2,origin,"Manitoba, Canada",8.2,0.0042
+2023,2,origin,Alabama,7.7,0.004
+2023,2,origin,South Carolina,7.3,0.0038
+2023,2,origin,Oklahoma,6.7,0.0034
+2023,2,origin,Maine,6.3,0.0033
+2023,2,origin,New Jersey,6.5,0.0033
+2023,2,origin,Indiana,6.2,0.0032
+2023,2,origin,Arkansas,5.9,0.003
+2023,2,origin,"Quebec, Canada",5.0,0.0026
+2023,2,origin,Rhode Island,4.7,0.0024
+2023,2,origin,Connecticut,3.8,0.0019
+2023,2,origin,New Hampshire,3.2,0.0016
+2023,2,origin,Hawaii,2.6,0.0013
+2023,2,origin,West Virginia,2.3,0.0012
+2023,2,origin,Kentucky,1.9,0.001
+2023,2,origin,Delaware,0.6,0.0003
+2023,2,origin,Vermont,0.5,0.0002
+2023,2,origin,"Washington, D.C.",0.4,0.0002
+2023,3,origin,Washington,358.1,0.099
+2023,3,origin,California,277.2,0.0766
+2023,3,origin,Idaho,239.9,0.0663
+2023,3,origin,North Dakota,212.0,0.0586
+2023,3,origin,Texas,197.0,0.0545
+2023,3,origin,Wyoming,195.0,0.0539
+2023,3,origin,Utah,174.5,0.0483
+2023,3,origin,Colorado,156.7,0.0433
+2023,3,origin,Minnesota,156.2,0.0432
+2023,3,origin,Florida,130.3,0.036
+2023,3,origin,"Alberta, Canada",117.4,0.0325
+2023,3,origin,Wisconsin,97.9,0.0271
+2023,3,origin,Oregon,97.0,0.0268
+2023,3,origin,Arizona,81.5,0.0225
+2023,3,origin,Pennsylvania,74.7,0.0207
+2023,3,origin,Illinois,67.0,0.0185
+2023,3,origin,Michigan,65.4,0.0181
+2023,3,origin,Missouri,64.7,0.0179
+2023,3,origin,Nevada,59.1,0.0164
+2023,3,origin,South Dakota,59.3,0.0164
+2023,3,origin,"British Columbia, Canada",52.4,0.0145
+2023,3,origin,New York,50.8,0.014
+2023,3,origin,Tennessee,49.3,0.0136
+2023,3,origin,Virginia,46.7,0.0129
+2023,3,origin,Ohio,43.1,0.0119
+2023,3,origin,Iowa,41.1,0.0114
+2023,3,origin,North Carolina,40.5,0.0112
+2023,3,origin,Indiana,37.4,0.0103
+2023,3,origin,"Saskatchewan, Canada",30.3,0.0084
+2023,3,origin,Nebraska,30.2,0.0083
+2023,3,origin,Georgia,29.1,0.0081
+2023,3,origin,Oklahoma,24.3,0.0067
+2023,3,origin,New Jersey,22.4,0.0062
+2023,3,origin,"Ontario, Canada",22.5,0.0062
+2023,3,origin,Alaska,18.9,0.0052
+2023,3,origin,Maryland,18.9,0.0052
+2023,3,origin,South Carolina,18.6,0.0051
+2023,3,origin,Kentucky,17.6,0.0049
+2023,3,origin,Kansas,16.0,0.0044
+2023,3,origin,Arkansas,15.2,0.0042
+2023,3,origin,New Mexico,13.5,0.0037
+2023,3,origin,Alabama,13.1,0.0036
+2023,3,origin,Massachusetts,12.4,0.0034
+2023,3,origin,Louisiana,11.8,0.0033
+2023,3,origin,"Manitoba, Canada",9.4,0.0026
+2023,3,origin,Mississippi,9.5,0.0026
+2023,3,origin,Maine,6.8,0.0019
+2023,3,origin,Delaware,6.6,0.0018
+2023,3,origin,New Hampshire,6.1,0.0017
+2023,3,origin,Connecticut,5.8,0.0016
+2023,3,origin,Vermont,5.3,0.0015
+2023,3,origin,West Virginia,2.9,0.0008
+2023,3,origin,"Nova Scotia, Canada",2.3,0.0006
+2023,3,origin,"Washington, D.C.",1.4,0.0004
+2023,3,origin,Hawaii,1.0,0.0003
+2023,3,origin,"Quebec, Canada",0.9,0.0003
+2023,3,origin,Rhode Island,0.9,0.0002
+2023,3,origin,"New Brunswick, Canada",0.5,0.0001
+2023,4,origin,Idaho,175.5,0.1367
+2023,4,origin,Washington,151.5,0.118
+2023,4,origin,Wyoming,114.7,0.0894
+2023,4,origin,North Dakota,100.9,0.0786
+2023,4,origin,"Alberta, Canada",82.7,0.0644
+2023,4,origin,Utah,68.7,0.0535
+2023,4,origin,California,56.0,0.0437
+2023,4,origin,Colorado,44.7,0.0348
+2023,4,origin,Minnesota,44.3,0.0345
+2023,4,origin,Texas,35.7,0.0278
+2023,4,origin,Arizona,31.7,0.0247
+2023,4,origin,"British Columbia, Canada",24.1,0.0188
+2023,4,origin,South Dakota,23.8,0.0185
+2023,4,origin,Oregon,22.9,0.0179
+2023,4,origin,Florida,21.6,0.0168
+2023,4,origin,Michigan,19.9,0.0155
+2023,4,origin,Nevada,19.7,0.0154
+2023,4,origin,Georgia,18.2,0.0142
+2023,4,origin,Wisconsin,16.3,0.0127
+2023,4,origin,Illinois,16.2,0.0126
+2023,4,origin,Indiana,15.4,0.012
+2023,4,origin,New York,11.8,0.0092
+2023,4,origin,Alaska,10.7,0.0083
+2023,4,origin,Pennsylvania,10.2,0.008
+2023,4,origin,Ohio,9.8,0.0077
+2023,4,origin,North Carolina,9.7,0.0076
+2023,4,origin,Oklahoma,9.3,0.0072
+2023,4,origin,Louisiana,9.1,0.0071
+2023,4,origin,New Mexico,8.6,0.0067
+2023,4,origin,Iowa,8.0,0.0063
+2023,4,origin,"Ontario, Canada",7.6,0.0059
+2023,4,origin,Missouri,7.3,0.0057
+2023,4,origin,"Saskatchewan, Canada",7.3,0.0057
+2023,4,origin,Massachusetts,6.7,0.0053
+2023,4,origin,South Carolina,6.8,0.0053
+2023,4,origin,Maryland,6.6,0.0051
+2023,4,origin,Nebraska,6.0,0.0047
+2023,4,origin,Virginia,4.9,0.0038
+2023,4,origin,Germany,4.5,0.0035
+2023,4,origin,Alabama,4.1,0.0032
+2023,4,origin,New Jersey,4.0,0.0031
+2023,4,origin,Slovenia,4.0,0.0031
+2023,4,origin,Tennessee,3.9,0.003
+2023,4,origin,Arkansas,2.6,0.002
+2023,4,origin,Connecticut,2.5,0.0019
+2023,4,origin,Mississippi,2.2,0.0017
+2023,4,origin,England,1.6,0.0012
+2023,4,origin,Kansas,1.4,0.0011
+2023,4,origin,Delaware,1.3,0.001
+2023,4,origin,Japan,1.3,0.001
+2023,4,origin,Indonesia,1.0,0.0008
+2023,4,origin,Kentucky,0.9,0.0007
+2023,4,origin,Hawaii,0.7,0.0005
+2023,4,origin,"Manitoba, Canada",0.6,0.0005
+2023,4,origin,New Hampshire,0.5,0.0004
+2023,4,origin,Australia,0.4,0.0003
+2023,4,origin,"Quebec, Canada",0.4,0.0003
+2023,4,origin,Maine,0.2,0.0001
+2023,4,origin,Mexico,0.1,0.0001
+2023,4,origin,"New Brunswick, Canada",0.2,0.0001
+2023,4,origin,New Zealand,0.1,0.0001
+2024,1,origin,North Dakota,109.9,0.1544
+2024,1,origin,Idaho,102.7,0.1443
+2024,1,origin,"Alberta, Canada",89.6,0.1259
+2024,1,origin,Wyoming,73.1,0.1028
+2024,1,origin,Washington,55.8,0.0784
+2024,1,origin,Minnesota,44.0,0.0618
+2024,1,origin,"Saskatchewan, Canada",21.9,0.0308
+2024,1,origin,Texas,20.8,0.0293
+2024,1,origin,Utah,16.8,0.0235
+2024,1,origin,Colorado,15.3,0.0215
+2024,1,origin,Oregon,11.9,0.0168
+2024,1,origin,California,11.9,0.0167
+2024,1,origin,South Dakota,11.6,0.0163
+2024,1,origin,Florida,10.2,0.0143
+2024,1,origin,Wisconsin,8.1,0.0114
+2024,1,origin,Nevada,6.3,0.0089
+2024,1,origin,Alaska,5.6,0.0079
+2024,1,origin,Illinois,5.4,0.0076
+2024,1,origin,Alabama,5.1,0.0072
+2024,1,origin,Arizona,5.1,0.0071
+2024,1,origin,England,4.8,0.0068
+2024,1,origin,Tennessee,4.8,0.0068
+2024,1,origin,Oklahoma,4.8,0.0067
+2024,1,origin,New Hampshire,4.5,0.0063
+2024,1,origin,France,4.0,0.0056
+2024,1,origin,New Zealand,4.0,0.0056
+2024,1,origin,"Manitoba, Canada",3.7,0.0052
+2024,1,origin,New York,3.5,0.0049
+2024,1,origin,"British Columbia, Canada",3.4,0.0048
+2024,1,origin,New Mexico,3.1,0.0044
+2024,1,origin,Georgia,3.0,0.0043
+2024,1,origin,Hawaii,3.0,0.0043
+2024,1,origin,Michigan,3.1,0.0043
+2024,1,origin,Pennsylvania,2.8,0.0039
+2024,1,origin,Arkansas,2.6,0.0037
+2024,1,origin,Mississippi,1.8,0.0025
+2024,1,origin,New Jersey,1.8,0.0025
+2024,1,origin,Australia,1.7,0.0024
+2024,1,origin,Ukraine,1.7,0.0024
+2024,1,origin,Ohio,1.6,0.0023
+2024,1,origin,"Washington, D.C.",1.6,0.0023
+2024,1,origin,Louisiana,1.4,0.002
+2024,1,origin,Kansas,1.4,0.0019
+2024,1,origin,Kentucky,1.4,0.0019
+2024,1,origin,Indiana,1.3,0.0018
+2024,1,origin,"Quebec, Canada",1.2,0.0017
+2024,1,origin,Mexico,0.9,0.0013
+2024,1,origin,Missouri,0.9,0.0013
+2024,1,origin,Nebraska,0.9,0.0013
+2024,1,origin,Rhode Island,0.9,0.0013
+2024,1,origin,Massachusetts,0.8,0.0012
+2024,1,origin,Costa Rica,0.8,0.0011
+2024,1,origin,Maryland,0.8,0.0011
+2024,1,origin,Connecticut,0.5,0.0007
+2024,1,origin,Iowa,0.5,0.0007
+2024,1,origin,Maine,0.5,0.0007
+2024,1,origin,North Carolina,0.5,0.0007
+2024,1,origin,"Ontario, Canada",0.5,0.0007
+2024,2,origin,Washington,259.3,0.1169
+2024,2,origin,Idaho,179.9,0.0811
+2024,2,origin,"Alberta, Canada",159.4,0.0719
+2024,2,origin,North Dakota,157.9,0.0712
+2024,2,origin,Wyoming,133.1,0.06
+2024,2,origin,Utah,109.5,0.0494
+2024,2,origin,California,103.8,0.0468
+2024,2,origin,Colorado,85.0,0.0383
+2024,2,origin,Texas,80.6,0.0363
+2024,2,origin,Minnesota,78.3,0.0353
+2024,2,origin,Florida,66.4,0.0299
+2024,2,origin,Oregon,64.6,0.0291
+2024,2,origin,Arizona,47.9,0.0216
+2024,2,origin,Wisconsin,40.0,0.018
+2024,2,origin,Illinois,36.4,0.0164
+2024,2,origin,Tennessee,36.3,0.0164
+2024,2,origin,Michigan,31.8,0.0143
+2024,2,origin,Virginia,29.1,0.0131
+2024,2,origin,South Dakota,28.1,0.0127
+2024,2,origin,New York,27.8,0.0125
+2024,2,origin,"Saskatchewan, Canada",24.7,0.0111
+2024,2,origin,Ohio,23.9,0.0108
+2024,2,origin,Oklahoma,21.6,0.0097
+2024,2,origin,Pennsylvania,20.3,0.0092
+2024,2,origin,"British Columbia, Canada",19.1,0.0086
+2024,2,origin,Indiana,18.9,0.0085
+2024,2,origin,Missouri,18.4,0.0083
+2024,2,origin,North Carolina,18.1,0.0082
+2024,2,origin,Iowa,18.0,0.0081
+2024,2,origin,Georgia,17.8,0.008
+2024,2,origin,Nevada,16.0,0.0072
+2024,2,origin,Alaska,15.8,0.0071
+2024,2,origin,South Carolina,15.2,0.0068
+2024,2,origin,"Ontario, Canada",12.9,0.0058
+2024,2,origin,Louisiana,12.4,0.0056
+2024,2,origin,Vermont,12.0,0.0054
+2024,2,origin,"Manitoba, Canada",11.6,0.0052
+2024,2,origin,Kansas,11.3,0.0051
+2024,2,origin,Arkansas,10.8,0.0048
+2024,2,origin,"Quebec, Canada",10.2,0.0046
+2024,2,origin,Nebraska,10.0,0.0045
+2024,2,origin,Alabama,9.5,0.0043
+2024,2,origin,New Jersey,9.4,0.0042
+2024,2,origin,England,8.4,0.0038
+2024,2,origin,New Mexico,8.0,0.0036
+2024,2,origin,Maryland,7.0,0.0032
+2024,2,origin,Netherlands,7.1,0.0032
+2024,2,origin,Kentucky,5.9,0.0027
+2024,2,origin,Maine,5.9,0.0027
+2024,2,origin,Germany,5.3,0.0024
+2024,2,origin,New Hampshire,5.3,0.0024
+2024,2,origin,Delaware,4.9,0.0022
+2024,2,origin,Italy,4.7,0.0021
+2024,2,origin,Austria,4.0,0.0018
+2024,2,origin,Brazil,4.0,0.0018
+2024,2,origin,Mexico,4.0,0.0018
+2024,2,origin,Connecticut,3.5,0.0016
+2024,2,origin,Massachusetts,3.2,0.0015
+2024,2,origin,New Zealand,3.1,0.0014
+2024,2,origin,Poland,3.1,0.0014
+2024,2,origin,Rhode Island,3.2,0.0014
+2024,2,origin,Mississippi,2.2,0.001
+2024,2,origin,South Africa,2.1,0.001
+2024,2,origin,Holland,1.7,0.0008
+2024,2,origin,West Virginia,1.7,0.0008
+2024,2,origin,Japan,1.0,0.0005
+2024,2,origin,Switzerland,0.9,0.0004
+2024,2,origin,Australia,0.7,0.0003
+2024,2,origin,Hawaii,0.7,0.0003
+2024,2,origin,"Nova Scotia, Canada",0.7,0.0003
+2024,2,origin,Spain,0.7,0.0003
+2024,2,origin,"Washington, D.C.",0.6,0.0003
+2024,2,origin,Belgium,0.4,0.0002
+2024,2,origin,Philippines,0.4,0.0002
+2024,2,origin,Thailand,0.0,0.0
+2024,3,origin,Washington,319.1,0.0938
+2024,3,origin,Idaho,317.3,0.0932
+2024,3,origin,California,226.8,0.0667
+2024,3,origin,Texas,219.1,0.0644
+2024,3,origin,Wyoming,155.6,0.0457
+2024,3,origin,Colorado,151.1,0.0444
+2024,3,origin,North Dakota,148.8,0.0437
+2024,3,origin,Utah,146.3,0.043
+2024,3,origin,"Alberta, Canada",137.7,0.0405
+2024,3,origin,Minnesota,127.7,0.0375
+2024,3,origin,Oregon,112.1,0.0329
+2024,3,origin,Florida,93.4,0.0275
+2024,3,origin,Wisconsin,89.6,0.0263
+2024,3,origin,Arizona,82.9,0.0244
+2024,3,origin,Illinois,61.5,0.0181
+2024,3,origin,Missouri,57.2,0.0168
+2024,3,origin,Nevada,48.2,0.0142
+2024,3,origin,North Carolina,47.8,0.014
+2024,3,origin,New York,41.3,0.0121
+2024,3,origin,Michigan,38.3,0.0113
+2024,3,origin,Pennsylvania,38.5,0.0113
+2024,3,origin,South Dakota,38.2,0.0112
+2024,3,origin,"British Columbia, Canada",37.6,0.011
+2024,3,origin,Indiana,36.5,0.0107
+2024,3,origin,Ohio,34.3,0.0101
+2024,3,origin,Iowa,34.0,0.01
+2024,3,origin,Tennessee,29.7,0.0087
+2024,3,origin,Oklahoma,28.9,0.0085
+2024,3,origin,Alabama,27.4,0.0081
+2024,3,origin,New Mexico,25.8,0.0076
+2024,3,origin,Kentucky,25.4,0.0075
+2024,3,origin,"Manitoba, Canada",24.9,0.0073
+2024,3,origin,Massachusetts,24.5,0.0072
+2024,3,origin,Nebraska,24.3,0.0071
+2024,3,origin,Louisiana,23.8,0.007
+2024,3,origin,Maryland,23.8,0.007
+2024,3,origin,Maine,22.3,0.0065
+2024,3,origin,"Saskatchewan, Canada",21.6,0.0063
+2024,3,origin,"Ontario, Canada",19.2,0.0056
+2024,3,origin,Georgia,18.6,0.0055
+2024,3,origin,Kansas,17.6,0.0052
+2024,3,origin,Virginia,17.3,0.0051
+2024,3,origin,Germany,17.1,0.005
+2024,3,origin,Alaska,16.8,0.0049
+2024,3,origin,Netherlands,14.5,0.0043
+2024,3,origin,South Carolina,12.7,0.0037
+2024,3,origin,Delaware,9.2,0.0027
+2024,3,origin,Switzerland,9.2,0.0027
+2024,3,origin,Australia,9.0,0.0026
+2024,3,origin,Czech Republic,8.2,0.0024
+2024,3,origin,Arkansas,7.7,0.0023
+2024,3,origin,New Jersey,7.8,0.0023
+2024,3,origin,Connecticut,6.5,0.0019
+2024,3,origin,West Virginia,6.3,0.0018
+2024,3,origin,France,5.5,0.0016
+2024,3,origin,England,4.8,0.0014
+2024,3,origin,New Hampshire,4.3,0.0013
+2024,3,origin,Rhode Island,4.4,0.0013
+2024,3,origin,Vermont,4.4,0.0013
+2024,3,origin,Mississippi,4.0,0.0012
+2024,3,origin,Chile,3.7,0.0011
+2024,3,origin,Poland,3.7,0.0011
+2024,3,origin,Russia,3.7,0.0011
+2024,3,origin,Slovenia,3.7,0.0011
+2024,3,origin,"Washington, D.C.",3.8,0.0011
+2024,3,origin,Mexico,2.7,0.0008
+2024,3,origin,Spain,2.7,0.0008
+2024,3,origin,Hawaii,2.4,0.0007
+2024,3,origin,"Quebec, Canada",2.0,0.0006
+2024,3,origin,Japan,1.3,0.0004
+2024,3,origin,Austria,0.6,0.0002
+2024,3,origin,Holland,0.6,0.0002
+2024,3,origin,Israel,0.6,0.0002
+2024,3,origin,Italy,0.6,0.0002
+2024,3,origin,South Africa,0.8,0.0002
+2024,3,origin,Denmark,0.3,0.0001
+2024,3,origin,"Northwest Territories, Canada",0.3,0.0001
+2024,3,origin,"Nova Scotia, Canada",0.3,0.0001
+2024,3,origin,"Yukon Territory, Canada",0.4,0.0001
+2024,4,origin,Washington,211.8,0.1335
+2024,4,origin,Idaho,156.8,0.0989
+2024,4,origin,North Dakota,144.6,0.0912
+2024,4,origin,Wyoming,144.5,0.0911
+2024,4,origin,California,77.7,0.049
+2024,4,origin,Colorado,68.8,0.0434
+2024,4,origin,"Alberta, Canada",67.4,0.0425
+2024,4,origin,Texas,64.8,0.0409
+2024,4,origin,Minnesota,64.8,0.0408
+2024,4,origin,Utah,64.7,0.0408
+2024,4,origin,Oregon,41.6,0.0262
+2024,4,origin,Florida,34.2,0.0216
+2024,4,origin,Arizona,31.5,0.0199
+2024,4,origin,South Dakota,31.0,0.0195
+2024,4,origin,Wisconsin,29.5,0.0186
+2024,4,origin,Illinois,28.9,0.0183
+2024,4,origin,Nevada,19.9,0.0125
+2024,4,origin,Ohio,19.8,0.0125
+2024,4,origin,"British Columbia, Canada",17.7,0.0111
+2024,4,origin,Alaska,16.5,0.0104
+2024,4,origin,New York,16.1,0.0102
+2024,4,origin,Georgia,15.7,0.0099
+2024,4,origin,Michigan,14.9,0.0094
+2024,4,origin,Tennessee,14.4,0.0091
+2024,4,origin,"Saskatchewan, Canada",13.9,0.0087
+2024,4,origin,Iowa,12.7,0.008
+2024,4,origin,North Carolina,12.8,0.008
+2024,4,origin,Pennsylvania,11.4,0.0072
+2024,4,origin,Massachusetts,9.6,0.006
+2024,4,origin,Nebraska,9.3,0.0059
+2024,4,origin,Missouri,7.9,0.005
+2024,4,origin,Indiana,7.7,0.0049
+2024,4,origin,Kentucky,7.8,0.0049
+2024,4,origin,New Mexico,7.7,0.0049
+2024,4,origin,Louisiana,7.6,0.0048
+2024,4,origin,"Manitoba, Canada",6.8,0.0043
+2024,4,origin,Alabama,6.6,0.0042
+2024,4,origin,Oklahoma,6.5,0.0041
+2024,4,origin,Virginia,6.1,0.0038
+2024,4,origin,New Jersey,5.3,0.0034
+2024,4,origin,Kansas,5.2,0.0033
+2024,4,origin,France,4.0,0.0025
+2024,4,origin,Netherlands,4.0,0.0025
+2024,4,origin,Connecticut,3.8,0.0024
+2024,4,origin,"Washington, D.C.",3.5,0.0022
+2024,4,origin,South Carolina,3.4,0.0021
+2024,4,origin,Mississippi,3.2,0.002
+2024,4,origin,Maryland,2.8,0.0018
+2024,4,origin,Germany,2.7,0.0017
+2024,4,origin,England,2.2,0.0014
+2024,4,origin,Vermont,2.1,0.0013
+2024,4,origin,"Ontario, Canada",2.0,0.0012
+2024,4,origin,Hawaii,1.7,0.0011
+2024,4,origin,Japan,1.8,0.0011
+2024,4,origin,Arkansas,1.3,0.0008
+2024,4,origin,Denmark,1.1,0.0007
+2024,4,origin,Mexico,1.1,0.0007
+2024,4,origin,Philippines,1.1,0.0007
+2024,4,origin,"Quebec, Canada",0.6,0.0004
+2024,4,origin,Thailand,0.7,0.0004
+2024,4,origin,Maine,0.5,0.0003
+2024,4,origin,"Northwest Territories, Canada",0.4,0.0003
+2025,1,origin,Idaho,125.8,0.1654
+2025,1,origin,Wyoming,105.9,0.1393
+2025,1,origin,North Dakota,96.3,0.1266
+2025,1,origin,Washington,89.1,0.1172
+2025,1,origin,"Alberta, Canada",42.9,0.0564
+2025,1,origin,Colorado,24.6,0.0323
+2025,1,origin,Minnesota,22.5,0.0296
+2025,1,origin,Utah,21.8,0.0286
+2025,1,origin,South Dakota,14.7,0.0193
+2025,1,origin,Oregon,14.6,0.0192
+2025,1,origin,"Saskatchewan, Canada",14.0,0.0185
+2025,1,origin,California,14.0,0.0184
+2025,1,origin,Alaska,13.6,0.0179
+2025,1,origin,Arizona,13.6,0.0179
+2025,1,origin,Virginia,12.9,0.0169
+2025,1,origin,Texas,10.5,0.0138
+2025,1,origin,Wisconsin,10.0,0.0132
+2025,1,origin,"British Columbia, Canada",9.8,0.0128
+2025,1,origin,New York,6.9,0.009
+2025,1,origin,Missouri,6.6,0.0087
+2025,1,origin,Georgia,5.9,0.0078
+2025,1,origin,New Jersey,5.7,0.0075
+2025,1,origin,Nebraska,5.5,0.0072
+2025,1,origin,Florida,5.2,0.0069
+2025,1,origin,Louisiana,5.1,0.0067
+2025,1,origin,Ohio,5.0,0.0066
+2025,1,origin,"Manitoba, Canada",4.9,0.0064
+2025,1,origin,Rhode Island,4.6,0.0061
+2025,1,origin,Nevada,3.9,0.0051
+2025,1,origin,Pennsylvania,3.8,0.005
+2025,1,origin,Iowa,3.3,0.0043
+2025,1,origin,Illinois,3.2,0.0042
+2025,1,origin,Michigan,3.2,0.0042
+2025,1,origin,Kansas,2.9,0.0038
+2025,1,origin,Mongolia,2.9,0.0038
+2025,1,origin,Vermont,2.8,0.0037
+2025,1,origin,Oklahoma,2.7,0.0036
+2025,1,origin,Indiana,2.4,0.0032
+2025,1,origin,Kentucky,2.3,0.0031
+2025,1,origin,North Carolina,1.9,0.0025
+2025,1,origin,Connecticut,1.4,0.0019
+2025,1,origin,Tennessee,1.4,0.0018
+2025,1,origin,New Mexico,1.1,0.0015
+2025,1,origin,"Ontario, Canada",1.2,0.0015
+2025,1,origin,"Prince Edward Island, Canada",1.2,0.0015
+2025,1,origin,Alabama,0.8,0.001
+2025,1,origin,Hawaii,0.7,0.001
+2025,1,origin,Thailand,0.7,0.001
+2025,1,origin,Australia,0.6,0.0008
+2025,1,origin,Mississippi,0.6,0.0008
+2025,1,origin,West Virginia,0.5,0.0007
+2025,1,origin,Maryland,0.5,0.0006
+2025,1,origin,England,0.4,0.0005
+2025,1,origin,"New Brunswick, Canada",0.4,0.0005
+2025,1,origin,"Quebec, Canada",0.4,0.0005
+2025,1,origin,Arkansas,0.2,0.0003
+2025,1,origin,Maine,0.2,0.0003
+2025,1,origin,Mexico,0.2,0.0003
+2025,1,origin,Northern Mariana Islands,0.2,0.0003
+2025,1,origin,South Carolina,0.2,0.0003
+2025,2,origin,Washington,226.9,0.1351
+2025,2,origin,North Dakota,177.0,0.1053
+2025,2,origin,Idaho,176.7,0.1052
+2025,2,origin,Wyoming,121.7,0.0724
+2025,2,origin,Minnesota,81.6,0.0485
+2025,2,origin,Utah,75.4,0.0449
+2025,2,origin,California,69.3,0.0412
+2025,2,origin,Colorado,56.4,0.0335
+2025,2,origin,"Alberta, Canada",54.7,0.0325
+2025,2,origin,Arizona,43.5,0.0259
+2025,2,origin,Texas,43.6,0.0259
+2025,2,origin,Oregon,40.2,0.024
+2025,2,origin,Wisconsin,37.1,0.0221
+2025,2,origin,Nevada,30.8,0.0183
+2025,2,origin,Florida,28.5,0.0169
+2025,2,origin,Ohio,28.1,0.0167
+2025,2,origin,South Dakota,23.6,0.0141
+2025,2,origin,Illinois,22.4,0.0133
+2025,2,origin,Michigan,20.3,0.0121
+2025,2,origin,Alaska,20.0,0.0119
+2025,2,origin,New York,19.0,0.0113
+2025,2,origin,Georgia,18.6,0.0111
+2025,2,origin,North Carolina,18.2,0.0109
+2025,2,origin,"Saskatchewan, Canada",17.9,0.0107
+2025,2,origin,Iowa,16.9,0.01
+2025,2,origin,Virginia,16.5,0.0098
+2025,2,origin,Kansas,15.3,0.0091
+2025,2,origin,Tennessee,15.0,0.0089
+2025,2,origin,"British Columbia, Canada",12.2,0.0072
+2025,2,origin,Pennsylvania,11.5,0.0068
+2025,2,origin,Kentucky,10.4,0.0062
+2025,2,origin,Indiana,9.0,0.0053
+2025,2,origin,Maryland,8.4,0.005
+2025,2,origin,Missouri,7.5,0.0045
+2025,2,origin,South Carolina,7.3,0.0044
+2025,2,origin,Mississippi,7.1,0.0042
+2025,2,origin,New Mexico,6.6,0.004
+2025,2,origin,Germany,6.5,0.0039
+2025,2,origin,Hawaii,6.2,0.0037
+2025,2,origin,Nebraska,5.5,0.0033
+2025,2,origin,New Hampshire,5.3,0.0032
+2025,2,origin,Massachusetts,5.2,0.0031
+2025,2,origin,Louisiana,4.7,0.0028
+2025,2,origin,Vermont,4.8,0.0028
+2025,2,origin,Oklahoma,4.6,0.0027
+2025,2,origin,"Quebec, Canada",4.3,0.0026
+2025,2,origin,France,4.2,0.0025
+2025,2,origin,Arkansas,4.0,0.0024
+2025,2,origin,Netherlands,4.0,0.0024
+2025,2,origin,Mexico,3.7,0.0022
+2025,2,origin,"Manitoba, Canada",3.2,0.0019
+2025,2,origin,Switzerland,2.8,0.0017
+2025,2,origin,New Zealand,2.7,0.0016
+2025,2,origin,Connecticut,2.6,0.0015
+2025,2,origin,West Virginia,1.8,0.0011
+2025,2,origin,Maine,1.7,0.001
+2025,2,origin,New Jersey,1.5,0.0009
+2025,2,origin,Alabama,1.3,0.0008
+2025,2,origin,"Washington, D.C.",1.1,0.0007
+2025,2,origin,Taiwan,1.0,0.0006
+2025,2,origin,Belgium,0.4,0.0003
+2025,2,origin,Hungary,0.4,0.0003
+2025,2,origin,Japan,0.4,0.0003
+2025,2,origin,Virgin Islands,0.5,0.0003
+2025,2,origin,England,0.3,0.0002
+2025,3,origin,Washington,345.2,0.114
+2025,3,origin,Idaho,262.1,0.0866
+2025,3,origin,North Dakota,223.0,0.0736
+2025,3,origin,Utah,173.1,0.0572
+2025,3,origin,California,167.6,0.0553
+2025,3,origin,Colorado,141.7,0.0468
+2025,3,origin,Wyoming,129.4,0.0427
+2025,3,origin,Texas,128.5,0.0424
+2025,3,origin,Minnesota,126.4,0.0417
+2025,3,origin,Oregon,92.5,0.0305
+2025,3,origin,Arizona,91.2,0.0301
+2025,3,origin,Wisconsin,74.6,0.0246
+2025,3,origin,"Alberta, Canada",70.8,0.0234
+2025,3,origin,Florida,64.0,0.0211
+2025,3,origin,Michigan,56.6,0.0187
+2025,3,origin,North Carolina,52.1,0.0172
+2025,3,origin,Illinois,50.8,0.0168
+2025,3,origin,Ohio,47.4,0.0157
+2025,3,origin,Pennsylvania,45.0,0.0149
+2025,3,origin,South Dakota,40.4,0.0133
+2025,3,origin,Virginia,40.1,0.0132
+2025,3,origin,Nevada,39.6,0.0131
+2025,3,origin,Georgia,33.2,0.011
+2025,3,origin,Missouri,33.2,0.011
+2025,3,origin,Tennessee,31.8,0.0105
+2025,3,origin,Nebraska,28.5,0.0094
+2025,3,origin,Iowa,27.2,0.009
+2025,3,origin,Maryland,24.5,0.0081
+2025,3,origin,Massachusetts,23.4,0.0077
+2025,3,origin,"British Columbia, Canada",21.1,0.007
+2025,3,origin,Arkansas,19.5,0.0064
+2025,3,origin,Oklahoma,18.5,0.0061
+2025,3,origin,"Saskatchewan, Canada",18.3,0.006
+2025,3,origin,Vermont,17.5,0.0058
+2025,3,origin,Indiana,16.8,0.0055
+2025,3,origin,South Carolina,15.2,0.005
+2025,3,origin,New Jersey,14.4,0.0048
+2025,3,origin,New Mexico,13.2,0.0044
+2025,3,origin,New Hampshire,13.0,0.0043
+2025,3,origin,Kentucky,12.7,0.0042
+2025,3,origin,Kansas,12.1,0.004
+2025,3,origin,England,11.5,0.0038
+2025,3,origin,"Ontario, Canada",11.1,0.0037
+2025,3,origin,Connecticut,11.0,0.0036
+2025,3,origin,Alaska,10.6,0.0035
+2025,3,origin,New York,10.3,0.0034
+2025,3,origin,"Manitoba, Canada",9.0,0.003
+2025,3,origin,Alabama,7.5,0.0025
+2025,3,origin,West Virginia,6.5,0.0022
+2025,3,origin,Germany,6.4,0.0021
+2025,3,origin,Britain,6.1,0.002
+2025,3,origin,Mississippi,6.0,0.002
+2025,3,origin,Louisiana,5.7,0.0019
+2025,3,origin,"Quebec, Canada",5.9,0.0019
+2025,3,origin,"Washington, D.C.",5.4,0.0018
+2025,3,origin,Maine,4.8,0.0016
+2025,3,origin,Delaware,4.4,0.0015
+2025,3,origin,Poland,4.5,0.0015
+2025,3,origin,Kenya,4.3,0.0014
+2025,3,origin,Costa Rica,4.0,0.0013
+2025,3,origin,France,4.0,0.0013
+2025,3,origin,Israel,4.0,0.0013
+2025,3,origin,Italy,4.0,0.0013
+2025,3,origin,Slovenia,4.0,0.0013
+2025,3,origin,Australia,3.7,0.0012
+2025,3,origin,Denmark,2.7,0.0009
+2025,3,origin,Hawaii,2.8,0.0009
+2025,3,origin,Netherlands,2.7,0.0009
+2025,3,origin,Ireland,2.1,0.0007
+2025,3,origin,Kosovo,2.1,0.0007
+2025,3,origin,New Zealand,1.9,0.0006
+2025,3,origin,Rhode Island,1.0,0.0003
+2025,3,origin,Mexico,0.5,0.0002
+2025,3,origin,"Nova Scotia, Canada",0.5,0.0002
+2025,3,origin,Singapore,0.5,0.0002
+2025,3,origin,"Northwest Territories, Canada",0.3,0.0001
+2025,3,origin,Switzerland,0.3,0.0001
+2025,4,origin,Idaho,174.8,0.143
+2025,4,origin,Washington,165.3,0.1352
+2025,4,origin,North Dakota,146.7,0.12
+2025,4,origin,Wyoming,76.1,0.0622
+2025,4,origin,Utah,64.5,0.0528
+2025,4,origin,Minnesota,63.1,0.0516
+2025,4,origin,Colorado,43.6,0.0357
+2025,4,origin,California,40.5,0.0332
+2025,4,origin,"Alberta, Canada",39.0,0.0319
+2025,4,origin,Texas,37.3,0.0305
+2025,4,origin,Oregon,34.9,0.0285
+2025,4,origin,Wisconsin,32.7,0.0268
+2025,4,origin,South Dakota,30.6,0.0251
+2025,4,origin,Arizona,27.2,0.0223
+2025,4,origin,Illinois,23.3,0.019
+2025,4,origin,Florida,21.1,0.0173
+2025,4,origin,Michigan,18.4,0.0151
+2025,4,origin,"British Columbia, Canada",16.9,0.0138
+2025,4,origin,Pennsylvania,15.1,0.0124
+2025,4,origin,Alaska,13.7,0.0112
+2025,4,origin,Iowa,11.6,0.0095
+2025,4,origin,New Mexico,11.4,0.0093
+2025,4,origin,New York,9.1,0.0074
+2025,4,origin,Nevada,7.5,0.0062
+2025,4,origin,Louisiana,7.4,0.006
+2025,4,origin,North Carolina,7.3,0.006
+2025,4,origin,Oklahoma,6.1,0.005
+2025,4,origin,"Saskatchewan, Canada",6.0,0.0049
+2025,4,origin,Massachusetts,5.8,0.0048
+2025,4,origin,Georgia,5.6,0.0046
+2025,4,origin,Germany,5.3,0.0044
+2025,4,origin,Missouri,5.4,0.0044
+2025,4,origin,Nebraska,4.8,0.0039
+2025,4,origin,Hawaii,4.0,0.0033
+2025,4,origin,New Hampshire,4.0,0.0032
+2025,4,origin,Virginia,3.9,0.0032
+2025,4,origin,Indiana,3.8,0.0031
+2025,4,origin,Ohio,3.6,0.003
+2025,4,origin,Mississippi,2.7,0.0022
+2025,4,origin,South Carolina,2.7,0.0022
+2025,4,origin,Kansas,1.8,0.0015
+2025,4,origin,Maryland,1.4,0.0011
+2025,4,origin,Singapore,1.3,0.0011
+2025,4,origin,Switzerland,1.3,0.0011
+2025,4,origin,Vermont,1.3,0.0011
+2025,4,origin,Alabama,1.2,0.001
+2025,4,origin,Tennessee,1.3,0.001
+2025,4,origin,Connecticut,1.0,0.0008
+2025,4,origin,"Manitoba, Canada",1.0,0.0008
+2025,4,origin,Israel,0.8,0.0006
+2025,4,origin,Mexico,0.7,0.0006
+2025,4,origin,New Jersey,0.6,0.0005
+2025,4,origin,"Ontario, Canada",0.7,0.0005
+2025,4,origin,"Yukon Territory, Canada",0.7,0.0005
+2025,4,origin,Arkansas,0.5,0.0004
+2025,4,origin,Australia,0.5,0.0004
+2025,4,origin,China,0.5,0.0004
+2025,4,origin,England,0.5,0.0004
+2025,4,origin,France,0.5,0.0004
+2025,4,origin,Russia,0.5,0.0004
+2025,4,origin,"Washington, D.C.",0.5,0.0004
+2025,4,origin,West Virginia,0.5,0.0004
+2025,4,origin,"Quebec, Canada",0.4,0.0003

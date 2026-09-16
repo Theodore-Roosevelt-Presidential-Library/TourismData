@@ -198,6 +198,59 @@ async function main() {
   })), baseLayout({ legend: { orientation: "h", y: -0.18, x: 0 } }), CONFIG);
   table("c4", ["Month", ...yrs], MON.map((m, i) => [m, ...yrs.map(y => nd.years[y][i])]));
 
+  // ---- Chart 5: Billings County taxable sales
+  if (d.nd_tax && d.nd_tax.counties && d.nd_tax.counties.Billings) {
+    const b = d.nd_tax.counties.Billings;
+    card("c5", "Billings County taxable sales, by quarter",
+      `Total taxable sales and purchases reported to the ND Tax Commissioner. Billings County is mostly Medora commerce, so this is the closest public proxy for visitor spending in town. Q3 (Jul–Sep) is the season; the first post-opening quarter posts in December. Through ${d.nd_tax.latest_quarter}.`);
+    const q3 = b.labels.map((l, i) => l.endsWith("Q3") ? i : -1).filter(i => i >= 0);
+    Plotly.newPlot("c5", [{
+      x: b.labels, y: b.total, mode: "lines+markers", name: "Total",
+      line: { color: css("--s1"), width: 2 }, marker: { size: 7, line: { color: css("--surface"), width: 2 } },
+      hovertemplate: "$%{y:,.0f}",
+    }], baseLayout({
+      showlegend: false, yaxis: { tickprefix: "$", tickformat: ",~s", gridcolor: css("--grid"), zeroline: false, tickfont: { color: css("--muted") } },
+      xaxis: { gridcolor: css("--grid"), linecolor: css("--axis"), tickfont: { color: css("--muted") }, tickvals: q3.map(i => b.labels[i]), ticktext: q3.map(i => b.labels[i].slice(0, 4)) },
+    }), CONFIG);
+    table("c5", ["Quarter", "Taxable sales", "Total (sales + purchases)"], b.labels.map((l, i) => [l, b.taxable_sales[i], b.total[i]]).reverse());
+  }
+
+  // ---- Chart 6: Montana nonresident survey — the ND corridor
+  if (d.mt && d.mt.i94_from_nd) {
+    card("c6", "Montana nonresident visitors: the North Dakota corridor",
+      `Share of Montana's nonresident visitors who entered at Wibaux/Beach (I-94 from North Dakota) and share who live in North Dakota, by quarter, weighted. Source: ITRR Nonresident Travel Survey, University of Montana. North Dakota ranks #${d.mt.top_origins_latest_year.rows.findIndex(r => r.origin === "North Dakota") + 1} among origin states in ${d.mt.top_origins_latest_year.year}.`);
+    Plotly.newPlot("c6", [
+      { x: d.mt.i94_from_nd.labels, y: d.mt.i94_from_nd.share, mode: "lines+markers", name: "Entered via I-94 from ND", line: { color: css("--s1"), width: 2.5 }, marker: { size: 7, line: { color: css("--surface"), width: 2 } }, hovertemplate: "%{y:.1f}%" },
+      { x: d.mt.origin_nd.labels, y: d.mt.origin_nd.share, mode: "lines+markers", name: "ND residents", line: { color: css("--s2"), width: 2 }, marker: { size: 7, line: { color: css("--surface"), width: 2 } }, hovertemplate: "%{y:.1f}%" },
+    ], baseLayout({ yaxis: { ticksuffix: "%", rangemode: "tozero", gridcolor: css("--grid"), zeroline: false, tickfont: { color: css("--muted") } } }), CONFIG);
+    table("c6", ["Quarter", "Via I-94 from ND", "ND residents"], d.mt.i94_from_nd.labels.map((l, i) => [l, d.mt.i94_from_nd.share[i].toFixed(1) + "%", (d.mt.origin_nd.share[i] ?? 0).toFixed(1) + "%"]).reverse());
+  }
+
+  // ---- Chart 7: Montana nonresident visitation, monthly
+  if (d.mt && d.mt.visitation) {
+    card("c7", "Montana nonresident visitation, monthly",
+      `ITRR's estimate of nonresident visitors to Montana, ${d.mt.visitation.labels[0].slice(0, 4)} to ${d.mt.latest_month}. Updated annually with the survey; 2026 will post in 2027.`);
+    Plotly.newPlot("c7", [{
+      x: d.mt.visitation.labels, y: d.mt.visitation.visits, mode: "lines", name: "Nonresident visits",
+      line: { color: css("--s1"), width: 2 }, hovertemplate: "%{y:,}",
+    }], baseLayout({ showlegend: false }), CONFIG);
+    table("c7", ["Month", "Visits"], d.mt.visitation.labels.map((l, i) => [l, d.mt.visitation.visits[i]]).reverse().slice(0, 36));
+  }
+
+  // ---- Chart 8: Wyoming county visitor spending, indexed
+  if (d.wy && d.wy.counties && Object.keys(d.wy.counties).length) {
+    const names = Object.keys(d.wy.counties);
+    card("c8", "Wyoming gateway counties: visitor spending, 2019 = 100",
+      `Direct visitor spending by county, indexed to 2019 so counties of different size share one axis (Park County is ~15× Crook). Crook = Devils Tower; Park = Cody and Yellowstone's east gate. Source: Dean Runyan Associates for the Wyoming Office of Tourism, nominal dollars.`);
+    Plotly.newPlot("c8", names.map((n, i) => ({
+      x: d.wy.counties[n].years, y: d.wy.counties[n].index_2019, mode: "lines+markers", name: n,
+      line: { color: css(SLOT[i]), width: 2 }, marker: { size: 6, line: { color: css("--surface"), width: 2 } },
+      customdata: d.wy.counties[n].visitor_spend_m, hovertemplate: "%{y:.1f} ($%{customdata:.1f}M)",
+    })), baseLayout({ yaxis: { gridcolor: css("--grid"), zeroline: false, tickfont: { color: css("--muted") } }, xaxis: { dtick: 1, gridcolor: css("--grid"), linecolor: css("--axis"), tickfont: { color: css("--muted") } } }), CONFIG);
+    const yrs8 = d.wy.counties[names[0]].years;
+    table("c8", ["Year", ...names.map(n => n + " ($M)")], yrs8.map((y, i) => [y, ...names.map(n => d.wy.counties[n].visitor_spend_m[i].toFixed(1))]).reverse());
+  }
+
   // ---- Airports table
   const el = document.createElement("section");
   el.className = "card";
@@ -210,7 +263,7 @@ async function main() {
   const m = d.manifest;
   document.getElementById("footer").innerHTML =
     `Built ${d.built_at.replace("T", " ").slice(0, 16)} UTC. NPS fetched ${m.nps_monthly.fetched_at.slice(0, 10)}; BTS border ${m.bts_border_monthly.fetched_at.slice(0, 10)}. ` +
-    `Data: <a href="data/nps_monthly.csv">nps_monthly.csv</a> · <a href="data/bts_border_monthly.csv">bts_border_monthly.csv</a> · <a href="data/bts_airports_annual.csv">bts_airports_annual.csv</a> · <a href="data/dashboard.json">dashboard.json</a>. ` +
+    `Data: <a href="data/nps_monthly.csv">nps_monthly.csv</a> · <a href="data/bts_border_monthly.csv">bts_border_monthly.csv</a> · <a href="data/bts_airports_annual.csv">bts_airports_annual.csv</a> · <a href="data/nd_taxable_sales_quarterly.csv">nd_taxable_sales_quarterly.csv</a> · <a href="data/mt_nonresident_visitation_monthly.csv">mt_nonresident_visitation_monthly.csv</a> · <a href="data/mt_nonresident_survey_shares.csv">mt_nonresident_survey_shares.csv</a> · <a href="data/wy_county_travel_impacts_annual.csv">wy_county_travel_impacts_annual.csv</a> · <a href="data/dashboard.json">dashboard.json</a>. ` +
     `NPS monthly counts are preliminary until the annual close. Theodore Roosevelt Presidential Library.`;
 }
 main().catch(e => { document.getElementById("subtitle").textContent = "Could not load data: " + e; });

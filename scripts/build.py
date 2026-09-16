@@ -97,6 +97,71 @@ def border_block() -> dict:
     return out
 
 
+def nd_tax_block() -> dict:
+    p = DATA / "nd_taxable_sales_quarterly.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    out = {"latest_quarter": None, "counties": {}}
+    last = df.sort_values(["year", "quarter"]).iloc[-1]
+    out["latest_quarter"] = f"{int(last.year)} Q{int(last.quarter)}"
+    for c in CONFIG.get("nd_focus_counties", []):
+        g = df[df["county"] == c].sort_values(["year", "quarter"])
+        if g.empty:
+            continue
+        out["counties"][c] = {
+            "labels": [f"{int(r.year)} Q{int(r.quarter)}" for r in g.itertuples()],
+            "total": [int(v) for v in g["total"]],
+            "taxable_sales": [int(v) for v in g["taxable_sales"]],
+        }
+    return out
+
+
+def mt_block() -> dict:
+    p = DATA / "mt_nonresident_visitation_monthly.csv"
+    if not p.exists():
+        return {}
+    v = pd.read_csv(p)
+    v = v[v["year"] >= 2015].sort_values(["year", "month"])
+    out = {
+        "visitation": {"labels": [f"{int(r.year)}-{int(r.month):02d}" for r in v.itertuples()], "visits": [int(x) for x in v["visits"]]},
+        "latest_month": f"{int(v.iloc[-1].year)}-{int(v.iloc[-1].month):02d}",
+    }
+    sp = DATA / "mt_nonresident_survey_shares.csv"
+    if sp.exists():
+        s = pd.read_csv(sp)
+        def series(dim, value):
+            g = s[(s["dimension"] == dim) & (s["value"] == value)].sort_values(["year", "quarter"])
+            return {"labels": [f"{int(r.year)} Q{int(r.quarter)}" for r in g.itertuples()], "share": [round(float(x) * 100, 1) for x in g["share"]]}
+        out["i94_from_nd"] = series("entry_point", "Wibaux/Beach")
+        out["origin_nd"] = series("origin", "North Dakota")
+        top = s[(s["dimension"] == "origin") & (s["year"] == s["year"].max())].groupby("value")["weighted_visitors"].sum().sort_values(ascending=False).head(10)
+        tot = s[(s["dimension"] == "origin") & (s["year"] == s["year"].max())]["weighted_visitors"].sum()
+        out["top_origins_latest_year"] = {"year": int(s["year"].max()), "rows": [{"origin": k, "share": round(v / tot * 100, 1)} for k, v in top.items()]}
+    return out
+
+
+def wy_block() -> dict:
+    p = DATA / "wy_county_travel_impacts_annual.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    out = {"counties": {}}
+    for c in CONFIG.get("wy_focus_counties", []):
+        g = df[df["county"] == c].sort_values("year")
+        if g.empty:
+            continue
+        base = g[g["year"] == 2019]["visitor_spend_m"]
+        base = float(base.iloc[0]) if len(base) else None
+        out["counties"][c] = {
+            "years": [int(y) for y in g["year"]],
+            "visitor_spend_m": [float(x) for x in g["visitor_spend_m"]],
+            "index_2019": [round(float(x) / base * 100, 1) if base else None for x in g["visitor_spend_m"]],
+            "employment": [int(x) for x in g["employment"]],
+        }
+    return out
+
+
 def airports_block() -> list[dict]:
     df = pd.read_csv(DATA / "bts_airports_annual.csv")
     return df.sort_values("enplanements", ascending=False).to_dict("records")
@@ -119,6 +184,9 @@ def main() -> None:
         "parks": parks,
         "border": border_block(),
         "airports": airports_block(),
+        "nd_tax": nd_tax_block(),
+        "mt": mt_block(),
+        "wy": wy_block(),
     }
     DOCS_DATA.mkdir(parents=True, exist_ok=True)
     (DOCS_DATA / "dashboard.json").write_text(json.dumps(out, separators=(",", ":")) + "\n")

@@ -1,20 +1,125 @@
 {
   "nps_parks": [
-    {"code": "THRO", "name": "Theodore Roosevelt NP", "role": "primary", "state": "ND"},
-    {"code": "KNRI", "name": "Knife River Indian Villages NHS", "role": "corridor", "state": "ND"},
-    {"code": "BADL", "name": "Badlands NP", "role": "control", "state": "SD"},
-    {"code": "MORU", "name": "Mount Rushmore NMEM", "role": "control", "state": "SD"},
-    {"code": "WICA", "name": "Wind Cave NP", "role": "control", "state": "SD"},
-    {"code": "DETO", "name": "Devils Tower NM", "role": "control", "state": "WY"},
-    {"code": "LIBI", "name": "Little Bighorn Battlefield NM", "role": "control", "state": "MT"},
-    {"code": "YELL", "name": "Yellowstone NP", "role": "control", "state": "WY"}
+    {
+      "code": "THRO",
+      "name": "Theodore Roosevelt NP",
+      "role": "primary",
+      "state": "ND"
+    },
+    {
+      "code": "KNRI",
+      "name": "Knife River Indian Villages NHS",
+      "role": "corridor",
+      "state": "ND"
+    },
+    {
+      "code": "BADL",
+      "name": "Badlands NP",
+      "role": "control",
+      "state": "SD"
+    },
+    {
+      "code": "MORU",
+      "name": "Mount Rushmore NMEM",
+      "role": "control",
+      "state": "SD"
+    },
+    {
+      "code": "WICA",
+      "name": "Wind Cave NP",
+      "role": "control",
+      "state": "SD"
+    },
+    {
+      "code": "DETO",
+      "name": "Devils Tower NM",
+      "role": "control",
+      "state": "WY"
+    },
+    {
+      "code": "LIBI",
+      "name": "Little Bighorn Battlefield NM",
+      "role": "control",
+      "state": "MT"
+    },
+    {
+      "code": "YELL",
+      "name": "Yellowstone NP",
+      "role": "control",
+      "state": "WY"
+    }
   ],
   "bts_border": {
-    "states": ["North Dakota", "Montana"],
-    "ports": ["Portal", "Pembina", "Dunseith", "Sweetgrass", "Northgate", "Antler", "Sherwood", "Walhalla", "Neche", "Noonan", "Fortuna", "Ambrose", "Carbury", "Hannah", "Hansboro", "Maida", "Sarles", "St. John", "Westhope", "Raymond", "Scobey", "Opheim", "Morgan", "Wild Horse", "Del Bonita", "Piegan", "Roosville", "Whitlash", "Turner", "Whitetail"],
-    "measures": ["Personal Vehicles", "Personal Vehicle Passengers", "Buses", "Bus Passengers"],
+    "states": [
+      "North Dakota",
+      "Montana"
+    ],
+    "ports": [
+      "Portal",
+      "Pembina",
+      "Dunseith",
+      "Sweetgrass",
+      "Northgate",
+      "Antler",
+      "Sherwood",
+      "Walhalla",
+      "Neche",
+      "Noonan",
+      "Fortuna",
+      "Ambrose",
+      "Carbury",
+      "Hannah",
+      "Hansboro",
+      "Maida",
+      "Sarles",
+      "St. John",
+      "Westhope",
+      "Raymond",
+      "Scobey",
+      "Opheim",
+      "Morgan",
+      "Wild Horse",
+      "Del Bonita",
+      "Piegan",
+      "Roosville",
+      "Whitlash",
+      "Turner",
+      "Whitetail"
+    ],
+    "measures": [
+      "Personal Vehicles",
+      "Personal Vehicle Passengers",
+      "Buses",
+      "Bus Passengers"
+    ],
     "since": "2019-01-01"
   },
-  "bts_airports": ["DIK", "BIS", "BIL", "RAP", "FAR", "MOT"],
-  "opening_date": "2026-07-04"
+  "bts_airports": [
+    "DIK",
+    "BIS",
+    "BIL",
+    "RAP",
+    "FAR",
+    "MOT"
+  ],
+  "opening_date": "2026-07-04",
+  "wy_impacts_pdfs": [
+    {
+      "edition": 2025,
+      "url": "https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/wyoming/2025_State_and_County_Impacts_FINAL_c3cca35d-3f71-424c-9465-333e6126c8a2.pdf"
+    }
+  ],
+  "nd_focus_counties": [
+    "Billings",
+    "Stark",
+    "Burleigh",
+    "McKenzie",
+    "Golden Valley"
+  ],
+  "wy_focus_counties": [
+    "Crook",
+    "Park",
+    "Weston",
+    "Campbell"
+  ]
 }
