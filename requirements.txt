@@ -5,3 +5,5 @@ xlrd>=2.0.1
 pdfplumber>=0.11
 tableauhyperapi>=0.0.20000
 beautifulsoup4>=4.12
+zipcodes>=1.2
+pytrends>=4.9

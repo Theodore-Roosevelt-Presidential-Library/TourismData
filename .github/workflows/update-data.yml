@@ -53,6 +53,18 @@ jobs:
       - name: Fetch WY county travel impacts (Dean Runyan PDF)
         run: python scripts/fetch_wy_impacts.py
         continue-on-error: true
+      - name: Fetch BLS QCEW county tourism employment
+        run: python scripts/fetch_qcew.py
+        continue-on-error: true
+      - name: Fetch Recreation.gov campground aggregates (new fiscal years only)
+        run: python scripts/fetch_recgov.py
+        continue-on-error: true
+      - name: Fetch Wikipedia pageviews and Google Trends
+        run: python scripts/fetch_interest.py
+        continue-on-error: true
+      - name: Fetch controls (weather, gas, CAD, ND oil)
+        run: python scripts/fetch_controls.py
+        continue-on-error: true
 
       - name: Build dashboard data
         run: python scripts/build.py

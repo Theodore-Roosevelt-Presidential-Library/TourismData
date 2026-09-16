@@ -216,6 +216,93 @@ def wy_block() -> dict:
     return out
 
 
+def nd_counties_block() -> dict:
+    """Corridor counties: year-to-date (quarters posted so far) taxable sales vs prior year."""
+    p = DATA / "nd_taxable_sales_quarterly.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    cur = int(df["year"].max())
+    lq = int(df[df["year"] == cur]["quarter"].max())
+    rows = []
+    for c in CONFIG.get("nd_focus_counties", []):
+        g = df[df["county"] == c]
+        yc = g[(g["year"] == cur) & (g["quarter"] <= lq)]["total"].sum()
+        yp = g[(g["year"] == cur - 1) & (g["quarter"] <= lq)]["total"].sum()
+        if yp:
+            rows.append({"county": c, "cur": int(yc), "prev": int(yp), "pct": pct(yc, yp)})
+    return {"current_year": cur, "latest_quarter": lq, "ytd": rows}
+
+
+def qcew_block() -> dict:
+    p = DATA / "qcew_county_quarterly.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p, dtype={"industry_code": str})
+    lh = df[(df["industry_code"] == "1026") & df["avg_employment"].notna()]
+    cur = int(lh["year"].max())
+    lq = int(lh[lh["year"] == cur]["quarter"].max())
+    out = {"current_year": cur, "latest_quarter": lq, "counties": {}, "latest": []}
+    for c, g in lh.groupby("county"):
+        out["counties"][c] = seasonal(g, "quarter", "avg_employment", 4, [y for y in BAND_YEARS if y < cur])
+        a = g[(g["year"] == cur) & (g["quarter"] == lq)]["avg_employment"]
+        b = g[(g["year"] == cur - 1) & (g["quarter"] == lq)]["avg_employment"]
+        if len(a) and len(b):
+            out["latest"].append({"county": c, "cur": float(a.iloc[0]), "prev": float(b.iloc[0]), "pct": pct(float(a.iloc[0]), float(b.iloc[0]))})
+    return out
+
+
+def recgov_block() -> dict:
+    p = DATA / "recgov_monthly.csv"
+    if not p.exists():
+        return {}
+    m = pd.read_csv(p)
+    cur = int(m["year"].max())
+    out = {"current_year": cur, "facilities": {}, "origin": {}}
+    for f in ("Cottonwood Campground", "Buffalo Gap Campground", "CCC Campground"):
+        g = m[m["facility"] == f]
+        if len(g):
+            out["facilities"][f] = seasonal(g, "month", "reservations", 12, [y for y in range(cur - 4, cur)])
+    op = DATA / "recgov_origin_annual.csv"
+    if op.exists():
+        o = pd.read_csv(op)
+        o = o[(o["facility"] == "Cottonwood Campground") & (o["year"] == o["year"].max())].sort_values("reservations", ascending=False).head(12)
+        out["origin"] = {"facility": "Cottonwood Campground", "year": int(o["year"].max()) if len(o) else None, "rows": [{"state": r.state, "share": round(float(r.share) * 100, 1), "n": int(r.reservations)} for r in o.itertuples()]}
+    return out
+
+
+def interest_block() -> dict:
+    out = {}
+    wp = DATA / "wiki_pageviews_monthly.csv"
+    if wp.exists():
+        w = pd.read_csv(wp)
+        cur = int(w["year"].max())
+        out["wiki"] = {"current_year": cur, "articles": {a: seasonal(g, "month", "views", 12, BAND_YEARS) for a, g in w.groupby("article")}}
+    tp = DATA / "google_trends_weekly.csv"
+    if tp.exists():
+        t = pd.read_csv(tp)
+        weekly = t[t["geo"] == "US"]
+        out["trends"] = {
+            "terms": {term: {"weeks": g["week"].tolist(), "interest": g["interest"].tolist()} for term, g in weekly.groupby("term")},
+            "by_state": [{"state": r.geo, "interest": int(r.interest)} for r in t[t["week"] == "last-12m"].sort_values("interest", ascending=False).head(12).itertuples()],
+            "primary_term": CONFIG.get("trends_terms", [""])[0],
+        }
+    return out
+
+
+def controls_block() -> dict:
+    p = DATA / "controls_monthly.csv"
+    if not p.exists():
+        return {}
+    c = pd.read_csv(p)
+    cur = int(c["year"].max())
+    cols = [x for x in c.columns if x not in ("year", "month")]
+    def yr(y):
+        g = c[c["year"] == y].set_index("month")
+        return {col: [None if (m not in g.index or pd.isna(g.loc[m, col])) else float(g.loc[m, col]) for m in range(1, 13)] for col in cols}
+    return {"current_year": cur, "columns": cols, "years": {str(cur): yr(cur), str(cur - 1): yr(cur - 1)}}
+
+
 def airports_block() -> dict:
     out = {}
     mp = DATA / "airports_monthly.csv"
@@ -271,6 +358,11 @@ def main() -> None:
         "border": border_block(),
         "airports": airports_block(),
         "nddot": nddot_block(),
+        "nd_counties": nd_counties_block(),
+        "qcew": qcew_block(),
+        "recgov": recgov_block(),
+        "interest": interest_block(),
+        "controls": controls_block(),
         "nd_tax": nd_tax_block(),
         "nd_city": nd_city_block(),
         "mt": mt_block(),

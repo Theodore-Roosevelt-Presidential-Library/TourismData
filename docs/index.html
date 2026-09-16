@@ -261,6 +261,31 @@ async function main() {
       ytd.slice().reverse().map(r => [`${r.city} (${r.county})`, money(r.sales_ytd_cur), money(r.sales_ytd_prev), pctTxt(r.sales_ytd_pct), money(r.occupancy_ytd_cur), money(r.occupancy_ytd_prev), pctTxt(r.occupancy_ytd_pct)]));
   }
 
+  // ---- Chart 5f: corridor counties, taxable sales YTD
+  if (d.nd_counties && d.nd_counties.ytd && d.nd_counties.ytd.length) {
+    const C = d.nd_counties, cy = C.current_year;
+    const rk = C.ytd.slice().sort((a, b) => a.pct - b.pct);
+    card("c5f", `Corridor counties: taxable sales and purchases, Q1–Q${C.latest_quarter} ${cy} vs ${cy - 1}`,
+      `Year-to-date change by county from the Tax Commissioner's quarterly workbook. Billings highlighted. McKenzie, Dunn, and Bowman are oil counties, so their moves track rig activity more than visitors (see the controls table below). Q3 — the first full post-opening quarter — posts in December.`);
+    Plotly.newPlot("c5f", [{
+      type: "bar", orientation: "h", y: rk.map(r => r.county), x: rk.map(r => r.pct),
+      marker: { color: rk.map(r => r.county === "Billings" ? css("--s1") : css("--gray-mark")) },
+      text: rk.map(r => pctTxt(r.pct)), textposition: "outside", textfont: { color: css("--ink-2") }, cliponaxis: false,
+      customdata: rk.map(r => [r.cur, r.prev]), hovertemplate: "%{y}<br>%{x:+.1f}%<br>$%{customdata[0]:,} vs $%{customdata[1]:,}<extra></extra>",
+    }], baseLayout({
+      hovermode: "closest", margin: { l: 120, r: 60, t: 8, b: 40 }, showlegend: false, bargap: 0.35,
+      xaxis: { ticksuffix: "%", gridcolor: css("--grid"), zeroline: true, zerolinecolor: css("--axis"), tickfont: { color: css("--muted") },
+        range: [Math.min(0, ...rk.map(r => r.pct)) * 1.9 - 4, Math.max(0, ...rk.map(r => r.pct)) * 1.18 + 4] },
+      yaxis: { tickfont: { color: css("--ink-2") }, automargin: true },
+    }), CONFIG);
+    table("c5f", ["County", `YTD ${cy}`, `YTD ${cy - 1}`, "Change"], rk.slice().reverse().map(r => [r.county, money(r.cur), money(r.prev), pctTxt(r.pct)]));
+    if (d.nd_tax.counties.Stark) {
+      card("c5g", "Stark County (Dickinson) taxable sales and purchases, by quarter",
+        `The corridor's largest economy and the Library's nearest full-service town. ${cur} against ${prev} and the ${d.nd_tax.counties.Stark.band_years[0]}–${d.nd_tax.counties.Stark.band_years.at(-1)} range.`);
+      seasonalChart("c5g", QTR, d.nd_tax.counties.Stark, cur, { periodName: "Quarter", hover: "$%{y:,.0f}", fmt: money, yaxis: { tickprefix: "$" }, openingIndex: 2 });
+    }
+  }
+
   // ---- Chart 5b: ND statewide Accommodation & Food Services
   if (d.nd_tax && d.nd_tax.industries && d.nd_tax.industries["Accommodation & Food Services"]) {
     const a = d.nd_tax.industries["Accommodation & Food Services"];
@@ -350,10 +375,71 @@ async function main() {
     }));
   }
 
+  // ---- QCEW: county tourism employment
+  if (d.qcew && d.qcew.counties && d.qcew.counties.Billings) {
+    const Q = d.qcew, qy = Q.current_year;
+    card("c11", "Billings County leisure and hospitality jobs, by quarter",
+      `Average monthly employment in leisure and hospitality (hotels, restaurants, recreation) from BLS QCEW. This is the county-level tourism-sector series the tax data cannot give: about a five-month lag, through ${qy} Q${Q.latest_quarter}. ${qy} against ${qy - 1} and the ${Q.counties.Billings.band_years[0]}–${Q.counties.Billings.band_years.at(-1)} range. Other counties in the table.`);
+    seasonalChart("c11", QTR, Q.counties.Billings, qy, Object.assign({ periodName: "Quarter", hover: "%{y:,.0f} jobs" }, qy === cur ? { openingIndex: 2 } : {}));
+    const lr = Q.latest.slice().sort((a, b) => b.pct - a.pct);
+    document.getElementById("c11-tbl").innerHTML += `<p class="note">Latest quarter (${qy} Q${Q.latest_quarter}) by county</p><table><thead><tr><th>County</th><th>${qy}</th><th>${qy - 1}</th><th>Change</th></tr></thead><tbody>${lr.map(r => `<tr><td>${r.county}</td><td>${fmt(r.cur)}</td><td>${fmt(r.prev)}</td><td>${pctTxt(r.pct)}</td></tr>`).join("")}</tbody></table>`;
+  }
+
+  // ---- Recreation.gov campgrounds
+  if (d.recgov && d.recgov.facilities && d.recgov.facilities["Cottonwood Campground"]) {
+    const R = d.recgov, ry = R.current_year;
+    for (const [f, label] of [["Cottonwood Campground", "Cottonwood Campground (TRNP South Unit)"], ["Buffalo Gap Campground", "Buffalo Gap Campground (USFS, west of Medora)"]]) {
+      if (!R.facilities[f]) continue;
+      card("c12" + f.slice(0, 3), `${label}: reservations by arrival month`,
+        `Reservations starting each month, from Recreation.gov's public reservation history. ${ry} against ${ry - 1} and the ${R.facilities[f].band_years[0]}–${R.facilities[f].band_years.at(-1)} range. Campgrounds sell out in July–August, so this is a floor on demand, not a measure of it; the origin mix is the real value.`);
+      seasonalChart("c12" + f.slice(0, 3), MON, R.facilities[f], ry, { periodName: "Arrival month" });
+    }
+    if (R.origin && R.origin.rows.length) {
+      const el = document.createElement("section"); el.className = "card";
+      el.innerHTML = `<h2>Where Cottonwood campers come from, ${R.origin.year}</h2>
+        <p class="note">Share of reservations by customer ZIP state. The only public origin data at the Medora level until the Library's own ticketing ZIPs are connected.</p>
+        <table><thead><tr><th>State</th><th>Share</th><th>Reservations</th></tr></thead><tbody>${R.origin.rows.map(r => `<tr><td>${r.state}</td><td>${r.share.toFixed(1)}%</td><td>${fmt(r.n)}</td></tr>`).join("")}</tbody></table>`;
+      document.getElementById("main").appendChild(el);
+    }
+  }
+
+  // ---- Interest: Wikipedia and Google Trends
+  if (d.interest && d.interest.wiki && d.interest.wiki.articles["Theodore_Roosevelt_Presidential_Library"]) {
+    const W = d.interest.wiki, wy = W.current_year, wa = W.articles["Theodore_Roosevelt_Presidential_Library"];
+    card("c13", "Wikipedia pageviews: Theodore Roosevelt Presidential Library article, monthly",
+      `A public leading indicator of interest. ${wy} against ${wy - 1} and the ${wa.band_years[0]}–${wa.band_years.at(-1)} range. Source: Wikimedia pageviews API.`);
+    seasonalChart("c13", MON, wa, wy, { periodName: "Month", openingIndex: 6 });
+    if (W.articles["Medora,_North_Dakota"]) {
+      card("c13m", "Wikipedia pageviews: Medora, North Dakota article, monthly", `${wy} against ${wy - 1} and the historical range.`);
+      seasonalChart("c13m", MON, W.articles["Medora,_North_Dakota"], wy, { periodName: "Month", openingIndex: 6 });
+    }
+  }
+  if (d.interest && d.interest.trends && d.interest.trends.terms) {
+    const T = d.interest.trends;
+    const names = Object.keys(T.terms);
+    card("c14", "Google search interest, weekly (U.S.)",
+      `Google Trends index (100 = the peak week across these terms). Unofficial endpoint; treat as directional. Top states for "${T.primary_term}" over the last 12 months are in the table.`);
+    Plotly.newPlot("c14", names.map((n, i) => ({ x: T.terms[n].weeks, y: T.terms[n].interest, mode: "lines", name: n, line: { color: css(SLOT[i]), width: n === T.primary_term ? 2.5 : 1.5 }, hovertemplate: "%{y}" })),
+      baseLayout({ yaxis: { gridcolor: css("--grid"), zeroline: false, tickfont: { color: css("--muted") }, rangemode: "tozero" }, legend: { orientation: "h", y: -0.22, x: 0 }, margin: { l: 40, r: 16, t: 8, b: 70 } }), CONFIG);
+    table("c14", ["State", "Interest"], T.by_state.map(r => [r.state, r.interest]));
+  }
+
+  // ---- Controls table
+  if (d.controls && d.controls.years) {
+    const K = d.controls, ky = K.current_year, Y = K.years;
+    const labels = { rain_days: "Rain days (≥0.10 in)", tmax_mean_f: "Mean high °F", hot_days_90f: "Days ≥ 90°F", gas_midwest_usd: "Midwest gas $/gal", cad_per_usd: "CAD per USD", nd_oil_bbl_per_day: "ND oil bbl/day", nd_rig_count: "ND rig count" };
+    const el = document.createElement("section"); el.className = "card";
+    el.innerHTML = `<h2>Controls: weather, gas, exchange rate, oil — ${ky} vs ${ky - 1}</h2>
+      <p class="note">The things that move visitation that aren't the Library. Weather is Dickinson (NOAA GHCN-Daily). Gas is EIA Midwest regular. CAD per USD from FRED. Oil from the ND Industrial Commission. Read a month's park or tax number against these before crediting or blaming the Library.</p>
+      <table><thead><tr><th>Month</th>${K.columns.map(c => `<th>${labels[c] || c}<br><span style="font-weight:400">${ky - 1} / ${ky}</span></th>`).join("")}</tr></thead><tbody>
+      ${MON.map((m, i) => `<tr><td>${m}</td>${K.columns.map(c => { const a = Y[String(ky - 1)][c][i], b = Y[String(ky)][c][i]; const f = v => v == null ? "–" : (c === "cad_per_usd" ? v.toFixed(3) : c === "gas_midwest_usd" ? "$" + v.toFixed(2) : c === "nd_oil_bbl_per_day" ? fmt(v / 1000) + "k" : fmt(v)); return `<td>${f(a)} / <b>${f(b)}</b></td>`; }).join("")}</tr>`).join("")}</tbody></table>`;
+    document.getElementById("main").appendChild(el);
+  }
+
   const m = d.manifest;
   document.getElementById("footer").innerHTML =
     `Built ${d.built_at.replace("T", " ").slice(0, 16)} UTC. NPS fetched ${m.nps_monthly.fetched_at.slice(0, 10)}; BTS border ${m.bts_border_monthly.fetched_at.slice(0, 10)}. ` +
-    `Data: <a href="data/nps_monthly.csv">nps_monthly.csv</a> · <a href="data/bts_border_monthly.csv">bts_border_monthly.csv</a> · <a href="data/airports_monthly.csv">airports_monthly.csv</a> · <a href="data/airports_annual.csv">airports_annual.csv</a> · <a href="data/nddot_atr_monthly.csv">nddot_atr_monthly.csv</a> · <a href="data/nd_taxable_sales_quarterly.csv">nd_taxable_sales_quarterly.csv</a> · <a href="data/nd_taxable_sales_industry_quarterly.csv">nd_taxable_sales_industry_quarterly.csv</a> · <a href="data/nd_city_tax_distributions_monthly.csv">nd_city_tax_distributions_monthly.csv</a> · <a href="data/mt_nonresident_visitation_monthly.csv">mt_nonresident_visitation_monthly.csv</a> · <a href="data/mt_nonresident_survey_shares.csv">mt_nonresident_survey_shares.csv</a> · <a href="data/wy_county_travel_impacts_annual.csv">wy_county_travel_impacts_annual.csv</a> · <a href="data/dashboard.json">dashboard.json</a>. ` +
+    `Data: <a href="data/nps_monthly.csv">nps_monthly.csv</a> · <a href="data/bts_border_monthly.csv">bts_border_monthly.csv</a> · <a href="data/airports_monthly.csv">airports_monthly.csv</a> · <a href="data/airports_annual.csv">airports_annual.csv</a> · <a href="data/nddot_atr_monthly.csv">nddot_atr_monthly.csv</a> · <a href="data/qcew_county_quarterly.csv">qcew_county_quarterly.csv</a> · <a href="data/recgov_monthly.csv">recgov_monthly.csv</a> · <a href="data/recgov_origin_annual.csv">recgov_origin_annual.csv</a> · <a href="data/wiki_pageviews_monthly.csv">wiki_pageviews_monthly.csv</a> · <a href="data/google_trends_weekly.csv">google_trends_weekly.csv</a> · <a href="data/controls_monthly.csv">controls_monthly.csv</a> · <a href="data/nd_taxable_sales_quarterly.csv">nd_taxable_sales_quarterly.csv</a> · <a href="data/nd_taxable_sales_industry_quarterly.csv">nd_taxable_sales_industry_quarterly.csv</a> · <a href="data/nd_city_tax_distributions_monthly.csv">nd_city_tax_distributions_monthly.csv</a> · <a href="data/mt_nonresident_visitation_monthly.csv">mt_nonresident_visitation_monthly.csv</a> · <a href="data/mt_nonresident_survey_shares.csv">mt_nonresident_survey_shares.csv</a> · <a href="data/wy_county_travel_impacts_annual.csv">wy_county_travel_impacts_annual.csv</a> · <a href="data/dashboard.json">dashboard.json</a>. ` +
     `NPS monthly counts are preliminary until the annual close. Theodore Roosevelt Presidential Library.`;
 }
 main().catch(e => { document.getElementById("subtitle").textContent = "Could not load data: " + e; });

@@ -104,9 +104,12 @@
   "nd_focus_counties": [
     "Billings",
     "Stark",
-    "Burleigh",
+    "Golden Valley",
     "McKenzie",
-    "Golden Valley"
+    "Dunn",
+    "Slope",
+    "Bowman",
+    "Burleigh"
   ],
   "wy_focus_counties": [
     "Crook",
@@ -153,5 +156,41 @@
       "route": "I-94"
     }
   },
-  "nddot_since": "2025-01-01"
+  "nddot_since": "2025-01-01",
+  "recgov": {
+    "fiscal_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "match": "Theodore Roosevelt|Dakota Prairie|Little Missouri"
+  },
+  "qcew_counties": {
+    "38007": "Billings",
+    "38089": "Stark",
+    "38033": "Golden Valley",
+    "38053": "McKenzie",
+    "38025": "Dunn",
+    "38087": "Slope",
+    "38011": "Bowman"
+  },
+  "wiki_articles": [
+    "Theodore_Roosevelt_Presidential_Library",
+    "Medora,_North_Dakota",
+    "Theodore_Roosevelt_National_Park",
+    "Theodore_Roosevelt"
+  ],
+  "trends_terms": [
+    "Theodore Roosevelt Presidential Library",
+    "Medora North Dakota",
+    "Theodore Roosevelt National Park"
+  ],
+  "controls": {
+    "since": "2015-01-01",
+    "noaa_station": "USW00024012"
+  },
+  "qcew_since": 2015
 }

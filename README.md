@@ -16,6 +16,10 @@ Gathers regional visitation indicators around the Theodore Roosevelt Presidentia
 | City sales tax and occupancy (lodging) tax paid to Medora, Beach, Belfield, Dickinson, Watford City, Killdeer, Bowman | ND State Treasurer, Historical Distribution Search | Monthly payments, 2019–present | `scripts/fetch_nd_treasurer.py` |
 | Montana nonresident visitation + survey shares (entry point, origin state) | ITRR (Univ. of Montana) Tableau Public workbook, embedded Hyper extracts | Monthly 1991–present; survey quarterly 2021–present | `scripts/fetch_mt_itrr.py` |
 | Wyoming county travel impacts (spend, earnings, jobs, tax) | Dean Runyan Associates PDF for the Wyoming Office of Tourism | Annual, 2015–present | `scripts/fetch_wy_impacts.py` |
+| County employment in leisure & hospitality and accommodation & food (Billings, Stark, Golden Valley, McKenzie, Dunn, Slope, Bowman) | BLS QCEW open-data CSV slices | Quarterly, 2015–present (~5-mo lag) | `scripts/fetch_qcew.py` |
+| Campground reservations and origin state — Cottonwood (TRNP), Buffalo Gap, CCC (USFS) | Recreation.gov RIDB historical reservation files (~500 MB per fiscal year; aggregates only are stored) | Monthly arrivals + annual origin, FY2020–present | `scripts/fetch_recgov.py` |
+| Wikipedia pageviews (Library, Medora, TRNP, TR articles) and Google Trends | Wikimedia REST API; pytrends (unofficial) | Monthly from 2015; weekly from 2019 | `scripts/fetch_interest.py` |
+| Controls: Dickinson weather (rain days, highs), Midwest gas price, CAD/USD, ND oil production and rig count | NOAA NCEI, EIA, FRED, ND Industrial Commission PDFs | Monthly, 2015–present | `scripts/fetch_controls.py` |
 
 Parks and ports are configured in `config/sources.json`. The Library's opening date (2026-07-04) drives the "since opening" comparisons.
 
@@ -48,6 +52,10 @@ python -m http.server -d docs 8000   # open http://localhost:8000
 - Not scriptable (probed 2026-09-16, re-checked with a real remote browser): South Dakota's Monthly Travel Indicators (Tourism Economics Symphony Tableau returns "Page unavailable" outside the sdvisit.com embed) and Wyoming's travelstats.com dashboard (Tableau Public with data access disabled). ND Commerce's monthly indicators are on the same Symphony platform with no public view; partner access is the path. The Tax Commissioner's Power BI report was paged through in full: it is the same tables as the Excel workbook, with no county × industry view. The ND GIS Hub domain (gishubdata.nd.gov) no longer resolves.
 - Airports: TranStats is a WebForms page (viewstate POST, one zip per state-year). Only the current and prior year are re-downloaded each run. FAA files for 2021–2023 sit behind HTML landing pages; the fetcher follows them.
 - NDDOT: reports are posted irregularly at `e_report_{Month}{Year}.pdf`; each carries the month for the report year and the prior year. Months that 404 are retried next run. No 2026 reports had been posted as of 2026-09-16.
+
+- QCEW suppresses Billings County's accommodation & food line (NAICS 72) for confidentiality; the leisure & hospitality supersector (1026) is disclosed and is what the dashboard charts.
+- Recreation.gov: campgrounds sell out in July–August, so reservation counts are a floor on demand; the origin-state mix is the useful part. FY2019's file has a different schema and is skipped.
+- Google Trends is an unofficial endpoint; a failed run keeps the prior CSV.
 
 ## Roadmap
 

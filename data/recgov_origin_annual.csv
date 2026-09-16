@@ -1,0 +1,863 @@
+facility,year,state,reservations,fy,share
+Buffalo Gap Campground,2021,ND,16,2022,0.2051
+Buffalo Gap Campground,2021,MN,7,2021,0.0897
+Buffalo Gap Campground,2021,CA,5,2021,0.0641
+Buffalo Gap Campground,2021,WI,5,2021,0.0641
+Buffalo Gap Campground,2021,FL,3,2021,0.0385
+Buffalo Gap Campground,2021,MO,3,2022,0.0385
+Buffalo Gap Campground,2021,MT,3,2021,0.0385
+Buffalo Gap Campground,2021,NY,3,2021,0.0385
+Buffalo Gap Campground,2021,OH,3,2021,0.0385
+Buffalo Gap Campground,2021,OR,3,2021,0.0385
+Buffalo Gap Campground,2021,TX,3,2021,0.0385
+Buffalo Gap Campground,2021,AR,2,2021,0.0256
+Buffalo Gap Campground,2021,CO,2,2021,0.0256
+Buffalo Gap Campground,2021,GA,2,2021,0.0256
+Buffalo Gap Campground,2021,IL,2,2021,0.0256
+Buffalo Gap Campground,2021,SD,2,2021,0.0256
+Buffalo Gap Campground,2021,VA,2,2021,0.0256
+Buffalo Gap Campground,2021,WA,2,2021,0.0256
+Buffalo Gap Campground,2021,AZ,1,2021,0.0128
+Buffalo Gap Campground,2021,DC,1,2021,0.0128
+Buffalo Gap Campground,2021,HI,1,2022,0.0128
+Buffalo Gap Campground,2021,IA,1,2021,0.0128
+Buffalo Gap Campground,2021,ID,1,2021,0.0128
+Buffalo Gap Campground,2021,LA,1,2022,0.0128
+Buffalo Gap Campground,2021,MD,1,2021,0.0128
+Buffalo Gap Campground,2021,NM,1,2021,0.0128
+Buffalo Gap Campground,2021,PA,1,2021,0.0128
+Buffalo Gap Campground,2021,SC,1,2021,0.0128
+Buffalo Gap Campground,2022,MN,52,2022,0.1229
+Buffalo Gap Campground,2022,WI,28,2023,0.0662
+Buffalo Gap Campground,2022,FL,22,2022,0.052
+Buffalo Gap Campground,2022,CA,21,2022,0.0496
+Buffalo Gap Campground,2022,ND,21,2023,0.0496
+Buffalo Gap Campground,2022,MI,19,2023,0.0449
+Buffalo Gap Campground,2022,OH,18,2023,0.0426
+Buffalo Gap Campground,2022,WA,18,2022,0.0426
+Buffalo Gap Campground,2022,IL,17,2023,0.0402
+Buffalo Gap Campground,2022,PA,14,2023,0.0331
+Buffalo Gap Campground,2022,NC,13,2022,0.0307
+Buffalo Gap Campground,2022,MT,12,2023,0.0284
+Buffalo Gap Campground,2022,OR,12,2022,0.0284
+Buffalo Gap Campground,2022,TX,12,2022,0.0284
+Buffalo Gap Campground,2022,VA,11,2023,0.026
+Buffalo Gap Campground,2022,MD,10,2022,0.0236
+Buffalo Gap Campground,2022,MO,10,2022,0.0236
+Buffalo Gap Campground,2022,CO,9,2022,0.0213
+Buffalo Gap Campground,2022,AZ,8,2022,0.0189
+Buffalo Gap Campground,2022,IN,8,2022,0.0189
+Buffalo Gap Campground,2022,NY,8,2023,0.0189
+Buffalo Gap Campground,2022,NJ,7,2022,0.0165
+Buffalo Gap Campground,2022,MA,6,2022,0.0142
+Buffalo Gap Campground,2022,NV,6,2022,0.0142
+Buffalo Gap Campground,2022,KY,5,2022,0.0118
+Buffalo Gap Campground,2022,SD,5,2023,0.0118
+Buffalo Gap Campground,2022,TN,5,2022,0.0118
+Buffalo Gap Campground,2022,UT,5,2022,0.0118
+Buffalo Gap Campground,2022,IA,4,2022,0.0095
+Buffalo Gap Campground,2022,NE,4,2022,0.0095
+Buffalo Gap Campground,2022,AL,3,2023,0.0071
+Buffalo Gap Campground,2022,DC,3,2022,0.0071
+Buffalo Gap Campground,2022,ID,3,2022,0.0071
+Buffalo Gap Campground,2022,NH,3,2022,0.0071
+Buffalo Gap Campground,2022,VT,3,2023,0.0071
+Buffalo Gap Campground,2022,WY,3,2022,0.0071
+Buffalo Gap Campground,2022,CT,2,2023,0.0047
+Buffalo Gap Campground,2022,LA,2,2022,0.0047
+Buffalo Gap Campground,2022,ME,2,2022,0.0047
+Buffalo Gap Campground,2022,SC,2,2022,0.0047
+Buffalo Gap Campground,2022,AA,1,2022,0.0024
+Buffalo Gap Campground,2022,AK,1,2022,0.0024
+Buffalo Gap Campground,2022,AR,1,2022,0.0024
+Buffalo Gap Campground,2022,DE,1,2022,0.0024
+Buffalo Gap Campground,2022,NM,1,2022,0.0024
+Buffalo Gap Campground,2022,OK,1,2022,0.0024
+Buffalo Gap Campground,2022,WV,1,2022,0.0024
+Buffalo Gap Campground,2023,MN,75,2023,0.1807
+Buffalo Gap Campground,2023,WI,27,2023,0.0651
+Buffalo Gap Campground,2023,OH,19,2023,0.0458
+Buffalo Gap Campground,2023,CO,18,2023,0.0434
+Buffalo Gap Campground,2023,CA,14,2023,0.0337
+Buffalo Gap Campground,2023,NC,14,2023,0.0337
+Buffalo Gap Campground,2023,OR,14,2023,0.0337
+Buffalo Gap Campground,2023,WA,13,2023,0.0313
+Buffalo Gap Campground,2023,IL,12,2023,0.0289
+Buffalo Gap Campground,2023,MT,12,2023,0.0289
+Buffalo Gap Campground,2023,ND,12,2023,0.0289
+Buffalo Gap Campground,2023,VA,12,2023,0.0289
+Buffalo Gap Campground,2023,TX,11,2023,0.0265
+Buffalo Gap Campground,2023,FL,10,2023,0.0241
+Buffalo Gap Campground,2023,GA,10,2023,0.0241
+Buffalo Gap Campground,2023,MI,10,2023,0.0241
+Buffalo Gap Campground,2023,NY,10,2023,0.0241
+Buffalo Gap Campground,2023,AZ,9,2023,0.0217
+Buffalo Gap Campground,2023,UT,9,2023,0.0217
+Buffalo Gap Campground,2023,PA,8,2023,0.0193
+Buffalo Gap Campground,2023,MD,7,2023,0.0169
+Buffalo Gap Campground,2023,NV,7,2023,0.0169
+Buffalo Gap Campground,2023,MA,6,2023,0.0145
+Buffalo Gap Campground,2023,MO,6,2023,0.0145
+Buffalo Gap Campground,2023,SD,6,2023,0.0145
+Buffalo Gap Campground,2023,TN,6,2023,0.0145
+Buffalo Gap Campground,2023,IN,5,2023,0.012
+Buffalo Gap Campground,2023,NJ,5,2023,0.012
+Buffalo Gap Campground,2023,DC,4,2023,0.0096
+Buffalo Gap Campground,2023,KY,4,2023,0.0096
+Buffalo Gap Campground,2023,ME,4,2023,0.0096
+Buffalo Gap Campground,2023,VT,4,2023,0.0096
+Buffalo Gap Campground,2023,AK,3,2023,0.0072
+Buffalo Gap Campground,2023,IA,3,2023,0.0072
+Buffalo Gap Campground,2023,MS,3,2023,0.0072
+Buffalo Gap Campground,2023,NE,3,2023,0.0072
+Buffalo Gap Campground,2023,NM,3,2023,0.0072
+Buffalo Gap Campground,2023,WY,3,2023,0.0072
+Buffalo Gap Campground,2023,AR,2,2023,0.0048
+Buffalo Gap Campground,2023,ID,2,2023,0.0048
+Buffalo Gap Campground,2023,KS,2,2023,0.0048
+Buffalo Gap Campground,2023,OK,2,2023,0.0048
+Buffalo Gap Campground,2023,SC,2,2023,0.0048
+Buffalo Gap Campground,2023,AL,1,2023,0.0024
+Buffalo Gap Campground,2023,CT,1,2023,0.0024
+Buffalo Gap Campground,2023,HI,1,2023,0.0024
+Buffalo Gap Campground,2023,WV,1,2023,0.0024
+Buffalo Gap Campground,2024,MN,55,2024,0.1459
+Buffalo Gap Campground,2024,WI,27,2024,0.0716
+Buffalo Gap Campground,2024,TX,22,2024,0.0584
+Buffalo Gap Campground,2024,MT,21,2024,0.0557
+Buffalo Gap Campground,2024,FL,18,2024,0.0477
+Buffalo Gap Campground,2024,WA,17,2024,0.0451
+Buffalo Gap Campground,2024,IL,16,2024,0.0424
+Buffalo Gap Campground,2024,MI,14,2024,0.0371
+Buffalo Gap Campground,2024,OH,13,2024,0.0345
+Buffalo Gap Campground,2024,OR,12,2024,0.0318
+Buffalo Gap Campground,2024,CA,11,2024,0.0292
+Buffalo Gap Campground,2024,IN,10,2024,0.0265
+Buffalo Gap Campground,2024,IA,9,2024,0.0239
+Buffalo Gap Campground,2024,CO,8,2024,0.0212
+Buffalo Gap Campground,2024,KY,8,2024,0.0212
+Buffalo Gap Campground,2024,NC,8,2024,0.0212
+Buffalo Gap Campground,2024,VA,8,2024,0.0212
+Buffalo Gap Campground,2024,AL,7,2024,0.0186
+Buffalo Gap Campground,2024,AZ,7,2024,0.0186
+Buffalo Gap Campground,2024,NY,7,2024,0.0186
+Buffalo Gap Campground,2024,MO,6,2024,0.0159
+Buffalo Gap Campground,2024,NH,6,2024,0.0159
+Buffalo Gap Campground,2024,SD,6,2024,0.0159
+Buffalo Gap Campground,2024,MD,5,2024,0.0133
+Buffalo Gap Campground,2024,NJ,5,2024,0.0133
+Buffalo Gap Campground,2024,PA,5,2024,0.0133
+Buffalo Gap Campground,2024,TN,5,2024,0.0133
+Buffalo Gap Campground,2024,MA,4,2024,0.0106
+Buffalo Gap Campground,2024,NV,4,2024,0.0106
+Buffalo Gap Campground,2024,OK,4,2024,0.0106
+Buffalo Gap Campground,2024,SC,4,2024,0.0106
+Buffalo Gap Campground,2024,GA,3,2024,0.008
+Buffalo Gap Campground,2024,ME,3,2024,0.008
+Buffalo Gap Campground,2024,ND,3,2024,0.008
+Buffalo Gap Campground,2024,NE,3,2024,0.008
+Buffalo Gap Campground,2024,NM,3,2024,0.008
+Buffalo Gap Campground,2024,ID,2,2024,0.0053
+Buffalo Gap Campground,2024,AK,1,2024,0.0027
+Buffalo Gap Campground,2024,CT,1,2024,0.0027
+Buffalo Gap Campground,2024,DC,1,2024,0.0027
+Buffalo Gap Campground,2024,KS,1,2024,0.0027
+Buffalo Gap Campground,2024,MS,1,2024,0.0027
+Buffalo Gap Campground,2024,RI,1,2024,0.0027
+Buffalo Gap Campground,2024,UT,1,2024,0.0027
+Buffalo Gap Campground,2024,WV,1,2024,0.0027
+Buffalo Gap Campground,2025,MN,94,2025,0.1462
+Buffalo Gap Campground,2025,WI,58,2025,0.0902
+Buffalo Gap Campground,2025,MI,43,2025,0.0669
+Buffalo Gap Campground,2025,CA,37,2025,0.0575
+Buffalo Gap Campground,2025,ND,28,2025,0.0435
+Buffalo Gap Campground,2025,FL,25,2025,0.0389
+Buffalo Gap Campground,2025,MT,23,2025,0.0358
+Buffalo Gap Campground,2025,TX,23,2025,0.0358
+Buffalo Gap Campground,2025,OH,22,2025,0.0342
+Buffalo Gap Campground,2025,WA,22,2025,0.0342
+Buffalo Gap Campground,2025,CO,21,2025,0.0327
+Buffalo Gap Campground,2025,IN,19,2025,0.0295
+Buffalo Gap Campground,2025,OR,16,2025,0.0249
+Buffalo Gap Campground,2025,IL,15,2025,0.0233
+Buffalo Gap Campground,2025,NY,15,2025,0.0233
+Buffalo Gap Campground,2025,ID,13,2025,0.0202
+Buffalo Gap Campground,2025,MD,13,2025,0.0202
+Buffalo Gap Campground,2025,PA,13,2025,0.0202
+Buffalo Gap Campground,2025,TN,13,2025,0.0202
+Buffalo Gap Campground,2025,VA,12,2025,0.0187
+Buffalo Gap Campground,2025,AZ,10,2025,0.0156
+Buffalo Gap Campground,2025,IA,10,2025,0.0156
+Buffalo Gap Campground,2025,SD,9,2025,0.014
+Buffalo Gap Campground,2025,NC,8,2025,0.0124
+Buffalo Gap Campground,2025,MA,6,2025,0.0093
+Buffalo Gap Campground,2025,NJ,6,2025,0.0093
+Buffalo Gap Campground,2025,AR,5,2025,0.0078
+Buffalo Gap Campground,2025,CT,5,2025,0.0078
+Buffalo Gap Campground,2025,KS,5,2025,0.0078
+Buffalo Gap Campground,2025,KY,5,2025,0.0078
+Buffalo Gap Campground,2025,SC,5,2025,0.0078
+Buffalo Gap Campground,2025,UT,5,2025,0.0078
+Buffalo Gap Campground,2025,WV,5,2025,0.0078
+Buffalo Gap Campground,2025,GA,4,2025,0.0062
+Buffalo Gap Campground,2025,ME,4,2025,0.0062
+Buffalo Gap Campground,2025,MO,4,2025,0.0062
+Buffalo Gap Campground,2025,WY,4,2025,0.0062
+Buffalo Gap Campground,2025,AL,3,2025,0.0047
+Buffalo Gap Campground,2025,DE,2,2025,0.0031
+Buffalo Gap Campground,2025,MS,2,2025,0.0031
+Buffalo Gap Campground,2025,NE,2,2025,0.0031
+Buffalo Gap Campground,2025,NV,2,2025,0.0031
+Buffalo Gap Campground,2025,OK,2,2025,0.0031
+Buffalo Gap Campground,2025,AK,1,2025,0.0016
+Buffalo Gap Campground,2025,DC,1,2025,0.0016
+Buffalo Gap Campground,2025,NH,1,2025,0.0016
+Buffalo Gap Campground,2025,NM,1,2025,0.0016
+Buffalo Gap Campground,2025,VT,1,2025,0.0016
+CCC Campground,2021,PA,1,2021,0.25
+CCC Campground,2021,SD,1,2021,0.25
+CCC Campground,2021,WA,1,2021,0.25
+CCC Campground,2021,WI,1,2021,0.25
+CCC Campground,2022,MN,6,2022,0.1667
+CCC Campground,2022,OR,4,2023,0.1111
+CCC Campground,2022,CA,2,2022,0.0556
+CCC Campground,2022,MA,2,2022,0.0556
+CCC Campground,2022,MI,2,2022,0.0556
+CCC Campground,2022,NC,2,2022,0.0556
+CCC Campground,2022,ND,2,2022,0.0556
+CCC Campground,2022,NY,2,2022,0.0556
+CCC Campground,2022,VA,2,2022,0.0556
+CCC Campground,2022,WA,2,2022,0.0556
+CCC Campground,2022,AL,1,2023,0.0278
+CCC Campground,2022,AZ,1,2022,0.0278
+CCC Campground,2022,FL,1,2022,0.0278
+CCC Campground,2022,IN,1,2022,0.0278
+CCC Campground,2022,MO,1,2022,0.0278
+CCC Campground,2022,MT,1,2022,0.0278
+CCC Campground,2022,NJ,1,2022,0.0278
+CCC Campground,2022,NV,1,2022,0.0278
+CCC Campground,2022,VT,1,2022,0.0278
+CCC Campground,2022,WI,1,2022,0.0278
+CCC Campground,2023,MN,16,2023,0.1081
+CCC Campground,2023,CA,11,2023,0.0743
+CCC Campground,2023,NC,9,2023,0.0608
+CCC Campground,2023,FL,8,2023,0.0541
+CCC Campground,2023,ND,7,2023,0.0473
+CCC Campground,2023,IL,6,2023,0.0405
+CCC Campground,2023,MI,6,2023,0.0405
+CCC Campground,2023,TX,6,2023,0.0405
+CCC Campground,2023,WA,6,2023,0.0405
+CCC Campground,2023,AZ,5,2023,0.0338
+CCC Campground,2023,WI,5,2023,0.0338
+CCC Campground,2023,CO,4,2023,0.027
+CCC Campground,2023,IA,4,2023,0.027
+CCC Campground,2023,IN,4,2023,0.027
+CCC Campground,2023,OH,4,2023,0.027
+CCC Campground,2023,PA,4,2023,0.027
+CCC Campground,2023,SD,4,2023,0.027
+CCC Campground,2023,TN,4,2023,0.027
+CCC Campground,2023,GA,3,2023,0.0203
+CCC Campground,2023,MA,3,2023,0.0203
+CCC Campground,2023,NY,3,2023,0.0203
+CCC Campground,2023,OR,3,2023,0.0203
+CCC Campground,2023,AL,2,2023,0.0135
+CCC Campground,2023,CT,2,2023,0.0135
+CCC Campground,2023,MO,2,2023,0.0135
+CCC Campground,2023,MT,2,2023,0.0135
+CCC Campground,2023,VA,2,2023,0.0135
+CCC Campground,2023,AK,1,2023,0.0068
+CCC Campground,2023,AR,1,2023,0.0068
+CCC Campground,2023,KS,1,2023,0.0068
+CCC Campground,2023,LA,1,2023,0.0068
+CCC Campground,2023,MD,1,2023,0.0068
+CCC Campground,2023,ME,1,2023,0.0068
+CCC Campground,2023,NH,1,2023,0.0068
+CCC Campground,2023,NJ,1,2023,0.0068
+CCC Campground,2023,NM,1,2023,0.0068
+CCC Campground,2023,NV,1,2023,0.0068
+CCC Campground,2023,OK,1,2023,0.0068
+CCC Campground,2023,UT,1,2023,0.0068
+CCC Campground,2023,VT,1,2023,0.0068
+CCC Campground,2024,MN,17,2024,0.1259
+CCC Campground,2024,TX,11,2024,0.0815
+CCC Campground,2024,CA,7,2024,0.0519
+CCC Campground,2024,CO,6,2024,0.0444
+CCC Campground,2024,IA,6,2024,0.0444
+CCC Campground,2024,NC,6,2024,0.0444
+CCC Campground,2024,VA,6,2024,0.0444
+CCC Campground,2024,WA,6,2024,0.0444
+CCC Campground,2024,WI,6,2024,0.0444
+CCC Campground,2024,FL,5,2024,0.037
+CCC Campground,2024,MA,5,2024,0.037
+CCC Campground,2024,MI,5,2024,0.037
+CCC Campground,2024,IN,4,2024,0.0296
+CCC Campground,2024,ND,4,2024,0.0296
+CCC Campground,2024,NY,4,2024,0.0296
+CCC Campground,2024,TN,4,2024,0.0296
+CCC Campground,2024,AZ,3,2024,0.0222
+CCC Campground,2024,GA,3,2024,0.0222
+CCC Campground,2024,MO,3,2024,0.0222
+CCC Campground,2024,PA,3,2024,0.0222
+CCC Campground,2024,IL,2,2024,0.0148
+CCC Campground,2024,KY,2,2024,0.0148
+CCC Campground,2024,MD,2,2024,0.0148
+CCC Campground,2024,MT,2,2024,0.0148
+CCC Campground,2024,OH,2,2024,0.0148
+CCC Campground,2024,SD,2,2024,0.0148
+CCC Campground,2024,AK,1,2024,0.0074
+CCC Campground,2024,AL,1,2024,0.0074
+CCC Campground,2024,AR,1,2024,0.0074
+CCC Campground,2024,ME,1,2024,0.0074
+CCC Campground,2024,NE,1,2024,0.0074
+CCC Campground,2024,NH,1,2024,0.0074
+CCC Campground,2024,NV,1,2024,0.0074
+CCC Campground,2024,OK,1,2024,0.0074
+CCC Campground,2024,UT,1,2024,0.0074
+CCC Campground,2025,MN,38,2025,0.0955
+CCC Campground,2025,ND,35,2025,0.0879
+CCC Campground,2025,FL,26,2025,0.0653
+CCC Campground,2025,WI,20,2025,0.0503
+CCC Campground,2025,WA,18,2025,0.0452
+CCC Campground,2025,CO,17,2025,0.0427
+CCC Campground,2025,TX,17,2025,0.0427
+CCC Campground,2025,AZ,15,2025,0.0377
+CCC Campground,2025,MI,14,2025,0.0352
+CCC Campground,2025,OH,12,2025,0.0302
+CCC Campground,2025,CA,11,2025,0.0276
+CCC Campground,2025,MD,11,2025,0.0276
+CCC Campground,2025,PA,11,2025,0.0276
+CCC Campground,2025,IL,10,2025,0.0251
+CCC Campground,2025,IN,10,2025,0.0251
+CCC Campground,2025,NC,10,2025,0.0251
+CCC Campground,2025,NY,8,2025,0.0201
+CCC Campground,2025,NM,7,2025,0.0176
+CCC Campground,2025,TN,7,2025,0.0176
+CCC Campground,2025,SC,6,2025,0.0151
+CCC Campground,2025,SD,6,2025,0.0151
+CCC Campground,2025,GA,5,2025,0.0126
+CCC Campground,2025,IA,5,2025,0.0126
+CCC Campground,2025,KY,5,2025,0.0126
+CCC Campground,2025,MO,5,2025,0.0126
+CCC Campground,2025,MT,5,2025,0.0126
+CCC Campground,2025,NH,5,2025,0.0126
+CCC Campground,2025,VA,5,2025,0.0126
+CCC Campground,2025,ID,4,2025,0.0101
+CCC Campground,2025,RI,4,2025,0.0101
+CCC Campground,2025,UT,4,2025,0.0101
+CCC Campground,2025,WY,4,2025,0.0101
+CCC Campground,2025,ME,3,2025,0.0075
+CCC Campground,2025,NE,3,2025,0.0075
+CCC Campground,2025,NJ,3,2025,0.0075
+CCC Campground,2025,NV,3,2025,0.0075
+CCC Campground,2025,OK,3,2025,0.0075
+CCC Campground,2025,OR,3,2025,0.0075
+CCC Campground,2025,WV,3,2025,0.0075
+CCC Campground,2025,AR,2,2025,0.005
+CCC Campground,2025,CT,2,2025,0.005
+CCC Campground,2025,DC,2,2025,0.005
+CCC Campground,2025,DE,2,2025,0.005
+CCC Campground,2025,LA,2,2025,0.005
+CCC Campground,2025,MA,2,2025,0.005
+CCC Campground,2025,VT,2,2025,0.005
+CCC Campground,2025,AL,1,2025,0.0025
+CCC Campground,2025,KS,1,2025,0.0025
+CCC Campground,2025,MS,1,2025,0.0025
+Cottonwood Campground,2020,MN,290,2020,0.1753
+Cottonwood Campground,2020,WI,131,2020,0.0792
+Cottonwood Campground,2020,CA,94,2020,0.0568
+Cottonwood Campground,2020,ND,92,2020,0.0556
+Cottonwood Campground,2020,IL,78,2020,0.0472
+Cottonwood Campground,2020,WA,71,2020,0.0429
+Cottonwood Campground,2020,MI,67,2020,0.0405
+Cottonwood Campground,2020,CO,66,2020,0.0399
+Cottonwood Campground,2020,OH,60,2020,0.0363
+Cottonwood Campground,2020,FL,56,2020,0.0339
+Cottonwood Campground,2020,TX,47,2020,0.0284
+Cottonwood Campground,2020,IN,40,2020,0.0242
+Cottonwood Campground,2020,PA,38,2020,0.023
+Cottonwood Campground,2020,NY,37,2020,0.0224
+Cottonwood Campground,2020,MD,33,2020,0.02
+Cottonwood Campground,2020,VA,32,2020,0.0193
+Cottonwood Campground,2020,MO,28,2020,0.0169
+Cottonwood Campground,2020,NC,25,2020,0.0151
+Cottonwood Campground,2020,OR,24,2020,0.0145
+Cottonwood Campground,2020,GA,23,2020,0.0139
+Cottonwood Campground,2020,ID,23,2020,0.0139
+Cottonwood Campground,2020,UT,22,2020,0.0133
+Cottonwood Campground,2020,IA,21,2020,0.0127
+Cottonwood Campground,2020,TN,21,2020,0.0127
+Cottonwood Campground,2020,SD,20,2020,0.0121
+Cottonwood Campground,2020,AZ,19,2020,0.0115
+Cottonwood Campground,2020,KY,18,2020,0.0109
+Cottonwood Campground,2020,MT,17,2020,0.0103
+Cottonwood Campground,2020,MA,15,2020,0.0091
+Cottonwood Campground,2020,NE,14,2020,0.0085
+Cottonwood Campground,2020,NJ,12,2020,0.0073
+Cottonwood Campground,2020,CT,11,2020,0.0067
+Cottonwood Campground,2020,NH,11,2020,0.0067
+Cottonwood Campground,2020,WY,11,2020,0.0067
+Cottonwood Campground,2020,KS,10,2020,0.006
+Cottonwood Campground,2020,NV,10,2020,0.006
+Cottonwood Campground,2020,SC,10,2020,0.006
+Cottonwood Campground,2020,AL,8,2020,0.0048
+Cottonwood Campground,2020,NM,8,2020,0.0048
+Cottonwood Campground,2020,AR,7,2020,0.0042
+Cottonwood Campground,2020,ME,6,2020,0.0036
+Cottonwood Campground,2020,LA,5,2020,0.003
+Cottonwood Campground,2020,OK,5,2020,0.003
+Cottonwood Campground,2020,AK,3,2020,0.0018
+Cottonwood Campground,2020,DE,3,2020,0.0018
+Cottonwood Campground,2020,VT,3,2020,0.0018
+Cottonwood Campground,2020,WV,3,2020,0.0018
+Cottonwood Campground,2020,DC,2,2020,0.0012
+Cottonwood Campground,2020,MS,2,2020,0.0012
+Cottonwood Campground,2020,AP,1,2020,0.0006
+Cottonwood Campground,2020,RI,1,2020,0.0006
+Cottonwood Campground,2021,MN,313,2021,0.1613
+Cottonwood Campground,2021,WI,188,2021,0.0969
+Cottonwood Campground,2021,CA,118,2021,0.0608
+Cottonwood Campground,2021,MI,98,2021,0.0505
+Cottonwood Campground,2021,WA,89,2021,0.0459
+Cottonwood Campground,2021,IL,82,2021,0.0422
+Cottonwood Campground,2021,ND,77,2021,0.0397
+Cottonwood Campground,2021,FL,74,2021,0.0381
+Cottonwood Campground,2021,CO,72,2021,0.0371
+Cottonwood Campground,2021,OH,71,2021,0.0366
+Cottonwood Campground,2021,OR,53,2021,0.0273
+Cottonwood Campground,2021,TX,52,2021,0.0268
+Cottonwood Campground,2021,VA,51,2021,0.0263
+Cottonwood Campground,2021,NY,49,2021,0.0252
+Cottonwood Campground,2021,PA,46,2021,0.0237
+Cottonwood Campground,2021,MT,40,2021,0.0206
+Cottonwood Campground,2021,IN,34,2021,0.0175
+Cottonwood Campground,2021,NC,33,2021,0.017
+Cottonwood Campground,2021,MA,31,2021,0.016
+Cottonwood Campground,2021,AZ,25,2021,0.0129
+Cottonwood Campground,2021,TN,25,2021,0.0129
+Cottonwood Campground,2021,IA,24,2021,0.0124
+Cottonwood Campground,2021,GA,23,2021,0.0118
+Cottonwood Campground,2021,MD,23,2021,0.0118
+Cottonwood Campground,2021,KY,22,2021,0.0113
+Cottonwood Campground,2021,SD,22,2021,0.0113
+Cottonwood Campground,2021,MO,21,2021,0.0108
+Cottonwood Campground,2021,NJ,19,2021,0.0098
+Cottonwood Campground,2021,UT,18,2021,0.0093
+Cottonwood Campground,2021,ID,16,2021,0.0082
+Cottonwood Campground,2021,ME,14,2021,0.0072
+Cottonwood Campground,2021,KS,12,2021,0.0062
+Cottonwood Campground,2021,NM,12,2021,0.0062
+Cottonwood Campground,2021,NV,12,2021,0.0062
+Cottonwood Campground,2021,SC,11,2021,0.0057
+Cottonwood Campground,2021,NE,9,2021,0.0046
+Cottonwood Campground,2021,AR,8,2021,0.0041
+Cottonwood Campground,2021,DC,8,2021,0.0041
+Cottonwood Campground,2021,AL,5,2021,0.0026
+Cottonwood Campground,2021,CT,5,2021,0.0026
+Cottonwood Campground,2021,VT,5,2021,0.0026
+Cottonwood Campground,2021,WV,5,2021,0.0026
+Cottonwood Campground,2021,WY,5,2021,0.0026
+Cottonwood Campground,2021,NH,4,2021,0.0021
+Cottonwood Campground,2021,AK,3,2021,0.0015
+Cottonwood Campground,2021,DE,3,2021,0.0015
+Cottonwood Campground,2021,LA,3,2021,0.0015
+Cottonwood Campground,2021,RI,3,2021,0.0015
+Cottonwood Campground,2021,MS,2,2021,0.001
+Cottonwood Campground,2021,OK,2,2021,0.001
+Cottonwood Campground,2021,HI,1,2021,0.0005
+Cottonwood Campground,2022,MN,544,2022,0.1571
+Cottonwood Campground,2022,WI,277,2022,0.08
+Cottonwood Campground,2022,WA,174,2022,0.0502
+Cottonwood Campground,2022,MI,170,2022,0.0491
+Cottonwood Campground,2022,CO,159,2022,0.0459
+Cottonwood Campground,2022,CA,155,2022,0.0448
+Cottonwood Campground,2022,FL,147,2022,0.0424
+Cottonwood Campground,2022,IL,139,2022,0.0401
+Cottonwood Campground,2022,OH,139,2022,0.0401
+Cottonwood Campground,2022,ND,106,2022,0.0306
+Cottonwood Campground,2022,PA,98,2022,0.0283
+Cottonwood Campground,2022,TX,96,2022,0.0277
+Cottonwood Campground,2022,VA,88,2022,0.0254
+Cottonwood Campground,2022,NY,87,2022,0.0251
+Cottonwood Campground,2022,MT,76,2022,0.0219
+Cottonwood Campground,2022,NC,75,2022,0.0217
+Cottonwood Campground,2022,OR,75,2022,0.0217
+Cottonwood Campground,2022,IN,64,2022,0.0185
+Cottonwood Campground,2022,IA,59,2022,0.017
+Cottonwood Campground,2022,MA,51,2022,0.0147
+Cottonwood Campground,2022,UT,49,2022,0.0141
+Cottonwood Campground,2022,GA,48,2022,0.0139
+Cottonwood Campground,2022,MD,46,2022,0.0133
+Cottonwood Campground,2022,SD,46,2022,0.0133
+Cottonwood Campground,2022,MO,45,2022,0.013
+Cottonwood Campground,2022,TN,41,2022,0.0118
+Cottonwood Campground,2022,AZ,37,2022,0.0107
+Cottonwood Campground,2022,ID,31,2022,0.009
+Cottonwood Campground,2022,NJ,31,2022,0.009
+Cottonwood Campground,2022,NH,23,2022,0.0066
+Cottonwood Campground,2022,SC,23,2022,0.0066
+Cottonwood Campground,2022,NV,22,2022,0.0064
+Cottonwood Campground,2022,NE,21,2022,0.0061
+Cottonwood Campground,2022,CT,20,2022,0.0058
+Cottonwood Campground,2022,NM,20,2022,0.0058
+Cottonwood Campground,2022,KS,18,2022,0.0052
+Cottonwood Campground,2022,ME,18,2022,0.0052
+Cottonwood Campground,2022,OK,18,2022,0.0052
+Cottonwood Campground,2022,WY,17,2022,0.0049
+Cottonwood Campground,2022,KY,16,2022,0.0046
+Cottonwood Campground,2022,VT,16,2022,0.0046
+Cottonwood Campground,2022,AR,15,2022,0.0043
+Cottonwood Campground,2022,AL,14,2022,0.004
+Cottonwood Campground,2022,DC,14,2022,0.004
+Cottonwood Campground,2022,AK,7,2022,0.002
+Cottonwood Campground,2022,LA,7,2022,0.002
+Cottonwood Campground,2022,MS,6,2022,0.0017
+Cottonwood Campground,2022,RI,4,2022,0.0012
+Cottonwood Campground,2022,WV,4,2022,0.0012
+Cottonwood Campground,2022,DE,2,2022,0.0006
+Cottonwood Campground,2022,HI,2,2022,0.0006
+Cottonwood Campground,2022,AA,1,2022,0.0003
+Cottonwood Campground,2022,AE,1,2022,0.0003
+Cottonwood Campground,2022,VI,1,2022,0.0003
+Cottonwood Campground,2023,MN,468,2023,0.1428
+Cottonwood Campground,2023,WI,254,2023,0.0775
+Cottonwood Campground,2023,CA,185,2023,0.0565
+Cottonwood Campground,2023,CO,175,2023,0.0534
+Cottonwood Campground,2023,MI,149,2023,0.0455
+Cottonwood Campground,2023,IL,145,2023,0.0442
+Cottonwood Campground,2023,WA,141,2023,0.043
+Cottonwood Campground,2023,FL,134,2023,0.0409
+Cottonwood Campground,2023,ND,117,2023,0.0357
+Cottonwood Campground,2023,OH,114,2023,0.0348
+Cottonwood Campground,2023,TX,101,2023,0.0308
+Cottonwood Campground,2023,MT,81,2023,0.0247
+Cottonwood Campground,2023,NC,79,2023,0.0241
+Cottonwood Campground,2023,VA,74,2023,0.0226
+Cottonwood Campground,2023,OR,73,2023,0.0223
+Cottonwood Campground,2023,NY,72,2023,0.022
+Cottonwood Campground,2023,PA,67,2023,0.0204
+Cottonwood Campground,2023,AZ,61,2023,0.0186
+Cottonwood Campground,2023,MA,56,2023,0.0171
+Cottonwood Campground,2023,IN,51,2023,0.0156
+Cottonwood Campground,2023,IA,48,2023,0.0146
+Cottonwood Campground,2023,SD,47,2023,0.0143
+Cottonwood Campground,2023,TN,45,2023,0.0137
+Cottonwood Campground,2023,MD,44,2023,0.0134
+Cottonwood Campground,2023,MO,39,2023,0.0119
+Cottonwood Campground,2023,NJ,38,2023,0.0116
+Cottonwood Campground,2023,GA,36,2023,0.011
+Cottonwood Campground,2023,UT,35,2023,0.0107
+Cottonwood Campground,2023,KY,34,2023,0.0104
+Cottonwood Campground,2023,ID,32,2023,0.0098
+Cottonwood Campground,2023,KS,24,2023,0.0073
+Cottonwood Campground,2023,NE,24,2023,0.0073
+Cottonwood Campground,2023,AL,20,2023,0.0061
+Cottonwood Campground,2023,ME,20,2023,0.0061
+Cottonwood Campground,2023,NH,20,2023,0.0061
+Cottonwood Campground,2023,NV,19,2023,0.0058
+Cottonwood Campground,2023,NM,18,2023,0.0055
+Cottonwood Campground,2023,SC,18,2023,0.0055
+Cottonwood Campground,2023,CT,17,2023,0.0052
+Cottonwood Campground,2023,DC,13,2023,0.004
+Cottonwood Campground,2023,VT,13,2023,0.004
+Cottonwood Campground,2023,WY,13,2023,0.004
+Cottonwood Campground,2023,AK,12,2023,0.0037
+Cottonwood Campground,2023,AR,10,2023,0.0031
+Cottonwood Campground,2023,LA,9,2023,0.0027
+Cottonwood Campground,2023,OK,9,2023,0.0027
+Cottonwood Campground,2023,WV,7,2023,0.0021
+Cottonwood Campground,2023,DE,5,2023,0.0015
+Cottonwood Campground,2023,MS,5,2023,0.0015
+Cottonwood Campground,2023,RI,3,2023,0.0009
+Cottonwood Campground,2023,HI,2,2023,0.0006
+Cottonwood Campground,2023,VI,1,2023,0.0003
+Cottonwood Campground,2024,MN,500,2024,0.1528
+Cottonwood Campground,2024,WI,263,2024,0.0804
+Cottonwood Campground,2024,CA,185,2024,0.0565
+Cottonwood Campground,2024,CO,172,2024,0.0526
+Cottonwood Campground,2024,MI,164,2024,0.0501
+Cottonwood Campground,2024,IL,143,2024,0.0437
+Cottonwood Campground,2024,WA,140,2024,0.0428
+Cottonwood Campground,2024,FL,124,2024,0.0379
+Cottonwood Campground,2024,OH,118,2024,0.0361
+Cottonwood Campground,2024,TX,94,2024,0.0287
+Cottonwood Campground,2024,NC,79,2024,0.0241
+Cottonwood Campground,2024,NY,79,2024,0.0241
+Cottonwood Campground,2024,PA,75,2024,0.0229
+Cottonwood Campground,2024,IN,72,2024,0.022
+Cottonwood Campground,2024,ND,72,2024,0.022
+Cottonwood Campground,2024,MT,69,2024,0.0211
+Cottonwood Campground,2024,VA,67,2024,0.0205
+Cottonwood Campground,2024,OR,59,2024,0.018
+Cottonwood Campground,2024,AZ,53,2024,0.0162
+Cottonwood Campground,2024,MO,52,2024,0.0159
+Cottonwood Campground,2024,GA,48,2024,0.0147
+Cottonwood Campground,2024,MD,48,2024,0.0147
+Cottonwood Campground,2024,UT,47,2024,0.0144
+Cottonwood Campground,2024,IA,46,2024,0.0141
+Cottonwood Campground,2024,TN,40,2024,0.0122
+Cottonwood Campground,2024,MA,39,2024,0.0119
+Cottonwood Campground,2024,NJ,34,2024,0.0104
+Cottonwood Campground,2024,KY,33,2024,0.0101
+Cottonwood Campground,2024,SC,28,2024,0.0086
+Cottonwood Campground,2024,KS,27,2024,0.0083
+Cottonwood Campground,2024,NE,25,2024,0.0076
+Cottonwood Campground,2024,ME,22,2024,0.0067
+Cottonwood Campground,2024,ID,21,2024,0.0064
+Cottonwood Campground,2024,AR,19,2024,0.0058
+Cottonwood Campground,2024,SD,19,2024,0.0058
+Cottonwood Campground,2024,AL,18,2024,0.0055
+Cottonwood Campground,2024,NH,18,2024,0.0055
+Cottonwood Campground,2024,CT,17,2024,0.0052
+Cottonwood Campground,2024,WY,17,2024,0.0052
+Cottonwood Campground,2024,LA,16,2024,0.0049
+Cottonwood Campground,2024,OK,16,2024,0.0049
+Cottonwood Campground,2024,DC,13,2024,0.004
+Cottonwood Campground,2024,MS,12,2024,0.0037
+Cottonwood Campground,2024,NM,12,2024,0.0037
+Cottonwood Campground,2024,NV,12,2024,0.0037
+Cottonwood Campground,2024,VT,12,2024,0.0037
+Cottonwood Campground,2024,AK,10,2024,0.0031
+Cottonwood Campground,2024,DE,8,2024,0.0024
+Cottonwood Campground,2024,HI,5,2024,0.0015
+Cottonwood Campground,2024,RI,5,2024,0.0015
+Cottonwood Campground,2024,WV,4,2024,0.0012
+Cottonwood Campground,2024,AA,1,2024,0.0003
+Cottonwood Campground,2025,MN,380,2025,0.1219
+Cottonwood Campground,2025,WI,226,2025,0.0725
+Cottonwood Campground,2025,CA,221,2025,0.0709
+Cottonwood Campground,2025,CO,159,2025,0.051
+Cottonwood Campground,2025,WA,137,2025,0.0439
+Cottonwood Campground,2025,IL,134,2025,0.043
+Cottonwood Campground,2025,FL,127,2025,0.0407
+Cottonwood Campground,2025,MI,123,2025,0.0394
+Cottonwood Campground,2025,OH,120,2025,0.0385
+Cottonwood Campground,2025,TX,101,2025,0.0324
+Cottonwood Campground,2025,PA,97,2025,0.0311
+Cottonwood Campground,2025,VA,83,2025,0.0266
+Cottonwood Campground,2025,IN,82,2025,0.0263
+Cottonwood Campground,2025,NC,79,2025,0.0253
+Cottonwood Campground,2025,ND,78,2025,0.025
+Cottonwood Campground,2025,NY,71,2025,0.0228
+Cottonwood Campground,2025,OR,64,2025,0.0205
+Cottonwood Campground,2025,TN,60,2025,0.0192
+Cottonwood Campground,2025,MD,58,2025,0.0186
+Cottonwood Campground,2025,AZ,55,2025,0.0176
+Cottonwood Campground,2025,MT,53,2025,0.017
+Cottonwood Campground,2025,UT,51,2025,0.0164
+Cottonwood Campground,2025,MO,50,2025,0.016
+Cottonwood Campground,2025,GA,48,2025,0.0154
+Cottonwood Campground,2025,IA,46,2025,0.0148
+Cottonwood Campground,2025,MA,41,2025,0.0131
+Cottonwood Campground,2025,SD,39,2025,0.0125
+Cottonwood Campground,2025,KS,35,2025,0.0112
+Cottonwood Campground,2025,AL,24,2025,0.0077
+Cottonwood Campground,2025,SC,23,2025,0.0074
+Cottonwood Campground,2025,NE,21,2025,0.0067
+Cottonwood Campground,2025,NH,21,2025,0.0067
+Cottonwood Campground,2025,KY,20,2025,0.0064
+Cottonwood Campground,2025,NJ,20,2025,0.0064
+Cottonwood Campground,2025,NV,20,2025,0.0064
+Cottonwood Campground,2025,ME,19,2025,0.0061
+Cottonwood Campground,2025,CT,16,2025,0.0051
+Cottonwood Campground,2025,ID,16,2025,0.0051
+Cottonwood Campground,2025,NM,11,2025,0.0035
+Cottonwood Campground,2025,LA,10,2025,0.0032
+Cottonwood Campground,2025,WV,10,2025,0.0032
+Cottonwood Campground,2025,WY,10,2025,0.0032
+Cottonwood Campground,2025,AR,9,2025,0.0029
+Cottonwood Campground,2025,DC,9,2025,0.0029
+Cottonwood Campground,2025,DE,9,2025,0.0029
+Cottonwood Campground,2025,VT,9,2025,0.0029
+Cottonwood Campground,2025,AK,8,2025,0.0026
+Cottonwood Campground,2025,OK,6,2025,0.0019
+Cottonwood Campground,2025,RI,6,2025,0.0019
+Cottonwood Campground,2025,AP,1,2025,0.0003
+Cottonwood Campground,2025,HI,1,2025,0.0003
+Cottonwood Campground,2025,MS,1,2025,0.0003
+Cottonwood Group Site,2024,MN,16,2024,0.2222
+Cottonwood Group Site,2024,ND,14,2024,0.1944
+Cottonwood Group Site,2024,CA,6,2024,0.0833
+Cottonwood Group Site,2024,WI,6,2024,0.0833
+Cottonwood Group Site,2024,MI,3,2024,0.0417
+Cottonwood Group Site,2024,IA,2,2024,0.0278
+Cottonwood Group Site,2024,IL,2,2024,0.0278
+Cottonwood Group Site,2024,IN,2,2024,0.0278
+Cottonwood Group Site,2024,MT,2,2024,0.0278
+Cottonwood Group Site,2024,NC,2,2024,0.0278
+Cottonwood Group Site,2024,AR,1,2024,0.0139
+Cottonwood Group Site,2024,AZ,1,2024,0.0139
+Cottonwood Group Site,2024,DC,1,2024,0.0139
+Cottonwood Group Site,2024,FL,1,2024,0.0139
+Cottonwood Group Site,2024,ID,1,2024,0.0139
+Cottonwood Group Site,2024,MD,1,2024,0.0139
+Cottonwood Group Site,2024,MO,1,2024,0.0139
+Cottonwood Group Site,2024,NE,1,2024,0.0139
+Cottonwood Group Site,2024,NV,1,2024,0.0139
+Cottonwood Group Site,2024,OH,1,2024,0.0139
+Cottonwood Group Site,2024,OR,1,2024,0.0139
+Cottonwood Group Site,2024,PA,1,2024,0.0139
+Cottonwood Group Site,2024,SD,1,2024,0.0139
+Cottonwood Group Site,2024,TN,1,2024,0.0139
+Cottonwood Group Site,2024,TX,1,2024,0.0139
+Cottonwood Group Site,2024,UT,1,2024,0.0139
+Cottonwood Group Site,2024,WA,1,2024,0.0139
+Cottonwood Group Site,2025,MN,14,2025,0.28
+Cottonwood Group Site,2025,WI,7,2025,0.14
+Cottonwood Group Site,2025,ND,5,2025,0.1
+Cottonwood Group Site,2025,WY,3,2025,0.06
+Cottonwood Group Site,2025,CA,2,2025,0.04
+Cottonwood Group Site,2025,GA,2,2025,0.04
+Cottonwood Group Site,2025,ID,2,2025,0.04
+Cottonwood Group Site,2025,UT,2,2025,0.04
+Cottonwood Group Site,2025,CO,1,2025,0.02
+Cottonwood Group Site,2025,FL,1,2025,0.02
+Cottonwood Group Site,2025,MD,1,2025,0.02
+Cottonwood Group Site,2025,MI,1,2025,0.02
+Cottonwood Group Site,2025,MT,1,2025,0.02
+Cottonwood Group Site,2025,NY,1,2025,0.02
+Cottonwood Group Site,2025,OH,1,2025,0.02
+Cottonwood Group Site,2025,PA,1,2025,0.02
+Cottonwood Group Site,2025,RI,1,2025,0.02
+Cottonwood Group Site,2025,SD,1,2025,0.02
+Cottonwood Group Site,2025,TN,1,2025,0.02
+Cottonwood Group Site,2025,TX,1,2025,0.02
+Cottonwood Group Site,2025,WA,1,2025,0.02
+Hankinson Hills Campground,2025,FL,3,2025,1.0
+Jorgen's Hollow Campground,2025,ND,1,2025,1.0
+Juniper Campground Group Site,2020,ND,8,2020,0.6154
+Juniper Campground Group Site,2020,WI,2,2020,0.1538
+Juniper Campground Group Site,2020,MN,1,2020,0.0769
+Juniper Campground Group Site,2020,OH,1,2020,0.0769
+Juniper Campground Group Site,2020,UT,1,2020,0.0769
+Juniper Campground Group Site,2021,MN,10,2021,0.2564
+Juniper Campground Group Site,2021,ND,10,2021,0.2564
+Juniper Campground Group Site,2021,CA,3,2021,0.0769
+Juniper Campground Group Site,2021,WA,3,2021,0.0769
+Juniper Campground Group Site,2021,WI,2,2021,0.0513
+Juniper Campground Group Site,2021,CT,1,2021,0.0256
+Juniper Campground Group Site,2021,DC,1,2021,0.0256
+Juniper Campground Group Site,2021,FL,1,2021,0.0256
+Juniper Campground Group Site,2021,IL,1,2021,0.0256
+Juniper Campground Group Site,2021,MO,1,2021,0.0256
+Juniper Campground Group Site,2021,MT,1,2021,0.0256
+Juniper Campground Group Site,2021,NC,1,2021,0.0256
+Juniper Campground Group Site,2021,OH,1,2021,0.0256
+Juniper Campground Group Site,2021,OR,1,2021,0.0256
+Juniper Campground Group Site,2021,PA,1,2021,0.0256
+Juniper Campground Group Site,2021,TN,1,2021,0.0256
+Juniper Campground Group Site,2022,MN,10,2022,0.1923
+Juniper Campground Group Site,2022,ND,6,2022,0.1154
+Juniper Campground Group Site,2022,WI,5,2022,0.0962
+Juniper Campground Group Site,2022,MI,4,2022,0.0769
+Juniper Campground Group Site,2022,WA,4,2022,0.0769
+Juniper Campground Group Site,2022,IL,3,2022,0.0577
+Juniper Campground Group Site,2022,IN,3,2022,0.0577
+Juniper Campground Group Site,2022,CO,2,2022,0.0385
+Juniper Campground Group Site,2022,KY,2,2022,0.0385
+Juniper Campground Group Site,2022,ME,2,2022,0.0385
+Juniper Campground Group Site,2022,MO,2,2022,0.0385
+Juniper Campground Group Site,2022,CA,1,2022,0.0192
+Juniper Campground Group Site,2022,IA,1,2022,0.0192
+Juniper Campground Group Site,2022,MD,1,2022,0.0192
+Juniper Campground Group Site,2022,MT,1,2022,0.0192
+Juniper Campground Group Site,2022,NE,1,2022,0.0192
+Juniper Campground Group Site,2022,OH,1,2022,0.0192
+Juniper Campground Group Site,2022,PA,1,2022,0.0192
+Juniper Campground Group Site,2022,TX,1,2022,0.0192
+Juniper Campground Group Site,2022,VA,1,2022,0.0192
+Juniper Campground Group Site,2023,ND,16,2023,0.2857
+Juniper Campground Group Site,2023,IL,6,2023,0.1071
+Juniper Campground Group Site,2023,MI,5,2023,0.0893
+Juniper Campground Group Site,2023,CA,4,2023,0.0714
+Juniper Campground Group Site,2023,MN,4,2023,0.0714
+Juniper Campground Group Site,2023,MO,3,2023,0.0536
+Juniper Campground Group Site,2023,NC,2,2023,0.0357
+Juniper Campground Group Site,2023,WA,2,2023,0.0357
+Juniper Campground Group Site,2023,WI,2,2023,0.0357
+Juniper Campground Group Site,2023,AZ,1,2023,0.0179
+Juniper Campground Group Site,2023,CO,1,2023,0.0179
+Juniper Campground Group Site,2023,IN,1,2023,0.0179
+Juniper Campground Group Site,2023,KY,1,2023,0.0179
+Juniper Campground Group Site,2023,MT,1,2023,0.0179
+Juniper Campground Group Site,2023,NH,1,2023,0.0179
+Juniper Campground Group Site,2023,NY,1,2023,0.0179
+Juniper Campground Group Site,2023,OH,1,2023,0.0179
+Juniper Campground Group Site,2023,OR,1,2023,0.0179
+Juniper Campground Group Site,2023,PA,1,2023,0.0179
+Juniper Campground Group Site,2023,SC,1,2023,0.0179
+Juniper Campground Group Site,2023,TX,1,2023,0.0179
+Juniper Campground Group Site,2024,MN,13,2024,0.2708
+Juniper Campground Group Site,2024,ND,9,2024,0.1875
+Juniper Campground Group Site,2024,CA,5,2024,0.1042
+Juniper Campground Group Site,2024,WI,4,2024,0.0833
+Juniper Campground Group Site,2024,MI,2,2024,0.0417
+Juniper Campground Group Site,2024,OH,2,2024,0.0417
+Juniper Campground Group Site,2024,WA,2,2024,0.0417
+Juniper Campground Group Site,2024,AL,1,2024,0.0208
+Juniper Campground Group Site,2024,AR,1,2024,0.0208
+Juniper Campground Group Site,2024,GA,1,2024,0.0208
+Juniper Campground Group Site,2024,IL,1,2024,0.0208
+Juniper Campground Group Site,2024,KS,1,2024,0.0208
+Juniper Campground Group Site,2024,ME,1,2024,0.0208
+Juniper Campground Group Site,2024,MT,1,2024,0.0208
+Juniper Campground Group Site,2024,NE,1,2024,0.0208
+Juniper Campground Group Site,2024,OR,1,2024,0.0208
+Juniper Campground Group Site,2024,PA,1,2024,0.0208
+Juniper Campground Group Site,2024,VA,1,2024,0.0208
+Juniper Campground Group Site,2025,ND,8,2025,0.2963
+Juniper Campground Group Site,2025,MN,3,2025,0.1111
+Juniper Campground Group Site,2025,GA,2,2025,0.0741
+Juniper Campground Group Site,2025,WA,2,2025,0.0741
+Juniper Campground Group Site,2025,CO,1,2025,0.037
+Juniper Campground Group Site,2025,DC,1,2025,0.037
+Juniper Campground Group Site,2025,FL,1,2025,0.037
+Juniper Campground Group Site,2025,IA,1,2025,0.037
+Juniper Campground Group Site,2025,ID,1,2025,0.037
+Juniper Campground Group Site,2025,IN,1,2025,0.037
+Juniper Campground Group Site,2025,MI,1,2025,0.037
+Juniper Campground Group Site,2025,MT,1,2025,0.037
+Juniper Campground Group Site,2025,NY,1,2025,0.037
+Juniper Campground Group Site,2025,PA,1,2025,0.037
+Juniper Campground Group Site,2025,TX,1,2025,0.037
+Juniper Campground Group Site,2025,WY,1,2025,0.037
+Roundup Group Horse Camp,2019,MN,2,2020,0.4
+Roundup Group Horse Camp,2019,ND,2,2020,0.4
+Roundup Group Horse Camp,2019,ID,1,2020,0.2
+Roundup Group Horse Camp,2020,ND,22,2021,0.5789
+Roundup Group Horse Camp,2020,MN,12,2021,0.3158
+Roundup Group Horse Camp,2020,MT,2,2021,0.0526
+Roundup Group Horse Camp,2020,WI,2,2021,0.0526
+Roundup Group Horse Camp,2021,MN,20,2022,0.4444
+Roundup Group Horse Camp,2021,ND,19,2022,0.4222
+Roundup Group Horse Camp,2021,WI,3,2021,0.0667
+Roundup Group Horse Camp,2021,MT,2,2021,0.0444
+Roundup Group Horse Camp,2021,GA,1,2021,0.0222
+Roundup Group Horse Camp,2022,ND,23,2023,0.4894
+Roundup Group Horse Camp,2022,MN,16,2023,0.3404
+Roundup Group Horse Camp,2022,SD,4,2022,0.0851
+Roundup Group Horse Camp,2022,MT,2,2022,0.0426
+Roundup Group Horse Camp,2022,AZ,1,2022,0.0213
+Roundup Group Horse Camp,2022,WI,1,2022,0.0213
+Roundup Group Horse Camp,2023,MN,23,2024,0.6571
+Roundup Group Horse Camp,2023,ND,8,2024,0.2286
+Roundup Group Horse Camp,2023,KS,1,2024,0.0286
+Roundup Group Horse Camp,2023,MI,1,2023,0.0286
+Roundup Group Horse Camp,2023,MT,1,2023,0.0286
+Roundup Group Horse Camp,2023,WI,1,2023,0.0286
+Roundup Group Horse Camp,2024,MN,16,2025,0.4211
+Roundup Group Horse Camp,2024,ND,13,2024,0.3421
+Roundup Group Horse Camp,2024,SD,3,2025,0.0789
+Roundup Group Horse Camp,2024,CO,2,2024,0.0526
+Roundup Group Horse Camp,2024,KS,1,2024,0.0263
+Roundup Group Horse Camp,2024,MI,1,2024,0.0263
+Roundup Group Horse Camp,2024,PA,1,2024,0.0263
+Roundup Group Horse Camp,2024,WI,1,2024,0.0263
+Roundup Group Horse Camp,2025,MN,22,2025,0.5946
+Roundup Group Horse Camp,2025,ND,12,2025,0.3243
+Roundup Group Horse Camp,2025,SD,2,2025,0.0541
+Roundup Group Horse Camp,2025,WI,1,2025,0.027
+Sather Lake Campground,2025,AZ,1,2025,0.2
+Sather Lake Campground,2025,MN,1,2025,0.2
+Sather Lake Campground,2025,ND,1,2025,0.2
+Sather Lake Campground,2025,OR,1,2025,0.2
+Sather Lake Campground,2025,WA,1,2025,0.2

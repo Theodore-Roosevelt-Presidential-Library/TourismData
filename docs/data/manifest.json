@@ -1,26 +1,45 @@
 {
   "airports": {
     "annual_years": [
-      2005,
+      2011,
       2025
     ],
-    "fetched_at": "2026-09-16T22:40:07+00:00",
+    "fetched_at": "2026-09-16T22:27:45+00:00",
     "monthly_latest": "2026-06"
   },
   "bts_airports_annual": {
-    "fetched_at": "2026-09-16T22:24:36+00:00",
+    "fetched_at": "2026-09-16T20:36:41+00:00",
     "rows": 6,
     "years": [
       2024
     ]
   },
   "bts_border_monthly": {
-    "fetched_at": "2026-09-16T22:39:10+00:00",
+    "fetched_at": "2026-09-16T20:36:40+00:00",
     "latest_month": "2026-07",
     "rows": 6448
   },
+  "controls_monthly": {
+    "columns": [
+      "rain_days",
+      "tmax_mean_f",
+      "hot_days_90f",
+      "gas_midwest_usd",
+      "cad_per_usd",
+      "nd_oil_bbl_per_day",
+      "nd_rig_count"
+    ],
+    "fetched_at": "2026-09-16T22:53:56+00:00",
+    "rows": 141
+  },
+  "interest": {
+    "fetched_at": "2026-09-16T22:59:02+00:00",
+    "trends_rows": 330,
+    "wiki_articles": 4,
+    "wiki_latest": "2026-09"
+  },
   "mt_itrr": {
-    "fetched_at": "2026-09-16T22:41:03+00:00",
+    "fetched_at": "2026-09-16T21:01:25+00:00",
     "survey_n": 40835,
     "survey_years": [
       2021,
@@ -42,23 +61,34 @@
       "Watford City"
     ],
     "failed": [],
-    "fetched_at": "2026-09-16T22:40:59+00:00",
+    "fetched_at": "2026-09-16T22:13:36+00:00",
     "latest_payment": "2026-08-21",
     "rows": 1254
   },
   "nd_taxable_sales_quarterly": {
     "counties": 55,
-    "fetched_at": "2026-09-16T22:40:31+00:00",
+    "fetched_at": "2026-09-16T21:53:23+00:00",
     "latest_quarter": "2026 Q2",
     "rows": 1650
   },
   "nddot_atr_monthly": {
     "fetched": [
-      "November2025"
+      "January2025",
+      "February2025",
+      "March2025",
+      "April2025",
+      "May2025",
+      "June2025",
+      "July2025",
+      "August2025",
+      "September2025",
+      "October2025",
+      "December2025"
     ],
-    "fetched_at": "2026-09-16T22:40:29+00:00",
+    "fetched_at": "2026-09-16T22:30:34+00:00",
     "latest_month": "2025-12",
     "missing_reports": [
+      "November2025",
       "January2026",
       "February2026",
       "March2026",
@@ -69,11 +99,11 @@
       "August2026",
       "September2026"
     ],
-    "rows": 70
+    "rows": 64
   },
   "nps_monthly": {
     "failed": [],
-    "fetched_at": "2026-09-16T22:39:08+00:00",
+    "fetched_at": "2026-09-16T20:36:38+00:00",
     "latest_month": {
       "BADL": "2026-08",
       "DETO": "2026-08",
@@ -86,9 +116,37 @@
     },
     "parks": 8
   },
+  "qcew_county_quarterly": {
+    "fetched_at": "2026-09-16T22:58:04+00:00",
+    "latest_quarter": "2026 Q1",
+    "missing": [],
+    "rows": 1530
+  },
+  "recgov": {
+    "facilities": [
+      "Buffalo Gap Campground",
+      "CCC Campground",
+      "Cottonwood Campground",
+      "Cottonwood Group Site",
+      "Hankinson Hills Campground",
+      "Jorgen's Hollow Campground",
+      "Juniper Campground Group Site",
+      "Roundup Group Horse Camp",
+      "Sather Lake Campground"
+    ],
+    "fetched_at": "2026-09-16T22:53:39+00:00",
+    "fiscal_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
   "wy_county_travel_impacts": {
     "counties": 23,
-    "fetched_at": "2026-09-16T22:41:39+00:00",
+    "fetched_at": "2026-09-16T21:01:20+00:00",
     "rows": 253,
     "years": [
       2015,
