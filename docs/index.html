@@ -228,6 +228,37 @@ async function main() {
     seasonalChart("c5", QTR, b, cur, { periodName: "Quarter", hover: "$%{y:,.0f}", fmt: money, yaxis: { tickprefix: "$" }, openingIndex: 2 });
   }
 
+  // ---- Charts 5c-5e: Medora and corridor towns (Treasurer distributions)
+  if (d.nd_city && d.nd_city.cities && d.nd_city.cities.Medora) {
+    const nc = d.nd_city, ycur = nc.current_year, lm = nc.latest_month;
+    const med = nc.cities.Medora;
+    const lagNote = `Payments lag sales by about two months and quarterly filers land in the fall payments, so read year-to-date and same-month comparisons, not single months. Source: ND State Treasurer distribution search, payments through ${nc.latest_payment}.`;
+    card("c5c", "Medora city sales tax, monthly payments to the city",
+      `The one public series at the town level: what the State Treasurer paid the City of Medora each month from its local sales tax, ${ycur} against ${ycur - 1} and the ${med.sales.band_years[0]}–${med.sales.band_years.at(-1)} range. ${lagNote}`);
+    seasonalChart("c5c", MON, med.sales, ycur, { periodName: "Payment month", hover: "$%{y:,.0f}", fmt: money, yaxis: { tickprefix: "$" }, openingIndex: 6 });
+    if (med.occupancy) {
+      card("c5d", "Medora occupancy (lodging) tax, monthly payments to the city",
+        `City/County Occupancy tax distributed to Medora: the lodging read. ${ycur} against ${ycur - 1} and the ${med.occupancy.band_years[0]}–${med.occupancy.band_years.at(-1)} range. ${lagNote}`);
+      seasonalChart("c5d", MON, med.occupancy, ycur, { periodName: "Payment month", hover: "$%{y:,.0f}", fmt: money, yaxis: { tickprefix: "$" }, openingIndex: 6 });
+    }
+    const ytd = nc.ytd.filter(r => r.sales_ytd_pct != null).sort((a, b) => a.sales_ytd_pct - b.sales_ytd_pct);
+    card("c5e", `Corridor towns: city sales tax paid, Jan–${MON[lm - 1]} ${ycur} vs ${ycur - 1}`,
+      `Year-to-date change in city sales tax distributions for the towns on the routes into Medora. Medora highlighted. Dickinson and Watford City are large oil-and-retail economies, so their swings are mostly not tourism. Occupancy tax change is in the table.`);
+    Plotly.newPlot("c5e", [{
+      type: "bar", orientation: "h", y: ytd.map(r => `${r.city} (${r.county} Co.)`), x: ytd.map(r => r.sales_ytd_pct),
+      marker: { color: ytd.map(r => r.city === "Medora" ? css("--s1") : css("--gray-mark")) },
+      text: ytd.map(r => pctTxt(r.sales_ytd_pct)), textposition: "outside", textfont: { color: css("--ink-2") }, cliponaxis: false,
+      customdata: ytd.map(r => [r.sales_ytd_cur, r.sales_ytd_prev]), hovertemplate: "%{y}<br>%{x:+.1f}%<br>$%{customdata[0]:,} vs $%{customdata[1]:,}<extra></extra>",
+    }], baseLayout({
+      hovermode: "closest", margin: { l: 200, r: 60, t: 8, b: 40 }, showlegend: false, bargap: 0.35,
+      xaxis: { ticksuffix: "%", gridcolor: css("--grid"), zeroline: true, zerolinecolor: css("--axis"), tickfont: { color: css("--muted") },
+        range: [Math.min(0, ...ytd.map(r => r.sales_ytd_pct)) * 1.9 - 4, Math.max(0, ...ytd.map(r => r.sales_ytd_pct)) * 1.18 + 4] },
+      yaxis: { tickfont: { color: css("--ink-2") }, automargin: true },
+    }), CONFIG);
+    table("c5e", ["Town", `Sales tax YTD ${ycur}`, `YTD ${ycur - 1}`, "Change", `Occupancy YTD ${ycur}`, `YTD ${ycur - 1}`, "Change"],
+      ytd.slice().reverse().map(r => [`${r.city} (${r.county})`, money(r.sales_ytd_cur), money(r.sales_ytd_prev), pctTxt(r.sales_ytd_pct), money(r.occupancy_ytd_cur), money(r.occupancy_ytd_prev), pctTxt(r.occupancy_ytd_pct)]));
+  }
+
   // ---- Chart 5b: ND statewide Accommodation & Food Services
   if (d.nd_tax && d.nd_tax.industries && d.nd_tax.industries["Accommodation & Food Services"]) {
     const a = d.nd_tax.industries["Accommodation & Food Services"];
@@ -279,7 +310,7 @@ async function main() {
   const m = d.manifest;
   document.getElementById("footer").innerHTML =
     `Built ${d.built_at.replace("T", " ").slice(0, 16)} UTC. NPS fetched ${m.nps_monthly.fetched_at.slice(0, 10)}; BTS border ${m.bts_border_monthly.fetched_at.slice(0, 10)}. ` +
-    `Data: <a href="data/nps_monthly.csv">nps_monthly.csv</a> · <a href="data/bts_border_monthly.csv">bts_border_monthly.csv</a> · <a href="data/bts_airports_annual.csv">bts_airports_annual.csv</a> · <a href="data/nd_taxable_sales_quarterly.csv">nd_taxable_sales_quarterly.csv</a> · <a href="data/nd_taxable_sales_industry_quarterly.csv">nd_taxable_sales_industry_quarterly.csv</a> · <a href="data/mt_nonresident_visitation_monthly.csv">mt_nonresident_visitation_monthly.csv</a> · <a href="data/mt_nonresident_survey_shares.csv">mt_nonresident_survey_shares.csv</a> · <a href="data/wy_county_travel_impacts_annual.csv">wy_county_travel_impacts_annual.csv</a> · <a href="data/dashboard.json">dashboard.json</a>. ` +
+    `Data: <a href="data/nps_monthly.csv">nps_monthly.csv</a> · <a href="data/bts_border_monthly.csv">bts_border_monthly.csv</a> · <a href="data/bts_airports_annual.csv">bts_airports_annual.csv</a> · <a href="data/nd_taxable_sales_quarterly.csv">nd_taxable_sales_quarterly.csv</a> · <a href="data/nd_taxable_sales_industry_quarterly.csv">nd_taxable_sales_industry_quarterly.csv</a> · <a href="data/nd_city_tax_distributions_monthly.csv">nd_city_tax_distributions_monthly.csv</a> · <a href="data/mt_nonresident_visitation_monthly.csv">mt_nonresident_visitation_monthly.csv</a> · <a href="data/mt_nonresident_survey_shares.csv">mt_nonresident_survey_shares.csv</a> · <a href="data/wy_county_travel_impacts_annual.csv">wy_county_travel_impacts_annual.csv</a> · <a href="data/dashboard.json">dashboard.json</a>. ` +
     `NPS monthly counts are preliminary until the annual close. Theodore Roosevelt Presidential Library.`;
 }
 main().catch(e => { document.getElementById("subtitle").textContent = "Could not load data: " + e; });

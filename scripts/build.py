@@ -137,6 +137,35 @@ def nd_tax_block() -> dict:
     return out
 
 
+def nd_city_block() -> dict:
+    p = DATA / "nd_city_tax_distributions_monthly.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    cur = int(df["year"].max())
+    latest_m = int(df[df["year"] == cur]["month"].max())
+    out = {"current_year": cur, "latest_month": latest_m, "latest_payment": df["payment_date"].max(), "cities": {}, "ytd": []}
+    for city, g in df.groupby("city"):
+        block = {"county": g["county"].iloc[0]}
+        for dist, gd in g.groupby("dist_type"):
+            key = "sales" if "Sales" in dist else "occupancy"
+            m = gd.groupby(["year", "month"])["amount"].sum().reset_index()
+            block[key] = seasonal(m, "month", "amount", 12, BAND_YEARS)
+        out["cities"][city] = block
+        row = {"city": city, "county": block["county"]}
+        for key in ("sales", "occupancy"):
+            if key in block:
+                yc = block[key]["years"].get(str(cur), [])
+                yp = block[key]["years"].get(str(cur - 1), [])
+                c = sum(v for v in yc[:latest_m] if v)
+                pv = sum(v for v in yp[:latest_m] if v)
+                row[key + "_ytd_cur"] = round(c)
+                row[key + "_ytd_prev"] = round(pv)
+                row[key + "_ytd_pct"] = pct(c, pv)
+        out["ytd"].append(row)
+    return out
+
+
 def mt_block() -> dict:
     p = DATA / "mt_nonresident_visitation_monthly.csv"
     if not p.exists():
@@ -210,6 +239,7 @@ def main() -> None:
         "border": border_block(),
         "airports": airports_block(),
         "nd_tax": nd_tax_block(),
+        "nd_city": nd_city_block(),
         "mt": mt_block(),
         "wy": wy_block(),
     }

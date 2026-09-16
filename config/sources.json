@@ -121,5 +121,21 @@
     "Park",
     "Weston",
     "Campbell"
-  ]
+  ],
+  "nd_treasurer": {
+    "cities": [
+      "Medora",
+      "Beach",
+      "Belfield",
+      "Dickinson",
+      "Watford City",
+      "Killdeer",
+      "Bowman"
+    ],
+    "dist_types": [
+      "CITY SALES",
+      "OCCUPANCY"
+    ],
+    "since": "01/01/2019"
+  }
 }

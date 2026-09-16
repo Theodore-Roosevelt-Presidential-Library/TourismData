@@ -41,6 +41,9 @@ jobs:
       - name: Fetch ND taxable sales (quarterly, by county)
         run: python scripts/fetch_nd_tax.py
         continue-on-error: true
+      - name: Fetch ND Treasurer city tax distributions (Medora + corridor towns)
+        run: python scripts/fetch_nd_treasurer.py
+        continue-on-error: true
       - name: Fetch MT ITRR nonresident visitation and survey shares
         run: python scripts/fetch_mt_itrr.py
         continue-on-error: true
