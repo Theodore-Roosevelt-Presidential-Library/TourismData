@@ -2,7 +2,7 @@
 
 Gathers regional visitation indicators around the Theodore Roosevelt Presidential Library and publishes a dashboard on GitHub Pages.
 
-**Dashboard:** https://theodore-roosevelt-presidential-library.github.io/TourismData/
+**Dashboard:** https://tourismdata.labs.trlibrary.com/
 
 ## What it tracks
 
