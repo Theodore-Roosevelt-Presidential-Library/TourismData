@@ -1,0 +1,451 @@
+industry,year,quarter,total
+Accommodation & Food Services,2019,1,411633357.0
+Accommodation & Food Services,2019,2,476514939.0
+Accommodation & Food Services,2019,3,506646650.0
+Accommodation & Food Services,2019,4,447685750.0
+Accommodation & Food Services,2020,1,385373206.0
+Accommodation & Food Services,2020,2,315968462.0
+Accommodation & Food Services,2020,3,422643474.0
+Accommodation & Food Services,2020,4,360228290.0
+Accommodation & Food Services,2021,1,397990554.0
+Accommodation & Food Services,2021,2,474664962.0
+Accommodation & Food Services,2021,3,514643280.0
+Accommodation & Food Services,2021,4,466182246.0
+Accommodation & Food Services,2022,1,443129847.0
+Accommodation & Food Services,2022,2,513300015.0
+Accommodation & Food Services,2022,3,566536486.0
+Accommodation & Food Services,2022,4,498272662.0
+Accommodation & Food Services,2023,1,483264608.0
+Accommodation & Food Services,2023,2,556120579.0
+Accommodation & Food Services,2023,3,603597912.0
+Accommodation & Food Services,2023,4,525308358.0
+Accommodation & Food Services,2024,1,493999312.0
+Accommodation & Food Services,2024,2,581206402.0
+Accommodation & Food Services,2024,3,607205811.0
+Accommodation & Food Services,2024,4,535100115.0
+Accommodation & Food Services,2025,1,496433883.0
+Accommodation & Food Services,2025,2,574334937.0
+Accommodation & Food Services,2025,3,600129731.0
+Accommodation & Food Services,2025,4,538311831.0
+Accommodation & Food Services,2026,1,507877557.0
+Accommodation & Food Services,2026,2,583790933.0
+"Arts, Entertainment & Recreation",2019,1,18121774.0
+"Arts, Entertainment & Recreation",2019,2,33692305.0
+"Arts, Entertainment & Recreation",2019,3,44447202.0
+"Arts, Entertainment & Recreation",2019,4,26315885.0
+"Arts, Entertainment & Recreation",2020,1,16917947.0
+"Arts, Entertainment & Recreation",2020,2,20108091.0
+"Arts, Entertainment & Recreation",2020,3,38703756.0
+"Arts, Entertainment & Recreation",2020,4,12335847.0
+"Arts, Entertainment & Recreation",2021,1,15151751.0
+"Arts, Entertainment & Recreation",2021,2,32966688.0
+"Arts, Entertainment & Recreation",2021,3,51481674.0
+"Arts, Entertainment & Recreation",2021,4,23631176.0
+"Arts, Entertainment & Recreation",2022,1,21839381.0
+"Arts, Entertainment & Recreation",2022,2,39884963.0
+"Arts, Entertainment & Recreation",2022,3,61462978.0
+"Arts, Entertainment & Recreation",2022,4,28438072.0
+"Arts, Entertainment & Recreation",2023,1,25473558.0
+"Arts, Entertainment & Recreation",2023,2,46360905.0
+"Arts, Entertainment & Recreation",2023,3,62880463.0
+"Arts, Entertainment & Recreation",2023,4,33130664.0
+"Arts, Entertainment & Recreation",2024,1,30790742.0
+"Arts, Entertainment & Recreation",2024,2,50731431.0
+"Arts, Entertainment & Recreation",2024,3,66344473.0
+"Arts, Entertainment & Recreation",2024,4,35181722.0
+"Arts, Entertainment & Recreation",2025,1,28475696.0
+"Arts, Entertainment & Recreation",2025,2,51400350.0
+"Arts, Entertainment & Recreation",2025,3,67476948.0
+"Arts, Entertainment & Recreation",2025,4,35773909.0
+"Arts, Entertainment & Recreation",2026,1,33098500.0
+"Arts, Entertainment & Recreation",2026,2,51143563.0
+Construction,2019,1,102824046.0
+Construction,2019,2,152271507.0
+Construction,2019,3,197266891.0
+Construction,2019,4,175273429.0
+Construction,2020,1,104156519.0
+Construction,2020,2,127665337.0
+Construction,2020,3,162314619.0
+Construction,2020,4,148986764.0
+Construction,2021,1,94657112.0
+Construction,2021,2,143419161.0
+Construction,2021,3,182038190.0
+Construction,2021,4,157939803.0
+Construction,2022,1,111477798.0
+Construction,2022,2,164383693.0
+Construction,2022,3,251434699.0
+Construction,2022,4,196479491.0
+Construction,2023,1,139048495.0
+Construction,2023,2,176572729.0
+Construction,2023,3,244313583.0
+Construction,2023,4,207054760.0
+Construction,2024,1,139368114.0
+Construction,2024,2,182623942.0
+Construction,2024,3,246071488.0
+Construction,2024,4,223290883.0
+Construction,2025,1,132266767.0
+Construction,2025,2,205012805.0
+Construction,2025,3,262032074.0
+Construction,2025,4,248066504.0
+Construction,2026,1,167457959.0
+Construction,2026,2,211548542.0
+"Educational, Health Care, and Social Serv.",2019,1,26119606.0
+"Educational, Health Care, and Social Serv.",2019,2,34471261.0
+"Educational, Health Care, and Social Serv.",2019,3,39697620.0
+"Educational, Health Care, and Social Serv.",2019,4,58052120.0
+"Educational, Health Care, and Social Serv.",2020,1,32914285.0
+"Educational, Health Care, and Social Serv.",2020,2,37981709.0
+"Educational, Health Care, and Social Serv.",2020,3,35183040.0
+"Educational, Health Care, and Social Serv.",2020,4,39736388.0
+"Educational, Health Care, and Social Serv.",2021,1,36987615.0
+"Educational, Health Care, and Social Serv.",2021,2,47201191.0
+"Educational, Health Care, and Social Serv.",2021,3,38848817.0
+"Educational, Health Care, and Social Serv.",2021,4,53487412.0
+"Educational, Health Care, and Social Serv.",2022,1,49506440.0
+"Educational, Health Care, and Social Serv.",2022,2,49372307.0
+"Educational, Health Care, and Social Serv.",2022,3,54738178.0
+"Educational, Health Care, and Social Serv.",2022,4,59809172.0
+"Educational, Health Care, and Social Serv.",2023,1,51196023.0
+"Educational, Health Care, and Social Serv.",2023,2,44346064.0
+"Educational, Health Care, and Social Serv.",2023,3,31138467.0
+"Educational, Health Care, and Social Serv.",2023,4,32616322.0
+"Educational, Health Care, and Social Serv.",2024,1,23477490.0
+"Educational, Health Care, and Social Serv.",2024,2,24493828.0
+"Educational, Health Care, and Social Serv.",2024,3,26686592.0
+"Educational, Health Care, and Social Serv.",2024,4,33934183.0
+"Educational, Health Care, and Social Serv.",2025,1,24323308.0
+"Educational, Health Care, and Social Serv.",2025,2,26653249.0
+"Educational, Health Care, and Social Serv.",2025,3,22868927.0
+"Educational, Health Care, and Social Serv.",2025,4,26861382.0
+"Educational, Health Care, and Social Serv.",2026,1,21948937.0
+"Educational, Health Care, and Social Serv.",2026,2,21358495.0
+"Finc, Ins. Real Estate, Rental & Leasing",2019,1,195033323.0
+"Finc, Ins. Real Estate, Rental & Leasing",2019,2,216039377.0
+"Finc, Ins. Real Estate, Rental & Leasing",2019,3,206941192.0
+"Finc, Ins. Real Estate, Rental & Leasing",2019,4,212125025.0
+"Finc, Ins. Real Estate, Rental & Leasing",2020,1,186223693.0
+"Finc, Ins. Real Estate, Rental & Leasing",2020,2,155588617.0
+"Finc, Ins. Real Estate, Rental & Leasing",2020,3,140881579.0
+"Finc, Ins. Real Estate, Rental & Leasing",2020,4,158741299.0
+"Finc, Ins. Real Estate, Rental & Leasing",2021,1,134210056.0
+"Finc, Ins. Real Estate, Rental & Leasing",2021,2,153252078.0
+"Finc, Ins. Real Estate, Rental & Leasing",2021,3,176605323.0
+"Finc, Ins. Real Estate, Rental & Leasing",2021,4,196912983.0
+"Finc, Ins. Real Estate, Rental & Leasing",2022,1,170986749.0
+"Finc, Ins. Real Estate, Rental & Leasing",2022,2,197209206.0
+"Finc, Ins. Real Estate, Rental & Leasing",2022,3,238032913.0
+"Finc, Ins. Real Estate, Rental & Leasing",2022,4,257395633.0
+"Finc, Ins. Real Estate, Rental & Leasing",2023,1,233363417.0
+"Finc, Ins. Real Estate, Rental & Leasing",2023,2,250318040.0
+"Finc, Ins. Real Estate, Rental & Leasing",2023,3,252700958.0
+"Finc, Ins. Real Estate, Rental & Leasing",2023,4,267352369.0
+"Finc, Ins. Real Estate, Rental & Leasing",2024,1,238278340.0
+"Finc, Ins. Real Estate, Rental & Leasing",2024,2,249961700.0
+"Finc, Ins. Real Estate, Rental & Leasing",2024,3,266340403.0
+"Finc, Ins. Real Estate, Rental & Leasing",2024,4,285624481.0
+"Finc, Ins. Real Estate, Rental & Leasing",2025,1,250023750.0
+"Finc, Ins. Real Estate, Rental & Leasing",2025,2,268571584.0
+"Finc, Ins. Real Estate, Rental & Leasing",2025,3,281205350.0
+"Finc, Ins. Real Estate, Rental & Leasing",2025,4,304928020.0
+"Finc, Ins. Real Estate, Rental & Leasing",2026,1,259652122.0
+"Finc, Ins. Real Estate, Rental & Leasing",2026,2,279522667.0
+Information Industries,2019,1,132644138.0
+Information Industries,2019,2,138813644.0
+Information Industries,2019,3,144310314.0
+Information Industries,2019,4,153789713.0
+Information Industries,2020,1,137030694.0
+Information Industries,2020,2,144211113.0
+Information Industries,2020,3,131884069.0
+Information Industries,2020,4,132812587.0
+Information Industries,2021,1,134029812.0
+Information Industries,2021,2,141558362.0
+Information Industries,2021,3,135072226.0
+Information Industries,2021,4,148811927.0
+Information Industries,2022,1,135524834.0
+Information Industries,2022,2,146686415.0
+Information Industries,2022,3,144890779.0
+Information Industries,2022,4,160501895.0
+Information Industries,2023,1,139956179.0
+Information Industries,2023,2,162255630.0
+Information Industries,2023,3,163258868.0
+Information Industries,2023,4,164198428.0
+Information Industries,2024,1,162938533.0
+Information Industries,2024,2,170240836.0
+Information Industries,2024,3,168934161.0
+Information Industries,2024,4,175361034.0
+Information Industries,2025,1,156585642.0
+Information Industries,2025,2,178591454.0
+Information Industries,2025,3,165876220.0
+Information Industries,2025,4,177276150.0
+Information Industries,2026,1,150643836.0
+Information Industries,2026,2,154189784.0
+Manufacturing,2019,1,221350425.0
+Manufacturing,2019,2,320825535.0
+Manufacturing,2019,3,358909236.0
+Manufacturing,2019,4,292267556.0
+Manufacturing,2020,1,226030091.0
+Manufacturing,2020,2,240591993.0
+Manufacturing,2020,3,286400416.0
+Manufacturing,2020,4,467913864.0
+Manufacturing,2021,1,216976592.0
+Manufacturing,2021,2,279255632.0
+Manufacturing,2021,3,330227971.0
+Manufacturing,2021,4,319015794.0
+Manufacturing,2022,1,243934481.0
+Manufacturing,2022,2,350828304.0
+Manufacturing,2022,3,465936666.0
+Manufacturing,2022,4,370244812.0
+Manufacturing,2023,1,310313342.0
+Manufacturing,2023,2,429471101.0
+Manufacturing,2023,3,482329477.0
+Manufacturing,2023,4,411796675.0
+Manufacturing,2024,1,298115434.0
+Manufacturing,2024,2,427907646.0
+Manufacturing,2024,3,550525581.0
+Manufacturing,2024,4,433549880.0
+Manufacturing,2025,1,298116600.0
+Manufacturing,2025,2,431883170.0
+Manufacturing,2025,3,505230201.0
+Manufacturing,2025,4,468282569.0
+Manufacturing,2026,1,555298529.0
+Manufacturing,2026,2,737192169.0
+Mining and Oil Extraction,2019,1,692806642.0
+Mining and Oil Extraction,2019,2,817383470.0
+Mining and Oil Extraction,2019,3,829338752.0
+Mining and Oil Extraction,2019,4,771123345.0
+Mining and Oil Extraction,2020,1,733285686.0
+Mining and Oil Extraction,2020,2,313573402.0
+Mining and Oil Extraction,2020,3,299226307.0
+Mining and Oil Extraction,2020,4,345175622.0
+Mining and Oil Extraction,2021,1,318633237.0
+Mining and Oil Extraction,2021,2,351380406.0
+Mining and Oil Extraction,2021,3,411443306.0
+Mining and Oil Extraction,2021,4,468630320.0
+Mining and Oil Extraction,2022,1,442185986.0
+Mining and Oil Extraction,2022,2,491295534.0
+Mining and Oil Extraction,2022,3,685142904.0
+Mining and Oil Extraction,2022,4,621480303.0
+Mining and Oil Extraction,2023,1,698047479.0
+Mining and Oil Extraction,2023,2,761152880.0
+Mining and Oil Extraction,2023,3,856908734.0
+Mining and Oil Extraction,2023,4,749929854.0
+Mining and Oil Extraction,2024,1,658454974.0
+Mining and Oil Extraction,2024,2,712001320.0
+Mining and Oil Extraction,2024,3,781728083.0
+Mining and Oil Extraction,2024,4,760873230.0
+Mining and Oil Extraction,2025,1,706386156.0
+Mining and Oil Extraction,2025,2,767064606.0
+Mining and Oil Extraction,2025,3,749989736.0
+Mining and Oil Extraction,2025,4,653937721.0
+Mining and Oil Extraction,2026,1,571174338.0
+Mining and Oil Extraction,2026,2,701862259.0
+Miscellaneous,2019,1,26078770.0
+Miscellaneous,2019,2,46049717.0
+Miscellaneous,2019,3,44178206.0
+Miscellaneous,2019,4,51672620.0
+Miscellaneous,2020,1,36129593.0
+Miscellaneous,2020,2,39880032.0
+Miscellaneous,2020,3,40502517.0
+Miscellaneous,2020,4,44612093.0
+Miscellaneous,2021,1,29202708.0
+Miscellaneous,2021,2,45167632.0
+Miscellaneous,2021,3,49050491.0
+Miscellaneous,2021,4,50840913.0
+Miscellaneous,2022,1,39055396.0
+Miscellaneous,2022,2,52035693.0
+Miscellaneous,2022,3,63816167.0
+Miscellaneous,2022,4,68104678.0
+Miscellaneous,2023,1,48048147.0
+Miscellaneous,2023,2,153910664.0
+Miscellaneous,2023,3,77035604.0
+Miscellaneous,2023,4,67215862.0
+Miscellaneous,2024,1,51104648.0
+Miscellaneous,2024,2,59879507.0
+Miscellaneous,2024,3,62439113.0
+Miscellaneous,2024,4,62813213.0
+Miscellaneous,2025,1,65877041.0
+Miscellaneous,2025,2,56822459.0
+Miscellaneous,2025,3,66397035.0
+Miscellaneous,2025,4,50663449.0
+Miscellaneous,2026,1,44950950.0
+Miscellaneous,2026,2,58852658.0
+Other Services,2019,1,118150225.0
+Other Services,2019,2,131677764.0
+Other Services,2019,3,122718454.0
+Other Services,2019,4,117252946.0
+Other Services,2020,1,111847646.0
+Other Services,2020,2,88383560.0
+Other Services,2020,3,96830242.0
+Other Services,2020,4,105349438.0
+Other Services,2021,1,93597371.0
+Other Services,2021,2,107120966.0
+Other Services,2021,3,116167631.0
+Other Services,2021,4,124042063.0
+Other Services,2022,1,116840824.0
+Other Services,2022,2,127370223.0
+Other Services,2022,3,144869682.0
+Other Services,2022,4,143663315.0
+Other Services,2023,1,140071559.0
+Other Services,2023,2,153095096.0
+Other Services,2023,3,157061982.0
+Other Services,2023,4,167199729.0
+Other Services,2024,1,153172228.0
+Other Services,2024,2,169534244.0
+Other Services,2024,3,164256333.0
+Other Services,2024,4,171649107.0
+Other Services,2025,1,145689076.0
+Other Services,2025,2,157062180.0
+Other Services,2025,3,164347440.0
+Other Services,2025,4,171112140.0
+Other Services,2026,1,147421856.0
+Other Services,2026,2,164200462.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2019,1,35034600.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2019,2,44887719.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2019,3,43546871.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2019,4,63049651.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2020,1,38548813.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2020,2,43032171.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2020,3,44764552.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2020,4,59430159.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2021,1,42774245.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2021,2,49295646.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2021,3,46186872.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2021,4,58584150.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2022,1,44693572.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2022,2,49445458.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2022,3,60369054.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2022,4,68785345.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2023,1,45161342.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2023,2,56506307.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2023,3,55691052.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2023,4,68447525.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2024,1,54199686.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2024,2,60805150.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2024,3,59057139.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2024,4,100258965.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2025,1,59072673.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2025,2,63011839.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2025,3,62355612.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2025,4,75395549.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2026,1,55938303.0
+"Professional, Scientific, Tech., & Mgmt Serv.",2026,2,68288370.0
+Retail Trade,2019,1,1338621738.0
+Retail Trade,2019,2,1712746360.0
+Retail Trade,2019,3,1736072581.0
+Retail Trade,2019,4,1897384125.0
+Retail Trade,2020,1,1460153431.0
+Retail Trade,2020,2,1852306645.0
+Retail Trade,2020,3,1879073396.0
+Retail Trade,2020,4,2004502170.0
+Retail Trade,2021,1,1744451102.0
+Retail Trade,2021,2,2124953209.0
+Retail Trade,2021,3,2020474112.0
+Retail Trade,2021,4,2222654906.0
+Retail Trade,2022,1,1757030136.0
+Retail Trade,2022,2,2191510179.0
+Retail Trade,2022,3,2248907396.0
+Retail Trade,2022,4,2339041740.0
+Retail Trade,2023,1,1837682560.0
+Retail Trade,2023,2,2327969144.0
+Retail Trade,2023,3,2305164306.0
+Retail Trade,2023,4,2432459026.0
+Retail Trade,2024,1,1937164770.0
+Retail Trade,2024,2,2346153880.0
+Retail Trade,2024,3,2352153172.0
+Retail Trade,2024,4,2505298591.0
+Retail Trade,2025,1,1944354689.0
+Retail Trade,2025,2,2405097055.0
+Retail Trade,2025,3,2428877804.0
+Retail Trade,2025,4,2579083924.0
+Retail Trade,2026,1,2013185055.0
+Retail Trade,2026,2,2512332290.0
+Transportation and Warehousing,2019,1,37775304.0
+Transportation and Warehousing,2019,2,50616717.0
+Transportation and Warehousing,2019,3,79742880.0
+Transportation and Warehousing,2019,4,65987249.0
+Transportation and Warehousing,2020,1,33735862.0
+Transportation and Warehousing,2020,2,34434579.0
+Transportation and Warehousing,2020,3,44815667.0
+Transportation and Warehousing,2020,4,41324496.0
+Transportation and Warehousing,2021,1,36591270.0
+Transportation and Warehousing,2021,2,47278990.0
+Transportation and Warehousing,2021,3,79182236.0
+Transportation and Warehousing,2021,4,58529187.0
+Transportation and Warehousing,2022,1,50290691.0
+Transportation and Warehousing,2022,2,63382223.0
+Transportation and Warehousing,2022,3,64461499.0
+Transportation and Warehousing,2022,4,61817207.0
+Transportation and Warehousing,2023,1,61049976.0
+Transportation and Warehousing,2023,2,63896236.0
+Transportation and Warehousing,2023,3,70048995.0
+Transportation and Warehousing,2023,4,67264861.0
+Transportation and Warehousing,2024,1,63797529.0
+Transportation and Warehousing,2024,2,83603920.0
+Transportation and Warehousing,2024,3,81458676.0
+Transportation and Warehousing,2024,4,73207921.0
+Transportation and Warehousing,2025,1,68102763.0
+Transportation and Warehousing,2025,2,76027078.0
+Transportation and Warehousing,2025,3,82033058.0
+Transportation and Warehousing,2025,4,76513619.0
+Transportation and Warehousing,2026,1,71627479.0
+Transportation and Warehousing,2026,2,88863660.0
+Utilities,2019,1,44154734.0
+Utilities,2019,2,114274282.0
+Utilities,2019,3,161283583.0
+Utilities,2019,4,51043968.0
+Utilities,2020,1,37127362.0
+Utilities,2020,2,42286170.0
+Utilities,2020,3,178665200.0
+Utilities,2020,4,50927528.0
+Utilities,2021,1,33985305.0
+Utilities,2021,2,204643152.0
+Utilities,2021,3,36161198.0
+Utilities,2021,4,45511080.0
+Utilities,2022,1,42124558.0
+Utilities,2022,2,60928613.0
+Utilities,2022,3,46339528.0
+Utilities,2022,4,48213476.0
+Utilities,2023,1,53730778.0
+Utilities,2023,2,83964875.0
+Utilities,2023,3,78819288.0
+Utilities,2023,4,85170405.0
+Utilities,2024,1,91870397.0
+Utilities,2024,2,91929082.0
+Utilities,2024,3,132143572.0
+Utilities,2024,4,132434654.0
+Utilities,2025,1,76219960.0
+Utilities,2025,2,172496991.0
+Utilities,2025,3,148613146.0
+Utilities,2025,4,178841396.0
+Utilities,2026,1,92895518.0
+Utilities,2026,2,118968130.0
+Wholesale Trade,2019,1,1062134293.0
+Wholesale Trade,2019,2,1327721642.0
+Wholesale Trade,2019,3,1357057096.0
+Wholesale Trade,2019,4,1237207447.0
+Wholesale Trade,2020,1,1065273110.0
+Wholesale Trade,2020,2,912930116.0
+Wholesale Trade,2020,3,938014406.0
+Wholesale Trade,2020,4,946017881.0
+Wholesale Trade,2021,1,824457643.0
+Wholesale Trade,2021,2,1097334461.0
+Wholesale Trade,2021,3,1142209262.0
+Wholesale Trade,2021,4,1180507378.0
+Wholesale Trade,2022,1,1054380085.0
+Wholesale Trade,2022,2,1429721119.0
+Wholesale Trade,2022,3,1713666200.0
+Wholesale Trade,2022,4,1637643079.0
+Wholesale Trade,2023,1,1483239435.0
+Wholesale Trade,2023,2,1785358628.0
+Wholesale Trade,2023,3,1789067695.0
+Wholesale Trade,2023,4,1633118395.0
+Wholesale Trade,2024,1,1342993728.0
+Wholesale Trade,2024,2,1641442738.0
+Wholesale Trade,2024,3,1687094809.0
+Wholesale Trade,2024,4,1718318891.0
+Wholesale Trade,2025,1,1261827224.0
+Wholesale Trade,2025,2,1679516696.0
+Wholesale Trade,2025,3,1651358422.0
+Wholesale Trade,2025,4,1562513366.0
+Wholesale Trade,2026,1,1295519884.0
+Wholesale Trade,2026,2,1644127951.0

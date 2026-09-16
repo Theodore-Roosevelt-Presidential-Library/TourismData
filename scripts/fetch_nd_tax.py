@@ -6,8 +6,11 @@ The Commissioner publishes one Excel workbook with every quarter since 2019 Q1
 the Medora proxy: Billings County is mostly Medora commerce. Medora itself is
 below the top-200 city cutoff, and county-by-industry is only in the PDF.
 
-Output: data/nd_taxable_sales_quarterly.csv
-        (county, year, quarter, taxable_sales, taxable_purchases, total)
+Outputs: data/nd_taxable_sales_quarterly.csv
+             (county, year, quarter, taxable_sales, taxable_purchases, total)
+         data/nd_taxable_sales_industry_quarterly.csv
+             (industry, year, quarter, total)  -- STATEWIDE only; the
+             Commissioner does not publish county x industry in the workbook
 """
 from __future__ import annotations
 
@@ -26,7 +29,22 @@ URL = "https://www.tax.nd.gov/sites/default/files/documents/Data/taxable-sales-a
 def main() -> int:
     r = requests.get(URL, headers={"User-Agent": USER_AGENT}, timeout=120)
     r.raise_for_status()
-    raw = pd.read_excel(io.BytesIO(r.content), sheet_name="County Detail", header=None)
+    book = io.BytesIO(r.content)
+    ind = pd.read_excel(book, sheet_name="Industry Detail", header=None)
+    irows = []
+    for _, rec in ind.iloc[2:].iterrows():
+        name = str(rec.iloc[0]).strip()
+        if not name or name.lower() == "nan":
+            continue
+        for j in range(1, len(rec)):
+            q = ind.iloc[0, j]
+            if isinstance(q, str) and re.match(r"\d{4} Q[1-4]", q) and pd.notna(rec.iloc[j]):
+                y, qn = q.split(" Q")
+                irows.append({"industry": name, "year": int(y), "quarter": int(qn), "total": float(rec.iloc[j])})
+    if irows:
+        write_csv(pd.DataFrame(irows).sort_values(["industry", "year", "quarter"]), "nd_taxable_sales_industry_quarterly.csv")
+    book.seek(0)
+    raw = pd.read_excel(book, sheet_name="County Detail", header=None)
     quarters = raw.iloc[0].tolist()  # "2026 Q2" in every third column
     kinds = raw.iloc[1].tolist()  # Taxable Sales / Taxable Purchases / Total
     rows = []

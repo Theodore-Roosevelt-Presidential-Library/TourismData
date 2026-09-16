@@ -86,15 +86,31 @@ def border_block() -> dict:
     pv["month"] = pv["date"].str[5:7].astype(int)
     out = {"latest_month": df["date"].max()[:7], "states": {}}
     for state, g in pv.groupby("state"):
-        tot = g.groupby(["year", "month"])["value"].sum()
-        years = {str(y): [int(tot.get((y, m), 0)) or None for m in range(1, 13)] for y in sorted(g["year"].unique()) if y >= 2023}
+        tot = g.groupby(["year", "month"])["value"].sum().reset_index()
+        shaped = seasonal(tot, "month", "value", 12, BAND_YEARS)
+        years = shaped["years"]
         top = g.groupby("port")["value"].sum().sort_values(ascending=False).head(4).index.tolist()
         ports = {}
         for p in top:
             gp = g[g["port"] == p].groupby(["year", "month"])["value"].sum()
             ports[p] = {str(y): [int(gp.get((y, m), 0)) or None for m in range(1, 13)] for y in sorted(g["year"].unique()) if y >= 2024}
-        out["states"][state] = {"years": years, "top_ports": ports}
+        out["states"][state] = {"years": years, "band": shaped["band"], "band_years": shaped["band_years"], "top_ports": ports}
     return out
+
+
+def seasonal(df: pd.DataFrame, period_col: str, value_col: str, nper: int, band_years: list[int], min_year: int = 2015) -> dict:
+    """Shape a (year, period, value) frame into {years: {y: [..]}, band: [{min,max}...]}."""
+    years = {}
+    for y, g in df.groupby("year"):
+        if y < min_year:
+            continue
+        m = g.set_index(period_col)[value_col].to_dict()
+        years[str(int(y))] = [(None if m.get(i) is None else float(m[i])) for i in range(1, nper + 1)]
+    band = []
+    for i in range(nper):
+        vals = [years[str(y)][i] for y in band_years if str(y) in years and years[str(y)][i] is not None]
+        band.append({"min": min(vals), "max": max(vals)} if vals else None)
+    return {"years": years, "band": band, "band_years": [y for y in band_years if str(y) in years]}
 
 
 def nd_tax_block() -> dict:
@@ -109,11 +125,15 @@ def nd_tax_block() -> dict:
         g = df[df["county"] == c].sort_values(["year", "quarter"])
         if g.empty:
             continue
-        out["counties"][c] = {
-            "labels": [f"{int(r.year)} Q{int(r.quarter)}" for r in g.itertuples()],
-            "total": [int(v) for v in g["total"]],
-            "taxable_sales": [int(v) for v in g["taxable_sales"]],
-        }
+        out["counties"][c] = seasonal(g, "quarter", "total", 4, BAND_YEARS)
+    ip = DATA / "nd_taxable_sales_industry_quarterly.csv"
+    if ip.exists():
+        ind = pd.read_csv(ip)
+        out["industries"] = {}
+        for name in ("Accommodation & Food Services", "Arts, Entertainment & Recreation", "Retail Trade"):
+            g = ind[ind["industry"] == name].sort_values(["year", "quarter"])
+            if not g.empty:
+                out["industries"][name] = seasonal(g, "quarter", "total", 4, BAND_YEARS)
     return out
 
 
@@ -123,16 +143,21 @@ def mt_block() -> dict:
         return {}
     v = pd.read_csv(p)
     v = v[v["year"] >= 2015].sort_values(["year", "month"])
+    mt_cur = int(v["year"].max())
+    mt_band = [y for y in range(mt_cur - 6, mt_cur) if y not in (2020, 2021)]
     out = {
-        "visitation": {"labels": [f"{int(r.year)}-{int(r.month):02d}" for r in v.itertuples()], "visits": [int(x) for x in v["visits"]]},
+        "visitation": seasonal(v, "month", "visits", 12, mt_band),
+        "current_year": mt_cur,
         "latest_month": f"{int(v.iloc[-1].year)}-{int(v.iloc[-1].month):02d}",
     }
     sp = DATA / "mt_nonresident_survey_shares.csv"
     if sp.exists():
         s = pd.read_csv(sp)
         def series(dim, value):
-            g = s[(s["dimension"] == dim) & (s["value"] == value)].sort_values(["year", "quarter"])
-            return {"labels": [f"{int(r.year)} Q{int(r.quarter)}" for r in g.itertuples()], "share": [round(float(x) * 100, 1) for x in g["share"]]}
+            g = s[(s["dimension"] == dim) & (s["value"] == value)].sort_values(["year", "quarter"]).copy()
+            g["pct"] = g["share"] * 100
+            sy = int(g["year"].max())
+            return seasonal(g, "quarter", "pct", 4, [y for y in range(sy - 4, sy)], min_year=2015) | {"current_year": sy}
         out["i94_from_nd"] = series("entry_point", "Wibaux/Beach")
         out["origin_nd"] = series("origin", "North Dakota")
         top = s[(s["dimension"] == "origin") & (s["year"] == s["year"].max())].groupby("value")["weighted_visitors"].sum().sort_values(ascending=False).head(10)
