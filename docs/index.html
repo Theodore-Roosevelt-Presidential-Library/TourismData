@@ -155,6 +155,44 @@ async function main() {
     }
   }
 
+  // ---- Origin geography: drive radius, feeder metros, US map
+  const G = d.origin_geo;
+  if (G && G.bands && G.bands.length) {
+    const asOf = L && L.origin ? L.origin.as_of : d.latest_month_label;
+    card("cg1", "How far Library visitors travel",
+      `Tickets since opening by straight-line distance from Medora to the buyer's ZIP (through ${asOf}). Straight-line miles run about 15–20% under road miles, so the 0–50 band is roughly a one-hour drive and 300–600 is a full day. ${G.geocoded_share.toFixed(1)}% of ${fmt(G.total_tickets)} tickets had a mappable ZIP; the rest are Canadian postal codes, blanks, or typos.`);
+    Plotly.newPlot("cg1", [{
+      x: G.bands.map(b => b.band), y: G.bands.map(b => b.share), type: "bar", name: "Share of tickets",
+      marker: { color: css("--s1") }, text: G.bands.map(b => b.share.toFixed(1) + "%"), textposition: "outside", textfont: { color: css("--ink-2") },
+      customdata: G.bands.map(b => b.tickets), hovertemplate: "%{x}: %{y:.1f}% (%{customdata:,} tickets)<extra></extra>",
+    }], baseLayout({ showlegend: false, bargap: 0.3, hovermode: "closest", yaxis: { gridcolor: css("--grid"), linecolor: css("--axis"), zeroline: false, tickfont: { color: css("--muted") }, ticksuffix: "%", range: [0, Math.max(...G.bands.map(b => b.share)) * 1.18] } }), CONFIG);
+    table("cg1", ["Distance from Medora", "Tickets", "Share"], G.bands.map(b => [b.band, b.tickets, b.share.toFixed(1) + "%"]));
+
+    if (G.points && G.points.lat && G.points.lat.length) {
+      card("cg2", "Where tickets were bought, by ZIP",
+        `Each bubble is a buyer ZIP, sized by tickets since opening (top ${fmt(G.points.lat.length)} ZIPs shown). Hover for the place name. Canadian buyers are not on the map.`);
+      const maxT = Math.max(...G.points.tickets);
+      Plotly.newPlot("cg2", [
+        { type: "scattergeo", lat: G.points.lat, lon: G.points.lon, mode: "markers", name: "ZIP",
+          text: G.points.label, customdata: G.points.tickets, hovertemplate: "%{text}<br>%{customdata:,} tickets<extra></extra>",
+          marker: { size: G.points.tickets.map(t => 3 + 26 * Math.sqrt(t / maxT)), color: css("--s1"), opacity: 0.45, line: { width: 0 } } },
+        { type: "scattergeo", lat: [G.medora.lat], lon: [G.medora.lon], mode: "markers", name: "Medora",
+          hovertemplate: "Medora, ND<extra></extra>", marker: { size: 12, color: css("--s2"), symbol: "star", line: { width: 1, color: css("--surface") } } },
+      ], baseLayout({ showlegend: false, hovermode: "closest", margin: { l: 0, r: 0, t: 0, b: 0 }, height: 520,
+        geo: { scope: "usa", bgcolor: css("--surface"), showland: true, landcolor: css("--grid"), showlakes: true, lakecolor: css("--surface"),
+               subunitcolor: css("--axis"), countrycolor: css("--axis"), showcountries: true, showframe: false } }), CONFIG);
+      table("cg2", ["Metro", "Tickets", "Share", "Miles from Medora"], (G.feeders || []).map(f => [f.metro, f.tickets, f.share.toFixed(1) + "%", f.miles]));
+    }
+
+    if (G.feeders && G.feeders.length) {
+      const el = document.createElement("section"); el.className = "card";
+      el.innerHTML = `<h2>Feeder markets</h2>
+        <p class="note">Tickets since opening grouped by the buyer ZIP's county, mapped to its metro area. The right-hand column is straight-line distance from Medora. Metros outside the list are in the state table above.</p>
+        <table><thead><tr><th>Metro</th><th>Share</th><th>Tickets</th><th>Miles</th></tr></thead><tbody>${G.feeders.slice(0, 20).map(f => `<tr><td>${f.metro}</td><td>${f.share.toFixed(1)}%</td><td>${fmt(f.tickets)}</td><td>${fmt(f.miles)}</td></tr>`).join("")}</tbody></table>`;
+      document.getElementById("main").appendChild(el);
+    }
+  }
+
   // ---- Chart 1: TRNP monthly vs pre-opening band
   card("c1", "Theodore Roosevelt NP, monthly recreation visits",
     `${cur} against the pre-opening range (${d.band_years.join(", ")}; 2020–21 excluded). Shaded band = min to max of those years. Source: NPS IRMA STATS.`);

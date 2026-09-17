@@ -361,6 +361,75 @@ def library_block(nps: pd.DataFrame, cur: int) -> dict:
     return out
 
 
+MEDORA = (46.914, -103.524)
+METROS = {  # (state, county) -> metro label; counties not listed fall back to the ZIP's city
+    ("MN", "Hennepin"): "Minneapolis–St. Paul", ("MN", "Ramsey"): "Minneapolis–St. Paul", ("MN", "Dakota"): "Minneapolis–St. Paul", ("MN", "Anoka"): "Minneapolis–St. Paul", ("MN", "Washington"): "Minneapolis–St. Paul", ("MN", "Scott"): "Minneapolis–St. Paul", ("MN", "Carver"): "Minneapolis–St. Paul", ("MN", "Wright"): "Minneapolis–St. Paul",
+    ("ND", "Cass"): "Fargo–Moorhead", ("MN", "Clay"): "Fargo–Moorhead", ("ND", "Burleigh"): "Bismarck–Mandan", ("ND", "Morton"): "Bismarck–Mandan", ("ND", "Stark"): "Dickinson", ("ND", "Ward"): "Minot", ("ND", "Williams"): "Williston", ("ND", "Grand Forks"): "Grand Forks", ("MN", "Polk"): "Grand Forks", ("ND", "McKenzie"): "Watford City", ("ND", "Billings"): "Medora / Billings Co.",
+    ("MT", "Yellowstone"): "Billings MT", ("MT", "Dawson"): "Glendive", ("MT", "Richland"): "Sidney MT", ("MT", "Cascade"): "Great Falls", ("MT", "Gallatin"): "Bozeman", ("MT", "Missoula"): "Missoula",
+    ("SD", "Pennington"): "Rapid City", ("SD", "Minnehaha"): "Sioux Falls", ("SD", "Lincoln"): "Sioux Falls", ("SD", "Lawrence"): "Spearfish–Deadwood",
+    ("NE", "Douglas"): "Omaha", ("NE", "Sarpy"): "Omaha", ("NE", "Lancaster"): "Lincoln NE",
+    ("CO", "Denver"): "Denver", ("CO", "Arapahoe"): "Denver", ("CO", "Jefferson"): "Denver", ("CO", "Adams"): "Denver", ("CO", "Douglas"): "Denver", ("CO", "Boulder"): "Denver", ("CO", "El Paso"): "Colorado Springs",
+    ("IL", "Cook"): "Chicago", ("IL", "Dupage"): "Chicago", ("IL", "Lake"): "Chicago", ("IL", "Will"): "Chicago", ("IL", "Kane"): "Chicago",
+    ("WI", "Milwaukee"): "Milwaukee", ("WI", "Waukesha"): "Milwaukee", ("WI", "Dane"): "Madison",
+    ("WA", "King"): "Seattle", ("WA", "Snohomish"): "Seattle", ("WA", "Pierce"): "Seattle", ("WA", "Spokane"): "Spokane",
+    ("TX", "Dallas"): "Dallas–Fort Worth", ("TX", "Tarrant"): "Dallas–Fort Worth", ("TX", "Collin"): "Dallas–Fort Worth", ("TX", "Denton"): "Dallas–Fort Worth", ("TX", "Harris"): "Houston", ("TX", "Travis"): "Austin", ("TX", "Bexar"): "San Antonio",
+    ("AZ", "Maricopa"): "Phoenix", ("AZ", "Pima"): "Tucson", ("UT", "Salt Lake"): "Salt Lake City", ("ID", "Ada"): "Boise",
+    ("MO", "St. Louis"): "St. Louis", ("MO", "Jackson"): "Kansas City", ("KS", "Johnson"): "Kansas City", ("IA", "Polk"): "Des Moines",
+    ("CA", "Los Angeles"): "Los Angeles", ("CA", "Orange"): "Los Angeles", ("CA", "San Diego"): "San Diego", ("CA", "Santa Clara"): "Bay Area", ("CA", "Alameda"): "Bay Area", ("CA", "San Francisco"): "Bay Area", ("CA", "Contra Costa"): "Bay Area", ("CA", "San Mateo"): "Bay Area", ("CA", "Sacramento"): "Sacramento",
+    ("OR", "Multnomah"): "Portland", ("OR", "Washington"): "Portland", ("OR", "Clackamas"): "Portland",
+    ("FL", "Miami-Dade"): "Miami", ("FL", "Hillsborough"): "Tampa", ("FL", "Orange"): "Orlando", ("GA", "Fulton"): "Atlanta", ("NC", "Wake"): "Raleigh", ("NC", "Mecklenburg"): "Charlotte",
+    ("VA", "Fairfax"): "Washington DC", ("MD", "Montgomery"): "Washington DC", ("DC", "District Of Columbia"): "Washington DC", ("PA", "Philadelphia"): "Philadelphia", ("PA", "Allegheny"): "Pittsburgh", ("NY", "New York"): "New York City", ("NY", "Kings"): "New York City", ("NY", "Queens"): "New York City", ("MA", "Middlesex"): "Boston", ("MA", "Suffolk"): "Boston",
+    ("OH", "Franklin"): "Columbus", ("OH", "Cuyahoga"): "Cleveland", ("OH", "Hamilton"): "Cincinnati", ("MI", "Wayne"): "Detroit", ("MI", "Oakland"): "Detroit", ("IN", "Marion"): "Indianapolis", ("TN", "Davidson"): "Nashville", ("NV", "Clark"): "Las Vegas",
+}
+BANDS = [(0, 50, "0–50 mi"), (50, 150, "50–150 mi"), (150, 300, "150–300 mi"), (300, 600, "300–600 mi"), (600, 100000, "600+ mi")]
+
+
+def origin_geo_block() -> dict:
+    """Drive-radius bands, feeder metros, and map points from ticket ZIPs since opening."""
+    p = DATA / "acme_origin_zip.csv"
+    if not p.exists():
+        return {}
+    import math
+    import re
+
+    try:
+        import zipcodes  # noqa: PLC0415
+    except ImportError:
+        return {}
+
+    def hav(a, b):
+        r = 3958.8
+        la1, lo1, la2, lo2 = map(math.radians, (a[0], a[1], b[0], b[1]))
+        h = math.sin((la2 - la1) / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin((lo2 - lo1) / 2) ** 2
+        return 2 * r * math.asin(math.sqrt(h))
+
+    z = pd.read_csv(p, dtype={"zip": str})
+    rows = []
+    for r in z.itertuples():
+        zz = str(r.zip).strip()
+        m = zipcodes.matching(zz) if re.fullmatch(r"\d{5}", zz) else []
+        if m and m[0].get("lat"):
+            lat, lon = float(m[0]["lat"]), float(m[0]["long"])
+            county = m[0]["county"].replace(" County", "").replace(" Parish", "")
+            rows.append({"zip": zz, "tickets": int(r.tickets), "state": m[0]["state"], "city": m[0]["city"].title(), "county": county, "lat": lat, "lon": lon, "miles": round(hav(MEDORA, (lat, lon)))})
+        else:
+            rows.append({"zip": zz, "tickets": int(r.tickets), "state": r.state, "city": None, "county": None, "lat": None, "lon": None, "miles": None})
+    g = pd.DataFrame(rows)
+    tot = int(g["tickets"].sum())
+    geo = g.dropna(subset=["miles"])
+    bands = []
+    for lo, hi, label in BANDS:
+        t = int(geo[(geo["miles"] >= lo) & (geo["miles"] < hi)]["tickets"].sum())
+        bands.append({"band": label, "tickets": t, "share": round(t / tot * 100, 1)})
+    geo = geo.copy()
+    geo["metro"] = [METROS.get((s, c)) or f"{ci}, {s}" for s, c, ci in zip(geo["state"], geo["county"], geo["city"])]
+    metros = geo.groupby("metro").agg(tickets=("tickets", "sum"), miles=("miles", "median"), state=("state", "first")).sort_values("tickets", ascending=False).head(30)
+    feeders = [{"metro": k, "tickets": int(v.tickets), "share": round(v.tickets / tot * 100, 1), "miles": int(v.miles)} for k, v in metros.iterrows()]
+    pts = geo.sort_values("tickets", ascending=False).head(2500)
+    points = {"lat": [round(x, 3) for x in pts["lat"]], "lon": [round(x, 3) for x in pts["lon"]], "tickets": [int(x) for x in pts["tickets"]], "label": [f"{c}, {s} {z}" for c, s, z in zip(pts["city"], pts["state"], pts["zip"])]}
+    return {"total_tickets": tot, "geocoded_share": round(float(geo["tickets"].sum()) / tot * 100, 1), "bands": bands, "feeders": feeders, "points": points, "medora": {"lat": MEDORA[0], "lon": MEDORA[1]}}
+
+
 def airports_block() -> dict:
     out = {}
     mp = DATA / "airports_monthly.csv"
@@ -414,6 +483,7 @@ def main() -> None:
         "manifest": manifest,
         "parks": parks,
         "library": library_block(nps, cur),
+        "origin_geo": origin_geo_block(),
         "border": border_block(),
         "airports": airports_block(),
         "nddot": nddot_block(),
