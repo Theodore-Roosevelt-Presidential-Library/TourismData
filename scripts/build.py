@@ -309,15 +309,24 @@ def library_block(nps: pd.DataFrame, cur: int) -> dict:
     if ck.exists():
         # Direct ACME pull: TicketAnalytics scans are the authoritative attendance
         c = pd.read_csv(ck)
-        d = c.groupby("date", as_index=False).agg(visitors=("checked_in", "sum"), tickets=("tickets", "sum"))
+        # Attendance = admission events only (General Admission, Flex, Walk-Up), the same definition the
+        # Sell-Out Monitor uses. Tours and programs are mostly people who also hold an admission ticket,
+        # so they are reported separately rather than added to attendance.
+        adm = CONFIG.get("acme", {}).get("admission_events", ["General Admission", "Flex Tickets", "Walk-Up"])
+        ca = c[c["event"].isin(adm)]
+        d = ca.groupby("date", as_index=False).agg(visitors=("checked_in", "sum"), tickets=("tickets", "sum"))
         d["revenue"] = 0.0
-        manifest = {"as_of": manifest_all.get("acme", {}).get("checkins_last"), "visitors_source": "checked_in (TicketAnalytics, direct)"}
+        manifest = {"as_of": manifest_all.get("acme", {}).get("checkins_last"), "visitors_source": "checked_in (TicketAnalytics, direct; admission events only)"}
+        prog = c[~c["event"].isin(adm) & (pd.to_datetime(c["date"]) >= OPENING)]
+        programs = prog.groupby("event", as_index=False).agg(tickets=("tickets", "sum"), checked_in=("checked_in", "sum")).sort_values("checked_in", ascending=False)
+        programs = programs[programs["checked_in"] > 0]
     else:
         p = DATA / "library_daily.csv"
         if not p.exists():
             return {}
         d = pd.read_csv(p)
         manifest = manifest_all.get("library", {})
+        programs = None
     d["date"] = pd.to_datetime(d["date"])
     opening = OPENING
     since = d[(d["date"] >= opening) & (d["date"] < pd.Timestamp.today().normalize())].copy()  # complete days only
@@ -339,6 +348,7 @@ def library_block(nps: pd.DataFrame, cur: int) -> dict:
         "monthly": [{"month": int(r.month), "visitors": int(r.visitors), "tickets": int(r.tickets), "revenue": round(float(r.revenue), 2)} for r in monthly.itertuples()],
         "capture": cap,
         "peak_day": {"date": str(since.loc[since["visitors"].idxmax(), "date"].date()), "visitors": int(since["visitors"].max())} if len(since) else None,
+        "programs": [{"event": r.event, "tickets": int(r.tickets), "checked_in": int(r.checked_in)} for r in programs.itertuples()] if programs is not None else None,
     }
     om = DATA / "acme_origin_monthly.csv"
     if om.exists():

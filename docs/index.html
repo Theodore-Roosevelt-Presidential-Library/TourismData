@@ -138,7 +138,7 @@ async function main() {
   // ---- Chart 0: Library daily attendance since opening
   if (L && L.daily_since_opening && L.daily_since_opening.dates.length) {
     const D = L.daily_since_opening;
-    const srcNote = String(L.visitors_source).startsWith("checked_in") ? "Attendance = checked-in scans from ACME's TicketAnalytics collection (the figure that reconciles with the PE: Tickets Checked In report). Tickets sold run higher; the gap is no-shows and unscanned entries." : `Attendance source in this snapshot: "${L.visitors_source}" — reconcile against the PE: Tickets Checked In report before quoting.`;
+    const srcNote = String(L.visitors_source).startsWith("checked_in") ? "Attendance = checked-in scans on admission tickets (General Admission, Flex, Walk-Up) from ACME's TicketAnalytics collection — the same definition as the Sell-Out Monitor, so the two sites agree apart from timing. Tickets sold run higher; the gap is no-shows and unscanned entries. Tour and program scans are listed separately in the table, not added to attendance." : `Attendance source in this snapshot: "${L.visitors_source}" — reconcile against the PE: Tickets Checked In report before quoting.`;
     card("c0", "Library attendance, daily since opening",
       `Bars = daily checked-in attendance, line = 7-day average. ${srcNote} Peak day: ${L.peak_day ? MON[+L.peak_day.date.slice(5, 7) - 1] + " " + +L.peak_day.date.slice(8) + " (" + fmt(L.peak_day.visitors) + ")" : "–"}. Capture rate by month is in the table.`);
     Plotly.newPlot("c0", [
@@ -146,6 +146,9 @@ async function main() {
       { x: D.dates, y: D.ma7, mode: "lines", name: "7-day average", line: { color: css("--s1"), width: 2.5 }, hovertemplate: "%{y:,}" },
     ], baseLayout({ bargap: 0.15, xaxis: { gridcolor: css("--grid"), linecolor: css("--axis"), tickfont: { color: css("--muted") }, tickformat: "%b %d" } }), CONFIG);
     table("c0", ["Month", "Library attendance", "TRNP recreation visits", "Capture rate"], (L.capture || []).map(r => [MON[r.month - 1], r.library, r.trnp, r.capture_pct.toFixed(1) + "%"]));
+    if (L.programs && L.programs.length) {
+      document.getElementById("c0-tbl").innerHTML += `<p class="note">Tours and programs since opening (scans on non-admission events; most of these visitors also hold an admission ticket)</p><table><thead><tr><th>Event</th><th>Tickets</th><th>Checked in</th></tr></thead><tbody>${L.programs.map(r => `<tr><td>${r.event}</td><td>${fmt(r.tickets)}</td><td>${fmt(r.checked_in)}</td></tr>`).join("")}</tbody></table>`;
+    }
     if (L.origin && L.origin.rows.length) {
       const el = document.createElement("section"); el.className = "card";
       el.innerHTML = `<h2>Where Library visitors come from (through ${L.origin.as_of})</h2>
