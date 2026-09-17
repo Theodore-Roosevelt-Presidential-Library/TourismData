@@ -286,6 +286,25 @@ async function main() {
     `Monthly inbound personal-vehicle crossings at all ND land ports (Pembina and Portal are the largest), ${cur} against ${prev} and the ${nd.band_years[0]}–${nd.band_years.at(-1)} range. Context for the Canadian market, not a Library indicator. Source: BTS Border Crossing Entry Data, through ${d.border.latest_month}.`);
   seasonalChart("c4", MON, nd, cur, { periodName: "Month", openingIndex: 6 });
 
+  // ---- TRNP detail: Painted Canyon counter, by-location snapshot, overnight stays
+  if (d.nps_detail && d.nps_detail.painted_canyon) {
+    const PC = d.nps_detail.painted_canyon, py = PC.current_year;
+    card("cpc", "Painted Canyon rest area: vehicles counted, monthly",
+      `TRNP's traffic counter at the Painted Canyon overlook off I-94, 7 miles east of Medora — the park entrance most visitors pass, counted May–October. ${py} against ${py - 1} and the ${PC.band_years[0]}–${PC.band_years.at(-1)} range. Source: NPS IRMA "Traffic Counts" report. TRNP by location (South Unit, North Unit, Painted Canyon, campers) is in the table.`);
+    seasonalChart("cpc", MON, PC, py, { periodName: "Month", openingIndex: 6 });
+    const PU = d.nps_detail.public_use;
+    if (PU && PU.rows.length) {
+      document.getElementById("cpc-tbl").innerHTML += `<p class="note">TRNP public use by location, ${MON[PU.month - 1]} ${PU.year} and year to date (NPS "Monthly Public Use"; IRMA publishes only the latest month, so this table grows one month per run — ${PU.history_months} month${PU.history_months === 1 ? "" : "s"} kept so far)</p>
+        <table><thead><tr><th>Location</th><th>${MON[PU.month - 1]} ${PU.year}</th><th>Jan–${MON[PU.month - 1]} ${PU.year}</th></tr></thead><tbody>${PU.rows.map(r => `<tr><td>${r.location}</td><td>${fmt(r.month)}</td><td>${fmt(r.ytd)}</td></tr>`).join("")}</tbody></table>`;
+    }
+    const ON = d.nps_detail.overnight;
+    if (ON) {
+      const cats = Object.keys(ON.categories);
+      document.getElementById("cpc-tbl").innerHTML += `<p class="note">TRNP overnight stays by year (NPS "Overnight Stays"; through ${ON.years.at(-1)})</p>
+        <table><thead><tr><th>Year</th>${cats.map(c => `<th>${c}</th>`).join("")}<th>Total</th></tr></thead><tbody>${ON.years.slice().reverse().map((y, ri) => { const i = ON.years.length - 1 - ri; return `<tr><td>${y}</td>${cats.map(c => `<td>${fmt(ON.categories[c][i])}</td>`).join("")}<td>${fmt(cats.reduce((a, c) => a + ON.categories[c][i], 0))}</td></tr>`; }).join("")}</tbody></table>`;
+    }
+  }
+
   // ---- Chart 5: Billings County taxable sales
   if (d.nd_tax && d.nd_tax.counties && d.nd_tax.counties.Billings) {
     const b = d.nd_tax.counties.Billings;
@@ -396,6 +415,21 @@ async function main() {
     table("c7b", ["County", ...I.years.map(y => y + " ($M)"), `Tourism jobs ${I.latest_year}`, "Share of county jobs"], allc.map(c => [c, ...I.spending[c].map(v => v != null ? v.toFixed(1) : "–"), I.jobs[c] ? fmt(I.jobs[c].total_jobs) : "–", I.jobs[c] ? I.jobs[c].share_of_county_employment_pct.toFixed(1) + "%" : "–"]));
   }
 
+  // ---- NPS Visitor Spending Effects: TRNP's contribution to the gateway economy
+  if (d.vse && d.vse.parks && d.vse.parks.THRO) {
+    const V = d.vse.parks.THRO;
+    card("c7c", "Theodore Roosevelt NP visitor spending in the gateway region, annual",
+      `NPS Visitor Spending Effects: what non-local park visitors spend within about 60 miles of the park, with the jobs that spending supports (bars = spending, line = jobs). ${V.years.at(-1)}: $${(V.spending.at(-1) / 1e6).toFixed(1)}M and ${fmt(V.jobs.at(-1))} jobs from ${fmt(V.visits.at(-1))} visits. The ${V.years.at(-1) + 1} edition, the first with the Library open, lands next spring. Spending by sector in the table. Source: NPS IRMA VSE API.`);
+    Plotly.newPlot("c7c", [
+      { type: "bar", name: "Visitor spending", x: V.years, y: V.spending, marker: { color: css("--s1") }, hovertemplate: "$%{y:,.0f}<extra>spending</extra>" },
+      { type: "scatter", mode: "lines+markers", name: "Jobs supported", x: V.years, y: V.jobs, yaxis: "y2", line: { color: css("--s2"), width: 2 }, marker: { size: 6, line: { color: css("--surface"), width: 2 } }, hovertemplate: "%{y:,} jobs<extra></extra>" },
+    ], baseLayout({ bargap: 0.3, margin: { l: 56, r: 56, t: 8, b: 44 }, yaxis: { gridcolor: css("--grid"), linecolor: css("--axis"), zeroline: false, tickfont: { color: css("--muted") }, tickprefix: "$", tickformat: ",~s", rangemode: "tozero" },
+      yaxis2: { overlaying: "y", side: "right", showgrid: false, tickfont: { color: css("--muted") }, rangemode: "tozero", title: { text: "jobs", font: { size: 11, color: css("--muted") } } }, xaxis: { dtick: 1, gridcolor: css("--grid"), linecolor: css("--axis"), tickfont: { color: css("--muted") } } }), CONFIG);
+    const S = V.sectors_latest;
+    table("c7c", ["Year", "Visits", "Visitor spending", "Jobs", "Labor income", "Economic output"], V.years.map((y, i) => [y, V.visits[i], money(V.spending[i]), V.jobs[i], money(V.labor_income[i]), money(V.output[i])]).reverse());
+    document.getElementById("c7c-tbl").innerHTML += `<p class="note">Visitor spending by sector, ${S.year}</p><table><thead><tr><th>Sector</th><th>Spending</th><th>Share</th></tr></thead><tbody>${(() => { const tot = S.rows.reduce((a, r) => a + r.value, 0); return S.rows.map(r => `<tr><td>${r.sector}</td><td>${money(r.value)}</td><td>${(r.value / tot * 100).toFixed(1)}%</td></tr>`).join(""); })()}</tbody></table>`;
+  }
+
   // ---- Chart 8: Wyoming county visitor spending, indexed
   if (d.wy && d.wy.counties && Object.keys(d.wy.counties).length) {
     const names = Object.keys(d.wy.counties);
@@ -457,6 +491,17 @@ async function main() {
     }
   }
 
+  // ---- BTS DB1B: where inbound air travelers start
+  if (d.db1b && d.db1b.dests && Object.keys(d.db1b.dests).length) {
+    const B = d.db1b, el = document.createElement("section"); el.className = "card";
+    const dests = ["BIS", "DIK", "FAR", "MOT"].filter(k => B.dests[k]);
+    el.innerHTML = `<h2>Where air travelers into the region start their trips</h2>
+      <p class="note">BTS Origin and Destination Survey (a 10% sample of airline tickets, scaled ×10): itineraries that land at each airport, by the traveler's home airport, excluding trips that start at the region's own airports. Rolling four quarters, ${B.quarters[0]}–${B.quarters.at(-1)}; BTS posts a quarter about six months after it ends. The air-travel counterpart to the feeder-market table above. Read Mesa (AZA), Las Vegas and Sanford (SFB) with care: those are Allegiant leisure routes, and North Dakotans who winter in Arizona show up as Arizona-origin travelers.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px">${dests.map(k => `<div><p class="note"><b>${k}</b> — ${fmt(B.dests[k].total)} inbound passengers</p><table><thead><tr><th>Home airport</th><th>Share</th><th>Pax</th></tr></thead><tbody>${B.dests[k].origins.slice(0, 10).map(o => `<tr><td>${o.origin} (${o.state})</td><td>${o.share.toFixed(1)}%</td><td>${fmt(o.passengers)}</td></tr>`).join("")}</tbody></table></div>`).join("")}</div>
+      <p class="note">By home state, all four airports: ${B.by_state.slice(0, 8).map(s => `${s.state} ${s.share.toFixed(1)}%`).join(" · ")}. Summer quarter (Q3) inbound to BIS + DIK: ${Object.entries(B.q3_trend).map(([y, v]) => `${y} ${fmt(v)}`).join(" · ")}.</p>`;
+    document.getElementById("main").appendChild(el);
+  }
+
   // ---- NDDOT: I-94 at Medora
   if (d.nddot && d.nddot.stations && d.nddot.stations["00279"]) {
     const st = d.nddot.stations["00279"], ny = d.nddot.current_year;
@@ -468,6 +513,17 @@ async function main() {
       const a = st.madt.years[String(ny)]?.[i], b = st.madt.years[String(ny - 1)]?.[i];
       return [m, fmt(b), fmt(a), a != null && b ? pctTxt((a - b) / b * 100) : "–", fmt(wk[String(ny - 1)]?.[i]), fmt(wk[String(ny)]?.[i])];
     }));
+  }
+
+  // ---- FHWA TMAS: daily/hourly traffic at counter 279 (history through last full year)
+  if (d.tmas && d.tmas.dow && Object.keys(d.tmas.dow).length) {
+    const T = d.tmas, yrs = Object.keys(T.dow).slice(-4);
+    card("c10b", "I-94 at Medora: average daily traffic by day of week, June–September",
+      `The same NDDOT counter (279), from the hourly records North Dakota files with FHWA — which show what the monthly PDFs cannot: the weekly rhythm of summer traffic. FHWA posts each year in the following March, so this is the pre-opening baseline through ${T.years.at(-1)}; ${T.years.at(-1) + 1} arrives in March ${T.years.at(-1) + 2}. Both directions, days with both directions reported. July 4 week vs the rest of July is in the table.`);
+    Plotly.newPlot("c10b", yrs.map((y, i) => ({
+      type: "bar", name: y, x: T.dow_names, y: T.dow[y], marker: { color: i === yrs.length - 1 ? css("--s1") : css(["--s3", "--s4", "--gray-mark"][i] || "--gray-mark") }, hovertemplate: "%{x} " + y + ": %{y:,}<extra></extra>",
+    })), baseLayout({ barmode: "group", bargap: 0.25, hovermode: "closest", yaxis: { gridcolor: css("--grid"), linecolor: css("--axis"), zeroline: false, tickfont: { color: css("--muted") }, tickformat: ",~s", rangemode: "tozero" } }), CONFIG);
+    table("c10b", ["Year", "July 1–7 avg", "Rest of July avg", "Difference"], T.july4.slice().reverse().map(r => [r.year, r.july4_week, r.rest_of_july, pctTxt((r.july4_week - r.rest_of_july) / r.rest_of_july * 100)]));
   }
 
   // ---- QCEW: county tourism employment
@@ -488,6 +544,16 @@ async function main() {
     seasonalChart("c11b", MON, Lu.counties.Billings, ly, Object.assign({ periodName: "Month", hover: "%{y:,.0f} employed" }, ly === cur ? { openingIndex: 6 } : {}));
     const lr2 = Lu.latest.slice().sort((a, b) => b.pct - a.pct);
     document.getElementById("c11b-tbl").innerHTML += `<p class="note">${MON[llm - 1]} ${ly} by county</p><table><thead><tr><th>County</th><th>Employed ${ly}</th><th>${ly - 1}</th><th>Change</th><th>Unemployment rate</th></tr></thead><tbody>${lr2.map(r => `<tr><td>${r.county}</td><td>${fmt(r.cur)}</td><td>${fmt(r.prev)}</td><td>${pctTxt(r.pct)}</td><td>${r.unemployment_rate.toFixed(1)}%</td></tr>`).join("")}</tbody></table>`;
+  }
+
+  // ---- BLS CES: statewide leisure & hospitality payrolls (benchmark for the county series)
+  if (d.ces && d.ces.series && d.ces.series["North Dakota — Leisure & hospitality"]) {
+    const C = d.ces, cy = C.current_year, key = "North Dakota — Leisure & hospitality", s = C.series[key];
+    card("c11c", "North Dakota leisure & hospitality payroll jobs, monthly (thousands)",
+      `Statewide payroll employment in leisure and hospitality from BLS Current Employment Statistics, not seasonally adjusted, through ${MON[C.latest_month - 1]} ${cy} (latest month preliminary). The benchmark for the Billings County series above: if the county outruns the state, that is local. ${cy} against ${cy - 1} and the ${s.band_years[0]}–${s.band_years.at(-1)} range. Bismarck MSA and the accommodation / food-service splits are in the table.`);
+    seasonalChart("c11c", MON, s, cy, Object.assign({ periodName: "Month", hover: "%{y:.1f}k", fmt: v => v == null ? "–" : v.toFixed(1) + "k" }, cy === cur ? { openingIndex: 6 } : {}));
+    const others = Object.keys(C.series).filter(k => k !== key);
+    document.getElementById("c11c-tbl").innerHTML += `<p class="note">${MON[C.latest_month - 1]} ${cy} vs ${MON[C.latest_month - 1]} ${cy - 1}, thousands of jobs</p><table><thead><tr><th>Series</th><th>${cy - 1}</th><th>${cy}</th><th>Change</th></tr></thead><tbody>${others.map(k => { const a = C.series[k].years[String(cy)]?.[C.latest_month - 1], b = C.series[k].years[String(cy - 1)]?.[C.latest_month - 1]; return `<tr><td>${k}</td><td>${b != null ? b.toFixed(1) : "–"}</td><td>${a != null ? a.toFixed(1) : "–"}</td><td>${a != null && b ? pctTxt((a - b) / b * 100) : "–"}</td></tr>`; }).join("")}</tbody></table>`;
   }
 
   // ---- Recreation.gov campgrounds
@@ -527,6 +593,29 @@ async function main() {
     Plotly.newPlot("c14", names.map((n, i) => ({ x: T.terms[n].weeks, y: T.terms[n].interest, mode: "lines", name: n, line: { color: css(SLOT[i]), width: n === T.primary_term ? 2.5 : 1.5 }, hovertemplate: "%{y}" })),
       baseLayout({ yaxis: { gridcolor: css("--grid"), zeroline: false, tickfont: { color: css("--muted") }, rangemode: "tozero" }, legend: { orientation: "h", y: -0.22, x: 0 }, margin: { l: 40, r: 16, t: 8, b: 70 } }), CONFIG);
     table("c14", ["State", "Interest"], T.by_state.map(r => [r.state, r.interest]));
+  }
+
+  // ---- Air quality: wildfire smoke days at Painted Canyon
+  if (d.air_quality && d.air_quality.summer && d.air_quality.summer.length) {
+    const AQ = d.air_quality, yrs = AQ.summer.map(s => String(s.year));
+    card("c15", "Smoke days at Theodore Roosevelt NP, June–September",
+      `Days with an Air Quality Index of 101 or worse ("unhealthy for sensitive groups" and up) at the Painted Canyon Visitor Center monitor — nearly always wildfire smoke in summer. The one weather-type variable that keeps people off Badlands trails. EPA AQS validated data through ${AQ.latest < "2026" ? AQ.latest : "the last processed quarter"}, AirNow preliminary daily values after that (through ${AQ.latest}). Monthly counts in the table.`);
+    Plotly.newPlot("c15", [{ type: "bar", x: yrs, y: AQ.summer.map(s => s.usg_days), marker: { color: yrs.map(y => +y === cur ? css("--s1") : css("--gray-mark")) }, text: AQ.summer.map(s => s.usg_days), textposition: "outside", textfont: { color: css("--ink-2") }, customdata: AQ.summer.map(s => [s.max_aqi, s.moderate_days]), hovertemplate: "%{x}: %{y} smoke days<br>peak AQI %{customdata[0]}, %{customdata[1]} days moderate or worse<extra></extra>" }],
+      baseLayout({ bargap: 0.35, hovermode: "closest", showlegend: false, yaxis: { gridcolor: css("--grid"), linecolor: css("--axis"), zeroline: false, tickfont: { color: css("--muted") }, rangemode: "tozero", range: [0, Math.max(...AQ.summer.map(s => s.usg_days)) * 1.25 + 1] } }), CONFIG);
+    const my = Object.keys(AQ.monthly);
+    table("c15", ["Month", ...my], MON.map((m, i) => [m, ...my.map(y => AQ.monthly[y][i] == null ? "–" : AQ.monthly[y][i])]));
+  }
+
+  // ---- Census Monthly State Retail Sales: statewide retail control (YoY %)
+  if (d.msrs && d.msrs.rows && d.msrs.rows.length) {
+    const M = d.msrs, el = document.createElement("section"); el.className = "card";
+    const nd = M.rows.filter(r => r.state === "ND"), us = M.rows.filter(r => r.state === "USA");
+    const periods = nd.length ? nd[0].periods : [];
+    const row = (r, label) => `<tr><td>${label}</td>${r.yoy.map(v => `<td class="${v >= 0 ? "up" : "down"}">${pctTxt(v)}</td>`).join("")}</tr>`;
+    el.innerHTML = `<h2>North Dakota retail sales, year-over-year change by month</h2>
+      <p class="note">Census Bureau Monthly State Retail Sales (experimental), through ${MON[M.latest_month - 1]} ${M.current_year}; growth rates only, no dollar levels. A statewide check on whether the corridor's sales-tax gains are local or just North Dakota's retail cycle. Gasoline stations move with pump prices. U.S. total shown for comparison.</p>
+      <div style="overflow-x:auto"><table><thead><tr><th>Sector</th>${periods.map(p => `<th>${MON[+p.slice(5) - 1]} ${p.slice(2, 4)}</th>`).join("")}</tr></thead><tbody>${nd.map(r => row(r, "ND — " + r.sector)).join("")}${us.filter(r => r.sector === "Total retail").map(r => row(r, "U.S. — Total retail")).join("")}</tbody></table></div>`;
+    document.getElementById("main").appendChild(el);
   }
 
   // ---- Controls table

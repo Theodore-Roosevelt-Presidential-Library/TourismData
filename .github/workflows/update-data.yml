@@ -43,6 +43,12 @@ jobs:
       - name: Fetch NPS IRMA monthly visits
         run: python scripts/fetch_nps.py
         continue-on-error: true
+      - name: Fetch TRNP detail (Painted Canyon counter, public use by location, overnight stays)
+        run: python scripts/fetch_nps_detail.py
+        continue-on-error: true
+      - name: Fetch NPS Visitor Spending Effects (annual)
+        run: python scripts/fetch_nps_vse.py
+        continue-on-error: true
       - name: Fetch BTS border crossings
         run: python scripts/fetch_bts_border.py
         continue-on-error: true
@@ -54,6 +60,12 @@ jobs:
         continue-on-error: true
       - name: Fetch NDDOT monthly traffic counts (I-94 at Medora)
         run: python scripts/fetch_nddot_atr.py
+        continue-on-error: true
+      - name: Fetch FHWA TMAS hourly station data (new months only)
+        run: python scripts/fetch_tmas.py
+        continue-on-error: true
+      - name: Fetch BTS DB1B inbound air origins (new quarters only)
+        run: python scripts/fetch_db1b.py
         continue-on-error: true
       - name: Fetch ND taxable sales (quarterly, by county)
         run: python scripts/fetch_nd_tax.py
@@ -77,6 +89,17 @@ jobs:
         continue-on-error: true
       - name: Fetch ND Commerce county tourism impact (annual)
         run: python scripts/fetch_nd_impact.py
+        continue-on-error: true
+      - name: Fetch BLS CES statewide leisure & hospitality
+        run: python scripts/fetch_ces.py
+        env:
+          BLS_CONTACT: ${{ vars.BLS_CONTACT }}
+        continue-on-error: true
+      - name: Fetch Census Monthly State Retail Sales
+        run: python scripts/fetch_census_msrs.py
+        continue-on-error: true
+      - name: Fetch air quality (EPA AQS + AirNow) at Painted Canyon
+        run: python scripts/fetch_airquality.py
         continue-on-error: true
       - name: Fetch Recreation.gov campground aggregates (new fiscal years only)
         run: python scripts/fetch_recgov.py

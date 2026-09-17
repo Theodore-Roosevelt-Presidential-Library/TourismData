@@ -1,0 +1,330 @@
+year,category,stays
+1979,Concessioner lodging,0
+1979,Concessioner camping,0
+1979,Tent,15924
+1979,RV,15422
+1979,Backcountry,624
+1979,Miscellaneous,0
+1979,Non-recreation,0
+1980,Concessioner lodging,0
+1980,Concessioner camping,0
+1980,Tent,14558
+1980,RV,16407
+1980,Backcountry,681
+1980,Miscellaneous,0
+1980,Non-recreation,0
+1981,Concessioner lodging,0
+1981,Concessioner camping,0
+1981,Tent,16157
+1981,RV,20810
+1981,Backcountry,747
+1981,Miscellaneous,0
+1981,Non-recreation,0
+1982,Concessioner lodging,0
+1982,Concessioner camping,0
+1982,Tent,14979
+1982,RV,19600
+1982,Backcountry,873
+1982,Miscellaneous,0
+1982,Non-recreation,0
+1983,Concessioner lodging,0
+1983,Concessioner camping,0
+1983,Tent,8734
+1983,RV,14614
+1983,Backcountry,852
+1983,Miscellaneous,2358
+1983,Non-recreation,0
+1984,Concessioner lodging,0
+1984,Concessioner camping,0
+1984,Tent,7041
+1984,RV,12075
+1984,Backcountry,732
+1984,Miscellaneous,1818
+1984,Non-recreation,0
+1985,Concessioner lodging,0
+1985,Concessioner camping,0
+1985,Tent,7104
+1985,RV,11415
+1985,Backcountry,697
+1985,Miscellaneous,1678
+1985,Non-recreation,0
+1986,Concessioner lodging,0
+1986,Concessioner camping,0
+1986,Tent,6924
+1986,RV,12772
+1986,Backcountry,782
+1986,Miscellaneous,2238
+1986,Non-recreation,0
+1987,Concessioner lodging,0
+1987,Concessioner camping,0
+1987,Tent,7878
+1987,RV,14053
+1987,Backcountry,880
+1987,Miscellaneous,1780
+1987,Non-recreation,0
+1988,Concessioner lodging,0
+1988,Concessioner camping,0
+1988,Tent,6808
+1988,RV,11626
+1988,Backcountry,426
+1988,Miscellaneous,2248
+1988,Non-recreation,0
+1989,Concessioner lodging,0
+1989,Concessioner camping,0
+1989,Tent,7062
+1989,RV,13937
+1989,Backcountry,526
+1989,Miscellaneous,2104
+1989,Non-recreation,0
+1990,Concessioner lodging,0
+1990,Concessioner camping,0
+1990,Tent,7820
+1990,RV,15668
+1990,Backcountry,644
+1990,Miscellaneous,2227
+1990,Non-recreation,0
+1991,Concessioner lodging,0
+1991,Concessioner camping,0
+1991,Tent,9268
+1991,RV,15506
+1991,Backcountry,682
+1991,Miscellaneous,1732
+1991,Non-recreation,0
+1992,Concessioner lodging,0
+1992,Concessioner camping,0
+1992,Tent,9733
+1992,RV,15782
+1992,Backcountry,996
+1992,Miscellaneous,1218
+1992,Non-recreation,0
+1993,Concessioner lodging,0
+1993,Concessioner camping,0
+1993,Tent,10575
+1993,RV,16800
+1993,Backcountry,914
+1993,Miscellaneous,1121
+1993,Non-recreation,0
+1994,Concessioner lodging,0
+1994,Concessioner camping,0
+1994,Tent,12195
+1994,RV,17798
+1994,Backcountry,1598
+1994,Miscellaneous,1225
+1994,Non-recreation,0
+1995,Concessioner lodging,0
+1995,Concessioner camping,0
+1995,Tent,10154
+1995,RV,15582
+1995,Backcountry,2088
+1995,Miscellaneous,1791
+1995,Non-recreation,0
+1996,Concessioner lodging,0
+1996,Concessioner camping,0
+1996,Tent,12232
+1996,RV,16338
+1996,Backcountry,1155
+1996,Miscellaneous,1397
+1996,Non-recreation,0
+1997,Concessioner lodging,0
+1997,Concessioner camping,0
+1997,Tent,10363
+1997,RV,15631
+1997,Backcountry,1115
+1997,Miscellaneous,2001
+1997,Non-recreation,0
+1998,Concessioner lodging,0
+1998,Concessioner camping,0
+1998,Tent,9779
+1998,RV,14111
+1998,Backcountry,1482
+1998,Miscellaneous,1857
+1998,Non-recreation,0
+1999,Concessioner lodging,0
+1999,Concessioner camping,0
+1999,Tent,9894
+1999,RV,15681
+1999,Backcountry,1465
+1999,Miscellaneous,2093
+1999,Non-recreation,0
+2000,Concessioner lodging,0
+2000,Concessioner camping,0
+2000,Tent,10176
+2000,RV,14989
+2000,Backcountry,971
+2000,Miscellaneous,2197
+2000,Non-recreation,0
+2001,Concessioner lodging,0
+2001,Concessioner camping,0
+2001,Tent,9997
+2001,RV,12320
+2001,Backcountry,771
+2001,Miscellaneous,2487
+2001,Non-recreation,0
+2002,Concessioner lodging,0
+2002,Concessioner camping,0
+2002,Tent,9527
+2002,RV,13427
+2002,Backcountry,1072
+2002,Miscellaneous,1662
+2002,Non-recreation,0
+2003,Concessioner lodging,0
+2003,Concessioner camping,0
+2003,Tent,10534
+2003,RV,12555
+2003,Backcountry,1185
+2003,Miscellaneous,2502
+2003,Non-recreation,0
+2004,Concessioner lodging,0
+2004,Concessioner camping,0
+2004,Tent,9310
+2004,RV,11982
+2004,Backcountry,750
+2004,Miscellaneous,1779
+2004,Non-recreation,0
+2005,Concessioner lodging,0
+2005,Concessioner camping,0
+2005,Tent,8383
+2005,RV,13557
+2005,Backcountry,634
+2005,Miscellaneous,1608
+2005,Non-recreation,0
+2006,Concessioner lodging,0
+2006,Concessioner camping,0
+2006,Tent,7879
+2006,RV,10575
+2006,Backcountry,1110
+2006,Miscellaneous,1204
+2006,Non-recreation,0
+2007,Concessioner lodging,0
+2007,Concessioner camping,0
+2007,Tent,7668
+2007,RV,11331
+2007,Backcountry,480
+2007,Miscellaneous,822
+2007,Non-recreation,0
+2008,Concessioner lodging,0
+2008,Concessioner camping,0
+2008,Tent,9000
+2008,RV,9358
+2008,Backcountry,593
+2008,Miscellaneous,982
+2008,Non-recreation,0
+2009,Concessioner lodging,0
+2009,Concessioner camping,0
+2009,Tent,10687
+2009,RV,14174
+2009,Backcountry,798
+2009,Miscellaneous,1155
+2009,Non-recreation,0
+2010,Concessioner lodging,0
+2010,Concessioner camping,0
+2010,Tent,11709
+2010,RV,14425
+2010,Backcountry,732
+2010,Miscellaneous,2002
+2010,Non-recreation,0
+2011,Concessioner lodging,0
+2011,Concessioner camping,0
+2011,Tent,10989
+2011,RV,9182
+2011,Backcountry,768
+2011,Miscellaneous,579
+2011,Non-recreation,0
+2012,Concessioner lodging,0
+2012,Concessioner camping,0
+2012,Tent,12663
+2012,RV,12569
+2012,Backcountry,891
+2012,Miscellaneous,881
+2012,Non-recreation,0
+2013,Concessioner lodging,0
+2013,Concessioner camping,0
+2013,Tent,13733
+2013,RV,13503
+2013,Backcountry,841
+2013,Miscellaneous,1206
+2013,Non-recreation,0
+2014,Concessioner lodging,0
+2014,Concessioner camping,0
+2014,Tent,13804
+2014,RV,12973
+2014,Backcountry,849
+2014,Miscellaneous,2026
+2014,Non-recreation,0
+2015,Concessioner lodging,0
+2015,Concessioner camping,0
+2015,Tent,13967
+2015,RV,15011
+2015,Backcountry,529
+2015,Miscellaneous,2900
+2015,Non-recreation,0
+2016,Concessioner lodging,0
+2016,Concessioner camping,0
+2016,Tent,14835
+2016,RV,17730
+2016,Backcountry,232
+2016,Miscellaneous,2576
+2016,Non-recreation,0
+2017,Concessioner lodging,0
+2017,Concessioner camping,0
+2017,Tent,14723
+2017,RV,17750
+2017,Backcountry,587
+2017,Miscellaneous,1997
+2017,Non-recreation,0
+2018,Concessioner lodging,0
+2018,Concessioner camping,0
+2018,Tent,14707
+2018,RV,18235
+2018,Backcountry,614
+2018,Miscellaneous,2424
+2018,Non-recreation,0
+2019,Concessioner lodging,0
+2019,Concessioner camping,0
+2019,Tent,16862
+2019,RV,20524
+2019,Backcountry,735
+2019,Miscellaneous,2301
+2019,Non-recreation,0
+2020,Concessioner lodging,0
+2020,Concessioner camping,0
+2020,Tent,227
+2020,RV,505
+2020,Backcountry,2591
+2020,Miscellaneous,0
+2020,Non-recreation,0
+2021,Concessioner lodging,0
+2021,Concessioner camping,0
+2021,Tent,15742
+2021,RV,22096
+2021,Backcountry,1054
+2021,Miscellaneous,3032
+2021,Non-recreation,0
+2022,Concessioner lodging,0
+2022,Concessioner camping,0
+2022,Tent,13441
+2022,RV,22321
+2022,Backcountry,658
+2022,Miscellaneous,3221
+2022,Non-recreation,0
+2023,Concessioner lodging,0
+2023,Concessioner camping,0
+2023,Tent,11703
+2023,RV,21459
+2023,Backcountry,718
+2023,Miscellaneous,3115
+2023,Non-recreation,0
+2024,Concessioner lodging,0
+2024,Concessioner camping,0
+2024,Tent,14211
+2024,RV,22108
+2024,Backcountry,653
+2024,Miscellaneous,2781
+2024,Non-recreation,0
+2025,Concessioner lodging,0
+2025,Concessioner camping,0
+2025,Tent,11072
+2025,RV,23996
+2025,Backcountry,752
+2025,Miscellaneous,1417
+2025,Non-recreation,0

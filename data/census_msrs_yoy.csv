@@ -1,0 +1,3680 @@
+state,naics,sector,year,month,yoy_pct
+MN,441,Motor vehicle & parts,2019,1,-2.5
+MN,441,Motor vehicle & parts,2019,2,0.3
+MN,441,Motor vehicle & parts,2019,3,-0.8
+MN,441,Motor vehicle & parts,2019,4,4.3
+MN,441,Motor vehicle & parts,2019,5,3.5
+MN,441,Motor vehicle & parts,2019,6,2.4
+MN,441,Motor vehicle & parts,2019,7,5.8
+MN,441,Motor vehicle & parts,2019,8,6.2
+MN,441,Motor vehicle & parts,2019,9,4.2
+MN,441,Motor vehicle & parts,2019,10,4.7
+MN,441,Motor vehicle & parts,2019,11,7.1
+MN,441,Motor vehicle & parts,2019,12,2.2
+MN,441,Motor vehicle & parts,2020,1,6.7
+MN,441,Motor vehicle & parts,2020,2,9.3
+MN,441,Motor vehicle & parts,2020,3,-26.5
+MN,441,Motor vehicle & parts,2020,4,-32.4
+MN,441,Motor vehicle & parts,2020,5,-4.4
+MN,441,Motor vehicle & parts,2020,6,8.3
+MN,441,Motor vehicle & parts,2020,7,5.2
+MN,441,Motor vehicle & parts,2020,8,-1.2
+MN,441,Motor vehicle & parts,2020,9,10.6
+MN,441,Motor vehicle & parts,2020,10,8.2
+MN,441,Motor vehicle & parts,2020,11,-0.8
+MN,441,Motor vehicle & parts,2020,12,10.1
+MN,441,Motor vehicle & parts,2021,1,12.0
+MN,441,Motor vehicle & parts,2021,2,6.0
+MN,441,Motor vehicle & parts,2021,3,82.0
+MN,441,Motor vehicle & parts,2021,4,105.1
+MN,441,Motor vehicle & parts,2021,5,32.4
+MN,441,Motor vehicle & parts,2021,6,19.3
+MN,441,Motor vehicle & parts,2021,7,15.4
+MN,441,Motor vehicle & parts,2021,8,13.2
+MN,441,Motor vehicle & parts,2021,9,10.2
+MN,441,Motor vehicle & parts,2021,10,10.8
+MN,441,Motor vehicle & parts,2021,11,19.4
+MN,441,Motor vehicle & parts,2021,12,10.9
+MN,441,Motor vehicle & parts,2022,1,4.7
+MN,441,Motor vehicle & parts,2022,2,8.3
+MN,441,Motor vehicle & parts,2022,3,-9.2
+MN,441,Motor vehicle & parts,2022,4,-10.1
+MN,441,Motor vehicle & parts,2022,5,-12.1
+MN,441,Motor vehicle & parts,2022,6,-7.7
+MN,441,Motor vehicle & parts,2022,7,-9.4
+MN,441,Motor vehicle & parts,2022,8,0.3
+MN,441,Motor vehicle & parts,2022,9,-3.7
+MN,441,Motor vehicle & parts,2022,10,-3.1
+MN,441,Motor vehicle & parts,2022,11,-6.9
+MN,441,Motor vehicle & parts,2022,12,-6.6
+MN,441,Motor vehicle & parts,2023,1,1.4
+MN,441,Motor vehicle & parts,2023,2,-1.2
+MN,441,Motor vehicle & parts,2023,3,-0.7
+MN,441,Motor vehicle & parts,2023,4,-4.0
+MN,441,Motor vehicle & parts,2023,5,7.5
+MN,441,Motor vehicle & parts,2023,6,3.3
+MN,441,Motor vehicle & parts,2023,7,5.1
+MN,441,Motor vehicle & parts,2023,8,2.6
+MN,441,Motor vehicle & parts,2023,9,5.4
+MN,441,Motor vehicle & parts,2023,10,0.6
+MN,441,Motor vehicle & parts,2023,11,5.1
+MN,441,Motor vehicle & parts,2023,12,4.4
+MN,441,Motor vehicle & parts,2024,1,2.6
+MN,441,Motor vehicle & parts,2024,2,11.4
+MN,441,Motor vehicle & parts,2024,3,3.7
+MN,441,Motor vehicle & parts,2024,4,8.0
+MN,441,Motor vehicle & parts,2024,5,5.6
+MN,441,Motor vehicle & parts,2024,6,-2.1
+MN,441,Motor vehicle & parts,2024,7,8.3
+MN,441,Motor vehicle & parts,2024,8,6.4
+MN,441,Motor vehicle & parts,2024,9,0.7
+MN,441,Motor vehicle & parts,2024,10,11.5
+MN,441,Motor vehicle & parts,2024,11,12.5
+MN,441,Motor vehicle & parts,2024,12,12.1
+MN,441,Motor vehicle & parts,2025,1,5.9
+MN,441,Motor vehicle & parts,2025,2,-1.8
+MN,441,Motor vehicle & parts,2025,3,8.8
+MN,441,Motor vehicle & parts,2025,4,8.1
+MN,441,Motor vehicle & parts,2025,5,2.0
+MN,441,Motor vehicle & parts,2025,6,4.8
+MN,441,Motor vehicle & parts,2025,7,4.8
+MN,441,Motor vehicle & parts,2025,8,2.0
+MN,441,Motor vehicle & parts,2025,9,7.1
+MN,441,Motor vehicle & parts,2025,10,1.8
+MN,441,Motor vehicle & parts,2025,11,-4.4
+MN,441,Motor vehicle & parts,2025,12,1.2
+MN,441,Motor vehicle & parts,2026,1,-0.6
+MN,441,Motor vehicle & parts,2026,2,1.6
+MN,441,Motor vehicle & parts,2026,3,-1.8
+MN,441,Motor vehicle & parts,2026,4,-1.3
+MN,441,Motor vehicle & parts,2026,5,1.3
+MN,445,Food & beverage stores,2019,1,3.1
+MN,445,Food & beverage stores,2019,2,-0.3
+MN,445,Food & beverage stores,2019,3,4.5
+MN,445,Food & beverage stores,2019,4,3.9
+MN,445,Food & beverage stores,2019,5,4.6
+MN,445,Food & beverage stores,2019,6,5.8
+MN,445,Food & beverage stores,2019,7,7.9
+MN,445,Food & beverage stores,2019,8,5.5
+MN,445,Food & beverage stores,2019,9,1.2
+MN,445,Food & beverage stores,2019,10,-1.9
+MN,445,Food & beverage stores,2019,11,-0.3
+MN,445,Food & beverage stores,2019,12,-0.7
+MN,445,Food & beverage stores,2020,1,1.4
+MN,445,Food & beverage stores,2020,2,5.0
+MN,445,Food & beverage stores,2020,3,19.5
+MN,445,Food & beverage stores,2020,4,11.7
+MN,445,Food & beverage stores,2020,5,14.7
+MN,445,Food & beverage stores,2020,6,8.3
+MN,445,Food & beverage stores,2020,7,7.7
+MN,445,Food & beverage stores,2020,8,9.0
+MN,445,Food & beverage stores,2020,9,14.1
+MN,445,Food & beverage stores,2020,10,18.3
+MN,445,Food & beverage stores,2020,11,12.2
+MN,445,Food & beverage stores,2020,12,16.5
+MN,445,Food & beverage stores,2021,1,10.4
+MN,445,Food & beverage stores,2021,2,6.1
+MN,445,Food & beverage stores,2021,3,-5.5
+MN,445,Food & beverage stores,2021,4,2.6
+MN,445,Food & beverage stores,2021,5,-1.9
+MN,445,Food & beverage stores,2021,6,3.1
+MN,445,Food & beverage stores,2021,7,4.0
+MN,445,Food & beverage stores,2021,8,3.6
+MN,445,Food & beverage stores,2021,9,4.4
+MN,445,Food & beverage stores,2021,10,3.1
+MN,445,Food & beverage stores,2021,11,4.6
+MN,445,Food & beverage stores,2021,12,4.9
+MN,445,Food & beverage stores,2022,1,19.9
+MN,445,Food & beverage stores,2022,2,22.9
+MN,445,Food & beverage stores,2022,3,20.2
+MN,445,Food & beverage stores,2022,4,23.2
+MN,445,Food & beverage stores,2022,5,21.0
+MN,445,Food & beverage stores,2022,6,23.1
+MN,445,Food & beverage stores,2022,7,22.2
+MN,445,Food & beverage stores,2022,8,21.1
+MN,445,Food & beverage stores,2022,9,20.4
+MN,445,Food & beverage stores,2022,10,21.7
+MN,445,Food & beverage stores,2022,11,23.7
+MN,445,Food & beverage stores,2022,12,23.2
+MN,445,Food & beverage stores,2023,1,-0.1
+MN,445,Food & beverage stores,2023,2,1.3
+MN,445,Food & beverage stores,2023,3,3.5
+MN,445,Food & beverage stores,2023,4,1.6
+MN,445,Food & beverage stores,2023,5,3.1
+MN,445,Food & beverage stores,2023,6,1.6
+MN,445,Food & beverage stores,2023,7,0.2
+MN,445,Food & beverage stores,2023,8,2.7
+MN,445,Food & beverage stores,2023,9,3.3
+MN,445,Food & beverage stores,2023,10,0.3
+MN,445,Food & beverage stores,2023,11,4.5
+MN,445,Food & beverage stores,2023,12,0.5
+MN,445,Food & beverage stores,2024,1,5.5
+MN,445,Food & beverage stores,2024,2,8.3
+MN,445,Food & beverage stores,2024,3,6.5
+MN,445,Food & beverage stores,2024,4,-1.0
+MN,445,Food & beverage stores,2024,5,4.0
+MN,445,Food & beverage stores,2024,6,2.5
+MN,445,Food & beverage stores,2024,7,11.6
+MN,445,Food & beverage stores,2024,8,11.5
+MN,445,Food & beverage stores,2024,9,8.6
+MN,445,Food & beverage stores,2024,10,6.5
+MN,445,Food & beverage stores,2024,11,3.6
+MN,445,Food & beverage stores,2024,12,3.2
+MN,445,Food & beverage stores,2025,1,6.5
+MN,445,Food & beverage stores,2025,2,-0.8
+MN,445,Food & beverage stores,2025,3,-1.7
+MN,445,Food & beverage stores,2025,4,6.1
+MN,445,Food & beverage stores,2025,5,2.0
+MN,445,Food & beverage stores,2025,6,0.9
+MN,445,Food & beverage stores,2025,7,-4.9
+MN,445,Food & beverage stores,2025,8,-4.9
+MN,445,Food & beverage stores,2025,9,-5.8
+MN,445,Food & beverage stores,2025,10,-0.4
+MN,445,Food & beverage stores,2025,11,-2.4
+MN,445,Food & beverage stores,2025,12,-0.6
+MN,445,Food & beverage stores,2026,1,-3.1
+MN,445,Food & beverage stores,2026,2,-1.8
+MN,445,Food & beverage stores,2026,3,-0.1
+MN,445,Food & beverage stores,2026,4,-0.5
+MN,445,Food & beverage stores,2026,5,0.6
+MN,447,Gasoline stations,2019,1,-3.3
+MN,447,Gasoline stations,2019,2,-3.7
+MN,447,Gasoline stations,2019,3,5.3
+MN,447,Gasoline stations,2019,4,5.3
+MN,447,Gasoline stations,2019,5,-0.4
+MN,447,Gasoline stations,2019,6,-3.8
+MN,447,Gasoline stations,2019,7,2.9
+MN,447,Gasoline stations,2019,8,-4.3
+MN,447,Gasoline stations,2019,9,-6.4
+MN,447,Gasoline stations,2019,10,-7.1
+MN,447,Gasoline stations,2019,11,-2.5
+MN,447,Gasoline stations,2019,12,6.4
+MN,447,Gasoline stations,2020,1,2.7
+MN,447,Gasoline stations,2020,2,-0.7
+MN,447,Gasoline stations,2020,3,-20.1
+MN,447,Gasoline stations,2020,4,-42.2
+MN,447,Gasoline stations,2020,5,-33.3
+MN,447,Gasoline stations,2020,6,-20.8
+MN,447,Gasoline stations,2020,7,-18.3
+MN,447,Gasoline stations,2020,8,-17.9
+MN,447,Gasoline stations,2020,9,-15.0
+MN,447,Gasoline stations,2020,10,-16.6
+MN,447,Gasoline stations,2020,11,-20.4
+MN,447,Gasoline stations,2020,12,-13.2
+MN,447,Gasoline stations,2021,1,-6.4
+MN,447,Gasoline stations,2021,2,-2.7
+MN,447,Gasoline stations,2021,3,35.4
+MN,447,Gasoline stations,2021,4,72.1
+MN,447,Gasoline stations,2021,5,46.5
+MN,447,Gasoline stations,2021,6,38.2
+MN,447,Gasoline stations,2021,7,34.7
+MN,447,Gasoline stations,2021,8,34.9
+MN,447,Gasoline stations,2021,9,38.3
+MN,447,Gasoline stations,2021,10,42.5
+MN,447,Gasoline stations,2021,11,52.5
+MN,447,Gasoline stations,2021,12,40.7
+MN,447,Gasoline stations,2022,1,29.2
+MN,447,Gasoline stations,2022,2,33.7
+MN,447,Gasoline stations,2022,3,29.7
+MN,447,Gasoline stations,2022,4,33.4
+MN,447,Gasoline stations,2022,5,43.8
+MN,447,Gasoline stations,2022,6,40.8
+MN,447,Gasoline stations,2022,7,33.3
+MN,447,Gasoline stations,2022,8,22.5
+MN,447,Gasoline stations,2022,9,13.4
+MN,447,Gasoline stations,2022,10,13.1
+MN,447,Gasoline stations,2022,11,9.5
+MN,447,Gasoline stations,2022,12,0.0
+MN,447,Gasoline stations,2023,1,9.9
+MN,447,Gasoline stations,2023,2,3.5
+MN,447,Gasoline stations,2023,3,-7.9
+MN,447,Gasoline stations,2023,4,-8.8
+MN,447,Gasoline stations,2023,5,-13.7
+MN,447,Gasoline stations,2023,6,-18.6
+MN,447,Gasoline stations,2023,7,-15.6
+MN,447,Gasoline stations,2023,8,-1.4
+MN,447,Gasoline stations,2023,9,3.9
+MN,447,Gasoline stations,2023,10,-2.1
+MN,447,Gasoline stations,2023,11,-5.4
+MN,447,Gasoline stations,2023,12,-1.4
+MN,447,Gasoline stations,2024,1,-8.9
+MN,447,Gasoline stations,2024,2,-0.2
+MN,447,Gasoline stations,2024,3,-1.4
+MN,447,Gasoline stations,2024,4,2.9
+MN,447,Gasoline stations,2024,5,1.4
+MN,447,Gasoline stations,2024,6,-1.7
+MN,447,Gasoline stations,2024,7,-0.5
+MN,447,Gasoline stations,2024,8,-7.7
+MN,447,Gasoline stations,2024,9,-12.4
+MN,447,Gasoline stations,2024,10,-7.5
+MN,447,Gasoline stations,2024,11,-3.6
+MN,447,Gasoline stations,2024,12,-1.4
+MN,447,Gasoline stations,2025,1,2.8
+MN,447,Gasoline stations,2025,2,-5.8
+MN,447,Gasoline stations,2025,3,-6.6
+MN,447,Gasoline stations,2025,4,-7.3
+MN,447,Gasoline stations,2025,5,-5.9
+MN,447,Gasoline stations,2025,6,-4.0
+MN,447,Gasoline stations,2025,7,-2.8
+MN,447,Gasoline stations,2025,8,-1.2
+MN,447,Gasoline stations,2025,9,-2.2
+MN,447,Gasoline stations,2025,10,1.4
+MN,447,Gasoline stations,2025,11,0.5
+MN,447,Gasoline stations,2025,12,1.9
+MN,447,Gasoline stations,2026,1,-1.4
+MN,447,Gasoline stations,2026,2,0.3
+MN,447,Gasoline stations,2026,3,18.0
+MN,447,Gasoline stations,2026,4,25.7
+MN,447,Gasoline stations,2026,5,29.4
+MN,448,Clothing,2019,1,3.9
+MN,448,Clothing,2019,2,-8.6
+MN,448,Clothing,2019,3,2.2
+MN,448,Clothing,2019,4,5.2
+MN,448,Clothing,2019,5,-0.7
+MN,448,Clothing,2019,6,0.7
+MN,448,Clothing,2019,7,-0.1
+MN,448,Clothing,2019,8,0.9
+MN,448,Clothing,2019,9,-3.8
+MN,448,Clothing,2019,10,0.7
+MN,448,Clothing,2019,11,-0.6
+MN,448,Clothing,2019,12,4.8
+MN,448,Clothing,2020,1,-1.9
+MN,448,Clothing,2020,2,14.5
+MN,448,Clothing,2020,3,-52.4
+MN,448,Clothing,2020,4,-98.7
+MN,448,Clothing,2020,5,-47.1
+MN,448,Clothing,2020,6,-22.2
+MN,448,Clothing,2020,7,-18.9
+MN,448,Clothing,2020,8,-19.5
+MN,448,Clothing,2020,9,-11.2
+MN,448,Clothing,2020,10,-16.3
+MN,448,Clothing,2020,11,-28.4
+MN,448,Clothing,2020,12,-11.2
+MN,448,Clothing,2021,1,-5.6
+MN,448,Clothing,2021,2,-15.4
+MN,448,Clothing,2021,3,114.6
+MN,448,Clothing,2021,5,93.8
+MN,448,Clothing,2021,6,40.8
+MN,448,Clothing,2021,7,37.6
+MN,448,Clothing,2021,8,17.1
+MN,448,Clothing,2021,9,20.3
+MN,448,Clothing,2021,10,25.5
+MN,448,Clothing,2021,11,53.8
+MN,448,Clothing,2021,12,25.8
+MN,448,Clothing,2022,1,12.7
+MN,448,Clothing,2022,2,25.3
+MN,448,Clothing,2022,3,7.5
+MN,448,Clothing,2022,4,13.4
+MN,448,Clothing,2022,5,0.8
+MN,448,Clothing,2022,6,-3.2
+MN,448,Clothing,2022,7,-5.0
+MN,448,Clothing,2022,8,1.7
+MN,448,Clothing,2022,9,1.1
+MN,448,Clothing,2022,10,-0.7
+MN,448,Clothing,2022,11,-4.8
+MN,448,Clothing,2022,12,-3.4
+MN,448,Clothing,2023,1,3.5
+MN,448,Clothing,2023,2,-1.8
+MN,448,Clothing,2023,3,-6.8
+MN,448,Clothing,2023,4,-1.3
+MN,448,Clothing,2023,5,1.3
+MN,448,Clothing,2023,6,2.0
+MN,448,Clothing,2023,7,0.9
+MN,448,Clothing,2023,8,4.4
+MN,448,Clothing,2023,9,4.9
+MN,448,Clothing,2023,10,2.2
+MN,448,Clothing,2023,11,4.2
+MN,448,Clothing,2023,12,4.2
+MN,448,Clothing,2024,1,-1.1
+MN,448,Clothing,2024,2,4.1
+MN,448,Clothing,2024,3,-0.9
+MN,448,Clothing,2024,4,-8.0
+MN,448,Clothing,2024,5,-3.5
+MN,448,Clothing,2024,6,-2.3
+MN,448,Clothing,2024,7,-0.7
+MN,448,Clothing,2024,8,3.2
+MN,448,Clothing,2024,9,-6.4
+MN,448,Clothing,2024,10,-1.1
+MN,448,Clothing,2024,11,-1.5
+MN,448,Clothing,2024,12,-6.5
+MN,448,Clothing,2025,1,3.7
+MN,448,Clothing,2025,2,-4.0
+MN,448,Clothing,2025,3,10.0
+MN,448,Clothing,2025,4,9.6
+MN,448,Clothing,2025,5,10.1
+MN,448,Clothing,2025,6,6.2
+MN,448,Clothing,2025,7,8.8
+MN,448,Clothing,2025,8,9.4
+MN,448,Clothing,2025,9,10.2
+MN,448,Clothing,2025,10,11.7
+MN,448,Clothing,2025,11,11.8
+MN,448,Clothing,2025,12,15.2
+MN,448,Clothing,2026,1,2.8
+MN,448,Clothing,2026,2,12.8
+MN,448,Clothing,2026,3,3.6
+MN,448,Clothing,2026,4,6.2
+MN,448,Clothing,2026,5,5.5
+MN,452,General merchandise,2019,1,0.0
+MN,452,General merchandise,2019,2,-6.2
+MN,452,General merchandise,2019,3,2.7
+MN,452,General merchandise,2019,4,4.2
+MN,452,General merchandise,2019,5,-2.2
+MN,452,General merchandise,2019,6,4.9
+MN,452,General merchandise,2019,7,4.7
+MN,452,General merchandise,2019,8,5.2
+MN,452,General merchandise,2019,9,-0.6
+MN,452,General merchandise,2019,10,2.5
+MN,452,General merchandise,2019,11,-0.1
+MN,452,General merchandise,2019,12,-1.0
+MN,452,General merchandise,2020,1,-3.9
+MN,452,General merchandise,2020,2,9.2
+MN,452,General merchandise,2020,3,-1.9
+MN,452,General merchandise,2020,5,2.1
+MN,452,General merchandise,2020,6,-2.0
+MN,452,General merchandise,2020,7,-0.9
+MN,452,General merchandise,2020,8,-9.7
+MN,452,General merchandise,2020,9,-3.0
+MN,452,General merchandise,2020,10,-4.0
+MN,452,General merchandise,2020,11,-11.0
+MN,452,General merchandise,2020,12,-9.5
+MN,452,General merchandise,2021,1,9.9
+MN,452,General merchandise,2021,2,-3.3
+MN,452,General merchandise,2021,3,1.9
+MN,452,General merchandise,2021,4,84.9
+MN,452,General merchandise,2021,5,2.8
+MN,452,General merchandise,2021,6,4.1
+MN,452,General merchandise,2021,7,4.2
+MN,452,General merchandise,2021,8,15.2
+MN,452,General merchandise,2021,9,8.2
+MN,452,General merchandise,2021,10,9.6
+MN,452,General merchandise,2021,11,8.9
+MN,452,General merchandise,2021,12,5.8
+MN,452,General merchandise,2022,1,1.5
+MN,452,General merchandise,2022,2,5.4
+MN,452,General merchandise,2022,3,1.6
+MN,452,General merchandise,2022,4,5.9
+MN,452,General merchandise,2022,5,3.8
+MN,452,General merchandise,2022,6,8.2
+MN,452,General merchandise,2022,7,5.9
+MN,452,General merchandise,2022,8,-2.0
+MN,452,General merchandise,2022,9,10.6
+MN,452,General merchandise,2022,10,6.9
+MN,452,General merchandise,2022,11,5.5
+MN,452,General merchandise,2022,12,4.7
+MN,452,General merchandise,2023,1,2.2
+MN,452,General merchandise,2023,2,4.8
+MN,452,General merchandise,2023,3,2.0
+MN,452,General merchandise,2023,4,10.0
+MN,452,General merchandise,2023,5,5.0
+MN,452,General merchandise,2023,6,7.8
+MN,452,General merchandise,2023,7,3.9
+MN,452,General merchandise,2023,8,5.6
+MN,452,General merchandise,2023,9,4.2
+MN,452,General merchandise,2023,10,5.5
+MN,452,General merchandise,2023,11,2.4
+MN,452,General merchandise,2023,12,11.1
+MN,452,General merchandise,2024,1,2.6
+MN,452,General merchandise,2024,2,4.9
+MN,452,General merchandise,2024,3,2.6
+MN,452,General merchandise,2024,4,-8.5
+MN,452,General merchandise,2024,5,-2.3
+MN,452,General merchandise,2024,6,-8.8
+MN,452,General merchandise,2024,7,-0.6
+MN,452,General merchandise,2024,8,4.1
+MN,452,General merchandise,2024,9,-7.5
+MN,452,General merchandise,2024,10,-4.4
+MN,452,General merchandise,2024,11,4.3
+MN,452,General merchandise,2024,12,-5.1
+MN,452,General merchandise,2025,1,8.7
+MN,452,General merchandise,2025,2,2.7
+MN,452,General merchandise,2025,3,5.7
+MN,452,General merchandise,2025,4,17.5
+MN,452,General merchandise,2025,5,4.7
+MN,452,General merchandise,2025,6,6.8
+MN,452,General merchandise,2025,7,0.1
+MN,452,General merchandise,2025,8,11.1
+MN,452,General merchandise,2025,9,7.8
+MN,452,General merchandise,2025,10,12.1
+MN,452,General merchandise,2025,11,5.6
+MN,452,General merchandise,2025,12,3.7
+MN,452,General merchandise,2026,1,4.1
+MN,452,General merchandise,2026,2,5.5
+MN,452,General merchandise,2026,3,10.1
+MN,452,General merchandise,2026,4,3.0
+MN,452,General merchandise,2026,5,8.1
+MN,453,Miscellaneous store retailers,2019,1,-0.5
+MN,453,Miscellaneous store retailers,2019,2,-1.8
+MN,453,Miscellaneous store retailers,2019,3,1.5
+MN,453,Miscellaneous store retailers,2019,4,9.5
+MN,453,Miscellaneous store retailers,2019,5,-0.5
+MN,453,Miscellaneous store retailers,2019,6,2.7
+MN,453,Miscellaneous store retailers,2019,7,8.5
+MN,453,Miscellaneous store retailers,2019,8,4.1
+MN,453,Miscellaneous store retailers,2019,9,4.9
+MN,453,Miscellaneous store retailers,2019,10,5.5
+MN,453,Miscellaneous store retailers,2019,11,0.9
+MN,453,Miscellaneous store retailers,2019,12,-0.3
+MN,453,Miscellaneous store retailers,2020,1,2.2
+MN,453,Miscellaneous store retailers,2020,2,4.4
+MN,453,Miscellaneous store retailers,2020,3,-23.5
+MN,453,Miscellaneous store retailers,2020,4,-58.4
+MN,453,Miscellaneous store retailers,2020,5,-26.5
+MN,453,Miscellaneous store retailers,2020,6,-7.1
+MN,453,Miscellaneous store retailers,2020,7,-6.1
+MN,453,Miscellaneous store retailers,2020,8,-8.9
+MN,453,Miscellaneous store retailers,2020,9,-1.5
+MN,453,Miscellaneous store retailers,2020,10,-6.0
+MN,453,Miscellaneous store retailers,2020,11,-5.6
+MN,453,Miscellaneous store retailers,2020,12,6.3
+MN,453,Miscellaneous store retailers,2021,1,-2.0
+MN,453,Miscellaneous store retailers,2021,2,-4.9
+MN,453,Miscellaneous store retailers,2021,3,46.5
+MN,453,Miscellaneous store retailers,2021,4,160.8
+MN,453,Miscellaneous store retailers,2021,5,45.4
+MN,453,Miscellaneous store retailers,2021,6,18.3
+MN,453,Miscellaneous store retailers,2021,7,16.6
+MN,453,Miscellaneous store retailers,2021,8,17.8
+MN,453,Miscellaneous store retailers,2021,9,18.1
+MN,453,Miscellaneous store retailers,2021,10,18.3
+MN,453,Miscellaneous store retailers,2021,11,18.2
+MN,453,Miscellaneous store retailers,2021,12,8.3
+MN,453,Miscellaneous store retailers,2022,1,11.5
+MN,453,Miscellaneous store retailers,2022,2,18.3
+MN,453,Miscellaneous store retailers,2022,3,4.9
+MN,453,Miscellaneous store retailers,2022,4,5.8
+MN,453,Miscellaneous store retailers,2022,5,12.5
+MN,453,Miscellaneous store retailers,2022,6,6.5
+MN,453,Miscellaneous store retailers,2022,7,1.5
+MN,453,Miscellaneous store retailers,2022,8,3.9
+MN,453,Miscellaneous store retailers,2022,9,-5.1
+MN,453,Miscellaneous store retailers,2022,10,-0.5
+MN,453,Miscellaneous store retailers,2022,11,-8.2
+MN,453,Miscellaneous store retailers,2022,12,-5.0
+MN,453,Miscellaneous store retailers,2023,1,11.8
+MN,453,Miscellaneous store retailers,2023,2,5.6
+MN,453,Miscellaneous store retailers,2023,3,-3.4
+MN,453,Miscellaneous store retailers,2023,4,-3.7
+MN,453,Miscellaneous store retailers,2023,5,0.7
+MN,453,Miscellaneous store retailers,2023,6,2.3
+MN,453,Miscellaneous store retailers,2023,7,-5.4
+MN,453,Miscellaneous store retailers,2023,8,-2.0
+MN,453,Miscellaneous store retailers,2023,9,6.2
+MN,453,Miscellaneous store retailers,2023,10,2.5
+MN,453,Miscellaneous store retailers,2023,11,9.2
+MN,453,Miscellaneous store retailers,2023,12,-1.6
+MN,453,Miscellaneous store retailers,2024,1,-2.8
+MN,453,Miscellaneous store retailers,2024,2,5.2
+MN,453,Miscellaneous store retailers,2024,3,7.9
+MN,453,Miscellaneous store retailers,2024,4,12.1
+MN,453,Miscellaneous store retailers,2024,5,3.8
+MN,453,Miscellaneous store retailers,2024,6,0.8
+MN,453,Miscellaneous store retailers,2024,7,12.2
+MN,453,Miscellaneous store retailers,2024,8,8.1
+MN,453,Miscellaneous store retailers,2024,9,7.0
+MN,453,Miscellaneous store retailers,2024,10,8.8
+MN,453,Miscellaneous store retailers,2024,11,-2.9
+MN,453,Miscellaneous store retailers,2024,12,13.0
+MN,453,Miscellaneous store retailers,2025,1,8.6
+MN,453,Miscellaneous store retailers,2025,2,3.6
+MN,453,Miscellaneous store retailers,2025,3,8.5
+MN,453,Miscellaneous store retailers,2025,4,-0.2
+MN,453,Miscellaneous store retailers,2025,5,7.5
+MN,453,Miscellaneous store retailers,2025,6,11.0
+MN,453,Miscellaneous store retailers,2025,7,13.7
+MN,453,Miscellaneous store retailers,2025,8,3.8
+MN,453,Miscellaneous store retailers,2025,9,8.8
+MN,453,Miscellaneous store retailers,2025,10,7.9
+MN,453,Miscellaneous store retailers,2025,11,11.1
+MN,453,Miscellaneous store retailers,2025,12,7.4
+MN,453,Miscellaneous store retailers,2026,1,11.1
+MN,453,Miscellaneous store retailers,2026,2,13.3
+MN,453,Miscellaneous store retailers,2026,3,11.5
+MN,453,Miscellaneous store retailers,2026,4,10.3
+MN,453,Miscellaneous store retailers,2026,5,6.4
+MN,TOTAL,Total retail,2019,1,1.2
+MN,TOTAL,Total retail,2019,2,-0.7
+MN,TOTAL,Total retail,2019,3,2.1
+MN,TOTAL,Total retail,2019,4,4.9
+MN,TOTAL,Total retail,2019,5,0.9
+MN,TOTAL,Total retail,2019,6,1.2
+MN,TOTAL,Total retail,2019,7,4.8
+MN,TOTAL,Total retail,2019,8,2.8
+MN,TOTAL,Total retail,2019,9,0.8
+MN,TOTAL,Total retail,2019,10,0.7
+MN,TOTAL,Total retail,2019,11,1.4
+MN,TOTAL,Total retail,2019,12,2.2
+MN,TOTAL,Total retail,2020,1,2.1
+MN,TOTAL,Total retail,2020,2,5.7
+MN,TOTAL,Total retail,2020,3,-11.6
+MN,TOTAL,Total retail,2020,4,-28.4
+MN,TOTAL,Total retail,2020,5,-7.7
+MN,TOTAL,Total retail,2020,6,0.9
+MN,TOTAL,Total retail,2020,7,0.0
+MN,TOTAL,Total retail,2020,8,-4.0
+MN,TOTAL,Total retail,2020,9,3.5
+MN,TOTAL,Total retail,2020,10,1.5
+MN,TOTAL,Total retail,2020,11,-4.3
+MN,TOTAL,Total retail,2020,12,2.2
+MN,TOTAL,Total retail,2021,1,6.9
+MN,TOTAL,Total retail,2021,2,2.5
+MN,TOTAL,Total retail,2021,3,34.4
+MN,TOTAL,Total retail,2021,4,65.0
+MN,TOTAL,Total retail,2021,5,22.5
+MN,TOTAL,Total retail,2021,6,16.1
+MN,TOTAL,Total retail,2021,7,13.7
+MN,TOTAL,Total retail,2021,8,14.7
+MN,TOTAL,Total retail,2021,9,12.9
+MN,TOTAL,Total retail,2021,10,13.8
+MN,TOTAL,Total retail,2021,11,19.9
+MN,TOTAL,Total retail,2021,12,13.8
+MN,TOTAL,Total retail,2022,1,10.6
+MN,TOTAL,Total retail,2022,2,14.8
+MN,TOTAL,Total retail,2022,3,4.9
+MN,TOTAL,Total retail,2022,4,5.5
+MN,TOTAL,Total retail,2022,5,7.4
+MN,TOTAL,Total retail,2022,6,8.9
+MN,TOTAL,Total retail,2022,7,7.2
+MN,TOTAL,Total retail,2022,8,8.1
+MN,TOTAL,Total retail,2022,9,6.6
+MN,TOTAL,Total retail,2022,10,6.4
+MN,TOTAL,Total retail,2022,11,3.9
+MN,TOTAL,Total retail,2022,12,1.5
+MN,TOTAL,Total retail,2023,1,4.2
+MN,TOTAL,Total retail,2023,2,1.7
+MN,TOTAL,Total retail,2023,3,-1.9
+MN,TOTAL,Total retail,2023,4,-2.2
+MN,TOTAL,Total retail,2023,5,0.4
+MN,TOTAL,Total retail,2023,6,-2.1
+MN,TOTAL,Total retail,2023,7,-2.3
+MN,TOTAL,Total retail,2023,8,1.6
+MN,TOTAL,Total retail,2023,9,2.6
+MN,TOTAL,Total retail,2023,10,0.7
+MN,TOTAL,Total retail,2023,11,1.7
+MN,TOTAL,Total retail,2023,12,2.6
+MN,TOTAL,Total retail,2024,1,-0.3
+MN,TOTAL,Total retail,2024,2,6.1
+MN,TOTAL,Total retail,2024,3,1.9
+MN,TOTAL,Total retail,2024,4,2.5
+MN,TOTAL,Total retail,2024,5,2.4
+MN,TOTAL,Total retail,2024,6,-2.1
+MN,TOTAL,Total retail,2024,7,5.8
+MN,TOTAL,Total retail,2024,8,3.7
+MN,TOTAL,Total retail,2024,9,-1.0
+MN,TOTAL,Total retail,2024,10,3.6
+MN,TOTAL,Total retail,2024,11,4.9
+MN,TOTAL,Total retail,2024,12,4.4
+MN,TOTAL,Total retail,2025,1,6.0
+MN,TOTAL,Total retail,2025,2,-0.6
+MN,TOTAL,Total retail,2025,3,4.3
+MN,TOTAL,Total retail,2025,4,6.7
+MN,TOTAL,Total retail,2025,5,2.4
+MN,TOTAL,Total retail,2025,6,4.2
+MN,TOTAL,Total retail,2025,7,2.6
+MN,TOTAL,Total retail,2025,8,2.0
+MN,TOTAL,Total retail,2025,9,4.1
+MN,TOTAL,Total retail,2025,10,4.5
+MN,TOTAL,Total retail,2025,11,0.6
+MN,TOTAL,Total retail,2025,12,3.6
+MN,TOTAL,Total retail,2026,1,0.6
+MN,TOTAL,Total retail,2026,2,2.5
+MN,TOTAL,Total retail,2026,3,5.1
+MN,TOTAL,Total retail,2026,4,5.0
+MN,TOTAL,Total retail,2026,5,7.0
+MT,441,Motor vehicle & parts,2019,1,-0.7
+MT,441,Motor vehicle & parts,2019,2,0.5
+MT,441,Motor vehicle & parts,2019,3,1.3
+MT,441,Motor vehicle & parts,2019,4,4.0
+MT,441,Motor vehicle & parts,2019,5,2.2
+MT,441,Motor vehicle & parts,2019,6,-0.3
+MT,441,Motor vehicle & parts,2019,7,5.6
+MT,441,Motor vehicle & parts,2019,8,7.4
+MT,441,Motor vehicle & parts,2019,9,4.8
+MT,441,Motor vehicle & parts,2019,10,4.5
+MT,441,Motor vehicle & parts,2019,11,4.7
+MT,441,Motor vehicle & parts,2019,12,2.0
+MT,441,Motor vehicle & parts,2020,1,7.9
+MT,441,Motor vehicle & parts,2020,2,9.1
+MT,441,Motor vehicle & parts,2020,3,-24.1
+MT,441,Motor vehicle & parts,2020,4,-28.5
+MT,441,Motor vehicle & parts,2020,5,1.9
+MT,441,Motor vehicle & parts,2020,6,14.5
+MT,441,Motor vehicle & parts,2020,7,9.0
+MT,441,Motor vehicle & parts,2020,8,3.0
+MT,441,Motor vehicle & parts,2020,9,15.6
+MT,441,Motor vehicle & parts,2020,10,12.7
+MT,441,Motor vehicle & parts,2020,11,6.0
+MT,441,Motor vehicle & parts,2020,12,16.7
+MT,441,Motor vehicle & parts,2021,1,14.7
+MT,441,Motor vehicle & parts,2021,2,9.6
+MT,441,Motor vehicle & parts,2021,3,79.8
+MT,441,Motor vehicle & parts,2021,4,100.0
+MT,441,Motor vehicle & parts,2021,5,29.5
+MT,441,Motor vehicle & parts,2021,6,18.7
+MT,441,Motor vehicle & parts,2021,7,16.7
+MT,441,Motor vehicle & parts,2021,8,12.9
+MT,441,Motor vehicle & parts,2021,9,11.8
+MT,441,Motor vehicle & parts,2021,10,12.9
+MT,441,Motor vehicle & parts,2021,11,20.3
+MT,441,Motor vehicle & parts,2021,12,15.0
+MT,441,Motor vehicle & parts,2022,1,13.9
+MT,441,Motor vehicle & parts,2022,2,17.9
+MT,441,Motor vehicle & parts,2022,3,0.1
+MT,441,Motor vehicle & parts,2022,4,-1.6
+MT,441,Motor vehicle & parts,2022,5,-5.1
+MT,441,Motor vehicle & parts,2022,6,-1.5
+MT,441,Motor vehicle & parts,2022,7,-3.1
+MT,441,Motor vehicle & parts,2022,8,7.8
+MT,441,Motor vehicle & parts,2022,9,4.1
+MT,441,Motor vehicle & parts,2022,10,1.4
+MT,441,Motor vehicle & parts,2022,11,-1.1
+MT,441,Motor vehicle & parts,2022,12,-5.3
+MT,441,Motor vehicle & parts,2023,1,0.7
+MT,441,Motor vehicle & parts,2023,2,-1.8
+MT,441,Motor vehicle & parts,2023,3,-1.9
+MT,441,Motor vehicle & parts,2023,4,-4.7
+MT,441,Motor vehicle & parts,2023,5,8.9
+MT,441,Motor vehicle & parts,2023,6,5.9
+MT,441,Motor vehicle & parts,2023,7,5.9
+MT,441,Motor vehicle & parts,2023,8,4.1
+MT,441,Motor vehicle & parts,2023,9,5.5
+MT,441,Motor vehicle & parts,2023,10,2.3
+MT,441,Motor vehicle & parts,2023,11,4.1
+MT,441,Motor vehicle & parts,2023,12,5.0
+MT,441,Motor vehicle & parts,2024,1,2.8
+MT,441,Motor vehicle & parts,2024,2,8.6
+MT,441,Motor vehicle & parts,2024,3,0.8
+MT,441,Motor vehicle & parts,2024,4,6.0
+MT,441,Motor vehicle & parts,2024,5,1.8
+MT,441,Motor vehicle & parts,2024,6,-5.9
+MT,441,Motor vehicle & parts,2024,7,5.7
+MT,441,Motor vehicle & parts,2024,8,1.8
+MT,441,Motor vehicle & parts,2024,9,-3.1
+MT,441,Motor vehicle & parts,2024,10,8.2
+MT,441,Motor vehicle & parts,2024,11,10.3
+MT,441,Motor vehicle & parts,2024,12,9.5
+MT,441,Motor vehicle & parts,2025,1,2.3
+MT,441,Motor vehicle & parts,2025,2,-1.5
+MT,441,Motor vehicle & parts,2025,3,9.9
+MT,441,Motor vehicle & parts,2025,4,8.0
+MT,441,Motor vehicle & parts,2025,5,1.3
+MT,441,Motor vehicle & parts,2025,6,6.2
+MT,441,Motor vehicle & parts,2025,7,4.7
+MT,441,Motor vehicle & parts,2025,8,3.3
+MT,441,Motor vehicle & parts,2025,9,6.9
+MT,441,Motor vehicle & parts,2025,10,0.9
+MT,441,Motor vehicle & parts,2025,11,-4.3
+MT,441,Motor vehicle & parts,2025,12,2.1
+MT,441,Motor vehicle & parts,2026,1,0.8
+MT,441,Motor vehicle & parts,2026,2,1.0
+MT,441,Motor vehicle & parts,2026,3,-2.7
+MT,441,Motor vehicle & parts,2026,4,-2.0
+MT,441,Motor vehicle & parts,2026,5,3.7
+MT,445,Food & beverage stores,2019,1,2.8
+MT,445,Food & beverage stores,2019,2,-0.4
+MT,445,Food & beverage stores,2019,3,1.7
+MT,445,Food & beverage stores,2019,4,2.8
+MT,445,Food & beverage stores,2019,5,3.5
+MT,445,Food & beverage stores,2019,6,2.5
+MT,445,Food & beverage stores,2019,7,6.6
+MT,445,Food & beverage stores,2019,8,5.0
+MT,445,Food & beverage stores,2019,9,1.0
+MT,445,Food & beverage stores,2019,10,7.2
+MT,445,Food & beverage stores,2019,11,7.9
+MT,445,Food & beverage stores,2019,12,3.9
+MT,445,Food & beverage stores,2020,1,6.8
+MT,445,Food & beverage stores,2020,2,10.4
+MT,445,Food & beverage stores,2020,3,32.2
+MT,445,Food & beverage stores,2020,4,22.5
+MT,445,Food & beverage stores,2020,5,27.5
+MT,445,Food & beverage stores,2020,6,19.1
+MT,445,Food & beverage stores,2020,7,18.8
+MT,445,Food & beverage stores,2020,8,16.2
+MT,445,Food & beverage stores,2020,9,21.7
+MT,445,Food & beverage stores,2020,10,17.5
+MT,445,Food & beverage stores,2020,11,13.7
+MT,445,Food & beverage stores,2020,12,16.7
+MT,445,Food & beverage stores,2021,1,16.4
+MT,445,Food & beverage stores,2021,2,10.7
+MT,445,Food & beverage stores,2021,3,-9.5
+MT,445,Food & beverage stores,2021,4,1.6
+MT,445,Food & beverage stores,2021,5,-2.5
+MT,445,Food & beverage stores,2021,6,4.3
+MT,445,Food & beverage stores,2021,7,4.7
+MT,445,Food & beverage stores,2021,8,2.5
+MT,445,Food & beverage stores,2021,9,7.2
+MT,445,Food & beverage stores,2021,10,5.5
+MT,445,Food & beverage stores,2021,11,7.0
+MT,445,Food & beverage stores,2021,12,11.6
+MT,445,Food & beverage stores,2022,1,8.3
+MT,445,Food & beverage stores,2022,2,11.5
+MT,445,Food & beverage stores,2022,3,12.9
+MT,445,Food & beverage stores,2022,4,13.5
+MT,445,Food & beverage stores,2022,5,10.7
+MT,445,Food & beverage stores,2022,6,12.2
+MT,445,Food & beverage stores,2022,7,11.1
+MT,445,Food & beverage stores,2022,8,14.0
+MT,445,Food & beverage stores,2022,9,10.6
+MT,445,Food & beverage stores,2022,10,11.3
+MT,445,Food & beverage stores,2022,11,13.2
+MT,445,Food & beverage stores,2022,12,10.8
+MT,445,Food & beverage stores,2023,1,7.1
+MT,445,Food & beverage stores,2023,2,8.6
+MT,445,Food & beverage stores,2023,3,5.8
+MT,445,Food & beverage stores,2023,4,4.9
+MT,445,Food & beverage stores,2023,5,5.9
+MT,445,Food & beverage stores,2023,6,4.7
+MT,445,Food & beverage stores,2023,7,3.5
+MT,445,Food & beverage stores,2023,8,5.9
+MT,445,Food & beverage stores,2023,9,6.0
+MT,445,Food & beverage stores,2023,10,4.3
+MT,445,Food & beverage stores,2023,11,2.7
+MT,445,Food & beverage stores,2023,12,3.2
+MT,445,Food & beverage stores,2024,1,3.1
+MT,445,Food & beverage stores,2024,2,6.2
+MT,445,Food & beverage stores,2024,3,5.3
+MT,445,Food & beverage stores,2024,4,1.7
+MT,445,Food & beverage stores,2024,5,4.5
+MT,445,Food & beverage stores,2024,6,3.0
+MT,445,Food & beverage stores,2024,7,4.1
+MT,445,Food & beverage stores,2024,8,3.5
+MT,445,Food & beverage stores,2024,9,1.9
+MT,445,Food & beverage stores,2024,10,4.1
+MT,445,Food & beverage stores,2024,11,6.3
+MT,445,Food & beverage stores,2024,12,2.5
+MT,445,Food & beverage stores,2025,1,5.5
+MT,445,Food & beverage stores,2025,2,0.7
+MT,445,Food & beverage stores,2025,3,2.3
+MT,445,Food & beverage stores,2025,4,5.0
+MT,445,Food & beverage stores,2025,5,2.5
+MT,445,Food & beverage stores,2025,6,1.7
+MT,445,Food & beverage stores,2025,7,2.4
+MT,445,Food & beverage stores,2025,8,3.6
+MT,445,Food & beverage stores,2025,9,2.3
+MT,445,Food & beverage stores,2025,10,4.0
+MT,445,Food & beverage stores,2025,11,0.8
+MT,445,Food & beverage stores,2025,12,1.4
+MT,445,Food & beverage stores,2026,1,1.9
+MT,445,Food & beverage stores,2026,2,-0.9
+MT,445,Food & beverage stores,2026,3,0.3
+MT,445,Food & beverage stores,2026,4,1.1
+MT,445,Food & beverage stores,2026,5,3.9
+MT,447,Gasoline stations,2019,1,-9.0
+MT,447,Gasoline stations,2019,2,-10.2
+MT,447,Gasoline stations,2019,3,-2.1
+MT,447,Gasoline stations,2019,4,1.5
+MT,447,Gasoline stations,2019,5,-1.4
+MT,447,Gasoline stations,2019,6,-5.1
+MT,447,Gasoline stations,2019,7,3.1
+MT,447,Gasoline stations,2019,8,-4.0
+MT,447,Gasoline stations,2019,9,-4.0
+MT,447,Gasoline stations,2019,10,-6.8
+MT,447,Gasoline stations,2019,11,-2.3
+MT,447,Gasoline stations,2019,12,5.7
+MT,447,Gasoline stations,2020,1,1.6
+MT,447,Gasoline stations,2020,2,-0.5
+MT,447,Gasoline stations,2020,3,-20.6
+MT,447,Gasoline stations,2020,4,-41.1
+MT,447,Gasoline stations,2020,5,-34.8
+MT,447,Gasoline stations,2020,6,-21.6
+MT,447,Gasoline stations,2020,7,-18.2
+MT,447,Gasoline stations,2020,8,-22.5
+MT,447,Gasoline stations,2020,9,-19.3
+MT,447,Gasoline stations,2020,10,-21.3
+MT,447,Gasoline stations,2020,11,-25.8
+MT,447,Gasoline stations,2020,12,-18.7
+MT,447,Gasoline stations,2021,1,-14.3
+MT,447,Gasoline stations,2021,2,-9.8
+MT,447,Gasoline stations,2021,3,21.8
+MT,447,Gasoline stations,2021,4,60.3
+MT,447,Gasoline stations,2021,5,14.2
+MT,447,Gasoline stations,2021,6,26.6
+MT,447,Gasoline stations,2021,7,23.8
+MT,447,Gasoline stations,2021,8,30.3
+MT,447,Gasoline stations,2021,9,33.0
+MT,447,Gasoline stations,2021,10,37.6
+MT,447,Gasoline stations,2021,11,47.0
+MT,447,Gasoline stations,2021,12,36.0
+MT,447,Gasoline stations,2022,1,32.6
+MT,447,Gasoline stations,2022,2,36.7
+MT,447,Gasoline stations,2022,3,36.9
+MT,447,Gasoline stations,2022,4,32.1
+MT,447,Gasoline stations,2022,5,75.4
+MT,447,Gasoline stations,2022,6,43.8
+MT,447,Gasoline stations,2022,7,36.4
+MT,447,Gasoline stations,2022,8,27.6
+MT,447,Gasoline stations,2022,9,14.7
+MT,447,Gasoline stations,2022,10,14.9
+MT,447,Gasoline stations,2022,11,10.4
+MT,447,Gasoline stations,2022,12,1.4
+MT,447,Gasoline stations,2023,1,3.6
+MT,447,Gasoline stations,2023,2,-1.2
+MT,447,Gasoline stations,2023,3,-11.3
+MT,447,Gasoline stations,2023,4,-11.8
+MT,447,Gasoline stations,2023,5,-21.5
+MT,447,Gasoline stations,2023,6,-20.7
+MT,447,Gasoline stations,2023,7,-18.9
+MT,447,Gasoline stations,2023,8,-6.3
+MT,447,Gasoline stations,2023,9,0.4
+MT,447,Gasoline stations,2023,10,-4.4
+MT,447,Gasoline stations,2023,11,-5.1
+MT,447,Gasoline stations,2023,12,-5.4
+MT,447,Gasoline stations,2024,1,-9.3
+MT,447,Gasoline stations,2024,2,-2.9
+MT,447,Gasoline stations,2024,3,-6.2
+MT,447,Gasoline stations,2024,4,0.5
+MT,447,Gasoline stations,2024,5,2.5
+MT,447,Gasoline stations,2024,6,-5.6
+MT,447,Gasoline stations,2024,7,-1.9
+MT,447,Gasoline stations,2024,8,-8.9
+MT,447,Gasoline stations,2024,9,-14.5
+MT,447,Gasoline stations,2024,10,-7.6
+MT,447,Gasoline stations,2024,11,-12.4
+MT,447,Gasoline stations,2024,12,-2.7
+MT,447,Gasoline stations,2025,1,1.7
+MT,447,Gasoline stations,2025,2,-3.5
+MT,447,Gasoline stations,2025,3,-3.3
+MT,447,Gasoline stations,2025,4,-4.9
+MT,447,Gasoline stations,2025,5,-3.2
+MT,447,Gasoline stations,2025,6,-0.6
+MT,447,Gasoline stations,2025,7,-1.5
+MT,447,Gasoline stations,2025,8,-1.5
+MT,447,Gasoline stations,2025,9,5.3
+MT,447,Gasoline stations,2025,10,0.4
+MT,447,Gasoline stations,2025,11,8.5
+MT,447,Gasoline stations,2025,12,4.9
+MT,447,Gasoline stations,2026,1,3.1
+MT,447,Gasoline stations,2026,2,-2.5
+MT,447,Gasoline stations,2026,3,10.0
+MT,447,Gasoline stations,2026,4,13.7
+MT,447,Gasoline stations,2026,5,23.0
+MT,448,Clothing,2019,1,4.3
+MT,448,Clothing,2019,2,-3.3
+MT,448,Clothing,2019,3,3.3
+MT,448,Clothing,2019,4,6.2
+MT,448,Clothing,2019,5,2.7
+MT,448,Clothing,2019,6,3.9
+MT,448,Clothing,2019,7,2.0
+MT,448,Clothing,2019,8,2.8
+MT,448,Clothing,2019,9,0.4
+MT,448,Clothing,2019,10,6.2
+MT,448,Clothing,2019,11,3.7
+MT,448,Clothing,2019,12,11.1
+MT,448,Clothing,2020,1,-4.3
+MT,448,Clothing,2020,2,5.2
+MT,448,Clothing,2020,3,-50.0
+MT,448,Clothing,2020,4,-81.1
+MT,448,Clothing,2020,6,-9.1
+MT,448,Clothing,2020,7,-17.7
+MT,448,Clothing,2020,8,-16.1
+MT,448,Clothing,2020,9,-3.8
+MT,448,Clothing,2020,10,8.8
+MT,448,Clothing,2020,11,0.6
+MT,448,Clothing,2020,12,9.3
+MT,448,Clothing,2021,6,79.6
+MT,448,Clothing,2021,8,46.5
+MT,448,Clothing,2021,10,45.8
+MT,448,Clothing,2021,11,63.3
+MT,448,Clothing,2021,12,38.4
+MT,448,Clothing,2022,1,11.8
+MT,448,Clothing,2022,2,25.5
+MT,448,Clothing,2022,3,3.3
+MT,448,Clothing,2022,4,8.5
+MT,448,Clothing,2022,5,0.0
+MT,448,Clothing,2022,6,-2.5
+MT,448,Clothing,2022,7,-5.1
+MT,448,Clothing,2022,8,-1.2
+MT,448,Clothing,2022,9,2.0
+MT,448,Clothing,2022,10,-1.4
+MT,448,Clothing,2022,11,-5.5
+MT,448,Clothing,2022,12,-3.1
+MT,448,Clothing,2023,1,21.0
+MT,448,Clothing,2023,2,11.6
+MT,448,Clothing,2023,3,3.6
+MT,448,Clothing,2023,4,1.8
+MT,448,Clothing,2023,5,4.7
+MT,448,Clothing,2023,6,1.2
+MT,448,Clothing,2023,7,4.6
+MT,448,Clothing,2023,8,7.0
+MT,448,Clothing,2023,9,-4.7
+MT,448,Clothing,2023,10,-8.5
+MT,448,Clothing,2023,11,-1.6
+MT,448,Clothing,2023,12,2.9
+MT,448,Clothing,2024,1,-19.4
+MT,448,Clothing,2024,2,-12.4
+MT,448,Clothing,2024,3,-17.1
+MT,448,Clothing,2024,4,-21.2
+MT,448,Clothing,2024,5,-17.7
+MT,448,Clothing,2024,6,-15.3
+MT,448,Clothing,2024,7,-9.0
+MT,448,Clothing,2024,8,-3.3
+MT,448,Clothing,2024,9,-7.1
+MT,448,Clothing,2024,10,-3.4
+MT,448,Clothing,2024,11,-7.0
+MT,448,Clothing,2024,12,-8.5
+MT,448,Clothing,2025,1,6.3
+MT,448,Clothing,2025,2,-3.1
+MT,448,Clothing,2025,3,5.7
+MT,448,Clothing,2025,4,6.1
+MT,448,Clothing,2025,5,5.8
+MT,448,Clothing,2025,6,4.9
+MT,448,Clothing,2025,7,6.3
+MT,448,Clothing,2025,8,7.1
+MT,448,Clothing,2025,9,7.1
+MT,448,Clothing,2025,10,8.1
+MT,448,Clothing,2025,11,8.7
+MT,448,Clothing,2025,12,7.9
+MT,448,Clothing,2026,1,11.2
+MT,448,Clothing,2026,2,13.5
+MT,448,Clothing,2026,3,6.0
+MT,448,Clothing,2026,4,6.6
+MT,448,Clothing,2026,5,6.5
+MT,452,General merchandise,2019,1,5.6
+MT,452,General merchandise,2019,2,-2.8
+MT,452,General merchandise,2019,3,2.2
+MT,452,General merchandise,2019,4,4.9
+MT,452,General merchandise,2019,5,2.2
+MT,452,General merchandise,2019,6,3.4
+MT,452,General merchandise,2019,7,5.4
+MT,452,General merchandise,2019,8,4.4
+MT,452,General merchandise,2019,9,0.8
+MT,452,General merchandise,2019,10,3.7
+MT,452,General merchandise,2019,11,0.4
+MT,452,General merchandise,2019,12,1.5
+MT,452,General merchandise,2020,1,-4.0
+MT,452,General merchandise,2020,2,8.4
+MT,452,General merchandise,2020,3,-7.1
+MT,452,General merchandise,2020,6,-13.3
+MT,452,General merchandise,2020,7,-13.4
+MT,452,General merchandise,2020,8,-19.7
+MT,452,General merchandise,2020,9,-16.5
+MT,452,General merchandise,2020,10,-12.2
+MT,452,General merchandise,2020,11,-21.2
+MT,452,General merchandise,2020,12,-15.1
+MT,452,General merchandise,2021,1,3.9
+MT,452,General merchandise,2021,2,-4.7
+MT,452,General merchandise,2021,3,8.2
+MT,452,General merchandise,2021,4,125.5
+MT,452,General merchandise,2021,5,43.4
+MT,452,General merchandise,2021,6,21.4
+MT,452,General merchandise,2021,7,19.9
+MT,452,General merchandise,2021,9,18.7
+MT,452,General merchandise,2021,10,18.4
+MT,452,General merchandise,2021,11,18.8
+MT,452,General merchandise,2021,12,11.6
+MT,452,General merchandise,2022,1,22.0
+MT,452,General merchandise,2022,2,27.7
+MT,452,General merchandise,2022,3,18.2
+MT,452,General merchandise,2022,4,17.3
+MT,452,General merchandise,2022,5,12.6
+MT,452,General merchandise,2022,6,17.8
+MT,452,General merchandise,2022,7,19.7
+MT,452,General merchandise,2022,8,11.0
+MT,452,General merchandise,2022,9,25.3
+MT,452,General merchandise,2022,10,18.4
+MT,452,General merchandise,2022,11,20.9
+MT,452,General merchandise,2022,12,14.6
+MT,452,General merchandise,2023,1,-2.1
+MT,452,General merchandise,2023,2,-2.4
+MT,452,General merchandise,2023,3,-1.1
+MT,452,General merchandise,2023,4,4.5
+MT,452,General merchandise,2023,5,5.9
+MT,452,General merchandise,2023,6,0.7
+MT,452,General merchandise,2023,7,0.0
+MT,452,General merchandise,2023,8,-2.6
+MT,452,General merchandise,2023,9,0.0
+MT,452,General merchandise,2023,10,2.3
+MT,452,General merchandise,2023,11,7.0
+MT,452,General merchandise,2023,12,11.2
+MT,452,General merchandise,2024,1,-6.3
+MT,452,General merchandise,2024,2,-0.6
+MT,452,General merchandise,2024,3,-1.3
+MT,452,General merchandise,2024,4,-8.8
+MT,452,General merchandise,2024,5,-4.4
+MT,452,General merchandise,2024,6,-3.4
+MT,452,General merchandise,2024,7,0.0
+MT,452,General merchandise,2024,8,6.3
+MT,452,General merchandise,2024,9,-3.8
+MT,452,General merchandise,2024,10,-1.0
+MT,452,General merchandise,2024,11,3.0
+MT,452,General merchandise,2024,12,-6.7
+MT,452,General merchandise,2025,1,13.6
+MT,452,General merchandise,2025,2,2.5
+MT,452,General merchandise,2025,3,6.7
+MT,452,General merchandise,2025,4,4.7
+MT,452,General merchandise,2025,5,4.5
+MT,452,General merchandise,2025,6,-1.0
+MT,452,General merchandise,2025,7,-2.8
+MT,452,General merchandise,2025,8,-3.3
+MT,452,General merchandise,2025,9,0.2
+MT,452,General merchandise,2025,10,-1.0
+MT,452,General merchandise,2025,11,-1.0
+MT,452,General merchandise,2025,12,0.3
+MT,452,General merchandise,2026,1,4.3
+MT,452,General merchandise,2026,2,2.1
+MT,452,General merchandise,2026,3,-1.0
+MT,452,General merchandise,2026,4,5.9
+MT,452,General merchandise,2026,5,3.6
+MT,453,Miscellaneous store retailers,2019,1,-4.4
+MT,453,Miscellaneous store retailers,2019,2,1.7
+MT,453,Miscellaneous store retailers,2019,3,6.4
+MT,453,Miscellaneous store retailers,2019,4,8.4
+MT,453,Miscellaneous store retailers,2019,5,3.2
+MT,453,Miscellaneous store retailers,2019,6,2.5
+MT,453,Miscellaneous store retailers,2019,7,8.5
+MT,453,Miscellaneous store retailers,2019,8,8.2
+MT,453,Miscellaneous store retailers,2019,9,6.9
+MT,453,Miscellaneous store retailers,2019,10,3.1
+MT,453,Miscellaneous store retailers,2019,11,9.7
+MT,453,Miscellaneous store retailers,2019,12,10.7
+MT,453,Miscellaneous store retailers,2020,1,10.8
+MT,453,Miscellaneous store retailers,2020,2,31.9
+MT,453,Miscellaneous store retailers,2020,3,0.4
+MT,453,Miscellaneous store retailers,2020,4,-27.3
+MT,453,Miscellaneous store retailers,2020,5,-17.4
+MT,453,Miscellaneous store retailers,2020,6,-2.3
+MT,453,Miscellaneous store retailers,2020,7,4.5
+MT,453,Miscellaneous store retailers,2020,8,-1.1
+MT,453,Miscellaneous store retailers,2020,9,7.3
+MT,453,Miscellaneous store retailers,2020,10,4.0
+MT,453,Miscellaneous store retailers,2020,11,-3.3
+MT,453,Miscellaneous store retailers,2020,12,5.9
+MT,453,Miscellaneous store retailers,2021,1,15.0
+MT,453,Miscellaneous store retailers,2021,2,12.4
+MT,453,Miscellaneous store retailers,2021,3,54.3
+MT,453,Miscellaneous store retailers,2021,5,51.2
+MT,453,Miscellaneous store retailers,2021,6,43.9
+MT,453,Miscellaneous store retailers,2021,7,33.1
+MT,453,Miscellaneous store retailers,2021,8,34.7
+MT,453,Miscellaneous store retailers,2021,9,35.0
+MT,453,Miscellaneous store retailers,2021,10,27.5
+MT,453,Miscellaneous store retailers,2021,11,33.3
+MT,453,Miscellaneous store retailers,2021,12,21.4
+MT,453,Miscellaneous store retailers,2022,1,22.9
+MT,453,Miscellaneous store retailers,2022,2,32.6
+MT,453,Miscellaneous store retailers,2022,3,17.1
+MT,453,Miscellaneous store retailers,2022,4,19.7
+MT,453,Miscellaneous store retailers,2022,5,29.2
+MT,453,Miscellaneous store retailers,2022,6,21.3
+MT,453,Miscellaneous store retailers,2022,7,15.9
+MT,453,Miscellaneous store retailers,2022,8,19.2
+MT,453,Miscellaneous store retailers,2022,9,13.2
+MT,453,Miscellaneous store retailers,2022,10,15.7
+MT,453,Miscellaneous store retailers,2022,11,8.7
+MT,453,Miscellaneous store retailers,2022,12,8.8
+MT,453,Miscellaneous store retailers,2023,1,26.0
+MT,453,Miscellaneous store retailers,2023,2,8.4
+MT,453,Miscellaneous store retailers,2023,3,3.5
+MT,453,Miscellaneous store retailers,2023,4,6.3
+MT,453,Miscellaneous store retailers,2023,5,6.1
+MT,453,Miscellaneous store retailers,2023,6,8.2
+MT,453,Miscellaneous store retailers,2023,7,5.0
+MT,453,Miscellaneous store retailers,2023,8,0.7
+MT,453,Miscellaneous store retailers,2023,9,8.2
+MT,453,Miscellaneous store retailers,2023,10,11.8
+MT,453,Miscellaneous store retailers,2023,11,16.8
+MT,453,Miscellaneous store retailers,2023,12,15.1
+MT,453,Miscellaneous store retailers,2024,1,8.5
+MT,453,Miscellaneous store retailers,2024,2,11.0
+MT,453,Miscellaneous store retailers,2024,3,7.7
+MT,453,Miscellaneous store retailers,2024,4,16.7
+MT,453,Miscellaneous store retailers,2024,5,13.2
+MT,453,Miscellaneous store retailers,2024,6,8.9
+MT,453,Miscellaneous store retailers,2024,7,13.1
+MT,453,Miscellaneous store retailers,2024,8,15.7
+MT,453,Miscellaneous store retailers,2024,9,10.7
+MT,453,Miscellaneous store retailers,2024,10,11.9
+MT,453,Miscellaneous store retailers,2024,11,-1.0
+MT,453,Miscellaneous store retailers,2024,12,8.1
+MT,453,Miscellaneous store retailers,2025,1,9.2
+MT,453,Miscellaneous store retailers,2025,2,6.9
+MT,453,Miscellaneous store retailers,2025,3,15.7
+MT,453,Miscellaneous store retailers,2025,4,-0.7
+MT,453,Miscellaneous store retailers,2025,5,9.2
+MT,453,Miscellaneous store retailers,2025,6,14.8
+MT,453,Miscellaneous store retailers,2025,7,15.6
+MT,453,Miscellaneous store retailers,2025,8,4.4
+MT,453,Miscellaneous store retailers,2025,9,11.5
+MT,453,Miscellaneous store retailers,2025,10,10.5
+MT,453,Miscellaneous store retailers,2025,11,23.0
+MT,453,Miscellaneous store retailers,2025,12,13.6
+MT,453,Miscellaneous store retailers,2026,1,13.9
+MT,453,Miscellaneous store retailers,2026,2,17.1
+MT,453,Miscellaneous store retailers,2026,3,10.0
+MT,453,Miscellaneous store retailers,2026,4,15.6
+MT,453,Miscellaneous store retailers,2026,5,10.9
+MT,TOTAL,Total retail,2019,1,0.6
+MT,TOTAL,Total retail,2019,2,-2.1
+MT,TOTAL,Total retail,2019,3,0.3
+MT,TOTAL,Total retail,2019,4,4.0
+MT,TOTAL,Total retail,2019,5,0.8
+MT,TOTAL,Total retail,2019,6,-0.5
+MT,TOTAL,Total retail,2019,7,4.8
+MT,TOTAL,Total retail,2019,8,3.2
+MT,TOTAL,Total retail,2019,9,1.7
+MT,TOTAL,Total retail,2019,10,2.2
+MT,TOTAL,Total retail,2019,11,2.1
+MT,TOTAL,Total retail,2019,12,3.8
+MT,TOTAL,Total retail,2020,1,3.6
+MT,TOTAL,Total retail,2020,2,7.9
+MT,TOTAL,Total retail,2020,3,-7.4
+MT,TOTAL,Total retail,2020,4,-24.4
+MT,TOTAL,Total retail,2020,5,-6.1
+MT,TOTAL,Total retail,2020,6,4.4
+MT,TOTAL,Total retail,2020,7,2.4
+MT,TOTAL,Total retail,2020,8,-2.7
+MT,TOTAL,Total retail,2020,9,4.6
+MT,TOTAL,Total retail,2020,10,2.6
+MT,TOTAL,Total retail,2020,11,-2.5
+MT,TOTAL,Total retail,2020,12,5.2
+MT,TOTAL,Total retail,2021,1,9.6
+MT,TOTAL,Total retail,2021,2,5.8
+MT,TOTAL,Total retail,2021,3,34.7
+MT,TOTAL,Total retail,2021,4,65.9
+MT,TOTAL,Total retail,2021,5,24.5
+MT,TOTAL,Total retail,2021,6,19.6
+MT,TOTAL,Total retail,2021,7,16.9
+MT,TOTAL,Total retail,2021,8,18.3
+MT,TOTAL,Total retail,2021,9,16.5
+MT,TOTAL,Total retail,2021,10,17.2
+MT,TOTAL,Total retail,2021,11,23.4
+MT,TOTAL,Total retail,2021,12,17.3
+MT,TOTAL,Total retail,2022,1,15.8
+MT,TOTAL,Total retail,2022,2,21.2
+MT,TOTAL,Total retail,2022,3,11.4
+MT,TOTAL,Total retail,2022,4,9.6
+MT,TOTAL,Total retail,2022,5,14.4
+MT,TOTAL,Total retail,2022,6,12.8
+MT,TOTAL,Total retail,2022,7,11.4
+MT,TOTAL,Total retail,2022,8,13.7
+MT,TOTAL,Total retail,2022,9,11.6
+MT,TOTAL,Total retail,2022,10,9.7
+MT,TOTAL,Total retail,2022,11,7.4
+MT,TOTAL,Total retail,2022,12,3.5
+MT,TOTAL,Total retail,2023,1,4.0
+MT,TOTAL,Total retail,2023,2,1.4
+MT,TOTAL,Total retail,2023,3,-2.2
+MT,TOTAL,Total retail,2023,4,-2.8
+MT,TOTAL,Total retail,2023,5,0.3
+MT,TOTAL,Total retail,2023,6,-1.6
+MT,TOTAL,Total retail,2023,7,-2.1
+MT,TOTAL,Total retail,2023,8,0.4
+MT,TOTAL,Total retail,2023,9,2.1
+MT,TOTAL,Total retail,2023,10,1.6
+MT,TOTAL,Total retail,2023,11,2.9
+MT,TOTAL,Total retail,2023,12,3.0
+MT,TOTAL,Total retail,2024,1,-1.5
+MT,TOTAL,Total retail,2024,2,3.3
+MT,TOTAL,Total retail,2024,3,-1.3
+MT,TOTAL,Total retail,2024,4,1.7
+MT,TOTAL,Total retail,2024,5,0.8
+MT,TOTAL,Total retail,2024,6,-3.3
+MT,TOTAL,Total retail,2024,7,3.6
+MT,TOTAL,Total retail,2024,8,0.9
+MT,TOTAL,Total retail,2024,9,-3.0
+MT,TOTAL,Total retail,2024,10,2.6
+MT,TOTAL,Total retail,2024,11,1.3
+MT,TOTAL,Total retail,2024,12,1.5
+MT,TOTAL,Total retail,2025,1,4.4
+MT,TOTAL,Total retail,2025,2,-1.4
+MT,TOTAL,Total retail,2025,3,4.8
+MT,TOTAL,Total retail,2025,4,2.9
+MT,TOTAL,Total retail,2025,5,1.2
+MT,TOTAL,Total retail,2025,6,2.8
+MT,TOTAL,Total retail,2025,7,2.3
+MT,TOTAL,Total retail,2025,8,0.7
+MT,TOTAL,Total retail,2025,9,4.2
+MT,TOTAL,Total retail,2025,10,1.3
+MT,TOTAL,Total retail,2025,11,0.7
+MT,TOTAL,Total retail,2025,12,3.4
+MT,TOTAL,Total retail,2026,1,3.1
+MT,TOTAL,Total retail,2026,2,2.4
+MT,TOTAL,Total retail,2026,3,2.7
+MT,TOTAL,Total retail,2026,4,4.9
+MT,TOTAL,Total retail,2026,5,7.3
+ND,441,Motor vehicle & parts,2019,1,-3.4
+ND,441,Motor vehicle & parts,2019,2,-0.6
+ND,441,Motor vehicle & parts,2019,3,-2.9
+ND,441,Motor vehicle & parts,2019,4,1.4
+ND,441,Motor vehicle & parts,2019,5,-0.4
+ND,441,Motor vehicle & parts,2019,6,-1.3
+ND,441,Motor vehicle & parts,2019,7,3.3
+ND,441,Motor vehicle & parts,2019,8,4.3
+ND,441,Motor vehicle & parts,2019,9,1.7
+ND,441,Motor vehicle & parts,2019,10,2.4
+ND,441,Motor vehicle & parts,2019,11,5.8
+ND,441,Motor vehicle & parts,2019,12,3.3
+ND,441,Motor vehicle & parts,2020,1,3.1
+ND,441,Motor vehicle & parts,2020,2,3.7
+ND,441,Motor vehicle & parts,2020,3,-29.3
+ND,441,Motor vehicle & parts,2020,4,-36.5
+ND,441,Motor vehicle & parts,2020,5,-8.9
+ND,441,Motor vehicle & parts,2020,6,2.7
+ND,441,Motor vehicle & parts,2020,7,0.1
+ND,441,Motor vehicle & parts,2020,8,-7.5
+ND,441,Motor vehicle & parts,2020,9,5.5
+ND,441,Motor vehicle & parts,2020,10,1.2
+ND,441,Motor vehicle & parts,2020,11,-6.4
+ND,441,Motor vehicle & parts,2020,12,1.4
+ND,441,Motor vehicle & parts,2021,1,10.3
+ND,441,Motor vehicle & parts,2021,2,6.2
+ND,441,Motor vehicle & parts,2021,3,83.4
+ND,441,Motor vehicle & parts,2021,4,108.4
+ND,441,Motor vehicle & parts,2021,5,34.4
+ND,441,Motor vehicle & parts,2021,6,20.4
+ND,441,Motor vehicle & parts,2021,7,16.6
+ND,441,Motor vehicle & parts,2021,8,14.8
+ND,441,Motor vehicle & parts,2021,9,10.4
+ND,441,Motor vehicle & parts,2021,10,14.3
+ND,441,Motor vehicle & parts,2021,11,19.9
+ND,441,Motor vehicle & parts,2021,12,13.8
+ND,441,Motor vehicle & parts,2022,1,1.4
+ND,441,Motor vehicle & parts,2022,2,4.3
+ND,441,Motor vehicle & parts,2022,3,-12.0
+ND,441,Motor vehicle & parts,2022,4,-12.6
+ND,441,Motor vehicle & parts,2022,5,-15.4
+ND,441,Motor vehicle & parts,2022,6,-10.2
+ND,441,Motor vehicle & parts,2022,7,-12.0
+ND,441,Motor vehicle & parts,2022,8,-2.6
+ND,441,Motor vehicle & parts,2022,9,-6.0
+ND,441,Motor vehicle & parts,2022,10,-6.6
+ND,441,Motor vehicle & parts,2022,11,-9.2
+ND,441,Motor vehicle & parts,2022,12,-10.2
+ND,441,Motor vehicle & parts,2023,1,8.1
+ND,441,Motor vehicle & parts,2023,2,6.2
+ND,441,Motor vehicle & parts,2023,3,5.4
+ND,441,Motor vehicle & parts,2023,4,2.0
+ND,441,Motor vehicle & parts,2023,5,13.8
+ND,441,Motor vehicle & parts,2023,6,8.8
+ND,441,Motor vehicle & parts,2023,7,10.6
+ND,441,Motor vehicle & parts,2023,8,9.3
+ND,441,Motor vehicle & parts,2023,9,11.7
+ND,441,Motor vehicle & parts,2023,10,6.9
+ND,441,Motor vehicle & parts,2023,11,10.3
+ND,441,Motor vehicle & parts,2023,12,10.7
+ND,441,Motor vehicle & parts,2024,1,3.9
+ND,441,Motor vehicle & parts,2024,2,10.2
+ND,441,Motor vehicle & parts,2024,3,2.9
+ND,441,Motor vehicle & parts,2024,4,7.6
+ND,441,Motor vehicle & parts,2024,5,6.5
+ND,441,Motor vehicle & parts,2024,6,-1.5
+ND,441,Motor vehicle & parts,2024,7,8.7
+ND,441,Motor vehicle & parts,2024,8,5.0
+ND,441,Motor vehicle & parts,2024,9,1.0
+ND,441,Motor vehicle & parts,2024,10,12.3
+ND,441,Motor vehicle & parts,2024,11,14.2
+ND,441,Motor vehicle & parts,2024,12,12.9
+ND,441,Motor vehicle & parts,2025,1,3.9
+ND,441,Motor vehicle & parts,2025,2,-1.6
+ND,441,Motor vehicle & parts,2025,3,10.2
+ND,441,Motor vehicle & parts,2025,4,7.6
+ND,441,Motor vehicle & parts,2025,5,-0.2
+ND,441,Motor vehicle & parts,2025,6,3.6
+ND,441,Motor vehicle & parts,2025,7,4.7
+ND,441,Motor vehicle & parts,2025,8,3.2
+ND,441,Motor vehicle & parts,2025,9,6.0
+ND,441,Motor vehicle & parts,2025,10,-0.2
+ND,441,Motor vehicle & parts,2025,11,-5.1
+ND,441,Motor vehicle & parts,2025,12,0.0
+ND,441,Motor vehicle & parts,2026,1,-1.5
+ND,441,Motor vehicle & parts,2026,2,0.0
+ND,441,Motor vehicle & parts,2026,3,-3.0
+ND,441,Motor vehicle & parts,2026,4,-2.5
+ND,441,Motor vehicle & parts,2026,5,0.6
+ND,445,Food & beverage stores,2019,1,15.4
+ND,445,Food & beverage stores,2019,2,7.8
+ND,445,Food & beverage stores,2019,3,11.7
+ND,445,Food & beverage stores,2019,4,19.2
+ND,445,Food & beverage stores,2019,5,16.3
+ND,445,Food & beverage stores,2019,6,17.7
+ND,445,Food & beverage stores,2019,7,20.5
+ND,445,Food & beverage stores,2019,8,18.0
+ND,445,Food & beverage stores,2019,9,13.1
+ND,445,Food & beverage stores,2019,10,15.9
+ND,445,Food & beverage stores,2019,11,14.3
+ND,445,Food & beverage stores,2019,12,8.9
+ND,445,Food & beverage stores,2020,1,6.7
+ND,445,Food & beverage stores,2020,2,9.1
+ND,445,Food & beverage stores,2020,3,31.2
+ND,445,Food & beverage stores,2020,4,16.7
+ND,445,Food & beverage stores,2020,5,17.0
+ND,445,Food & beverage stores,2020,6,13.0
+ND,445,Food & beverage stores,2020,7,7.3
+ND,445,Food & beverage stores,2020,8,6.6
+ND,445,Food & beverage stores,2020,9,10.9
+ND,445,Food & beverage stores,2020,10,14.0
+ND,445,Food & beverage stores,2020,11,-3.5
+ND,445,Food & beverage stores,2020,12,7.3
+ND,445,Food & beverage stores,2021,1,10.9
+ND,445,Food & beverage stores,2021,2,7.7
+ND,445,Food & beverage stores,2021,3,-12.8
+ND,445,Food & beverage stores,2021,4,-2.0
+ND,445,Food & beverage stores,2021,5,-2.9
+ND,445,Food & beverage stores,2021,6,2.3
+ND,445,Food & beverage stores,2021,7,6.4
+ND,445,Food & beverage stores,2021,8,3.2
+ND,445,Food & beverage stores,2021,9,7.4
+ND,445,Food & beverage stores,2021,10,6.7
+ND,445,Food & beverage stores,2021,11,21.5
+ND,445,Food & beverage stores,2021,12,12.9
+ND,445,Food & beverage stores,2022,1,-2.7
+ND,445,Food & beverage stores,2022,2,1.9
+ND,445,Food & beverage stores,2022,3,1.6
+ND,445,Food & beverage stores,2022,4,4.9
+ND,445,Food & beverage stores,2022,5,1.7
+ND,445,Food & beverage stores,2022,6,3.4
+ND,445,Food & beverage stores,2022,7,2.3
+ND,445,Food & beverage stores,2022,8,3.9
+ND,445,Food & beverage stores,2022,9,0.7
+ND,445,Food & beverage stores,2022,10,1.5
+ND,445,Food & beverage stores,2022,11,4.2
+ND,445,Food & beverage stores,2022,12,3.9
+ND,445,Food & beverage stores,2023,1,6.1
+ND,445,Food & beverage stores,2023,2,8.6
+ND,445,Food & beverage stores,2023,3,7.6
+ND,445,Food & beverage stores,2023,4,2.1
+ND,445,Food & beverage stores,2023,5,7.0
+ND,445,Food & beverage stores,2023,6,3.7
+ND,445,Food & beverage stores,2023,7,0.2
+ND,445,Food & beverage stores,2023,8,5.0
+ND,445,Food & beverage stores,2023,9,4.1
+ND,445,Food & beverage stores,2023,10,0.9
+ND,445,Food & beverage stores,2023,11,-3.3
+ND,445,Food & beverage stores,2023,12,-2.0
+ND,445,Food & beverage stores,2024,1,-0.3
+ND,445,Food & beverage stores,2024,2,-0.9
+ND,445,Food & beverage stores,2024,3,-0.7
+ND,445,Food & beverage stores,2024,4,-6.9
+ND,445,Food & beverage stores,2024,5,-1.9
+ND,445,Food & beverage stores,2024,6,-3.1
+ND,445,Food & beverage stores,2024,7,1.4
+ND,445,Food & beverage stores,2024,8,-0.1
+ND,445,Food & beverage stores,2024,9,-0.1
+ND,445,Food & beverage stores,2024,10,-6.6
+ND,445,Food & beverage stores,2024,11,4.6
+ND,445,Food & beverage stores,2024,12,-0.4
+ND,445,Food & beverage stores,2025,1,3.3
+ND,445,Food & beverage stores,2025,2,-1.4
+ND,445,Food & beverage stores,2025,3,-2.4
+ND,445,Food & beverage stores,2025,4,5.2
+ND,445,Food & beverage stores,2025,5,1.9
+ND,445,Food & beverage stores,2025,6,-1.2
+ND,445,Food & beverage stores,2025,7,-0.2
+ND,445,Food & beverage stores,2025,8,-2.7
+ND,445,Food & beverage stores,2025,9,-3.4
+ND,445,Food & beverage stores,2025,10,7.3
+ND,445,Food & beverage stores,2025,11,-2.5
+ND,445,Food & beverage stores,2025,12,-2.7
+ND,445,Food & beverage stores,2026,1,-3.9
+ND,445,Food & beverage stores,2026,2,-2.0
+ND,445,Food & beverage stores,2026,3,-0.8
+ND,445,Food & beverage stores,2026,4,-0.2
+ND,445,Food & beverage stores,2026,5,-0.8
+ND,447,Gasoline stations,2019,1,-9.0
+ND,447,Gasoline stations,2019,2,-9.4
+ND,447,Gasoline stations,2019,3,-4.8
+ND,447,Gasoline stations,2019,4,1.4
+ND,447,Gasoline stations,2019,5,1.1
+ND,447,Gasoline stations,2019,6,-1.1
+ND,447,Gasoline stations,2019,7,4.7
+ND,447,Gasoline stations,2019,8,-10.3
+ND,447,Gasoline stations,2019,9,-4.0
+ND,447,Gasoline stations,2019,10,-9.6
+ND,447,Gasoline stations,2019,11,-7.7
+ND,447,Gasoline stations,2019,12,5.5
+ND,447,Gasoline stations,2020,1,6.1
+ND,447,Gasoline stations,2020,2,-0.9
+ND,447,Gasoline stations,2020,3,-28.3
+ND,447,Gasoline stations,2020,4,-37.8
+ND,447,Gasoline stations,2020,5,-38.7
+ND,447,Gasoline stations,2020,6,-23.7
+ND,447,Gasoline stations,2020,7,-20.0
+ND,447,Gasoline stations,2020,8,-20.9
+ND,447,Gasoline stations,2020,9,-19.8
+ND,447,Gasoline stations,2020,10,-21.2
+ND,447,Gasoline stations,2020,11,-24.6
+ND,447,Gasoline stations,2020,12,-23.4
+ND,447,Gasoline stations,2021,1,-16.9
+ND,447,Gasoline stations,2021,2,-13.4
+ND,447,Gasoline stations,2021,3,27.5
+ND,447,Gasoline stations,2021,4,49.8
+ND,447,Gasoline stations,2021,5,43.3
+ND,447,Gasoline stations,2021,6,19.1
+ND,447,Gasoline stations,2021,7,15.5
+ND,447,Gasoline stations,2021,8,24.3
+ND,447,Gasoline stations,2021,9,26.8
+ND,447,Gasoline stations,2021,10,31.3
+ND,447,Gasoline stations,2021,11,42.2
+ND,447,Gasoline stations,2021,12,35.5
+ND,447,Gasoline stations,2022,1,21.0
+ND,447,Gasoline stations,2022,2,25.2
+ND,447,Gasoline stations,2022,3,27.0
+ND,447,Gasoline stations,2022,4,16.5
+ND,447,Gasoline stations,2022,5,29.8
+ND,447,Gasoline stations,2022,6,38.4
+ND,447,Gasoline stations,2022,7,29.3
+ND,447,Gasoline stations,2022,8,16.3
+ND,447,Gasoline stations,2022,9,7.4
+ND,447,Gasoline stations,2022,10,11.1
+ND,447,Gasoline stations,2022,11,2.9
+ND,447,Gasoline stations,2022,12,-2.1
+ND,447,Gasoline stations,2023,1,4.2
+ND,447,Gasoline stations,2023,2,-3.6
+ND,447,Gasoline stations,2023,3,-12.8
+ND,447,Gasoline stations,2023,4,-16.2
+ND,447,Gasoline stations,2023,5,-21.6
+ND,447,Gasoline stations,2023,6,-25.0
+ND,447,Gasoline stations,2023,7,-24.5
+ND,447,Gasoline stations,2023,8,-10.8
+ND,447,Gasoline stations,2023,9,-3.8
+ND,447,Gasoline stations,2023,10,-9.0
+ND,447,Gasoline stations,2023,11,-17.5
+ND,447,Gasoline stations,2023,12,-10.1
+ND,447,Gasoline stations,2024,1,-4.7
+ND,447,Gasoline stations,2024,2,1.9
+ND,447,Gasoline stations,2024,3,-4.8
+ND,447,Gasoline stations,2024,4,9.3
+ND,447,Gasoline stations,2024,5,2.4
+ND,447,Gasoline stations,2024,6,-3.6
+ND,447,Gasoline stations,2024,7,2.5
+ND,447,Gasoline stations,2024,8,-5.4
+ND,447,Gasoline stations,2024,9,-8.7
+ND,447,Gasoline stations,2024,10,-8.9
+ND,447,Gasoline stations,2024,11,1.4
+ND,447,Gasoline stations,2024,12,2.8
+ND,447,Gasoline stations,2025,1,-0.5
+ND,447,Gasoline stations,2025,2,-4.5
+ND,447,Gasoline stations,2025,3,1.7
+ND,447,Gasoline stations,2025,4,1.7
+ND,447,Gasoline stations,2025,5,3.9
+ND,447,Gasoline stations,2025,6,7.7
+ND,447,Gasoline stations,2025,7,3.0
+ND,447,Gasoline stations,2025,8,3.6
+ND,447,Gasoline stations,2025,9,8.2
+ND,447,Gasoline stations,2025,10,7.6
+ND,447,Gasoline stations,2025,11,2.9
+ND,447,Gasoline stations,2025,12,6.2
+ND,447,Gasoline stations,2026,1,-1.2
+ND,447,Gasoline stations,2026,2,0.8
+ND,447,Gasoline stations,2026,3,11.5
+ND,447,Gasoline stations,2026,4,14.1
+ND,447,Gasoline stations,2026,5,16.4
+ND,448,Clothing,2019,1,4.2
+ND,448,Clothing,2019,2,-3.7
+ND,448,Clothing,2019,3,3.5
+ND,448,Clothing,2019,4,5.4
+ND,448,Clothing,2019,5,-0.6
+ND,448,Clothing,2019,6,4.2
+ND,448,Clothing,2019,7,-0.5
+ND,448,Clothing,2019,8,2.4
+ND,448,Clothing,2019,9,-1.0
+ND,448,Clothing,2019,10,3.7
+ND,448,Clothing,2019,11,1.3
+ND,448,Clothing,2019,12,6.7
+ND,448,Clothing,2020,1,-4.2
+ND,448,Clothing,2020,2,3.1
+ND,448,Clothing,2020,3,-51.1
+ND,448,Clothing,2020,4,-66.1
+ND,448,Clothing,2020,6,-12.9
+ND,448,Clothing,2020,7,-16.2
+ND,448,Clothing,2020,8,-16.6
+ND,448,Clothing,2020,9,-7.2
+ND,448,Clothing,2020,10,-15.1
+ND,448,Clothing,2020,11,-22.4
+ND,448,Clothing,2020,12,-10.2
+ND,448,Clothing,2021,1,0.0
+ND,448,Clothing,2021,2,-14.7
+ND,448,Clothing,2021,3,118.2
+ND,448,Clothing,2021,4,195.7
+ND,448,Clothing,2021,5,46.2
+ND,448,Clothing,2021,6,27.1
+ND,448,Clothing,2021,7,36.1
+ND,448,Clothing,2021,8,21.1
+ND,448,Clothing,2021,9,18.2
+ND,448,Clothing,2021,10,25.7
+ND,448,Clothing,2021,11,40.6
+ND,448,Clothing,2021,12,16.8
+ND,448,Clothing,2022,1,5.5
+ND,448,Clothing,2022,2,18.8
+ND,448,Clothing,2022,3,-0.8
+ND,448,Clothing,2022,4,3.7
+ND,448,Clothing,2022,5,-0.1
+ND,448,Clothing,2022,6,-1.4
+ND,448,Clothing,2022,7,-4.8
+ND,448,Clothing,2022,8,1.2
+ND,448,Clothing,2022,9,1.2
+ND,448,Clothing,2022,10,0.1
+ND,448,Clothing,2022,11,-8.8
+ND,448,Clothing,2022,12,-12.8
+ND,448,Clothing,2023,1,19.3
+ND,448,Clothing,2023,2,17.1
+ND,448,Clothing,2023,3,5.0
+ND,448,Clothing,2023,4,12.6
+ND,448,Clothing,2023,5,11.4
+ND,448,Clothing,2023,6,10.7
+ND,448,Clothing,2023,7,9.4
+ND,448,Clothing,2023,8,6.3
+ND,448,Clothing,2023,9,8.5
+ND,448,Clothing,2023,10,9.8
+ND,448,Clothing,2023,11,24.1
+ND,448,Clothing,2024,1,-8.6
+ND,448,Clothing,2024,2,0.7
+ND,448,Clothing,2024,3,-4.2
+ND,448,Clothing,2024,4,-9.2
+ND,448,Clothing,2024,5,-8.4
+ND,448,Clothing,2024,6,-5.7
+ND,448,Clothing,2024,7,-1.0
+ND,448,Clothing,2024,8,3.2
+ND,448,Clothing,2024,9,-7.0
+ND,448,Clothing,2024,10,-3.7
+ND,448,Clothing,2024,11,-12.3
+ND,448,Clothing,2024,12,-15.9
+ND,448,Clothing,2025,1,5.9
+ND,448,Clothing,2025,2,-2.9
+ND,448,Clothing,2025,3,8.0
+ND,448,Clothing,2025,4,6.0
+ND,448,Clothing,2025,5,8.0
+ND,448,Clothing,2025,6,5.1
+ND,448,Clothing,2025,7,6.3
+ND,448,Clothing,2025,8,7.0
+ND,448,Clothing,2025,9,7.2
+ND,448,Clothing,2025,10,7.9
+ND,448,Clothing,2025,11,11.2
+ND,448,Clothing,2025,12,11.9
+ND,448,Clothing,2026,1,11.8
+ND,448,Clothing,2026,2,13.5
+ND,448,Clothing,2026,3,5.7
+ND,448,Clothing,2026,4,9.8
+ND,448,Clothing,2026,5,7.7
+ND,452,General merchandise,2019,1,4.0
+ND,452,General merchandise,2019,2,-5.5
+ND,452,General merchandise,2019,3,5.0
+ND,452,General merchandise,2019,4,4.5
+ND,452,General merchandise,2019,5,0.5
+ND,452,General merchandise,2019,6,6.0
+ND,452,General merchandise,2019,7,5.8
+ND,452,General merchandise,2019,8,6.8
+ND,452,General merchandise,2019,9,0.6
+ND,452,General merchandise,2019,10,3.2
+ND,452,General merchandise,2019,11,-0.7
+ND,452,General merchandise,2019,12,0.7
+ND,452,General merchandise,2020,1,1.1
+ND,452,General merchandise,2020,2,14.6
+ND,452,General merchandise,2020,3,3.7
+ND,452,General merchandise,2020,5,7.9
+ND,452,General merchandise,2020,6,8.9
+ND,452,General merchandise,2020,7,4.1
+ND,452,General merchandise,2020,8,-2.8
+ND,452,General merchandise,2020,9,0.2
+ND,452,General merchandise,2020,10,-0.2
+ND,452,General merchandise,2020,11,-7.1
+ND,452,General merchandise,2020,12,-2.1
+ND,452,General merchandise,2021,1,11.8
+ND,452,General merchandise,2021,2,-4.4
+ND,452,General merchandise,2021,3,4.2
+ND,452,General merchandise,2021,4,97.2
+ND,452,General merchandise,2021,5,-3.3
+ND,452,General merchandise,2021,6,-7.3
+ND,452,General merchandise,2021,7,-1.0
+ND,452,General merchandise,2021,8,-1.3
+ND,452,General merchandise,2021,9,2.3
+ND,452,General merchandise,2021,10,11.4
+ND,452,General merchandise,2021,11,9.1
+ND,452,General merchandise,2021,12,3.5
+ND,452,General merchandise,2022,1,-11.9
+ND,452,General merchandise,2022,2,-5.0
+ND,452,General merchandise,2022,3,-7.6
+ND,452,General merchandise,2022,4,-6.4
+ND,452,General merchandise,2022,5,-0.1
+ND,452,General merchandise,2022,6,4.5
+ND,452,General merchandise,2022,7,1.4
+ND,452,General merchandise,2022,8,5.1
+ND,452,General merchandise,2022,9,5.4
+ND,452,General merchandise,2022,10,0.0
+ND,452,General merchandise,2022,11,-0.3
+ND,452,General merchandise,2022,12,-7.8
+ND,452,General merchandise,2023,1,10.1
+ND,452,General merchandise,2023,2,10.1
+ND,452,General merchandise,2023,3,-0.6
+ND,452,General merchandise,2023,4,10.2
+ND,452,General merchandise,2023,5,4.5
+ND,452,General merchandise,2023,6,4.1
+ND,452,General merchandise,2023,7,2.2
+ND,452,General merchandise,2023,8,5.3
+ND,452,General merchandise,2023,9,3.7
+ND,452,General merchandise,2023,10,0.5
+ND,452,General merchandise,2023,11,1.6
+ND,452,General merchandise,2023,12,13.5
+ND,452,General merchandise,2024,1,1.8
+ND,452,General merchandise,2024,2,8.5
+ND,452,General merchandise,2024,3,11.7
+ND,452,General merchandise,2024,4,2.0
+ND,452,General merchandise,2024,5,3.4
+ND,452,General merchandise,2024,6,0.9
+ND,452,General merchandise,2024,7,10.3
+ND,452,General merchandise,2024,8,10.0
+ND,452,General merchandise,2024,9,-0.3
+ND,452,General merchandise,2024,10,5.6
+ND,452,General merchandise,2024,11,9.2
+ND,452,General merchandise,2024,12,0.0
+ND,452,General merchandise,2025,1,9.8
+ND,452,General merchandise,2025,2,3.1
+ND,452,General merchandise,2025,3,2.7
+ND,452,General merchandise,2025,4,8.9
+ND,452,General merchandise,2025,5,8.5
+ND,452,General merchandise,2025,6,6.0
+ND,452,General merchandise,2025,7,3.8
+ND,452,General merchandise,2025,8,1.7
+ND,452,General merchandise,2025,9,1.9
+ND,452,General merchandise,2025,10,2.4
+ND,452,General merchandise,2025,11,0.4
+ND,452,General merchandise,2025,12,1.4
+ND,452,General merchandise,2026,1,1.1
+ND,452,General merchandise,2026,2,-1.0
+ND,452,General merchandise,2026,3,1.9
+ND,452,General merchandise,2026,4,0.3
+ND,452,General merchandise,2026,5,-1.7
+ND,453,Miscellaneous store retailers,2019,1,-11.8
+ND,453,Miscellaneous store retailers,2019,2,-3.4
+ND,453,Miscellaneous store retailers,2019,3,5.2
+ND,453,Miscellaneous store retailers,2019,4,9.9
+ND,453,Miscellaneous store retailers,2019,5,0.1
+ND,453,Miscellaneous store retailers,2019,6,2.1
+ND,453,Miscellaneous store retailers,2019,7,10.3
+ND,453,Miscellaneous store retailers,2019,8,6.6
+ND,453,Miscellaneous store retailers,2019,9,6.5
+ND,453,Miscellaneous store retailers,2019,10,3.0
+ND,453,Miscellaneous store retailers,2019,11,11.5
+ND,453,Miscellaneous store retailers,2019,12,12.5
+ND,453,Miscellaneous store retailers,2020,1,3.5
+ND,453,Miscellaneous store retailers,2020,3,4.7
+ND,453,Miscellaneous store retailers,2020,4,-28.1
+ND,453,Miscellaneous store retailers,2020,6,-9.7
+ND,453,Miscellaneous store retailers,2020,7,-2.3
+ND,453,Miscellaneous store retailers,2020,8,-6.8
+ND,453,Miscellaneous store retailers,2020,9,-1.3
+ND,453,Miscellaneous store retailers,2020,10,-4.5
+ND,453,Miscellaneous store retailers,2020,11,-5.5
+ND,453,Miscellaneous store retailers,2020,12,1.1
+ND,453,Miscellaneous store retailers,2021,1,11.9
+ND,453,Miscellaneous store retailers,2021,2,14.3
+ND,453,Miscellaneous store retailers,2021,3,46.1
+ND,453,Miscellaneous store retailers,2021,4,83.7
+ND,453,Miscellaneous store retailers,2021,5,33.0
+ND,453,Miscellaneous store retailers,2021,6,39.9
+ND,453,Miscellaneous store retailers,2021,7,23.9
+ND,453,Miscellaneous store retailers,2021,8,30.7
+ND,453,Miscellaneous store retailers,2021,9,31.0
+ND,453,Miscellaneous store retailers,2021,10,26.0
+ND,453,Miscellaneous store retailers,2021,11,35.3
+ND,453,Miscellaneous store retailers,2021,12,20.9
+ND,453,Miscellaneous store retailers,2022,1,17.7
+ND,453,Miscellaneous store retailers,2022,2,24.3
+ND,453,Miscellaneous store retailers,2022,3,2.8
+ND,453,Miscellaneous store retailers,2022,4,3.9
+ND,453,Miscellaneous store retailers,2022,5,15.6
+ND,453,Miscellaneous store retailers,2022,6,7.5
+ND,453,Miscellaneous store retailers,2022,7,4.5
+ND,453,Miscellaneous store retailers,2022,8,1.0
+ND,453,Miscellaneous store retailers,2022,9,-3.3
+ND,453,Miscellaneous store retailers,2022,10,-0.9
+ND,453,Miscellaneous store retailers,2022,11,-10.5
+ND,453,Miscellaneous store retailers,2022,12,-5.1
+ND,453,Miscellaneous store retailers,2023,1,26.5
+ND,453,Miscellaneous store retailers,2023,2,-0.4
+ND,453,Miscellaneous store retailers,2023,3,-0.1
+ND,453,Miscellaneous store retailers,2023,4,-1.5
+ND,453,Miscellaneous store retailers,2023,5,6.7
+ND,453,Miscellaneous store retailers,2023,6,4.4
+ND,453,Miscellaneous store retailers,2023,7,4.2
+ND,453,Miscellaneous store retailers,2023,8,3.2
+ND,453,Miscellaneous store retailers,2023,9,6.9
+ND,453,Miscellaneous store retailers,2023,10,7.5
+ND,453,Miscellaneous store retailers,2023,11,12.2
+ND,453,Miscellaneous store retailers,2023,12,8.7
+ND,453,Miscellaneous store retailers,2024,1,9.9
+ND,453,Miscellaneous store retailers,2024,2,17.0
+ND,453,Miscellaneous store retailers,2024,3,17.5
+ND,453,Miscellaneous store retailers,2024,4,24.9
+ND,453,Miscellaneous store retailers,2024,5,15.2
+ND,453,Miscellaneous store retailers,2024,6,13.8
+ND,453,Miscellaneous store retailers,2024,7,13.8
+ND,453,Miscellaneous store retailers,2024,8,19.7
+ND,453,Miscellaneous store retailers,2024,9,17.8
+ND,453,Miscellaneous store retailers,2024,10,21.9
+ND,453,Miscellaneous store retailers,2024,11,10.9
+ND,453,Miscellaneous store retailers,2024,12,18.0
+ND,453,Miscellaneous store retailers,2025,1,11.4
+ND,453,Miscellaneous store retailers,2025,2,9.1
+ND,453,Miscellaneous store retailers,2025,3,12.9
+ND,453,Miscellaneous store retailers,2025,4,5.8
+ND,453,Miscellaneous store retailers,2025,5,14.1
+ND,453,Miscellaneous store retailers,2025,6,16.1
+ND,453,Miscellaneous store retailers,2025,7,16.1
+ND,453,Miscellaneous store retailers,2025,8,0.8
+ND,453,Miscellaneous store retailers,2025,9,10.1
+ND,453,Miscellaneous store retailers,2025,10,6.8
+ND,453,Miscellaneous store retailers,2025,11,10.7
+ND,453,Miscellaneous store retailers,2025,12,9.9
+ND,453,Miscellaneous store retailers,2026,1,8.1
+ND,453,Miscellaneous store retailers,2026,2,9.6
+ND,453,Miscellaneous store retailers,2026,3,10.6
+ND,453,Miscellaneous store retailers,2026,4,11.4
+ND,453,Miscellaneous store retailers,2026,5,7.5
+ND,TOTAL,Total retail,2019,1,0.2
+ND,TOTAL,Total retail,2019,2,-1.7
+ND,TOTAL,Total retail,2019,3,0.5
+ND,TOTAL,Total retail,2019,4,3.9
+ND,TOTAL,Total retail,2019,5,1.0
+ND,TOTAL,Total retail,2019,6,1.1
+ND,TOTAL,Total retail,2019,7,5.1
+ND,TOTAL,Total retail,2019,8,1.1
+ND,TOTAL,Total retail,2019,9,0.8
+ND,TOTAL,Total retail,2019,10,-0.2
+ND,TOTAL,Total retail,2019,11,1.2
+ND,TOTAL,Total retail,2019,12,3.9
+ND,TOTAL,Total retail,2020,1,3.6
+ND,TOTAL,Total retail,2020,2,5.4
+ND,TOTAL,Total retail,2020,3,-15.0
+ND,TOTAL,Total retail,2020,4,-28.7
+ND,TOTAL,Total retail,2020,5,-9.8
+ND,TOTAL,Total retail,2020,6,-0.6
+ND,TOTAL,Total retail,2020,7,-2.0
+ND,TOTAL,Total retail,2020,8,-6.4
+ND,TOTAL,Total retail,2020,9,0.1
+ND,TOTAL,Total retail,2020,10,-2.5
+ND,TOTAL,Total retail,2020,11,-8.0
+ND,TOTAL,Total retail,2020,12,-1.9
+ND,TOTAL,Total retail,2021,1,5.9
+ND,TOTAL,Total retail,2021,2,2.2
+ND,TOTAL,Total retail,2021,3,39.9
+ND,TOTAL,Total retail,2021,4,66.1
+ND,TOTAL,Total retail,2021,5,23.2
+ND,TOTAL,Total retail,2021,6,14.4
+ND,TOTAL,Total retail,2021,7,13.1
+ND,TOTAL,Total retail,2021,8,14.2
+ND,TOTAL,Total retail,2021,9,13.8
+ND,TOTAL,Total retail,2021,10,17.3
+ND,TOTAL,Total retail,2021,11,24.0
+ND,TOTAL,Total retail,2021,12,17.7
+ND,TOTAL,Total retail,2022,1,2.7
+ND,TOTAL,Total retail,2022,2,7.3
+ND,TOTAL,Total retail,2022,3,-1.1
+ND,TOTAL,Total retail,2022,4,-2.9
+ND,TOTAL,Total retail,2022,5,1.4
+ND,TOTAL,Total retail,2022,6,5.2
+ND,TOTAL,Total retail,2022,7,2.4
+ND,TOTAL,Total retail,2022,8,4.6
+ND,TOTAL,Total retail,2022,9,0.5
+ND,TOTAL,Total retail,2022,10,0.8
+ND,TOTAL,Total retail,2022,11,-2.4
+ND,TOTAL,Total retail,2022,12,-6.0
+ND,TOTAL,Total retail,2023,1,7.1
+ND,TOTAL,Total retail,2023,2,3.8
+ND,TOTAL,Total retail,2023,3,-1.4
+ND,TOTAL,Total retail,2023,4,-2.6
+ND,TOTAL,Total retail,2023,5,-0.6
+ND,TOTAL,Total retail,2023,6,-3.4
+ND,TOTAL,Total retail,2023,7,-4.2
+ND,TOTAL,Total retail,2023,8,1.0
+ND,TOTAL,Total retail,2023,9,3.1
+ND,TOTAL,Total retail,2023,10,0.4
+ND,TOTAL,Total retail,2023,11,-0.7
+ND,TOTAL,Total retail,2023,12,3.4
+ND,TOTAL,Total retail,2024,1,-0.2
+ND,TOTAL,Total retail,2024,2,5.0
+ND,TOTAL,Total retail,2024,3,0.4
+ND,TOTAL,Total retail,2024,4,5.2
+ND,TOTAL,Total retail,2024,5,2.5
+ND,TOTAL,Total retail,2024,6,-2.4
+ND,TOTAL,Total retail,2024,7,6.3
+ND,TOTAL,Total retail,2024,8,1.7
+ND,TOTAL,Total retail,2024,9,-2.1
+ND,TOTAL,Total retail,2024,10,2.6
+ND,TOTAL,Total retail,2024,11,5.9
+ND,TOTAL,Total retail,2024,12,4.1
+ND,TOTAL,Total retail,2025,1,3.5
+ND,TOTAL,Total retail,2025,2,-1.2
+ND,TOTAL,Total retail,2025,3,5.6
+ND,TOTAL,Total retail,2025,4,6.1
+ND,TOTAL,Total retail,2025,5,3.7
+ND,TOTAL,Total retail,2025,6,5.1
+ND,TOTAL,Total retail,2025,7,4.3
+ND,TOTAL,Total retail,2025,8,2.3
+ND,TOTAL,Total retail,2025,9,5.6
+ND,TOTAL,Total retail,2025,10,3.2
+ND,TOTAL,Total retail,2025,11,0.1
+ND,TOTAL,Total retail,2025,12,3.7
+ND,TOTAL,Total retail,2026,1,0.4
+ND,TOTAL,Total retail,2026,2,1.4
+ND,TOTAL,Total retail,2026,3,2.9
+ND,TOTAL,Total retail,2026,4,3.2
+ND,TOTAL,Total retail,2026,5,4.0
+SD,441,Motor vehicle & parts,2019,1,-1.9
+SD,441,Motor vehicle & parts,2019,2,-0.8
+SD,441,Motor vehicle & parts,2019,3,-1.3
+SD,441,Motor vehicle & parts,2019,4,3.4
+SD,441,Motor vehicle & parts,2019,5,1.3
+SD,441,Motor vehicle & parts,2019,6,-0.6
+SD,441,Motor vehicle & parts,2019,7,4.7
+SD,441,Motor vehicle & parts,2019,8,5.3
+SD,441,Motor vehicle & parts,2019,9,3.3
+SD,441,Motor vehicle & parts,2019,10,4.5
+SD,441,Motor vehicle & parts,2019,11,6.2
+SD,441,Motor vehicle & parts,2019,12,0.5
+SD,441,Motor vehicle & parts,2020,1,6.6
+SD,441,Motor vehicle & parts,2020,2,9.3
+SD,441,Motor vehicle & parts,2020,3,-25.1
+SD,441,Motor vehicle & parts,2020,4,-31.7
+SD,441,Motor vehicle & parts,2020,5,-3.7
+SD,441,Motor vehicle & parts,2020,6,8.7
+SD,441,Motor vehicle & parts,2020,7,5.9
+SD,441,Motor vehicle & parts,2020,8,-0.6
+SD,441,Motor vehicle & parts,2020,9,12.1
+SD,441,Motor vehicle & parts,2020,10,9.3
+SD,441,Motor vehicle & parts,2020,11,1.4
+SD,441,Motor vehicle & parts,2020,12,11.6
+SD,441,Motor vehicle & parts,2021,1,23.7
+SD,441,Motor vehicle & parts,2021,2,16.7
+SD,441,Motor vehicle & parts,2021,3,96.9
+SD,441,Motor vehicle & parts,2021,4,122.1
+SD,441,Motor vehicle & parts,2021,5,43.9
+SD,441,Motor vehicle & parts,2021,6,29.2
+SD,441,Motor vehicle & parts,2021,7,24.5
+SD,441,Motor vehicle & parts,2021,8,21.4
+SD,441,Motor vehicle & parts,2021,9,19.3
+SD,441,Motor vehicle & parts,2021,10,20.7
+SD,441,Motor vehicle & parts,2021,11,30.0
+SD,441,Motor vehicle & parts,2021,12,20.8
+SD,441,Motor vehicle & parts,2022,1,-8.3
+SD,441,Motor vehicle & parts,2022,2,-4.6
+SD,441,Motor vehicle & parts,2022,3,-19.4
+SD,441,Motor vehicle & parts,2022,4,-20.5
+SD,441,Motor vehicle & parts,2022,5,-22.6
+SD,441,Motor vehicle & parts,2022,6,-17.7
+SD,441,Motor vehicle & parts,2022,7,-18.7
+SD,441,Motor vehicle & parts,2022,8,-10.1
+SD,441,Motor vehicle & parts,2022,9,-14.1
+SD,441,Motor vehicle & parts,2022,10,-13.5
+SD,441,Motor vehicle & parts,2022,11,-17.9
+SD,441,Motor vehicle & parts,2022,12,-17.3
+SD,441,Motor vehicle & parts,2023,1,2.1
+SD,441,Motor vehicle & parts,2023,2,0.5
+SD,441,Motor vehicle & parts,2023,3,-1.3
+SD,441,Motor vehicle & parts,2023,4,-4.3
+SD,441,Motor vehicle & parts,2023,5,6.3
+SD,441,Motor vehicle & parts,2023,6,2.9
+SD,441,Motor vehicle & parts,2023,7,3.1
+SD,441,Motor vehicle & parts,2023,8,1.0
+SD,441,Motor vehicle & parts,2023,9,4.3
+SD,441,Motor vehicle & parts,2023,10,-0.9
+SD,441,Motor vehicle & parts,2023,11,2.9
+SD,441,Motor vehicle & parts,2023,12,2.9
+SD,441,Motor vehicle & parts,2024,1,-2.1
+SD,441,Motor vehicle & parts,2024,2,4.0
+SD,441,Motor vehicle & parts,2024,3,-2.6
+SD,441,Motor vehicle & parts,2024,4,2.8
+SD,441,Motor vehicle & parts,2024,5,1.0
+SD,441,Motor vehicle & parts,2024,6,-7.2
+SD,441,Motor vehicle & parts,2024,7,3.3
+SD,441,Motor vehicle & parts,2024,8,0.9
+SD,441,Motor vehicle & parts,2024,9,-4.2
+SD,441,Motor vehicle & parts,2024,10,6.7
+SD,441,Motor vehicle & parts,2024,11,8.5
+SD,441,Motor vehicle & parts,2024,12,7.0
+SD,441,Motor vehicle & parts,2025,1,3.3
+SD,441,Motor vehicle & parts,2025,2,-1.8
+SD,441,Motor vehicle & parts,2025,3,9.4
+SD,441,Motor vehicle & parts,2025,4,7.6
+SD,441,Motor vehicle & parts,2025,5,1.1
+SD,441,Motor vehicle & parts,2025,6,5.2
+SD,441,Motor vehicle & parts,2025,7,5.4
+SD,441,Motor vehicle & parts,2025,8,3.2
+SD,441,Motor vehicle & parts,2025,9,7.6
+SD,441,Motor vehicle & parts,2025,10,1.3
+SD,441,Motor vehicle & parts,2025,11,-3.8
+SD,441,Motor vehicle & parts,2025,12,1.9
+SD,441,Motor vehicle & parts,2026,1,0.7
+SD,441,Motor vehicle & parts,2026,2,0.8
+SD,441,Motor vehicle & parts,2026,3,-1.4
+SD,441,Motor vehicle & parts,2026,4,-0.9
+SD,441,Motor vehicle & parts,2026,5,3.2
+SD,445,Food & beverage stores,2019,1,6.6
+SD,445,Food & beverage stores,2019,2,0.0
+SD,445,Food & beverage stores,2019,3,0.7
+SD,445,Food & beverage stores,2019,4,4.4
+SD,445,Food & beverage stores,2019,5,2.2
+SD,445,Food & beverage stores,2019,6,4.2
+SD,445,Food & beverage stores,2019,7,8.7
+SD,445,Food & beverage stores,2019,8,9.5
+SD,445,Food & beverage stores,2019,9,3.1
+SD,445,Food & beverage stores,2019,10,4.8
+SD,445,Food & beverage stores,2019,11,5.5
+SD,445,Food & beverage stores,2019,12,3.8
+SD,445,Food & beverage stores,2020,1,8.0
+SD,445,Food & beverage stores,2020,2,14.3
+SD,445,Food & beverage stores,2020,3,30.2
+SD,445,Food & beverage stores,2020,4,21.1
+SD,445,Food & beverage stores,2020,5,24.1
+SD,445,Food & beverage stores,2020,6,17.8
+SD,445,Food & beverage stores,2020,7,17.1
+SD,445,Food & beverage stores,2020,8,15.5
+SD,445,Food & beverage stores,2020,9,18.9
+SD,445,Food & beverage stores,2020,10,21.0
+SD,445,Food & beverage stores,2020,11,9.6
+SD,445,Food & beverage stores,2020,12,14.3
+SD,445,Food & beverage stores,2021,1,9.8
+SD,445,Food & beverage stores,2021,2,6.4
+SD,445,Food & beverage stores,2021,3,-5.9
+SD,445,Food & beverage stores,2021,4,1.1
+SD,445,Food & beverage stores,2021,5,-1.1
+SD,445,Food & beverage stores,2021,6,3.0
+SD,445,Food & beverage stores,2021,7,3.4
+SD,445,Food & beverage stores,2021,8,4.2
+SD,445,Food & beverage stores,2021,9,6.3
+SD,445,Food & beverage stores,2021,10,3.5
+SD,445,Food & beverage stores,2021,11,10.6
+SD,445,Food & beverage stores,2021,12,9.6
+SD,445,Food & beverage stores,2022,1,3.8
+SD,445,Food & beverage stores,2022,2,7.7
+SD,445,Food & beverage stores,2022,3,5.6
+SD,445,Food & beverage stores,2022,4,7.3
+SD,445,Food & beverage stores,2022,5,5.3
+SD,445,Food & beverage stores,2022,6,9.1
+SD,445,Food & beverage stores,2022,7,7.7
+SD,445,Food & beverage stores,2022,8,4.8
+SD,445,Food & beverage stores,2022,9,3.5
+SD,445,Food & beverage stores,2022,10,6.1
+SD,445,Food & beverage stores,2022,11,6.1
+SD,445,Food & beverage stores,2022,12,6.5
+SD,445,Food & beverage stores,2023,1,3.5
+SD,445,Food & beverage stores,2023,2,4.6
+SD,445,Food & beverage stores,2023,3,2.9
+SD,445,Food & beverage stores,2023,4,2.4
+SD,445,Food & beverage stores,2023,5,2.9
+SD,445,Food & beverage stores,2023,6,-0.5
+SD,445,Food & beverage stores,2023,7,-2.0
+SD,445,Food & beverage stores,2023,8,2.6
+SD,445,Food & beverage stores,2023,9,3.6
+SD,445,Food & beverage stores,2023,10,-1.0
+SD,445,Food & beverage stores,2023,11,1.2
+SD,445,Food & beverage stores,2023,12,0.5
+SD,445,Food & beverage stores,2024,1,-2.7
+SD,445,Food & beverage stores,2024,2,-0.1
+SD,445,Food & beverage stores,2024,3,-0.8
+SD,445,Food & beverage stores,2024,4,-7.6
+SD,445,Food & beverage stores,2024,5,-2.1
+SD,445,Food & beverage stores,2024,6,-3.7
+SD,445,Food & beverage stores,2024,7,-1.8
+SD,445,Food & beverage stores,2024,8,-2.3
+SD,445,Food & beverage stores,2024,9,-4.5
+SD,445,Food & beverage stores,2024,10,-2.3
+SD,445,Food & beverage stores,2024,11,-0.2
+SD,445,Food & beverage stores,2024,12,-4.2
+SD,445,Food & beverage stores,2025,1,4.5
+SD,445,Food & beverage stores,2025,2,-0.6
+SD,445,Food & beverage stores,2025,3,-0.6
+SD,445,Food & beverage stores,2025,4,6.5
+SD,445,Food & beverage stores,2025,5,1.3
+SD,445,Food & beverage stores,2025,6,1.0
+SD,445,Food & beverage stores,2025,7,2.2
+SD,445,Food & beverage stores,2025,8,1.8
+SD,445,Food & beverage stores,2025,9,0.3
+SD,445,Food & beverage stores,2025,10,3.5
+SD,445,Food & beverage stores,2025,11,2.7
+SD,445,Food & beverage stores,2025,12,1.9
+SD,445,Food & beverage stores,2026,1,-0.1
+SD,445,Food & beverage stores,2026,2,-0.4
+SD,445,Food & beverage stores,2026,3,1.5
+SD,445,Food & beverage stores,2026,4,1.7
+SD,445,Food & beverage stores,2026,5,3.4
+SD,447,Gasoline stations,2019,1,4.1
+SD,447,Gasoline stations,2019,2,-3.2
+SD,447,Gasoline stations,2019,3,10.9
+SD,447,Gasoline stations,2019,4,3.1
+SD,447,Gasoline stations,2019,5,-1.5
+SD,447,Gasoline stations,2019,6,-5.3
+SD,447,Gasoline stations,2019,7,6.8
+SD,447,Gasoline stations,2019,8,15.3
+SD,447,Gasoline stations,2019,9,-4.6
+SD,447,Gasoline stations,2019,10,-6.3
+SD,447,Gasoline stations,2019,11,-2.2
+SD,447,Gasoline stations,2019,12,6.9
+SD,447,Gasoline stations,2020,1,0.1
+SD,447,Gasoline stations,2020,2,-2.1
+SD,447,Gasoline stations,2020,3,-21.9
+SD,447,Gasoline stations,2020,4,-41.5
+SD,447,Gasoline stations,2020,5,-34.8
+SD,447,Gasoline stations,2020,6,-23.3
+SD,447,Gasoline stations,2020,7,-19.8
+SD,447,Gasoline stations,2020,8,-18.7
+SD,447,Gasoline stations,2020,9,-15.5
+SD,447,Gasoline stations,2020,10,-17.5
+SD,447,Gasoline stations,2020,11,-22.2
+SD,447,Gasoline stations,2020,12,-15.5
+SD,447,Gasoline stations,2021,1,-11.1
+SD,447,Gasoline stations,2021,2,-7.6
+SD,447,Gasoline stations,2021,3,33.0
+SD,447,Gasoline stations,2021,4,68.8
+SD,447,Gasoline stations,2021,5,30.6
+SD,447,Gasoline stations,2021,6,30.2
+SD,447,Gasoline stations,2021,7,26.3
+SD,447,Gasoline stations,2021,8,24.7
+SD,447,Gasoline stations,2021,9,28.3
+SD,447,Gasoline stations,2021,10,32.4
+SD,447,Gasoline stations,2021,11,42.6
+SD,447,Gasoline stations,2021,12,32.4
+SD,447,Gasoline stations,2022,1,31.2
+SD,447,Gasoline stations,2022,2,34.4
+SD,447,Gasoline stations,2022,3,26.3
+SD,447,Gasoline stations,2022,4,26.4
+SD,447,Gasoline stations,2022,5,53.9
+SD,447,Gasoline stations,2022,6,44.8
+SD,447,Gasoline stations,2022,7,35.3
+SD,447,Gasoline stations,2022,8,24.6
+SD,447,Gasoline stations,2022,9,11.7
+SD,447,Gasoline stations,2022,10,9.8
+SD,447,Gasoline stations,2022,11,6.1
+SD,447,Gasoline stations,2022,12,-2.8
+SD,447,Gasoline stations,2023,1,11.4
+SD,447,Gasoline stations,2023,2,7.4
+SD,447,Gasoline stations,2023,3,-5.4
+SD,447,Gasoline stations,2023,4,-8.3
+SD,447,Gasoline stations,2023,5,-14.0
+SD,447,Gasoline stations,2023,6,-17.1
+SD,447,Gasoline stations,2023,7,-15.3
+SD,447,Gasoline stations,2023,8,-0.5
+SD,447,Gasoline stations,2023,9,8.7
+SD,447,Gasoline stations,2023,10,3.1
+SD,447,Gasoline stations,2023,11,1.1
+SD,447,Gasoline stations,2023,12,5.2
+SD,447,Gasoline stations,2024,1,-11.4
+SD,447,Gasoline stations,2024,2,-3.6
+SD,447,Gasoline stations,2024,3,-4.5
+SD,447,Gasoline stations,2024,4,1.8
+SD,447,Gasoline stations,2024,5,-0.1
+SD,447,Gasoline stations,2024,6,-3.5
+SD,447,Gasoline stations,2024,7,0.5
+SD,447,Gasoline stations,2024,8,-6.8
+SD,447,Gasoline stations,2024,9,-12.2
+SD,447,Gasoline stations,2024,10,-7.0
+SD,447,Gasoline stations,2024,11,-4.4
+SD,447,Gasoline stations,2024,12,0.0
+SD,447,Gasoline stations,2025,1,8.1
+SD,447,Gasoline stations,2025,2,-1.0
+SD,447,Gasoline stations,2025,3,-1.6
+SD,447,Gasoline stations,2025,4,-2.7
+SD,447,Gasoline stations,2025,5,-1.5
+SD,447,Gasoline stations,2025,6,-0.6
+SD,447,Gasoline stations,2025,7,-0.4
+SD,447,Gasoline stations,2025,8,0.6
+SD,447,Gasoline stations,2025,9,-0.1
+SD,447,Gasoline stations,2025,10,1.9
+SD,447,Gasoline stations,2025,11,2.4
+SD,447,Gasoline stations,2025,12,2.5
+SD,447,Gasoline stations,2026,1,-1.3
+SD,447,Gasoline stations,2026,2,-1.0
+SD,447,Gasoline stations,2026,3,12.0
+SD,447,Gasoline stations,2026,4,21.5
+SD,447,Gasoline stations,2026,5,25.1
+SD,448,Clothing,2019,1,2.0
+SD,448,Clothing,2019,2,-4.4
+SD,448,Clothing,2019,3,1.8
+SD,448,Clothing,2019,4,6.2
+SD,448,Clothing,2019,5,-0.6
+SD,448,Clothing,2019,6,1.4
+SD,448,Clothing,2019,7,0.7
+SD,448,Clothing,2019,8,0.9
+SD,448,Clothing,2019,9,-1.2
+SD,448,Clothing,2019,10,3.5
+SD,448,Clothing,2019,11,2.8
+SD,448,Clothing,2019,12,5.8
+SD,448,Clothing,2020,1,-8.2
+SD,448,Clothing,2020,2,1.5
+SD,448,Clothing,2020,3,-51.0
+SD,448,Clothing,2020,4,-66.2
+SD,448,Clothing,2020,6,-17.4
+SD,448,Clothing,2020,7,-23.2
+SD,448,Clothing,2020,8,-25.6
+SD,448,Clothing,2020,9,-9.3
+SD,448,Clothing,2020,10,-15.6
+SD,448,Clothing,2020,11,-19.5
+SD,448,Clothing,2020,12,-10.4
+SD,448,Clothing,2021,1,4.0
+SD,448,Clothing,2021,2,-15.4
+SD,448,Clothing,2021,3,124.7
+SD,448,Clothing,2021,7,43.4
+SD,448,Clothing,2021,8,39.3
+SD,448,Clothing,2021,9,22.2
+SD,448,Clothing,2021,10,27.4
+SD,448,Clothing,2021,11,33.9
+SD,448,Clothing,2021,12,11.9
+SD,448,Clothing,2022,1,12.2
+SD,448,Clothing,2022,2,30.5
+SD,448,Clothing,2022,3,2.7
+SD,448,Clothing,2022,4,11.0
+SD,448,Clothing,2022,5,6.1
+SD,448,Clothing,2022,6,2.6
+SD,448,Clothing,2022,7,-0.3
+SD,448,Clothing,2022,8,3.4
+SD,448,Clothing,2022,9,4.3
+SD,448,Clothing,2022,10,5.9
+SD,448,Clothing,2022,11,3.6
+SD,448,Clothing,2022,12,2.5
+SD,448,Clothing,2023,1,25.1
+SD,448,Clothing,2023,2,22.0
+SD,448,Clothing,2023,3,10.7
+SD,448,Clothing,2023,4,15.0
+SD,448,Clothing,2023,5,17.9
+SD,448,Clothing,2023,6,15.6
+SD,448,Clothing,2023,7,9.7
+SD,448,Clothing,2023,8,3.4
+SD,448,Clothing,2023,9,15.8
+SD,448,Clothing,2023,10,16.4
+SD,448,Clothing,2023,11,24.3
+SD,448,Clothing,2024,1,-7.2
+SD,448,Clothing,2024,2,2.6
+SD,448,Clothing,2024,3,-4.8
+SD,448,Clothing,2024,4,-8.2
+SD,448,Clothing,2024,5,-6.4
+SD,448,Clothing,2024,6,-6.7
+SD,448,Clothing,2024,7,-1.6
+SD,448,Clothing,2024,8,-1.0
+SD,448,Clothing,2024,9,-7.6
+SD,448,Clothing,2024,10,-3.5
+SD,448,Clothing,2024,11,-8.1
+SD,448,Clothing,2024,12,-10.9
+SD,448,Clothing,2025,1,7.2
+SD,448,Clothing,2025,2,-4.2
+SD,448,Clothing,2025,3,7.3
+SD,448,Clothing,2025,4,5.0
+SD,448,Clothing,2025,5,6.9
+SD,448,Clothing,2025,6,5.0
+SD,448,Clothing,2025,7,6.4
+SD,448,Clothing,2025,8,7.1
+SD,448,Clothing,2025,9,7.5
+SD,448,Clothing,2025,10,7.5
+SD,448,Clothing,2025,11,9.4
+SD,448,Clothing,2025,12,9.6
+SD,448,Clothing,2026,1,8.8
+SD,448,Clothing,2026,2,12.5
+SD,448,Clothing,2026,3,5.2
+SD,448,Clothing,2026,4,7.8
+SD,448,Clothing,2026,5,5.8
+SD,452,General merchandise,2019,1,3.9
+SD,452,General merchandise,2019,2,-4.3
+SD,452,General merchandise,2019,3,3.9
+SD,452,General merchandise,2019,4,8.0
+SD,452,General merchandise,2019,5,0.3
+SD,452,General merchandise,2019,6,7.8
+SD,452,General merchandise,2019,7,7.7
+SD,452,General merchandise,2019,8,9.4
+SD,452,General merchandise,2019,9,1.3
+SD,452,General merchandise,2019,10,7.4
+SD,452,General merchandise,2019,11,-1.0
+SD,452,General merchandise,2019,12,2.4
+SD,452,General merchandise,2020,1,-2.7
+SD,452,General merchandise,2020,2,10.3
+SD,452,General merchandise,2020,3,3.4
+SD,452,General merchandise,2020,5,14.5
+SD,452,General merchandise,2020,6,9.5
+SD,452,General merchandise,2020,7,6.7
+SD,452,General merchandise,2020,8,-2.4
+SD,452,General merchandise,2020,9,2.4
+SD,452,General merchandise,2020,10,-1.8
+SD,452,General merchandise,2020,11,-2.3
+SD,452,General merchandise,2020,12,-2.3
+SD,452,General merchandise,2021,1,14.6
+SD,452,General merchandise,2021,2,-1.5
+SD,452,General merchandise,2021,3,3.6
+SD,452,General merchandise,2021,4,122.0
+SD,452,General merchandise,2021,5,-9.0
+SD,452,General merchandise,2021,6,-8.2
+SD,452,General merchandise,2021,7,-2.8
+SD,452,General merchandise,2021,8,-6.3
+SD,452,General merchandise,2021,9,3.6
+SD,452,General merchandise,2021,10,9.8
+SD,452,General merchandise,2021,11,5.7
+SD,452,General merchandise,2021,12,3.0
+SD,452,General merchandise,2022,1,6.7
+SD,452,General merchandise,2022,2,12.9
+SD,452,General merchandise,2022,3,3.6
+SD,452,General merchandise,2022,4,10.2
+SD,452,General merchandise,2022,5,11.4
+SD,452,General merchandise,2022,6,14.7
+SD,452,General merchandise,2022,7,12.4
+SD,452,General merchandise,2022,8,20.3
+SD,452,General merchandise,2022,9,9.8
+SD,452,General merchandise,2022,10,7.3
+SD,452,General merchandise,2022,11,7.4
+SD,452,General merchandise,2022,12,0.2
+SD,452,General merchandise,2023,1,-5.2
+SD,452,General merchandise,2023,2,-1.9
+SD,452,General merchandise,2023,3,-5.3
+SD,452,General merchandise,2023,4,-1.0
+SD,452,General merchandise,2023,5,-2.3
+SD,452,General merchandise,2023,6,-2.8
+SD,452,General merchandise,2023,7,-5.9
+SD,452,General merchandise,2023,8,-0.7
+SD,452,General merchandise,2023,9,-0.5
+SD,452,General merchandise,2023,10,-2.3
+SD,452,General merchandise,2023,11,-3.1
+SD,452,General merchandise,2023,12,7.5
+SD,452,General merchandise,2024,1,0.5
+SD,452,General merchandise,2024,2,7.4
+SD,452,General merchandise,2024,3,8.9
+SD,452,General merchandise,2024,4,-1.9
+SD,452,General merchandise,2024,5,3.6
+SD,452,General merchandise,2024,6,1.4
+SD,452,General merchandise,2024,7,9.8
+SD,452,General merchandise,2024,8,6.9
+SD,452,General merchandise,2024,9,-1.5
+SD,452,General merchandise,2024,10,5.1
+SD,452,General merchandise,2024,11,8.7
+SD,452,General merchandise,2024,12,0.5
+SD,452,General merchandise,2025,1,16.7
+SD,452,General merchandise,2025,2,2.2
+SD,452,General merchandise,2025,3,4.7
+SD,452,General merchandise,2025,4,7.8
+SD,452,General merchandise,2025,5,8.3
+SD,452,General merchandise,2025,6,4.5
+SD,452,General merchandise,2025,7,1.5
+SD,452,General merchandise,2025,8,-0.5
+SD,452,General merchandise,2025,9,-0.5
+SD,452,General merchandise,2025,10,-1.9
+SD,452,General merchandise,2025,11,-3.5
+SD,452,General merchandise,2025,12,0.3
+SD,452,General merchandise,2026,1,-0.4
+SD,452,General merchandise,2026,2,-0.9
+SD,452,General merchandise,2026,3,-1.2
+SD,452,General merchandise,2026,4,0.1
+SD,452,General merchandise,2026,5,-2.8
+SD,453,Miscellaneous store retailers,2019,1,-6.1
+SD,453,Miscellaneous store retailers,2019,2,3.8
+SD,453,Miscellaneous store retailers,2019,3,12.8
+SD,453,Miscellaneous store retailers,2019,4,11.2
+SD,453,Miscellaneous store retailers,2019,5,4.7
+SD,453,Miscellaneous store retailers,2019,6,2.7
+SD,453,Miscellaneous store retailers,2019,7,12.3
+SD,453,Miscellaneous store retailers,2019,8,6.9
+SD,453,Miscellaneous store retailers,2019,9,6.1
+SD,453,Miscellaneous store retailers,2019,10,3.1
+SD,453,Miscellaneous store retailers,2019,11,11.1
+SD,453,Miscellaneous store retailers,2019,12,15.6
+SD,453,Miscellaneous store retailers,2020,1,6.4
+SD,453,Miscellaneous store retailers,2020,3,-1.8
+SD,453,Miscellaneous store retailers,2020,4,-32.4
+SD,453,Miscellaneous store retailers,2020,5,-18.4
+SD,453,Miscellaneous store retailers,2020,6,-16.5
+SD,453,Miscellaneous store retailers,2020,7,-1.1
+SD,453,Miscellaneous store retailers,2020,8,-4.1
+SD,453,Miscellaneous store retailers,2020,9,3.2
+SD,453,Miscellaneous store retailers,2020,10,1.8
+SD,453,Miscellaneous store retailers,2020,11,-5.6
+SD,453,Miscellaneous store retailers,2020,12,2.5
+SD,453,Miscellaneous store retailers,2021,1,6.3
+SD,453,Miscellaneous store retailers,2021,2,15.9
+SD,453,Miscellaneous store retailers,2021,3,69.4
+SD,453,Miscellaneous store retailers,2021,4,108.8
+SD,453,Miscellaneous store retailers,2021,5,43.1
+SD,453,Miscellaneous store retailers,2021,6,59.2
+SD,453,Miscellaneous store retailers,2021,7,31.2
+SD,453,Miscellaneous store retailers,2021,8,37.0
+SD,453,Miscellaneous store retailers,2021,9,41.4
+SD,453,Miscellaneous store retailers,2021,10,36.1
+SD,453,Miscellaneous store retailers,2021,11,45.5
+SD,453,Miscellaneous store retailers,2021,12,29.1
+SD,453,Miscellaneous store retailers,2022,1,28.4
+SD,453,Miscellaneous store retailers,2022,2,28.1
+SD,453,Miscellaneous store retailers,2022,3,-1.6
+SD,453,Miscellaneous store retailers,2022,4,4.7
+SD,453,Miscellaneous store retailers,2022,5,15.5
+SD,453,Miscellaneous store retailers,2022,6,9.4
+SD,453,Miscellaneous store retailers,2022,7,5.5
+SD,453,Miscellaneous store retailers,2022,8,4.8
+SD,453,Miscellaneous store retailers,2022,9,0.1
+SD,453,Miscellaneous store retailers,2022,10,1.8
+SD,453,Miscellaneous store retailers,2022,11,-10.5
+SD,453,Miscellaneous store retailers,2022,12,-4.7
+SD,453,Miscellaneous store retailers,2023,1,28.5
+SD,453,Miscellaneous store retailers,2023,2,-0.6
+SD,453,Miscellaneous store retailers,2023,3,2.6
+SD,453,Miscellaneous store retailers,2023,4,6.0
+SD,453,Miscellaneous store retailers,2023,5,13.0
+SD,453,Miscellaneous store retailers,2023,6,11.5
+SD,453,Miscellaneous store retailers,2023,7,7.2
+SD,453,Miscellaneous store retailers,2023,8,4.2
+SD,453,Miscellaneous store retailers,2023,9,6.9
+SD,453,Miscellaneous store retailers,2023,10,4.3
+SD,453,Miscellaneous store retailers,2023,11,22.1
+SD,453,Miscellaneous store retailers,2023,12,10.4
+SD,453,Miscellaneous store retailers,2024,1,15.5
+SD,453,Miscellaneous store retailers,2024,2,17.6
+SD,453,Miscellaneous store retailers,2024,3,17.6
+SD,453,Miscellaneous store retailers,2024,4,21.4
+SD,453,Miscellaneous store retailers,2024,5,13.2
+SD,453,Miscellaneous store retailers,2024,6,12.8
+SD,453,Miscellaneous store retailers,2024,7,16.5
+SD,453,Miscellaneous store retailers,2024,8,24.3
+SD,453,Miscellaneous store retailers,2024,9,17.6
+SD,453,Miscellaneous store retailers,2024,10,21.4
+SD,453,Miscellaneous store retailers,2024,11,4.3
+SD,453,Miscellaneous store retailers,2024,12,16.4
+SD,453,Miscellaneous store retailers,2025,1,9.8
+SD,453,Miscellaneous store retailers,2025,2,8.2
+SD,453,Miscellaneous store retailers,2025,3,12.4
+SD,453,Miscellaneous store retailers,2025,4,4.2
+SD,453,Miscellaneous store retailers,2025,5,9.7
+SD,453,Miscellaneous store retailers,2025,6,10.3
+SD,453,Miscellaneous store retailers,2025,7,16.1
+SD,453,Miscellaneous store retailers,2025,8,2.7
+SD,453,Miscellaneous store retailers,2025,9,10.6
+SD,453,Miscellaneous store retailers,2025,10,6.0
+SD,453,Miscellaneous store retailers,2025,11,17.2
+SD,453,Miscellaneous store retailers,2025,12,9.9
+SD,453,Miscellaneous store retailers,2026,1,8.1
+SD,453,Miscellaneous store retailers,2026,2,11.7
+SD,453,Miscellaneous store retailers,2026,3,9.1
+SD,453,Miscellaneous store retailers,2026,4,11.2
+SD,453,Miscellaneous store retailers,2026,5,11.7
+SD,TOTAL,Total retail,2019,1,3.2
+SD,TOTAL,Total retail,2019,2,-1.0
+SD,TOTAL,Total retail,2019,3,2.3
+SD,TOTAL,Total retail,2019,4,4.8
+SD,TOTAL,Total retail,2019,5,0.0
+SD,TOTAL,Total retail,2019,6,0.1
+SD,TOTAL,Total retail,2019,7,6.0
+SD,TOTAL,Total retail,2019,8,7.4
+SD,TOTAL,Total retail,2019,9,1.2
+SD,TOTAL,Total retail,2019,10,2.3
+SD,TOTAL,Total retail,2019,11,2.0
+SD,TOTAL,Total retail,2019,12,4.0
+SD,TOTAL,Total retail,2020,1,2.7
+SD,TOTAL,Total retail,2020,2,7.8
+SD,TOTAL,Total retail,2020,3,-10.1
+SD,TOTAL,Total retail,2020,4,-27.8
+SD,TOTAL,Total retail,2020,5,-4.6
+SD,TOTAL,Total retail,2020,6,3.4
+SD,TOTAL,Total retail,2020,7,1.9
+SD,TOTAL,Total retail,2020,8,-2.2
+SD,TOTAL,Total retail,2020,9,5.2
+SD,TOTAL,Total retail,2020,10,1.9
+SD,TOTAL,Total retail,2020,11,-2.6
+SD,TOTAL,Total retail,2020,12,3.7
+SD,TOTAL,Total retail,2021,1,12.2
+SD,TOTAL,Total retail,2021,2,7.3
+SD,TOTAL,Total retail,2021,3,44.2
+SD,TOTAL,Total retail,2021,4,76.4
+SD,TOTAL,Total retail,2021,5,23.1
+SD,TOTAL,Total retail,2021,6,18.4
+SD,TOTAL,Total retail,2021,7,16.3
+SD,TOTAL,Total retail,2021,8,14.6
+SD,TOTAL,Total retail,2021,9,16.2
+SD,TOTAL,Total retail,2021,10,18.2
+SD,TOTAL,Total retail,2021,11,24.4
+SD,TOTAL,Total retail,2021,12,17.2
+SD,TOTAL,Total retail,2022,1,6.0
+SD,TOTAL,Total retail,2022,2,10.7
+SD,TOTAL,Total retail,2022,3,-0.9
+SD,TOTAL,Total retail,2022,4,-0.8
+SD,TOTAL,Total retail,2022,5,4.5
+SD,TOTAL,Total retail,2022,6,6.0
+SD,TOTAL,Total retail,2022,7,3.9
+SD,TOTAL,Total retail,2022,8,7.1
+SD,TOTAL,Total retail,2022,9,1.1
+SD,TOTAL,Total retail,2022,10,0.9
+SD,TOTAL,Total retail,2022,11,-2.1
+SD,TOTAL,Total retail,2022,12,-4.6
+SD,TOTAL,Total retail,2023,1,5.1
+SD,TOTAL,Total retail,2023,2,2.8
+SD,TOTAL,Total retail,2023,3,-2.2
+SD,TOTAL,Total retail,2023,4,-3.1
+SD,TOTAL,Total retail,2023,5,-0.6
+SD,TOTAL,Total retail,2023,6,-3.4
+SD,TOTAL,Total retail,2023,7,-4.2
+SD,TOTAL,Total retail,2023,8,0.6
+SD,TOTAL,Total retail,2023,9,3.4
+SD,TOTAL,Total retail,2023,10,0.9
+SD,TOTAL,Total retail,2023,11,2.0
+SD,TOTAL,Total retail,2023,12,3.7
+SD,TOTAL,Total retail,2024,1,-4.1
+SD,TOTAL,Total retail,2024,2,2.2
+SD,TOTAL,Total retail,2024,3,-1.7
+SD,TOTAL,Total retail,2024,4,0.8
+SD,TOTAL,Total retail,2024,5,-0.1
+SD,TOTAL,Total retail,2024,6,-4.1
+SD,TOTAL,Total retail,2024,7,3.7
+SD,TOTAL,Total retail,2024,8,-0.1
+SD,TOTAL,Total retail,2024,9,-4.5
+SD,TOTAL,Total retail,2024,10,1.8
+SD,TOTAL,Total retail,2024,11,2.4
+SD,TOTAL,Total retail,2024,12,1.8
+SD,TOTAL,Total retail,2025,1,6.6
+SD,TOTAL,Total retail,2025,2,-1.0
+SD,TOTAL,Total retail,2025,3,4.8
+SD,TOTAL,Total retail,2025,4,4.9
+SD,TOTAL,Total retail,2025,5,2.2
+SD,TOTAL,Total retail,2025,6,3.6
+SD,TOTAL,Total retail,2025,7,3.5
+SD,TOTAL,Total retail,2025,8,1.2
+SD,TOTAL,Total retail,2025,9,3.4
+SD,TOTAL,Total retail,2025,10,1.5
+SD,TOTAL,Total retail,2025,11,-0.4
+SD,TOTAL,Total retail,2025,12,2.8
+SD,TOTAL,Total retail,2026,1,0.6
+SD,TOTAL,Total retail,2026,2,1.3
+SD,TOTAL,Total retail,2026,3,3.2
+SD,TOTAL,Total retail,2026,4,5.2
+SD,TOTAL,Total retail,2026,5,7.0
+USA,441,Motor vehicle & parts,2019,1,-0.1
+USA,441,Motor vehicle & parts,2019,2,0.3
+USA,441,Motor vehicle & parts,2019,3,0.7
+USA,441,Motor vehicle & parts,2019,4,4.1
+USA,441,Motor vehicle & parts,2019,5,2.4
+USA,441,Motor vehicle & parts,2019,6,-0.2
+USA,441,Motor vehicle & parts,2019,7,5.2
+USA,441,Motor vehicle & parts,2019,8,5.4
+USA,441,Motor vehicle & parts,2019,9,3.2
+USA,441,Motor vehicle & parts,2019,10,3.9
+USA,441,Motor vehicle & parts,2019,11,4.9
+USA,441,Motor vehicle & parts,2019,12,0.9
+USA,441,Motor vehicle & parts,2020,1,4.2
+USA,441,Motor vehicle & parts,2020,2,6.7
+USA,441,Motor vehicle & parts,2020,3,-27.3
+USA,441,Motor vehicle & parts,2020,4,-34.7
+USA,441,Motor vehicle & parts,2020,5,-6.9
+USA,441,Motor vehicle & parts,2020,6,5.8
+USA,441,Motor vehicle & parts,2020,7,3.1
+USA,441,Motor vehicle & parts,2020,8,-2.1
+USA,441,Motor vehicle & parts,2020,9,10.3
+USA,441,Motor vehicle & parts,2020,10,7.6
+USA,441,Motor vehicle & parts,2020,11,-0.7
+USA,441,Motor vehicle & parts,2020,12,9.8
+USA,441,Motor vehicle & parts,2021,1,9.5
+USA,441,Motor vehicle & parts,2021,2,3.4
+USA,441,Motor vehicle & parts,2021,3,76.3
+USA,441,Motor vehicle & parts,2021,4,105.1
+USA,441,Motor vehicle & parts,2021,5,31.7
+USA,441,Motor vehicle & parts,2021,6,19.2
+USA,441,Motor vehicle & parts,2021,7,14.4
+USA,441,Motor vehicle & parts,2021,8,9.9
+USA,441,Motor vehicle & parts,2021,9,8.2
+USA,441,Motor vehicle & parts,2021,10,7.9
+USA,441,Motor vehicle & parts,2021,11,15.9
+USA,441,Motor vehicle & parts,2021,12,8.6
+USA,441,Motor vehicle & parts,2022,1,12.7
+USA,441,Motor vehicle & parts,2022,2,17.7
+USA,441,Motor vehicle & parts,2022,3,-1.5
+USA,441,Motor vehicle & parts,2022,4,-1.6
+USA,441,Motor vehicle & parts,2022,5,-4.5
+USA,441,Motor vehicle & parts,2022,6,-0.4
+USA,441,Motor vehicle & parts,2022,7,-1.7
+USA,441,Motor vehicle & parts,2022,8,9.7
+USA,441,Motor vehicle & parts,2022,9,5.2
+USA,441,Motor vehicle & parts,2022,10,5.3
+USA,441,Motor vehicle & parts,2022,11,1.6
+USA,441,Motor vehicle & parts,2022,12,0.6
+USA,441,Motor vehicle & parts,2023,1,3.7
+USA,441,Motor vehicle & parts,2023,2,1.4
+USA,441,Motor vehicle & parts,2023,3,1.1
+USA,441,Motor vehicle & parts,2023,4,-2.6
+USA,441,Motor vehicle & parts,2023,5,8.5
+USA,441,Motor vehicle & parts,2023,6,6.0
+USA,441,Motor vehicle & parts,2023,7,6.6
+USA,441,Motor vehicle & parts,2023,8,4.9
+USA,441,Motor vehicle & parts,2023,9,7.0
+USA,441,Motor vehicle & parts,2023,10,2.5
+USA,441,Motor vehicle & parts,2023,11,5.9
+USA,441,Motor vehicle & parts,2023,12,6.3
+USA,441,Motor vehicle & parts,2024,1,0.3
+USA,441,Motor vehicle & parts,2024,2,6.8
+USA,441,Motor vehicle & parts,2024,3,-0.3
+USA,441,Motor vehicle & parts,2024,4,4.3
+USA,441,Motor vehicle & parts,2024,5,1.7
+USA,441,Motor vehicle & parts,2024,6,-6.5
+USA,441,Motor vehicle & parts,2024,7,3.9
+USA,441,Motor vehicle & parts,2024,8,1.2
+USA,441,Motor vehicle & parts,2024,9,-3.7
+USA,441,Motor vehicle & parts,2024,10,6.5
+USA,441,Motor vehicle & parts,2024,11,8.1
+USA,441,Motor vehicle & parts,2024,12,7.4
+USA,441,Motor vehicle & parts,2025,1,5.8
+USA,441,Motor vehicle & parts,2025,2,-1.6
+USA,441,Motor vehicle & parts,2025,3,10.3
+USA,441,Motor vehicle & parts,2025,4,8.3
+USA,441,Motor vehicle & parts,2025,5,1.8
+USA,441,Motor vehicle & parts,2025,6,5.3
+USA,441,Motor vehicle & parts,2025,7,4.8
+USA,441,Motor vehicle & parts,2025,8,3.2
+USA,441,Motor vehicle & parts,2025,9,8.2
+USA,441,Motor vehicle & parts,2025,10,1.5
+USA,441,Motor vehicle & parts,2025,11,-2.8
+USA,441,Motor vehicle & parts,2025,12,1.8
+USA,441,Motor vehicle & parts,2026,1,0.3
+USA,441,Motor vehicle & parts,2026,2,3.6
+USA,441,Motor vehicle & parts,2026,3,-1.8
+USA,441,Motor vehicle & parts,2026,4,-1.8
+USA,441,Motor vehicle & parts,2026,5,2.0
+USA,445,Food & beverage stores,2019,1,4.6
+USA,445,Food & beverage stores,2019,2,1.3
+USA,445,Food & beverage stores,2019,3,0.2
+USA,445,Food & beverage stores,2019,4,5.4
+USA,445,Food & beverage stores,2019,5,3.7
+USA,445,Food & beverage stores,2019,6,3.2
+USA,445,Food & beverage stores,2019,7,5.1
+USA,445,Food & beverage stores,2019,8,5.5
+USA,445,Food & beverage stores,2019,9,2.0
+USA,445,Food & beverage stores,2019,10,3.3
+USA,445,Food & beverage stores,2019,11,3.6
+USA,445,Food & beverage stores,2019,12,1.9
+USA,445,Food & beverage stores,2020,1,1.4
+USA,445,Food & beverage stores,2020,2,7.2
+USA,445,Food & beverage stores,2020,3,25.4
+USA,445,Food & beverage stores,2020,4,11.7
+USA,445,Food & beverage stores,2020,5,12.5
+USA,445,Food & beverage stores,2020,6,8.8
+USA,445,Food & beverage stores,2020,7,10.6
+USA,445,Food & beverage stores,2020,8,5.8
+USA,445,Food & beverage stores,2020,9,9.3
+USA,445,Food & beverage stores,2020,10,9.1
+USA,445,Food & beverage stores,2020,11,6.8
+USA,445,Food & beverage stores,2020,12,9.4
+USA,445,Food & beverage stores,2021,1,10.5
+USA,445,Food & beverage stores,2021,2,6.2
+USA,445,Food & beverage stores,2021,3,-10.3
+USA,445,Food & beverage stores,2021,4,1.1
+USA,445,Food & beverage stores,2021,5,0.7
+USA,445,Food & beverage stores,2021,6,5.4
+USA,445,Food & beverage stores,2021,7,4.2
+USA,445,Food & beverage stores,2021,8,6.7
+USA,445,Food & beverage stores,2021,9,8.5
+USA,445,Food & beverage stores,2021,10,8.9
+USA,445,Food & beverage stores,2021,11,8.5
+USA,445,Food & beverage stores,2021,12,9.8
+USA,445,Food & beverage stores,2022,1,7.4
+USA,445,Food & beverage stores,2022,2,8.0
+USA,445,Food & beverage stores,2022,3,7.8
+USA,445,Food & beverage stores,2022,4,9.8
+USA,445,Food & beverage stores,2022,5,7.1
+USA,445,Food & beverage stores,2022,6,8.4
+USA,445,Food & beverage stores,2022,7,7.4
+USA,445,Food & beverage stores,2022,8,6.8
+USA,445,Food & beverage stores,2022,9,6.7
+USA,445,Food & beverage stores,2022,10,6.3
+USA,445,Food & beverage stores,2022,11,7.9
+USA,445,Food & beverage stores,2022,12,6.5
+USA,445,Food & beverage stores,2023,1,4.0
+USA,445,Food & beverage stores,2023,2,5.7
+USA,445,Food & beverage stores,2023,3,4.6
+USA,445,Food & beverage stores,2023,4,2.7
+USA,445,Food & beverage stores,2023,5,3.2
+USA,445,Food & beverage stores,2023,6,1.2
+USA,445,Food & beverage stores,2023,7,1.1
+USA,445,Food & beverage stores,2023,8,2.6
+USA,445,Food & beverage stores,2023,9,2.2
+USA,445,Food & beverage stores,2023,10,-0.2
+USA,445,Food & beverage stores,2023,11,0.9
+USA,445,Food & beverage stores,2023,12,0.4
+USA,445,Food & beverage stores,2024,1,1.2
+USA,445,Food & beverage stores,2024,2,3.5
+USA,445,Food & beverage stores,2024,3,3.0
+USA,445,Food & beverage stores,2024,4,-1.0
+USA,445,Food & beverage stores,2024,5,2.8
+USA,445,Food & beverage stores,2024,6,1.9
+USA,445,Food & beverage stores,2024,7,2.5
+USA,445,Food & beverage stores,2024,8,2.7
+USA,445,Food & beverage stores,2024,9,0.6
+USA,445,Food & beverage stores,2024,10,4.1
+USA,445,Food & beverage stores,2024,11,3.2
+USA,445,Food & beverage stores,2024,12,1.5
+USA,445,Food & beverage stores,2025,1,5.0
+USA,445,Food & beverage stores,2025,2,0.3
+USA,445,Food & beverage stores,2025,3,0.7
+USA,445,Food & beverage stores,2025,4,5.7
+USA,445,Food & beverage stores,2025,5,2.6
+USA,445,Food & beverage stores,2025,6,1.5
+USA,445,Food & beverage stores,2025,7,2.8
+USA,445,Food & beverage stores,2025,8,2.9
+USA,445,Food & beverage stores,2025,9,2.3
+USA,445,Food & beverage stores,2025,10,2.6
+USA,445,Food & beverage stores,2025,11,0.9
+USA,445,Food & beverage stores,2025,12,1.8
+USA,445,Food & beverage stores,2026,1,1.7
+USA,445,Food & beverage stores,2026,2,-0.6
+USA,445,Food & beverage stores,2026,3,0.5
+USA,445,Food & beverage stores,2026,4,0.7
+USA,445,Food & beverage stores,2026,5,1.7
+USA,447,Gasoline stations,2019,1,-6.1
+USA,447,Gasoline stations,2019,2,-3.4
+USA,447,Gasoline stations,2019,3,0.0
+USA,447,Gasoline stations,2019,4,3.7
+USA,447,Gasoline stations,2019,5,-0.5
+USA,447,Gasoline stations,2019,6,-4.4
+USA,447,Gasoline stations,2019,7,-1.7
+USA,447,Gasoline stations,2019,8,-4.3
+USA,447,Gasoline stations,2019,9,-4.0
+USA,447,Gasoline stations,2019,10,-6.0
+USA,447,Gasoline stations,2019,11,-1.5
+USA,447,Gasoline stations,2019,12,7.2
+USA,447,Gasoline stations,2020,1,8.4
+USA,447,Gasoline stations,2020,2,3.7
+USA,447,Gasoline stations,2020,3,-18.8
+USA,447,Gasoline stations,2020,4,-39.6
+USA,447,Gasoline stations,2020,5,-32.4
+USA,447,Gasoline stations,2020,6,-19.2
+USA,447,Gasoline stations,2020,7,-16.5
+USA,447,Gasoline stations,2020,8,-16.0
+USA,447,Gasoline stations,2020,9,-13.4
+USA,447,Gasoline stations,2020,10,-14.5
+USA,447,Gasoline stations,2020,11,-17.7
+USA,447,Gasoline stations,2020,12,-11.5
+USA,447,Gasoline stations,2021,1,-7.0
+USA,447,Gasoline stations,2021,2,-2.8
+USA,447,Gasoline stations,2021,3,33.5
+USA,447,Gasoline stations,2021,4,67.1
+USA,447,Gasoline stations,2021,5,51.0
+USA,447,Gasoline stations,2021,6,38.3
+USA,447,Gasoline stations,2021,7,34.5
+USA,447,Gasoline stations,2021,8,34.3
+USA,447,Gasoline stations,2021,9,37.5
+USA,447,Gasoline stations,2021,10,41.1
+USA,447,Gasoline stations,2021,11,49.5
+USA,447,Gasoline stations,2021,12,39.1
+USA,447,Gasoline stations,2022,1,29.8
+USA,447,Gasoline stations,2022,2,34.3
+USA,447,Gasoline stations,2022,3,36.9
+USA,447,Gasoline stations,2022,4,41.1
+USA,447,Gasoline stations,2022,5,46.5
+USA,447,Gasoline stations,2022,6,45.8
+USA,447,Gasoline stations,2022,7,37.6
+USA,447,Gasoline stations,2022,8,26.8
+USA,447,Gasoline stations,2022,9,17.2
+USA,447,Gasoline stations,2022,10,16.7
+USA,447,Gasoline stations,2022,11,11.9
+USA,447,Gasoline stations,2022,12,3.7
+USA,447,Gasoline stations,2023,1,4.7
+USA,447,Gasoline stations,2023,2,-1.4
+USA,447,Gasoline stations,2023,3,-13.0
+USA,447,Gasoline stations,2023,4,-15.3
+USA,447,Gasoline stations,2023,5,-20.3
+USA,447,Gasoline stations,2023,6,-23.4
+USA,447,Gasoline stations,2023,7,-21.1
+USA,447,Gasoline stations,2023,8,-7.9
+USA,447,Gasoline stations,2023,9,-3.1
+USA,447,Gasoline stations,2023,10,-7.5
+USA,447,Gasoline stations,2023,11,-9.9
+USA,447,Gasoline stations,2023,12,-6.9
+USA,447,Gasoline stations,2024,1,-7.1
+USA,447,Gasoline stations,2024,2,-0.1
+USA,447,Gasoline stations,2024,3,-2.3
+USA,447,Gasoline stations,2024,4,3.0
+USA,447,Gasoline stations,2024,5,2.0
+USA,447,Gasoline stations,2024,6,-1.1
+USA,447,Gasoline stations,2024,7,1.6
+USA,447,Gasoline stations,2024,8,-6.1
+USA,447,Gasoline stations,2024,9,-11.4
+USA,447,Gasoline stations,2024,10,-6.9
+USA,447,Gasoline stations,2024,11,-4.7
+USA,447,Gasoline stations,2024,12,-0.9
+USA,447,Gasoline stations,2025,1,2.5
+USA,447,Gasoline stations,2025,2,-4.3
+USA,447,Gasoline stations,2025,3,-4.8
+USA,447,Gasoline stations,2025,4,-6.2
+USA,447,Gasoline stations,2025,5,-5.4
+USA,447,Gasoline stations,2025,6,-3.2
+USA,447,Gasoline stations,2025,7,-2.0
+USA,447,Gasoline stations,2025,8,-1.6
+USA,447,Gasoline stations,2025,9,4.0
+USA,447,Gasoline stations,2025,10,1.1
+USA,447,Gasoline stations,2025,11,2.2
+USA,447,Gasoline stations,2025,12,2.1
+USA,447,Gasoline stations,2026,1,-2.2
+USA,447,Gasoline stations,2026,2,-0.4
+USA,447,Gasoline stations,2026,3,17.0
+USA,447,Gasoline stations,2026,4,23.3
+USA,447,Gasoline stations,2026,5,26.2
+USA,448,Clothing,2019,1,2.6
+USA,448,Clothing,2019,2,-2.4
+USA,448,Clothing,2019,3,-0.5
+USA,448,Clothing,2019,4,5.1
+USA,448,Clothing,2019,5,-2.2
+USA,448,Clothing,2019,6,-0.8
+USA,448,Clothing,2019,7,0.3
+USA,448,Clothing,2019,8,3.3
+USA,448,Clothing,2019,9,-1.1
+USA,448,Clothing,2019,10,1.1
+USA,448,Clothing,2019,11,-0.8
+USA,448,Clothing,2019,12,3.3
+USA,448,Clothing,2020,1,3.9
+USA,448,Clothing,2020,2,6.5
+USA,448,Clothing,2020,3,-50.6
+USA,448,Clothing,2020,4,-87.4
+USA,448,Clothing,2020,5,-62.6
+USA,448,Clothing,2020,6,-23.3
+USA,448,Clothing,2020,7,-19.3
+USA,448,Clothing,2020,8,-22.2
+USA,448,Clothing,2020,9,-6.2
+USA,448,Clothing,2020,10,-8.6
+USA,448,Clothing,2020,11,-17.4
+USA,448,Clothing,2020,12,-10.9
+USA,448,Clothing,2021,1,-8.9
+USA,448,Clothing,2021,2,-16.8
+USA,448,Clothing,2021,3,115.7
+USA,448,Clothing,2021,4,750.9
+USA,448,Clothing,2021,5,197.1
+USA,448,Clothing,2021,6,50.5
+USA,448,Clothing,2021,7,42.6
+USA,448,Clothing,2021,8,33.6
+USA,448,Clothing,2021,9,21.6
+USA,448,Clothing,2021,10,22.6
+USA,448,Clothing,2021,11,35.9
+USA,448,Clothing,2021,12,23.2
+USA,448,Clothing,2022,1,15.3
+USA,448,Clothing,2022,2,25.0
+USA,448,Clothing,2022,3,6.2
+USA,448,Clothing,2022,4,9.1
+USA,448,Clothing,2022,5,1.4
+USA,448,Clothing,2022,6,-0.6
+USA,448,Clothing,2022,7,-2.4
+USA,448,Clothing,2022,8,2.8
+USA,448,Clothing,2022,9,3.0
+USA,448,Clothing,2022,10,0.3
+USA,448,Clothing,2022,11,-1.6
+USA,448,Clothing,2022,12,1.2
+USA,448,Clothing,2023,1,7.5
+USA,448,Clothing,2023,2,2.9
+USA,448,Clothing,2023,3,-2.8
+USA,448,Clothing,2023,4,-4.1
+USA,448,Clothing,2023,5,-0.6
+USA,448,Clothing,2023,6,-0.1
+USA,448,Clothing,2023,7,1.4
+USA,448,Clothing,2023,8,4.0
+USA,448,Clothing,2023,9,1.0
+USA,448,Clothing,2023,10,-1.1
+USA,448,Clothing,2023,11,1.8
+USA,448,Clothing,2023,12,3.7
+USA,448,Clothing,2024,1,0.2
+USA,448,Clothing,2024,2,6.4
+USA,448,Clothing,2024,3,2.0
+USA,448,Clothing,2024,4,-1.2
+USA,448,Clothing,2024,5,5.4
+USA,448,Clothing,2024,6,3.2
+USA,448,Clothing,2024,7,2.1
+USA,448,Clothing,2024,8,1.9
+USA,448,Clothing,2024,9,-1.4
+USA,448,Clothing,2024,10,5.3
+USA,448,Clothing,2024,11,4.5
+USA,448,Clothing,2024,12,1.4
+USA,448,Clothing,2025,1,5.4
+USA,448,Clothing,2025,2,-2.4
+USA,448,Clothing,2025,3,3.5
+USA,448,Clothing,2025,4,6.9
+USA,448,Clothing,2025,5,5.3
+USA,448,Clothing,2025,6,2.8
+USA,448,Clothing,2025,7,8.5
+USA,448,Clothing,2025,8,7.4
+USA,448,Clothing,2025,9,7.2
+USA,448,Clothing,2025,10,7.2
+USA,448,Clothing,2025,11,7.1
+USA,448,Clothing,2025,12,5.1
+USA,448,Clothing,2026,1,5.5
+USA,448,Clothing,2026,2,8.5
+USA,448,Clothing,2026,3,7.0
+USA,448,Clothing,2026,4,4.6
+USA,448,Clothing,2026,5,4.9
+USA,452,General merchandise,2019,1,1.2
+USA,452,General merchandise,2019,2,-0.9
+USA,452,General merchandise,2019,3,-0.8
+USA,452,General merchandise,2019,4,5.9
+USA,452,General merchandise,2019,5,1.0
+USA,452,General merchandise,2019,6,1.7
+USA,452,General merchandise,2019,7,2.6
+USA,452,General merchandise,2019,8,3.6
+USA,452,General merchandise,2019,9,-0.2
+USA,452,General merchandise,2019,10,2.2
+USA,452,General merchandise,2019,11,0.4
+USA,452,General merchandise,2019,12,-0.8
+USA,452,General merchandise,2020,1,3.2
+USA,452,General merchandise,2020,2,7.9
+USA,452,General merchandise,2020,3,2.9
+USA,452,General merchandise,2020,4,-4.5
+USA,452,General merchandise,2020,5,4.7
+USA,452,General merchandise,2020,6,2.3
+USA,452,General merchandise,2020,7,3.7
+USA,452,General merchandise,2020,8,-1.0
+USA,452,General merchandise,2020,9,5.1
+USA,452,General merchandise,2020,10,5.2
+USA,452,General merchandise,2020,11,-2.1
+USA,452,General merchandise,2020,12,-2.4
+USA,452,General merchandise,2021,1,9.8
+USA,452,General merchandise,2021,2,-2.5
+USA,452,General merchandise,2021,3,7.2
+USA,452,General merchandise,2021,4,18.8
+USA,452,General merchandise,2021,5,8.3
+USA,452,General merchandise,2021,6,7.9
+USA,452,General merchandise,2021,7,9.4
+USA,452,General merchandise,2021,8,10.1
+USA,452,General merchandise,2021,9,9.1
+USA,452,General merchandise,2021,10,11.3
+USA,452,General merchandise,2021,11,11.1
+USA,452,General merchandise,2021,12,12.0
+USA,452,General merchandise,2022,1,4.7
+USA,452,General merchandise,2022,2,12.4
+USA,452,General merchandise,2022,3,3.6
+USA,452,General merchandise,2022,4,8.9
+USA,452,General merchandise,2022,5,6.9
+USA,452,General merchandise,2022,6,10.9
+USA,452,General merchandise,2022,7,8.6
+USA,452,General merchandise,2022,8,8.6
+USA,452,General merchandise,2022,9,10.8
+USA,452,General merchandise,2022,10,7.3
+USA,452,General merchandise,2022,11,7.8
+USA,452,General merchandise,2022,12,7.8
+USA,452,General merchandise,2023,1,7.4
+USA,452,General merchandise,2023,2,7.3
+USA,452,General merchandise,2023,3,3.4
+USA,452,General merchandise,2023,4,2.2
+USA,452,General merchandise,2023,5,1.2
+USA,452,General merchandise,2023,6,1.5
+USA,452,General merchandise,2023,7,1.7
+USA,452,General merchandise,2023,8,2.8
+USA,452,General merchandise,2023,9,2.1
+USA,452,General merchandise,2023,10,-0.2
+USA,452,General merchandise,2023,11,0.7
+USA,452,General merchandise,2023,12,1.9
+USA,452,General merchandise,2024,1,-0.1
+USA,452,General merchandise,2024,2,4.8
+USA,452,General merchandise,2024,3,8.8
+USA,452,General merchandise,2024,4,-1.9
+USA,452,General merchandise,2024,5,3.8
+USA,452,General merchandise,2024,6,2.3
+USA,452,General merchandise,2024,7,1.5
+USA,452,General merchandise,2024,8,3.7
+USA,452,General merchandise,2024,9,0.7
+USA,452,General merchandise,2024,10,3.1
+USA,452,General merchandise,2024,11,4.1
+USA,452,General merchandise,2024,12,0.4
+USA,452,General merchandise,2025,1,5.5
+USA,452,General merchandise,2025,2,-0.5
+USA,452,General merchandise,2025,3,-0.4
+USA,452,General merchandise,2025,4,4.9
+USA,452,General merchandise,2025,5,3.2
+USA,452,General merchandise,2025,6,1.0
+USA,452,General merchandise,2025,7,2.5
+USA,452,General merchandise,2025,8,2.3
+USA,452,General merchandise,2025,9,1.0
+USA,452,General merchandise,2025,10,2.9
+USA,452,General merchandise,2025,11,1.3
+USA,452,General merchandise,2025,12,0.8
+USA,452,General merchandise,2026,1,3.3
+USA,452,General merchandise,2026,2,1.1
+USA,452,General merchandise,2026,3,3.9
+USA,452,General merchandise,2026,4,2.4
+USA,452,General merchandise,2026,5,4.0
+USA,453,Miscellaneous store retailers,2019,1,-2.4
+USA,453,Miscellaneous store retailers,2019,2,-1.9
+USA,453,Miscellaneous store retailers,2019,3,-1.5
+USA,453,Miscellaneous store retailers,2019,4,5.6
+USA,453,Miscellaneous store retailers,2019,5,2.1
+USA,453,Miscellaneous store retailers,2019,6,0.4
+USA,453,Miscellaneous store retailers,2019,7,7.0
+USA,453,Miscellaneous store retailers,2019,8,4.7
+USA,453,Miscellaneous store retailers,2019,9,4.6
+USA,453,Miscellaneous store retailers,2019,10,3.8
+USA,453,Miscellaneous store retailers,2019,11,3.7
+USA,453,Miscellaneous store retailers,2019,12,5.4
+USA,453,Miscellaneous store retailers,2020,1,10.8
+USA,453,Miscellaneous store retailers,2020,2,11.7
+USA,453,Miscellaneous store retailers,2020,3,-8.9
+USA,453,Miscellaneous store retailers,2020,4,-34.3
+USA,453,Miscellaneous store retailers,2020,5,-23.7
+USA,453,Miscellaneous store retailers,2020,6,-1.5
+USA,453,Miscellaneous store retailers,2020,7,2.6
+USA,453,Miscellaneous store retailers,2020,8,-1.3
+USA,453,Miscellaneous store retailers,2020,9,6.0
+USA,453,Miscellaneous store retailers,2020,10,2.6
+USA,453,Miscellaneous store retailers,2020,11,-0.9
+USA,453,Miscellaneous store retailers,2020,12,9.2
+USA,453,Miscellaneous store retailers,2021,1,3.4
+USA,453,Miscellaneous store retailers,2021,2,0.3
+USA,453,Miscellaneous store retailers,2021,3,40.1
+USA,453,Miscellaneous store retailers,2021,4,88.2
+USA,453,Miscellaneous store retailers,2021,5,43.7
+USA,453,Miscellaneous store retailers,2021,6,26.1
+USA,453,Miscellaneous store retailers,2021,7,20.6
+USA,453,Miscellaneous store retailers,2021,8,20.2
+USA,453,Miscellaneous store retailers,2021,9,21.0
+USA,453,Miscellaneous store retailers,2021,10,18.6
+USA,453,Miscellaneous store retailers,2021,11,23.3
+USA,453,Miscellaneous store retailers,2021,12,14.2
+USA,453,Miscellaneous store retailers,2022,1,13.6
+USA,453,Miscellaneous store retailers,2022,2,18.0
+USA,453,Miscellaneous store retailers,2022,3,8.9
+USA,453,Miscellaneous store retailers,2022,4,9.3
+USA,453,Miscellaneous store retailers,2022,5,14.2
+USA,453,Miscellaneous store retailers,2022,6,10.5
+USA,453,Miscellaneous store retailers,2022,7,4.8
+USA,453,Miscellaneous store retailers,2022,8,9.7
+USA,453,Miscellaneous store retailers,2022,9,5.1
+USA,453,Miscellaneous store retailers,2022,10,2.3
+USA,453,Miscellaneous store retailers,2022,11,-2.3
+USA,453,Miscellaneous store retailers,2022,12,-2.0
+USA,453,Miscellaneous store retailers,2023,1,5.4
+USA,453,Miscellaneous store retailers,2023,2,2.2
+USA,453,Miscellaneous store retailers,2023,3,-1.2
+USA,453,Miscellaneous store retailers,2023,4,-2.2
+USA,453,Miscellaneous store retailers,2023,5,1.1
+USA,453,Miscellaneous store retailers,2023,6,0.7
+USA,453,Miscellaneous store retailers,2023,7,-1.2
+USA,453,Miscellaneous store retailers,2023,8,-5.7
+USA,453,Miscellaneous store retailers,2023,9,0.3
+USA,453,Miscellaneous store retailers,2023,10,3.7
+USA,453,Miscellaneous store retailers,2023,11,6.0
+USA,453,Miscellaneous store retailers,2023,12,2.7
+USA,453,Miscellaneous store retailers,2024,1,2.4
+USA,453,Miscellaneous store retailers,2024,2,9.1
+USA,453,Miscellaneous store retailers,2024,3,6.3
+USA,453,Miscellaneous store retailers,2024,4,8.3
+USA,453,Miscellaneous store retailers,2024,5,5.1
+USA,453,Miscellaneous store retailers,2024,6,0.7
+USA,453,Miscellaneous store retailers,2024,7,6.3
+USA,453,Miscellaneous store retailers,2024,8,8.7
+USA,453,Miscellaneous store retailers,2024,9,5.1
+USA,453,Miscellaneous store retailers,2024,10,7.6
+USA,453,Miscellaneous store retailers,2024,11,-1.1
+USA,453,Miscellaneous store retailers,2024,12,6.9
+USA,453,Miscellaneous store retailers,2025,1,7.9
+USA,453,Miscellaneous store retailers,2025,2,3.6
+USA,453,Miscellaneous store retailers,2025,3,8.4
+USA,453,Miscellaneous store retailers,2025,4,3.1
+USA,453,Miscellaneous store retailers,2025,5,9.9
+USA,453,Miscellaneous store retailers,2025,6,13.3
+USA,453,Miscellaneous store retailers,2025,7,13.7
+USA,453,Miscellaneous store retailers,2025,8,4.2
+USA,453,Miscellaneous store retailers,2025,9,9.9
+USA,453,Miscellaneous store retailers,2025,10,10.7
+USA,453,Miscellaneous store retailers,2025,11,14.2
+USA,453,Miscellaneous store retailers,2025,12,11.0
+USA,453,Miscellaneous store retailers,2026,1,12.0
+USA,453,Miscellaneous store retailers,2026,2,13.6
+USA,453,Miscellaneous store retailers,2026,3,9.6
+USA,453,Miscellaneous store retailers,2026,4,9.9
+USA,453,Miscellaneous store retailers,2026,5,8.3
+USA,TOTAL,Total retail,2019,1,1.5
+USA,TOTAL,Total retail,2019,2,0.0
+USA,TOTAL,Total retail,2019,3,0.0
+USA,TOTAL,Total retail,2019,4,4.7
+USA,TOTAL,Total retail,2019,5,1.2
+USA,TOTAL,Total retail,2019,6,-0.3
+USA,TOTAL,Total retail,2019,7,3.1
+USA,TOTAL,Total retail,2019,8,2.8
+USA,TOTAL,Total retail,2019,9,1.2
+USA,TOTAL,Total retail,2019,10,1.5
+USA,TOTAL,Total retail,2019,11,1.5
+USA,TOTAL,Total retail,2019,12,1.9
+USA,TOTAL,Total retail,2020,1,3.5
+USA,TOTAL,Total retail,2020,2,6.6
+USA,TOTAL,Total retail,2020,3,-8.3
+USA,TOTAL,Total retail,2020,4,-21.8
+USA,TOTAL,Total retail,2020,5,-8.2
+USA,TOTAL,Total retail,2020,6,2.1
+USA,TOTAL,Total retail,2020,7,2.1
+USA,TOTAL,Total retail,2020,8,-1.9
+USA,TOTAL,Total retail,2020,9,6.1
+USA,TOTAL,Total retail,2020,10,4.0
+USA,TOTAL,Total retail,2020,11,-1.1
+USA,TOTAL,Total retail,2020,12,3.7
+USA,TOTAL,Total retail,2021,1,6.5
+USA,TOTAL,Total retail,2021,2,1.4
+USA,TOTAL,Total retail,2021,3,30.3
+USA,TOTAL,Total retail,2021,4,53.2
+USA,TOTAL,Total retail,2021,5,25.2
+USA,TOTAL,Total retail,2021,6,16.8
+USA,TOTAL,Total retail,2021,7,13.8
+USA,TOTAL,Total retail,2021,8,13.4
+USA,TOTAL,Total retail,2021,9,12.2
+USA,TOTAL,Total retail,2021,10,12.7
+USA,TOTAL,Total retail,2021,11,17.6
+USA,TOTAL,Total retail,2021,12,13.6
+USA,TOTAL,Total retail,2022,1,10.9
+USA,TOTAL,Total retail,2022,2,15.7
+USA,TOTAL,Total retail,2022,3,5.8
+USA,TOTAL,Total retail,2022,4,7.1
+USA,TOTAL,Total retail,2022,5,7.3
+USA,TOTAL,Total retail,2022,6,8.8
+USA,TOTAL,Total retail,2022,7,6.8
+USA,TOTAL,Total retail,2022,8,10.2
+USA,TOTAL,Total retail,2022,9,7.7
+USA,TOTAL,Total retail,2022,10,6.6
+USA,TOTAL,Total retail,2022,11,4.5
+USA,TOTAL,Total retail,2022,12,3.0
+USA,TOTAL,Total retail,2023,1,5.1
+USA,TOTAL,Total retail,2023,2,3.2
+USA,TOTAL,Total retail,2023,3,-0.5
+USA,TOTAL,Total retail,2023,4,-2.9
+USA,TOTAL,Total retail,2023,5,0.7
+USA,TOTAL,Total retail,2023,6,-1.4
+USA,TOTAL,Total retail,2023,7,-1.1
+USA,TOTAL,Total retail,2023,8,1.2
+USA,TOTAL,Total retail,2023,9,1.8
+USA,TOTAL,Total retail,2023,10,0.0
+USA,TOTAL,Total retail,2023,11,1.2
+USA,TOTAL,Total retail,2023,12,1.4
+USA,TOTAL,Total retail,2024,1,-1.0
+USA,TOTAL,Total retail,2024,2,4.2
+USA,TOTAL,Total retail,2024,3,0.6
+USA,TOTAL,Total retail,2024,4,1.7
+USA,TOTAL,Total retail,2024,5,1.7
+USA,TOTAL,Total retail,2024,6,-2.1
+USA,TOTAL,Total retail,2024,7,3.3
+USA,TOTAL,Total retail,2024,8,0.9
+USA,TOTAL,Total retail,2024,9,-1.8
+USA,TOTAL,Total retail,2024,10,3.5
+USA,TOTAL,Total retail,2024,11,3.3
+USA,TOTAL,Total retail,2024,12,3.2
+USA,TOTAL,Total retail,2025,1,4.6
+USA,TOTAL,Total retail,2025,2,-1.2
+USA,TOTAL,Total retail,2025,3,4.0
+USA,TOTAL,Total retail,2025,4,4.6
+USA,TOTAL,Total retail,2025,5,1.8
+USA,TOTAL,Total retail,2025,6,3.0
+USA,TOTAL,Total retail,2025,7,3.4
+USA,TOTAL,Total retail,2025,8,2.0
+USA,TOTAL,Total retail,2025,9,4.7
+USA,TOTAL,Total retail,2025,10,2.2
+USA,TOTAL,Total retail,2025,11,0.5
+USA,TOTAL,Total retail,2025,12,2.7
+USA,TOTAL,Total retail,2026,1,1.6
+USA,TOTAL,Total retail,2026,2,2.4
+USA,TOTAL,Total retail,2026,3,3.4
+USA,TOTAL,Total retail,2026,4,3.5
+USA,TOTAL,Total retail,2026,5,5.1
+WY,441,Motor vehicle & parts,2019,1,-0.6
+WY,441,Motor vehicle & parts,2019,2,-1.6
+WY,441,Motor vehicle & parts,2019,3,0.0
+WY,441,Motor vehicle & parts,2019,4,2.2
+WY,441,Motor vehicle & parts,2019,5,0.9
+WY,441,Motor vehicle & parts,2019,6,-1.3
+WY,441,Motor vehicle & parts,2019,7,4.1
+WY,441,Motor vehicle & parts,2019,8,5.1
+WY,441,Motor vehicle & parts,2019,9,3.9
+WY,441,Motor vehicle & parts,2019,10,3.8
+WY,441,Motor vehicle & parts,2019,11,4.5
+WY,441,Motor vehicle & parts,2019,12,0.7
+WY,441,Motor vehicle & parts,2020,1,2.2
+WY,441,Motor vehicle & parts,2020,2,3.6
+WY,441,Motor vehicle & parts,2020,3,-28.1
+WY,441,Motor vehicle & parts,2020,4,-32.6
+WY,441,Motor vehicle & parts,2020,5,-6.0
+WY,441,Motor vehicle & parts,2020,6,4.5
+WY,441,Motor vehicle & parts,2020,7,0.7
+WY,441,Motor vehicle & parts,2020,8,-4.0
+WY,441,Motor vehicle & parts,2020,9,6.9
+WY,441,Motor vehicle & parts,2020,10,5.1
+WY,441,Motor vehicle & parts,2020,11,-3.3
+WY,441,Motor vehicle & parts,2020,12,6.6
+WY,441,Motor vehicle & parts,2021,1,10.5
+WY,441,Motor vehicle & parts,2021,2,4.8
+WY,441,Motor vehicle & parts,2021,3,73.0
+WY,441,Motor vehicle & parts,2021,4,92.5
+WY,441,Motor vehicle & parts,2021,5,27.2
+WY,441,Motor vehicle & parts,2021,6,17.0
+WY,441,Motor vehicle & parts,2021,7,14.1
+WY,441,Motor vehicle & parts,2021,8,9.7
+WY,441,Motor vehicle & parts,2021,9,9.0
+WY,441,Motor vehicle & parts,2021,10,9.0
+WY,441,Motor vehicle & parts,2021,11,18.5
+WY,441,Motor vehicle & parts,2021,12,11.3
+WY,441,Motor vehicle & parts,2022,1,4.9
+WY,441,Motor vehicle & parts,2022,2,9.5
+WY,441,Motor vehicle & parts,2022,3,-7.9
+WY,441,Motor vehicle & parts,2022,4,-8.3
+WY,441,Motor vehicle & parts,2022,5,-10.1
+WY,441,Motor vehicle & parts,2022,6,-6.4
+WY,441,Motor vehicle & parts,2022,7,-7.3
+WY,441,Motor vehicle & parts,2022,8,2.9
+WY,441,Motor vehicle & parts,2022,9,-0.9
+WY,441,Motor vehicle & parts,2022,10,-1.4
+WY,441,Motor vehicle & parts,2022,11,-5.1
+WY,441,Motor vehicle & parts,2022,12,-7.1
+WY,441,Motor vehicle & parts,2023,1,7.6
+WY,441,Motor vehicle & parts,2023,2,5.2
+WY,441,Motor vehicle & parts,2023,3,2.3
+WY,441,Motor vehicle & parts,2023,4,-0.3
+WY,441,Motor vehicle & parts,2023,5,10.3
+WY,441,Motor vehicle & parts,2023,6,8.3
+WY,441,Motor vehicle & parts,2023,7,8.4
+WY,441,Motor vehicle & parts,2023,8,7.0
+WY,441,Motor vehicle & parts,2023,9,8.9
+WY,441,Motor vehicle & parts,2023,10,5.4
+WY,441,Motor vehicle & parts,2023,11,8.2
+WY,441,Motor vehicle & parts,2023,12,8.6
+WY,441,Motor vehicle & parts,2024,1,-9.2
+WY,441,Motor vehicle & parts,2024,2,-3.5
+WY,441,Motor vehicle & parts,2024,3,-9.9
+WY,441,Motor vehicle & parts,2024,4,-6.0
+WY,441,Motor vehicle & parts,2024,5,-7.6
+WY,441,Motor vehicle & parts,2024,6,-14.5
+WY,441,Motor vehicle & parts,2024,7,-4.7
+WY,441,Motor vehicle & parts,2024,8,-8.4
+WY,441,Motor vehicle & parts,2024,9,-12.3
+WY,441,Motor vehicle & parts,2024,10,-3.5
+WY,441,Motor vehicle & parts,2024,11,-2.3
+WY,441,Motor vehicle & parts,2024,12,-3.7
+WY,441,Motor vehicle & parts,2025,1,2.4
+WY,441,Motor vehicle & parts,2025,2,-0.8
+WY,441,Motor vehicle & parts,2025,3,11.9
+WY,441,Motor vehicle & parts,2025,4,10.0
+WY,441,Motor vehicle & parts,2025,5,2.9
+WY,441,Motor vehicle & parts,2025,6,6.7
+WY,441,Motor vehicle & parts,2025,7,5.7
+WY,441,Motor vehicle & parts,2025,8,3.6
+WY,441,Motor vehicle & parts,2025,9,9.0
+WY,441,Motor vehicle & parts,2025,10,2.0
+WY,441,Motor vehicle & parts,2025,11,-2.1
+WY,441,Motor vehicle & parts,2025,12,4.5
+WY,441,Motor vehicle & parts,2026,1,3.7
+WY,441,Motor vehicle & parts,2026,2,1.9
+WY,441,Motor vehicle & parts,2026,3,-0.7
+WY,441,Motor vehicle & parts,2026,4,-1.7
+WY,441,Motor vehicle & parts,2026,5,2.1
+WY,445,Food & beverage stores,2019,1,4.0
+WY,445,Food & beverage stores,2019,2,1.3
+WY,445,Food & beverage stores,2019,3,1.7
+WY,445,Food & beverage stores,2019,4,2.2
+WY,445,Food & beverage stores,2019,5,2.2
+WY,445,Food & beverage stores,2019,6,3.3
+WY,445,Food & beverage stores,2019,7,8.0
+WY,445,Food & beverage stores,2019,8,9.7
+WY,445,Food & beverage stores,2019,9,3.4
+WY,445,Food & beverage stores,2019,10,11.2
+WY,445,Food & beverage stores,2019,11,10.3
+WY,445,Food & beverage stores,2019,12,5.9
+WY,445,Food & beverage stores,2020,1,12.1
+WY,445,Food & beverage stores,2020,2,21.5
+WY,445,Food & beverage stores,2020,3,32.2
+WY,445,Food & beverage stores,2020,4,27.6
+WY,445,Food & beverage stores,2020,5,30.5
+WY,445,Food & beverage stores,2020,6,23.3
+WY,445,Food & beverage stores,2020,7,20.8
+WY,445,Food & beverage stores,2020,8,18.3
+WY,445,Food & beverage stores,2020,9,21.3
+WY,445,Food & beverage stores,2020,10,17.0
+WY,445,Food & beverage stores,2020,11,13.1
+WY,445,Food & beverage stores,2020,12,17.1
+WY,445,Food & beverage stores,2021,1,7.7
+WY,445,Food & beverage stores,2021,2,-2.0
+WY,445,Food & beverage stores,2021,3,-10.5
+WY,445,Food & beverage stores,2021,4,-3.6
+WY,445,Food & beverage stores,2021,5,-6.6
+WY,445,Food & beverage stores,2021,6,-0.2
+WY,445,Food & beverage stores,2021,7,0.4
+WY,445,Food & beverage stores,2021,8,0.5
+WY,445,Food & beverage stores,2021,9,4.5
+WY,445,Food & beverage stores,2021,10,3.6
+WY,445,Food & beverage stores,2021,11,4.6
+WY,445,Food & beverage stores,2021,12,6.5
+WY,445,Food & beverage stores,2022,1,5.7
+WY,445,Food & beverage stores,2022,2,8.8
+WY,445,Food & beverage stores,2022,3,7.6
+WY,445,Food & beverage stores,2022,4,8.2
+WY,445,Food & beverage stores,2022,5,7.3
+WY,445,Food & beverage stores,2022,6,7.8
+WY,445,Food & beverage stores,2022,7,6.5
+WY,445,Food & beverage stores,2022,8,7.5
+WY,445,Food & beverage stores,2022,9,3.2
+WY,445,Food & beverage stores,2022,10,4.8
+WY,445,Food & beverage stores,2022,11,5.1
+WY,445,Food & beverage stores,2022,12,4.3
+WY,445,Food & beverage stores,2023,1,5.6
+WY,445,Food & beverage stores,2023,2,7.3
+WY,445,Food & beverage stores,2023,3,3.9
+WY,445,Food & beverage stores,2023,4,2.9
+WY,445,Food & beverage stores,2023,5,3.9
+WY,445,Food & beverage stores,2023,6,2.4
+WY,445,Food & beverage stores,2023,7,2.0
+WY,445,Food & beverage stores,2023,8,2.6
+WY,445,Food & beverage stores,2023,9,4.6
+WY,445,Food & beverage stores,2023,10,1.2
+WY,445,Food & beverage stores,2023,11,0.1
+WY,445,Food & beverage stores,2023,12,2.1
+WY,445,Food & beverage stores,2024,1,2.8
+WY,445,Food & beverage stores,2024,2,5.1
+WY,445,Food & beverage stores,2024,3,5.5
+WY,445,Food & beverage stores,2024,4,2.4
+WY,445,Food & beverage stores,2024,5,5.1
+WY,445,Food & beverage stores,2024,6,3.6
+WY,445,Food & beverage stores,2024,7,4.0
+WY,445,Food & beverage stores,2024,8,6.1
+WY,445,Food & beverage stores,2024,9,1.8
+WY,445,Food & beverage stores,2024,10,5.4
+WY,445,Food & beverage stores,2024,11,8.2
+WY,445,Food & beverage stores,2024,12,2.2
+WY,445,Food & beverage stores,2025,1,5.0
+WY,445,Food & beverage stores,2025,2,-0.4
+WY,445,Food & beverage stores,2025,3,1.3
+WY,445,Food & beverage stores,2025,4,4.1
+WY,445,Food & beverage stores,2025,5,1.7
+WY,445,Food & beverage stores,2025,6,0.9
+WY,445,Food & beverage stores,2025,7,2.0
+WY,445,Food & beverage stores,2025,8,1.7
+WY,445,Food & beverage stores,2025,9,2.3
+WY,445,Food & beverage stores,2025,10,2.2
+WY,445,Food & beverage stores,2025,11,1.1
+WY,445,Food & beverage stores,2025,12,0.7
+WY,445,Food & beverage stores,2026,1,0.7
+WY,445,Food & beverage stores,2026,2,-0.1
+WY,445,Food & beverage stores,2026,3,0.8
+WY,445,Food & beverage stores,2026,4,2.0
+WY,445,Food & beverage stores,2026,5,4.7
+WY,447,Gasoline stations,2019,1,-14.0
+WY,447,Gasoline stations,2019,2,-3.8
+WY,447,Gasoline stations,2019,3,-2.6
+WY,447,Gasoline stations,2019,4,3.8
+WY,447,Gasoline stations,2019,5,-0.7
+WY,447,Gasoline stations,2019,6,-4.8
+WY,447,Gasoline stations,2019,7,-5.3
+WY,447,Gasoline stations,2019,8,-1.0
+WY,447,Gasoline stations,2019,9,-4.0
+WY,447,Gasoline stations,2019,10,-5.6
+WY,447,Gasoline stations,2019,11,-0.4
+WY,447,Gasoline stations,2019,12,7.1
+WY,447,Gasoline stations,2020,1,21.2
+WY,447,Gasoline stations,2020,2,9.8
+WY,447,Gasoline stations,2020,3,-20.5
+WY,447,Gasoline stations,2020,4,-34.5
+WY,447,Gasoline stations,2020,5,-27.3
+WY,447,Gasoline stations,2020,6,-14.7
+WY,447,Gasoline stations,2020,7,-10.4
+WY,447,Gasoline stations,2020,8,-28.4
+WY,447,Gasoline stations,2020,9,-26.1
+WY,447,Gasoline stations,2020,10,-27.9
+WY,447,Gasoline stations,2020,11,-31.1
+WY,447,Gasoline stations,2020,12,-34.6
+WY,447,Gasoline stations,2021,1,-19.9
+WY,447,Gasoline stations,2021,2,-14.2
+WY,447,Gasoline stations,2021,4,19.9
+WY,447,Gasoline stations,2021,5,31.8
+WY,447,Gasoline stations,2021,6,23.7
+WY,447,Gasoline stations,2021,7,19.9
+WY,447,Gasoline stations,2021,8,50.0
+WY,447,Gasoline stations,2021,9,54.6
+WY,447,Gasoline stations,2021,10,59.6
+WY,447,Gasoline stations,2021,11,68.6
+WY,447,Gasoline stations,2022,1,43.7
+WY,447,Gasoline stations,2022,2,43.1
+WY,447,Gasoline stations,2022,5,54.9
+WY,447,Gasoline stations,2022,6,53.1
+WY,447,Gasoline stations,2022,7,44.7
+WY,447,Gasoline stations,2022,8,32.5
+WY,447,Gasoline stations,2022,9,20.4
+WY,447,Gasoline stations,2022,10,20.1
+WY,447,Gasoline stations,2022,11,15.2
+WY,447,Gasoline stations,2022,12,5.1
+WY,447,Gasoline stations,2023,1,-20.5
+WY,447,Gasoline stations,2023,2,-24.3
+WY,447,Gasoline stations,2023,3,-32.8
+WY,447,Gasoline stations,2023,4,-35.9
+WY,447,Gasoline stations,2023,5,-39.1
+WY,447,Gasoline stations,2023,6,-39.7
+WY,447,Gasoline stations,2023,7,-43.7
+WY,447,Gasoline stations,2023,9,-23.6
+WY,447,Gasoline stations,2023,10,-25.0
+WY,447,Gasoline stations,2023,11,-27.3
+WY,447,Gasoline stations,2023,12,-26.4
+WY,447,Gasoline stations,2024,1,-30.1
+WY,447,Gasoline stations,2024,2,-21.6
+WY,447,Gasoline stations,2024,5,-19.5
+WY,447,Gasoline stations,2024,6,-15.9
+WY,447,Gasoline stations,2024,7,0.7
+WY,447,Gasoline stations,2024,8,-2.4
+WY,447,Gasoline stations,2024,9,-17.3
+WY,447,Gasoline stations,2024,10,-13.8
+WY,447,Gasoline stations,2024,11,-7.6
+WY,447,Gasoline stations,2024,12,2.5
+WY,447,Gasoline stations,2025,5,20.6
+WY,447,Gasoline stations,2025,6,14.3
+WY,447,Gasoline stations,2025,7,5.6
+WY,447,Gasoline stations,2025,8,1.5
+WY,447,Gasoline stations,2025,10,-8.7
+WY,447,Gasoline stations,2025,11,-7.6
+WY,447,Gasoline stations,2025,12,-4.6
+WY,447,Gasoline stations,2026,1,-7.0
+WY,447,Gasoline stations,2026,2,-7.7
+WY,447,Gasoline stations,2026,3,-3.1
+WY,447,Gasoline stations,2026,4,11.7
+WY,447,Gasoline stations,2026,5,12.2
+WY,448,Clothing,2019,1,-3.7
+WY,448,Clothing,2019,2,-18.4
+WY,448,Clothing,2019,3,-10.4
+WY,448,Clothing,2019,4,3.0
+WY,448,Clothing,2019,5,-10.6
+WY,448,Clothing,2019,6,-12.5
+WY,448,Clothing,2019,7,-17.4
+WY,448,Clothing,2019,8,-12.1
+WY,448,Clothing,2019,9,-6.8
+WY,448,Clothing,2019,10,11.8
+WY,448,Clothing,2019,11,-9.7
+WY,448,Clothing,2019,12,-15.6
+WY,448,Clothing,2021,6,59.4
+WY,448,Clothing,2021,7,64.6
+WY,448,Clothing,2021,8,40.5
+WY,448,Clothing,2021,9,40.8
+WY,448,Clothing,2021,10,47.0
+WY,448,Clothing,2021,11,59.6
+WY,448,Clothing,2021,12,44.2
+WY,448,Clothing,2022,1,16.9
+WY,448,Clothing,2022,2,26.0
+WY,448,Clothing,2022,3,7.9
+WY,448,Clothing,2022,4,13.0
+WY,448,Clothing,2022,5,4.6
+WY,448,Clothing,2022,6,2.7
+WY,448,Clothing,2022,7,-1.2
+WY,448,Clothing,2022,8,1.8
+WY,448,Clothing,2022,9,5.4
+WY,448,Clothing,2022,10,3.7
+WY,448,Clothing,2022,11,2.1
+WY,448,Clothing,2022,12,1.6
+WY,448,Clothing,2023,1,0.0
+WY,448,Clothing,2023,2,-3.3
+WY,448,Clothing,2023,3,-8.9
+WY,448,Clothing,2023,4,-10.1
+WY,448,Clothing,2023,5,-4.8
+WY,448,Clothing,2023,6,-5.6
+WY,448,Clothing,2023,7,-4.3
+WY,448,Clothing,2023,8,1.2
+WY,448,Clothing,2023,9,-4.6
+WY,448,Clothing,2023,10,-6.2
+WY,448,Clothing,2023,11,-5.6
+WY,448,Clothing,2023,12,-3.4
+WY,448,Clothing,2024,1,-4.4
+WY,448,Clothing,2024,2,2.6
+WY,448,Clothing,2024,3,-0.7
+WY,448,Clothing,2024,4,-4.0
+WY,448,Clothing,2024,5,0.8
+WY,448,Clothing,2024,6,-0.7
+WY,448,Clothing,2024,7,0.7
+WY,448,Clothing,2024,8,1.0
+WY,448,Clothing,2024,9,-2.5
+WY,448,Clothing,2024,10,2.2
+WY,448,Clothing,2024,11,1.0
+WY,448,Clothing,2024,12,-0.3
+WY,448,Clothing,2025,1,7.9
+WY,448,Clothing,2025,2,-4.2
+WY,448,Clothing,2025,3,4.0
+WY,448,Clothing,2025,4,8.0
+WY,448,Clothing,2025,5,4.5
+WY,448,Clothing,2025,6,3.5
+WY,448,Clothing,2025,7,6.3
+WY,448,Clothing,2025,8,7.3
+WY,448,Clothing,2025,9,7.8
+WY,448,Clothing,2025,10,7.0
+WY,448,Clothing,2025,11,9.0
+WY,448,Clothing,2025,12,6.8
+WY,448,Clothing,2026,1,7.4
+WY,448,Clothing,2026,2,12.0
+WY,448,Clothing,2026,3,5.0
+WY,448,Clothing,2026,4,3.4
+WY,448,Clothing,2026,5,5.0
+WY,452,General merchandise,2019,1,4.9
+WY,452,General merchandise,2019,2,-1.2
+WY,452,General merchandise,2019,3,1.9
+WY,452,General merchandise,2019,4,7.7
+WY,452,General merchandise,2019,5,0.4
+WY,452,General merchandise,2019,6,5.7
+WY,452,General merchandise,2019,7,7.6
+WY,452,General merchandise,2019,8,7.3
+WY,452,General merchandise,2019,9,5.1
+WY,452,General merchandise,2019,10,8.0
+WY,452,General merchandise,2019,11,-1.7
+WY,452,General merchandise,2019,12,1.7
+WY,452,General merchandise,2020,1,-2.7
+WY,452,General merchandise,2020,2,5.5
+WY,452,General merchandise,2020,3,4.0
+WY,452,General merchandise,2020,5,19.9
+WY,452,General merchandise,2020,6,6.4
+WY,452,General merchandise,2020,7,1.1
+WY,452,General merchandise,2020,8,-3.7
+WY,452,General merchandise,2020,9,-3.1
+WY,452,General merchandise,2020,10,-1.3
+WY,452,General merchandise,2020,11,-3.1
+WY,452,General merchandise,2020,12,-3.4
+WY,452,General merchandise,2021,1,8.1
+WY,452,General merchandise,2021,2,-5.4
+WY,452,General merchandise,2021,3,-1.9
+WY,452,General merchandise,2021,4,71.2
+WY,452,General merchandise,2021,5,-18.5
+WY,452,General merchandise,2021,6,-10.2
+WY,452,General merchandise,2021,7,-4.5
+WY,452,General merchandise,2021,8,-13.2
+WY,452,General merchandise,2021,9,-0.5
+WY,452,General merchandise,2021,10,3.5
+WY,452,General merchandise,2021,11,1.8
+WY,452,General merchandise,2021,12,1.5
+WY,452,General merchandise,2022,1,-12.6
+WY,452,General merchandise,2022,2,-5.9
+WY,452,General merchandise,2022,3,-11.8
+WY,452,General merchandise,2022,4,-3.5
+WY,452,General merchandise,2022,5,-3.0
+WY,452,General merchandise,2022,6,-0.3
+WY,452,General merchandise,2022,7,-0.3
+WY,452,General merchandise,2022,8,12.0
+WY,452,General merchandise,2022,9,-0.3
+WY,452,General merchandise,2022,10,-4.6
+WY,452,General merchandise,2022,11,-1.9
+WY,452,General merchandise,2022,12,-7.0
+WY,452,General merchandise,2023,1,-1.4
+WY,452,General merchandise,2023,2,1.8
+WY,452,General merchandise,2023,3,-1.3
+WY,452,General merchandise,2023,4,-3.7
+WY,452,General merchandise,2023,5,-3.3
+WY,452,General merchandise,2023,6,-6.0
+WY,452,General merchandise,2023,7,-4.1
+WY,452,General merchandise,2023,8,0.4
+WY,452,General merchandise,2023,9,-2.6
+WY,452,General merchandise,2023,10,-7.3
+WY,452,General merchandise,2023,11,-9.0
+WY,452,General merchandise,2023,12,-0.5
+WY,452,General merchandise,2024,1,5.0
+WY,452,General merchandise,2024,2,10.8
+WY,452,General merchandise,2024,3,11.8
+WY,452,General merchandise,2024,4,3.0
+WY,452,General merchandise,2024,5,6.7
+WY,452,General merchandise,2024,6,11.5
+WY,452,General merchandise,2024,7,11.0
+WY,452,General merchandise,2024,8,9.4
+WY,452,General merchandise,2024,9,1.8
+WY,452,General merchandise,2024,10,8.5
+WY,452,General merchandise,2024,11,9.9
+WY,452,General merchandise,2024,12,3.1
+WY,452,General merchandise,2025,1,10.7
+WY,452,General merchandise,2025,2,2.0
+WY,452,General merchandise,2025,3,0.9
+WY,452,General merchandise,2025,4,9.2
+WY,452,General merchandise,2025,5,8.8
+WY,452,General merchandise,2025,6,2.6
+WY,452,General merchandise,2025,7,1.1
+WY,452,General merchandise,2025,8,-1.4
+WY,452,General merchandise,2025,9,-1.4
+WY,452,General merchandise,2025,10,-1.9
+WY,452,General merchandise,2025,11,-2.9
+WY,452,General merchandise,2025,12,-0.2
+WY,452,General merchandise,2026,1,-0.6
+WY,452,General merchandise,2026,2,-3.8
+WY,452,General merchandise,2026,3,-0.8
+WY,452,General merchandise,2026,4,-8.4
+WY,452,General merchandise,2026,5,-4.7
+WY,453,Miscellaneous store retailers,2019,1,-10.4
+WY,453,Miscellaneous store retailers,2019,2,-9.8
+WY,453,Miscellaneous store retailers,2019,3,-2.4
+WY,453,Miscellaneous store retailers,2019,4,-3.3
+WY,453,Miscellaneous store retailers,2019,5,-3.0
+WY,453,Miscellaneous store retailers,2019,6,-1.1
+WY,453,Miscellaneous store retailers,2019,7,6.2
+WY,453,Miscellaneous store retailers,2019,8,4.0
+WY,453,Miscellaneous store retailers,2019,9,2.0
+WY,453,Miscellaneous store retailers,2019,10,4.2
+WY,453,Miscellaneous store retailers,2019,11,15.5
+WY,453,Miscellaneous store retailers,2019,12,12.0
+WY,453,Miscellaneous store retailers,2020,1,14.9
+WY,453,Miscellaneous store retailers,2020,2,20.7
+WY,453,Miscellaneous store retailers,2020,3,-1.6
+WY,453,Miscellaneous store retailers,2020,6,1.8
+WY,453,Miscellaneous store retailers,2020,7,6.9
+WY,453,Miscellaneous store retailers,2020,8,-0.8
+WY,453,Miscellaneous store retailers,2020,9,10.0
+WY,453,Miscellaneous store retailers,2020,10,2.7
+WY,453,Miscellaneous store retailers,2020,11,-0.9
+WY,453,Miscellaneous store retailers,2020,12,16.5
+WY,453,Miscellaneous store retailers,2021,1,17.0
+WY,453,Miscellaneous store retailers,2021,2,9.8
+WY,453,Miscellaneous store retailers,2021,3,36.6
+WY,453,Miscellaneous store retailers,2021,5,42.7
+WY,453,Miscellaneous store retailers,2021,6,21.5
+WY,453,Miscellaneous store retailers,2021,7,14.7
+WY,453,Miscellaneous store retailers,2021,8,20.1
+WY,453,Miscellaneous store retailers,2021,9,19.7
+WY,453,Miscellaneous store retailers,2021,10,19.9
+WY,453,Miscellaneous store retailers,2021,11,27.4
+WY,453,Miscellaneous store retailers,2021,12,16.1
+WY,453,Miscellaneous store retailers,2022,1,14.7
+WY,453,Miscellaneous store retailers,2022,2,20.7
+WY,453,Miscellaneous store retailers,2022,3,6.2
+WY,453,Miscellaneous store retailers,2022,4,20.3
+WY,453,Miscellaneous store retailers,2022,5,10.6
+WY,453,Miscellaneous store retailers,2022,6,13.2
+WY,453,Miscellaneous store retailers,2022,7,8.2
+WY,453,Miscellaneous store retailers,2022,8,10.6
+WY,453,Miscellaneous store retailers,2022,9,5.0
+WY,453,Miscellaneous store retailers,2022,10,-0.5
+WY,453,Miscellaneous store retailers,2022,11,-7.5
+WY,453,Miscellaneous store retailers,2022,12,-7.7
+WY,453,Miscellaneous store retailers,2023,1,-10.4
+WY,453,Miscellaneous store retailers,2023,2,-15.5
+WY,453,Miscellaneous store retailers,2023,3,-13.9
+WY,453,Miscellaneous store retailers,2023,4,-17.9
+WY,453,Miscellaneous store retailers,2023,5,-13.1
+WY,453,Miscellaneous store retailers,2023,6,-12.1
+WY,453,Miscellaneous store retailers,2023,7,-13.7
+WY,453,Miscellaneous store retailers,2023,8,-17.9
+WY,453,Miscellaneous store retailers,2023,9,-9.2
+WY,453,Miscellaneous store retailers,2023,10,-4.5
+WY,453,Miscellaneous store retailers,2023,11,-3.6
+WY,453,Miscellaneous store retailers,2023,12,-3.4
+WY,453,Miscellaneous store retailers,2024,1,8.0
+WY,453,Miscellaneous store retailers,2024,2,5.8
+WY,453,Miscellaneous store retailers,2024,3,-2.8
+WY,453,Miscellaneous store retailers,2024,4,12.9
+WY,453,Miscellaneous store retailers,2024,5,25.9
+WY,453,Miscellaneous store retailers,2024,6,14.1
+WY,453,Miscellaneous store retailers,2024,7,19.4
+WY,453,Miscellaneous store retailers,2024,8,19.7
+WY,453,Miscellaneous store retailers,2024,9,9.7
+WY,453,Miscellaneous store retailers,2024,10,14.0
+WY,453,Miscellaneous store retailers,2024,11,-12.1
+WY,453,Miscellaneous store retailers,2024,12,4.3
+WY,453,Miscellaneous store retailers,2025,1,5.4
+WY,453,Miscellaneous store retailers,2025,2,13.7
+WY,453,Miscellaneous store retailers,2025,3,23.7
+WY,453,Miscellaneous store retailers,2025,4,0.0
+WY,453,Miscellaneous store retailers,2025,5,11.4
+WY,453,Miscellaneous store retailers,2025,6,9.3
+WY,453,Miscellaneous store retailers,2025,7,17.2
+WY,453,Miscellaneous store retailers,2025,8,3.2
+WY,453,Miscellaneous store retailers,2025,9,15.9
+WY,453,Miscellaneous store retailers,2025,10,14.7
+WY,453,Miscellaneous store retailers,2025,11,35.9
+WY,453,Miscellaneous store retailers,2025,12,18.8
+WY,453,Miscellaneous store retailers,2026,1,19.8
+WY,453,Miscellaneous store retailers,2026,2,17.1
+WY,453,Miscellaneous store retailers,2026,3,14.3
+WY,453,Miscellaneous store retailers,2026,4,23.2
+WY,453,Miscellaneous store retailers,2026,5,10.2
+WY,TOTAL,Total retail,2019,1,-0.5
+WY,TOTAL,Total retail,2019,2,-3.2
+WY,TOTAL,Total retail,2019,3,-2.5
+WY,TOTAL,Total retail,2019,4,3.7
+WY,TOTAL,Total retail,2019,5,-1.9
+WY,TOTAL,Total retail,2019,6,-3.1
+WY,TOTAL,Total retail,2019,7,-1.1
+WY,TOTAL,Total retail,2019,8,1.2
+WY,TOTAL,Total retail,2019,9,0.4
+WY,TOTAL,Total retail,2019,10,3.6
+WY,TOTAL,Total retail,2019,11,-1.1
+WY,TOTAL,Total retail,2019,12,-1.1
+WY,TOTAL,Total retail,2020,1,-0.6
+WY,TOTAL,Total retail,2020,2,-0.8
+WY,TOTAL,Total retail,2020,3,-22.6
+WY,TOTAL,Total retail,2020,4,-36.2
+WY,TOTAL,Total retail,2020,5,-18.0
+WY,TOTAL,Total retail,2020,6,-9.4
+WY,TOTAL,Total retail,2020,7,-7.7
+WY,TOTAL,Total retail,2020,8,-15.4
+WY,TOTAL,Total retail,2020,9,-12.8
+WY,TOTAL,Total retail,2020,10,-18.0
+WY,TOTAL,Total retail,2020,11,-23.2
+WY,TOTAL,Total retail,2020,12,-20.7
+WY,TOTAL,Total retail,2021,1,-4.6
+WY,TOTAL,Total retail,2021,2,-7.2
+WY,TOTAL,Total retail,2021,3,21.5
+WY,TOTAL,Total retail,2021,4,46.5
+WY,TOTAL,Total retail,2021,5,18.0
+WY,TOTAL,Total retail,2021,6,14.0
+WY,TOTAL,Total retail,2021,7,9.3
+WY,TOTAL,Total retail,2021,8,12.0
+WY,TOTAL,Total retail,2021,9,15.2
+WY,TOTAL,Total retail,2021,10,18.4
+WY,TOTAL,Total retail,2021,11,25.1
+WY,TOTAL,Total retail,2021,12,18.8
+WY,TOTAL,Total retail,2022,1,11.9
+WY,TOTAL,Total retail,2022,2,16.5
+WY,TOTAL,Total retail,2022,3,14.5
+WY,TOTAL,Total retail,2022,4,14.5
+WY,TOTAL,Total retail,2022,5,10.4
+WY,TOTAL,Total retail,2022,6,11.4
+WY,TOTAL,Total retail,2022,7,11.2
+WY,TOTAL,Total retail,2022,8,13.5
+WY,TOTAL,Total retail,2022,9,7.1
+WY,TOTAL,Total retail,2022,10,5.6
+WY,TOTAL,Total retail,2022,11,2.8
+WY,TOTAL,Total retail,2022,12,-0.9
+WY,TOTAL,Total retail,2023,1,-3.3
+WY,TOTAL,Total retail,2023,2,-5.0
+WY,TOTAL,Total retail,2023,3,-10.5
+WY,TOTAL,Total retail,2023,4,-12.8
+WY,TOTAL,Total retail,2023,5,-11.0
+WY,TOTAL,Total retail,2023,6,-12.4
+WY,TOTAL,Total retail,2023,7,-13.8
+WY,TOTAL,Total retail,2023,8,-9.8
+WY,TOTAL,Total retail,2023,9,-5.0
+WY,TOTAL,Total retail,2023,10,-7.4
+WY,TOTAL,Total retail,2023,11,-7.5
+WY,TOTAL,Total retail,2023,12,-5.4
+WY,TOTAL,Total retail,2024,1,-8.5
+WY,TOTAL,Total retail,2024,2,-3.0
+WY,TOTAL,Total retail,2024,3,-9.2
+WY,TOTAL,Total retail,2024,4,-6.3
+WY,TOTAL,Total retail,2024,5,-3.2
+WY,TOTAL,Total retail,2024,6,-5.4
+WY,TOTAL,Total retail,2024,7,3.1
+WY,TOTAL,Total retail,2024,8,-0.6
+WY,TOTAL,Total retail,2024,9,-7.2
+WY,TOTAL,Total retail,2024,10,-1.2
+WY,TOTAL,Total retail,2024,11,-0.6
+WY,TOTAL,Total retail,2024,12,0.4
+WY,TOTAL,Total retail,2025,1,9.7
+WY,TOTAL,Total retail,2025,2,3.8
+WY,TOTAL,Total retail,2025,3,11.4
+WY,TOTAL,Total retail,2025,4,9.6
+WY,TOTAL,Total retail,2025,5,4.9
+WY,TOTAL,Total retail,2025,6,4.6
+WY,TOTAL,Total retail,2025,7,2.7
+WY,TOTAL,Total retail,2025,8,0.0
+WY,TOTAL,Total retail,2025,9,14.4
+WY,TOTAL,Total retail,2025,10,-1.2
+WY,TOTAL,Total retail,2025,11,-1.7
+WY,TOTAL,Total retail,2025,12,1.7
+WY,TOTAL,Total retail,2026,1,0.2
+WY,TOTAL,Total retail,2026,2,-0.3
+WY,TOTAL,Total retail,2026,3,0.8
+WY,TOTAL,Total retail,2026,4,3.0
+WY,TOTAL,Total retail,2026,5,4.6

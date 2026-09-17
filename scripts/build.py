@@ -512,6 +512,165 @@ def nd_impact_block() -> dict:
     return out
 
 
+def nps_detail_block() -> dict:
+    out = {}
+    p = DATA / "nps_thro_painted_canyon_traffic.csv"
+    if p.exists():
+        df = pd.read_csv(p)
+        df = df[df["year"] >= 2015]
+        out["painted_canyon"] = dict(seasonal(df, "month", "vehicles", 12, BAND_YEARS), current_year=int(df["year"].max()))
+    p = DATA / "nps_thro_public_use_monthly.csv"
+    if p.exists():
+        pu = pd.read_csv(p)
+        latest = pu.sort_values(["year", "month"]).iloc[-1]
+        cur = pu[(pu["year"] == latest.year) & (pu["month"] == latest.month)]
+        out["public_use"] = {"year": int(latest.year), "month": int(latest.month), "rows": [{"location": r.location, "month": int(r.value) if pd.notna(r.value) else None, "ytd": int(r.ytd) if pd.notna(r.ytd) else None} for r in cur.itertuples()],
+                             "history_months": int(len(pu.groupby(["year", "month"])))}
+        # by-location monthly history for South Unit / North Unit / Painted Canyon visits, once enough months accumulate
+        hist = {}
+        for loc in ("South Unit Visits", "North Unit Visits", "Painted Canyon Visits", "South Unit Campers", "North Unit Campers"):
+            g = pu[pu["location"] == loc]
+            if len(g):
+                hist[loc] = {f"{int(r.year)}-{int(r.month):02d}": int(r.value) for r in g.itertuples() if pd.notna(r.value)}
+        out["public_use"]["history"] = hist
+    p = DATA / "nps_thro_overnight_annual.csv"
+    if p.exists():
+        o = pd.read_csv(p)
+        o = o[o["year"] >= 2010]
+        cats = ["Tent", "RV", "Backcountry", "Miscellaneous"]
+        years = sorted(int(y) for y in o["year"].unique())
+        out["overnight"] = {"years": years, "categories": {c: [int(o[(o["year"] == y) & (o["category"] == c)]["stays"].sum()) for y in years] for c in cats}}
+    return out
+
+
+def tmas_block() -> dict:
+    p = DATA / "tmas_daily.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p, dtype={"station": str})
+    s = df[df["station"] == "279"]
+    # Days with both directions reported only
+    both = s.groupby("date").filter(lambda g: g["direction"].nunique() == 2)
+    daily = both.groupby(["date", "year", "month", "day", "dow"], as_index=False)["vehicles"].sum()
+    summer = daily[daily["month"].isin([6, 7, 8, 9])]
+    out = {"station": "279", "years": sorted(int(y) for y in daily["year"].unique()), "summer": {}, "dow": {}, "hourly": {}}
+    dow_names = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+    for y, g in summer.groupby("year"):
+        out["summer"][str(int(y))] = {"dates": g["date"].tolist(), "vehicles": [int(v) for v in g["vehicles"]]}
+        d = g.groupby("dow")["vehicles"].mean()
+        out["dow"][str(int(y))] = [round(float(d.get(i))) if i in d.index else None for i in range(1, 8)]
+    hcols = [f"h{h:02d}" for h in range(24)]
+    for y in out["years"][-3:]:
+        gs = both[(both["year"] == y) & both["month"].isin([6, 7, 8])]
+        if len(gs):
+            prof = gs.groupby("direction")[hcols].mean()
+            out["hourly"][str(int(y))] = {d: [round(float(v), 1) for v in prof.loc[d]] for d in prof.index}
+    out["dow_names"] = dow_names
+    # Holiday weeks: July 4 week average vs rest of July, per year
+    hol = []
+    for y in out["years"]:
+        g = daily[daily["year"] == y]
+        wk = g[(g["month"] == 7) & (g["day"].between(1, 7))]["vehicles"].mean()
+        rest = g[(g["month"] == 7) & (g["day"] > 7)]["vehicles"].mean()
+        if pd.notna(wk) and pd.notna(rest):
+            hol.append({"year": int(y), "july4_week": round(float(wk)), "rest_of_july": round(float(rest))})
+    out["july4"] = hol
+    return out
+
+
+def vse_block() -> dict:
+    p = DATA / "nps_vse_annual.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    out = {"parks": {}}
+    for code, g in df.groupby("park"):
+        years = sorted(int(y) for y in g["year"].unique())
+        def tot(cat, y):
+            v = g[(g["year"] == y) & (g["category"] == cat)]["value"].sum()
+            return float(v) if pd.notna(v) else None
+        out["parks"][code] = {"years": years, "spending": [tot("Visitor Spending", y) for y in years], "jobs": [tot("Jobs", y) for y in years],
+                              "output": [tot("Economic Output", y) for y in years], "visits": [tot("Visits", y) for y in years],
+                              "labor_income": [tot("Labor Income", y) for y in years]}
+        ly = years[-1]
+        sect = g[(g["year"] == ly) & (g["category"] == "Visitor Spending") & (g["sector"] != "Secondary Effects")]
+        out["parks"][code]["sectors_latest"] = {"year": ly, "rows": [{"sector": r.sector, "value": float(r.value)} for r in sect.sort_values("value", ascending=False).itertuples()]}
+    return out
+
+
+def db1b_block() -> dict:
+    p = DATA / "db1b_inbound_quarterly.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    df["ym"] = df["year"] * 10 + df["quarter"]
+    latest_year = int(df["year"].max())
+    # Use the latest four quarters available as a rolling year
+    q = sorted(df["ym"].unique())[-4:]
+    r = df[df["ym"].isin(q)]
+    out = {"quarters": [f"{int(x // 10)} Q{int(x % 10)}" for x in q], "dests": {}, "by_state": {}}
+    for dest, g in r.groupby("dest"):
+        tot = g["passengers_est"].sum()
+        top = g.groupby(["origin", "origin_state"], as_index=False)["passengers_est"].sum().sort_values("passengers_est", ascending=False).head(15)
+        out["dests"][dest] = {"total": int(tot), "origins": [{"origin": a.origin, "state": a.origin_state, "passengers": int(a.passengers_est), "share": round(a.passengers_est / tot * 100, 1)} for a in top.itertuples()]}
+    tot = r["passengers_est"].sum()
+    st = r.groupby("origin_state")["passengers_est"].sum().sort_values(ascending=False).head(12)
+    out["by_state"] = [{"state": k, "passengers": int(v), "share": round(v / tot * 100, 1)} for k, v in st.items()]
+    # Summer-quarter (Q3) trend for BIS+DIK combined
+    q3 = df[(df["quarter"] == 3) & df["dest"].isin(["BIS", "DIK"])].groupby("year")["passengers_est"].sum()
+    out["q3_trend"] = {str(int(y)): int(v) for y, v in q3.items()}
+    return out
+
+
+def airquality_block() -> dict:
+    p = DATA / "air_quality_daily.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    df["year"] = df["date"].str[:4].astype(int)
+    df["month"] = df["date"].str[5:7].astype(int)
+    df["usg"] = df["aqi"] >= 101
+    df["moderate"] = df["aqi"] >= 51
+    m = df.groupby(["year", "month"], as_index=False).agg(days=("aqi", "size"), usg_days=("usg", "sum"), moderate_days=("moderate", "sum"), max_aqi=("aqi", "max"), mean_aqi=("aqi", "mean"))
+    m = m[m["year"] >= 2019]
+    out = {"monthly": {str(int(y)): [int(m[(m["year"] == y) & (m["month"] == mo)]["usg_days"].sum()) if ((m["year"] == y) & (m["month"] == mo)).any() else None for mo in range(1, 13)] for y in sorted(m["year"].unique())},
+           "summer": []}
+    for y in sorted(m["year"].unique()):
+        s = m[(m["year"] == y) & m["month"].isin([6, 7, 8, 9])]
+        out["summer"].append({"year": int(y), "usg_days": int(s["usg_days"].sum()), "moderate_days": int(s["moderate_days"].sum()), "max_aqi": int(s["max_aqi"].max()) if len(s) else None, "days": int(s["days"].sum())})
+    out["latest"] = str(df["date"].max())
+    return out
+
+
+def ces_block() -> dict:
+    p = DATA / "ces_monthly.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    out = {"series": {}}
+    cur = int(df["year"].max())
+    out["current_year"] = cur
+    out["latest_month"] = int(df[df["year"] == cur]["month"].max())
+    for (area, ser), g in df.groupby(["area", "series"]):
+        out["series"][f"{area} — {ser}"] = seasonal(g, "month", "jobs_thousands", 12, BAND_YEARS)
+    return out
+
+
+def msrs_block() -> dict:
+    p = DATA / "census_msrs_yoy.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    cur = int(df["year"].max())
+    lm = int(df[df["year"] == cur]["month"].max())
+    recent = df[(df["year"] * 100 + df["month"]) >= (cur * 100 + lm) - 100]  # last ~13 months
+    out = {"current_year": cur, "latest_month": lm, "rows": []}
+    for (state, sector), g in recent.groupby(["state", "sector"]):
+        g = g.sort_values(["year", "month"])
+        out["rows"].append({"state": state, "sector": sector, "periods": [f"{int(r.year)}-{int(r.month):02d}" for r in g.itertuples()], "yoy": [float(r.yoy_pct) for r in g.itertuples()]})
+    return out
+
+
 def nddot_block() -> dict:
     p = DATA / "nddot_atr_monthly.csv"
     if not p.exists():
@@ -551,6 +710,13 @@ def main() -> None:
         "ndac": ndac_block(),
         "laus": laus_block(),
         "nd_impact": nd_impact_block(),
+        "nps_detail": nps_detail_block(),
+        "tmas": tmas_block(),
+        "vse": vse_block(),
+        "db1b": db1b_block(),
+        "air_quality": airquality_block(),
+        "ces": ces_block(),
+        "msrs": msrs_block(),
         "nddot": nddot_block(),
         "nd_counties": nd_counties_block(),
         "qcew": qcew_block(),

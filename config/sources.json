@@ -201,5 +201,22 @@
     "2024": "https://www.medialibrary.nd.gov/assetbank-nd/assetfile/150210.pdf",
     "2025": "https://www.medialibrary.nd.gov/assetbank-nd/assetfile/159810.pdf"
   },
-  "laus_since": 2015
+  "laus_since": 2015,
+  "tmas": {
+    "stations": [
+      "000279",
+      "000221"
+    ],
+    "since": 2019
+  },
+  "db1b": {
+    "airports": [
+      "BIS",
+      "DIK",
+      "FAR",
+      "MOT"
+    ],
+    "since": 2023
+  },
+  "vse_since": 2012
 }
