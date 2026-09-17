@@ -304,14 +304,23 @@ def controls_block() -> dict:
 
 
 def library_block(nps: pd.DataFrame, cur: int) -> dict:
-    p = DATA / "library_daily.csv"
-    if not p.exists():
-        return {}
-    d = pd.read_csv(p)
+    manifest_all = json.loads((DATA / "manifest.json").read_text())
+    ck = DATA / "acme_checkins_daily.csv"
+    if ck.exists():
+        # Direct ACME pull: TicketAnalytics scans are the authoritative attendance
+        c = pd.read_csv(ck)
+        d = c.groupby("date", as_index=False).agg(visitors=("checked_in", "sum"), tickets=("tickets", "sum"))
+        d["revenue"] = 0.0
+        manifest = {"as_of": manifest_all.get("acme", {}).get("checkins_last"), "visitors_source": "checked_in (TicketAnalytics, direct)"}
+    else:
+        p = DATA / "library_daily.csv"
+        if not p.exists():
+            return {}
+        d = pd.read_csv(p)
+        manifest = manifest_all.get("library", {})
     d["date"] = pd.to_datetime(d["date"])
-    manifest = json.loads((DATA / "manifest.json").read_text()).get("library", {})
     opening = OPENING
-    since = d[d["date"] >= opening].copy()
+    since = d[(d["date"] >= opening) & (d["date"] < pd.Timestamp.today().normalize())].copy()  # complete days only
     since["ma7"] = since["visitors"].rolling(7, min_periods=1).mean().round()
     monthly = d[d["date"].dt.year == cur].groupby(d["date"].dt.month).agg(visitors=("visitors", "sum"), tickets=("tickets", "sum"), revenue=("revenue", "sum")).reset_index().rename(columns={"date": "month"})
     thro = nps[(nps["park"] == "THRO") & (nps["year"] == cur)].set_index("month")["visits"].to_dict()
@@ -331,10 +340,24 @@ def library_block(nps: pd.DataFrame, cur: int) -> dict:
         "capture": cap,
         "peak_day": {"date": str(since.loc[since["visitors"].idxmax(), "date"].date()), "visitors": int(since["visitors"].max())} if len(since) else None,
     }
-    op = DATA / "library_origin_states.csv"
-    if op.exists():
-        o = pd.read_csv(op)
-        out["origin"] = {"as_of": str(o["as_of"].iloc[0]), "rows": [{"state": r.state, "visitors": int(r.visitors), "share": round(float(r.share) * 100, 1)} for r in o.itertuples()]}
+    om = DATA / "acme_origin_monthly.csv"
+    if om.exists():
+        o = pd.read_csv(om)
+        o = o[(o["year"] * 100 + o["month"]) >= opening.year * 100 + opening.month]
+        tot = o["tickets"].sum()
+        g = o.groupby("state")["tickets"].sum().sort_values(ascending=False)
+        core = {"ND", "MN", "SD", "MT"}
+        out["origin"] = {
+            "as_of": manifest.get("as_of"), "basis": "tickets by buyer ZIP, all channels, since opening",
+            "rows": [{"state": k, "visitors": int(v), "share": round(v / tot * 100, 1)} for k, v in g.head(15).items()],
+            "new_market_share": round(float(g[~g.index.isin(core)].sum() / tot * 100), 1) if tot else None,
+            "canada_share": round(float(g.get("Canada", 0) / tot * 100), 1) if tot else None,
+        }
+    else:
+        op = DATA / "library_origin_states.csv"
+        if op.exists():
+            o = pd.read_csv(op)
+            out["origin"] = {"as_of": str(o["as_of"].iloc[0]), "basis": "GA online purchases, YTD (Dashboard extract)", "rows": [{"state": r.state, "visitors": int(r.visitors), "share": round(float(r.share) * 100, 1)} for r in o.itertuples()]}
     return out
 
 

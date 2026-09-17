@@ -138,9 +138,9 @@ async function main() {
   // ---- Chart 0: Library daily attendance since opening
   if (L && L.daily_since_opening && L.daily_since_opening.dates.length) {
     const D = L.daily_since_opening;
-    const srcNote = L.visitors_source === "checked_in" ? "Attendance = checked-in scans." : `Attendance source in this snapshot: "${L.visitors_source}" — reconcile against the PE: Tickets Checked In report before quoting.`;
+    const srcNote = String(L.visitors_source).startsWith("checked_in") ? "Attendance = checked-in scans from ACME's TicketAnalytics collection (the figure that reconciles with the PE: Tickets Checked In report). Tickets sold run higher; the gap is no-shows and unscanned entries." : `Attendance source in this snapshot: "${L.visitors_source}" — reconcile against the PE: Tickets Checked In report before quoting.`;
     card("c0", "Library attendance, daily since opening",
-      `From the Marketing Dashboard's ACME extract (nightly). Blue = daily attendance, gray = 7-day average. ${srcNote} Peak day: ${L.peak_day ? MON[+L.peak_day.date.slice(5, 7) - 1] + " " + +L.peak_day.date.slice(8) + " (" + fmt(L.peak_day.visitors) + ")" : "–"}. Capture rate by month is in the table.`);
+      `Bars = daily checked-in attendance, line = 7-day average. ${srcNote} Peak day: ${L.peak_day ? MON[+L.peak_day.date.slice(5, 7) - 1] + " " + +L.peak_day.date.slice(8) + " (" + fmt(L.peak_day.visitors) + ")" : "–"}. Capture rate by month is in the table.`);
     Plotly.newPlot("c0", [
       { x: D.dates, y: D.visitors, type: "bar", name: "Daily attendance", marker: { color: css("--band").replace("0.14", "0.55").replace("0.18", "0.6") }, hovertemplate: "%{y:,}" },
       { x: D.dates, y: D.ma7, mode: "lines", name: "7-day average", line: { color: css("--s1"), width: 2.5 }, hovertemplate: "%{y:,}" },
@@ -148,8 +148,8 @@ async function main() {
     table("c0", ["Month", "Library attendance", "TRNP recreation visits", "Capture rate"], (L.capture || []).map(r => [MON[r.month - 1], r.library, r.trnp, r.capture_pct.toFixed(1) + "%"]));
     if (L.origin && L.origin.rows.length) {
       const el = document.createElement("section"); el.className = "card";
-      el.innerHTML = `<h2>Where Library visitors come from (advance online buyers, ${L.origin.as_of})</h2>
-        <p class="note">Billing state of General Admission online purchases, year to date, from ACME via the Marketing Dashboard. Advance-buy geography, not walk-ups. Compare with Cottonwood campers and Montana's survey further down.</p>
+      el.innerHTML = `<h2>Where Library visitors come from (through ${L.origin.as_of})</h2>
+        <p class="note">${L.origin.basis}. ${L.origin.new_market_share != null ? `<b>${L.origin.new_market_share.toFixed(1)}%</b> of tickets came from outside ND, MN, SD, and MT (the "new-market share" metric); Canada ${L.origin.canada_share.toFixed(1)}%.` : ""} Compare with Cottonwood campers and Montana's survey further down.</p>
         <table><thead><tr><th>State</th><th>Share</th><th>Visitors</th></tr></thead><tbody>${L.origin.rows.slice(0, 12).map(r => `<tr><td>${r.state}</td><td>${r.share.toFixed(1)}%</td><td>${fmt(r.visitors)}</td></tr>`).join("")}</tbody></table>`;
       document.getElementById("main").appendChild(el);
     }

@@ -29,7 +29,13 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
 
-      - name: Fetch Library admissions from the Marketing Dashboard's ACME extract
+      - name: Fetch Library check-ins and ZIP origin from ACME (direct)
+        run: python scripts/fetch_acme.py
+        env:
+          ACME_API_KEY: ${{ secrets.ACME_API_KEY }}
+          ACME_API_BASE: ${{ secrets.ACME_API_BASE }}
+        continue-on-error: true
+      - name: Fetch Library admissions from the Marketing Dashboard's ACME extract (fallback)
         run: python scripts/fetch_library.py
         env:
           DASHBOARD_TOKEN: ${{ secrets.DASHBOARD_TOKEN }}

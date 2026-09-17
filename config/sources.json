@@ -192,5 +192,8 @@
     "since": "2015-01-01",
     "noaa_station": "USW00024012"
   },
-  "qcew_since": 2015
+  "qcew_since": 2015,
+  "acme": {
+    "since": "2026-06-01"
+  }
 }

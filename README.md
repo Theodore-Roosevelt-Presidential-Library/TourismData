@@ -8,7 +8,8 @@ Gathers regional visitation indicators around the Theodore Roosevelt Presidentia
 
 | Feed | Source | Grain | Script |
 |---|---|---|---|
-| Library attendance (daily scans), tickets, revenue, channel, and origin state | The TRPL Marketing Dashboard repo's nightly ACME extract (`data/latest/acme.json`) — this repo never calls ACME directly | Daily, Sep 2024–present | `scripts/fetch_library.py` |
+| Library attendance (checked-in scans) and tickets by day and event; visitor origin by buyer ZIP → state | ACME Ticketing reporting API, direct (TicketAnalytics collection + "E: Event Sales by Zip Code") | Daily, Jun 2026–present; origin monthly | `scripts/fetch_acme.py` |
+| Fallback: the Marketing Dashboard repo's nightly ACME extract | `Dashboard/data/latest/acme.json` (private repo) | Daily, Sep 2024–present | `scripts/fetch_library.py` |
 | Recreation visits, 8 NPS units (TRNP + regional comparison parks) | NPS IRMA STATS, "Recreation Visitors By Month" report | Monthly, 1979–present | `scripts/fetch_nps.py` |
 | Inbound land-border crossings, ND and MT ports | BTS Border Crossing Entry Data (Socrata `keg4-3bc2`) | Monthly by port, 2019–present | `scripts/fetch_bts_border.py` |
 | Airport passengers (DIK, BIS, FAR, MOT, BIL, RAP) | BTS T-100 Domestic Market via the TranStats download form (monthly) + FAA calendar-year enplanements (annual) | Monthly 2019–present (~3-mo lag); annual 2005–present | `scripts/fetch_airports.py` |
@@ -43,7 +44,9 @@ python -m http.server -d docs 8000   # open http://localhost:8000
 
 ## Data notes
 
-- Library attendance comes from the private `Dashboard` repo, which runs ACME's Reporting API nightly. Locally, set `DASHBOARD_LOCAL` to a clone; in Actions, the `DASHBOARD_TOKEN` secret must be a GitHub token with read access to that repo's contents. `visitors` is checked-in scans and `tickets` is tickets sold — they are different quantities; the Dashboard records which one produced `visitors` in `visitors_source`, and the page shows it when it is anything but `checked_in`. Capture rate = Library monthly attendance ÷ TRNP monthly recreation visits.
+- **Attendance vs tickets.** ACME has two collections that disagree. `TicketAnalytics` (`CheckedInCount`, `TicketQuantity`) reconciles with the "PE: Tickets Checked In" report and is what this repo publishes as attendance. `Transactions` rows sum to roughly 1.7× the TicketAnalytics ticket count for the same events (combos and multi-line orders) and must not be used for counts. The Dashboard's `data/latest/acme.json` snapshot from 2026-09-04 carried Transactions-based "visitors"; the direct pull replaces it. Requires `ACME_API_KEY` (and `ACME_API_BASE` if not the default) in Actions secrets; the report-definition IDs are not secrets. The check-in query is sent as our own `queryExpression` grouped `DayMonthYear` so a Backoffice edit can't change it.
+- Origin: ZIP counts are aggregated to state (`zipcodes`), with Canadian postal codes as "Canada". Only ticket counts per ZIP are stored — no customer records. "New-market share" = tickets from outside ND, MN, SD, MT.
+- Library fallback: the private `Dashboard` repo, which runs ACME's Reporting API nightly. Locally, set `DASHBOARD_LOCAL` to a clone; in Actions, the `DASHBOARD_TOKEN` secret must be a GitHub token with read access to that repo's contents. `visitors` is checked-in scans and `tickets` is tickets sold — they are different quantities; the Dashboard records which one produced `visitors` in `visitors_source`, and the page shows it when it is anything but `checked_in`. Capture rate = Library monthly attendance ÷ TRNP monthly recreation visits.
 
 - NPS monthly figures are preliminary until the annual close in Q1. A current-year month posted as `0` is treated as not yet reported.
 - Little Bighorn Battlefield's 2025 counts look like a counter outage (July 2025 = 7,631 vs 25,896 in 2024). The dashboard flags parks whose year-over-year change exceeds 100% and excludes them from the control-park median.
