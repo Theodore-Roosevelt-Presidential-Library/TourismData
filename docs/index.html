@@ -321,8 +321,14 @@ async function main() {
         range: [Math.min(0, ...ytd.map(r => r.sales_ytd_pct)) * 1.9 - 4, Math.max(0, ...ytd.map(r => r.sales_ytd_pct)) * 1.18 + 4] },
       yaxis: { tickfont: { color: css("--ink-2") }, automargin: true },
     }), CONFIG);
-    table("c5e", ["Town", `Sales tax YTD ${ycur}`, `YTD ${ycur - 1}`, "Change", `Occupancy YTD ${ycur}`, `YTD ${ycur - 1}`, "Change"],
-      ytd.slice().reverse().map(r => [`${r.city} (${r.county})`, money(r.sales_ytd_cur), money(r.sales_ytd_prev), pctTxt(r.sales_ytd_pct), money(r.occupancy_ytd_cur), money(r.occupancy_ytd_prev), pctTxt(r.occupancy_ytd_pct)]));
+    table("c5e", ["Town", `Sales tax YTD ${ycur}`, `YTD ${ycur - 1}`, "Change", `Occupancy YTD ${ycur}`, `YTD ${ycur - 1}`, "Change", `Lodging & restaurant YTD ${ycur}`, `YTD ${ycur - 1}`, "Change"],
+      ytd.slice().reverse().map(r => [`${r.city} (${r.county})`, money(r.sales_ytd_cur), money(r.sales_ytd_prev), pctTxt(r.sales_ytd_pct), money(r.occupancy_ytd_cur), money(r.occupancy_ytd_prev), pctTxt(r.occupancy_ytd_pct), r.lodging_restaurant_ytd_cur != null ? money(r.lodging_restaurant_ytd_cur) : "–", r.lodging_restaurant_ytd_prev != null ? money(r.lodging_restaurant_ytd_prev) : "–", r.lodging_restaurant_ytd_pct != null ? pctTxt(r.lodging_restaurant_ytd_pct) : "–"]));
+    const dik = nc.cities.Dickinson;
+    if (dik && dik.lodging_restaurant) {
+      card("c5h", "Dickinson lodging & restaurant tax, monthly payments to the city",
+        `Dickinson's 1% city lodging-and-restaurant tax: the closest thing to a monthly restaurant-demand series for the Library's nearest full-service town (35 miles east). ${ycur} against ${ycur - 1} and the ${dik.lodging_restaurant.band_years[0]}–${dik.lodging_restaurant.band_years.at(-1)} range. Medora levies no such tax. Watford City and Bowman are in the table above. ${lagNote}`);
+      seasonalChart("c5h", MON, dik.lodging_restaurant, ycur, { periodName: "Payment month", hover: "$%{y:,.0f}", fmt: money, yaxis: { tickprefix: "$" }, openingIndex: 6 });
+    }
   }
 
   // ---- Chart 5f: corridor counties, taxable sales YTD
@@ -375,6 +381,21 @@ async function main() {
     seasonalChart("c7", MON, v7, y7, { periodName: "Month" });
   }
 
+  // ---- Chart 7b: ND county visitor spending (Tourism Economics for ND Commerce), annual
+  if (d.nd_impact && d.nd_impact.spending && d.nd_impact.spending.Billings) {
+    const I = d.nd_impact, cnames = Object.keys(I.spending).filter(c => c !== "North Dakota");
+    const base = c => { const i = I.years.indexOf(2021); return I.spending[c][i] || I.spending[c].find(v => v != null); };
+    card("c7b", `North Dakota corridor counties: visitor spending, ${I.years[0]}–${I.latest_year}`,
+      `Annual visitor spending by county from Tourism Economics' study for ND Commerce, indexed to 2021 = 100 so counties of different size share one axis (Stark is ~5× Billings). Billings County is Medora. The Library's first season lands in the ${I.latest_year + 1} edition. Dollar values and tourism-jobs share in the table. Statewide ${I.latest_year}: $${(I.spending["North Dakota"].at(-1) / 1000).toFixed(2)}B.`);
+    Plotly.newPlot("c7b", cnames.map((n, i) => ({
+      x: I.years, y: I.spending[n].map(v => v != null ? v / base(n) * 100 : null), mode: "lines+markers", name: n,
+      line: { color: css(SLOT[i % SLOT.length]), width: n === "Billings" ? 3 : 2 }, marker: { size: 6, line: { color: css("--surface"), width: 2 } },
+      customdata: I.spending[n], hovertemplate: "%{y:.1f} ($%{customdata:.1f}M)",
+    })), baseLayout({ yaxis: { gridcolor: css("--grid"), zeroline: false, tickfont: { color: css("--muted") } }, xaxis: { dtick: 1, gridcolor: css("--grid"), linecolor: css("--axis"), tickfont: { color: css("--muted") } } }), CONFIG);
+    const allc = Object.keys(I.spending);
+    table("c7b", ["County", ...I.years.map(y => y + " ($M)"), `Tourism jobs ${I.latest_year}`, "Share of county jobs"], allc.map(c => [c, ...I.spending[c].map(v => v != null ? v.toFixed(1) : "–"), I.jobs[c] ? fmt(I.jobs[c].total_jobs) : "–", I.jobs[c] ? I.jobs[c].share_of_county_employment_pct.toFixed(1) + "%" : "–"]));
+  }
+
   // ---- Chart 8: Wyoming county visitor spending, indexed
   if (d.wy && d.wy.counties && Object.keys(d.wy.counties).length) {
     const names = Object.keys(d.wy.counties);
@@ -408,11 +429,21 @@ async function main() {
     }), CONFIG);
     table("c9", ["Airport", `YTD ${ay}`, `YTD ${ay - 1}`, "Change"], ranked.slice().reverse().map(r => [r.airport, r.cur, r.prev, pctTxt(r.pct)]));
 
+    const N = d.ndac;
     for (const [code, label] of [["BIS", "Bismarck (BIS)"], ["DIK", "Dickinson (DIK)"]]) {
-      if (!A.monthly[code]) continue;
-      card("c9" + code, `${label} departing passengers, monthly`,
-        `${ay} against ${ay - 1} and the ${A.monthly[code].band_years[0]}–${A.monthly[code].band_years.at(-1)} range. Source: BTS T-100 Domestic Market, U.S. carriers.`);
-      seasonalChart("c9" + code, MON, A.monthly[code], ay, { periodName: "Month", openingIndex: 6 });
+      if (N && N.airports && N.airports[code]) {
+        const s = N.airports[code], ny = N.current_year, nlm = N.latest_month;
+        card("c9" + code, `${label} passenger boardings, monthly`,
+          `${ny} against ${ny - 1} and the ${s.band_years[0]}–${s.band_years.at(-1)} range, through ${MON[nlm - 1]} ${ny}. Source: ND Aeronautics Commission monthly boarding reports (all carriers, ~3-week lag). ${N.months_reported.length < nlm ? `NDAC's ${ny} reports for ${N.months_reported.length ? "Jan–" + MON[N.months_reported[0] - 2] : ""} were not retrievable from its site, so those months show the BTS series below the gap.` : ""} Other ND airports in the table.`);
+        seasonalChart("c9" + code, MON, s, ny, { periodName: "Month", openingIndex: 6 });
+        const lr = N.ytd.slice().sort((a, b) => b.pct - a.pct);
+        const mr = N.months_reported;
+        document.getElementById("c9" + code + "-tbl").innerHTML += `<p class="note">All ND commercial airports, ${MON[mr[0] - 1]}–${MON[mr.at(-1) - 1]} ${ny} vs ${ny - 1} (NDAC)</p><table><thead><tr><th>Airport</th><th>${ny}</th><th>${ny - 1}</th><th>Change</th></tr></thead><tbody>${lr.map(r => `<tr><td>${r.name} (${r.airport})</td><td>${fmt(r.cur)}</td><td>${fmt(r.prev)}</td><td>${pctTxt(r.pct)}</td></tr>`).join("")}</tbody></table>`;
+      } else if (A.monthly[code]) {
+        card("c9" + code, `${label} departing passengers, monthly`,
+          `${ay} against ${ay - 1} and the ${A.monthly[code].band_years[0]}–${A.monthly[code].band_years.at(-1)} range. Source: BTS T-100 Domestic Market, U.S. carriers.`);
+        seasonalChart("c9" + code, MON, A.monthly[code], ay, { periodName: "Month", openingIndex: 6 });
+      }
     }
     if (A.annual) {
       const codes = Object.keys(A.annual);
@@ -447,6 +478,16 @@ async function main() {
     seasonalChart("c11", QTR, Q.counties.Billings, qy, Object.assign({ periodName: "Quarter", hover: "%{y:,.0f} jobs" }, qy === cur ? { openingIndex: 2 } : {}));
     const lr = Q.latest.slice().sort((a, b) => b.pct - a.pct);
     document.getElementById("c11-tbl").innerHTML += `<p class="note">Latest quarter (${qy} Q${Q.latest_quarter}) by county</p><table><thead><tr><th>County</th><th>${qy}</th><th>${qy - 1}</th><th>Change</th></tr></thead><tbody>${lr.map(r => `<tr><td>${r.county}</td><td>${fmt(r.cur)}</td><td>${fmt(r.prev)}</td><td>${pctTxt(r.pct)}</td></tr>`).join("")}</tbody></table>`;
+  }
+
+  // ---- LAUS: monthly county employment (fast read; QCEW above is the industry read)
+  if (d.laus && d.laus.counties && d.laus.counties.Billings) {
+    const Lu = d.laus, ly = Lu.current_year, llm = Lu.latest_month;
+    card("c11b", "Billings County residents employed, monthly",
+      `BLS Local Area Unemployment Statistics: employed residents of Billings County by month, about a one-month lag (through ${MON[llm - 1]} ${ly}; the latest month is preliminary). It is all industries and counts people, not jobs, so it moves with the summer hiring season rather than with any one sector — the fast companion to the quarterly tourism-jobs chart above. ${ly} against ${ly - 1} and the ${Lu.counties.Billings.band_years[0]}–${Lu.counties.Billings.band_years.at(-1)} range. Other counties in the table.`);
+    seasonalChart("c11b", MON, Lu.counties.Billings, ly, Object.assign({ periodName: "Month", hover: "%{y:,.0f} employed" }, ly === cur ? { openingIndex: 6 } : {}));
+    const lr2 = Lu.latest.slice().sort((a, b) => b.pct - a.pct);
+    document.getElementById("c11b-tbl").innerHTML += `<p class="note">${MON[llm - 1]} ${ly} by county</p><table><thead><tr><th>County</th><th>Employed ${ly}</th><th>${ly - 1}</th><th>Change</th><th>Unemployment rate</th></tr></thead><tbody>${lr2.map(r => `<tr><td>${r.county}</td><td>${fmt(r.cur)}</td><td>${fmt(r.prev)}</td><td>${pctTxt(r.pct)}</td><td>${r.unemployment_rate.toFixed(1)}%</td></tr>`).join("")}</tbody></table>`;
   }
 
   // ---- Recreation.gov campgrounds

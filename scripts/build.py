@@ -148,12 +148,12 @@ def nd_city_block() -> dict:
     for city, g in df.groupby("city"):
         block = {"county": g["county"].iloc[0]}
         for dist, gd in g.groupby("dist_type"):
-            key = "sales" if "Sales" in dist else "occupancy"
+            key = "sales" if "Sales" in dist else ("lodging_restaurant" if "Restaurant" in dist else "occupancy")
             m = gd.groupby(["year", "month"])["amount"].sum().reset_index()
             block[key] = seasonal(m, "month", "amount", 12, BAND_YEARS)
         out["cities"][city] = block
         row = {"city": city, "county": block["county"]}
-        for key in ("sales", "occupancy"):
+        for key in ("sales", "occupancy", "lodging_restaurant"):
             if key in block:
                 yc = block[key]["years"].get(str(cur), [])
                 yp = block[key]["years"].get(str(cur - 1), [])
@@ -450,6 +450,68 @@ def airports_block() -> dict:
     return out
 
 
+def ndac_block() -> dict:
+    """ND Aeronautics Commission boardings: monthly, all eight ND airports, ~3-week lag."""
+    p = DATA / "ndac_boardings.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    cur = int(df["year"].max())
+    lm = int(df[df["year"] == cur]["month"].max())
+    # Months of the current year that every airport reports (Jan–Mar 2026 links were broken on NDAC's site).
+    have = sorted(int(m) for m in df[df["year"] == cur]["month"].unique())
+    out = {"current_year": cur, "latest_month": lm, "months_reported": have, "airports": {}, "ytd": [], "statewide": None}
+    for code, g in df.groupby("code"):
+        out["airports"][code] = dict(seasonal(g, "month", "boardings", 12, BAND_YEARS), name=g["airport"].iloc[0])
+        yc = g[(g["year"] == cur) & g["month"].isin(have)]["boardings"].sum()
+        yp = g[(g["year"] == cur - 1) & g["month"].isin(have)]["boardings"].sum()
+        out["ytd"].append({"airport": code, "name": g["airport"].iloc[0], "cur": int(yc), "prev": int(yp), "pct": pct(yc, yp)})
+    tot = df.groupby(["year", "month"], as_index=False)["boardings"].sum()
+    out["statewide"] = seasonal(tot, "month", "boardings", 12, BAND_YEARS)
+    return out
+
+
+def laus_block() -> dict:
+    p = DATA / "laus_counties_monthly.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    df = df[df["employment"].notna()]
+    cur = int(df["year"].max())
+    lm = int(df[df["year"] == cur]["month"].max())
+    out = {"current_year": cur, "latest_month": lm, "counties": {}, "latest": []}
+    for c, g in df.groupby("county"):
+        out["counties"][c] = seasonal(g, "month", "employment", 12, BAND_YEARS)
+        a = g[(g["year"] == cur) & (g["month"] == lm)]
+        b = g[(g["year"] == cur - 1) & (g["month"] == lm)]
+        if len(a) and len(b):
+            out["latest"].append({"county": c, "cur": float(a["employment"].iloc[0]), "prev": float(b["employment"].iloc[0]), "pct": pct(float(a["employment"].iloc[0]), float(b["employment"].iloc[0])),
+                                  "unemployment_rate": float(a["unemployment_rate"].iloc[0]), "prelim": bool(a["prelim"].iloc[0])})
+    return out
+
+
+def nd_impact_block() -> dict:
+    sp = DATA / "nd_tourism_impact_county_spending.csv"
+    jp = DATA / "nd_tourism_impact_county_jobs.csv"
+    if not sp.exists():
+        return {}
+    s = pd.read_csv(sp)
+    j = pd.read_csv(jp) if jp.exists() else pd.DataFrame()
+    focus = ["North Dakota"] + CONFIG.get("nd_focus_counties", [])
+    years = sorted(int(y) for y in s["year"].unique())
+    out = {"years": years, "latest_year": years[-1], "spending": {}, "jobs": {}}
+    for c in focus:
+        g = s[s["county"] == c].set_index("year")["spending_musd"]
+        if len(g):
+            out["spending"][c] = [float(g.get(y)) if y in g.index else None for y in years]
+        if len(j):
+            gj = j[(j["county"] == c) & (j["year"] == years[-1])]
+            if len(gj):
+                r = gj.iloc[0]
+                out["jobs"][c] = {"direct_jobs": int(r.direct_jobs), "total_jobs": int(r.total_jobs), "share_of_county_employment_pct": float(r.share_of_county_employment_pct), "total_income_musd": float(r.total_income_musd)}
+    return out
+
+
 def nddot_block() -> dict:
     p = DATA / "nddot_atr_monthly.csv"
     if not p.exists():
@@ -486,6 +548,9 @@ def main() -> None:
         "origin_geo": origin_geo_block(),
         "border": border_block(),
         "airports": airports_block(),
+        "ndac": ndac_block(),
+        "laus": laus_block(),
+        "nd_impact": nd_impact_block(),
         "nddot": nddot_block(),
         "nd_counties": nd_counties_block(),
         "qcew": qcew_block(),

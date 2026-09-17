@@ -13,12 +13,15 @@ Gathers regional visitation indicators around the Theodore Roosevelt Presidentia
 | Recreation visits, 8 NPS units (TRNP + regional comparison parks) | NPS IRMA STATS, "Recreation Visitors By Month" report | Monthly, 1979–present | `scripts/fetch_nps.py` |
 | Inbound land-border crossings, ND and MT ports | BTS Border Crossing Entry Data (Socrata `keg4-3bc2`) | Monthly by port, 2019–present | `scripts/fetch_bts_border.py` |
 | Airport passengers (DIK, BIS, FAR, MOT, BIL, RAP) | BTS T-100 Domestic Market via the TranStats download form (monthly) + FAA calendar-year enplanements (annual) | Monthly 2019–present (~3-mo lag); annual 2005–present | `scripts/fetch_airports.py` |
+| Airline passenger boardings, all 8 ND commercial airports (BIS, DIK, FAR, GFK, MOT, ISN, JMS, DVL) | ND Aeronautics Commission monthly boarding-report PDFs (each carries ten years of that month) | Monthly 2016–present (~3-week lag) | `scripts/fetch_ndac.py` |
 | I-94 and US 85 traffic near Medora (NDDOT permanent counters 279, 221, 223) | NDDOT monthly "Automatic Traffic Data" PDF reports | Monthly average daily traffic, weekday/weekend, 2024–present | `scripts/fetch_nddot_atr.py` |
 | Taxable sales and purchases, all ND counties + statewide industry sectors | ND Office of State Tax Commissioner, statistical-report workbook | Quarterly, 2019–present | `scripts/fetch_nd_tax.py` |
-| City sales tax and occupancy (lodging) tax paid to Medora, Beach, Belfield, Dickinson, Watford City, Killdeer, Bowman | ND State Treasurer, Historical Distribution Search | Monthly payments, 2019–present | `scripts/fetch_nd_treasurer.py` |
+| City sales tax, occupancy (lodging) tax, and city lodging-and-restaurant tax paid to Medora, Beach, Belfield, Dickinson, Watford City, Killdeer, Bowman | ND State Treasurer, Historical Distribution Search | Monthly payments, 2019–present | `scripts/fetch_nd_treasurer.py` |
 | Montana nonresident visitation + survey shares (entry point, origin state) | ITRR (Univ. of Montana) Tableau Public workbook, embedded Hyper extracts | Monthly 1991–present; survey quarterly 2021–present | `scripts/fetch_mt_itrr.py` |
 | Wyoming county travel impacts (spend, earnings, jobs, tax) | Dean Runyan Associates PDF for the Wyoming Office of Tourism | Annual, 2015–present | `scripts/fetch_wy_impacts.py` |
 | County employment in leisure & hospitality and accommodation & food (Billings, Stark, Golden Valley, McKenzie, Dunn, Slope, Bowman) | BLS QCEW open-data CSV slices | Quarterly, 2015–present (~5-mo lag) | `scripts/fetch_qcew.py` |
+| Employed residents, labor force, unemployment rate — same seven counties | BLS LAUS North Dakota time-series file | Monthly, 2015–present (~1-mo lag; latest month preliminary) | `scripts/fetch_laus.py` |
+| Visitor spending by county (5-yr timeline) and tourism jobs/income, all 53 ND counties | Tourism Economics "Economic Impact of Tourism in North Dakota" PDFs for ND Commerce | Annual, 2020–present | `scripts/fetch_nd_impact.py` |
 | Campground reservations and origin state — Cottonwood (TRNP), Buffalo Gap, CCC (USFS) | Recreation.gov RIDB historical reservation files (~500 MB per fiscal year; aggregates only are stored) | Monthly arrivals + annual origin, FY2020–present | `scripts/fetch_recgov.py` |
 | Wikipedia pageviews (Library, Medora, TRNP, TR articles) and Google Trends | Wikimedia REST API; pytrends (unofficial) | Monthly from 2015; weekly from 2019 | `scripts/fetch_interest.py` |
 | Controls: Dickinson weather (rain days, highs), Midwest gas price, CAD/USD, ND oil production and rig count | NOAA NCEI, EIA, FRED, ND Industrial Commission PDFs | Monthly, 2015–present | `scripts/fetch_controls.py` |
@@ -37,7 +40,8 @@ Each fetcher is independent: if one source is down the others still refresh, and
 pip install -r requirements.txt
 python scripts/fetch_nps.py
 python scripts/fetch_bts_border.py
-python scripts/fetch_bts_airports.py
+python scripts/fetch_airports.py
+python scripts/fetch_ndac.py
 python scripts/build.py
 python -m http.server -d docs 8000   # open http://localhost:8000
 ```
@@ -57,6 +61,11 @@ python -m http.server -d docs 8000   # open http://localhost:8000
 - MT ITRR: the workbook contains respondent-level survey rows. Only weighted aggregates (quarter × entry point, quarter × origin state) are written to the repo; respondent data is discarded after aggregation. "Wibaux/Beach" is the I-94 entry from North Dakota.
 - WY: the PDF URL changes each edition; add the new one to `wy_impacts_pdfs` in `config/sources.json`. Later editions win on overlapping years.
 - Not scriptable (probed 2026-09-16, re-checked with a real remote browser): South Dakota's Monthly Travel Indicators (Tourism Economics Symphony Tableau returns "Page unavailable" outside the sdvisit.com embed) and Wyoming's travelstats.com dashboard (Tableau Public with data access disabled). ND Commerce's monthly indicators are on the same Symphony platform with no public view; partner access is the path. The Tax Commissioner's Power BI report was paged through in full: it is the same tables as the Excel workbook, with no county × industry view. The ND GIS Hub domain (gishubdata.nd.gov) no longer resolves.
+- NDAC boardings: aero.nd.gov serves the wrong intermediate certificate, so the fetcher downloads the leaf's issuer certificate from Sectigo (AIA) and verifies against certifi plus that issuer — verification is never disabled. December's table lives in the "Calendar Year" report. The January–March 2026 PDF links on NDAC's site were 404 when this was built; the fetcher retries them each run and falls back to the prior year's report for that month (which still carries ten years of history), so those months show only through 2025 until NDAC fixes the links. Boardings are enplanements (departing passengers), all carriers, so they run slightly above BTS T-100's U.S.-carrier figure.
+- LAUS: `download.bls.gov` refuses requests whose user agent lacks a contact e-mail; set the `BLS_CONTACT` repository variable to a monitored address (the default is a placeholder on the Library's domain). County employment is a household-survey model estimate — people, all industries — not establishment jobs; QCEW remains the tourism-sector series. October 2025 is missing at the source (federal shutdown).
+- ND Commerce impact: the county tables are on pages 20 and 23 of the annual PDF; new editions are discovered from the Commerce research page (links titled "<year> Economic Impact"), and `nd_impact_pdfs` in config pins known ones. Later editions revise earlier years and win on overlap.
+- Lodging & restaurant tax: only Dickinson, Watford City and Bowman levy it among the corridor towns (Medora does not); it is in the same Treasurer search as the other distribution types (`REST/LODG`).
+- Motor-fuel gallons were looked for and are not available monthly: the Tax Commissioner publishes no fuel statistics, FHWA's monthly motor-fuel reports stop at December 2023 on its site, and EIA's prime-supplier state volumes ended in 2022. The NDDOT counter plus the EIA gas-price control stand in.
 - Airports: TranStats is a WebForms page (viewstate POST, one zip per state-year). Only the current and prior year are re-downloaded each run. FAA files for 2021–2023 sit behind HTML landing pages; the fetcher follows them.
 - NDDOT: reports are posted irregularly at `e_report_{Month}{Year}.pdf`; each carries the month for the report year and the prior year. Months that 404 are retried next run. No 2026 reports had been posted as of 2026-09-16.
 

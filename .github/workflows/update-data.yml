@@ -49,6 +49,9 @@ jobs:
       - name: Fetch airport passengers (BTS T-100 monthly + FAA annual)
         run: python scripts/fetch_airports.py
         continue-on-error: true
+      - name: Fetch ND Aeronautics Commission monthly boardings (all ND airports)
+        run: python scripts/fetch_ndac.py
+        continue-on-error: true
       - name: Fetch NDDOT monthly traffic counts (I-94 at Medora)
         run: python scripts/fetch_nddot_atr.py
         continue-on-error: true
@@ -66,6 +69,14 @@ jobs:
         continue-on-error: true
       - name: Fetch BLS QCEW county tourism employment
         run: python scripts/fetch_qcew.py
+        continue-on-error: true
+      - name: Fetch BLS LAUS monthly county employment
+        run: python scripts/fetch_laus.py
+        env:
+          BLS_CONTACT: ${{ vars.BLS_CONTACT }}
+        continue-on-error: true
+      - name: Fetch ND Commerce county tourism impact (annual)
+        run: python scripts/fetch_nd_impact.py
         continue-on-error: true
       - name: Fetch Recreation.gov campground aggregates (new fiscal years only)
         run: python scripts/fetch_recgov.py

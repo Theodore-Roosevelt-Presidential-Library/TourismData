@@ -129,7 +129,8 @@
     ],
     "dist_types": [
       "CITY SALES",
-      "OCCUPANCY"
+      "OCCUPANCY",
+      "REST/LODG"
     ],
     "since": "01/01/2019"
   },
@@ -195,5 +196,10 @@
   "qcew_since": 2015,
   "acme": {
     "since": "2026-06-01"
-  }
+  },
+  "nd_impact_pdfs": {
+    "2024": "https://www.medialibrary.nd.gov/assetbank-nd/assetfile/150210.pdf",
+    "2025": "https://www.medialibrary.nd.gov/assetbank-nd/assetfile/159810.pdf"
+  },
+  "laus_since": 2015
 }
