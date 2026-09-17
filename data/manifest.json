@@ -12,7 +12,7 @@
       2005,
       2025
     ],
-    "fetched_at": "2026-09-17T11:48:38+00:00",
+    "fetched_at": "2026-09-17T12:31:32+00:00",
     "monthly_latest": "2026-06"
   },
   "bts_airports_annual": {
@@ -23,7 +23,7 @@
     ]
   },
   "bts_border_monthly": {
-    "fetched_at": "2026-09-17T11:47:39+00:00",
+    "fetched_at": "2026-09-17T12:30:35+00:00",
     "latest_month": "2026-07",
     "rows": 6448
   },
@@ -37,11 +37,11 @@
       "nd_oil_bbl_per_day",
       "nd_rig_count"
     ],
-    "fetched_at": "2026-09-17T11:50:13+00:00",
+    "fetched_at": "2026-09-17T12:33:16+00:00",
     "rows": 141
   },
   "interest": {
-    "fetched_at": "2026-09-17T11:50:07+00:00",
+    "fetched_at": "2026-09-17T12:33:09+00:00",
     "trends_rows": 330,
     "wiki_articles": 4,
     "wiki_latest": "2026-09"
@@ -56,7 +56,7 @@
     "visitors_ytd": 204813
   },
   "mt_itrr": {
-    "fetched_at": "2026-09-17T11:49:30+00:00",
+    "fetched_at": "2026-09-17T12:32:20+00:00",
     "survey_n": 40835,
     "survey_years": [
       2021,
@@ -78,19 +78,19 @@
       "Watford City"
     ],
     "failed": [],
-    "fetched_at": "2026-09-17T11:49:26+00:00",
+    "fetched_at": "2026-09-17T12:32:16+00:00",
     "latest_payment": "2026-08-21",
     "rows": 1254
   },
   "nd_taxable_sales_quarterly": {
     "counties": 55,
-    "fetched_at": "2026-09-17T11:48:56+00:00",
+    "fetched_at": "2026-09-17T12:31:49+00:00",
     "latest_quarter": "2026 Q2",
     "rows": 1650
   },
   "nddot_atr_monthly": {
     "fetched": [],
-    "fetched_at": "2026-09-17T11:48:55+00:00",
+    "fetched_at": "2026-09-17T12:31:48+00:00",
     "latest_month": "2025-12",
     "missing_reports": [
       "January2026",
@@ -107,7 +107,7 @@
   },
   "nps_monthly": {
     "failed": [],
-    "fetched_at": "2026-09-17T11:47:37+00:00",
+    "fetched_at": "2026-09-17T12:30:32+00:00",
     "latest_month": {
       "BADL": "2026-08",
       "DETO": "2026-08",
@@ -121,7 +121,7 @@
     "parks": 8
   },
   "qcew_county_quarterly": {
-    "fetched_at": "2026-09-17T11:50:01+00:00",
+    "fetched_at": "2026-09-17T12:33:02+00:00",
     "latest_quarter": "2026 Q1",
     "missing": [],
     "rows": 1530
@@ -138,7 +138,7 @@
       "Roundup Group Horse Camp",
       "Sather Lake Campground"
     ],
-    "fetched_at": "2026-09-17T11:50:01+00:00",
+    "fetched_at": "2026-09-17T12:33:03+00:00",
     "fiscal_years": [
       2020,
       2021,
@@ -150,7 +150,7 @@
   },
   "wy_county_travel_impacts": {
     "counties": 23,
-    "fetched_at": "2026-09-17T11:49:59+00:00",
+    "fetched_at": "2026-09-17T12:33:00+00:00",
     "rows": 253,
     "years": [
       2015,
