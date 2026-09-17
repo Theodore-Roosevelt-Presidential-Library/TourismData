@@ -8,6 +8,7 @@ Gathers regional visitation indicators around the Theodore Roosevelt Presidentia
 
 | Feed | Source | Grain | Script |
 |---|---|---|---|
+| Library attendance (daily scans), tickets, revenue, channel, and origin state | The TRPL Marketing Dashboard repo's nightly ACME extract (`data/latest/acme.json`) — this repo never calls ACME directly | Daily, Sep 2024–present | `scripts/fetch_library.py` |
 | Recreation visits, 8 NPS units (TRNP + regional comparison parks) | NPS IRMA STATS, "Recreation Visitors By Month" report | Monthly, 1979–present | `scripts/fetch_nps.py` |
 | Inbound land-border crossings, ND and MT ports | BTS Border Crossing Entry Data (Socrata `keg4-3bc2`) | Monthly by port, 2019–present | `scripts/fetch_bts_border.py` |
 | Airport passengers (DIK, BIS, FAR, MOT, BIL, RAP) | BTS T-100 Domestic Market via the TranStats download form (monthly) + FAA calendar-year enplanements (annual) | Monthly 2019–present (~3-mo lag); annual 2005–present | `scripts/fetch_airports.py` |
@@ -42,6 +43,8 @@ python -m http.server -d docs 8000   # open http://localhost:8000
 
 ## Data notes
 
+- Library attendance comes from the private `Dashboard` repo, which runs ACME's Reporting API nightly. Locally, set `DASHBOARD_LOCAL` to a clone; in Actions, the `DASHBOARD_TOKEN` secret must be a GitHub token with read access to that repo's contents. `visitors` is checked-in scans and `tickets` is tickets sold — they are different quantities; the Dashboard records which one produced `visitors` in `visitors_source`, and the page shows it when it is anything but `checked_in`. Capture rate = Library monthly attendance ÷ TRNP monthly recreation visits.
+
 - NPS monthly figures are preliminary until the annual close in Q1. A current-year month posted as `0` is treated as not yet reported.
 - Little Bighorn Battlefield's 2025 counts look like a counter outage (July 2025 = 7,631 vs 25,896 in 2024). The dashboard flags parks whose year-over-year change exceeds 100% and excludes them from the control-park median.
 - BTS border data is reported at the port level; Pembina and Portal carry most ND traffic.
@@ -63,6 +66,6 @@ python -m http.server -d docs 8000   # open http://localhost:8000
 - ND county-by-industry (accommodation and food services): request from the Tax Commissioner's research staff.
 - SD Monthly Travel Indicators, if Travel South Dakota will share an extract.
 - NDDOT ATR hourly/directional data for station 279 by request to NDDOT Planning (the PDFs give daily averages only).
-- Phase 2: Library admissions (Altru SKY API) and GA4, joined by date to compute capture rate (admissions ÷ TRNP South Unit visits) and new-market share.
+- GA4 web demand by DMA (the Dashboard already pulls it) as a leading indicator next to Wikipedia and Trends; new-market share from ticketing ZIPs once the Dashboard exposes ZIP-level origin.
 
 Planning doc: *Visitor Impact Data Plan* (Claude doc) and `TRPL / Visitor Impact Data Plan — source inventory` in Outline.

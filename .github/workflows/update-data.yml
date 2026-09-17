@@ -29,6 +29,11 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
 
+      - name: Fetch Library admissions from the Marketing Dashboard's ACME extract
+        run: python scripts/fetch_library.py
+        env:
+          DASHBOARD_TOKEN: ${{ secrets.DASHBOARD_TOKEN }}
+        continue-on-error: true
       - name: Fetch NPS IRMA monthly visits
         run: python scripts/fetch_nps.py
         continue-on-error: true

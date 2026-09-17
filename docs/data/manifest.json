@@ -38,6 +38,15 @@
     "wiki_articles": 4,
     "wiki_latest": "2026-09"
   },
+  "library": {
+    "as_of": "2026-09-04",
+    "fetched_at": "2026-09-17T11:32:44+00:00",
+    "first_date": "2024-09-04",
+    "last_date": "2026-09-04",
+    "tickets_ytd": 251744,
+    "visitors_source": "ga_tickets_fallback",
+    "visitors_ytd": 204813
+  },
   "mt_itrr": {
     "fetched_at": "2026-09-17T10:40:20+00:00",
     "survey_n": 40835,

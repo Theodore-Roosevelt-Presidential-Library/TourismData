@@ -303,6 +303,41 @@ def controls_block() -> dict:
     return {"current_year": cur, "columns": cols, "years": {str(cur): yr(cur), str(cur - 1): yr(cur - 1)}}
 
 
+def library_block(nps: pd.DataFrame, cur: int) -> dict:
+    p = DATA / "library_daily.csv"
+    if not p.exists():
+        return {}
+    d = pd.read_csv(p)
+    d["date"] = pd.to_datetime(d["date"])
+    manifest = json.loads((DATA / "manifest.json").read_text()).get("library", {})
+    opening = OPENING
+    since = d[d["date"] >= opening].copy()
+    since["ma7"] = since["visitors"].rolling(7, min_periods=1).mean().round()
+    monthly = d[d["date"].dt.year == cur].groupby(d["date"].dt.month).agg(visitors=("visitors", "sum"), tickets=("tickets", "sum"), revenue=("revenue", "sum")).reset_index().rename(columns={"date": "month"})
+    thro = nps[(nps["park"] == "THRO") & (nps["year"] == cur)].set_index("month")["visits"].to_dict()
+    cap = []
+    for r in monthly.itertuples():
+        m = int(r.month)
+        if m >= opening.month and thro.get(m) and r.visitors:
+            cap.append({"month": m, "library": int(r.visitors), "trnp": int(thro[m]), "capture_pct": round(r.visitors / thro[m] * 100, 1)})
+    last_full = since[since["date"] <= d["date"].max()]
+    out = {
+        "as_of": manifest.get("as_of"),
+        "visitors_source": manifest.get("visitors_source"),
+        "first_date": str(d["date"].min().date()),
+        "daily_since_opening": {"dates": [x.strftime("%Y-%m-%d") for x in since["date"]], "visitors": [int(v) for v in since["visitors"]], "ma7": [int(v) for v in since["ma7"]], "tickets": [int(v) for v in since["tickets"]]},
+        "since_opening": {"visitors": int(since["visitors"].sum()), "tickets": int(since["tickets"].sum()), "revenue": round(float(since["revenue"].sum()), 2), "days": int(len(since))},
+        "monthly": [{"month": int(r.month), "visitors": int(r.visitors), "tickets": int(r.tickets), "revenue": round(float(r.revenue), 2)} for r in monthly.itertuples()],
+        "capture": cap,
+        "peak_day": {"date": str(since.loc[since["visitors"].idxmax(), "date"].date()), "visitors": int(since["visitors"].max())} if len(since) else None,
+    }
+    op = DATA / "library_origin_states.csv"
+    if op.exists():
+        o = pd.read_csv(op)
+        out["origin"] = {"as_of": str(o["as_of"].iloc[0]), "rows": [{"state": r.state, "visitors": int(r.visitors), "share": round(float(r.share) * 100, 1)} for r in o.itertuples()]}
+    return out
+
+
 def airports_block() -> dict:
     out = {}
     mp = DATA / "airports_monthly.csv"
@@ -355,6 +390,7 @@ def main() -> None:
         "band_years": BAND_YEARS,
         "manifest": manifest,
         "parks": parks,
+        "library": library_block(nps, cur),
         "border": border_block(),
         "airports": airports_block(),
         "nddot": nddot_block(),

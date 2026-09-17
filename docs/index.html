@@ -122,12 +122,38 @@ async function main() {
   document.getElementById("subtitle").innerHTML =
     `Theodore Roosevelt National Park and regional indicators, through <b>${d.latest_month_label}</b>. The Library opened <b>July 4, ${cur}</b>.`;
 
-  document.getElementById("tiles").innerHTML = [
+  const L = d.library;
+  const capLatest = L && L.capture && L.capture.length ? L.capture[L.capture.length - 1] : null;
+  const libTiles = L && L.since_opening ? [
+    ["Library attendance since opening", fmt(L.since_opening.visitors), `${L.since_opening.days} days through ${L.as_of}`],
+    ["Capture rate, " + (capLatest ? MON[capLatest.month - 1] : "–"), capLatest ? capLatest.capture_pct.toFixed(0) + "%" : "–", capLatest ? `Library ÷ TRNP visits (${fmt(capLatest.library)} ÷ ${fmt(capLatest.trnp)})` : "needs NPS month"],
+  ] : [];
+  document.getElementById("tiles").innerHTML = [...libTiles, 
     ["TRNP, " + MON[k.latest.month - 1] + " " + cur, fmt(k.latest.cur), `${pctSpan(k.latest.prev ? (k.latest.cur - k.latest.prev) / k.latest.prev * 100 : null)} vs ${MON[k.latest.month - 1]} ${prev}`],
     ["TRNP since opening (Jul–" + MON[k.post_opening.months.at(-1) - 1] + ")", fmt(k.post_opening.cur), `${pctSpan(k.post_opening.pct)} vs same months ${prev}`],
     ["TRNP year to date", fmt(k.ytd.cur), `${pctSpan(k.ytd.pct)} vs Jan–${MON[k.ytd.months.at(-1) - 1]} ${prev}`],
     ["Control parks, same months", pctTxt(ctrlMedian), `median of ${cleanControls.length} regional parks vs ${prev}`],
   ].map(([kk, v, dd]) => `<div class="tile"><div class="k">${kk}</div><div class="v">${v}</div><div class="d">${dd}</div></div>`).join("");
+
+  // ---- Chart 0: Library daily attendance since opening
+  if (L && L.daily_since_opening && L.daily_since_opening.dates.length) {
+    const D = L.daily_since_opening;
+    const srcNote = L.visitors_source === "checked_in" ? "Attendance = checked-in scans." : `Attendance source in this snapshot: "${L.visitors_source}" — reconcile against the PE: Tickets Checked In report before quoting.`;
+    card("c0", "Library attendance, daily since opening",
+      `From the Marketing Dashboard's ACME extract (nightly). Blue = daily attendance, gray = 7-day average. ${srcNote} Peak day: ${L.peak_day ? MON[+L.peak_day.date.slice(5, 7) - 1] + " " + +L.peak_day.date.slice(8) + " (" + fmt(L.peak_day.visitors) + ")" : "–"}. Capture rate by month is in the table.`);
+    Plotly.newPlot("c0", [
+      { x: D.dates, y: D.visitors, type: "bar", name: "Daily attendance", marker: { color: css("--band").replace("0.14", "0.55").replace("0.18", "0.6") }, hovertemplate: "%{y:,}" },
+      { x: D.dates, y: D.ma7, mode: "lines", name: "7-day average", line: { color: css("--s1"), width: 2.5 }, hovertemplate: "%{y:,}" },
+    ], baseLayout({ bargap: 0.15, xaxis: { gridcolor: css("--grid"), linecolor: css("--axis"), tickfont: { color: css("--muted") }, tickformat: "%b %d" } }), CONFIG);
+    table("c0", ["Month", "Library attendance", "TRNP recreation visits", "Capture rate"], (L.capture || []).map(r => [MON[r.month - 1], r.library, r.trnp, r.capture_pct.toFixed(1) + "%"]));
+    if (L.origin && L.origin.rows.length) {
+      const el = document.createElement("section"); el.className = "card";
+      el.innerHTML = `<h2>Where Library visitors come from (advance online buyers, ${L.origin.as_of})</h2>
+        <p class="note">Billing state of General Admission online purchases, year to date, from ACME via the Marketing Dashboard. Advance-buy geography, not walk-ups. Compare with Cottonwood campers and Montana's survey further down.</p>
+        <table><thead><tr><th>State</th><th>Share</th><th>Visitors</th></tr></thead><tbody>${L.origin.rows.slice(0, 12).map(r => `<tr><td>${r.state}</td><td>${r.share.toFixed(1)}%</td><td>${fmt(r.visitors)}</td></tr>`).join("")}</tbody></table>`;
+      document.getElementById("main").appendChild(el);
+    }
+  }
 
   // ---- Chart 1: TRNP monthly vs pre-opening band
   card("c1", "Theodore Roosevelt NP, monthly recreation visits",
@@ -439,7 +465,7 @@ async function main() {
   const m = d.manifest;
   document.getElementById("footer").innerHTML =
     `Built ${d.built_at.replace("T", " ").slice(0, 16)} UTC. NPS fetched ${m.nps_monthly.fetched_at.slice(0, 10)}; BTS border ${m.bts_border_monthly.fetched_at.slice(0, 10)}. ` +
-    `Data: <a href="data/nps_monthly.csv">nps_monthly.csv</a> · <a href="data/bts_border_monthly.csv">bts_border_monthly.csv</a> · <a href="data/airports_monthly.csv">airports_monthly.csv</a> · <a href="data/airports_annual.csv">airports_annual.csv</a> · <a href="data/nddot_atr_monthly.csv">nddot_atr_monthly.csv</a> · <a href="data/qcew_county_quarterly.csv">qcew_county_quarterly.csv</a> · <a href="data/recgov_monthly.csv">recgov_monthly.csv</a> · <a href="data/recgov_origin_annual.csv">recgov_origin_annual.csv</a> · <a href="data/wiki_pageviews_monthly.csv">wiki_pageviews_monthly.csv</a> · <a href="data/google_trends_weekly.csv">google_trends_weekly.csv</a> · <a href="data/controls_monthly.csv">controls_monthly.csv</a> · <a href="data/nd_taxable_sales_quarterly.csv">nd_taxable_sales_quarterly.csv</a> · <a href="data/nd_taxable_sales_industry_quarterly.csv">nd_taxable_sales_industry_quarterly.csv</a> · <a href="data/nd_city_tax_distributions_monthly.csv">nd_city_tax_distributions_monthly.csv</a> · <a href="data/mt_nonresident_visitation_monthly.csv">mt_nonresident_visitation_monthly.csv</a> · <a href="data/mt_nonresident_survey_shares.csv">mt_nonresident_survey_shares.csv</a> · <a href="data/wy_county_travel_impacts_annual.csv">wy_county_travel_impacts_annual.csv</a> · <a href="data/dashboard.json">dashboard.json</a>. ` +
+    `Data: <a href="data/library_daily.csv">library_daily.csv</a> · <a href="data/library_origin_states.csv">library_origin_states.csv</a> · <a href="data/nps_monthly.csv">nps_monthly.csv</a> · <a href="data/bts_border_monthly.csv">bts_border_monthly.csv</a> · <a href="data/airports_monthly.csv">airports_monthly.csv</a> · <a href="data/airports_annual.csv">airports_annual.csv</a> · <a href="data/nddot_atr_monthly.csv">nddot_atr_monthly.csv</a> · <a href="data/qcew_county_quarterly.csv">qcew_county_quarterly.csv</a> · <a href="data/recgov_monthly.csv">recgov_monthly.csv</a> · <a href="data/recgov_origin_annual.csv">recgov_origin_annual.csv</a> · <a href="data/wiki_pageviews_monthly.csv">wiki_pageviews_monthly.csv</a> · <a href="data/google_trends_weekly.csv">google_trends_weekly.csv</a> · <a href="data/controls_monthly.csv">controls_monthly.csv</a> · <a href="data/nd_taxable_sales_quarterly.csv">nd_taxable_sales_quarterly.csv</a> · <a href="data/nd_taxable_sales_industry_quarterly.csv">nd_taxable_sales_industry_quarterly.csv</a> · <a href="data/nd_city_tax_distributions_monthly.csv">nd_city_tax_distributions_monthly.csv</a> · <a href="data/mt_nonresident_visitation_monthly.csv">mt_nonresident_visitation_monthly.csv</a> · <a href="data/mt_nonresident_survey_shares.csv">mt_nonresident_survey_shares.csv</a> · <a href="data/wy_county_travel_impacts_annual.csv">wy_county_travel_impacts_annual.csv</a> · <a href="data/dashboard.json">dashboard.json</a>. ` +
     `NPS monthly counts are preliminary until the annual close. Theodore Roosevelt Presidential Library.`;
 }
 main().catch(e => { document.getElementById("subtitle").textContent = "Could not load data: " + e; });
