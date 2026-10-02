@@ -137,7 +137,8 @@ Bismarck MSA,Accommodation & food services,2026,3,6.2,False
 Bismarck MSA,Accommodation & food services,2026,4,6.2,False
 Bismarck MSA,Accommodation & food services,2026,5,6.4,False
 Bismarck MSA,Accommodation & food services,2026,6,6.6,False
-Bismarck MSA,Accommodation & food services,2026,7,6.6,True
+Bismarck MSA,Accommodation & food services,2026,7,6.6,False
+Bismarck MSA,Accommodation & food services,2026,8,6.5,True
 Bismarck MSA,Leisure & hospitality,2015,1,6.5,False
 Bismarck MSA,Leisure & hospitality,2015,2,6.6,False
 Bismarck MSA,Leisure & hospitality,2015,3,6.6,False
@@ -276,7 +277,8 @@ Bismarck MSA,Leisure & hospitality,2026,3,7.5,False
 Bismarck MSA,Leisure & hospitality,2026,4,7.4,False
 Bismarck MSA,Leisure & hospitality,2026,5,7.7,False
 Bismarck MSA,Leisure & hospitality,2026,6,8.0,False
-Bismarck MSA,Leisure & hospitality,2026,7,8.1,True
+Bismarck MSA,Leisure & hospitality,2026,7,8.1,False
+Bismarck MSA,Leisure & hospitality,2026,8,8.0,True
 North Dakota,Accommodation,2015,1,7.7,False
 North Dakota,Accommodation,2015,2,7.7,False
 North Dakota,Accommodation,2015,3,7.7,False
@@ -415,7 +417,8 @@ North Dakota,Accommodation,2026,3,5.2,False
 North Dakota,Accommodation,2026,4,5.1,False
 North Dakota,Accommodation,2026,5,5.3,False
 North Dakota,Accommodation,2026,6,5.5,False
-North Dakota,Accommodation,2026,7,5.5,True
+North Dakota,Accommodation,2026,7,5.6,False
+North Dakota,Accommodation,2026,8,5.7,True
 North Dakota,Accommodation & food services,2015,1,35.3,False
 North Dakota,Accommodation & food services,2015,2,35.5,False
 North Dakota,Accommodation & food services,2015,3,35.7,False
@@ -554,7 +557,8 @@ North Dakota,Accommodation & food services,2026,3,34.1,False
 North Dakota,Accommodation & food services,2026,4,33.7,False
 North Dakota,Accommodation & food services,2026,5,35.0,False
 North Dakota,Accommodation & food services,2026,6,35.7,False
-North Dakota,Accommodation & food services,2026,7,35.0,True
+North Dakota,Accommodation & food services,2026,7,35.6,False
+North Dakota,Accommodation & food services,2026,8,35.4,True
 North Dakota,"Arts, entertainment & recreation",2015,1,4.0,False
 North Dakota,"Arts, entertainment & recreation",2015,2,4.1,False
 North Dakota,"Arts, entertainment & recreation",2015,3,4.2,False
@@ -693,7 +697,8 @@ North Dakota,"Arts, entertainment & recreation",2026,3,6.2,False
 North Dakota,"Arts, entertainment & recreation",2026,4,6.0,False
 North Dakota,"Arts, entertainment & recreation",2026,5,7.0,False
 North Dakota,"Arts, entertainment & recreation",2026,6,7.7,False
-North Dakota,"Arts, entertainment & recreation",2026,7,8.0,True
+North Dakota,"Arts, entertainment & recreation",2026,7,8.2,False
+North Dakota,"Arts, entertainment & recreation",2026,8,8.2,True
 North Dakota,Food services & drinking places,2015,1,27.6,False
 North Dakota,Food services & drinking places,2015,2,27.8,False
 North Dakota,Food services & drinking places,2015,3,28.0,False
@@ -832,7 +837,8 @@ North Dakota,Food services & drinking places,2026,3,28.9,False
 North Dakota,Food services & drinking places,2026,4,28.6,False
 North Dakota,Food services & drinking places,2026,5,29.7,False
 North Dakota,Food services & drinking places,2026,6,30.2,False
-North Dakota,Food services & drinking places,2026,7,29.5,True
+North Dakota,Food services & drinking places,2026,7,30.0,False
+North Dakota,Food services & drinking places,2026,8,29.7,True
 North Dakota,Leisure & hospitality,2015,1,39.3,False
 North Dakota,Leisure & hospitality,2015,2,39.6,False
 North Dakota,Leisure & hospitality,2015,3,39.9,False
@@ -971,7 +977,8 @@ North Dakota,Leisure & hospitality,2026,3,40.3,False
 North Dakota,Leisure & hospitality,2026,4,39.7,False
 North Dakota,Leisure & hospitality,2026,5,42.0,False
 North Dakota,Leisure & hospitality,2026,6,43.4,False
-North Dakota,Leisure & hospitality,2026,7,43.0,True
+North Dakota,Leisure & hospitality,2026,7,43.8,False
+North Dakota,Leisure & hospitality,2026,8,43.6,True
 North Dakota,Total nonfarm,2015,1,456.7,False
 North Dakota,Total nonfarm,2015,2,455.9,False
 North Dakota,Total nonfarm,2015,3,454.7,False
@@ -1110,4 +1117,5 @@ North Dakota,Total nonfarm,2026,3,444.0,False
 North Dakota,Total nonfarm,2026,4,445.0,False
 North Dakota,Total nonfarm,2026,5,451.1,False
 North Dakota,Total nonfarm,2026,6,453.4,False
-North Dakota,Total nonfarm,2026,7,447.6,True
+North Dakota,Total nonfarm,2026,7,448.9,False
+North Dakota,Total nonfarm,2026,8,448.2,True

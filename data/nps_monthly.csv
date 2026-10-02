@@ -1143,6 +1143,7 @@ DETO,Devils Tower NM,control,WY,2026,5,51826
 DETO,Devils Tower NM,control,WY,2026,6,103935
 DETO,Devils Tower NM,control,WY,2026,7,108035
 DETO,Devils Tower NM,control,WY,2026,8,79537
+DETO,Devils Tower NM,control,WY,2026,9,70804
 KNRI,Knife River Indian Villages NHS,corridor,ND,1981,1,9
 KNRI,Knife River Indian Villages NHS,corridor,ND,1981,2,18
 KNRI,Knife River Indian Villages NHS,corridor,ND,1981,3,26
@@ -1691,6 +1692,7 @@ KNRI,Knife River Indian Villages NHS,corridor,ND,2026,5,1153
 KNRI,Knife River Indian Villages NHS,corridor,ND,2026,6,1538
 KNRI,Knife River Indian Villages NHS,corridor,ND,2026,7,1934
 KNRI,Knife River Indian Villages NHS,corridor,ND,2026,8,1746
+KNRI,Knife River Indian Villages NHS,corridor,ND,2026,9,1319
 LIBI,Little Bighorn Battlefield NM,control,MT,1979,1,765
 LIBI,Little Bighorn Battlefield NM,control,MT,1979,2,1484
 LIBI,Little Bighorn Battlefield NM,control,MT,1979,3,3098
@@ -2263,6 +2265,7 @@ LIBI,Little Bighorn Battlefield NM,control,MT,2026,5,5887
 LIBI,Little Bighorn Battlefield NM,control,MT,2026,6,20790
 LIBI,Little Bighorn Battlefield NM,control,MT,2026,7,20411
 LIBI,Little Bighorn Battlefield NM,control,MT,2026,8,20389
+LIBI,Little Bighorn Battlefield NM,control,MT,2026,9,19463
 MORU,Mount Rushmore NMEM,control,SD,1979,1,6803
 MORU,Mount Rushmore NMEM,control,SD,1979,2,9677
 MORU,Mount Rushmore NMEM,control,SD,1979,3,23066
@@ -2835,6 +2838,7 @@ MORU,Mount Rushmore NMEM,control,SD,2026,5,167697
 MORU,Mount Rushmore NMEM,control,SD,2026,6,320061
 MORU,Mount Rushmore NMEM,control,SD,2026,7,408148
 MORU,Mount Rushmore NMEM,control,SD,2026,8,355427
+MORU,Mount Rushmore NMEM,control,SD,2026,9,258365
 THRO,Theodore Roosevelt NP,primary,ND,1979,1,7026
 THRO,Theodore Roosevelt NP,primary,ND,1979,2,8307
 THRO,Theodore Roosevelt NP,primary,ND,1979,3,14431
@@ -4550,4 +4554,5 @@ YELL,Yellowstone NP,control,WY,2026,4,72493
 YELL,Yellowstone NP,control,WY,2026,5,570272
 YELL,Yellowstone NP,control,WY,2026,6,903025
 YELL,Yellowstone NP,control,WY,2026,7,958705
-YELL,Yellowstone NP,control,WY,2026,8,0
+YELL,Yellowstone NP,control,WY,2026,8,856467
+YELL,Yellowstone NP,control,WY,2026,9,0

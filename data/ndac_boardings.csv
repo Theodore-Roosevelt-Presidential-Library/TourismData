@@ -119,6 +119,7 @@ year,month,airport,code,boardings
 2026,5,Bismarck,BIS,24434
 2026,6,Bismarck,BIS,24109
 2026,7,Bismarck,BIS,26631
+2026,8,Bismarck,BIS,24665
 2016,1,Dickinson,DIK,1497
 2016,2,Dickinson,DIK,1345
 2016,3,Dickinson,DIK,1245
@@ -239,6 +240,7 @@ year,month,airport,code,boardings
 2026,5,Dickinson,DIK,1921
 2026,6,Dickinson,DIK,1990
 2026,7,Dickinson,DIK,2264
+2026,8,Dickinson,DIK,2009
 2016,1,Devils Lake,DVL,390
 2016,2,Devils Lake,DVL,612
 2016,3,Devils Lake,DVL,566
@@ -359,6 +361,7 @@ year,month,airport,code,boardings
 2026,5,Devils Lake,DVL,1102
 2026,6,Devils Lake,DVL,1044
 2026,7,Devils Lake,DVL,1521
+2026,8,Devils Lake,DVL,1124
 2016,1,Fargo,FAR,33828
 2016,2,Fargo,FAR,34497
 2016,3,Fargo,FAR,36953
@@ -479,6 +482,7 @@ year,month,airport,code,boardings
 2026,5,Fargo,FAR,49603
 2026,6,Fargo,FAR,50959
 2026,7,Fargo,FAR,56359
+2026,8,Fargo,FAR,53392
 2016,1,Grand Forks,GFK,10661
 2016,2,Grand Forks,GFK,12394
 2016,3,Grand Forks,GFK,14317
@@ -590,7 +594,7 @@ year,month,airport,code,boardings
 2025,5,Grand Forks,GFK,6871
 2025,6,Grand Forks,GFK,6734
 2025,7,Grand Forks,GFK,7533
-2025,8,Grand Forks,GFK,7427
+2025,8,Grand Forks,GFK,7424
 2025,9,Grand Forks,GFK,6255
 2025,10,Grand Forks,GFK,8397
 2025,11,Grand Forks,GFK,7491
@@ -599,6 +603,7 @@ year,month,airport,code,boardings
 2026,5,Grand Forks,GFK,4694
 2026,6,Grand Forks,GFK,4531
 2026,7,Grand Forks,GFK,4657
+2026,8,Grand Forks,GFK,4648
 2016,1,Williston,ISN,5637
 2016,2,Williston,ISN,5629
 2016,3,Williston,ISN,5232
@@ -719,6 +724,7 @@ year,month,airport,code,boardings
 2026,5,Williston,ISN,8650
 2026,6,Williston,ISN,8583
 2026,7,Williston,ISN,8583
+2026,8,Williston,ISN,7530
 2016,1,Jamestown,JMS,872
 2016,2,Jamestown,JMS,892
 2016,3,Jamestown,JMS,962
@@ -839,6 +845,7 @@ year,month,airport,code,boardings
 2026,5,Jamestown,JMS,1078
 2026,6,Jamestown,JMS,1169
 2026,7,Jamestown,JMS,1572
+2026,8,Jamestown,JMS,594
 2016,1,Minot,MOT,11878
 2016,2,Minot,MOT,12922
 2016,3,Minot,MOT,14928
@@ -959,3 +966,4 @@ year,month,airport,code,boardings
 2026,5,Minot,MOT,13469
 2026,6,Minot,MOT,14000
 2026,7,Minot,MOT,15794
+2026,8,Minot,MOT,14498

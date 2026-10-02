@@ -88,6 +88,7 @@ MN,441,Motor vehicle & parts,2026,2,1.6
 MN,441,Motor vehicle & parts,2026,3,-1.8
 MN,441,Motor vehicle & parts,2026,4,-1.3
 MN,441,Motor vehicle & parts,2026,5,1.3
+MN,441,Motor vehicle & parts,2026,6,9.2
 MN,445,Food & beverage stores,2019,1,3.1
 MN,445,Food & beverage stores,2019,2,-0.3
 MN,445,Food & beverage stores,2019,3,4.5
@@ -177,6 +178,7 @@ MN,445,Food & beverage stores,2026,2,-1.8
 MN,445,Food & beverage stores,2026,3,-0.1
 MN,445,Food & beverage stores,2026,4,-0.5
 MN,445,Food & beverage stores,2026,5,0.6
+MN,445,Food & beverage stores,2026,6,-0.3
 MN,447,Gasoline stations,2019,1,-3.3
 MN,447,Gasoline stations,2019,2,-3.7
 MN,447,Gasoline stations,2019,3,5.3
@@ -266,6 +268,7 @@ MN,447,Gasoline stations,2026,2,0.3
 MN,447,Gasoline stations,2026,3,18.0
 MN,447,Gasoline stations,2026,4,25.7
 MN,447,Gasoline stations,2026,5,29.4
+MN,447,Gasoline stations,2026,6,21.0
 MN,448,Clothing,2019,1,3.9
 MN,448,Clothing,2019,2,-8.6
 MN,448,Clothing,2019,3,2.2
@@ -354,6 +357,7 @@ MN,448,Clothing,2026,2,12.8
 MN,448,Clothing,2026,3,3.6
 MN,448,Clothing,2026,4,6.2
 MN,448,Clothing,2026,5,5.5
+MN,448,Clothing,2026,6,3.3
 MN,452,General merchandise,2019,1,0.0
 MN,452,General merchandise,2019,2,-6.2
 MN,452,General merchandise,2019,3,2.7
@@ -442,6 +446,7 @@ MN,452,General merchandise,2026,2,5.5
 MN,452,General merchandise,2026,3,10.1
 MN,452,General merchandise,2026,4,3.0
 MN,452,General merchandise,2026,5,8.1
+MN,452,General merchandise,2026,6,7.2
 MN,453,Miscellaneous store retailers,2019,1,-0.5
 MN,453,Miscellaneous store retailers,2019,2,-1.8
 MN,453,Miscellaneous store retailers,2019,3,1.5
@@ -531,6 +536,7 @@ MN,453,Miscellaneous store retailers,2026,2,13.3
 MN,453,Miscellaneous store retailers,2026,3,11.5
 MN,453,Miscellaneous store retailers,2026,4,10.3
 MN,453,Miscellaneous store retailers,2026,5,6.4
+MN,453,Miscellaneous store retailers,2026,6,12.0
 MN,TOTAL,Total retail,2019,1,1.2
 MN,TOTAL,Total retail,2019,2,-0.7
 MN,TOTAL,Total retail,2019,3,2.1
@@ -620,6 +626,7 @@ MN,TOTAL,Total retail,2026,2,2.5
 MN,TOTAL,Total retail,2026,3,5.1
 MN,TOTAL,Total retail,2026,4,5.0
 MN,TOTAL,Total retail,2026,5,7.0
+MN,TOTAL,Total retail,2026,6,8.7
 MT,441,Motor vehicle & parts,2019,1,-0.7
 MT,441,Motor vehicle & parts,2019,2,0.5
 MT,441,Motor vehicle & parts,2019,3,1.3
@@ -709,6 +716,7 @@ MT,441,Motor vehicle & parts,2026,2,1.0
 MT,441,Motor vehicle & parts,2026,3,-2.7
 MT,441,Motor vehicle & parts,2026,4,-2.0
 MT,441,Motor vehicle & parts,2026,5,3.7
+MT,441,Motor vehicle & parts,2026,6,10.4
 MT,445,Food & beverage stores,2019,1,2.8
 MT,445,Food & beverage stores,2019,2,-0.4
 MT,445,Food & beverage stores,2019,3,1.7
@@ -798,6 +806,7 @@ MT,445,Food & beverage stores,2026,2,-0.9
 MT,445,Food & beverage stores,2026,3,0.3
 MT,445,Food & beverage stores,2026,4,1.1
 MT,445,Food & beverage stores,2026,5,3.9
+MT,445,Food & beverage stores,2026,6,1.8
 MT,447,Gasoline stations,2019,1,-9.0
 MT,447,Gasoline stations,2019,2,-10.2
 MT,447,Gasoline stations,2019,3,-2.1
@@ -887,6 +896,7 @@ MT,447,Gasoline stations,2026,2,-2.5
 MT,447,Gasoline stations,2026,3,10.0
 MT,447,Gasoline stations,2026,4,13.7
 MT,447,Gasoline stations,2026,5,23.0
+MT,447,Gasoline stations,2026,6,20.3
 MT,448,Clothing,2019,1,4.3
 MT,448,Clothing,2019,2,-3.3
 MT,448,Clothing,2019,3,3.3
@@ -968,6 +978,7 @@ MT,448,Clothing,2026,2,13.5
 MT,448,Clothing,2026,3,6.0
 MT,448,Clothing,2026,4,6.6
 MT,448,Clothing,2026,5,6.5
+MT,448,Clothing,2026,6,4.2
 MT,452,General merchandise,2019,1,5.6
 MT,452,General merchandise,2019,2,-2.8
 MT,452,General merchandise,2019,3,2.2
@@ -1054,6 +1065,7 @@ MT,452,General merchandise,2026,2,2.1
 MT,452,General merchandise,2026,3,-1.0
 MT,452,General merchandise,2026,4,5.9
 MT,452,General merchandise,2026,5,3.6
+MT,452,General merchandise,2026,6,3.3
 MT,453,Miscellaneous store retailers,2019,1,-4.4
 MT,453,Miscellaneous store retailers,2019,2,1.7
 MT,453,Miscellaneous store retailers,2019,3,6.4
@@ -1142,6 +1154,7 @@ MT,453,Miscellaneous store retailers,2026,2,17.1
 MT,453,Miscellaneous store retailers,2026,3,10.0
 MT,453,Miscellaneous store retailers,2026,4,15.6
 MT,453,Miscellaneous store retailers,2026,5,10.9
+MT,453,Miscellaneous store retailers,2026,6,13.9
 MT,TOTAL,Total retail,2019,1,0.6
 MT,TOTAL,Total retail,2019,2,-2.1
 MT,TOTAL,Total retail,2019,3,0.3
@@ -1231,6 +1244,7 @@ MT,TOTAL,Total retail,2026,2,2.4
 MT,TOTAL,Total retail,2026,3,2.7
 MT,TOTAL,Total retail,2026,4,4.9
 MT,TOTAL,Total retail,2026,5,7.3
+MT,TOTAL,Total retail,2026,6,9.6
 ND,441,Motor vehicle & parts,2019,1,-3.4
 ND,441,Motor vehicle & parts,2019,2,-0.6
 ND,441,Motor vehicle & parts,2019,3,-2.9
@@ -1320,6 +1334,7 @@ ND,441,Motor vehicle & parts,2026,2,0.0
 ND,441,Motor vehicle & parts,2026,3,-3.0
 ND,441,Motor vehicle & parts,2026,4,-2.5
 ND,441,Motor vehicle & parts,2026,5,0.6
+ND,441,Motor vehicle & parts,2026,6,9.1
 ND,445,Food & beverage stores,2019,1,15.4
 ND,445,Food & beverage stores,2019,2,7.8
 ND,445,Food & beverage stores,2019,3,11.7
@@ -1409,6 +1424,7 @@ ND,445,Food & beverage stores,2026,2,-2.0
 ND,445,Food & beverage stores,2026,3,-0.8
 ND,445,Food & beverage stores,2026,4,-0.2
 ND,445,Food & beverage stores,2026,5,-0.8
+ND,445,Food & beverage stores,2026,6,2.3
 ND,447,Gasoline stations,2019,1,-9.0
 ND,447,Gasoline stations,2019,2,-9.4
 ND,447,Gasoline stations,2019,3,-4.8
@@ -1498,6 +1514,7 @@ ND,447,Gasoline stations,2026,2,0.8
 ND,447,Gasoline stations,2026,3,11.5
 ND,447,Gasoline stations,2026,4,14.1
 ND,447,Gasoline stations,2026,5,16.4
+ND,447,Gasoline stations,2026,6,15.6
 ND,448,Clothing,2019,1,4.2
 ND,448,Clothing,2019,2,-3.7
 ND,448,Clothing,2019,3,3.5
@@ -1585,6 +1602,7 @@ ND,448,Clothing,2026,2,13.5
 ND,448,Clothing,2026,3,5.7
 ND,448,Clothing,2026,4,9.8
 ND,448,Clothing,2026,5,7.7
+ND,448,Clothing,2026,6,6.5
 ND,452,General merchandise,2019,1,4.0
 ND,452,General merchandise,2019,2,-5.5
 ND,452,General merchandise,2019,3,5.0
@@ -1673,6 +1691,7 @@ ND,452,General merchandise,2026,2,-1.0
 ND,452,General merchandise,2026,3,1.9
 ND,452,General merchandise,2026,4,0.3
 ND,452,General merchandise,2026,5,-1.7
+ND,452,General merchandise,2026,6,-2.3
 ND,453,Miscellaneous store retailers,2019,1,-11.8
 ND,453,Miscellaneous store retailers,2019,2,-3.4
 ND,453,Miscellaneous store retailers,2019,3,5.2
@@ -1760,6 +1779,7 @@ ND,453,Miscellaneous store retailers,2026,2,9.6
 ND,453,Miscellaneous store retailers,2026,3,10.6
 ND,453,Miscellaneous store retailers,2026,4,11.4
 ND,453,Miscellaneous store retailers,2026,5,7.5
+ND,453,Miscellaneous store retailers,2026,6,11.8
 ND,TOTAL,Total retail,2019,1,0.2
 ND,TOTAL,Total retail,2019,2,-1.7
 ND,TOTAL,Total retail,2019,3,0.5
@@ -1849,6 +1869,7 @@ ND,TOTAL,Total retail,2026,2,1.4
 ND,TOTAL,Total retail,2026,3,2.9
 ND,TOTAL,Total retail,2026,4,3.2
 ND,TOTAL,Total retail,2026,5,4.0
+ND,TOTAL,Total retail,2026,6,8.1
 SD,441,Motor vehicle & parts,2019,1,-1.9
 SD,441,Motor vehicle & parts,2019,2,-0.8
 SD,441,Motor vehicle & parts,2019,3,-1.3
@@ -1938,6 +1959,7 @@ SD,441,Motor vehicle & parts,2026,2,0.8
 SD,441,Motor vehicle & parts,2026,3,-1.4
 SD,441,Motor vehicle & parts,2026,4,-0.9
 SD,441,Motor vehicle & parts,2026,5,3.2
+SD,441,Motor vehicle & parts,2026,6,10.3
 SD,445,Food & beverage stores,2019,1,6.6
 SD,445,Food & beverage stores,2019,2,0.0
 SD,445,Food & beverage stores,2019,3,0.7
@@ -2027,6 +2049,7 @@ SD,445,Food & beverage stores,2026,2,-0.4
 SD,445,Food & beverage stores,2026,3,1.5
 SD,445,Food & beverage stores,2026,4,1.7
 SD,445,Food & beverage stores,2026,5,3.4
+SD,445,Food & beverage stores,2026,6,1.3
 SD,447,Gasoline stations,2019,1,4.1
 SD,447,Gasoline stations,2019,2,-3.2
 SD,447,Gasoline stations,2019,3,10.9
@@ -2116,6 +2139,7 @@ SD,447,Gasoline stations,2026,2,-1.0
 SD,447,Gasoline stations,2026,3,12.0
 SD,447,Gasoline stations,2026,4,21.5
 SD,447,Gasoline stations,2026,5,25.1
+SD,447,Gasoline stations,2026,6,18.4
 SD,448,Clothing,2019,1,2.0
 SD,448,Clothing,2019,2,-4.4
 SD,448,Clothing,2019,3,1.8
@@ -2200,6 +2224,7 @@ SD,448,Clothing,2026,2,12.5
 SD,448,Clothing,2026,3,5.2
 SD,448,Clothing,2026,4,7.8
 SD,448,Clothing,2026,5,5.8
+SD,448,Clothing,2026,6,4.9
 SD,452,General merchandise,2019,1,3.9
 SD,452,General merchandise,2019,2,-4.3
 SD,452,General merchandise,2019,3,3.9
@@ -2288,6 +2313,7 @@ SD,452,General merchandise,2026,2,-0.9
 SD,452,General merchandise,2026,3,-1.2
 SD,452,General merchandise,2026,4,0.1
 SD,452,General merchandise,2026,5,-2.8
+SD,452,General merchandise,2026,6,-3.6
 SD,453,Miscellaneous store retailers,2019,1,-6.1
 SD,453,Miscellaneous store retailers,2019,2,3.8
 SD,453,Miscellaneous store retailers,2019,3,12.8
@@ -2376,6 +2402,7 @@ SD,453,Miscellaneous store retailers,2026,2,11.7
 SD,453,Miscellaneous store retailers,2026,3,9.1
 SD,453,Miscellaneous store retailers,2026,4,11.2
 SD,453,Miscellaneous store retailers,2026,5,11.7
+SD,453,Miscellaneous store retailers,2026,6,15.6
 SD,TOTAL,Total retail,2019,1,3.2
 SD,TOTAL,Total retail,2019,2,-1.0
 SD,TOTAL,Total retail,2019,3,2.3
@@ -2465,6 +2492,7 @@ SD,TOTAL,Total retail,2026,2,1.3
 SD,TOTAL,Total retail,2026,3,3.2
 SD,TOTAL,Total retail,2026,4,5.2
 SD,TOTAL,Total retail,2026,5,7.0
+SD,TOTAL,Total retail,2026,6,8.6
 USA,441,Motor vehicle & parts,2019,1,-0.1
 USA,441,Motor vehicle & parts,2019,2,0.3
 USA,441,Motor vehicle & parts,2019,3,0.7
@@ -2554,6 +2582,7 @@ USA,441,Motor vehicle & parts,2026,2,3.6
 USA,441,Motor vehicle & parts,2026,3,-1.8
 USA,441,Motor vehicle & parts,2026,4,-1.8
 USA,441,Motor vehicle & parts,2026,5,2.0
+USA,441,Motor vehicle & parts,2026,6,9.1
 USA,445,Food & beverage stores,2019,1,4.6
 USA,445,Food & beverage stores,2019,2,1.3
 USA,445,Food & beverage stores,2019,3,0.2
@@ -2643,6 +2672,7 @@ USA,445,Food & beverage stores,2026,2,-0.6
 USA,445,Food & beverage stores,2026,3,0.5
 USA,445,Food & beverage stores,2026,4,0.7
 USA,445,Food & beverage stores,2026,5,1.7
+USA,445,Food & beverage stores,2026,6,1.2
 USA,447,Gasoline stations,2019,1,-6.1
 USA,447,Gasoline stations,2019,2,-3.4
 USA,447,Gasoline stations,2019,3,0.0
@@ -2732,6 +2762,7 @@ USA,447,Gasoline stations,2026,2,-0.4
 USA,447,Gasoline stations,2026,3,17.0
 USA,447,Gasoline stations,2026,4,23.3
 USA,447,Gasoline stations,2026,5,26.2
+USA,447,Gasoline stations,2026,6,20.1
 USA,448,Clothing,2019,1,2.6
 USA,448,Clothing,2019,2,-2.4
 USA,448,Clothing,2019,3,-0.5
@@ -2821,6 +2852,7 @@ USA,448,Clothing,2026,2,8.5
 USA,448,Clothing,2026,3,7.0
 USA,448,Clothing,2026,4,4.6
 USA,448,Clothing,2026,5,4.9
+USA,448,Clothing,2026,6,5.3
 USA,452,General merchandise,2019,1,1.2
 USA,452,General merchandise,2019,2,-0.9
 USA,452,General merchandise,2019,3,-0.8
@@ -2910,6 +2942,7 @@ USA,452,General merchandise,2026,2,1.1
 USA,452,General merchandise,2026,3,3.9
 USA,452,General merchandise,2026,4,2.4
 USA,452,General merchandise,2026,5,4.0
+USA,452,General merchandise,2026,6,2.9
 USA,453,Miscellaneous store retailers,2019,1,-2.4
 USA,453,Miscellaneous store retailers,2019,2,-1.9
 USA,453,Miscellaneous store retailers,2019,3,-1.5
@@ -2999,6 +3032,7 @@ USA,453,Miscellaneous store retailers,2026,2,13.6
 USA,453,Miscellaneous store retailers,2026,3,9.6
 USA,453,Miscellaneous store retailers,2026,4,9.9
 USA,453,Miscellaneous store retailers,2026,5,8.3
+USA,453,Miscellaneous store retailers,2026,6,13.0
 USA,TOTAL,Total retail,2019,1,1.5
 USA,TOTAL,Total retail,2019,2,0.0
 USA,TOTAL,Total retail,2019,3,0.0
@@ -3088,6 +3122,7 @@ USA,TOTAL,Total retail,2026,2,2.4
 USA,TOTAL,Total retail,2026,3,3.4
 USA,TOTAL,Total retail,2026,4,3.5
 USA,TOTAL,Total retail,2026,5,5.1
+USA,TOTAL,Total retail,2026,6,7.4
 WY,441,Motor vehicle & parts,2019,1,-0.6
 WY,441,Motor vehicle & parts,2019,2,-1.6
 WY,441,Motor vehicle & parts,2019,3,0.0
@@ -3177,6 +3212,7 @@ WY,441,Motor vehicle & parts,2026,2,1.9
 WY,441,Motor vehicle & parts,2026,3,-0.7
 WY,441,Motor vehicle & parts,2026,4,-1.7
 WY,441,Motor vehicle & parts,2026,5,2.1
+WY,441,Motor vehicle & parts,2026,6,7.2
 WY,445,Food & beverage stores,2019,1,4.0
 WY,445,Food & beverage stores,2019,2,1.3
 WY,445,Food & beverage stores,2019,3,1.7
@@ -3266,6 +3302,7 @@ WY,445,Food & beverage stores,2026,2,-0.1
 WY,445,Food & beverage stores,2026,3,0.8
 WY,445,Food & beverage stores,2026,4,2.0
 WY,445,Food & beverage stores,2026,5,4.7
+WY,445,Food & beverage stores,2026,6,2.1
 WY,447,Gasoline stations,2019,1,-14.0
 WY,447,Gasoline stations,2019,2,-3.8
 WY,447,Gasoline stations,2019,3,-2.6
@@ -3343,6 +3380,7 @@ WY,447,Gasoline stations,2026,2,-7.7
 WY,447,Gasoline stations,2026,3,-3.1
 WY,447,Gasoline stations,2026,4,11.7
 WY,447,Gasoline stations,2026,5,12.2
+WY,447,Gasoline stations,2026,6,2.6
 WY,448,Clothing,2019,1,-3.7
 WY,448,Clothing,2019,2,-18.4
 WY,448,Clothing,2019,3,-10.4
@@ -3415,6 +3453,7 @@ WY,448,Clothing,2026,2,12.0
 WY,448,Clothing,2026,3,5.0
 WY,448,Clothing,2026,4,3.4
 WY,448,Clothing,2026,5,5.0
+WY,448,Clothing,2026,6,3.1
 WY,452,General merchandise,2019,1,4.9
 WY,452,General merchandise,2019,2,-1.2
 WY,452,General merchandise,2019,3,1.9
@@ -3503,6 +3542,7 @@ WY,452,General merchandise,2026,2,-3.8
 WY,452,General merchandise,2026,3,-0.8
 WY,452,General merchandise,2026,4,-8.4
 WY,452,General merchandise,2026,5,-4.7
+WY,452,General merchandise,2026,6,-5.9
 WY,453,Miscellaneous store retailers,2019,1,-10.4
 WY,453,Miscellaneous store retailers,2019,2,-9.8
 WY,453,Miscellaneous store retailers,2019,3,-2.4
@@ -3589,6 +3629,7 @@ WY,453,Miscellaneous store retailers,2026,2,17.1
 WY,453,Miscellaneous store retailers,2026,3,14.3
 WY,453,Miscellaneous store retailers,2026,4,23.2
 WY,453,Miscellaneous store retailers,2026,5,10.2
+WY,453,Miscellaneous store retailers,2026,6,18.7
 WY,TOTAL,Total retail,2019,1,-0.5
 WY,TOTAL,Total retail,2019,2,-3.2
 WY,TOTAL,Total retail,2019,3,-2.5
@@ -3678,3 +3719,4 @@ WY,TOTAL,Total retail,2026,2,-0.3
 WY,TOTAL,Total retail,2026,3,0.8
 WY,TOTAL,Total retail,2026,4,3.0
 WY,TOTAL,Total retail,2026,5,4.6
+WY,TOTAL,Total retail,2026,6,4.3
