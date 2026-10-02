@@ -41,7 +41,8 @@ CHECKIN_REPORT = "6a7657edee915a1f0bfef650"  # PE: Tickets Checked In (TicketAna
 
 
 def _base() -> str:
-    return os.environ.get("ACME_API_BASE", "https://api.acmeticketing.com").rstrip("/")
+    # `or`, not a default arg: in Actions an unset secret arrives as an empty string.
+    return (os.environ.get("ACME_API_BASE") or "https://api.acmeticketing.com").rstrip("/")
 
 
 def _api(method: str, path: str, payload: dict | None = None, timeout: int = 90) -> dict:

@@ -1,11 +1,11 @@
 {
   "acme": {
-    "checked_in_since_opening": 118313,
+    "checked_in_since_opening": 134841,
     "checkins_first": "2026-06-22",
-    "checkins_last": "2026-09-17",
+    "checkins_last": "2026-10-02",
     "checkins_unparseable_dates": 0,
-    "fetched_at": "2026-09-17T11:40:59+00:00",
-    "origin_months": 4
+    "fetched_at": "2026-10-02T20:59:57+00:00",
+    "origin_months": 5
   },
   "air_quality": {
     "airnow_days": 180,

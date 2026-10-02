@@ -31,7 +31,7 @@ date,event,tickets,checked_in
 2026-07-08,Architecture and Sustainability Tour,4,4
 2026-07-08,Badlands Landscape Tour,5,4
 2026-07-08,Flex Tickets,128,128
-2026-07-08,General Admission,1854,1412
+2026-07-08,General Admission,1854,1414
 2026-07-08,Guided Highlights Tour,20,14
 2026-07-08,"Member ""Behind the Arena"" Tour",17,8
 2026-07-09,Architecture and Sustainability Tour,10,0
@@ -421,7 +421,7 @@ date,event,tickets,checked_in
 2026-09-10,General Admission,2005,1600
 2026-09-10,Guided Highlights Tour,20,15
 2026-09-10,T.R. Deep-Dive Tour,15,13
-2026-09-10,Walk-Up,7,5
+2026-09-10,Walk-Up,7,7
 2026-09-11,9/11: WHCA Remembers Historic Tragedies and Near Tragedies,105,3
 2026-09-11,Architecture and Sustainability Tour,17,15
 2026-09-11,Badlands Landscape Tour,15,0
@@ -448,5 +448,44 @@ date,event,tickets,checked_in
 2026-09-16,"Bill Bleyer Presents: ""Sagamore Hill: Theodore Roosevelt's Summer White House""",73,3
 2026-09-16,General Admission,1395,1144
 2026-09-16,Walk-Up,10,10
-2026-09-17,General Admission,1359,49
-2026-09-17,Walk-Up,279,2
+2026-09-17,General Admission,1369,1162
+2026-09-17,Walk-Up,326,6
+2026-09-18,Architecture and Sustainability Tour,20,15
+2026-09-18,General Admission,1139,975
+2026-09-18,Walk-Up,205,205
+2026-09-19,Architecture and Sustainability Tour,22,20
+2026-09-19,General Admission,1832,1689
+2026-09-19,T.R. Deep-Dive Tour,15,12
+2026-09-20,Architecture and Sustainability Tour,19,13
+2026-09-20,General Admission,1551,1407
+2026-09-20,T.R. Deep-Dive Tour,15,13
+2026-09-20,Walk-Up,11,10
+2026-09-22,General Admission,1572,1143
+2026-09-22,Walk-Up,429,4
+2026-09-23,General Admission,1346,1231
+2026-09-23,Walk-Up,10,6
+2026-09-24,General Admission,1319,1114
+2026-09-24,Walk-Up,4,4
+2026-09-25,General Admission,1325,1132
+2026-09-25,T.R. Deep-Dive Tour,20,13
+2026-09-25,Walk-Up,6,4
+2026-09-26,Architecture and Sustainability Tour,23,12
+2026-09-26,General Admission,1511,1292
+2026-09-26,T.R. Deep-Dive Tour,15,14
+2026-09-26,Walk-Up,13,7
+2026-09-27,Architecture and Sustainability Tour,20,18
+2026-09-27,General Admission,1492,1222
+2026-09-27,T.R. Deep-Dive Tour,17,15
+2026-09-27,Walk-Up,4,3
+2026-09-29,General Admission,1403,1182
+2026-09-29,Walk-Up,9,9
+2026-09-30,General Admission,1107,962
+2026-09-30,Walk-Up,3,3
+2026-10-01,Founder's Night with David Hume Kennerly,164,0
+2026-10-01,General Admission,906,823
+2026-10-02,Architecture and Sustainability Tour,19,11
+2026-10-02,"Artist Talk: ""In the Room"" with David Hume Kennerly",36,0
+2026-10-02,Book Signing and Meet & Greet,7,0
+2026-10-02,General Admission,1043,818
+2026-10-02,In the Gallery with David Hume Kennerly,18,2
+2026-10-02,In the Room: Sixty Years on the Front Lines of History,5,4
