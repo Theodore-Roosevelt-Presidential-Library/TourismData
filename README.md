@@ -37,7 +37,7 @@ Parks and ports are configured in `config/sources.json`. The Library's opening d
 
 ## How it runs
 
-`.github/workflows/update-data.yml` runs on the 16th of each month (NPS posts the prior month around the 15th), on manual dispatch, and on pushes that touch the scripts or page. It fetches each feed, rebuilds `docs/data/dashboard.json`, commits any changed data, and deploys `docs/` to GitHub Pages.
+`.github/workflows/update-data.yml` runs daily at 11:00 UTC and again on the 16th of each month (NPS posts the prior month around the 15th), on manual dispatch, and on pushes that touch the scripts or page. It fetches each feed, rebuilds `docs/data/dashboard.json`, commits any changed data, and deploys `docs/` to GitHub Pages.
 
 Each fetcher is independent: if one source is down the others still refresh, and `data/manifest.json` records what was fetched when.
 
