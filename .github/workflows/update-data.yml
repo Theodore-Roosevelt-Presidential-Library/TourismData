@@ -5,8 +5,8 @@ on:
     # Daily, 11:00 UTC (6 a.m. Central): Library check-ins, air quality, NDAC and anything else that has moved.
     # Fetchers that have nothing new (TMAS, DB1B, Recreation.gov, annual PDFs) return in seconds.
     - cron: "0 11 * * *"
-    # 16th of every month, 14:00 UTC (NPS posts the prior month around the 15th)
-    - cron: "0 14 16 * *"
+    # 1st of every month, 14:00 UTC: the month-end refresh
+    - cron: "0 14 1 * *"
   workflow_dispatch:
   push:
     branches: [main]
