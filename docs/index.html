@@ -119,8 +119,11 @@ async function main() {
   const cur = d.current_year, prev = cur - 1;
   const k = thro.kpi;
 
+  const builtDate = new Date(d.built_at);
+  const builtTxt = builtDate.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  const libTxt = d.library && d.library.as_of ? `Library attendance through <b>${new Date(d.library.as_of + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" })}</b>` : "";
   document.getElementById("subtitle").innerHTML =
-    `Theodore Roosevelt National Park and regional indicators, through <b>${d.latest_month_label}</b>. The Library opened <b>July 4, ${cur}</b>.`;
+    `Regional visitation indicators around the Library, which opened <b>July 4, ${cur}</b>. Updated <b>${builtTxt}</b>${libTxt ? "; " + libTxt : ""}; National Park Service counts for Theodore Roosevelt NP through <b>${d.latest_month_label}</b> (NPS posts each month around the 15th of the next). Each card notes its own source and lag.`;
 
   const L = d.library;
   const capLatest = L && L.capture && L.capture.length ? L.capture[L.capture.length - 1] : null;
