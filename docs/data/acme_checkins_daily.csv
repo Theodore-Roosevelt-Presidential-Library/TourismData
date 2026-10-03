@@ -466,7 +466,7 @@ date,event,tickets,checked_in
 2026-09-23,Walk-Up,10,6
 2026-09-24,General Admission,1319,1114
 2026-09-24,Walk-Up,4,4
-2026-09-25,General Admission,1325,1132
+2026-09-25,General Admission,1325,1134
 2026-09-25,T.R. Deep-Dive Tour,20,13
 2026-09-25,Walk-Up,6,4
 2026-09-26,Architecture and Sustainability Tour,23,12
@@ -482,17 +482,18 @@ date,event,tickets,checked_in
 2026-09-30,General Admission,1107,962
 2026-09-30,Walk-Up,3,3
 2026-10-01,Founder's Night with David Hume Kennerly,164,0
-2026-10-01,General Admission,906,823
+2026-10-01,General Admission,906,825
 2026-10-02,Architecture and Sustainability Tour,19,11
-2026-10-02,"Artist Talk: ""In the Room"" with David Hume Kennerly",36,2
-2026-10-02,Book Signing and Meet & Greet,7,0
+2026-10-02,"Artist Talk: ""In the Room"" with David Hume Kennerly",36,3
+2026-10-02,Book Signing and Meet & Greet,7,1
 2026-10-02,General Admission,1043,820
-2026-10-02,In the Gallery with David Hume Kennerly,22,15
+2026-10-02,In the Gallery with David Hume Kennerly,22,16
 2026-10-02,In the Room: Sixty Years on the Front Lines of History,5,4
 2026-10-02,Walk-Up,4,4
-2026-10-03,Architecture and Sustainability Tour,20,0
-2026-10-03,Artist Demonstration: Shane Balkowitsch,2,0
-2026-10-03,"Artist Panel: Kennerly, Balkowitsch, and Ziemendorf",9,0
-2026-10-03,Artist Talk: Chad Ziemendorf,8,0
-2026-10-03,General Admission,816,2
-2026-10-03,T.R. Deep-Dive Tour,15,0
+2026-10-03,Architecture and Sustainability Tour,21,16
+2026-10-03,Artist Demonstration: Shane Balkowitsch,5,2
+2026-10-03,"Artist Panel: Kennerly, Balkowitsch, and Ziemendorf",20,13
+2026-10-03,Artist Talk: Chad Ziemendorf,14,0
+2026-10-03,General Admission,1109,979
+2026-10-03,T.R. Deep-Dive Tour,15,11
+2026-10-03,Walk-Up,10,10
