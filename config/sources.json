@@ -223,5 +223,12 @@
     ],
     "since": 2023
   },
-  "vse_since": 2012
+  "vse_since": 2012,
+  "origin_region_states": [
+    "MN",
+    "SD",
+    "MT",
+    "WI",
+    "IA"
+  ]
 }

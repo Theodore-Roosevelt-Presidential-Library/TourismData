@@ -356,7 +356,7 @@ def library_block(nps: pd.DataFrame, cur: int) -> dict:
         o = o[(o["year"] * 100 + o["month"]) >= opening.year * 100 + opening.month]
         tot = o["tickets"].sum()
         g = o.groupby("state")["tickets"].sum().sort_values(ascending=False)
-        core = {"ND", "MN", "SD", "MT"}
+        core = {"ND", *CONFIG.get("origin_region_states", ["MN", "SD", "MT", "WI", "IA"])}
         out["origin"] = {
             "as_of": manifest.get("as_of"), "basis": "tickets by buyer ZIP, all channels, since opening",
             "rows": [{"state": k, "visitors": int(v), "share": round(v / tot * 100, 1)} for k, v in g.head(15).items()],
@@ -437,7 +437,55 @@ def origin_geo_block() -> dict:
     feeders = [{"metro": k, "tickets": int(v.tickets), "share": round(v.tickets / tot * 100, 1), "miles": int(v.miles)} for k, v in metros.iterrows()]
     pts = geo.sort_values("tickets", ascending=False).head(2500)
     points = {"lat": [round(x, 3) for x in pts["lat"]], "lon": [round(x, 3) for x in pts["lon"]], "tickets": [int(x) for x in pts["tickets"]], "label": [f"{c}, {s} {z}" for c, s, z in zip(pts["city"], pts["state"], pts["zip"])]}
-    return {"total_tickets": tot, "geocoded_share": round(float(geo["tickets"].sum()) / tot * 100, 1), "bands": bands, "feeders": feeders, "points": points, "medora": {"lat": MEDORA[0], "lon": MEDORA[1]}}
+    out = {"total_tickets": tot, "geocoded_share": round(float(geo["tickets"].sum()) / tot * 100, 1), "bands": bands, "feeders": feeders, "points": points, "medora": {"lat": MEDORA[0], "lon": MEDORA[1]}}
+
+    # Month by month: origin tiers (ND / region / rest of US / international) and map frames, since opening.
+    region = CONFIG.get("origin_region_states", ["MN", "SD", "MT", "WI", "IA"])
+    mp = DATA / "acme_origin_zip_monthly.csv"
+    if mp.exists():
+        zm = pd.read_csv(mp, dtype={"zip": str})
+        zm = zm[(zm["year"] * 100 + zm["month"]) >= OPENING.year * 100 + OPENING.month]
+        lookup = g.set_index("zip")[["state", "lat", "lon", "city"]].to_dict("index")
+
+        def tier_of(zz):
+            zz = str(zz).strip().upper()
+            info = lookup.get(zz)
+            st = info["state"] if info else None
+            if st == "ND":
+                return "nd"
+            if st in region:
+                return "region"
+            if st == "Canada" or re.match(r"^[A-Z]\d[A-Z]", zz):
+                return "canada"
+            if st in ("Other/Unknown", None):
+                return "other_intl" if re.match(r"^[A-Z]", zz) and len(zz) >= 4 else "unknown"
+            return "us"
+
+        zm = zm.copy()
+        zm["tier"] = zm["zip"].map(tier_of)
+        months, tiers_by_month, frames = [], [], []
+        for (y, m), gm in zm.groupby(["year", "month"]):
+            key = f"{int(y)}-{int(m):02d}"
+            months.append(key)
+            tt = gm.groupby("tier")["tickets"].sum()
+            total = int(gm["tickets"].sum())
+            placed = total - int(tt.get("unknown", 0))
+            tiers_by_month.append({"month": key, "tickets": total, "placed": placed, **{k: int(tt.get(k, 0)) for k in ("nd", "region", "us", "canada", "other_intl", "unknown")},
+                                   **{k + "_pct": (round(tt.get(k, 0) / placed * 100, 1) if placed else None) for k in ("nd", "region", "us", "canada", "other_intl")}})
+            gp = gm[gm["zip"].isin(lookup.keys())].copy()
+            gp = gp[gp["zip"].map(lambda z: lookup[z]["lat"] is not None and not pd.isna(lookup[z]["lat"]))]
+            gp = gp.groupby("zip", as_index=False)["tickets"].sum().sort_values("tickets", ascending=False).head(1200)
+            frames.append({"month": key, "lat": [round(lookup[z]["lat"], 3) for z in gp["zip"]], "lon": [round(lookup[z]["lon"], 3) for z in gp["zip"]],
+                           "tickets": [int(x) for x in gp["tickets"]], "label": [f"{lookup[z]['city']}, {lookup[z]['state']} {z}" for z in gp["zip"]]})
+        out["region_states"] = region
+        out["monthly_tiers"] = tiers_by_month
+        out["monthly_points"] = frames
+        # Since-opening tiers on the same basis
+        tt = zm.groupby("tier")["tickets"].sum()
+        total = int(zm["tickets"].sum()); placed = total - int(tt.get("unknown", 0))
+        out["tiers"] = {"tickets": total, "placed": placed, **{k: int(tt.get(k, 0)) for k in ("nd", "region", "us", "canada", "other_intl", "unknown")},
+                        **{k + "_pct": (round(tt.get(k, 0) / placed * 100, 1) if placed else None) for k in ("nd", "region", "us", "canada", "other_intl")}}
+    return out
 
 
 def airports_block() -> dict:
