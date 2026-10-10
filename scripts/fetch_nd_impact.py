@@ -7,7 +7,14 @@ Report PDFs are discovered from the Commerce research page (links titled
 hand. Later editions win on overlapping years (they revise). Annual only —
 this is the county-level comparable to Wyoming's Dean Runyan table.
 
+The sector tables (lodging, food & beverage, retail, recreation, transport,
+plus state & local tax revenue) are printed rotated, which pdfplumber cannot
+read; they are parsed with poppler's `pdftotext -layout` when it is
+installed (apt: poppler-utils) and skipped otherwise.
+
 Outputs: data/nd_tourism_impact_county_spending.csv (county, year, spending_musd, edition)
+         data/nd_tourism_impact_county_sectors.csv (county, year, lodging, food_beverage, retail,
+             recreation, transport, total, growth_pct, tax_revenue_musd, edition)
          data/nd_tourism_impact_county_jobs.csv (county, year, direct_jobs, total_jobs,
              share_of_state_pct, share_of_county_employment_pct, direct_income_musd, total_income_musd)
 """
@@ -15,7 +22,10 @@ from __future__ import annotations
 
 import io
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 
 import pandas as pd
 import pdfplumber
@@ -39,6 +49,37 @@ def discover() -> dict[int, str]:
     for m in re.finditer(r'(\d{4})\s+Economic Impact\s*</a>', html):
         pass
     return out
+
+
+SECTOR_ROW = re.compile(r"((?:North Dakota|State Total|[A-Z][A-Za-z]+(?: [A-Z][A-Za-z]+)? County))\s+\$([\d,.]+)\s+\$([\d,.]+)\s+\$([\d,.]+)\s+\$([\d,.]+)\s+\$([\d,.]+)\s+\$([\d,.]+)\s+(-?[\d.]+)%(?:\s+\$([\d,.]+))?")
+
+
+def parse_sectors(pdf_bytes: bytes, edition: int) -> pd.DataFrame:
+    """County x sector tables via pdftotext -layout (rotated pages). Two counties per printed line."""
+    if not shutil.which("pdftotext"):
+        print("pdftotext not installed; skipping sector tables", file=sys.stderr)
+        return pd.DataFrame()
+    with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as f:
+        f.write(pdf_bytes)
+        path = f.name
+    try:
+        txt = subprocess.run(["pdftotext", "-layout", path, "-"], capture_output=True, text=True, timeout=120).stdout
+    finally:
+        import os
+        os.unlink(path)
+    rows, year = [], None
+    for line in txt.splitlines():
+        m = re.search(r"Annual [Vv]isitor [Ss]pending (?:\(|\u2013 |- )?(\d{4})", line)
+        if m:
+            year = int(m.group(1))
+            continue
+        if year is None:
+            continue
+        for mm in SECTOR_ROW.finditer(line):
+            f = lambda s: float(s.replace(",", "")) if s else None  # noqa: E731
+            rows.append({"county": mm.group(1).replace(" County", "").replace("State Total", "North Dakota"), "year": year, "lodging": f(mm.group(2)), "food_beverage": f(mm.group(3)), "retail": f(mm.group(4)),
+                         "recreation": f(mm.group(5)), "transport": f(mm.group(6)), "total": f(mm.group(7)), "growth_pct": f(mm.group(8)), "tax_revenue_musd": f(mm.group(9)), "edition": edition})
+    return pd.DataFrame(rows).drop_duplicates(["county", "year"]) if rows else pd.DataFrame()
 
 
 def parse(pdf_bytes: bytes, edition: int):
@@ -70,15 +111,18 @@ def main() -> int:
     if not pdfs:
         print("no ND impact PDFs found", file=sys.stderr)
         return 1
-    S, J = [], []
+    S, J, X = [], [], []
     for ed in sorted(pdfs):
         try:
             r = requests.get(pdfs[ed], headers=HEADERS, timeout=180)
             r.raise_for_status()
             s, j = parse(r.content, ed)
-            print(f"{ed} edition: {len(s)} spending rows, {len(j)} jobs rows")
+            x = parse_sectors(r.content, ed)
+            print(f"{ed} edition: {len(s)} spending rows, {len(j)} jobs rows, {len(x)} sector rows")
             S.append(s)
             J.append(j)
+            if len(x):
+                X.append(x)
         except Exception as e:  # noqa: BLE001
             print(f"{ed} edition failed: {e}", file=sys.stderr)
     if not S:
@@ -87,6 +131,14 @@ def main() -> int:
     jobs = pd.concat(J).sort_values("edition").drop_duplicates(["county", "year"], keep="last").sort_values(["county", "year"])
     write_csv(spend, "nd_tourism_impact_county_spending.csv")
     write_csv(jobs, "nd_tourism_impact_county_jobs.csv")
+    if X:
+        allx = pd.concat(X).sort_values("edition")
+        sect = allx.drop_duplicates(["county", "year"], keep="last").set_index(["county", "year"])
+        # Later editions revise the spending figures but only print tax revenue for their own year; keep any edition's tax figure.
+        tax = allx.dropna(subset=["tax_revenue_musd"]).drop_duplicates(["county", "year"], keep="last").set_index(["county", "year"])["tax_revenue_musd"]
+        sect["tax_revenue_musd"] = tax.reindex(sect.index)
+        sect = sect.reset_index().sort_values(["county", "year"])
+        write_csv(sect, "nd_tourism_impact_county_sectors.csv")
     update_manifest("nd_impact", editions=sorted(pdfs), years=f"{int(spend.year.min())}–{int(spend.year.max())}", counties=int(spend.county.nunique()))
     return 0
 

@@ -96,7 +96,7 @@ const CONFIG = { displayModeBar: false, responsive: true };
 // Which data feed (manifest key) each card draws on, for the "data updated" line.
 const CARD_SRC = { c0: "acme", cg0: "acme", cg1: "acme", cg2: "acme", c1: "nps_monthly", c2: "nps_monthly", c3: "nps_monthly", cpc: "nps_detail", c4: "bts_border_monthly",
   c5: "nd_taxable_sales_quarterly", c5b: "nd_taxable_sales_quarterly", c5f: "nd_taxable_sales_quarterly", c5g: "nd_taxable_sales_quarterly", c5c: "nd_city_tax_distributions", c5d: "nd_city_tax_distributions", c5e: "nd_city_tax_distributions", c5h: "nd_city_tax_distributions",
-  c6: "mt_itrr", c7: "mt_itrr", c7b: "nd_impact", c7c: "nps_vse", c8: "wy_county_travel_impacts", c9: "airports", c9BIS: "ndac", c9DIK: "ndac", c10: "nddot_atr_monthly", c10b: "tmas",
+  c6: "mt_itrr", c7: "mt_itrr", c7b: "nd_impact", c7b2: "nd_impact", c7c: "nps_vse", c8: "wy_county_travel_impacts", c9: "airports", c9BIS: "ndac", c9DIK: "ndac", c10: "nddot_atr_monthly", c10b: "tmas",
   c11: "qcew_county_quarterly", c11b: "laus", c11c: "ces", c12: "recgov", c13: "interest", c13m: "interest", c14: "interest", c15: "air_quality" };
 let MANIFEST = {};
 const fmtDate = s => { if (!s) return null; const dt = new Date(s.length === 10 ? s + "T12:00:00" : s); return isNaN(dt) ? s : dt.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }); };
@@ -466,6 +466,20 @@ async function main() {
     })), baseLayout({ yaxis: { gridcolor: css("--grid"), zeroline: false, tickfont: { color: css("--muted") } }, xaxis: { dtick: 1, gridcolor: css("--grid"), linecolor: css("--axis"), tickfont: { color: css("--muted") } } }), CONFIG);
     const allc = Object.keys(I.spending);
     table("c7b", ["County", ...I.years.map(y => y + " ($M)"), `Tourism jobs ${I.latest_year}`, "Share of county jobs"], allc.map(c => [c, ...I.spending[c].map(v => v != null ? v.toFixed(1) : "–"), I.jobs[c] ? fmt(I.jobs[c].total_jobs) : "–", I.jobs[c] ? I.jobs[c].share_of_county_employment_pct.toFixed(1) + "%" : "–"]));
+  }
+
+  // ---- Chart 7b2: Billings County visitor spending by sector (Tourism Economics)
+  if (d.nd_impact && d.nd_impact.sectors && d.nd_impact.sectors.Billings) {
+    const S = d.nd_impact.sectors.Billings, SN = d.nd_impact.sectors["North Dakota"];
+    const secs = [["lodging", "Lodging", "--s1"], ["food_beverage", "Food & beverage", "--s3"], ["retail", "Retail", "--s4"], ["recreation", "Recreation", "--s5"], ["transport", "Transport", "--s7"]];
+    const ly = S.years.at(-1), li = S.years.length - 1;
+    card("c7b2", `Billings County visitor spending by sector, ${S.years[0]}–${ly}`,
+      `Tourism Economics' county tables for ND Commerce, in millions: what visitors to Billings County spend on lodging, food and drink, retail, recreation and getting around. ${ly}: $${S.total[li].toFixed(1)}M, of which lodging $${S.lodging[li].toFixed(1)}M and food & beverage $${S.food_beverage[li].toFixed(1)}M${S.tax_revenue_musd[li] != null ? `; $${S.tax_revenue_musd[li].toFixed(1)}M in state and local tax revenue` : ""}. The Library's first season lands in the ${ly + 1} tables. Statewide and growth rates in the table.`);
+    Plotly.newPlot("c7b2", secs.map(([k, name, col]) => ({ type: "bar", name, x: S.years, y: S[k], marker: { color: css(col) }, hovertemplate: name + ": $%{y:.1f}M<extra></extra>" })),
+      baseLayout({ barmode: "stack", bargap: 0.35, hovermode: "x unified", yaxis: { gridcolor: css("--grid"), linecolor: css("--axis"), zeroline: false, tickfont: { color: css("--muted") }, tickprefix: "$", ticksuffix: "M" }, xaxis: { dtick: 1, gridcolor: css("--grid"), linecolor: css("--axis"), tickfont: { color: css("--muted") } } }), CONFIG);
+    const m1 = v => v == null ? "–" : "$" + v.toFixed(1) + "M";
+    table("c7b2", ["Year", "Lodging", "Food & bev.", "Retail", "Recreation", "Transport", "Total", "Growth", "State & local tax", "ND total", "ND growth"],
+      S.years.map((y, i) => { const j = SN ? SN.years.indexOf(y) : -1; return [y, m1(S.lodging[i]), m1(S.food_beverage[i]), m1(S.retail[i]), m1(S.recreation[i]), m1(S.transport[i]), m1(S.total[i]), pctTxt(S.growth_pct[i]), m1(S.tax_revenue_musd[i]), j >= 0 ? "$" + (SN.total[j] / 1000).toFixed(2) + "B" : "–", j >= 0 ? pctTxt(SN.growth_pct[j]) : "–"]; }).reverse());
   }
 
   // ---- NPS Visitor Spending Effects: TRNP's contribution to the gateway economy

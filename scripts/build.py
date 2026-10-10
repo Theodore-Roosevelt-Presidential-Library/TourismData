@@ -557,7 +557,14 @@ def nd_impact_block() -> dict:
     j = pd.read_csv(jp) if jp.exists() else pd.DataFrame()
     focus = ["North Dakota"] + CONFIG.get("nd_focus_counties", [])
     years = sorted(int(y) for y in s["year"].unique())
-    out = {"years": years, "latest_year": years[-1], "spending": {}, "jobs": {}}
+    out = {"years": years, "latest_year": years[-1], "spending": {}, "jobs": {}, "sectors": {}}
+    xp = DATA / "nd_tourism_impact_county_sectors.csv"
+    if xp.exists():
+        x = pd.read_csv(xp)
+        for c in focus:
+            g = x[x["county"] == c].sort_values("year")
+            if len(g):
+                out["sectors"][c] = {"years": [int(y) for y in g["year"]], **{k: [None if pd.isna(v) else float(v) for v in g[k]] for k in ("lodging", "food_beverage", "retail", "recreation", "transport", "total", "growth_pct", "tax_revenue_musd")}}
     for c in focus:
         g = s[s["county"] == c].set_index("year")["spending_musd"]
         if len(g):

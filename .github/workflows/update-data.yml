@@ -31,6 +31,8 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Install poppler (pdftotext, for rotated PDF tables)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
 
       - name: Fetch Library check-ins and ZIP origin from ACME (direct)
         run: python scripts/fetch_acme.py
