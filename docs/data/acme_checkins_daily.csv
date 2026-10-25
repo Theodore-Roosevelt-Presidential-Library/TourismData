@@ -552,10 +552,14 @@ date,event,tickets,checked_in
 2026-10-21,Walk-Up,23,3
 2026-10-22,General Admission,703,668
 2026-10-22,Walk-Up,3,3
-2026-10-23,General Admission,915,703
+2026-10-23,General Admission,915,702
 2026-10-23,In the Room: Sixty Years on the Front Lines of History,1,1
 2026-10-23,T.R. Deep-Dive Tour,15,14
 2026-10-23,Walk-Up,50,0
-2026-10-24,Architecture and Sustainability Tour,14,0
-2026-10-24,General Admission,603,0
-2026-10-24,T.R. Deep-Dive Tour,5,0
+2026-10-24,Architecture and Sustainability Tour,14,11
+2026-10-24,General Admission,945,840
+2026-10-24,In the Room: Sixty Years on the Front Lines of History,1,1
+2026-10-24,T.R. Deep-Dive Tour,5,3
+2026-10-25,Architecture and Sustainability Tour,2,0
+2026-10-25,General Admission,323,0
+2026-10-25,T.R. Deep-Dive Tour,2,0
