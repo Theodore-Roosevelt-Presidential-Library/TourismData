@@ -597,6 +597,604 @@ BADL,2024,Visitor Spending,Retail,12927089.0
 BADL,2024,Visitor Spending,Secondary Effects,0.0
 BADL,2024,Visitor Spending,Transportation,8755902.0
 BADL,2024,Visits,Total,1094245.0
+BICA,2012,Economic Output,Total,10738012.0
+BICA,2012,Jobs,Total,140.0
+BICA,2012,Labor Income,Total,3626652.0
+BICA,2012,Value Added,Total,5993814.0
+BICA,2012,Visitor Spending,Total,9821148.0
+BICA,2012,Visits,Total,245831.0
+BICA,2013,Economic Output,Total,10850055.0
+BICA,2013,Jobs,Total,140.0
+BICA,2013,Labor Income,Total,3646584.0
+BICA,2013,Value Added,Total,6026703.0
+BICA,2013,Visitor Spending,Total,9893468.0
+BICA,2013,Visits,Total,241528.0
+BICA,2014,Economic Output,Camping,344747.0
+BICA,2014,Economic Output,Gas,153607.0
+BICA,2014,Economic Output,Groceries,366596.0
+BICA,2014,Economic Output,Lodging,2598754.0
+BICA,2014,Economic Output,Recreation Industries,664874.0
+BICA,2014,Economic Output,Restaurants,2061879.0
+BICA,2014,Economic Output,Retail,339710.0
+BICA,2014,Economic Output,Secondary Effects,4410450.0
+BICA,2014,Economic Output,Transportation,170750.0
+BICA,2014,Jobs,Camping,5.0
+BICA,2014,Jobs,Gas,2.0
+BICA,2014,Jobs,Groceries,6.0
+BICA,2014,Jobs,Lodging,34.0
+BICA,2014,Jobs,Recreation Industries,10.0
+BICA,2014,Jobs,Restaurants,44.0
+BICA,2014,Jobs,Retail,9.0
+BICA,2014,Jobs,Secondary Effects,35.0
+BICA,2014,Jobs,Transportation,2.0
+BICA,2014,Labor Income,Camping,165205.0
+BICA,2014,Labor Income,Gas,77051.0
+BICA,2014,Labor Income,Groceries,164060.0
+BICA,2014,Labor Income,Lodging,761621.0
+BICA,2014,Labor Income,Recreation Industries,223095.0
+BICA,2014,Labor Income,Restaurants,847967.0
+BICA,2014,Labor Income,Retail,201866.0
+BICA,2014,Labor Income,Secondary Effects,1284100.0
+BICA,2014,Labor Income,Transportation,39297.0
+BICA,2014,Value Added,Camping,231088.0
+BICA,2014,Value Added,Gas,93732.0
+BICA,2014,Value Added,Groceries,230570.0
+BICA,2014,Value Added,Lodging,1385195.0
+BICA,2014,Value Added,Recreation Industries,392302.0
+BICA,2014,Value Added,Restaurants,1091949.0
+BICA,2014,Value Added,Retail,209057.0
+BICA,2014,Value Added,Secondary Effects,2286970.0
+BICA,2014,Value Added,Transportation,87594.0
+BICA,2014,Visitor Spending,Camping,344747.0
+BICA,2014,Visitor Spending,Gas,1422257.0
+BICA,2014,Visitor Spending,Groceries,1313965.0
+BICA,2014,Visitor Spending,Lodging,2598754.0
+BICA,2014,Visitor Spending,Recreation Industries,664874.0
+BICA,2014,Visitor Spending,Restaurants,2061879.0
+BICA,2014,Visitor Spending,Retail,748240.0
+BICA,2014,Visitor Spending,Secondary Effects,0.0
+BICA,2014,Visitor Spending,Transportation,170750.0
+BICA,2014,Visits,Total,224082.0
+BICA,2015,Economic Output,Camping,393538.0
+BICA,2015,Economic Output,Gas,170879.0
+BICA,2015,Economic Output,Groceries,409026.0
+BICA,2015,Economic Output,Lodging,2912850.0
+BICA,2015,Economic Output,Recreation Industries,747958.0
+BICA,2015,Economic Output,Restaurants,2299992.0
+BICA,2015,Economic Output,Retail,378449.0
+BICA,2015,Economic Output,Secondary Effects,4921049.0
+BICA,2015,Economic Output,Transportation,190238.0
+BICA,2015,Jobs,Camping,5.0
+BICA,2015,Jobs,Gas,2.0
+BICA,2015,Jobs,Groceries,7.0
+BICA,2015,Jobs,Lodging,38.0
+BICA,2015,Jobs,Recreation Industries,11.0
+BICA,2015,Jobs,Restaurants,49.0
+BICA,2015,Jobs,Retail,10.0
+BICA,2015,Jobs,Secondary Effects,38.0
+BICA,2015,Jobs,Transportation,2.0
+BICA,2015,Labor Income,Camping,186607.0
+BICA,2015,Labor Income,Gas,86610.0
+BICA,2015,Labor Income,Groceries,184962.0
+BICA,2015,Labor Income,Lodging,844714.0
+BICA,2015,Labor Income,Recreation Industries,249023.0
+BICA,2015,Labor Income,Restaurants,943321.0
+BICA,2015,Labor Income,Retail,227230.0
+BICA,2015,Labor Income,Secondary Effects,1430979.0
+BICA,2015,Labor Income,Transportation,43783.0
+BICA,2015,Value Added,Camping,261024.0
+BICA,2015,Value Added,Gas,105360.0
+BICA,2015,Value Added,Groceries,259945.0
+BICA,2015,Value Added,Lodging,1536322.0
+BICA,2015,Value Added,Recreation Industries,437896.0
+BICA,2015,Value Added,Restaurants,1214739.0
+BICA,2015,Value Added,Retail,235325.0
+BICA,2015,Value Added,Secondary Effects,2548905.0
+BICA,2015,Value Added,Transportation,97497.0
+BICA,2015,Visitor Spending,Camping,393538.0
+BICA,2015,Visitor Spending,Gas,1568701.0
+BICA,2015,Visitor Spending,Groceries,1453578.0
+BICA,2015,Visitor Spending,Lodging,2912850.0
+BICA,2015,Visitor Spending,Recreation Industries,747958.0
+BICA,2015,Visitor Spending,Restaurants,2299992.0
+BICA,2015,Visitor Spending,Retail,826454.0
+BICA,2015,Visitor Spending,Secondary Effects,0.0
+BICA,2015,Visitor Spending,Transportation,190238.0
+BICA,2015,Visits,Total,245173.0
+BICA,2016,Economic Output,Camping,420430.0
+BICA,2016,Economic Output,Gas,184113.0
+BICA,2016,Economic Output,Groceries,438671.0
+BICA,2016,Economic Output,Lodging,3201508.0
+BICA,2016,Economic Output,Recreation Industries,811743.0
+BICA,2016,Economic Output,Restaurants,2496526.0
+BICA,2016,Economic Output,Retail,406868.0
+BICA,2016,Economic Output,Secondary Effects,5336822.0
+BICA,2016,Economic Output,Transportation,206026.0
+BICA,2016,Jobs,Camping,5.0
+BICA,2016,Jobs,Gas,3.0
+BICA,2016,Jobs,Groceries,7.0
+BICA,2016,Jobs,Lodging,41.0
+BICA,2016,Jobs,Recreation Industries,12.0
+BICA,2016,Jobs,Restaurants,53.0
+BICA,2016,Jobs,Retail,11.0
+BICA,2016,Jobs,Secondary Effects,40.0
+BICA,2016,Jobs,Transportation,2.0
+BICA,2016,Labor Income,Camping,197266.0
+BICA,2016,Labor Income,Gas,94291.0
+BICA,2016,Labor Income,Groceries,200441.0
+BICA,2016,Labor Income,Lodging,918681.0
+BICA,2016,Labor Income,Recreation Industries,268160.0
+BICA,2016,Labor Income,Restaurants,1021144.0
+BICA,2016,Labor Income,Retail,246840.0
+BICA,2016,Labor Income,Secondary Effects,1549852.0
+BICA,2016,Labor Income,Transportation,47418.0
+BICA,2016,Value Added,Camping,275935.0
+BICA,2016,Value Added,Gas,114704.0
+BICA,2016,Value Added,Groceries,281699.0
+BICA,2016,Value Added,Lodging,1670848.0
+BICA,2016,Value Added,Recreation Industries,471547.0
+BICA,2016,Value Added,Restaurants,1314954.0
+BICA,2016,Value Added,Retail,255633.0
+BICA,2016,Value Added,Secondary Effects,2760502.0
+BICA,2016,Value Added,Transportation,105487.0
+BICA,2016,Visitor Spending,Camping,420430.0
+BICA,2016,Visitor Spending,Gas,1675783.0
+BICA,2016,Visitor Spending,Groceries,1545671.0
+BICA,2016,Visitor Spending,Lodging,3201508.0
+BICA,2016,Visitor Spending,Recreation Industries,811743.0
+BICA,2016,Visitor Spending,Restaurants,2496526.0
+BICA,2016,Visitor Spending,Retail,880935.0
+BICA,2016,Visitor Spending,Secondary Effects,0.0
+BICA,2016,Visitor Spending,Transportation,206026.0
+BICA,2016,Visits,Total,259485.0
+BICA,2017,Economic Output,Camping,358557.0
+BICA,2017,Economic Output,Gas,188815.0
+BICA,2017,Economic Output,Groceries,386501.0
+BICA,2017,Economic Output,Lodging,2734540.0
+BICA,2017,Economic Output,Recreation Industries,690589.0
+BICA,2017,Economic Output,Restaurants,2185706.0
+BICA,2017,Economic Output,Retail,379527.0
+BICA,2017,Economic Output,Secondary Effects,4845948.0
+BICA,2017,Economic Output,Transportation,179997.0
+BICA,2017,Jobs,Camping,7.0
+BICA,2017,Jobs,Gas,3.0
+BICA,2017,Jobs,Groceries,6.0
+BICA,2017,Jobs,Lodging,33.0
+BICA,2017,Jobs,Recreation Industries,12.0
+BICA,2017,Jobs,Restaurants,40.0
+BICA,2017,Jobs,Retail,10.0
+BICA,2017,Jobs,Secondary Effects,36.0
+BICA,2017,Jobs,Transportation,1.0
+BICA,2017,Labor Income,Camping,246798.0
+BICA,2017,Labor Income,Gas,112024.0
+BICA,2017,Labor Income,Groceries,181260.0
+BICA,2017,Labor Income,Lodging,753828.0
+BICA,2017,Labor Income,Recreation Industries,215396.0
+BICA,2017,Labor Income,Restaurants,788117.0
+BICA,2017,Labor Income,Retail,228159.0
+BICA,2017,Labor Income,Secondary Effects,1434932.0
+BICA,2017,Labor Income,Transportation,38068.0
+BICA,2017,Non-local Visitor Spending,Camping,358557.0
+BICA,2017,Non-local Visitor Spending,Gas,1183539.0
+BICA,2017,Non-local Visitor Spending,Groceries,1154678.0
+BICA,2017,Non-local Visitor Spending,Lodging,2734540.0
+BICA,2017,Non-local Visitor Spending,Recreation Industries,601825.0
+BICA,2017,Non-local Visitor Spending,Restaurants,1840838.0
+BICA,2017,Non-local Visitor Spending,Retail,705225.0
+BICA,2017,Non-local Visitor Spending,Secondary Effects,0.0
+BICA,2017,Non-local Visitor Spending,Transportation,142180.0
+BICA,2017,Party Days/Nights,Total,91456.0
+BICA,2017,Value Added,Camping,228177.0
+BICA,2017,Value Added,Gas,115550.0
+BICA,2017,Value Added,Groceries,255947.0
+BICA,2017,Value Added,Lodging,1440913.0
+BICA,2017,Value Added,Recreation Industries,367638.0
+BICA,2017,Value Added,Restaurants,1128672.0
+BICA,2017,Value Added,Retail,237331.0
+BICA,2017,Value Added,Secondary Effects,2533632.0
+BICA,2017,Value Added,Transportation,88476.0
+BICA,2017,Visitor Spending,Camping,358557.0
+BICA,2017,Visitor Spending,Gas,1510518.0
+BICA,2017,Visitor Spending,Groceries,1400365.0
+BICA,2017,Visitor Spending,Lodging,2734540.0
+BICA,2017,Visitor Spending,Recreation Industries,690589.0
+BICA,2017,Visitor Spending,Restaurants,2185706.0
+BICA,2017,Visitor Spending,Retail,793989.0
+BICA,2017,Visitor Spending,Secondary Effects,0.0
+BICA,2017,Visitor Spending,Transportation,179995.0
+BICA,2017,Visits,Total,231836.0
+BICA,2018,Economic Output,Camping,377727.0
+BICA,2018,Economic Output,Gas,256531.0
+BICA,2018,Economic Output,Groceries,431016.0
+BICA,2018,Economic Output,Lodging,2877136.0
+BICA,2018,Economic Output,Recreation Industries,724156.0
+BICA,2018,Economic Output,Restaurants,2330587.0
+BICA,2018,Economic Output,Retail,416850.0
+BICA,2018,Economic Output,Secondary Effects,4943854.0
+BICA,2018,Economic Output,Transportation,168484.0
+BICA,2018,Jobs,Camping,6.0
+BICA,2018,Jobs,Gas,3.0
+BICA,2018,Jobs,Groceries,6.0
+BICA,2018,Jobs,Lodging,33.0
+BICA,2018,Jobs,Recreation Industries,11.0
+BICA,2018,Jobs,Restaurants,40.0
+BICA,2018,Jobs,Retail,10.0
+BICA,2018,Jobs,Secondary Effects,36.0
+BICA,2018,Jobs,Transportation,1.0
+BICA,2018,Labor Income,Camping,266707.0
+BICA,2018,Labor Income,Gas,124674.0
+BICA,2018,Labor Income,Groceries,203892.0
+BICA,2018,Labor Income,Lodging,781363.0
+BICA,2018,Labor Income,Recreation Industries,262678.0
+BICA,2018,Labor Income,Restaurants,811281.0
+BICA,2018,Labor Income,Retail,229035.0
+BICA,2018,Labor Income,Secondary Effects,1515817.0
+BICA,2018,Labor Income,Transportation,52365.0
+BICA,2018,Non-local Visitor Spending,Camping,377727.0
+BICA,2018,Non-local Visitor Spending,Gas,1225884.0
+BICA,2018,Non-local Visitor Spending,Groceries,1273919.0
+BICA,2018,Non-local Visitor Spending,Lodging,2877136.0
+BICA,2018,Non-local Visitor Spending,Recreation Industries,631006.0
+BICA,2018,Non-local Visitor Spending,Restaurants,1962817.0
+BICA,2018,Non-local Visitor Spending,Retail,730189.0
+BICA,2018,Non-local Visitor Spending,Secondary Effects,0.0
+BICA,2018,Non-local Visitor Spending,Transportation,133063.0
+BICA,2018,Party Days/Nights,Total,92934.0
+BICA,2018,Value Added,Camping,276983.0
+BICA,2018,Value Added,Gas,156367.0
+BICA,2018,Value Added,Groceries,270721.0
+BICA,2018,Value Added,Lodging,1539639.0
+BICA,2018,Value Added,Recreation Industries,416779.0
+BICA,2018,Value Added,Restaurants,1185478.0
+BICA,2018,Value Added,Retail,250091.0
+BICA,2018,Value Added,Secondary Effects,2634580.0
+BICA,2018,Value Added,Transportation,110891.0
+BICA,2018,Visitor Spending,Camping,377727.0
+BICA,2018,Visitor Spending,Gas,1564214.0
+BICA,2018,Visitor Spending,Groceries,1544859.0
+BICA,2018,Visitor Spending,Lodging,2877136.0
+BICA,2018,Visitor Spending,Recreation Industries,724156.0
+BICA,2018,Visitor Spending,Restaurants,2330587.0
+BICA,2018,Visitor Spending,Retail,822189.0
+BICA,2018,Visitor Spending,Secondary Effects,0.0
+BICA,2018,Visitor Spending,Transportation,168483.0
+BICA,2018,Visits,Total,235569.0
+BICA,2019,Economic Output,Camping,404281.0
+BICA,2019,Economic Output,Gas,272782.0
+BICA,2019,Economic Output,Groceries,458051.0
+BICA,2019,Economic Output,Lodging,3075553.0
+BICA,2019,Economic Output,Recreation Industries,774873.0
+BICA,2019,Economic Output,Restaurants,2492818.0
+BICA,2019,Economic Output,Retail,443342.0
+BICA,2019,Economic Output,Secondary Effects,5286415.0
+BICA,2019,Economic Output,Transportation,179374.0
+BICA,2019,Jobs,Camping,7.0
+BICA,2019,Jobs,Gas,3.0
+BICA,2019,Jobs,Groceries,7.0
+BICA,2019,Jobs,Lodging,35.0
+BICA,2019,Jobs,Recreation Industries,12.0
+BICA,2019,Jobs,Restaurants,43.0
+BICA,2019,Jobs,Retail,11.0
+BICA,2019,Jobs,Secondary Effects,38.0
+BICA,2019,Jobs,Transportation,1.0
+BICA,2019,Labor Income,Camping,285474.0
+BICA,2019,Labor Income,Gas,133309.0
+BICA,2019,Labor Income,Groceries,218062.0
+BICA,2019,Labor Income,Lodging,835300.0
+BICA,2019,Labor Income,Recreation Industries,280880.0
+BICA,2019,Labor Income,Restaurants,867496.0
+BICA,2019,Labor Income,Retail,244946.0
+BICA,2019,Labor Income,Secondary Effects,1620846.0
+BICA,2019,Labor Income,Transportation,55996.0
+BICA,2019,Non-local Visitor Spending,Camping,404281.0
+BICA,2019,Non-local Visitor Spending,Gas,1303647.0
+BICA,2019,Non-local Visitor Spending,Groceries,1353987.0
+BICA,2019,Non-local Visitor Spending,Lodging,3075553.0
+BICA,2019,Non-local Visitor Spending,Recreation Industries,675212.0
+BICA,2019,Non-local Visitor Spending,Restaurants,2099535.0
+BICA,2019,Non-local Visitor Spending,Retail,776729.0
+BICA,2019,Non-local Visitor Spending,Secondary Effects,0.0
+BICA,2019,Non-local Visitor Spending,Transportation,141602.0
+BICA,2019,Party Days/Nights,Total,98500.0
+BICA,2019,Value Added,Camping,296473.0
+BICA,2019,Value Added,Gas,167198.0
+BICA,2019,Value Added,Groceries,289536.0
+BICA,2019,Value Added,Lodging,1645919.0
+BICA,2019,Value Added,Recreation Industries,445658.0
+BICA,2019,Value Added,Restaurants,1267621.0
+BICA,2019,Value Added,Retail,267465.0
+BICA,2019,Value Added,Secondary Effects,2817142.0
+BICA,2019,Value Added,Transportation,118635.0
+BICA,2019,Visitor Spending,Camping,404281.0
+BICA,2019,Visitor Spending,Gas,1663304.0
+BICA,2019,Visitor Spending,Groceries,1641761.0
+BICA,2019,Visitor Spending,Lodging,3075553.0
+BICA,2019,Visitor Spending,Recreation Industries,774873.0
+BICA,2019,Visitor Spending,Restaurants,2492818.0
+BICA,2019,Visitor Spending,Retail,874441.0
+BICA,2019,Visitor Spending,Secondary Effects,0.0
+BICA,2019,Visitor Spending,Transportation,179371.0
+BICA,2019,Visits,Total,249658.0
+BICA,2020,Economic Output,Camping,357770.0
+BICA,2020,Economic Output,Gas,232474.0
+BICA,2020,Economic Output,Groceries,392825.0
+BICA,2020,Economic Output,Lodging,2605031.0
+BICA,2020,Economic Output,Recreation Industries,667101.0
+BICA,2020,Economic Output,Restaurants,2127353.0
+BICA,2020,Economic Output,Retail,379137.0
+BICA,2020,Economic Output,Secondary Effects,4518659.0
+BICA,2020,Economic Output,Transportation,152037.0
+BICA,2020,Jobs,Camping,6.0
+BICA,2020,Jobs,Gas,3.0
+BICA,2020,Jobs,Groceries,6.0
+BICA,2020,Jobs,Lodging,30.0
+BICA,2020,Jobs,Recreation Industries,10.0
+BICA,2020,Jobs,Restaurants,37.0
+BICA,2020,Jobs,Retail,9.0
+BICA,2020,Jobs,Secondary Effects,33.0
+BICA,2020,Jobs,Transportation,1.0
+BICA,2020,Labor Income,Camping,252647.0
+BICA,2020,Labor Income,Gas,114243.0
+BICA,2020,Labor Income,Groceries,188202.0
+BICA,2020,Labor Income,Lodging,707553.0
+BICA,2020,Labor Income,Recreation Industries,241646.0
+BICA,2020,Labor Income,Restaurants,740095.0
+BICA,2020,Labor Income,Retail,210639.0
+BICA,2020,Labor Income,Secondary Effects,1385328.0
+BICA,2020,Labor Income,Transportation,47671.0
+BICA,2020,Non-local Visitor Spending,Camping,357770.0
+BICA,2020,Non-local Visitor Spending,Gas,1114554.0
+BICA,2020,Non-local Visitor Spending,Groceries,1165763.0
+BICA,2020,Non-local Visitor Spending,Lodging,2605031.0
+BICA,2020,Non-local Visitor Spending,Recreation Industries,582614.0
+BICA,2020,Non-local Visitor Spending,Restaurants,1794108.0
+BICA,2020,Non-local Visitor Spending,Retail,665363.0
+BICA,2020,Non-local Visitor Spending,Secondary Effects,0.0
+BICA,2020,Non-local Visitor Spending,Transportation,120324.0
+BICA,2020,Party Days/Nights,Total,83948.0
+BICA,2020,Value Added,Camping,262382.0
+BICA,2020,Value Added,Gas,143285.0
+BICA,2020,Value Added,Groceries,249888.0
+BICA,2020,Value Added,Lodging,1394200.0
+BICA,2020,Value Added,Recreation Industries,383408.0
+BICA,2020,Value Added,Restaurants,1081457.0
+BICA,2020,Value Added,Retail,230004.0
+BICA,2020,Value Added,Secondary Effects,2408318.0
+BICA,2020,Value Added,Transportation,101045.0
+BICA,2020,Visitor Spending,Camping,357770.0
+BICA,2020,Visitor Spending,Gas,1417522.0
+BICA,2020,Visitor Spending,Groceries,1407974.0
+BICA,2020,Visitor Spending,Lodging,2605031.0
+BICA,2020,Visitor Spending,Recreation Industries,667101.0
+BICA,2020,Visitor Spending,Restaurants,2127353.0
+BICA,2020,Visitor Spending,Retail,747805.0
+BICA,2020,Visitor Spending,Secondary Effects,0.0
+BICA,2020,Visitor Spending,Transportation,152032.0
+BICA,2020,Visits,Total,212295.0
+BICA,2021,Economic Output,Camping,387313.0
+BICA,2021,Economic Output,Gas,420310.0
+BICA,2021,Economic Output,Groceries,514074.0
+BICA,2021,Economic Output,Lodging,2866308.0
+BICA,2021,Economic Output,Recreation Industries,707034.0
+BICA,2021,Economic Output,Restaurants,2378244.0
+BICA,2021,Economic Output,Retail,432856.0
+BICA,2021,Economic Output,Secondary Effects,5242271.0
+BICA,2021,Economic Output,Transportation,163628.0
+BICA,2021,Jobs,Camping,5.0
+BICA,2021,Jobs,Gas,4.0
+BICA,2021,Jobs,Groceries,7.0
+BICA,2021,Jobs,Lodging,34.0
+BICA,2021,Jobs,Recreation Industries,12.0
+BICA,2021,Jobs,Restaurants,37.0
+BICA,2021,Jobs,Retail,10.0
+BICA,2021,Jobs,Secondary Effects,36.0
+BICA,2021,Jobs,Transportation,2.0
+BICA,2021,Labor Income,Camping,197075.0
+BICA,2021,Labor Income,Gas,161662.0
+BICA,2021,Labor Income,Groceries,235152.0
+BICA,2021,Labor Income,Lodging,913461.0
+BICA,2021,Labor Income,Recreation Industries,327534.0
+BICA,2021,Labor Income,Restaurants,795501.0
+BICA,2021,Labor Income,Retail,223872.0
+BICA,2021,Labor Income,Secondary Effects,1495975.0
+BICA,2021,Labor Income,Transportation,65629.0
+BICA,2021,Non-local Visitor Spending,Camping,387313.0
+BICA,2021,Non-local Visitor Spending,Gas,1502599.0
+BICA,2021,Non-local Visitor Spending,Groceries,1279894.0
+BICA,2021,Non-local Visitor Spending,Lodging,2866308.0
+BICA,2021,Non-local Visitor Spending,Recreation Industries,617126.0
+BICA,2021,Non-local Visitor Spending,Restaurants,2004792.0
+BICA,2021,Non-local Visitor Spending,Retail,692113.0
+BICA,2021,Non-local Visitor Spending,Secondary Effects,0.0
+BICA,2021,Non-local Visitor Spending,Transportation,129395.0
+BICA,2021,Party Days/Nights,Total,86725.0
+BICA,2021,Value Added,Camping,296890.0
+BICA,2021,Value Added,Gas,222181.0
+BICA,2021,Value Added,Groceries,297630.0
+BICA,2021,Value Added,Lodging,1525896.0
+BICA,2021,Value Added,Recreation Industries,395859.0
+BICA,2021,Value Added,Restaurants,1119925.0
+BICA,2021,Value Added,Retail,239454.0
+BICA,2021,Value Added,Secondary Effects,2544057.0
+BICA,2021,Value Added,Transportation,106037.0
+BICA,2021,Visitor Spending,Camping,387313.0
+BICA,2021,Visitor Spending,Gas,1913457.0
+BICA,2021,Visitor Spending,Groceries,1548132.0
+BICA,2021,Visitor Spending,Lodging,2866308.0
+BICA,2021,Visitor Spending,Recreation Industries,707034.0
+BICA,2021,Visitor Spending,Restaurants,2378244.0
+BICA,2021,Visitor Spending,Retail,778408.0
+BICA,2021,Visitor Spending,Secondary Effects,0.0
+BICA,2021,Visitor Spending,Transportation,163615.0
+BICA,2021,Visits,Total,219505.0
+BICA,2022,Economic Output,Camping,387903.0
+BICA,2022,Economic Output,Gas,421409.0
+BICA,2022,Economic Output,Groceries,514396.0
+BICA,2022,Economic Output,Lodging,2883866.0
+BICA,2022,Economic Output,Recreation Industries,711538.0
+BICA,2022,Economic Output,Restaurants,2409213.0
+BICA,2022,Economic Output,Retail,433812.0
+BICA,2022,Economic Output,Secondary Effects,5267011.0
+BICA,2022,Economic Output,Transportation,164494.0
+BICA,2022,Jobs,Camping,5.0
+BICA,2022,Jobs,Gas,4.0
+BICA,2022,Jobs,Groceries,7.0
+BICA,2022,Jobs,Lodging,34.0
+BICA,2022,Jobs,Recreation Industries,12.0
+BICA,2022,Jobs,Restaurants,37.0
+BICA,2022,Jobs,Retail,9.0
+BICA,2022,Jobs,Secondary Effects,36.0
+BICA,2022,Jobs,Transportation,2.0
+BICA,2022,Labor Income,Camping,197265.0
+BICA,2022,Labor Income,Gas,162364.0
+BICA,2022,Labor Income,Groceries,235945.0
+BICA,2022,Labor Income,Lodging,918543.0
+BICA,2022,Labor Income,Recreation Industries,328942.0
+BICA,2022,Labor Income,Restaurants,799374.0
+BICA,2022,Labor Income,Retail,224755.0
+BICA,2022,Labor Income,Secondary Effects,1503071.0
+BICA,2022,Labor Income,Transportation,66029.0
+BICA,2022,Non-local Visitor Spending,Camping,387903.0
+BICA,2022,Non-local Visitor Spending,Gas,1506120.0
+BICA,2022,Non-local Visitor Spending,Groceries,1280263.0
+BICA,2022,Non-local Visitor Spending,Lodging,2883866.0
+BICA,2022,Non-local Visitor Spending,Recreation Industries,620799.0
+BICA,2022,Non-local Visitor Spending,Restaurants,2030432.0
+BICA,2022,Non-local Visitor Spending,Retail,693610.0
+BICA,2022,Non-local Visitor Spending,Secondary Effects,0.0
+BICA,2022,Non-local Visitor Spending,Transportation,130068.0
+BICA,2022,Party Days/Nights,Total,85977.0
+BICA,2022,Value Added,Camping,297176.0
+BICA,2022,Value Added,Gas,223147.0
+BICA,2022,Value Added,Groceries,298634.0
+BICA,2022,Value Added,Lodging,1534387.0
+BICA,2022,Value Added,Recreation Industries,397560.0
+BICA,2022,Value Added,Restaurants,1125377.0
+BICA,2022,Value Added,Retail,240397.0
+BICA,2022,Value Added,Secondary Effects,2556072.0
+BICA,2022,Value Added,Transportation,106752.0
+BICA,2022,Visitor Spending,Camping,387903.0
+BICA,2022,Visitor Spending,Gas,1918453.0
+BICA,2022,Visitor Spending,Groceries,1549102.0
+BICA,2022,Visitor Spending,Lodging,2883866.0
+BICA,2022,Visitor Spending,Recreation Industries,711538.0
+BICA,2022,Visitor Spending,Restaurants,2409213.0
+BICA,2022,Visitor Spending,Retail,780128.0
+BICA,2022,Visitor Spending,Secondary Effects,0.0
+BICA,2022,Visitor Spending,Transportation,164464.0
+BICA,2022,Visits,Total,217660.0
+BICA,2023,Economic Output,Camping,386285.0
+BICA,2023,Economic Output,Gas,426456.0
+BICA,2023,Economic Output,Groceries,518059.0
+BICA,2023,Economic Output,Lodging,2944207.0
+BICA,2023,Economic Output,Recreation Industries,721110.0
+BICA,2023,Economic Output,Restaurants,2467863.0
+BICA,2023,Economic Output,Retail,438203.0
+BICA,2023,Economic Output,Secondary Effects,5347580.0
+BICA,2023,Economic Output,Transportation,166841.0
+BICA,2023,Jobs,Camping,4.0
+BICA,2023,Jobs,Gas,4.0
+BICA,2023,Jobs,Groceries,7.0
+BICA,2023,Jobs,Lodging,35.0
+BICA,2023,Jobs,Recreation Industries,12.0
+BICA,2023,Jobs,Restaurants,37.0
+BICA,2023,Jobs,Retail,9.0
+BICA,2023,Jobs,Secondary Effects,36.0
+BICA,2023,Jobs,Transportation,2.0
+BICA,2023,Labor Income,Camping,196333.0
+BICA,2023,Labor Income,Gas,164595.0
+BICA,2023,Labor Income,Groceries,238276.0
+BICA,2023,Labor Income,Lodging,937241.0
+BICA,2023,Labor Income,Recreation Industries,332681.0
+BICA,2023,Labor Income,Restaurants,812243.0
+BICA,2023,Labor Income,Retail,227422.0
+BICA,2023,Labor Income,Secondary Effects,1526210.0
+BICA,2023,Labor Income,Transportation,67024.0
+BICA,2023,Non-local Visitor Spending,Camping,386285.0
+BICA,2023,Non-local Visitor Spending,Gas,1521278.0
+BICA,2023,Non-local Visitor Spending,Groceries,1286477.0
+BICA,2023,Non-local Visitor Spending,Lodging,2944207.0
+BICA,2023,Non-local Visitor Spending,Recreation Industries,628401.0
+BICA,2023,Non-local Visitor Spending,Restaurants,2078325.0
+BICA,2023,Non-local Visitor Spending,Retail,699783.0
+BICA,2023,Non-local Visitor Spending,Secondary Effects,0.0
+BICA,2023,Non-local Visitor Spending,Transportation,131702.0
+BICA,2023,Party Days/Nights,Total,85899.0
+BICA,2023,Value Added,Camping,295772.0
+BICA,2023,Value Added,Gas,226212.0
+BICA,2023,Value Added,Groceries,301586.0
+BICA,2023,Value Added,Lodging,1565620.0
+BICA,2023,Value Added,Recreation Industries,402079.0
+BICA,2023,Value Added,Restaurants,1143494.0
+BICA,2023,Value Added,Retail,243250.0
+BICA,2023,Value Added,Secondary Effects,2595192.0
+BICA,2023,Value Added,Transportation,108430.0
+BICA,2023,Visitor Spending,Camping,386285.0
+BICA,2023,Visitor Spending,Gas,1941435.0
+BICA,2023,Visitor Spending,Groceries,1560132.0
+BICA,2023,Visitor Spending,Lodging,2944207.0
+BICA,2023,Visitor Spending,Recreation Industries,721110.0
+BICA,2023,Visitor Spending,Restaurants,2467863.0
+BICA,2023,Visitor Spending,Retail,788024.0
+BICA,2023,Visitor Spending,Secondary Effects,0.0
+BICA,2023,Visitor Spending,Transportation,166786.0
+BICA,2023,Visits,Total,217731.0
+BICA,2024,Economic Output,Camping,431395.0
+BICA,2024,Economic Output,Gas,280945.0
+BICA,2024,Economic Output,Groceries,506533.0
+BICA,2024,Economic Output,Lodging,3244243.0
+BICA,2024,Economic Output,Recreation Industries,828999.0
+BICA,2024,Economic Output,Restaurants,2733705.0
+BICA,2024,Economic Output,Retail,444199.0
+BICA,2024,Economic Output,Secondary Effects,5310827.0
+BICA,2024,Economic Output,Transportation,222464.0
+BICA,2024,Jobs,Camping,3.0
+BICA,2024,Jobs,Gas,2.0
+BICA,2024,Jobs,Groceries,6.0
+BICA,2024,Jobs,Lodging,30.0
+BICA,2024,Jobs,Recreation Industries,11.0
+BICA,2024,Jobs,Restaurants,29.0
+BICA,2024,Jobs,Retail,8.0
+BICA,2024,Jobs,Secondary Effects,31.0
+BICA,2024,Jobs,Transportation,2.0
+BICA,2024,Labor Income,Camping,168215.0
+BICA,2024,Labor Income,Gas,99908.0
+BICA,2024,Labor Income,Groceries,211972.0
+BICA,2024,Labor Income,Lodging,964683.0
+BICA,2024,Labor Income,Recreation Industries,276418.0
+BICA,2024,Labor Income,Restaurants,815393.0
+BICA,2024,Labor Income,Retail,208737.0
+BICA,2024,Labor Income,Secondary Effects,1585046.0
+BICA,2024,Labor Income,Transportation,51348.0
+BICA,2024,Non-local Visitor Spending,Camping,431395.0
+BICA,2024,Non-local Visitor Spending,Gas,1184793.0
+BICA,2024,Non-local Visitor Spending,Groceries,1451948.0
+BICA,2024,Non-local Visitor Spending,Lodging,3244243.0
+BICA,2024,Non-local Visitor Spending,Recreation Industries,722938.0
+BICA,2024,Non-local Visitor Spending,Restaurants,2303266.0
+BICA,2024,Non-local Visitor Spending,Retail,735026.0
+BICA,2024,Non-local Visitor Spending,Secondary Effects,0.0
+BICA,2024,Non-local Visitor Spending,Transportation,175849.0
+BICA,2024,Party Days/Nights,Total,86780.0
+BICA,2024,Value Added,Camping,284724.0
+BICA,2024,Value Added,Gas,177347.0
+BICA,2024,Value Added,Groceries,343177.0
+BICA,2024,Value Added,Lodging,1964882.0
+BICA,2024,Value Added,Recreation Industries,533641.0
+BICA,2024,Value Added,Restaurants,1260637.0
+BICA,2024,Value Added,Retail,231942.0
+BICA,2024,Value Added,Secondary Effects,2721239.0
+BICA,2024,Value Added,Transportation,91558.0
+BICA,2024,Visitor Spending,Camping,431395.0
+BICA,2024,Visitor Spending,Gas,1510455.0
+BICA,2024,Visitor Spending,Groceries,1758794.0
+BICA,2024,Visitor Spending,Lodging,3244243.0
+BICA,2024,Visitor Spending,Recreation Industries,828999.0
+BICA,2024,Visitor Spending,Restaurants,2733705.0
+BICA,2024,Visitor Spending,Retail,827186.0
+BICA,2024,Visitor Spending,Secondary Effects,0.0
+BICA,2024,Visitor Spending,Transportation,222464.0
+BICA,2024,Visits,Total,219815.0
 DETO,2012,Economic Output,Total,27700047.0
 DETO,2012,Jobs,Total,352.0
 DETO,2012,Labor Income,Total,8581011.0
@@ -1195,6 +1793,1202 @@ DETO,2024,Visitor Spending,Retail,3629695.0
 DETO,2024,Visitor Spending,Secondary Effects,0.0
 DETO,2024,Visitor Spending,Transportation,2530408.0
 DETO,2024,Visits,Total,540890.0
+FOUS,2012,Economic Output,Total,772394.0
+FOUS,2012,Jobs,Total,10.0
+FOUS,2012,Labor Income,Total,279386.0
+FOUS,2012,Value Added,Total,451627.0
+FOUS,2012,Visitor Spending,Total,937089.0
+FOUS,2012,Visits,Total,12677.0
+FOUS,2013,Economic Output,Total,806339.0
+FOUS,2013,Jobs,Total,10.0
+FOUS,2013,Labor Income,Total,290401.0
+FOUS,2013,Value Added,Total,469432.0
+FOUS,2013,Visitor Spending,Total,975927.0
+FOUS,2013,Visits,Total,12908.0
+FOUS,2014,Economic Output,Camping,39371.0
+FOUS,2014,Economic Output,Gas,19881.0
+FOUS,2014,Economic Output,Groceries,17832.0
+FOUS,2014,Economic Output,Lodging,219835.0
+FOUS,2014,Economic Output,Recreation Industries,55390.0
+FOUS,2014,Economic Output,Restaurants,173026.0
+FOUS,2014,Economic Output,Retail,63417.0
+FOUS,2014,Economic Output,Secondary Effects,204228.0
+FOUS,2014,Economic Output,Transportation,8253.0
+FOUS,2014,Jobs,Camping,0.0
+FOUS,2014,Jobs,Gas,0.0
+FOUS,2014,Jobs,Groceries,0.0
+FOUS,2014,Jobs,Lodging,3.0
+FOUS,2014,Jobs,Recreation Industries,1.0
+FOUS,2014,Jobs,Restaurants,3.0
+FOUS,2014,Jobs,Retail,2.0
+FOUS,2014,Jobs,Secondary Effects,1.0
+FOUS,2014,Jobs,Transportation,0.0
+FOUS,2014,Labor Income,Camping,21474.0
+FOUS,2014,Labor Income,Gas,10472.0
+FOUS,2014,Labor Income,Groceries,8441.0
+FOUS,2014,Labor Income,Lodging,68210.0
+FOUS,2014,Labor Income,Recreation Industries,25008.0
+FOUS,2014,Labor Income,Restaurants,77135.0
+FOUS,2014,Labor Income,Retail,39174.0
+FOUS,2014,Labor Income,Secondary Effects,61748.0
+FOUS,2014,Labor Income,Transportation,2230.0
+FOUS,2014,Value Added,Camping,31024.0
+FOUS,2014,Value Added,Gas,13075.0
+FOUS,2014,Value Added,Groceries,11440.0
+FOUS,2014,Value Added,Lodging,121804.0
+FOUS,2014,Value Added,Recreation Industries,30928.0
+FOUS,2014,Value Added,Restaurants,99754.0
+FOUS,2014,Value Added,Retail,40450.0
+FOUS,2014,Value Added,Secondary Effects,111449.0
+FOUS,2014,Value Added,Transportation,5099.0
+FOUS,2014,Visitor Spending,Camping,39371.0
+FOUS,2014,Visitor Spending,Gas,184082.0
+FOUS,2014,Visitor Spending,Groceries,63913.0
+FOUS,2014,Visitor Spending,Lodging,219835.0
+FOUS,2014,Visitor Spending,Recreation Industries,55390.0
+FOUS,2014,Visitor Spending,Restaurants,173026.0
+FOUS,2014,Visitor Spending,Retail,139686.0
+FOUS,2014,Visitor Spending,Secondary Effects,0.0
+FOUS,2014,Visitor Spending,Transportation,8253.0
+FOUS,2014,Visits,Total,11520.0
+FOUS,2015,Economic Output,Camping,47891.0
+FOUS,2015,Economic Output,Gas,23884.0
+FOUS,2015,Economic Output,Groceries,21422.0
+FOUS,2015,Economic Output,Lodging,267365.0
+FOUS,2015,Economic Output,Recreation Industries,67186.0
+FOUS,2015,Economic Output,Restaurants,208808.0
+FOUS,2015,Economic Output,Retail,76184.0
+FOUS,2015,Economic Output,Secondary Effects,246522.0
+FOUS,2015,Economic Output,Transportation,9943.0
+FOUS,2015,Jobs,Camping,0.0
+FOUS,2015,Jobs,Gas,0.0
+FOUS,2015,Jobs,Groceries,0.0
+FOUS,2015,Jobs,Lodging,3.0
+FOUS,2015,Jobs,Recreation Industries,1.0
+FOUS,2015,Jobs,Restaurants,4.0
+FOUS,2015,Jobs,Retail,2.0
+FOUS,2015,Jobs,Secondary Effects,2.0
+FOUS,2015,Jobs,Transportation,0.0
+FOUS,2015,Labor Income,Camping,25847.0
+FOUS,2015,Labor Income,Gas,12711.0
+FOUS,2015,Labor Income,Groceries,10246.0
+FOUS,2015,Labor Income,Lodging,82087.0
+FOUS,2015,Labor Income,Recreation Industries,30098.0
+FOUS,2015,Labor Income,Restaurants,92834.0
+FOUS,2015,Labor Income,Retail,47552.0
+FOUS,2015,Labor Income,Secondary Effects,74434.0
+FOUS,2015,Labor Income,Transportation,2687.0
+FOUS,2015,Value Added,Camping,37342.0
+FOUS,2015,Value Added,Gas,15872.0
+FOUS,2015,Value Added,Groceries,13887.0
+FOUS,2015,Value Added,Lodging,146584.0
+FOUS,2015,Value Added,Recreation Industries,37223.0
+FOUS,2015,Value Added,Restaurants,120056.0
+FOUS,2015,Value Added,Retail,49101.0
+FOUS,2015,Value Added,Secondary Effects,134365.0
+FOUS,2015,Value Added,Transportation,6137.0
+FOUS,2015,Visitor Spending,Camping,47891.0
+FOUS,2015,Visitor Spending,Gas,219264.0
+FOUS,2015,Visitor Spending,Groceries,76128.0
+FOUS,2015,Visitor Spending,Lodging,267365.0
+FOUS,2015,Visitor Spending,Recreation Industries,67186.0
+FOUS,2015,Visitor Spending,Restaurants,208808.0
+FOUS,2015,Visitor Spending,Retail,166380.0
+FOUS,2015,Visitor Spending,Secondary Effects,0.0
+FOUS,2015,Visitor Spending,Transportation,9943.0
+FOUS,2015,Visits,Total,13605.0
+FOUS,2016,Economic Output,Camping,63443.0
+FOUS,2016,Economic Output,Gas,31253.0
+FOUS,2016,Economic Output,Groceries,28032.0
+FOUS,2016,Economic Output,Lodging,354276.0
+FOUS,2016,Economic Output,Recreation Industries,88774.0
+FOUS,2016,Economic Output,Restaurants,274507.0
+FOUS,2016,Economic Output,Retail,99696.0
+FOUS,2016,Economic Output,Secondary Effects,324198.0
+FOUS,2016,Economic Output,Transportation,13051.0
+FOUS,2016,Jobs,Camping,1.0
+FOUS,2016,Jobs,Gas,0.0
+FOUS,2016,Jobs,Groceries,0.0
+FOUS,2016,Jobs,Lodging,4.0
+FOUS,2016,Jobs,Recreation Industries,1.0
+FOUS,2016,Jobs,Restaurants,5.0
+FOUS,2016,Jobs,Retail,3.0
+FOUS,2016,Jobs,Secondary Effects,2.0
+FOUS,2016,Jobs,Transportation,0.0
+FOUS,2016,Labor Income,Camping,33881.0
+FOUS,2016,Labor Income,Gas,16808.0
+FOUS,2016,Labor Income,Groceries,13548.0
+FOUS,2016,Labor Income,Lodging,107629.0
+FOUS,2016,Labor Income,Recreation Industries,39460.0
+FOUS,2016,Labor Income,Restaurants,121711.0
+FOUS,2016,Labor Income,Retail,62878.0
+FOUS,2016,Labor Income,Secondary Effects,97748.0
+FOUS,2016,Labor Income,Transportation,3527.0
+FOUS,2016,Value Added,Camping,48949.0
+FOUS,2016,Value Added,Gas,20986.0
+FOUS,2016,Value Added,Groceries,18362.0
+FOUS,2016,Value Added,Lodging,192195.0
+FOUS,2016,Value Added,Recreation Industries,48802.0
+FOUS,2016,Value Added,Restaurants,157401.0
+FOUS,2016,Value Added,Retail,64926.0
+FOUS,2016,Value Added,Secondary Effects,176472.0
+FOUS,2016,Value Added,Transportation,8047.0
+FOUS,2016,Visitor Spending,Camping,63443.0
+FOUS,2016,Visitor Spending,Gas,284483.0
+FOUS,2016,Visitor Spending,Groceries,98771.0
+FOUS,2016,Visitor Spending,Lodging,354276.0
+FOUS,2016,Visitor Spending,Recreation Industries,88774.0
+FOUS,2016,Visitor Spending,Restaurants,274507.0
+FOUS,2016,Visitor Spending,Retail,215875.0
+FOUS,2016,Visitor Spending,Secondary Effects,0.0
+FOUS,2016,Visitor Spending,Transportation,13051.0
+FOUS,2016,Visits,Total,17502.0
+FOUS,2017,Economic Output,Camping,46151.0
+FOUS,2017,Economic Output,Gas,27317.0
+FOUS,2017,Economic Output,Groceries,21065.0
+FOUS,2017,Economic Output,Lodging,257777.0
+FOUS,2017,Economic Output,Recreation Industries,64358.0
+FOUS,2017,Economic Output,Restaurants,204841.0
+FOUS,2017,Economic Output,Retail,79259.0
+FOUS,2017,Economic Output,Secondary Effects,251582.0
+FOUS,2017,Economic Output,Transportation,9709.0
+FOUS,2017,Jobs,Camping,1.0
+FOUS,2017,Jobs,Gas,0.0
+FOUS,2017,Jobs,Groceries,0.0
+FOUS,2017,Jobs,Lodging,3.0
+FOUS,2017,Jobs,Recreation Industries,1.0
+FOUS,2017,Jobs,Restaurants,3.0
+FOUS,2017,Jobs,Retail,2.0
+FOUS,2017,Jobs,Secondary Effects,2.0
+FOUS,2017,Jobs,Transportation,0.0
+FOUS,2017,Labor Income,Camping,36618.0
+FOUS,2017,Labor Income,Gas,18177.0
+FOUS,2017,Labor Income,Groceries,10484.0
+FOUS,2017,Labor Income,Lodging,76260.0
+FOUS,2017,Labor Income,Recreation Industries,28806.0
+FOUS,2017,Labor Income,Restaurants,81719.0
+FOUS,2017,Labor Income,Retail,47003.0
+FOUS,2017,Labor Income,Secondary Effects,72886.0
+FOUS,2017,Labor Income,Transportation,3494.0
+FOUS,2017,Non-local Visitor Spending,Camping,46151.0
+FOUS,2017,Non-local Visitor Spending,Gas,210694.0
+FOUS,2017,Non-local Visitor Spending,Groceries,71440.0
+FOUS,2017,Non-local Visitor Spending,Lodging,257777.0
+FOUS,2017,Non-local Visitor Spending,Recreation Industries,63830.0
+FOUS,2017,Non-local Visitor Spending,Restaurants,201216.0
+FOUS,2017,Non-local Visitor Spending,Retail,152433.0
+FOUS,2017,Non-local Visitor Spending,Secondary Effects,0.0
+FOUS,2017,Non-local Visitor Spending,Transportation,9634.0
+FOUS,2017,Party Days/Nights,Total,9471.0
+FOUS,2017,Value Added,Camping,34388.0
+FOUS,2017,Value Added,Gas,18402.0
+FOUS,2017,Value Added,Groceries,14548.0
+FOUS,2017,Value Added,Lodging,154410.0
+FOUS,2017,Value Added,Recreation Industries,36279.0
+FOUS,2017,Value Added,Restaurants,119223.0
+FOUS,2017,Value Added,Retail,48927.0
+FOUS,2017,Value Added,Secondary Effects,144340.0
+FOUS,2017,Value Added,Transportation,6486.0
+FOUS,2017,Visitor Spending,Camping,46151.0
+FOUS,2017,Visitor Spending,Gas,218536.0
+FOUS,2017,Visitor Spending,Groceries,76324.0
+FOUS,2017,Visitor Spending,Lodging,257777.0
+FOUS,2017,Visitor Spending,Recreation Industries,64358.0
+FOUS,2017,Visitor Spending,Restaurants,204841.0
+FOUS,2017,Visitor Spending,Retail,165814.0
+FOUS,2017,Visitor Spending,Secondary Effects,0.0
+FOUS,2017,Visitor Spending,Transportation,9709.0
+FOUS,2017,Visits,Total,13329.0
+FOUS,2018,Economic Output,Camping,48639.0
+FOUS,2018,Economic Output,Gas,37139.0
+FOUS,2018,Economic Output,Groceries,23488.0
+FOUS,2018,Economic Output,Lodging,271474.0
+FOUS,2018,Economic Output,Recreation Industries,67524.0
+FOUS,2018,Economic Output,Restaurants,218502.0
+FOUS,2018,Economic Output,Retail,87120.0
+FOUS,2018,Economic Output,Secondary Effects,311643.0
+FOUS,2018,Economic Output,Transportation,9110.0
+FOUS,2018,Jobs,Camping,1.0
+FOUS,2018,Jobs,Gas,0.0
+FOUS,2018,Jobs,Groceries,0.0
+FOUS,2018,Jobs,Lodging,3.0
+FOUS,2018,Jobs,Recreation Industries,1.0
+FOUS,2018,Jobs,Restaurants,3.0
+FOUS,2018,Jobs,Retail,2.0
+FOUS,2018,Jobs,Secondary Effects,2.0
+FOUS,2018,Jobs,Transportation,0.0
+FOUS,2018,Labor Income,Camping,32370.0
+FOUS,2018,Labor Income,Gas,18541.0
+FOUS,2018,Labor Income,Groceries,11449.0
+FOUS,2018,Labor Income,Lodging,70407.0
+FOUS,2018,Labor Income,Recreation Industries,30555.0
+FOUS,2018,Labor Income,Restaurants,81723.0
+FOUS,2018,Labor Income,Retail,59297.0
+FOUS,2018,Labor Income,Secondary Effects,96851.0
+FOUS,2018,Labor Income,Transportation,3507.0
+FOUS,2018,Non-local Visitor Spending,Camping,48639.0
+FOUS,2018,Non-local Visitor Spending,Gas,218330.0
+FOUS,2018,Non-local Visitor Spending,Groceries,78795.0
+FOUS,2018,Non-local Visitor Spending,Lodging,271474.0
+FOUS,2018,Non-local Visitor Spending,Recreation Industries,66969.0
+FOUS,2018,Non-local Visitor Spending,Restaurants,214632.0
+FOUS,2018,Non-local Visitor Spending,Retail,157963.0
+FOUS,2018,Non-local Visitor Spending,Secondary Effects,0.0
+FOUS,2018,Non-local Visitor Spending,Transportation,9033.0
+FOUS,2018,Party Days/Nights,Total,9630.0
+FOUS,2018,Value Added,Camping,34649.0
+FOUS,2018,Value Added,Gas,24464.0
+FOUS,2018,Value Added,Groceries,15091.0
+FOUS,2018,Value Added,Lodging,149954.0
+FOUS,2018,Value Added,Recreation Industries,38932.0
+FOUS,2018,Value Added,Restaurants,122321.0
+FOUS,2018,Value Added,Retail,63105.0
+FOUS,2018,Value Added,Secondary Effects,182261.0
+FOUS,2018,Value Added,Transportation,6500.0
+FOUS,2018,Visitor Spending,Camping,48639.0
+FOUS,2018,Visitor Spending,Gas,226460.0
+FOUS,2018,Visitor Spending,Groceries,84188.0
+FOUS,2018,Visitor Spending,Lodging,271474.0
+FOUS,2018,Visitor Spending,Recreation Industries,67524.0
+FOUS,2018,Visitor Spending,Restaurants,218502.0
+FOUS,2018,Visitor Spending,Retail,171834.0
+FOUS,2018,Visitor Spending,Secondary Effects,0.0
+FOUS,2018,Visitor Spending,Transportation,9110.0
+FOUS,2018,Visits,Total,13552.0
+FOUS,2019,Economic Output,Camping,46959.0
+FOUS,2019,Economic Output,Gas,35660.0
+FOUS,2019,Economic Output,Groceries,22527.0
+FOUS,2019,Economic Output,Lodging,262082.0
+FOUS,2019,Economic Output,Recreation Industries,65250.0
+FOUS,2019,Economic Output,Restaurants,211043.0
+FOUS,2019,Economic Output,Retail,83644.0
+FOUS,2019,Economic Output,Secondary Effects,300891.0
+FOUS,2019,Economic Output,Transportation,8752.0
+FOUS,2019,Jobs,Camping,1.0
+FOUS,2019,Jobs,Gas,0.0
+FOUS,2019,Jobs,Groceries,0.0
+FOUS,2019,Jobs,Lodging,3.0
+FOUS,2019,Jobs,Recreation Industries,1.0
+FOUS,2019,Jobs,Restaurants,3.0
+FOUS,2019,Jobs,Retail,1.0
+FOUS,2019,Jobs,Secondary Effects,2.0
+FOUS,2019,Jobs,Transportation,0.0
+FOUS,2019,Labor Income,Camping,31254.0
+FOUS,2019,Labor Income,Gas,17902.0
+FOUS,2019,Labor Income,Groceries,11050.0
+FOUS,2019,Labor Income,Lodging,67975.0
+FOUS,2019,Labor Income,Recreation Industries,29505.0
+FOUS,2019,Labor Income,Restaurants,78909.0
+FOUS,2019,Labor Income,Retail,57248.0
+FOUS,2019,Labor Income,Secondary Effects,93509.0
+FOUS,2019,Labor Income,Transportation,3384.0
+FOUS,2019,Non-local Visitor Spending,Camping,46959.0
+FOUS,2019,Non-local Visitor Spending,Gas,209630.0
+FOUS,2019,Non-local Visitor Spending,Groceries,75568.0
+FOUS,2019,Non-local Visitor Spending,Lodging,262082.0
+FOUS,2019,Non-local Visitor Spending,Recreation Industries,64713.0
+FOUS,2019,Non-local Visitor Spending,Restaurants,207303.0
+FOUS,2019,Non-local Visitor Spending,Retail,151650.0
+FOUS,2019,Non-local Visitor Spending,Secondary Effects,0.0
+FOUS,2019,Non-local Visitor Spending,Transportation,8679.0
+FOUS,2019,Party Days/Nights,Total,9214.0
+FOUS,2019,Value Added,Camping,33454.0
+FOUS,2019,Value Added,Gas,23621.0
+FOUS,2019,Value Added,Groceries,14566.0
+FOUS,2019,Value Added,Lodging,144775.0
+FOUS,2019,Value Added,Recreation Industries,37595.0
+FOUS,2019,Value Added,Restaurants,118110.0
+FOUS,2019,Value Added,Retail,60925.0
+FOUS,2019,Value Added,Secondary Effects,175973.0
+FOUS,2019,Value Added,Transportation,6276.0
+FOUS,2019,Visitor Spending,Camping,46959.0
+FOUS,2019,Visitor Spending,Gas,217438.0
+FOUS,2019,Visitor Spending,Groceries,80743.0
+FOUS,2019,Visitor Spending,Lodging,262082.0
+FOUS,2019,Visitor Spending,Recreation Industries,65250.0
+FOUS,2019,Visitor Spending,Restaurants,211043.0
+FOUS,2019,Visitor Spending,Retail,164978.0
+FOUS,2019,Visitor Spending,Secondary Effects,0.0
+FOUS,2019,Visitor Spending,Transportation,8752.0
+FOUS,2019,Visits,Total,12967.0
+FOUS,2020,Economic Output,Camping,19083.0
+FOUS,2020,Economic Output,Gas,14421.0
+FOUS,2020,Economic Output,Groceries,9107.0
+FOUS,2020,Economic Output,Lodging,106557.0
+FOUS,2020,Economic Output,Recreation Industries,26538.0
+FOUS,2020,Economic Output,Restaurants,85849.0
+FOUS,2020,Economic Output,Retail,33830.0
+FOUS,2020,Economic Output,Secondary Effects,122340.0
+FOUS,2020,Economic Output,Transportation,3528.0
+FOUS,2020,Jobs,Camping,0.0
+FOUS,2020,Jobs,Gas,0.0
+FOUS,2020,Jobs,Groceries,0.0
+FOUS,2020,Jobs,Lodging,1.0
+FOUS,2020,Jobs,Recreation Industries,0.0
+FOUS,2020,Jobs,Restaurants,1.0
+FOUS,2020,Jobs,Retail,1.0
+FOUS,2020,Jobs,Secondary Effects,1.0
+FOUS,2020,Jobs,Transportation,0.0
+FOUS,2020,Labor Income,Camping,12702.0
+FOUS,2020,Labor Income,Gas,7280.0
+FOUS,2020,Labor Income,Groceries,4496.0
+FOUS,2020,Labor Income,Lodging,27639.0
+FOUS,2020,Labor Income,Recreation Industries,11992.0
+FOUS,2020,Labor Income,Restaurants,32090.0
+FOUS,2020,Labor Income,Retail,23283.0
+FOUS,2020,Labor Income,Secondary Effects,38020.0
+FOUS,2020,Labor Income,Transportation,1370.0
+FOUS,2020,Non-local Visitor Spending,Camping,19083.0
+FOUS,2020,Non-local Visitor Spending,Gas,84768.0
+FOUS,2020,Non-local Visitor Spending,Groceries,30548.0
+FOUS,2020,Non-local Visitor Spending,Lodging,106557.0
+FOUS,2020,Non-local Visitor Spending,Recreation Industries,26319.0
+FOUS,2020,Non-local Visitor Spending,Restaurants,84324.0
+FOUS,2020,Non-local Visitor Spending,Retail,61329.0
+FOUS,2020,Non-local Visitor Spending,Secondary Effects,0.0
+FOUS,2020,Non-local Visitor Spending,Transportation,3498.0
+FOUS,2020,Party Days/Nights,Total,3714.0
+FOUS,2020,Value Added,Camping,13596.0
+FOUS,2020,Value Added,Gas,9605.0
+FOUS,2020,Value Added,Groceries,5926.0
+FOUS,2020,Value Added,Lodging,58866.0
+FOUS,2020,Value Added,Recreation Industries,15280.0
+FOUS,2020,Value Added,Restaurants,48031.0
+FOUS,2020,Value Added,Retail,24778.0
+FOUS,2020,Value Added,Secondary Effects,71549.0
+FOUS,2020,Value Added,Transportation,2542.0
+FOUS,2020,Visitor Spending,Camping,19083.0
+FOUS,2020,Visitor Spending,Gas,87930.0
+FOUS,2020,Visitor Spending,Groceries,32641.0
+FOUS,2020,Visitor Spending,Lodging,106557.0
+FOUS,2020,Visitor Spending,Recreation Industries,26538.0
+FOUS,2020,Visitor Spending,Restaurants,85849.0
+FOUS,2020,Visitor Spending,Retail,66726.0
+FOUS,2020,Visitor Spending,Secondary Effects,0.0
+FOUS,2020,Visitor Spending,Transportation,3528.0
+FOUS,2020,Visits,Total,5226.0
+FOUS,2021,Economic Output,Camping,44444.0
+FOUS,2021,Economic Output,Gas,55397.0
+FOUS,2021,Economic Output,Groceries,25385.0
+FOUS,2021,Economic Output,Lodging,248151.0
+FOUS,2021,Economic Output,Recreation Industries,59883.0
+FOUS,2021,Economic Output,Restaurants,203591.0
+FOUS,2021,Economic Output,Retail,82186.0
+FOUS,2021,Economic Output,Secondary Effects,263176.0
+FOUS,2021,Economic Output,Transportation,8058.0
+FOUS,2021,Jobs,Camping,0.0
+FOUS,2021,Jobs,Gas,0.0
+FOUS,2021,Jobs,Groceries,0.0
+FOUS,2021,Jobs,Lodging,2.0
+FOUS,2021,Jobs,Recreation Industries,1.0
+FOUS,2021,Jobs,Restaurants,3.0
+FOUS,2021,Jobs,Retail,2.0
+FOUS,2021,Jobs,Secondary Effects,2.0
+FOUS,2021,Jobs,Transportation,0.0
+FOUS,2021,Labor Income,Camping,23195.0
+FOUS,2021,Labor Income,Gas,22708.0
+FOUS,2021,Labor Income,Groceries,11729.0
+FOUS,2021,Labor Income,Lodging,67209.0
+FOUS,2021,Labor Income,Recreation Industries,31708.0
+FOUS,2021,Labor Income,Restaurants,75019.0
+FOUS,2021,Labor Income,Retail,48292.0
+FOUS,2021,Labor Income,Secondary Effects,77463.0
+FOUS,2021,Labor Income,Transportation,2621.0
+FOUS,2021,Non-local Visitor Spending,Camping,44444.0
+FOUS,2021,Non-local Visitor Spending,Gas,243147.0
+FOUS,2021,Non-local Visitor Spending,Groceries,71550.0
+FOUS,2021,Non-local Visitor Spending,Lodging,248151.0
+FOUS,2021,Non-local Visitor Spending,Recreation Industries,59393.0
+FOUS,2021,Non-local Visitor Spending,Restaurants,199987.0
+FOUS,2021,Non-local Visitor Spending,Retail,135870.0
+FOUS,2021,Non-local Visitor Spending,Secondary Effects,0.0
+FOUS,2021,Non-local Visitor Spending,Transportation,7993.0
+FOUS,2021,Party Days/Nights,Total,8163.0
+FOUS,2021,Value Added,Camping,35292.0
+FOUS,2021,Value Added,Gas,31860.0
+FOUS,2021,Value Added,Groceries,14983.0
+FOUS,2021,Value Added,Lodging,151494.0
+FOUS,2021,Value Added,Recreation Industries,33038.0
+FOUS,2021,Value Added,Restaurants,105805.0
+FOUS,2021,Value Added,Retail,51288.0
+FOUS,2021,Value Added,Secondary Effects,138742.0
+FOUS,2021,Value Added,Transportation,5767.0
+FOUS,2021,Visitor Spending,Camping,44444.0
+FOUS,2021,Visitor Spending,Gas,252196.0
+FOUS,2021,Visitor Spending,Groceries,76446.0
+FOUS,2021,Visitor Spending,Lodging,248151.0
+FOUS,2021,Visitor Spending,Recreation Industries,59883.0
+FOUS,2021,Visitor Spending,Restaurants,203591.0
+FOUS,2021,Visitor Spending,Retail,147795.0
+FOUS,2021,Visitor Spending,Secondary Effects,0.0
+FOUS,2021,Visitor Spending,Transportation,8057.0
+FOUS,2021,Visits,Total,11479.0
+FOUS,2022,Economic Output,Camping,50265.0
+FOUS,2022,Economic Output,Gas,62554.0
+FOUS,2022,Economic Output,Groceries,28617.0
+FOUS,2022,Economic Output,Lodging,280841.0
+FOUS,2022,Economic Output,Recreation Industries,67894.0
+FOUS,2022,Economic Output,Restaurants,232183.0
+FOUS,2022,Economic Output,Retail,92760.0
+FOUS,2022,Economic Output,Secondary Effects,297673.0
+FOUS,2022,Economic Output,Transportation,9139.0
+FOUS,2022,Jobs,Camping,1.0
+FOUS,2022,Jobs,Gas,1.0
+FOUS,2022,Jobs,Groceries,0.0
+FOUS,2022,Jobs,Lodging,3.0
+FOUS,2022,Jobs,Recreation Industries,1.0
+FOUS,2022,Jobs,Restaurants,3.0
+FOUS,2022,Jobs,Retail,2.0
+FOUS,2022,Jobs,Secondary Effects,2.0
+FOUS,2022,Jobs,Transportation,0.0
+FOUS,2022,Labor Income,Camping,26219.0
+FOUS,2022,Labor Income,Gas,25685.0
+FOUS,2022,Labor Income,Groceries,13259.0
+FOUS,2022,Labor Income,Lodging,76021.0
+FOUS,2022,Labor Income,Recreation Industries,35875.0
+FOUS,2022,Labor Income,Restaurants,84866.0
+FOUS,2022,Labor Income,Retail,54599.0
+FOUS,2022,Labor Income,Secondary Effects,87617.0
+FOUS,2022,Labor Income,Transportation,2972.0
+FOUS,2022,Non-local Visitor Spending,Camping,50265.0
+FOUS,2022,Non-local Visitor Spending,Gas,274580.0
+FOUS,2022,Non-local Visitor Spending,Groceries,80675.0
+FOUS,2022,Non-local Visitor Spending,Lodging,280841.0
+FOUS,2022,Non-local Visitor Spending,Recreation Industries,67337.0
+FOUS,2022,Non-local Visitor Spending,Restaurants,228079.0
+FOUS,2022,Non-local Visitor Spending,Retail,153383.0
+FOUS,2022,Non-local Visitor Spending,Secondary Effects,0.0
+FOUS,2022,Non-local Visitor Spending,Transportation,9058.0
+FOUS,2022,Party Days/Nights,Total,9115.0
+FOUS,2022,Value Added,Camping,39892.0
+FOUS,2022,Value Added,Gas,36037.0
+FOUS,2022,Value Added,Groceries,16936.0
+FOUS,2022,Value Added,Lodging,171356.0
+FOUS,2022,Value Added,Recreation Industries,37380.0
+FOUS,2022,Value Added,Restaurants,119693.0
+FOUS,2022,Value Added,Retail,57987.0
+FOUS,2022,Value Added,Secondary Effects,156929.0
+FOUS,2022,Value Added,Transportation,6554.0
+FOUS,2022,Visitor Spending,Camping,50265.0
+FOUS,2022,Visitor Spending,Gas,284773.0
+FOUS,2022,Visitor Spending,Groceries,86179.0
+FOUS,2022,Visitor Spending,Lodging,280841.0
+FOUS,2022,Visitor Spending,Recreation Industries,67894.0
+FOUS,2022,Visitor Spending,Restaurants,232183.0
+FOUS,2022,Visitor Spending,Retail,166811.0
+FOUS,2022,Visitor Spending,Secondary Effects,0.0
+FOUS,2022,Visitor Spending,Transportation,9137.0
+FOUS,2022,Visits,Total,12822.0
+FOUS,2023,Economic Output,Camping,51385.0
+FOUS,2023,Economic Output,Gas,63798.0
+FOUS,2023,Economic Output,Groceries,29172.0
+FOUS,2023,Economic Output,Lodging,287000.0
+FOUS,2023,Economic Output,Recreation Industries,69501.0
+FOUS,2023,Economic Output,Restaurants,239122.0
+FOUS,2023,Economic Output,Retail,94626.0
+FOUS,2023,Economic Output,Secondary Effects,304091.0
+FOUS,2023,Economic Output,Transportation,9293.0
+FOUS,2023,Jobs,Camping,1.0
+FOUS,2023,Jobs,Gas,1.0
+FOUS,2023,Jobs,Groceries,0.0
+FOUS,2023,Jobs,Lodging,3.0
+FOUS,2023,Jobs,Recreation Industries,1.0
+FOUS,2023,Jobs,Restaurants,3.0
+FOUS,2023,Jobs,Retail,2.0
+FOUS,2023,Jobs,Secondary Effects,2.0
+FOUS,2023,Jobs,Transportation,0.0
+FOUS,2023,Labor Income,Camping,26788.0
+FOUS,2023,Labor Income,Gas,26242.0
+FOUS,2023,Labor Income,Groceries,13553.0
+FOUS,2023,Labor Income,Lodging,77645.0
+FOUS,2023,Labor Income,Recreation Industries,36649.0
+FOUS,2023,Labor Income,Restaurants,86699.0
+FOUS,2023,Labor Income,Retail,55794.0
+FOUS,2023,Labor Income,Secondary Effects,89506.0
+FOUS,2023,Labor Income,Transportation,3022.0
+FOUS,2023,Non-local Visitor Spending,Camping,51385.0
+FOUS,2023,Non-local Visitor Spending,Gas,280024.0
+FOUS,2023,Non-local Visitor Spending,Groceries,82231.0
+FOUS,2023,Non-local Visitor Spending,Lodging,287000.0
+FOUS,2023,Non-local Visitor Spending,Recreation Industries,68932.0
+FOUS,2023,Non-local Visitor Spending,Restaurants,234893.0
+FOUS,2023,Non-local Visitor Spending,Retail,156440.0
+FOUS,2023,Non-local Visitor Spending,Secondary Effects,0.0
+FOUS,2023,Non-local Visitor Spending,Transportation,9212.0
+FOUS,2023,Party Days/Nights,Total,9197.0
+FOUS,2023,Value Added,Camping,40759.0
+FOUS,2023,Value Added,Gas,36818.0
+FOUS,2023,Value Added,Groceries,17312.0
+FOUS,2023,Value Added,Lodging,175016.0
+FOUS,2023,Value Added,Recreation Industries,38186.0
+FOUS,2023,Value Added,Restaurants,122278.0
+FOUS,2023,Value Added,Retail,59255.0
+FOUS,2023,Value Added,Secondary Effects,160312.0
+FOUS,2023,Value Added,Transportation,6677.0
+FOUS,2023,Visitor Spending,Camping,51385.0
+FOUS,2023,Visitor Spending,Gas,290441.0
+FOUS,2023,Visitor Spending,Groceries,87851.0
+FOUS,2023,Visitor Spending,Lodging,287000.0
+FOUS,2023,Visitor Spending,Recreation Industries,69501.0
+FOUS,2023,Visitor Spending,Restaurants,239122.0
+FOUS,2023,Visitor Spending,Retail,170166.0
+FOUS,2023,Visitor Spending,Secondary Effects,0.0
+FOUS,2023,Visitor Spending,Transportation,9290.0
+FOUS,2023,Visits,Total,12942.0
+FOUS,2024,Economic Output,Camping,52304.0
+FOUS,2024,Economic Output,Gas,38693.0
+FOUS,2024,Economic Output,Groceries,26200.0
+FOUS,2024,Economic Output,Lodging,292201.0
+FOUS,2024,Economic Output,Recreation Industries,73494.0
+FOUS,2024,Economic Output,Restaurants,244185.0
+FOUS,2024,Economic Output,Retail,88215.0
+FOUS,2024,Economic Output,Secondary Effects,287675.0
+FOUS,2024,Economic Output,Transportation,11465.0
+FOUS,2024,Jobs,Camping,0.0
+FOUS,2024,Jobs,Gas,0.0
+FOUS,2024,Jobs,Groceries,0.0
+FOUS,2024,Jobs,Lodging,2.0
+FOUS,2024,Jobs,Recreation Industries,1.0
+FOUS,2024,Jobs,Restaurants,3.0
+FOUS,2024,Jobs,Retail,2.0
+FOUS,2024,Jobs,Secondary Effects,2.0
+FOUS,2024,Jobs,Transportation,0.0
+FOUS,2024,Labor Income,Camping,20725.0
+FOUS,2024,Labor Income,Gas,13815.0
+FOUS,2024,Labor Income,Groceries,10638.0
+FOUS,2024,Labor Income,Lodging,85507.0
+FOUS,2024,Labor Income,Recreation Industries,30791.0
+FOUS,2024,Labor Income,Restaurants,72955.0
+FOUS,2024,Labor Income,Retail,36673.0
+FOUS,2024,Labor Income,Secondary Effects,87322.0
+FOUS,2024,Labor Income,Transportation,2416.0
+FOUS,2024,Non-local Visitor Spending,Camping,52304.0
+FOUS,2024,Non-local Visitor Spending,Gas,200582.0
+FOUS,2024,Non-local Visitor Spending,Groceries,85162.0
+FOUS,2024,Non-local Visitor Spending,Lodging,292201.0
+FOUS,2024,Non-local Visitor Spending,Recreation Industries,72894.0
+FOUS,2024,Non-local Visitor Spending,Restaurants,239871.0
+FOUS,2024,Non-local Visitor Spending,Retail,151050.0
+FOUS,2024,Non-local Visitor Spending,Secondary Effects,0.0
+FOUS,2024,Non-local Visitor Spending,Transportation,11372.0
+FOUS,2024,Party Days/Nights,Total,8545.0
+FOUS,2024,Value Added,Camping,36994.0
+FOUS,2024,Value Added,Gas,26435.0
+FOUS,2024,Value Added,Groceries,17618.0
+FOUS,2024,Value Added,Lodging,189302.0
+FOUS,2024,Value Added,Recreation Industries,44856.0
+FOUS,2024,Value Added,Restaurants,116639.0
+FOUS,2024,Value Added,Retail,40508.0
+FOUS,2024,Value Added,Secondary Effects,155243.0
+FOUS,2024,Value Added,Transportation,4574.0
+FOUS,2024,Visitor Spending,Camping,52304.0
+FOUS,2024,Visitor Spending,Gas,208028.0
+FOUS,2024,Visitor Spending,Groceries,90971.0
+FOUS,2024,Visitor Spending,Lodging,292201.0
+FOUS,2024,Visitor Spending,Recreation Industries,73494.0
+FOUS,2024,Visitor Spending,Restaurants,244185.0
+FOUS,2024,Visitor Spending,Retail,164273.0
+FOUS,2024,Visitor Spending,Secondary Effects,0.0
+FOUS,2024,Visitor Spending,Transportation,11465.0
+FOUS,2024,Visits,Total,12028.0
+JECA,2012,Economic Output,Total,6719384.0
+JECA,2012,Jobs,Total,89.0
+JECA,2012,Labor Income,Total,2075164.0
+JECA,2012,Value Added,Total,3713179.0
+JECA,2012,Visitor Spending,Total,5881565.0
+JECA,2012,Visits,Total,109300.0
+JECA,2013,Economic Output,Total,6195159.0
+JECA,2013,Jobs,Total,81.0
+JECA,2013,Labor Income,Total,1904348.0
+JECA,2013,Value Added,Total,3407494.0
+JECA,2013,Visitor Spending,Total,5416082.0
+JECA,2013,Visits,Total,98260.0
+JECA,2014,Economic Output,Camping,169918.0
+JECA,2014,Economic Output,Gas,84043.0
+JECA,2014,Economic Output,Groceries,86724.0
+JECA,2014,Economic Output,Lodging,1843869.0
+JECA,2014,Economic Output,Recreation Industries,529930.0
+JECA,2014,Economic Output,Restaurants,1321338.0
+JECA,2014,Economic Output,Retail,316938.0
+JECA,2014,Economic Output,Secondary Effects,2870000.0
+JECA,2014,Economic Output,Transportation,200087.0
+JECA,2014,Jobs,Camping,2.0
+JECA,2014,Jobs,Gas,1.0
+JECA,2014,Jobs,Groceries,1.0
+JECA,2014,Jobs,Lodging,24.0
+JECA,2014,Jobs,Recreation Industries,10.0
+JECA,2014,Jobs,Restaurants,29.0
+JECA,2014,Jobs,Retail,8.0
+JECA,2014,Jobs,Secondary Effects,22.0
+JECA,2014,Jobs,Transportation,2.0
+JECA,2014,Labor Income,Camping,69828.0
+JECA,2014,Labor Income,Gas,34684.0
+JECA,2014,Labor Income,Groceries,36228.0
+JECA,2014,Labor Income,Lodging,534159.0
+JECA,2014,Labor Income,Recreation Industries,168232.0
+JECA,2014,Labor Income,Restaurants,516331.0
+JECA,2014,Labor Income,Retail,186370.0
+JECA,2014,Labor Income,Secondary Effects,793223.0
+JECA,2014,Labor Income,Transportation,46691.0
+JECA,2014,Value Added,Camping,108088.0
+JECA,2014,Value Added,Gas,44483.0
+JECA,2014,Value Added,Groceries,54467.0
+JECA,2014,Value Added,Lodging,1002064.0
+JECA,2014,Value Added,Recreation Industries,265009.0
+JECA,2014,Value Added,Restaurants,687035.0
+JECA,2014,Value Added,Retail,177194.0
+JECA,2014,Value Added,Secondary Effects,1444964.0
+JECA,2014,Value Added,Transportation,106334.0
+JECA,2014,Visitor Spending,Camping,169918.0
+JECA,2014,Visitor Spending,Gas,778136.0
+JECA,2014,Visitor Spending,Groceries,310837.0
+JECA,2014,Visitor Spending,Lodging,1843869.0
+JECA,2014,Visitor Spending,Recreation Industries,529930.0
+JECA,2014,Visitor Spending,Restaurants,1321338.0
+JECA,2014,Visitor Spending,Retail,698050.0
+JECA,2014,Visitor Spending,Secondary Effects,0.0
+JECA,2014,Visitor Spending,Transportation,200087.0
+JECA,2014,Visits,Total,104348.0
+JECA,2015,Economic Output,Camping,195295.0
+JECA,2015,Economic Output,Gas,95407.0
+JECA,2015,Economic Output,Groceries,98445.0
+JECA,2015,Economic Output,Lodging,2119190.0
+JECA,2015,Economic Output,Recreation Industries,607391.0
+JECA,2015,Economic Output,Restaurants,1506804.0
+JECA,2015,Economic Output,Retail,359800.0
+JECA,2015,Economic Output,Secondary Effects,3268260.0
+JECA,2015,Economic Output,Transportation,227801.0
+JECA,2015,Jobs,Camping,3.0
+JECA,2015,Jobs,Gas,1.0
+JECA,2015,Jobs,Groceries,2.0
+JECA,2015,Jobs,Lodging,27.0
+JECA,2015,Jobs,Recreation Industries,11.0
+JECA,2015,Jobs,Restaurants,33.0
+JECA,2015,Jobs,Retail,9.0
+JECA,2015,Jobs,Secondary Effects,25.0
+JECA,2015,Jobs,Transportation,2.0
+JECA,2015,Labor Income,Camping,79415.0
+JECA,2015,Labor Income,Gas,39784.0
+JECA,2015,Labor Income,Groceries,41554.0
+JECA,2015,Labor Income,Lodging,607476.0
+JECA,2015,Labor Income,Recreation Industries,191325.0
+JECA,2015,Labor Income,Restaurants,587204.0
+JECA,2015,Labor Income,Retail,213769.0
+JECA,2015,Labor Income,Secondary Effects,903107.0
+JECA,2015,Labor Income,Transportation,53165.0
+JECA,2015,Value Added,Camping,122927.0
+JECA,2015,Value Added,Gas,51023.0
+JECA,2015,Value Added,Groceries,62475.0
+JECA,2015,Value Added,Lodging,1139603.0
+JECA,2015,Value Added,Recreation Industries,301386.0
+JECA,2015,Value Added,Restaurants,781338.0
+JECA,2015,Value Added,Retail,203244.0
+JECA,2015,Value Added,Secondary Effects,1645215.0
+JECA,2015,Value Added,Transportation,120943.0
+JECA,2015,Visitor Spending,Camping,195295.0
+JECA,2015,Visitor Spending,Gas,875795.0
+JECA,2015,Visitor Spending,Groceries,349848.0
+JECA,2015,Visitor Spending,Lodging,2119190.0
+JECA,2015,Visitor Spending,Recreation Industries,607391.0
+JECA,2015,Visitor Spending,Restaurants,1506804.0
+JECA,2015,Visitor Spending,Retail,785653.0
+JECA,2015,Visitor Spending,Secondary Effects,0.0
+JECA,2015,Visitor Spending,Transportation,227801.0
+JECA,2015,Visits,Total,116445.0
+JECA,2016,Economic Output,Camping,237125.0
+JECA,2016,Economic Output,Gas,114418.0
+JECA,2016,Economic Output,Groceries,118055.0
+JECA,2016,Economic Output,Lodging,2573085.0
+JECA,2016,Economic Output,Recreation Industries,735453.0
+JECA,2016,Economic Output,Restaurants,1815264.0
+JECA,2016,Economic Output,Retail,431507.0
+JECA,2016,Economic Output,Secondary Effects,3938969.0
+JECA,2016,Economic Output,Transportation,273990.0
+JECA,2016,Jobs,Camping,3.0
+JECA,2016,Jobs,Gas,2.0
+JECA,2016,Jobs,Groceries,2.0
+JECA,2016,Jobs,Lodging,32.0
+JECA,2016,Jobs,Recreation Industries,14.0
+JECA,2016,Jobs,Restaurants,39.0
+JECA,2016,Jobs,Retail,10.0
+JECA,2016,Jobs,Secondary Effects,30.0
+JECA,2016,Jobs,Transportation,2.0
+JECA,2016,Labor Income,Camping,95413.0
+JECA,2016,Labor Income,Gas,48208.0
+JECA,2016,Labor Income,Groceries,50353.0
+JECA,2016,Labor Income,Lodging,729846.0
+JECA,2016,Labor Income,Recreation Industries,229864.0
+JECA,2016,Labor Income,Restaurants,705488.0
+JECA,2016,Labor Income,Retail,259032.0
+JECA,2016,Labor Income,Secondary Effects,1086247.0
+JECA,2016,Labor Income,Transportation,63953.0
+JECA,2016,Value Added,Camping,147690.0
+JECA,2016,Value Added,Gas,61826.0
+JECA,2016,Value Added,Groceries,75703.0
+JECA,2016,Value Added,Lodging,1369167.0
+JECA,2016,Value Added,Recreation Industries,362094.0
+JECA,2016,Value Added,Restaurants,938729.0
+JECA,2016,Value Added,Retail,246279.0
+JECA,2016,Value Added,Secondary Effects,1978942.0
+JECA,2016,Value Added,Transportation,145323.0
+JECA,2016,Visitor Spending,Camping,237125.0
+JECA,2016,Visitor Spending,Gas,1041325.0
+JECA,2016,Visitor Spending,Groceries,415971.0
+JECA,2016,Visitor Spending,Lodging,2573085.0
+JECA,2016,Visitor Spending,Recreation Industries,735453.0
+JECA,2016,Visitor Spending,Restaurants,1815264.0
+JECA,2016,Visitor Spending,Retail,934147.0
+JECA,2016,Visitor Spending,Secondary Effects,0.0
+JECA,2016,Visitor Spending,Transportation,273990.0
+JECA,2016,Visits,Total,137276.0
+JECA,2017,Economic Output,Camping,238650.0
+JECA,2017,Economic Output,Gas,138257.0
+JECA,2017,Economic Output,Groceries,122663.0
+JECA,2017,Economic Output,Lodging,2588701.0
+JECA,2017,Economic Output,Recreation Industries,737356.0
+JECA,2017,Economic Output,Restaurants,1872789.0
+JECA,2017,Economic Output,Retail,474221.0
+JECA,2017,Economic Output,Secondary Effects,3906159.0
+JECA,2017,Economic Output,Transportation,282725.0
+JECA,2017,Jobs,Camping,5.0
+JECA,2017,Jobs,Gas,2.0
+JECA,2017,Jobs,Groceries,2.0
+JECA,2017,Jobs,Lodging,27.0
+JECA,2017,Jobs,Recreation Industries,14.0
+JECA,2017,Jobs,Restaurants,33.0
+JECA,2017,Jobs,Retail,11.0
+JECA,2017,Jobs,Secondary Effects,29.0
+JECA,2017,Jobs,Transportation,2.0
+JECA,2017,Labor Income,Camping,142661.0
+JECA,2017,Labor Income,Gas,69710.0
+JECA,2017,Labor Income,Groceries,51657.0
+JECA,2017,Labor Income,Lodging,673531.0
+JECA,2017,Labor Income,Recreation Industries,242796.0
+JECA,2017,Labor Income,Restaurants,640552.0
+JECA,2017,Labor Income,Retail,288168.0
+JECA,2017,Labor Income,Secondary Effects,1099855.0
+JECA,2017,Labor Income,Transportation,60701.0
+JECA,2017,Non-local Visitor Spending,Camping,238650.0
+JECA,2017,Non-local Visitor Spending,Gas,1047234.0
+JECA,2017,Non-local Visitor Spending,Groceries,407198.0
+JECA,2017,Non-local Visitor Spending,Lodging,2588701.0
+JECA,2017,Non-local Visitor Spending,Recreation Industries,667127.0
+JECA,2017,Non-local Visitor Spending,Restaurants,1765711.0
+JECA,2017,Non-local Visitor Spending,Retail,910842.0
+JECA,2017,Non-local Visitor Spending,Secondary Effects,0.0
+JECA,2017,Non-local Visitor Spending,Transportation,270233.0
+JECA,2017,Party Days/Nights,Total,73554.0
+JECA,2017,Value Added,Camping,151048.0
+JECA,2017,Value Added,Gas,68900.0
+JECA,2017,Value Added,Groceries,80656.0
+JECA,2017,Value Added,Lodging,1516892.0
+JECA,2017,Value Added,Recreation Industries,363613.0
+JECA,2017,Value Added,Restaurants,977191.0
+JECA,2017,Value Added,Retail,263541.0
+JECA,2017,Value Added,Secondary Effects,1993438.0
+JECA,2017,Value Added,Transportation,156664.0
+JECA,2017,Visitor Spending,Camping,238650.0
+JECA,2017,Visitor Spending,Gas,1106054.0
+JECA,2017,Visitor Spending,Groceries,444432.0
+JECA,2017,Visitor Spending,Lodging,2588701.0
+JECA,2017,Visitor Spending,Recreation Industries,737356.0
+JECA,2017,Visitor Spending,Restaurants,1872789.0
+JECA,2017,Visitor Spending,Retail,992095.0
+JECA,2017,Visitor Spending,Secondary Effects,0.0
+JECA,2017,Visitor Spending,Transportation,282722.0
+JECA,2017,Visits,Total,144537.0
+JECA,2018,Economic Output,Camping,243410.0
+JECA,2018,Economic Output,Gas,182094.0
+JECA,2018,Economic Output,Groceries,132437.0
+JECA,2018,Economic Output,Lodging,2641378.0
+JECA,2018,Economic Output,Recreation Industries,749452.0
+JECA,2018,Economic Output,Restaurants,1935626.0
+JECA,2018,Economic Output,Retail,504946.0
+JECA,2018,Economic Output,Secondary Effects,4087254.0
+JECA,2018,Economic Output,Transportation,255704.0
+JECA,2018,Jobs,Camping,4.0
+JECA,2018,Jobs,Gas,2.0
+JECA,2018,Jobs,Groceries,2.0
+JECA,2018,Jobs,Lodging,25.0
+JECA,2018,Jobs,Recreation Industries,13.0
+JECA,2018,Jobs,Restaurants,33.0
+JECA,2018,Jobs,Retail,10.0
+JECA,2018,Jobs,Secondary Effects,30.0
+JECA,2018,Jobs,Transportation,2.0
+JECA,2018,Labor Income,Camping,168467.0
+JECA,2018,Labor Income,Gas,69071.0
+JECA,2018,Labor Income,Groceries,55053.0
+JECA,2018,Labor Income,Lodging,705551.0
+JECA,2018,Labor Income,Recreation Industries,245035.0
+JECA,2018,Labor Income,Restaurants,651022.0
+JECA,2018,Labor Income,Retail,305724.0
+JECA,2018,Labor Income,Secondary Effects,1211226.0
+JECA,2018,Labor Income,Transportation,68526.0
+JECA,2018,Non-local Visitor Spending,Camping,243410.0
+JECA,2018,Non-local Visitor Spending,Gas,1051266.0
+JECA,2018,Non-local Visitor Spending,Groceries,434902.0
+JECA,2018,Non-local Visitor Spending,Lodging,2641378.0
+JECA,2018,Non-local Visitor Spending,Recreation Industries,678087.0
+JECA,2018,Non-local Visitor Spending,Restaurants,1824935.0
+JECA,2018,Non-local Visitor Spending,Retail,914334.0
+JECA,2018,Non-local Visitor Spending,Secondary Effects,0.0
+JECA,2018,Non-local Visitor Spending,Transportation,244467.0
+JECA,2018,Party Days/Nights,Total,72444.0
+JECA,2018,Value Added,Camping,179893.0
+JECA,2018,Value Added,Gas,92174.0
+JECA,2018,Value Added,Groceries,80764.0
+JECA,2018,Value Added,Lodging,1612093.0
+JECA,2018,Value Added,Recreation Industries,374361.0
+JECA,2018,Value Added,Restaurants,998754.0
+JECA,2018,Value Added,Retail,289836.0
+JECA,2018,Value Added,Secondary Effects,2100345.0
+JECA,2018,Value Added,Transportation,133692.0
+JECA,2018,Visitor Spending,Camping,243410.0
+JECA,2018,Visitor Spending,Gas,1110332.0
+JECA,2018,Visitor Spending,Groceries,474684.0
+JECA,2018,Visitor Spending,Lodging,2641378.0
+JECA,2018,Visitor Spending,Recreation Industries,749452.0
+JECA,2018,Visitor Spending,Restaurants,1935626.0
+JECA,2018,Visitor Spending,Retail,995948.0
+JECA,2018,Visitor Spending,Secondary Effects,0.0
+JECA,2018,Visitor Spending,Transportation,255703.0
+JECA,2018,Visits,Total,142355.0
+JECA,2019,Economic Output,Camping,213067.0
+JECA,2019,Economic Output,Gas,158475.0
+JECA,2019,Economic Output,Groceries,115163.0
+JECA,2019,Economic Output,Lodging,2311701.0
+JECA,2019,Economic Output,Recreation Industries,656526.0
+JECA,2019,Economic Output,Restaurants,1694788.0
+JECA,2019,Economic Output,Retail,439595.0
+JECA,2019,Economic Output,Secondary Effects,3577662.0
+JECA,2019,Economic Output,Transportation,222843.0
+JECA,2019,Jobs,Camping,3.0
+JECA,2019,Jobs,Gas,2.0
+JECA,2019,Jobs,Groceries,2.0
+JECA,2019,Jobs,Lodging,22.0
+JECA,2019,Jobs,Recreation Industries,12.0
+JECA,2019,Jobs,Restaurants,29.0
+JECA,2019,Jobs,Retail,9.0
+JECA,2019,Jobs,Secondary Effects,26.0
+JECA,2019,Jobs,Transportation,2.0
+JECA,2019,Labor Income,Camping,147475.0
+JECA,2019,Labor Income,Gas,60447.0
+JECA,2019,Labor Income,Groceries,48178.0
+JECA,2019,Labor Income,Lodging,617528.0
+JECA,2019,Labor Income,Recreation Industries,214503.0
+JECA,2019,Labor Income,Restaurants,569850.0
+JECA,2019,Labor Income,Retail,267638.0
+JECA,2019,Labor Income,Secondary Effects,1060210.0
+JECA,2019,Labor Income,Transportation,59964.0
+JECA,2019,Non-local Visitor Spending,Camping,213067.0
+JECA,2019,Non-local Visitor Spending,Gas,914943.0
+JECA,2019,Non-local Visitor Spending,Groceries,378196.0
+JECA,2019,Non-local Visitor Spending,Lodging,2311701.0
+JECA,2019,Non-local Visitor Spending,Recreation Industries,593959.0
+JECA,2019,Non-local Visitor Spending,Restaurants,1597908.0
+JECA,2019,Non-local Visitor Spending,Retail,796054.0
+JECA,2019,Non-local Visitor Spending,Secondary Effects,0.0
+JECA,2019,Non-local Visitor Spending,Transportation,213093.0
+JECA,2019,Party Days/Nights,Total,62844.0
+JECA,2019,Value Added,Camping,157478.0
+JECA,2019,Value Added,Gas,80665.0
+JECA,2019,Value Added,Groceries,70678.0
+JECA,2019,Value Added,Lodging,1410971.0
+JECA,2019,Value Added,Recreation Industries,327715.0
+JECA,2019,Value Added,Restaurants,874225.0
+JECA,2019,Value Added,Retail,253729.0
+JECA,2019,Value Added,Secondary Effects,1838483.0
+JECA,2019,Value Added,Transportation,117045.0
+JECA,2019,Visitor Spending,Camping,213067.0
+JECA,2019,Visitor Spending,Gas,966314.0
+JECA,2019,Visitor Spending,Groceries,412772.0
+JECA,2019,Visitor Spending,Lodging,2311701.0
+JECA,2019,Visitor Spending,Recreation Industries,656526.0
+JECA,2019,Visitor Spending,Restaurants,1694788.0
+JECA,2019,Visitor Spending,Retail,867051.0
+JECA,2019,Visitor Spending,Secondary Effects,0.0
+JECA,2019,Visitor Spending,Transportation,222840.0
+JECA,2019,Visits,Total,123489.0
+JECA,2020,Economic Output,Camping,62484.0
+JECA,2020,Economic Output,Gas,46205.0
+JECA,2020,Economic Output,Groceries,33589.0
+JECA,2020,Economic Output,Lodging,677701.0
+JECA,2020,Economic Output,Recreation Industries,192591.0
+JECA,2020,Economic Output,Restaurants,497010.0
+JECA,2020,Economic Output,Retail,128143.0
+JECA,2020,Economic Output,Secondary Effects,1048929.0
+JECA,2020,Economic Output,Transportation,65067.0
+JECA,2020,Jobs,Camping,1.0
+JECA,2020,Jobs,Gas,1.0
+JECA,2020,Jobs,Groceries,1.0
+JECA,2020,Jobs,Lodging,6.0
+JECA,2020,Jobs,Recreation Industries,3.0
+JECA,2020,Jobs,Restaurants,8.0
+JECA,2020,Jobs,Retail,3.0
+JECA,2020,Jobs,Secondary Effects,8.0
+JECA,2020,Jobs,Transportation,1.0
+JECA,2020,Labor Income,Camping,43251.0
+JECA,2020,Labor Income,Gas,17722.0
+JECA,2020,Labor Income,Groceries,14141.0
+JECA,2020,Labor Income,Lodging,181046.0
+JECA,2020,Labor Income,Recreation Industries,62880.0
+JECA,2020,Labor Income,Restaurants,167063.0
+JECA,2020,Labor Income,Retail,78451.0
+JECA,2020,Labor Income,Secondary Effects,310841.0
+JECA,2020,Labor Income,Transportation,17580.0
+JECA,2020,Non-local Visitor Spending,Camping,62484.0
+JECA,2020,Non-local Visitor Spending,Gas,266761.0
+JECA,2020,Non-local Visitor Spending,Groceries,110308.0
+JECA,2020,Non-local Visitor Spending,Lodging,677701.0
+JECA,2020,Non-local Visitor Spending,Recreation Industries,174245.0
+JECA,2020,Non-local Visitor Spending,Restaurants,468602.0
+JECA,2020,Non-local Visitor Spending,Retail,232049.0
+JECA,2020,Non-local Visitor Spending,Secondary Effects,0.0
+JECA,2020,Non-local Visitor Spending,Transportation,62195.0
+JECA,2020,Party Days/Nights,Total,18259.0
+JECA,2020,Value Added,Camping,46185.0
+JECA,2020,Value Added,Gas,23650.0
+JECA,2020,Value Added,Groceries,20745.0
+JECA,2020,Value Added,Lodging,413668.0
+JECA,2020,Value Added,Recreation Industries,96068.0
+JECA,2020,Value Added,Restaurants,256297.0
+JECA,2020,Value Added,Retail,74374.0
+JECA,2020,Value Added,Secondary Effects,539023.0
+JECA,2020,Value Added,Transportation,34332.0
+JECA,2020,Visitor Spending,Camping,62484.0
+JECA,2020,Visitor Spending,Gas,281740.0
+JECA,2020,Visitor Spending,Groceries,120390.0
+JECA,2020,Visitor Spending,Lodging,677701.0
+JECA,2020,Visitor Spending,Recreation Industries,192591.0
+JECA,2020,Visitor Spending,Restaurants,497010.0
+JECA,2020,Visitor Spending,Retail,252748.0
+JECA,2020,Visitor Spending,Secondary Effects,0.0
+JECA,2020,Visitor Spending,Transportation,65065.0
+JECA,2020,Visits,Total,35878.0
+JECA,2021,Economic Output,Camping,199581.0
+JECA,2021,Economic Output,Gas,243605.0
+JECA,2021,Economic Output,Groceries,128385.0
+JECA,2021,Economic Output,Lodging,2164480.0
+JECA,2021,Economic Output,Recreation Industries,595999.0
+JECA,2021,Economic Output,Restaurants,1617196.0
+JECA,2021,Economic Output,Retail,427103.0
+JECA,2021,Economic Output,Secondary Effects,3707396.0
+JECA,2021,Economic Output,Transportation,203387.0
+JECA,2021,Jobs,Camping,3.0
+JECA,2021,Jobs,Gas,2.0
+JECA,2021,Jobs,Groceries,2.0
+JECA,2021,Jobs,Lodging,21.0
+JECA,2021,Jobs,Recreation Industries,11.0
+JECA,2021,Jobs,Restaurants,24.0
+JECA,2021,Jobs,Retail,8.0
+JECA,2021,Jobs,Secondary Effects,25.0
+JECA,2021,Jobs,Transportation,3.0
+JECA,2021,Labor Income,Camping,94076.0
+JECA,2021,Labor Income,Gas,69054.0
+JECA,2021,Labor Income,Groceries,50970.0
+JECA,2021,Labor Income,Lodging,615598.0
+JECA,2021,Labor Income,Recreation Industries,209762.0
+JECA,2021,Labor Income,Restaurants,505193.0
+JECA,2021,Labor Income,Retail,228083.0
+JECA,2021,Labor Income,Secondary Effects,1040172.0
+JECA,2021,Labor Income,Transportation,56775.0
+JECA,2021,Non-local Visitor Spending,Camping,199581.0
+JECA,2021,Non-local Visitor Spending,Gas,1050028.0
+JECA,2021,Non-local Visitor Spending,Groceries,354257.0
+JECA,2021,Non-local Visitor Spending,Lodging,2164480.0
+JECA,2021,Non-local Visitor Spending,Recreation Industries,539211.0
+JECA,2021,Non-local Visitor Spending,Restaurants,1524746.0
+JECA,2021,Non-local Visitor Spending,Retail,705161.0
+JECA,2021,Non-local Visitor Spending,Secondary Effects,0.0
+JECA,2021,Non-local Visitor Spending,Transportation,194423.0
+JECA,2021,Party Days/Nights,Total,55069.0
+JECA,2021,Value Added,Camping,144003.0
+JECA,2021,Value Added,Gas,127615.0
+JECA,2021,Value Added,Groceries,73597.0
+JECA,2021,Value Added,Lodging,1354703.0
+JECA,2021,Value Added,Recreation Industries,296471.0
+JECA,2021,Value Added,Restaurants,778002.0
+JECA,2021,Value Added,Retail,270906.0
+JECA,2021,Value Added,Secondary Effects,1825658.0
+JECA,2021,Value Added,Transportation,103615.0
+JECA,2021,Visitor Spending,Camping,199581.0
+JECA,2021,Visitor Spending,Gas,1109008.0
+JECA,2021,Visitor Spending,Groceries,386632.0
+JECA,2021,Visitor Spending,Lodging,2164480.0
+JECA,2021,Visitor Spending,Recreation Industries,595999.0
+JECA,2021,Visitor Spending,Restaurants,1617196.0
+JECA,2021,Visitor Spending,Retail,768064.0
+JECA,2021,Visitor Spending,Secondary Effects,0.0
+JECA,2021,Visitor Spending,Transportation,203370.0
+JECA,2021,Visits,Total,108209.0
+JECA,2022,Economic Output,Camping,222849.0
+JECA,2022,Economic Output,Gas,271572.0
+JECA,2022,Economic Output,Groceries,143066.0
+JECA,2022,Economic Output,Lodging,2418796.0
+JECA,2022,Economic Output,Recreation Industries,667126.0
+JECA,2022,Economic Output,Restaurants,1821007.0
+JECA,2022,Economic Output,Retail,476111.0
+JECA,2022,Economic Output,Secondary Effects,4140998.0
+JECA,2022,Economic Output,Transportation,227195.0
+JECA,2022,Jobs,Camping,3.0
+JECA,2022,Jobs,Gas,3.0
+JECA,2022,Jobs,Groceries,2.0
+JECA,2022,Jobs,Lodging,23.0
+JECA,2022,Jobs,Recreation Industries,13.0
+JECA,2022,Jobs,Restaurants,27.0
+JECA,2022,Jobs,Retail,9.0
+JECA,2022,Jobs,Secondary Effects,27.0
+JECA,2022,Jobs,Transportation,3.0
+JECA,2022,Labor Income,Camping,104985.0
+JECA,2022,Labor Income,Gas,77114.0
+JECA,2022,Labor Income,Groceries,56953.0
+JECA,2022,Labor Income,Lodging,687545.0
+JECA,2022,Labor Income,Recreation Industries,234313.0
+JECA,2022,Labor Income,Restaurants,564283.0
+JECA,2022,Labor Income,Retail,254693.0
+JECA,2022,Labor Income,Secondary Effects,1161833.0
+JECA,2022,Labor Income,Transportation,63375.0
+JECA,2022,Non-local Visitor Spending,Camping,222849.0
+JECA,2022,Non-local Visitor Spending,Gas,1170572.0
+JECA,2022,Non-local Visitor Spending,Groceries,394753.0
+JECA,2022,Non-local Visitor Spending,Lodging,2418796.0
+JECA,2022,Non-local Visitor Spending,Recreation Industries,603539.0
+JECA,2022,Non-local Visitor Spending,Restaurants,1716874.0
+JECA,2022,Non-local Visitor Spending,Retail,786053.0
+JECA,2022,Non-local Visitor Spending,Secondary Effects,0.0
+JECA,2022,Non-local Visitor Spending,Transportation,217158.0
+JECA,2022,Party Days/Nights,Total,60733.0
+JECA,2022,Value Added,Camping,160702.0
+JECA,2022,Value Added,Gas,142511.0
+JECA,2022,Value Added,Groceries,82238.0
+JECA,2022,Value Added,Lodging,1513032.0
+JECA,2022,Value Added,Recreation Industries,331169.0
+JECA,2022,Value Added,Restaurants,869001.0
+JECA,2022,Value Added,Retail,302513.0
+JECA,2022,Value Added,Secondary Effects,2039179.0
+JECA,2022,Value Added,Transportation,115835.0
+JECA,2022,Visitor Spending,Camping,222849.0
+JECA,2022,Visitor Spending,Gas,1236324.0
+JECA,2022,Visitor Spending,Groceries,430841.0
+JECA,2022,Visitor Spending,Lodging,2418796.0
+JECA,2022,Visitor Spending,Recreation Industries,667126.0
+JECA,2022,Visitor Spending,Restaurants,1821007.0
+JECA,2022,Visitor Spending,Retail,856194.0
+JECA,2022,Visitor Spending,Secondary Effects,0.0
+JECA,2022,Visitor Spending,Transportation,227153.0
+JECA,2022,Visits,Total,119343.0
+JECA,2023,Economic Output,Camping,229962.0
+JECA,2023,Economic Output,Gas,279571.0
+JECA,2023,Economic Output,Groceries,147094.0
+JECA,2023,Economic Output,Lodging,2495964.0
+JECA,2023,Economic Output,Recreation Industries,689461.0
+JECA,2023,Economic Output,Restaurants,1892983.0
+JECA,2023,Economic Output,Retail,490269.0
+JECA,2023,Economic Output,Secondary Effects,4270457.0
+JECA,2023,Economic Output,Transportation,233817.0
+JECA,2023,Jobs,Camping,3.0
+JECA,2023,Jobs,Gas,3.0
+JECA,2023,Jobs,Groceries,2.0
+JECA,2023,Jobs,Lodging,24.0
+JECA,2023,Jobs,Recreation Industries,13.0
+JECA,2023,Jobs,Restaurants,28.0
+JECA,2023,Jobs,Retail,9.0
+JECA,2023,Jobs,Secondary Effects,28.0
+JECA,2023,Jobs,Transportation,3.0
+JECA,2023,Labor Income,Camping,108276.0
+JECA,2023,Labor Income,Gas,79524.0
+JECA,2023,Labor Income,Groceries,58718.0
+JECA,2023,Labor Income,Lodging,709083.0
+JECA,2023,Labor Income,Recreation Industries,241659.0
+JECA,2023,Labor Income,Restaurants,581863.0
+JECA,2023,Labor Income,Retail,262720.0
+JECA,2023,Labor Income,Secondary Effects,1198163.0
+JECA,2023,Labor Income,Transportation,65174.0
+JECA,2023,Non-local Visitor Spending,Camping,229962.0
+JECA,2023,Non-local Visitor Spending,Gas,1205071.0
+JECA,2023,Non-local Visitor Spending,Groceries,405831.0
+JECA,2023,Non-local Visitor Spending,Lodging,2495964.0
+JECA,2023,Non-local Visitor Spending,Recreation Industries,623797.0
+JECA,2023,Non-local Visitor Spending,Restaurants,1784733.0
+JECA,2023,Non-local Visitor Spending,Retail,809446.0
+JECA,2023,Non-local Visitor Spending,Secondary Effects,0.0
+JECA,2023,Non-local Visitor Spending,Transportation,223434.0
+JECA,2023,Party Days/Nights,Total,61849.0
+JECA,2023,Value Added,Camping,165739.0
+JECA,2023,Value Added,Gas,146964.0
+JECA,2023,Value Added,Groceries,84785.0
+JECA,2023,Value Added,Lodging,1560434.0
+JECA,2023,Value Added,Recreation Industries,341553.0
+JECA,2023,Value Added,Restaurants,896078.0
+JECA,2023,Value Added,Retail,312048.0
+JECA,2023,Value Added,Secondary Effects,2102928.0
+JECA,2023,Value Added,Transportation,119302.0
+JECA,2023,Visitor Spending,Camping,229962.0
+JECA,2023,Visitor Spending,Gas,1272744.0
+JECA,2023,Visitor Spending,Groceries,442973.0
+JECA,2023,Visitor Spending,Lodging,2495964.0
+JECA,2023,Visitor Spending,Recreation Industries,689461.0
+JECA,2023,Visitor Spending,Restaurants,1892983.0
+JECA,2023,Visitor Spending,Retail,881655.0
+JECA,2023,Visitor Spending,Secondary Effects,0.0
+JECA,2023,Visitor Spending,Transportation,233740.0
+JECA,2023,Visits,Total,121536.0
+JECA,2024,Economic Output,Camping,301321.0
+JECA,2024,Economic Output,Gas,218248.0
+JECA,2024,Economic Output,Groceries,170076.0
+JECA,2024,Economic Output,Lodging,3270012.0
+JECA,2024,Economic Output,Recreation Industries,937767.0
+JECA,2024,Economic Output,Restaurants,2488029.0
+JECA,2024,Economic Output,Retail,588328.0
+JECA,2024,Economic Output,Secondary Effects,4676913.0
+JECA,2024,Economic Output,Transportation,369984.0
+JECA,2024,Jobs,Camping,2.0
+JECA,2024,Jobs,Gas,2.0
+JECA,2024,Jobs,Groceries,2.0
+JECA,2024,Jobs,Lodging,23.0
+JECA,2024,Jobs,Recreation Industries,13.0
+JECA,2024,Jobs,Restaurants,25.0
+JECA,2024,Jobs,Retail,8.0
+JECA,2024,Jobs,Secondary Effects,27.0
+JECA,2024,Jobs,Transportation,3.0
+JECA,2024,Labor Income,Camping,98537.0
+JECA,2024,Labor Income,Gas,66269.0
+JECA,2024,Labor Income,Groceries,60431.0
+JECA,2024,Labor Income,Lodging,893583.0
+JECA,2024,Labor Income,Recreation Industries,336290.0
+JECA,2024,Labor Income,Restaurants,682405.0
+JECA,2024,Labor Income,Retail,301830.0
+JECA,2024,Labor Income,Secondary Effects,1384795.0
+JECA,2024,Labor Income,Transportation,113249.0
+JECA,2024,Non-local Visitor Spending,Camping,301321.0
+JECA,2024,Non-local Visitor Spending,Gas,1110972.0
+JECA,2024,Non-local Visitor Spending,Groceries,541082.0
+JECA,2024,Non-local Visitor Spending,Lodging,3270012.0
+JECA,2024,Non-local Visitor Spending,Recreation Industries,848386.0
+JECA,2024,Non-local Visitor Spending,Restaurants,2345780.0
+JECA,2024,Non-local Visitor Spending,Retail,1005814.0
+JECA,2024,Non-local Visitor Spending,Secondary Effects,0.0
+JECA,2024,Non-local Visitor Spending,Transportation,353706.0
+JECA,2024,Party Days/Nights,Total,73959.0
+JECA,2024,Value Added,Camping,192053.0
+JECA,2024,Value Added,Gas,144781.0
+JECA,2024,Value Added,Groceries,114361.0
+JECA,2024,Value Added,Lodging,2291174.0
+JECA,2024,Value Added,Recreation Industries,572245.0
+JECA,2024,Value Added,Restaurants,1200615.0
+JECA,2024,Value Added,Retail,359246.0
+JECA,2024,Value Added,Secondary Effects,2429757.0
+JECA,2024,Value Added,Transportation,170851.0
+JECA,2024,Visitor Spending,Camping,301321.0
+JECA,2024,Visitor Spending,Gas,1173376.0
+JECA,2024,Visitor Spending,Groceries,590540.0
+JECA,2024,Visitor Spending,Lodging,3270012.0
+JECA,2024,Visitor Spending,Recreation Industries,937767.0
+JECA,2024,Visitor Spending,Restaurants,2488029.0
+JECA,2024,Visitor Spending,Retail,1095582.0
+JECA,2024,Visitor Spending,Secondary Effects,0.0
+JECA,2024,Visitor Spending,Transportation,369984.0
+JECA,2024,Visits,Total,145332.0
 KNRI,2012,Economic Output,Total,988424.0
 KNRI,2012,Jobs,Total,12.0
 KNRI,2012,Labor Income,Total,317487.0
@@ -2391,6 +4185,604 @@ LIBI,2024,Visitor Spending,Retail,842997.0
 LIBI,2024,Visitor Spending,Secondary Effects,0.0
 LIBI,2024,Visitor Spending,Transportation,284683.0
 LIBI,2024,Visits,Total,111825.0
+MIMI,2012,Economic Output,Total,6058019.0
+MIMI,2012,Jobs,Total,77.0
+MIMI,2012,Labor Income,Total,1773320.0
+MIMI,2012,Value Added,Total,3281845.0
+MIMI,2012,Visitor Spending,Total,5173272.0
+MIMI,2012,Visits,Total,75654.0
+MIMI,2013,Economic Output,Total,6265019.0
+MIMI,2013,Jobs,Total,79.0
+MIMI,2013,Labor Income,Total,1824702.0
+MIMI,2013,Value Added,Total,3376908.0
+MIMI,2013,Visitor Spending,Total,5343977.0
+MIMI,2013,Visits,Total,76260.0
+MIMI,2014,Economic Output,Camping,259993.0
+MIMI,2014,Economic Output,Gas,74440.0
+MIMI,2014,Economic Output,Groceries,61453.0
+MIMI,2014,Economic Output,Lodging,1601989.0
+MIMI,2014,Economic Output,Recreation Industries,299060.0
+MIMI,2014,Economic Output,Restaurants,774483.0
+MIMI,2014,Economic Output,Retail,202439.0
+MIMI,2014,Economic Output,Secondary Effects,2073285.0
+MIMI,2014,Economic Output,Transportation,136032.0
+MIMI,2014,Jobs,Camping,4.0
+MIMI,2014,Jobs,Gas,1.0
+MIMI,2014,Jobs,Groceries,1.0
+MIMI,2014,Jobs,Lodging,22.0
+MIMI,2014,Jobs,Recreation Industries,6.0
+MIMI,2014,Jobs,Restaurants,17.0
+MIMI,2014,Jobs,Retail,5.0
+MIMI,2014,Jobs,Secondary Effects,17.0
+MIMI,2014,Jobs,Transportation,1.0
+MIMI,2014,Labor Income,Camping,108196.0
+MIMI,2014,Labor Income,Gas,27516.0
+MIMI,2014,Labor Income,Groceries,23669.0
+MIMI,2014,Labor Income,Lodging,413929.0
+MIMI,2014,Labor Income,Recreation Industries,95557.0
+MIMI,2014,Labor Income,Restaurants,299505.0
+MIMI,2014,Labor Income,Retail,118292.0
+MIMI,2014,Labor Income,Secondary Effects,595068.0
+MIMI,2014,Labor Income,Transportation,30349.0
+MIMI,2014,Value Added,Camping,166214.0
+MIMI,2014,Value Added,Gas,34813.0
+MIMI,2014,Value Added,Groceries,36713.0
+MIMI,2014,Value Added,Lodging,837021.0
+MIMI,2014,Value Added,Recreation Industries,133231.0
+MIMI,2014,Value Added,Restaurants,400048.0
+MIMI,2014,Value Added,Retail,104738.0
+MIMI,2014,Value Added,Secondary Effects,1031711.0
+MIMI,2014,Value Added,Transportation,71109.0
+MIMI,2014,Visitor Spending,Camping,259993.0
+MIMI,2014,Visitor Spending,Gas,689215.0
+MIMI,2014,Visitor Spending,Groceries,220260.0
+MIMI,2014,Visitor Spending,Lodging,1601989.0
+MIMI,2014,Visitor Spending,Recreation Industries,299060.0
+MIMI,2014,Visitor Spending,Restaurants,774483.0
+MIMI,2014,Visitor Spending,Retail,445856.0
+MIMI,2014,Visitor Spending,Secondary Effects,0.0
+MIMI,2014,Visitor Spending,Transportation,136032.0
+MIMI,2014,Visits,Total,62058.0
+MIMI,2015,Economic Output,Camping,433602.0
+MIMI,2015,Economic Output,Gas,122624.0
+MIMI,2015,Economic Output,Groceries,101223.0
+MIMI,2015,Economic Output,Lodging,2671700.0
+MIMI,2015,Economic Output,Recreation Industries,497382.0
+MIMI,2015,Economic Output,Restaurants,1281564.0
+MIMI,2015,Economic Output,Retail,333484.0
+MIMI,2015,Economic Output,Secondary Effects,3432815.0
+MIMI,2015,Economic Output,Transportation,224733.0
+MIMI,2015,Jobs,Camping,6.0
+MIMI,2015,Jobs,Gas,2.0
+MIMI,2015,Jobs,Groceries,2.0
+MIMI,2015,Jobs,Lodging,36.0
+MIMI,2015,Jobs,Recreation Industries,10.0
+MIMI,2015,Jobs,Restaurants,28.0
+MIMI,2015,Jobs,Retail,8.0
+MIMI,2015,Jobs,Secondary Effects,27.0
+MIMI,2015,Jobs,Transportation,2.0
+MIMI,2015,Labor Income,Camping,178551.0
+MIMI,2015,Labor Income,Gas,45797.0
+MIMI,2015,Labor Income,Groceries,39394.0
+MIMI,2015,Labor Income,Lodging,683081.0
+MIMI,2015,Labor Income,Recreation Industries,157692.0
+MIMI,2015,Labor Income,Restaurants,494255.0
+MIMI,2015,Labor Income,Retail,196883.0
+MIMI,2015,Labor Income,Secondary Effects,983023.0
+MIMI,2015,Labor Income,Transportation,50142.0
+MIMI,2015,Value Added,Camping,274294.0
+MIMI,2015,Value Added,Gas,57942.0
+MIMI,2015,Value Added,Groceries,61105.0
+MIMI,2015,Value Added,Lodging,1381283.0
+MIMI,2015,Value Added,Recreation Industries,219862.0
+MIMI,2015,Value Added,Restaurants,660175.0
+MIMI,2015,Value Added,Retail,174324.0
+MIMI,2015,Value Added,Secondary Effects,1704429.0
+MIMI,2015,Value Added,Transportation,117357.0
+MIMI,2015,Visitor Spending,Camping,433602.0
+MIMI,2015,Visitor Spending,Gas,1125601.0
+MIMI,2015,Visitor Spending,Groceries,359720.0
+MIMI,2015,Visitor Spending,Lodging,2671700.0
+MIMI,2015,Visitor Spending,Recreation Industries,497382.0
+MIMI,2015,Visitor Spending,Restaurants,1281564.0
+MIMI,2015,Visitor Spending,Retail,728154.0
+MIMI,2015,Visitor Spending,Secondary Effects,0.0
+MIMI,2015,Visitor Spending,Transportation,224733.0
+MIMI,2015,Visits,Total,100488.0
+MIMI,2016,Economic Output,Camping,595050.0
+MIMI,2016,Economic Output,Gas,166216.0
+MIMI,2016,Economic Output,Groceries,137198.0
+MIMI,2016,Economic Output,Lodging,3666423.0
+MIMI,2016,Economic Output,Recreation Industries,680695.0
+MIMI,2016,Economic Output,Restaurants,1745006.0
+MIMI,2016,Economic Output,Retail,452051.0
+MIMI,2016,Economic Output,Secondary Effects,4677327.0
+MIMI,2016,Economic Output,Transportation,305503.0
+MIMI,2016,Jobs,Camping,8.0
+MIMI,2016,Jobs,Gas,3.0
+MIMI,2016,Jobs,Groceries,2.0
+MIMI,2016,Jobs,Lodging,48.0
+MIMI,2016,Jobs,Recreation Industries,14.0
+MIMI,2016,Jobs,Restaurants,38.0
+MIMI,2016,Jobs,Retail,11.0
+MIMI,2016,Jobs,Secondary Effects,36.0
+MIMI,2016,Jobs,Transportation,3.0
+MIMI,2016,Labor Income,Camping,242461.0
+MIMI,2016,Labor Income,Gas,62722.0
+MIMI,2016,Labor Income,Groceries,53952.0
+MIMI,2016,Labor Income,Lodging,927568.0
+MIMI,2016,Labor Income,Recreation Industries,214133.0
+MIMI,2016,Labor Income,Restaurants,671159.0
+MIMI,2016,Labor Income,Retail,269644.0
+MIMI,2016,Labor Income,Secondary Effects,1336263.0
+MIMI,2016,Labor Income,Transportation,68170.0
+MIMI,2016,Value Added,Camping,372475.0
+MIMI,2016,Value Added,Gas,79356.0
+MIMI,2016,Value Added,Groceries,83688.0
+MIMI,2016,Value Added,Lodging,1875668.0
+MIMI,2016,Value Added,Recreation Industries,298556.0
+MIMI,2016,Value Added,Restaurants,896465.0
+MIMI,2016,Value Added,Retail,238749.0
+MIMI,2016,Value Added,Secondary Effects,2317028.0
+MIMI,2016,Value Added,Transportation,159373.0
+MIMI,2016,Visitor Spending,Camping,595050.0
+MIMI,2016,Visitor Spending,Gas,1512668.0
+MIMI,2016,Visitor Spending,Groceries,483420.0
+MIMI,2016,Visitor Spending,Lodging,3666423.0
+MIMI,2016,Visitor Spending,Recreation Industries,680695.0
+MIMI,2016,Visitor Spending,Restaurants,1745006.0
+MIMI,2016,Visitor Spending,Retail,978547.0
+MIMI,2016,Visitor Spending,Secondary Effects,0.0
+MIMI,2016,Visitor Spending,Transportation,305503.0
+MIMI,2016,Visits,Total,133895.0
+MIMI,2017,Economic Output,Camping,610232.0
+MIMI,2017,Economic Output,Gas,204755.0
+MIMI,2017,Economic Output,Groceries,145224.0
+MIMI,2017,Economic Output,Lodging,3760372.0
+MIMI,2017,Economic Output,Recreation Industries,695995.0
+MIMI,2017,Economic Output,Restaurants,1835324.0
+MIMI,2017,Economic Output,Retail,506403.0
+MIMI,2017,Economic Output,Secondary Effects,4916501.0
+MIMI,2017,Economic Output,Transportation,321170.0
+MIMI,2017,Jobs,Camping,12.0
+MIMI,2017,Jobs,Gas,4.0
+MIMI,2017,Jobs,Groceries,2.0
+MIMI,2017,Jobs,Lodging,42.0
+MIMI,2017,Jobs,Recreation Industries,16.0
+MIMI,2017,Jobs,Restaurants,33.0
+MIMI,2017,Jobs,Retail,11.0
+MIMI,2017,Jobs,Secondary Effects,37.0
+MIMI,2017,Jobs,Transportation,2.0
+MIMI,2017,Labor Income,Camping,364565.0
+MIMI,2017,Labor Income,Gas,96852.0
+MIMI,2017,Labor Income,Groceries,59048.0
+MIMI,2017,Labor Income,Lodging,928541.0
+MIMI,2017,Labor Income,Recreation Industries,201220.0
+MIMI,2017,Labor Income,Restaurants,629158.0
+MIMI,2017,Labor Income,Retail,311816.0
+MIMI,2017,Labor Income,Secondary Effects,1417331.0
+MIMI,2017,Labor Income,Transportation,66138.0
+MIMI,2017,Non-local Visitor Spending,Camping,610232.0
+MIMI,2017,Non-local Visitor Spending,Gas,1638038.0
+MIMI,2017,Non-local Visitor Spending,Groceries,526174.0
+MIMI,2017,Non-local Visitor Spending,Lodging,3760372.0
+MIMI,2017,Non-local Visitor Spending,Recreation Industries,695995.0
+MIMI,2017,Non-local Visitor Spending,Restaurants,1835324.0
+MIMI,2017,Non-local Visitor Spending,Retail,1059421.0
+MIMI,2017,Non-local Visitor Spending,Secondary Effects,0.0
+MIMI,2017,Non-local Visitor Spending,Transportation,321166.0
+MIMI,2017,Party Days/Nights,Total,74793.0
+MIMI,2017,Value Added,Camping,388614.0
+MIMI,2017,Value Added,Gas,87448.0
+MIMI,2017,Value Added,Groceries,93662.0
+MIMI,2017,Value Added,Lodging,2116539.0
+MIMI,2017,Value Added,Recreation Industries,280890.0
+MIMI,2017,Value Added,Restaurants,959668.0
+MIMI,2017,Value Added,Retail,259172.0
+MIMI,2017,Value Added,Secondary Effects,2499073.0
+MIMI,2017,Value Added,Transportation,175372.0
+MIMI,2017,Visitor Spending,Camping,610232.0
+MIMI,2017,Visitor Spending,Gas,1638038.0
+MIMI,2017,Visitor Spending,Groceries,526174.0
+MIMI,2017,Visitor Spending,Lodging,3760372.0
+MIMI,2017,Visitor Spending,Recreation Industries,695995.0
+MIMI,2017,Visitor Spending,Restaurants,1835324.0
+MIMI,2017,Visitor Spending,Retail,1059421.0
+MIMI,2017,Visitor Spending,Secondary Effects,0.0
+MIMI,2017,Visitor Spending,Transportation,321166.0
+MIMI,2017,Visits,Total,143715.0
+MIMI,2018,Economic Output,Camping,612714.0
+MIMI,2018,Economic Output,Gas,265291.0
+MIMI,2018,Economic Output,Groceries,154477.0
+MIMI,2018,Economic Output,Lodging,3775184.0
+MIMI,2018,Economic Output,Recreation Industries,695945.0
+MIMI,2018,Economic Output,Restaurants,1866747.0
+MIMI,2018,Economic Output,Retail,530468.0
+MIMI,2018,Economic Output,Secondary Effects,5118338.0
+MIMI,2018,Economic Output,Transportation,286387.0
+MIMI,2018,Jobs,Camping,10.0
+MIMI,2018,Jobs,Gas,4.0
+MIMI,2018,Jobs,Groceries,2.0
+MIMI,2018,Jobs,Lodging,38.0
+MIMI,2018,Jobs,Recreation Industries,13.0
+MIMI,2018,Jobs,Restaurants,31.0
+MIMI,2018,Jobs,Retail,11.0
+MIMI,2018,Jobs,Secondary Effects,38.0
+MIMI,2018,Jobs,Transportation,3.0
+MIMI,2018,Labor Income,Camping,426021.0
+MIMI,2018,Labor Income,Gas,96246.0
+MIMI,2018,Labor Income,Groceries,63684.0
+MIMI,2018,Labor Income,Lodging,968205.0
+MIMI,2018,Labor Income,Recreation Industries,217531.0
+MIMI,2018,Labor Income,Restaurants,634964.0
+MIMI,2018,Labor Income,Retail,315174.0
+MIMI,2018,Labor Income,Secondary Effects,1570942.0
+MIMI,2018,Labor Income,Transportation,75838.0
+MIMI,2018,Non-local Visitor Spending,Camping,612714.0
+MIMI,2018,Non-local Visitor Spending,Gas,1617626.0
+MIMI,2018,Non-local Visitor Spending,Groceries,553681.0
+MIMI,2018,Non-local Visitor Spending,Lodging,3775184.0
+MIMI,2018,Non-local Visitor Spending,Recreation Industries,695945.0
+MIMI,2018,Non-local Visitor Spending,Restaurants,1866747.0
+MIMI,2018,Non-local Visitor Spending,Retail,1046287.0
+MIMI,2018,Non-local Visitor Spending,Secondary Effects,0.0
+MIMI,2018,Non-local Visitor Spending,Transportation,286386.0
+MIMI,2018,Party Days/Nights,Total,72481.0
+MIMI,2018,Value Added,Camping,455122.0
+MIMI,2018,Value Added,Gas,123694.0
+MIMI,2018,Value Added,Groceries,92708.0
+MIMI,2018,Value Added,Lodging,2208882.0
+MIMI,2018,Value Added,Recreation Industries,312063.0
+MIMI,2018,Value Added,Restaurants,968596.0
+MIMI,2018,Value Added,Retail,275830.0
+MIMI,2018,Value Added,Secondary Effects,2636843.0
+MIMI,2018,Value Added,Transportation,146537.0
+MIMI,2018,Visitor Spending,Camping,612714.0
+MIMI,2018,Visitor Spending,Gas,1617626.0
+MIMI,2018,Visitor Spending,Groceries,553681.0
+MIMI,2018,Visitor Spending,Lodging,3775184.0
+MIMI,2018,Visitor Spending,Recreation Industries,695945.0
+MIMI,2018,Visitor Spending,Restaurants,1866747.0
+MIMI,2018,Visitor Spending,Retail,1046287.0
+MIMI,2018,Visitor Spending,Secondary Effects,0.0
+MIMI,2018,Visitor Spending,Transportation,286386.0
+MIMI,2018,Visits,Total,139273.0
+MIMI,2019,Economic Output,Camping,558273.0
+MIMI,2019,Economic Output,Gas,240417.0
+MIMI,2019,Economic Output,Groceries,139831.0
+MIMI,2019,Economic Output,Lodging,3439748.0
+MIMI,2019,Economic Output,Recreation Industries,634411.0
+MIMI,2019,Economic Output,Restaurants,1701468.0
+MIMI,2019,Economic Output,Retail,480760.0
+MIMI,2019,Economic Output,Secondary Effects,4663545.0
+MIMI,2019,Economic Output,Transportation,259359.0
+MIMI,2019,Jobs,Camping,9.0
+MIMI,2019,Jobs,Gas,3.0
+MIMI,2019,Jobs,Groceries,2.0
+MIMI,2019,Jobs,Lodging,35.0
+MIMI,2019,Jobs,Recreation Industries,12.0
+MIMI,2019,Jobs,Restaurants,29.0
+MIMI,2019,Jobs,Retail,10.0
+MIMI,2019,Jobs,Secondary Effects,35.0
+MIMI,2019,Jobs,Transportation,2.0
+MIMI,2019,Labor Income,Camping,388193.0
+MIMI,2019,Labor Income,Gas,87708.0
+MIMI,2019,Labor Income,Groceries,58014.0
+MIMI,2019,Labor Income,Lodging,882232.0
+MIMI,2019,Labor Income,Recreation Industries,198160.0
+MIMI,2019,Labor Income,Restaurants,578573.0
+MIMI,2019,Labor Income,Retail,287230.0
+MIMI,2019,Labor Income,Secondary Effects,1431355.0
+MIMI,2019,Labor Income,Transportation,68964.0
+MIMI,2019,Non-local Visitor Spending,Camping,558273.0
+MIMI,2019,Non-local Visitor Spending,Gas,1465958.0
+MIMI,2019,Non-local Visitor Spending,Groceries,501188.0
+MIMI,2019,Non-local Visitor Spending,Lodging,3439748.0
+MIMI,2019,Non-local Visitor Spending,Recreation Industries,634411.0
+MIMI,2019,Non-local Visitor Spending,Restaurants,1701468.0
+MIMI,2019,Non-local Visitor Spending,Retail,948245.0
+MIMI,2019,Non-local Visitor Spending,Secondary Effects,0.0
+MIMI,2019,Non-local Visitor Spending,Transportation,259355.0
+MIMI,2019,Party Days/Nights,Total,65457.0
+MIMI,2019,Value Added,Camping,414709.0
+MIMI,2019,Value Added,Gas,112720.0
+MIMI,2019,Value Added,Groceries,84453.0
+MIMI,2019,Value Added,Lodging,2012741.0
+MIMI,2019,Value Added,Recreation Industries,284273.0
+MIMI,2019,Value Added,Restaurants,882576.0
+MIMI,2019,Value Added,Retail,251375.0
+MIMI,2019,Value Added,Secondary Effects,2402543.0
+MIMI,2019,Value Added,Transportation,133325.0
+MIMI,2019,Visitor Spending,Camping,558273.0
+MIMI,2019,Visitor Spending,Gas,1465958.0
+MIMI,2019,Visitor Spending,Groceries,501188.0
+MIMI,2019,Visitor Spending,Lodging,3439748.0
+MIMI,2019,Visitor Spending,Recreation Industries,634411.0
+MIMI,2019,Visitor Spending,Restaurants,1701468.0
+MIMI,2019,Visitor Spending,Retail,948245.0
+MIMI,2019,Visitor Spending,Secondary Effects,0.0
+MIMI,2019,Visitor Spending,Transportation,259355.0
+MIMI,2019,Visits,Total,125776.0
+MIMI,2020,Economic Output,Camping,442880.0
+MIMI,2020,Economic Output,Gas,189705.0
+MIMI,2020,Economic Output,Groceries,110214.0
+MIMI,2020,Economic Output,Lodging,2729225.0
+MIMI,2020,Economic Output,Recreation Industries,503703.0
+MIMI,2020,Economic Output,Restaurants,1350410.0
+MIMI,2020,Economic Output,Retail,379419.0
+MIMI,2020,Economic Output,Secondary Effects,3700463.0
+MIMI,2020,Economic Output,Transportation,204986.0
+MIMI,2020,Jobs,Camping,7.0
+MIMI,2020,Jobs,Gas,3.0
+MIMI,2020,Jobs,Groceries,2.0
+MIMI,2020,Jobs,Lodging,28.0
+MIMI,2020,Jobs,Recreation Industries,10.0
+MIMI,2020,Jobs,Restaurants,23.0
+MIMI,2020,Jobs,Retail,8.0
+MIMI,2020,Jobs,Secondary Effects,27.0
+MIMI,2020,Jobs,Transportation,2.0
+MIMI,2020,Labor Income,Camping,307974.0
+MIMI,2020,Labor Income,Gas,69592.0
+MIMI,2020,Labor Income,Groceries,46017.0
+MIMI,2020,Labor Income,Lodging,700039.0
+MIMI,2020,Labor Income,Recreation Industries,157223.0
+MIMI,2020,Labor Income,Restaurants,459062.0
+MIMI,2020,Labor Income,Retail,227945.0
+MIMI,2020,Labor Income,Secondary Effects,1135760.0
+MIMI,2020,Labor Income,Transportation,54731.0
+MIMI,2020,Non-local Visitor Spending,Camping,442880.0
+MIMI,2020,Non-local Visitor Spending,Gas,1156739.0
+MIMI,2020,Non-local Visitor Spending,Groceries,395034.0
+MIMI,2020,Non-local Visitor Spending,Lodging,2729225.0
+MIMI,2020,Non-local Visitor Spending,Recreation Industries,503703.0
+MIMI,2020,Non-local Visitor Spending,Restaurants,1350410.0
+MIMI,2020,Non-local Visitor Spending,Retail,748361.0
+MIMI,2020,Non-local Visitor Spending,Secondary Effects,0.0
+MIMI,2020,Non-local Visitor Spending,Transportation,204979.0
+MIMI,2020,Party Days/Nights,Total,51474.0
+MIMI,2020,Value Added,Camping,329011.0
+MIMI,2020,Value Added,Gas,89438.0
+MIMI,2020,Value Added,Groceries,66990.0
+MIMI,2020,Value Added,Lodging,1597083.0
+MIMI,2020,Value Added,Recreation Industries,225547.0
+MIMI,2020,Value Added,Restaurants,700269.0
+MIMI,2020,Value Added,Retail,199490.0
+MIMI,2020,Value Added,Secondary Effects,1906391.0
+MIMI,2020,Value Added,Transportation,105864.0
+MIMI,2020,Visitor Spending,Camping,442880.0
+MIMI,2020,Visitor Spending,Gas,1156739.0
+MIMI,2020,Visitor Spending,Groceries,395034.0
+MIMI,2020,Visitor Spending,Lodging,2729225.0
+MIMI,2020,Visitor Spending,Recreation Industries,503703.0
+MIMI,2020,Visitor Spending,Restaurants,1350410.0
+MIMI,2020,Visitor Spending,Retail,748361.0
+MIMI,2020,Visitor Spending,Secondary Effects,0.0
+MIMI,2020,Visitor Spending,Transportation,204979.0
+MIMI,2020,Visits,Total,98908.0
+MIMI,2021,Economic Output,Camping,665154.0
+MIMI,2021,Economic Output,Gas,470243.0
+MIMI,2021,Economic Output,Groceries,198335.0
+MIMI,2021,Economic Output,Lodging,4099293.0
+MIMI,2021,Economic Output,Recreation Industries,733175.0
+MIMI,2021,Economic Output,Restaurants,2066227.0
+MIMI,2021,Economic Output,Retail,594582.0
+MIMI,2021,Economic Output,Secondary Effects,6018911.0
+MIMI,2021,Economic Output,Transportation,301773.0
+MIMI,2021,Jobs,Camping,9.0
+MIMI,2021,Jobs,Gas,5.0
+MIMI,2021,Jobs,Groceries,3.0
+MIMI,2021,Jobs,Lodging,41.0
+MIMI,2021,Jobs,Recreation Industries,15.0
+MIMI,2021,Jobs,Restaurants,31.0
+MIMI,2021,Jobs,Retail,11.0
+MIMI,2021,Jobs,Secondary Effects,40.0
+MIMI,2021,Jobs,Transportation,4.0
+MIMI,2021,Labor Income,Camping,310130.0
+MIMI,2021,Labor Income,Gas,129620.0
+MIMI,2021,Labor Income,Groceries,72323.0
+MIMI,2021,Labor Income,Lodging,1129466.0
+MIMI,2021,Labor Income,Recreation Industries,267560.0
+MIMI,2021,Labor Income,Restaurants,659511.0
+MIMI,2021,Labor Income,Retail,319097.0
+MIMI,2021,Labor Income,Secondary Effects,1752949.0
+MIMI,2021,Labor Income,Transportation,84556.0
+MIMI,2021,Non-local Visitor Spending,Camping,665154.0
+MIMI,2021,Non-local Visitor Spending,Gas,2140777.0
+MIMI,2021,Non-local Visitor Spending,Groceries,597286.0
+MIMI,2021,Non-local Visitor Spending,Lodging,4099293.0
+MIMI,2021,Non-local Visitor Spending,Recreation Industries,733175.0
+MIMI,2021,Non-local Visitor Spending,Restaurants,2066227.0
+MIMI,2021,Non-local Visitor Spending,Retail,1069242.0
+MIMI,2021,Non-local Visitor Spending,Secondary Effects,0.0
+MIMI,2021,Non-local Visitor Spending,Transportation,301748.0
+MIMI,2021,Party Days/Nights,Total,73005.0
+MIMI,2021,Value Added,Camping,478707.0
+MIMI,2021,Value Added,Gas,242439.0
+MIMI,2021,Value Added,Groceries,108750.0
+MIMI,2021,Value Added,Lodging,2497617.0
+MIMI,2021,Value Added,Recreation Industries,331464.0
+MIMI,2021,Value Added,Restaurants,1010127.0
+MIMI,2021,Value Added,Retail,376659.0
+MIMI,2021,Value Added,Secondary Effects,3016233.0
+MIMI,2021,Value Added,Transportation,150773.0
+MIMI,2021,Visitor Spending,Camping,665154.0
+MIMI,2021,Visitor Spending,Gas,2140777.0
+MIMI,2021,Visitor Spending,Groceries,597286.0
+MIMI,2021,Visitor Spending,Lodging,4099293.0
+MIMI,2021,Visitor Spending,Recreation Industries,733175.0
+MIMI,2021,Visitor Spending,Restaurants,2066227.0
+MIMI,2021,Visitor Spending,Retail,1069242.0
+MIMI,2021,Visitor Spending,Secondary Effects,0.0
+MIMI,2021,Visitor Spending,Transportation,301748.0
+MIMI,2021,Visits,Total,140280.0
+MIMI,2022,Economic Output,Camping,508367.0
+MIMI,2022,Economic Output,Gas,358469.0
+MIMI,2022,Economic Output,Groceries,151006.0
+MIMI,2022,Economic Output,Lodging,3132087.0
+MIMI,2022,Economic Output,Recreation Industries,561255.0
+MIMI,2022,Economic Output,Restaurants,1590465.0
+MIMI,2022,Economic Output,Retail,453270.0
+MIMI,2022,Economic Output,Secondary Effects,4596399.0
+MIMI,2022,Economic Output,Transportation,230137.0
+MIMI,2022,Jobs,Camping,7.0
+MIMI,2022,Jobs,Gas,3.0
+MIMI,2022,Jobs,Groceries,2.0
+MIMI,2022,Jobs,Lodging,31.0
+MIMI,2022,Jobs,Recreation Industries,12.0
+MIMI,2022,Jobs,Restaurants,23.0
+MIMI,2022,Jobs,Retail,8.0
+MIMI,2022,Jobs,Secondary Effects,30.0
+MIMI,2022,Jobs,Transportation,3.0
+MIMI,2022,Labor Income,Camping,236895.0
+MIMI,2022,Labor Income,Gas,98981.0
+MIMI,2022,Labor Income,Groceries,55215.0
+MIMI,2022,Labor Income,Lodging,862492.0
+MIMI,2022,Labor Income,Recreation Industries,204399.0
+MIMI,2022,Labor Income,Restaurants,503567.0
+MIMI,2022,Labor Income,Retail,243679.0
+MIMI,2022,Labor Income,Secondary Effects,1338664.0
+MIMI,2022,Labor Income,Transportation,64434.0
+MIMI,2022,Non-local Visitor Spending,Camping,508367.0
+MIMI,2022,Non-local Visitor Spending,Gas,1631920.0
+MIMI,2022,Non-local Visitor Spending,Groceries,454755.0
+MIMI,2022,Non-local Visitor Spending,Lodging,3132087.0
+MIMI,2022,Non-local Visitor Spending,Recreation Industries,561255.0
+MIMI,2022,Non-local Visitor Spending,Restaurants,1590465.0
+MIMI,2022,Non-local Visitor Spending,Retail,815119.0
+MIMI,2022,Non-local Visitor Spending,Secondary Effects,0.0
+MIMI,2022,Non-local Visitor Spending,Transportation,230095.0
+MIMI,2022,Party Days/Nights,Total,55049.0
+MIMI,2022,Value Added,Camping,365665.0
+MIMI,2022,Value Added,Gas,185132.0
+MIMI,2022,Value Added,Groceries,83026.0
+MIMI,2022,Value Added,Lodging,1907256.0
+MIMI,2022,Value Added,Recreation Industries,253217.0
+MIMI,2022,Value Added,Restaurants,771280.0
+MIMI,2022,Value Added,Retail,287636.0
+MIMI,2022,Value Added,Secondary Effects,2303372.0
+MIMI,2022,Value Added,Transportation,115082.0
+MIMI,2022,Visitor Spending,Camping,508367.0
+MIMI,2022,Visitor Spending,Gas,1631920.0
+MIMI,2022,Visitor Spending,Groceries,454755.0
+MIMI,2022,Visitor Spending,Lodging,3132087.0
+MIMI,2022,Visitor Spending,Recreation Industries,561255.0
+MIMI,2022,Visitor Spending,Restaurants,1590465.0
+MIMI,2022,Visitor Spending,Retail,815119.0
+MIMI,2022,Visitor Spending,Secondary Effects,0.0
+MIMI,2022,Visitor Spending,Transportation,230095.0
+MIMI,2022,Visits,Total,105776.0
+MIMI,2023,Economic Output,Camping,563677.0
+MIMI,2023,Economic Output,Gas,396603.0
+MIMI,2023,Economic Output,Groceries,166980.0
+MIMI,2023,Economic Output,Lodging,3473148.0
+MIMI,2023,Economic Output,Recreation Industries,623013.0
+MIMI,2023,Economic Output,Restaurants,1777182.0
+MIMI,2023,Economic Output,Retail,501598.0
+MIMI,2023,Economic Output,Secondary Effects,5094240.0
+MIMI,2023,Economic Output,Transportation,254854.0
+MIMI,2023,Jobs,Camping,8.0
+MIMI,2023,Jobs,Gas,4.0
+MIMI,2023,Jobs,Groceries,2.0
+MIMI,2023,Jobs,Lodging,34.0
+MIMI,2023,Jobs,Recreation Industries,13.0
+MIMI,2023,Jobs,Restaurants,26.0
+MIMI,2023,Jobs,Retail,9.0
+MIMI,2023,Jobs,Secondary Effects,33.0
+MIMI,2023,Jobs,Transportation,3.0
+MIMI,2023,Labor Income,Camping,262524.0
+MIMI,2023,Labor Income,Gas,109700.0
+MIMI,2023,Labor Income,Groceries,61224.0
+MIMI,2023,Labor Income,Lodging,955880.0
+MIMI,2023,Labor Income,Recreation Industries,226423.0
+MIMI,2023,Labor Income,Restaurants,558156.0
+MIMI,2023,Labor Income,Retail,270127.0
+MIMI,2023,Labor Income,Secondary Effects,1483667.0
+MIMI,2023,Labor Income,Transportation,71297.0
+MIMI,2023,Non-local Visitor Spending,Camping,563677.0
+MIMI,2023,Non-local Visitor Spending,Gas,1805529.0
+MIMI,2023,Non-local Visitor Spending,Groceries,502859.0
+MIMI,2023,Non-local Visitor Spending,Lodging,3473148.0
+MIMI,2023,Non-local Visitor Spending,Recreation Industries,623013.0
+MIMI,2023,Non-local Visitor Spending,Restaurants,1777182.0
+MIMI,2023,Non-local Visitor Spending,Retail,902028.0
+MIMI,2023,Non-local Visitor Spending,Secondary Effects,0.0
+MIMI,2023,Non-local Visitor Spending,Transportation,254770.0
+MIMI,2023,Party Days/Nights,Total,60247.0
+MIMI,2023,Value Added,Camping,405223.0
+MIMI,2023,Value Added,Gas,205180.0
+MIMI,2023,Value Added,Groceries,92061.0
+MIMI,2023,Value Added,Lodging,2113765.0
+MIMI,2023,Value Added,Recreation Industries,280502.0
+MIMI,2023,Value Added,Restaurants,854889.0
+MIMI,2023,Value Added,Retail,318855.0
+MIMI,2023,Value Added,Secondary Effects,2552856.0
+MIMI,2023,Value Added,Transportation,127550.0
+MIMI,2023,Visitor Spending,Camping,563677.0
+MIMI,2023,Visitor Spending,Gas,1805529.0
+MIMI,2023,Visitor Spending,Groceries,502859.0
+MIMI,2023,Visitor Spending,Lodging,3473148.0
+MIMI,2023,Visitor Spending,Recreation Industries,623013.0
+MIMI,2023,Visitor Spending,Restaurants,1777182.0
+MIMI,2023,Visitor Spending,Retail,902028.0
+MIMI,2023,Visitor Spending,Secondary Effects,0.0
+MIMI,2023,Visitor Spending,Transportation,254770.0
+MIMI,2023,Visits,Total,115769.0
+MIMI,2024,Economic Output,Camping,629898.0
+MIMI,2024,Economic Output,Gas,264132.0
+MIMI,2024,Economic Output,Groceries,164641.0
+MIMI,2024,Economic Output,Lodging,3881855.0
+MIMI,2024,Economic Output,Recreation Industries,723148.0
+MIMI,2024,Economic Output,Restaurants,1992511.0
+MIMI,2024,Economic Output,Retail,513419.0
+MIMI,2024,Economic Output,Secondary Effects,4675140.0
+MIMI,2024,Economic Output,Transportation,343945.0
+MIMI,2024,Jobs,Camping,5.0
+MIMI,2024,Jobs,Gas,2.0
+MIMI,2024,Jobs,Groceries,2.0
+MIMI,2024,Jobs,Lodging,29.0
+MIMI,2024,Jobs,Recreation Industries,11.0
+MIMI,2024,Jobs,Restaurants,20.0
+MIMI,2024,Jobs,Retail,7.0
+MIMI,2024,Jobs,Secondary Effects,26.0
+MIMI,2024,Jobs,Transportation,3.0
+MIMI,2024,Labor Income,Camping,203683.0
+MIMI,2024,Labor Income,Gas,77735.0
+MIMI,2024,Labor Income,Groceries,58961.0
+MIMI,2024,Labor Income,Lodging,1017368.0
+MIMI,2024,Labor Income,Recreation Industries,270883.0
+MIMI,2024,Labor Income,Restaurants,560317.0
+MIMI,2024,Labor Income,Retail,268125.0
+MIMI,2024,Labor Income,Secondary Effects,1441236.0
+MIMI,2024,Labor Income,Transportation,101763.0
+MIMI,2024,Non-local Visitor Spending,Camping,629898.0
+MIMI,2024,Non-local Visitor Spending,Gas,1420062.0
+MIMI,2024,Non-local Visitor Spending,Groceries,571669.0
+MIMI,2024,Non-local Visitor Spending,Lodging,3881855.0
+MIMI,2024,Non-local Visitor Spending,Recreation Industries,723148.0
+MIMI,2024,Non-local Visitor Spending,Restaurants,1992511.0
+MIMI,2024,Non-local Visitor Spending,Retail,956088.0
+MIMI,2024,Non-local Visitor Spending,Secondary Effects,0.0
+MIMI,2024,Non-local Visitor Spending,Transportation,343945.0
+MIMI,2024,Party Days/Nights,Total,61464.0
+MIMI,2024,Value Added,Camping,403115.0
+MIMI,2024,Value Added,Gas,172933.0
+MIMI,2024,Value Added,Groceries,110575.0
+MIMI,2024,Value Added,Lodging,2660132.0
+MIMI,2024,Value Added,Recreation Industries,409542.0
+MIMI,2024,Value Added,Restaurants,982989.0
+MIMI,2024,Value Added,Retail,317622.0
+MIMI,2024,Value Added,Secondary Effects,2453782.0
+MIMI,2024,Value Added,Transportation,151029.0
+MIMI,2024,Visitor Spending,Camping,629898.0
+MIMI,2024,Visitor Spending,Gas,1420062.0
+MIMI,2024,Visitor Spending,Groceries,571669.0
+MIMI,2024,Visitor Spending,Lodging,3881855.0
+MIMI,2024,Visitor Spending,Recreation Industries,723148.0
+MIMI,2024,Visitor Spending,Restaurants,1992511.0
+MIMI,2024,Visitor Spending,Retail,956088.0
+MIMI,2024,Visitor Spending,Secondary Effects,0.0
+MIMI,2024,Visitor Spending,Transportation,343945.0
+MIMI,2024,Visits,Total,118108.0
 MORU,2012,Economic Output,Total,137371364.0
 MORU,2012,Jobs,Total,1815.0
 MORU,2012,Labor Income,Total,42523747.0
