@@ -87,10 +87,10 @@
     "wiki_latest": "2026-10"
   },
   "laus": {
-    "counties": 7,
-    "fetched_at": "2026-10-27T11:14:01+00:00",
+    "counties": 14,
+    "fetched_at": "2026-10-27T11:44:05+00:00",
     "latest": "2026-08",
-    "rows": 973
+    "rows": 1946
   },
   "library": {
     "as_of": "2026-09-04",
@@ -186,18 +186,22 @@
   },
   "nps_monthly": {
     "failed": [],
-    "fetched_at": "2026-10-27T11:10:56+00:00",
+    "fetched_at": "2026-10-27T11:44:43+00:00",
     "latest_month": {
       "BADL": "2026-10",
+      "BICA": "2026-07",
       "DETO": "2026-09",
+      "FOUS": "2026-09",
+      "JECA": "2026-09",
       "KNRI": "2026-09",
       "LIBI": "2026-09",
+      "MIMI": "2026-09",
       "MORU": "2026-09",
       "THRO": "2026-09",
       "WICA": "2026-09",
       "YELL": "2026-09"
     },
-    "parks": 8
+    "parks": 12
   },
   "nps_vse": {
     "fetched_at": "2026-10-27T11:11:20+00:00",
@@ -213,11 +217,36 @@
     },
     "parks": 8
   },
+  "ntto": {
+    "added": [
+      "2026-05:f",
+      "2026-06:f",
+      "2026-07:f",
+      "2026-08:p",
+      "2026-09:p"
+    ],
+    "fetched_at": "2026-10-27T11:43:58+00:00",
+    "latest": "2026-09",
+    "not_found": []
+  },
+  "orsa": {
+    "fetched_at": "2026-10-27T11:29:36+00:00",
+    "latest": "2024",
+    "years": [
+      2023,
+      2024
+    ]
+  },
+  "population": {
+    "fetched_at": "2026-10-27T11:29:37+00:00",
+    "latest": "2025",
+    "rows": 3195
+  },
   "qcew_county_quarterly": {
-    "fetched_at": "2026-10-27T11:14:01+00:00",
+    "fetched_at": "2026-10-27T11:50:38+00:00",
     "latest_quarter": "2026 Q1",
     "missing": [],
-    "rows": 1530
+    "rows": 3096
   },
   "recgov": {
     "facilities": [
@@ -241,10 +270,24 @@
       2025
     ]
   },
+  "sd_tourism": {
+    "failed": [],
+    "fetched_at": "2026-10-27T11:32:39+00:00",
+    "latest": "2026-09",
+    "months": 80
+  },
+  "statcan": {
+    "fetched_at": "2026-10-27T11:29:34+00:00",
+    "latest": "2026-08",
+    "rows": 1680
+  },
   "tmas": {
-    "fetched_at": "2026-10-27T11:12:48+00:00",
+    "fetched_at": "2026-10-27T12:04:28+00:00",
     "latest": "2025-12-31",
-    "months_added": [],
+    "months_added": [
+      "2025-11",
+      "2025-12"
+    ],
     "not_posted": [
       "2026-04",
       "2026-05",
@@ -255,7 +298,12 @@
     ],
     "stations": [
       "221",
-      "279"
+      "279",
+      "MT-103",
+      "MT-131",
+      "SD-110",
+      "SD-811",
+      "WY-047"
     ]
   },
   "wy_county_travel_impacts": {
@@ -266,5 +314,10 @@
       2015,
       2025
     ]
+  },
+  "wy_lodging": {
+    "fetched_at": "2026-10-27T11:29:46+00:00",
+    "latest": "FY2025",
+    "link": "https://drive.google.com/uc?export=download&id=1vF-DIFA9WNcSjreQ9IxcNxJaibRJNqN5"
   }
 }

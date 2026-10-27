@@ -10,15 +10,24 @@ holiday patterns, peak hours, and a daily baseline for the summers before
 the Library opened. It does not close the current-year gap (2026 arrives in
 March 2027); the NDDOT PDF fetcher still covers that.
 
-Only the configured stations' rows are kept; each monthly zip is downloaded
-once and never again (months already in the CSV are skipped).
+Stations are configured per state in `tmas.stations` (ND, plus the I-94, US 85
+and I-90 counters across the Montana, South Dakota and Wyoming lines). ND
+stations keep their bare three-digit id ("279") for continuity; the others are
+written as "MT-131", "SD-110" and so on. `data/tmas_scanned.json` records which
+stations each month's zip has already been searched for, so adding a station
+re-downloads only the months it has not been looked for in, and a station that
+simply did not report in a month is not retried forever. TMAS_MAX_MONTHS caps
+how many zips one run downloads (the first backfill of a new station is ~2.5 GB).
 
 Output: data/tmas_daily.csv (station, date, year, month, day, dow, direction,
-        vehicles, h00..h23)  — direction 3 = eastbound, 7 = westbound (TMAS codes)
+        vehicles, h00..h23)  — direction letters from the TMAS codes (N/E/S/W)
 """
 from __future__ import annotations
 
 import io
+import json
+import os
+import re
 import sys
 import time
 import zipfile
@@ -93,17 +102,26 @@ def _records(lines: list[str]):
             yield {"state": l[1:3], "station": l[5:11], "dir": l[11], "lane": l[12], "year": 2000 + yr, "month": int(l[15:17]), "day": int(l[17:19]), "dow": int(l[19]), "hours": hours}
 
 
-def parse(zip_bytes: bytes, stations: set[str], state_code: str = "38") -> pd.DataFrame:
+STATE_CODES = {"ND": "38", "MT": "30", "SD": "46", "WY": "56"}
+
+
+def station_key(state: str, station: str) -> str:
+    return station[-3:] if state == "ND" else f"{state}-{station[-3:]}"
+
+
+def parse(zip_bytes: bytes, stations: dict[str, set[str]]) -> pd.DataFrame:
+    """stations: {"ND": {"000279", ...}, "MT": {...}}"""
     z = zipfile.ZipFile(io.BytesIO(zip_bytes))
-    name = next((n for n in z.namelist() if n.split("/")[-1].upper().startswith("ND")), None)
-    if not name:
-        return pd.DataFrame()
-    lines = z.read(name).decode("latin-1").splitlines()
     rows = []
-    for r in _records(lines):
-        if r["state"] != state_code or r["station"] not in stations:
+    for st, ids in stations.items():
+        name = next((n for n in z.namelist() if n.split("/")[-1].upper().startswith(st) and not n.upper().endswith(".STA")), None)
+        if not name:
             continue
-        rows.append({"station": r["station"][-3:], "year": r["year"], "month": r["month"], "day": r["day"], "dow": r["dow"], "direction": DIR.get(r["dir"], r["dir"]), "lane": r["lane"], **{f"h{h:02d}": v for h, v in enumerate(r["hours"])}})
+        lines = z.read(name).decode("latin-1").splitlines()
+        for r in _records(lines):
+            if r["state"] != STATE_CODES[st] or r["station"] not in ids:
+                continue
+            rows.append({"station": station_key(st, r["station"]), "year": r["year"], "month": r["month"], "day": r["day"], "dow": r["dow"], "direction": DIR.get(r["dir"], r["dir"]), "lane": r["lane"], **{f"h{h:02d}": v for h, v in enumerate(r["hours"])}})
     if not rows:
         return pd.DataFrame()
     df = pd.DataFrame(rows)
@@ -117,36 +135,57 @@ def parse(zip_bytes: bytes, stations: set[str], state_code: str = "38") -> pd.Da
 
 def main() -> int:
     cfg = CONFIG.get("tmas", {})
-    stations = {s.zfill(6) for s in cfg.get("stations", ["000279"])}
+    raw = cfg.get("stations", {"ND": {"000279": ""}})
+    if isinstance(raw, list):  # old config shape: ND station ids
+        raw = {"ND": {s: "" for s in raw}}
+    stations = {st: {s.zfill(6) for s in ids} for st, ids in raw.items()}
+    wanted = {station_key(st, s) for st, ids in stations.items() for s in ids}
     since = int(cfg.get("since", 2019))
+    max_months = int(os.environ.get("TMAS_MAX_MONTHS", "999"))
     out = DATA / "tmas_daily.csv"
+    log_path = DATA / "tmas_scanned.json"
     existing = pd.read_csv(out, dtype={"station": str}) if out.exists() else pd.DataFrame()
-    have = set(zip(existing["year"], existing["month"])) if len(existing) else set()
+    scanned: dict[str, list[str]] = json.loads(log_path.read_text()) if log_path.exists() else {}
+    if not scanned and len(existing):
+        # first run with the scan log: months already in the CSV were searched for the original ND stations
+        for (y, m), g in existing.groupby(["year", "month"]):
+            scanned[f"{int(y)}-{int(m):02d}"] = sorted({"279", "221"} | set(g["station"].astype(str)))
     today = date.today()
     frames, got, missing = [], [], []
+    fetched = 0
     for y in range(since, today.year + 1):
         for m in range(1, 13):
-            if (y, m) in have or (y, m) >= (today.year, today.month):
+            key = f"{y}-{m:02d}"
+            if (y, m) >= (today.year, today.month) or wanted <= set(scanned.get(key, [])):
                 continue
+            if fetched >= max_months:
+                break
             try:
                 b = month_zip(y, m)
             except Exception as e:  # noqa: BLE001
-                print(f"TMAS {y}-{m:02d}: {e}", file=sys.stderr)
+                print(f"TMAS {key}: {e}", file=sys.stderr)
                 continue
             if b is None:
-                missing.append(f"{y}-{m:02d}")
+                missing.append(key)
                 continue
-            df = parse(b, stations)
+            fetched += 1
+            need = {st: {s for s in ids if station_key(st, s) not in scanned.get(key, [])} for st, ids in stations.items()}
+            df = parse(b, {st: ids for st, ids in need.items() if ids})
+            scanned[key] = sorted(set(scanned.get(key, [])) | wanted)
             if len(df):
                 frames.append(df)
-                got.append(f"{y}-{m:02d}")
-                print(f"TMAS {y}-{m:02d}: {len(df)} station-days")
+                got.append(key)
+                print(f"TMAS {key}: {len(df)} station-days ({', '.join(sorted(df['station'].unique()))})")
+            else:
+                print(f"TMAS {key}: none of the new stations reported")
     allv = pd.concat([existing, *frames]) if frames else existing
     if not len(allv):
         print("no TMAS rows", file=sys.stderr)
         return 1
+    allv["station"] = allv["station"].astype(str)
     allv = allv.drop_duplicates(["station", "date", "direction"]).sort_values(["station", "date", "direction"])
     write_csv(allv, "tmas_daily.csv")
+    log_path.write_text(json.dumps(dict(sorted(scanned.items())), indent=0) + "\n")
     update_manifest("tmas", months_added=got, not_posted=missing[-6:], latest=str(allv["date"].max()), stations=sorted({str(s) for s in allv["station"].unique()}))
     return 0
 

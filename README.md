@@ -4,34 +4,58 @@ Gathers regional visitation indicators around the Theodore Roosevelt Presidentia
 
 **Dashboard:** https://theodore-roosevelt-presidential-library.github.io/TourismData/
 
+## How the page is organized
+
+The dashboard is one page in seven sections, with a sticky section menu and a "What moved" strip under the headline tiles (the newest reading of each headline series against a year earlier, newest first):
+
+1. **The Library** — attendance, origin by state and month, drive distance, ZIP map, feeder metros, tickets per 100,000 residents by state and metro, Canadian buyers by province.
+2. **The park and Medora** — TRNP visits, Painted Canyon, public use by location, overnight stays, park visitor spending, campgrounds.
+3. **Getting here** — I-94 and US 85 near Medora, summer traffic at counters across the Montana, South Dakota and Wyoming lines, airports (ND plus Billings, Rapid City, Gillette, Sheridan), air-traveler origins, the Canadian border.
+4. **The local economy** — Medora and corridor-town taxes, county taxable sales, the ND Commerce visitor-spending study, tourism jobs.
+5. **The region** — a state-by-state summary table (park visits, a visitor-spending signal, traffic entering, overseas visitors, outdoor-recreation share of the economy for ND, MT, SD, WY and Canada), the comparison parks, then one group per state: Montana (ITRR), South Dakota (tourism tax), Wyoming (Dean Runyan, lodging tax), Canada (Statistics Canada), overseas visitors (NTTO I-94), BEA outdoor recreation, and gateway-county jobs across the state lines.
+6. **Demand and context** — Wikipedia, Google Trends, smoke days, retail sales, weather, gas, exchange rate, oil.
+7. **Sources** — every feed, its cadence, lag, latest period and script, generated from `config/catalog.json`.
+
+Code layout: `docs/index.html` is the shell (styles, header, menu). `docs/js/core.js` holds the shared helpers (card placement, freshness badges, the seasonal and ranked-change charts); each section is its own file (`docs/js/sec-*.js`) that registers a render function; `docs/js/main.js` loads `dashboard.json` and runs them in order. To add a card: compute its block in `scripts/build.py`, draw it in the right `sec-*.js`, and list its id under the feed in `config/catalog.json` (that is what gives it its freshness line).
+
 ## What it tracks
 
-| Feed | Source | Grain | Script |
-|---|---|---|---|
-| Library attendance (checked-in scans) and tickets by day and event; visitor origin by buyer ZIP → state | ACME Ticketing reporting API, direct (TicketAnalytics collection + "E: Event Sales by Zip Code") | Daily, Jun 2026–present; origin monthly | `scripts/fetch_acme.py` |
-| Fallback: the Marketing Dashboard repo's nightly ACME extract | `Dashboard/data/latest/acme.json` (private repo) | Daily, Sep 2024–present | `scripts/fetch_library.py` |
-| Recreation visits, 8 NPS units (TRNP + regional comparison parks) | NPS IRMA STATS, "Recreation Visitors By Month" report | Monthly, 1979–present | `scripts/fetch_nps.py` |
-| TRNP detail: Painted Canyon rest-area vehicle counter; public use by location (South Unit, North Unit, Painted Canyon, Medora walk-ins, campers); overnight stays by type | NPS IRMA STATS "Traffic Counts", "Monthly Public Use", "Overnight Stays" reports | Monthly 1992–present (May–Oct); latest month + YTD, accumulating; annual 1979–present | `scripts/fetch_nps_detail.py` |
-| TRNP visitor spending, jobs, labor income, output in the gateway region, by sector (+ the 7 comparison parks) | NPS Visitor Spending Effects web API (`irmaservices.nps.gov/vseapi`) | Annual, 2012–present | `scripts/fetch_nps_vse.py` |
-| Inbound land-border crossings, ND and MT ports | BTS Border Crossing Entry Data (Socrata `keg4-3bc2`) | Monthly by port, 2019–present | `scripts/fetch_bts_border.py` |
-| Airport passengers (DIK, BIS, FAR, MOT, BIL, RAP) | BTS T-100 Domestic Market via the TranStats download form (monthly) + FAA calendar-year enplanements (annual) | Monthly 2019–present (~3-mo lag); annual 2005–present | `scripts/fetch_airports.py` |
-| Airline passenger boardings, all 8 ND commercial airports (BIS, DIK, FAR, GFK, MOT, ISN, JMS, DVL) | ND Aeronautics Commission monthly boarding-report PDFs (each carries ten years of that month) | Monthly 2016–present (~3-week lag) | `scripts/fetch_ndac.py` |
-| I-94 and US 85 traffic near Medora (NDDOT permanent counters 279, 221, 223) | NDDOT monthly "Automatic Traffic Data" PDF reports | Monthly average daily traffic, weekday/weekend, 2024–present | `scripts/fetch_nddot_atr.py` |
-| Hourly/daily traffic at NDDOT counters 279 (I-94 at Medora) and 221 (US 85), by direction | FHWA TMAS continuous-count station files (one ~28 MB zip per month, all states; only our stations kept) | Daily with 24 hourly columns, 2019–last full year (posted each March) | `scripts/fetch_tmas.py` |
-| Inbound air travelers to BIS, DIK, FAR, MOT by home airport and state | BTS DB1B Origin & Destination Survey, prezipped Coupon + Ticket files joined on itinerary (~350 MB per quarter; aggregates only stored) | Quarterly, 2023–present (~6-mo lag) | `scripts/fetch_db1b.py` |
-| Taxable sales and purchases, all ND counties + statewide industry sectors | ND Office of State Tax Commissioner, statistical-report workbook | Quarterly, 2019–present | `scripts/fetch_nd_tax.py` |
-| City sales tax, occupancy (lodging) tax, and city lodging-and-restaurant tax paid to Medora, Beach, Belfield, Dickinson, Watford City, Killdeer, Bowman | ND State Treasurer, Historical Distribution Search | Monthly payments, 2019–present | `scripts/fetch_nd_treasurer.py` |
-| Montana nonresident visitation + survey shares (entry point, origin state) | ITRR (Univ. of Montana) Tableau Public workbook, embedded Hyper extracts | Monthly 1991–present; survey quarterly 2021–present | `scripts/fetch_mt_itrr.py` |
-| Wyoming county travel impacts (spend, earnings, jobs, tax) | Dean Runyan Associates PDF for the Wyoming Office of Tourism | Annual, 2015–present | `scripts/fetch_wy_impacts.py` |
-| County employment in leisure & hospitality and accommodation & food (Billings, Stark, Golden Valley, McKenzie, Dunn, Slope, Bowman) | BLS QCEW open-data CSV slices | Quarterly, 2015–present (~5-mo lag) | `scripts/fetch_qcew.py` |
-| Employed residents, labor force, unemployment rate — same seven counties | BLS LAUS North Dakota time-series file | Monthly, 2015–present (~1-mo lag; latest month preliminary) | `scripts/fetch_laus.py` |
-| Visitor spending by county (5-yr timeline) and tourism jobs/income, all 53 ND counties | Tourism Economics "Economic Impact of Tourism in North Dakota" PDFs for ND Commerce | Annual, 2020–present | `scripts/fetch_nd_impact.py` |
-| Campground reservations and origin state — Cottonwood (TRNP), Buffalo Gap, CCC (USFS) | Recreation.gov RIDB historical reservation files (~500 MB per fiscal year; aggregates only are stored) | Monthly arrivals + annual origin, FY2020–present | `scripts/fetch_recgov.py` |
-| ND and Bismarck MSA leisure & hospitality payroll jobs (and splits), NSA | BLS CES North Dakota time-series file | Monthly, 2015–present (~1-mo lag) | `scripts/fetch_ces.py` |
-| Retail sales year-over-year by sector, ND / neighbours / U.S. | Census Monthly State Retail Sales (experimental; growth rates only) | Monthly, 2019–present (~2-mo lag) | `scripts/fetch_census_msrs.py` |
-| Daily AQI and PM2.5 at TRNP's Painted Canyon monitor — summer smoke days | EPA AQS daily-AQI-by-county files (validated) + AirNow daily files (preliminary, to yesterday) | Daily, 2015–present | `scripts/fetch_airquality.py` |
-| Wikipedia pageviews (Library, Medora, TRNP, TR articles) and Google Trends | Wikimedia REST API; pytrends (unofficial) | Monthly from 2015; weekly from 2019 | `scripts/fetch_interest.py` |
-| Controls: Dickinson weather (rain days, highs), Midwest gas price, CAD/USD, ND oil production and rig count | NOAA NCEI, EIA, FRED, ND Industrial Commission PDFs | Monthly, 2015–present | `scripts/fetch_controls.py` |
+Generated from `config/catalog.json` by `scripts/build.py` — edit the catalog, not this table.
+
+<!-- catalog:start -->
+| Section | Feed | Source | Grain | Lag | Script |
+|---|---|---|---|---|---|
+| The Library | Library attendance and visitor origin | ACME Ticketing reporting API (TicketAnalytics + Event Sales by Zip Code) | Daily | Same day | `scripts/fetch_acme.py` |
+| The Library | Population by state and county (per-capita denominators) | [Census Bureau Population Estimates, county totals](https://www.census.gov/programs-surveys/popest.html) | Annual | ~3 months | `scripts/fetch_population.py` |
+| The Library | Library attendance fallback (Marketing Dashboard extract) | Dashboard repo nightly ACME extract | Daily | 1 day | `scripts/fetch_library.py` |
+| The park and Medora | Recreation visits, 12 NPS units | [NPS IRMA STATS, Recreation Visitors By Month](https://irma.nps.gov/Stats/) | Monthly | ~6 weeks | `scripts/fetch_nps.py` |
+| The park and Medora | TRNP detail: Painted Canyon counter, public use by location, overnight stays | [NPS IRMA STATS park reports](https://irma.nps.gov/Stats/) | Monthly / annual | ~6 weeks | `scripts/fetch_nps_detail.py` |
+| The park and Medora | Park visitor spending, jobs and output | [NPS Visitor Spending Effects API](https://www.nps.gov/subjects/socialscience/vse.htm) | Annual | ~5 months | `scripts/fetch_nps_vse.py` |
+| The park and Medora | Campground reservations and camper origin | [Recreation.gov RIDB historical reservations](https://ridb.recreation.gov/download) | Monthly / annual | ~3 months after fiscal year | `scripts/fetch_recgov.py` |
+| Getting here | I-94 and US 85 near Medora, monthly averages | [NDDOT Automatic Traffic Data reports](https://www.dot.nd.gov/) | Monthly | Irregular | `scripts/fetch_nddot_atr.py` |
+| Getting here | Hourly counters: I-94 at Medora and Wibaux, US 85 at Buffalo and Belle Fourche, I-90 at the WY–SD line | [FHWA TMAS continuous-count station files](https://www.fhwa.dot.gov/policyinformation/tables/tmasdata/) | Daily / hourly | Posted each March for the prior year | `scripts/fetch_tmas.py` |
+| Getting here | Airport passengers (DIK, BIS, FAR, MOT, XWA, BIL, RAP, GCC, SHR) | [BTS T-100 Domestic Market; FAA calendar-year enplanements](https://www.transtats.bts.gov/) | Monthly / annual | ~3 months | `scripts/fetch_airports.py` |
+| Getting here | Boardings at all eight ND commercial airports | [ND Aeronautics Commission monthly boarding reports](https://aero.nd.gov/) | Monthly | ~3 weeks | `scripts/fetch_ndac.py` |
+| Getting here | Where inbound air travelers start their trips | [BTS DB1B Origin & Destination Survey (10% ticket sample)](https://www.transtats.bts.gov/) | Quarterly | ~6 months | `scripts/fetch_db1b.py` |
+| Getting here | Land-border crossings into ND and MT | [BTS Border Crossing Entry Data](https://data.bts.gov/Research-and-Statistics/Border-Crossing-Entry-Data/keg4-3bc2) | Monthly | ~1 month | `scripts/fetch_bts_border.py` |
+| The local economy | City sales, occupancy and lodging & restaurant tax paid to Medora and corridor towns | [ND State Treasurer distribution search](https://www.treasurer.nd.gov/) | Monthly | ~2 months | `scripts/fetch_nd_treasurer.py` |
+| The local economy | Taxable sales by ND county and statewide industry | [ND Office of State Tax Commissioner](https://www.tax.nd.gov/) | Quarterly | ~5 months | `scripts/fetch_nd_tax.py` |
+| The local economy | Visitor spending and tourism jobs, all ND counties | [Tourism Economics for ND Commerce](https://www.commerce.nd.gov/) | Annual | ~9 months | `scripts/fetch_nd_impact.py` |
+| The local economy | Leisure & hospitality jobs: ND corridor counties plus Montana and South Dakota gateway counties | [BLS QCEW](https://www.bls.gov/cew/) | Quarterly | ~5 months | `scripts/fetch_qcew.py` |
+| The local economy | Employed residents and unemployment, same counties | [BLS LAUS](https://www.bls.gov/lau/) | Monthly | ~1 month | `scripts/fetch_laus.py` |
+| The local economy | ND and Bismarck leisure & hospitality payroll jobs | [BLS CES](https://www.bls.gov/sae/) | Monthly | ~1 month | `scripts/fetch_ces.py` |
+| The region | Montana nonresident visitation and survey shares | [ITRR, University of Montana](https://itrr.umt.edu/) | Monthly / quarterly | Annual update | `scripts/fetch_mt_itrr.py` |
+| The region | South Dakota tourism tax by county and business type | [SD Department of Revenue, Tourism Tax by County](https://dor.sd.gov/businesses/taxes/sales-use-tax/historical-tax-statistical-reports/) | Monthly (filing month) | ~6 weeks | `scripts/fetch_sd_tourism.py` |
+| The region | Wyoming county travel impacts | [Dean Runyan Associates for the Wyoming Office of Tourism](https://travelwyoming.com/industry/research) | Annual | ~6 months | `scripts/fetch_wy_impacts.py` |
+| The region | Wyoming lodging tax by county | [Wyoming Economic Analysis Division](https://ai.wyo.gov/divisions/economic-analysis/revenue/sales-and-use) | Annual (fiscal year) | ~5 months | `scripts/fetch_wy_lodging.py` |
+| The region | Overseas visitor arrivals by first intended state | [National Travel and Tourism Office (Commerce), I-94 Summary & Analysis, Table G](https://www.trade.gov/i-94-arrivals-program) | Monthly | ~1 month (preliminary), ~2 months (final) | `scripts/fetch_ntto.py` |
+| The region | Canadians returning by car through Saskatchewan, Manitoba and Alberta ports | [Statistics Canada table 24-10-0053-01](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2410005301) | Monthly | ~2 months | `scripts/fetch_statcan.py` |
+| The region | Outdoor recreation share of each state's economy | [BEA Outdoor Recreation Satellite Account](https://www.bea.gov/data/special-topics/outdoor-recreation) | Annual | ~12–15 months | `scripts/fetch_orsa.py` |
+| Demand and context | Wikipedia pageviews and Google Trends | Wikimedia REST API; Google Trends (unofficial) | Monthly / weekly | Days | `scripts/fetch_interest.py` |
+| Demand and context | Smoke days at Painted Canyon | [EPA AQS + AirNow](https://www.epa.gov/aqs) | Daily | 1 day (preliminary) | `scripts/fetch_airquality.py` |
+| Demand and context | Retail sales year-over-year, ND and neighbors | [Census Monthly State Retail Sales (experimental)](https://www.census.gov/retail/state_retail_sales.html) | Monthly | ~2 months | `scripts/fetch_census_msrs.py` |
+| Demand and context | Weather, gas price, exchange rate, ND oil | NOAA NCEI, EIA, FRED, ND Industrial Commission | Monthly | ~1 month | `scripts/fetch_controls.py` |
+<!-- catalog:end -->
 
 Parks and ports are configured in `config/sources.json`. The Library's opening date (2026-07-04) drives the "since opening" comparisons.
 
@@ -49,6 +73,7 @@ python scripts/fetch_nps.py
 python scripts/fetch_bts_border.py
 python scripts/fetch_airports.py
 python scripts/fetch_ndac.py
+python scripts/fetch_sd_tourism.py   # needs poppler (pdftotext)
 python scripts/build.py
 python -m http.server -d docs 8000   # open http://localhost:8000
 ```
@@ -86,12 +111,23 @@ python -m http.server -d docs 8000   # open http://localhost:8000
 - Recreation.gov: campgrounds sell out in July–August, so reservation counts are a floor on demand; the origin-state mix is the useful part. FY2019's file has a different schema and is skipped.
 - Google Trends is an unofficial endpoint; a failed run keeps the prior CSV.
 
+- **Regional traffic counters (TMAS).** `tmas.stations` is keyed by state. ND stations keep their bare id ("279"); others are written "MT-131", "SD-110", "WY-047". `data/tmas_scanned.json` records which stations each month's zip has been searched for, so adding a station downloads only the months it hasn't been looked for in (~2.5 GB for a full 2019+ backfill; `TMAS_MAX_MONTHS` caps one run). Montana reports I-94 at Wibaux (131) and Bad Route (103) in alternating years; South Dakota 110 (US 85 at Buffalo) reports zeros in 2019–20, which the build drops.
+- **Park flags.** A park is flagged, and left out of the control median and the state summary, if last summer fell below half the summer before (a counter outage, e.g. Little Bighorn 2025) or if this year to date is more than 40% off last year (a new counter or count method, e.g. Bighorn Canyon's 2026 winter months at four times their usual level).
+- **South Dakota tourism tax.** Monthly "Tourism Tax by County" PDFs, discovered on DOR's historical statistical-reports page (hashed `/media/<id>/MMYYcounty-tourism.pdf` paths). The month is the FILING month (July filings are mostly June business). Classifications with fewer than three licensees are folded into an undisclosed "Other", and there is no county total, so county sums are a floor; Hotels & Motels (SIC 7011) is the like-for-like lodging line. The state total is complete. Series starts 2020.
+- **Wyoming lodging tax.** Annual by state fiscal year (July–June), three years per edition, editions accumulate. The 3% column is the statewide portion and comparable across counties; receipts ≈ 3% taxes ÷ 0.03. The "WYOMING" row is the state total.
+- **Statistics Canada** table 24-10-0053-01 through the Web Data Service (no key): Saskatchewan, Manitoba and Alberta; Canadians returning from the U.S. by automobile and U.S. residents entering by automobile; all travellers and overnight.
+- **NTTO I-94 (overseas arrivals by first intended state).** Table G of the monthly Summary & Analysis workbook. Only the last few months are linked from the program page; older workbooks are found by trying `/sites/default/files/<upload YYYY-MM>/<FINAL|Final|Preliminary>_SummaryAnalysis_COR_<Month>_<YYYY>.xlsx`. Preliminary months are replaced when the final file appears. Months not found are cached in `data/ntto_missing.json` and re-probed only on the 1st. Workbooks before 2022 use other names, so the series starts January 2022. First intended address understates states visited later in a trip.
+- **BEA outdoor recreation (ORSA).** Table 1 of the state workbook, one year per edition; editions accumulate (`orsa.extra_urls` pins the 2023 edition).
+- **Population.** Census Population Estimates county file (the ACS API now needs a key). Bump `population.url` when the next vintage posts each March.
+- **Not automated.** Montana's lodging facility use tax by region/CVB (the Office of Tourism's report PDFs were taken down; ask Montana Commerce), and TSA checkpoint throughput by airport (the FOIA reading room returns 403 to scripts). The South Dakota and Wyoming travel dashboards remain unscriptable as noted above.
+
 ## Roadmap
 
-- NPS sub-unit detail (South Unit, Painted Canyon) if a per-location report can be exported the same way.
 - ND county-by-industry (accommodation and food services): request from the Tax Commissioner's research staff.
 - SD Monthly Travel Indicators, if Travel South Dakota will share an extract.
+- Montana lodging tax by tourism region: request from Montana Department of Commerce, Office of Tourism.
 - NDDOT ATR hourly/directional data for station 279 by request to NDDOT Planning (the PDFs give daily averages only).
-- GA4 web demand by DMA (the Dashboard already pulls it) as a leading indicator next to Wikipedia and Trends; new-market share from ticketing ZIPs once the Dashboard exposes ZIP-level origin.
+- GA4 web demand by DMA (the Dashboard already pulls it) as a leading indicator next to Wikipedia and Trends.
+- DB1B for Billings and Rapid City (changes the "inbound" definition, so as a separate table).
 
 Planning doc: *Visitor Impact Data Plan* (Claude doc) and `TRPL / Visitor Impact Data Plan — source inventory` in Outline.

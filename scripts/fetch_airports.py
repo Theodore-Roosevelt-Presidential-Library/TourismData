@@ -54,12 +54,16 @@ def fetch_monthly(airports: dict[str, str]) -> pd.DataFrame:
     cur = pd.Timestamp.today().year
     prev_path = DATA / "airports_monthly.csv"
     existing = pd.read_csv(prev_path) if prev_path.exists() else pd.DataFrame(columns=["airport", "year", "month", "passengers"])
-    years = [cur, cur - 1] if len(existing) else list(range(int(CONFIG.get("airports_since", 2019)), cur + 1))
+    since = int(CONFIG.get("airports_since", 2019))
+    recent = [cur, cur - 1]
+    have = set(existing["airport"].unique()) if len(existing) else set()
     s = requests.Session()
     s.headers["User-Agent"] = USER_AGENT
     frames = []
     for state in sorted(set(airports.values())):
         codes = [a for a, st in airports.items() if st == state]
+        # a newly configured airport backfills its state's full history; otherwise only the last two years
+        years = list(range(since, cur + 1)) if set(codes) - have else recent
         for y in years:
             try:
                 df = transtats_year(s, state, y)
@@ -72,8 +76,7 @@ def fetch_monthly(airports: dict[str, str]) -> pd.DataFrame:
                 print(f"FAILED T-100 {state} {y}: {e}", file=sys.stderr)
             time.sleep(2)
     new = pd.concat(frames) if frames else pd.DataFrame(columns=existing.columns)
-    keep = existing[~existing["year"].isin(years)] if len(existing) else existing
-    out = pd.concat([keep, new]).drop_duplicates(["airport", "year", "month"], keep="last")
+    out = pd.concat([existing, new]).drop_duplicates(["airport", "year", "month"], keep="last")
     out["passengers"] = out["passengers"].astype(int)
     return out.sort_values(["airport", "year", "month"])
 

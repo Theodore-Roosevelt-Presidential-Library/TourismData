@@ -59,6 +59,10 @@ def park_block(df: pd.DataFrame, park: dict, latest_month: int, cur: int) -> dic
     # Counter-outage flag: prior-year peak season (Jun-Sep) under half of the year before
     peak = range(6, 10)
     flag = bool(s(prev, peak) and s(prev - 1, peak) and s(prev, peak) < 0.5 * s(prev - 1, peak))
+    # ...or a discontinuity this year: year-to-date more than 40% off last year (a new counter or count method,
+    # e.g. Bighorn Canyon's 2026 winter months at four times their usual level)
+    ytd_c, ytd_p = s(cur, ytd_months), s(prev, ytd_months)
+    flag = flag or bool(ytd_p and abs(ytd_c - ytd_p) / ytd_p > 0.4)
 
     return {
         "code": park["code"],
@@ -753,6 +757,358 @@ def nddot_block() -> dict:
     return out
 
 
+# ---------------------------------------------------------------------------
+# Regional blocks (other states, Canada, overseas) and the per-state summary
+# ---------------------------------------------------------------------------
+PROVINCES = {"A": "Newfoundland and Labrador", "B": "Nova Scotia", "C": "Prince Edward Island", "E": "New Brunswick", "G": "Quebec", "H": "Quebec", "J": "Quebec",
+             "K": "Ontario", "L": "Ontario", "M": "Ontario", "N": "Ontario", "P": "Ontario", "R": "Manitoba", "S": "Saskatchewan", "T": "Alberta", "V": "British Columbia",
+             "X": "Northwest Territories / Nunavut", "Y": "Yukon"}
+CMP_BAND = [2017, 2018, 2019, 2023, 2024, 2025]  # pre-pandemic + recent, for series that collapsed in 2020-22 (border crossings)
+
+
+def ytd_pair(df: pd.DataFrame, value: str, cur: int, months: list[int]) -> tuple[float, float, float | None]:
+    a = float(df[(df["year"] == cur) & df["month"].isin(months)][value].sum())
+    b = float(df[(df["year"] == cur - 1) & df["month"].isin(months)][value].sum())
+    return a, b, pct(a, b)
+
+
+def last_full(s: dict, y: int, mo: int) -> tuple:
+    c = (s["years"].get(str(y)) or [None] * 12)[mo - 1]
+    p_ = (s["years"].get(str(y - 1)) or [None] * 12)[mo - 1]
+    return c, p_, (pct(c, p_) if c and p_ else None)
+
+
+def reach_block(geo: dict) -> dict:
+    """Canadian provinces from postal codes, and tickets per 100,000 residents by state and feeder metro."""
+    out = {}
+    zp = DATA / "acme_origin_zip_monthly.csv"
+    if zp.exists():
+        z = pd.read_csv(zp, dtype={"zip": str})
+        z = z[(z["year"] * 100 + z["month"]) >= OPENING.year * 100 + OPENING.month]
+        ca = z[z["zip"].str.upper().str.match(r"^[A-Z]\d[A-Z]", na=False)].copy()
+        ca["province"] = ca["zip"].str[0].str.upper().map(PROVINCES).fillna("Other")
+        p = ca.groupby("province")["tickets"].sum().sort_values(ascending=False)
+        tot = int(p.sum())
+        out["provinces"] = {"total": tot, "rows": [{"province": k, "tickets": int(v), "share": round(v / tot * 100, 1) if tot else None} for k, v in p.items()]}
+    pp, om = DATA / "population.csv", DATA / "acme_origin_monthly.csv"
+    if pp.exists() and om.exists():
+        pop = pd.read_csv(pp, dtype={"state_fips": str, "county_fips": str})
+        o = pd.read_csv(om)
+        o = o[(o["year"] * 100 + o["month"]) >= OPENING.year * 100 + OPENING.month].groupby("state")["tickets"].sum()
+        sp = pop[pop["level"] == "state"].set_index("state")["population"]
+        rows = [{"state": s, "tickets": int(o[s]), "population": int(sp[s]), "per_100k": round(o[s] / sp[s] * 1e5, 1)} for s in o.index if s in sp.index]
+        rows.sort(key=lambda r: -r["per_100k"])
+        out["states"] = {"pop_year": int(pop["year"].iloc[0]), "rows": rows}
+        cp = pop[pop["level"] == "county"]
+        cpop = {(s, c.lower()): int(v) for s, c, v in zip(cp["state"], cp["county"], cp["population"])}
+        metro_pop: dict[str, int] = {}
+        for (st, cty), metro in METROS.items():
+            metro_pop[metro] = metro_pop.get(metro, 0) + cpop.get((st, cty.lower()), 0)
+        mrows = []
+        for f in geo.get("feeders", []):
+            mp = metro_pop.get(f["metro"])
+            if mp:
+                mrows.append({"metro": f["metro"], "tickets": f["tickets"], "population": mp, "per_100k": round(f["tickets"] / mp * 1e5, 1), "miles": f["miles"]})
+        mrows.sort(key=lambda r: -r["per_100k"])
+        out["metros"] = mrows
+    return out
+
+
+def tmas_corridor_block() -> dict:
+    """Summer (Jun–Sep) average daily traffic per counter per year: days with both directions and a nonzero count."""
+    p = DATA / "tmas_daily.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p, dtype={"station": str})
+    df = df[df["vehicles"] > 0]
+    nd = df.groupby(["station", "date"])["direction"].nunique().rename("ndir").reset_index()
+    daily = df.groupby(["station", "date", "year", "month"], as_index=False)["vehicles"].sum().merge(nd, on=["station", "date"])
+    daily = daily[(daily["ndir"] >= 2) & daily["month"].isin([6, 7, 8, 9])]
+    labels = {}
+    for st, ids in CONFIG.get("tmas", {}).get("stations", {}).items():
+        if isinstance(ids, dict):
+            for sid, name in ids.items():
+                labels[sid[-3:] if st == "ND" else f"{st}-{sid[-3:]}"] = name
+    s = daily.groupby(["station", "year"]).agg(adt=("vehicles", "mean"), days=("vehicles", "size")).reset_index()
+    s = s[s["days"] >= 60]  # a summer needs most of its 122 days to count
+    years = sorted(int(y) for y in s["year"].unique())
+    out = {"years": years, "stations": {}}
+    order = ["279", "221", "MT-131", "MT-103", "SD-110", "SD-811", "WY-047"]
+    for st in sorted(s["station"].unique(), key=lambda x: order.index(x) if x in order else 99):
+        m = s[s["station"] == st].set_index("year")["adt"].to_dict()
+        out["stations"][st] = {"label": labels.get(st, st), "adt": [round(float(m[y])) if y in m else None for y in years]}
+    return out
+
+
+def sd_tourism_block() -> dict:
+    p = DATA / "sd_tourism_tax_monthly.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p, dtype={"sic": str})
+    cur = int(df["year"].max())
+    months = sorted(int(m) for m in df[df["year"] == cur]["month"].unique())
+    focus = CONFIG.get("sd_tourism", {}).get("focus_counties", [])
+    band = [y for y in (2022, 2023, 2024, 2025) if y < cur]
+    out = {"current_year": cur, "latest_month": months[-1], "months": months, "ytd": []}
+    st = df[df["county"] == "State total"]
+    out["state"] = seasonal(st, "month", "taxable_sales", 12, band)
+    a, b, pc = ytd_pair(st, "taxable_sales", cur, months)
+    out["state_ytd"] = {"cur": a, "prev": b, "pct": pc}
+    ho = df[df["sic"] == "7011"]
+    bh = ho[ho["county"].isin(["Pennington", "Lawrence", "Custer", "Fall River", "Meade"])].groupby(["year", "month"], as_index=False)["taxable_sales"].sum()
+    out["black_hills_hotels"] = seasonal(bh, "month", "taxable_sales", 12, band)
+    for c in focus:
+        g = df[df["county"] == c]
+        h = g[g["sic"] == "7011"].groupby(["year", "month"], as_index=False)["taxable_sales"].sum()
+        t = g.groupby(["year", "month"], as_index=False)["taxable_sales"].sum()
+        ha, hb, hp = ytd_pair(h, "taxable_sales", cur, months)
+        ta, tb, tp = ytd_pair(t, "taxable_sales", cur, months)
+        out["ytd"].append({"county": c, "hotels_cur": ha, "hotels_prev": hb, "hotels_pct": hp, "disclosed_cur": ta, "disclosed_prev": tb, "disclosed_pct": tp})
+    return out
+
+
+def wy_lodging_block() -> dict:
+    p = DATA / "wy_lodging_tax_annual.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    df = df[~df["county"].str.contains("TOTAL", na=False)]
+    fy = int(df["fiscal_year"].max())
+    focus = CONFIG.get("wy_lodging", {}).get("focus_counties", [])
+    # the workbook's "WYOMING" row is the state total; fall back to summing counties if it is ever missing
+    st_rows = df[df["county"] == "WYOMING"]
+    tot = st_rows.set_index("fiscal_year")["state_3pct_taxes"] if len(st_rows) else df.groupby("fiscal_year")["state_3pct_taxes"].sum()
+    rows = []
+    for c in focus + ["STATEWIDE"]:
+        if c == "STATEWIDE":
+            a, b = float(tot.get(fy, 0)), float(tot.get(fy - 1, 0))
+        else:
+            g = df[df["county"] == c].set_index("fiscal_year")["state_3pct_taxes"]
+            a, b = float(g.get(fy, 0) or 0), float(g.get(fy - 1, 0) or 0)
+        rows.append({"county": c.title(), "cur": a, "prev": b, "pct": pct(a, b), "receipts_cur": round(a / 0.03)})
+    years = sorted(int(y) for y in df["fiscal_year"].unique())
+    return {"fiscal_year": fy, "years": years, "rows": rows}
+
+
+def statcan_block() -> dict:
+    p = DATA / "statcan_frontier_monthly.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    car = df[df["series"].str.startswith("Canadian") & (df["traveller_type"] == "travellers")]
+    cur = int(car["year"].max())
+    months = sorted(int(m) for m in car[car["year"] == cur]["month"].unique())
+    out = {"current_year": cur, "latest_month": months[-1], "ytd": []}
+    sm = car[car["province"].isin(["Saskatchewan", "Manitoba"])].groupby(["year", "month"], as_index=False)["value"].sum()
+    out["sk_mb"] = seasonal(sm, "month", "value", 12, [y for y in CMP_BAND if y < cur])
+    a, b, pc = ytd_pair(sm, "value", cur, months)
+    out["sk_mb_ytd"] = {"cur": a, "prev": b, "pct": pc}
+    for (prov, ser, typ), gs in df.groupby(["province", "series", "traveller_type"]):
+        a, b, pc = ytd_pair(gs, "value", cur, months)
+        out["ytd"].append({"province": prov, "series": ser, "type": typ, "cur": a, "prev": b, "pct": pc})
+    return out
+
+
+def ntto_block() -> dict:
+    p = DATA / "ntto_i94_state_monthly.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    tot = df[df["region"].str.contains("Total", case=False) & df["region"].str.contains("Overseas", case=False)]
+    cur = int(tot["year"].max())
+    months = sorted(int(m) for m in tot[tot["year"] == cur]["month"].unique())
+    prelim = sorted({f"{int(r.year)}-{int(r.month):02d}" for r in tot[tot["status"] == "preliminary"].itertuples()})
+    focus = CONFIG.get("ntto", {}).get("focus_states", ["North Dakota"])
+    out = {"current_year": cur, "latest_month": months[-1], "months": months, "preliminary": prelim, "states": {}, "ytd": []}
+    allus = tot[tot["state"].str.contains("Grand Total", case=False)]
+    us_ytd = float(allus[(allus["year"] == cur) & allus["month"].isin(months)]["arrivals"].sum())
+    for s in focus + ["Grand Total"]:
+        g = tot[tot["state"] == s]
+        if g.empty:
+            continue
+        out["states"][s] = seasonal(g, "month", "arrivals", 12, [y for y in (2023, 2024, 2025) if y < cur])
+        a, b, pc = ytd_pair(g, "arrivals", cur, months)
+        out["ytd"].append({"state": "United States" if s == "Grand Total" else s, "cur": a, "prev": b, "pct": pc, "share_of_us_pct": round(a / us_ytd * 100, 2) if us_ytd else None})
+    nd = df[(df["state"] == "North Dakota") & ~df["region"].str.contains("Total", case=False)].copy()
+    nd["ym"] = nd["year"] * 100 + nd["month"]
+    last12 = sorted(nd["ym"].unique())[-12:]
+    r = nd[nd["ym"].isin(last12)].groupby("region")["arrivals"].sum().sort_values(ascending=False)
+    t = float(r.sum())
+    out["nd_regions"] = {"from": f"{last12[0] // 100}-{last12[0] % 100:02d}", "to": f"{last12[-1] // 100}-{last12[-1] % 100:02d}",
+                         "rows": [{"region": k, "arrivals": int(v), "share": round(v / t * 100, 1)} for k, v in r.items()]}
+    return out
+
+
+def orsa_block() -> dict:
+    p = DATA / "orsa_state_annual.csv"
+    if not p.exists():
+        return {}
+    df = pd.read_csv(p)
+    ly = int(df["year"].max())
+    rows = []
+    for s in CONFIG.get("orsa", {}).get("focus_states", []):
+        a = df[(df["state"] == s) & (df["year"] == ly)]
+        b = df[(df["state"] == s) & (df["year"] == ly - 1)]
+        if a.empty:
+            continue
+        a = a.iloc[0]
+        rows.append({"state": s, "value_added_k": float(a.value_added_k), "va_share": float(a.value_added_share_pct), "employment": float(a.employment), "emp_share": float(a.employment_share_pct),
+                     "va_growth": pct(float(a.value_added_k), float(b.iloc[0].value_added_k)) if len(b) else None})
+    rank = df[(df["year"] == ly) & (df["state"] != "United States")].sort_values("value_added_share_pct", ascending=False)["state"].tolist()
+    for r in rows:
+        r["rank"] = rank.index(r["state"]) + 1 if r["state"] in rank else None
+    return {"year": ly, "rows": rows, "n_states": len(rank)}
+
+
+def gateway_jobs_block(q: dict) -> dict:
+    """Latest-quarter leisure & hospitality jobs for every configured county, tagged by state."""
+    if not q:
+        return {}
+    rows = []
+    for r in q.get("latest", []):
+        st = r["county"][-3:-1] if r["county"].endswith(")") else "ND"
+        rows.append(dict(r, state=st))
+    rows.sort(key=lambda r: (r["pct"] is None, -(r["pct"] or 0)))
+    return {"year": q["current_year"], "quarter": q["latest_quarter"], "rows": rows}
+
+
+def park_state_ytd(parks: list[dict], state: str) -> dict | None:
+    sel = [p for p in parks if p["state"] == state and not p["flag"] and p["kpi"]["ytd"]["prev"]]
+    if not sel:
+        return None
+    a = sum(p["kpi"]["ytd"]["cur"] for p in sel)
+    b = sum(p["kpi"]["ytd"]["prev"] for p in sel)
+    months = sel[0]["kpi"]["ytd"]["months"]
+    return {"value": a, "pct": pct(a, b), "period": f"Jan–{MONTH_ABBR[months[-1] - 1]}", "note": ", ".join(p["code"] for p in sel)}
+
+
+def state_summary(o: dict) -> list[dict]:
+    """One row per state on the same measures, for the top of the region section."""
+    parks, tm, sd, wyl, sc, nt, orsa, nd_city, mt = (o["parks"], o.get("tmas_corridor") or {}, o.get("sd_tourism") or {}, o.get("wy_lodging") or {}, o.get("statcan") or {},
+                                                     o.get("ntto") or {}, o.get("orsa") or {}, o.get("nd_city") or {}, o.get("mt") or {})
+
+    def tm_cell(st):
+        s = tm.get("stations", {}).get(st)
+        if not s or not s["adt"] or s["adt"][-1] is None:
+            return None
+        a = s["adt"][-1]
+        prior = [(y, v) for y, v in zip(tm["years"][:-1], s["adt"][:-1]) if v]
+        by, b = prior[-1] if prior else (None, None)
+        return {"value": a, "pct": pct(a, b) if a and b else None, "period": f"Summer {tm['years'][-1]}" + (f" vs {by}" if by and by != tm["years"][-2] else ""), "note": s["label"], "unit": "/day"}
+
+    def nt_cell(name):
+        r = next((x for x in nt.get("ytd", []) if x["state"] == name), None)
+        return {"value": r["cur"], "pct": r["pct"], "period": f"Jan–{MONTH_ABBR[nt['latest_month'] - 1]} {nt['current_year']}"} if r else None
+
+    def orsa_cell(name):
+        r = next((x for x in orsa.get("rows", []) if x["state"] == name), None)
+        return {"value": r["va_share"], "unit": "%", "period": str(orsa["year"]), "note": f"rank {r['rank']} of {orsa['n_states']}"} if r else None
+
+    medr = next((r for r in nd_city.get("ytd", []) if r["city"] == "Medora"), None)
+    rows = [{"state": "North Dakota", "parks": park_state_ytd(parks, "ND"),
+             "lodging": {"value": medr["occupancy_ytd_cur"], "unit": "$", "pct": medr["occupancy_ytd_pct"], "period": f"Jan–{MONTH_ABBR[nd_city['latest_month'] - 1]} payments", "note": "Medora occupancy tax"} if medr else None,
+             "traffic": tm_cell("279"), "overseas": nt_cell("North Dakota"), "outdoor": orsa_cell("North Dakota")}]
+    mtv = None
+    if mt.get("visitation"):
+        v, cy = mt["visitation"]["years"], str(mt["current_year"])
+        n = sum(1 for x in v.get(cy, []) if x is not None)
+        if n:
+            a = sum(x for x in v[cy][:n] if x)
+            b = sum(x for x in (v.get(str(mt["current_year"] - 1)) or [])[:n] if x)
+            mtv = {"value": a, "pct": pct(a, b), "period": f"Jan–{MONTH_ABBR[n - 1]} {cy}", "note": "nonresident visitors (ITRR); Montana's lodging tax isn't published by region"}
+    rows.append({"state": "Montana", "parks": park_state_ytd(parks, "MT"), "lodging": mtv, "traffic": tm_cell("MT-131") or tm_cell("MT-103"), "overseas": nt_cell("Montana"), "outdoor": orsa_cell("Montana")})
+    rows.append({"state": "South Dakota", "parks": park_state_ytd(parks, "SD"),
+                 "lodging": {"value": sd["state_ytd"]["cur"], "unit": "$", "pct": sd["state_ytd"]["pct"], "period": f"Jan–{MONTH_ABBR[sd['latest_month'] - 1]} filings", "note": "statewide tourism-taxable sales"} if sd else None,
+                 "traffic": tm_cell("SD-811"), "overseas": nt_cell("South Dakota"), "outdoor": orsa_cell("South Dakota")})
+    wst = next((r for r in wyl.get("rows", []) if r["county"] == "Statewide"), None)
+    rows.append({"state": "Wyoming", "parks": park_state_ytd(parks, "WY"),
+                 "lodging": {"value": wst["cur"], "unit": "$", "pct": wst["pct"], "period": f"FY{wyl['fiscal_year']}", "note": "statewide 3% lodging tax"} if wst else None,
+                 "traffic": tm_cell("WY-047"), "overseas": nt_cell("Wyoming"), "outdoor": orsa_cell("Wyoming")})
+    rows.append({"state": "Canada (SK + MB)", "parks": None, "lodging": None,
+                 "traffic": {"value": sc["sk_mb_ytd"]["cur"], "pct": sc["sk_mb_ytd"]["pct"], "period": f"Jan–{MONTH_ABBR[sc['latest_month'] - 1]} {sc['current_year']}", "note": "residents driving home from the U.S."} if sc else None,
+                 "overseas": None, "outdoor": None})
+    return rows
+
+
+def movers(o: dict) -> list[dict]:
+    """'What moved': the latest reading of each headline series, newest first."""
+    m = []
+
+    def add(label, value, p, period, sort, section, unit=""):
+        if p is not None and value is not None:
+            m.append({"label": label, "value": value, "pct": p, "period": period, "sort": sort, "section": section, "unit": unit})
+
+    thro = next(p for p in o["parks"] if p["code"] == "THRO")
+    k = thro["kpi"]["latest"]
+    add("TRNP recreation visits", k["cur"], pct(k["cur"], k["prev"]) if k["cur"] and k["prev"] else None, f"{MONTH_ABBR[k['month'] - 1]} {o['current_year']}", o["current_year"] * 100 + k["month"], "park")
+    nc = o.get("nd_city") or {}
+    for r in nc.get("ytd", []):
+        if r["city"] == "Medora":
+            per = f"Jan–{MONTH_ABBR[nc['latest_month'] - 1]} {nc['current_year']} payments"
+            add("Medora city sales tax, year to date", r["sales_ytd_cur"], r["sales_ytd_pct"], per, nc["current_year"] * 100 + nc["latest_month"], "economy", "$")
+            add("Medora occupancy tax, year to date", r["occupancy_ytd_cur"], r["occupancy_ytd_pct"], per, nc["current_year"] * 100 + nc["latest_month"], "economy", "$")
+    n = o.get("ndac") or {}
+    for code in ("DIK", "BIS"):
+        a = (n.get("airports") or {}).get(code)
+        if a:
+            c, p_, pc = last_full(a, n["current_year"], n["latest_month"])
+            add(f"{code} passenger boardings", c, pc, f"{MONTH_ABBR[n['latest_month'] - 1]} {n['current_year']}", n["current_year"] * 100 + n["latest_month"], "travel")
+    b = (o.get("border") or {}).get("states", {}).get("North Dakota")
+    if b:
+        lmn = o["border"]["latest_month"]
+        y, mo = int(lmn[:4]), int(lmn[5:7])
+        c, p_, pc = last_full(b, y, mo)
+        add("Canadian vehicles entering ND", c, pc, f"{MONTH_ABBR[mo - 1]} {y}", y * 100 + mo, "travel")
+    nt = o.get("ntto") or {}
+    if nt.get("states", {}).get("North Dakota"):
+        y, mo = nt["current_year"], nt["latest_month"]
+        c, p_, pc = last_full(nt["states"]["North Dakota"], y, mo)
+        add("Overseas visitors listing ND first", c, pc, f"{MONTH_ABBR[mo - 1]} {y}" + (" (prelim.)" if f"{y}-{mo:02d}" in nt["preliminary"] else ""), y * 100 + mo, "region")
+    sd = o.get("sd_tourism") or {}
+    if sd.get("state"):
+        y, mo = sd["current_year"], sd["latest_month"]
+        c, p_, pc = last_full(sd["state"], y, mo)
+        add("SD tourism-taxable sales", c, pc, f"{MONTH_ABBR[mo - 1]} {y} filings", y * 100 + mo, "region", "$")
+    sc = o.get("statcan") or {}
+    if sc.get("sk_mb"):
+        y, mo = sc["current_year"], sc["latest_month"]
+        c, p_, pc = last_full(sc["sk_mb"], y, mo)
+        add("Saskatchewan + Manitoba residents driving home from the U.S.", c, pc, f"{MONTH_ABBR[mo - 1]} {y}", y * 100 + mo, "region")
+    q = o.get("qcew") or {}
+    r = next((x for x in q.get("latest", []) if x["county"] == "Billings"), None)
+    if r:
+        add("Billings County leisure & hospitality jobs", r["cur"], r["pct"], f"{q['current_year']} Q{q['latest_quarter']}", q["current_year"] * 100 + q["latest_quarter"] * 3, "economy")
+    w = (o.get("interest") or {}).get("wiki", {})
+    a = w.get("articles", {}).get("Theodore_Roosevelt_Presidential_Library")
+    if a:
+        y = w["current_year"]
+        yr = a["years"].get(str(y), [])
+        filled = [i for i, v in enumerate(yr) if v is not None]
+        if len(filled) > 1:
+            mo = filled[-2] + 1  # the newest month is partial; use the last full one
+            c, p_, pc = last_full(a, y, mo)
+            add("Wikipedia views of the Library article", c, pc, f"{MONTH_ABBR[mo - 1]} {y}", y * 100 + mo, "context")
+    m.sort(key=lambda x: -x["sort"])
+    return m
+
+
+def write_readme_table(catalog: dict) -> None:
+    """Regenerate the README feed table between the catalog markers from config/catalog.json."""
+    p = ROOT / "README.md"
+    t = p.read_text()
+    a, b = "<!-- catalog:start -->", "<!-- catalog:end -->"
+    if a not in t or b not in t:
+        return
+    titles = {s["id"]: s["title"] for s in catalog["sections"]}
+    lines = ["| Section | Feed | Source | Grain | Lag | Script |", "|---|---|---|---|---|---|"]
+    for f in catalog["feeds"]:
+        src = f"[{f['source']}]({f['url']})" if f.get("url") else f["source"]
+        lines.append(f"| {titles.get(f['section'], f['section'])} | {f['name']} | {src} | {f['grain']} | {f['lag']} | `scripts/{f['script']}` |")
+    new = t[: t.index(a) + len(a)] + "\n" + "\n".join(lines) + "\n" + t[t.index(b):]
+    if new != t:
+        p.write_text(new)
+
+
 def main() -> None:
     nps = load_nps()
     cur = int(nps["year"].max())
@@ -792,7 +1148,20 @@ def main() -> None:
         "nd_city": nd_city_block(),
         "mt": mt_block(),
         "wy": wy_block(),
+        "tmas_corridor": tmas_corridor_block(),
+        "sd_tourism": sd_tourism_block(),
+        "wy_lodging": wy_lodging_block(),
+        "statcan": statcan_block(),
+        "ntto": ntto_block(),
+        "orsa": orsa_block(),
     }
+    out["reach"] = reach_block(out["origin_geo"])
+    out["gateway_jobs"] = gateway_jobs_block(out["qcew"])
+    out["state_summary"] = state_summary(out)
+    out["movers"] = movers(out)
+    catalog = json.loads((ROOT / "config" / "catalog.json").read_text())
+    out["catalog"] = catalog
+    write_readme_table(catalog)
     DOCS_DATA.mkdir(parents=True, exist_ok=True)
     (DOCS_DATA / "dashboard.json").write_text(json.dumps(out, separators=(",", ":")) + "\n")
     for f in DATA.glob("*.csv"):
