@@ -3,10 +3,11 @@
 Job Service ND publishes the same numbers, but BLS's flat file is the clean
 source: county employment, labor force and unemployment rate, monthly, about
 one month after the reference month (vs ~5 months for QCEW). Counties come
-from `qcew_counties` in config. We read the North Dakota slice of the LAUS
-time-series database (`la.data.41.NorthDakota`, ~7 MB, refreshed with each
-release) rather than the public API, whose unregistered daily quota is
-shared per IP and easily exhausted.
+from `qcew_counties` in config, including the Montana and South Dakota gateway
+counties. We read each state's slice of the LAUS time-series database
+(`la.data.41.NorthDakota`, `la.data.33.Montana`, ... a few MB each, refreshed
+with each release) rather than the public API, whose unregistered daily quota
+is shared per IP and easily exhausted.
 
 LAUS county employment is a household-survey model estimate (residents who
 are employed), not jobs at establishments, so it is a read on the local
@@ -27,7 +28,8 @@ import requests
 
 from common import CONFIG, USER_AGENT, update_manifest, write_csv
 
-URL = "https://download.bls.gov/pub/time.series/la/la.data.41.NorthDakota"
+URL = "https://download.bls.gov/pub/time.series/la/la.data.{}"
+STATE_FILES = {"38": "41.NorthDakota", "30": "33.Montana", "46": "49.SouthDakota", "56": "59.Wyoming", "27": "30.Minnesota"}
 MEASURES = {"05": "employment", "06": "labor_force", "03": "unemployment_rate"}
 # download.bls.gov's access policy requires a browser-style user agent that carries a contact
 # e-mail; requests without one get 403. Set BLS_CONTACT to a monitored address.
@@ -38,9 +40,12 @@ HEADERS = {"User-Agent": f"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Apple
 def main() -> int:
     counties: dict[str, str] = CONFIG.get("qcew_counties", {})
     since = int(CONFIG.get("laus_since", 2015))
-    r = requests.get(URL, headers=HEADERS, timeout=300)
-    r.raise_for_status()
-    df = pd.read_csv(io.StringIO(r.text), sep="\t", dtype=str)
+    frames = []
+    for st in sorted({f[:2] for f in counties}):
+        r = requests.get(URL.format(STATE_FILES[st]), headers=HEADERS, timeout=300)
+        r.raise_for_status()
+        frames.append(pd.read_csv(io.StringIO(r.text), sep="\t", dtype=str))
+    df = pd.concat(frames)
     df.columns = [c.strip() for c in df.columns]
     df["series_id"] = df["series_id"].str.strip()
     want = {f"LAUCN{f}00000000{m}": (f, meas) for f in counties for m, meas in MEASURES.items()}

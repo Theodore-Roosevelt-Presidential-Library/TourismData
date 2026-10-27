@@ -47,6 +47,30 @@
       "name": "Yellowstone NP",
       "role": "control",
       "state": "WY"
+    },
+    {
+      "code": "FOUS",
+      "name": "Fort Union Trading Post NHS",
+      "role": "corridor",
+      "state": "ND"
+    },
+    {
+      "code": "JECA",
+      "name": "Jewel Cave NM",
+      "role": "control",
+      "state": "SD"
+    },
+    {
+      "code": "MIMI",
+      "name": "Minuteman Missile NHS",
+      "role": "control",
+      "state": "SD"
+    },
+    {
+      "code": "BICA",
+      "name": "Bighorn Canyon NRA",
+      "role": "control",
+      "state": "MT"
     }
   ],
   "bts_border": {
@@ -140,7 +164,10 @@
     "FAR": "ND",
     "MOT": "ND",
     "BIL": "MT",
-    "RAP": "SD"
+    "RAP": "SD",
+    "XWA": "ND",
+    "GCC": "WY",
+    "SHR": "WY"
   },
   "airports_since": 2019,
   "nddot_stations": {
@@ -176,7 +203,14 @@
     "38053": "McKenzie",
     "38025": "Dunn",
     "38087": "Slope",
-    "38011": "Bowman"
+    "38011": "Bowman",
+    "30109": "Wibaux (MT)",
+    "30021": "Dawson (MT)",
+    "30025": "Fallon (MT)",
+    "30017": "Custer (MT)",
+    "46063": "Harding (SD)",
+    "46019": "Butte (SD)",
+    "46081": "Lawrence (SD)"
   },
   "wiki_articles": [
     "Theodore_Roosevelt_Presidential_Library",
@@ -209,11 +243,24 @@
   },
   "laus_since": 2015,
   "tmas": {
-    "stations": [
-      "000279",
-      "000221"
-    ],
-    "since": 2019
+    "since": 2019,
+    "stations": {
+      "ND": {
+        "000279": "I-94 at Medora (Painted Canyon)",
+        "000221": "US 85 north of I-94 (Fairfield)"
+      },
+      "MT": {
+        "000131": "I-94 at Wibaux (MT side of the ND line)",
+        "000103": "I-94 at Bad Route (Glendive\u2013Miles City)"
+      },
+      "SD": {
+        "000110": "US 85 south of Buffalo (Harding Co.)",
+        "000811": "US 85 south of Belle Fourche"
+      },
+      "WY": {
+        "000047": "I-90 east of Aladdin (WY\u2013SD line)"
+      }
+    }
   },
   "db1b": {
     "airports": [
@@ -231,5 +278,73 @@
     "MT",
     "WI",
     "IA"
-  ]
+  ],
+  "sd_tourism": {
+    "index": "https://dor.sd.gov/businesses/taxes/sales-use-tax/historical-tax-statistical-reports/",
+    "since": 2019,
+    "focus_counties": [
+      "Pennington",
+      "Lawrence",
+      "Custer",
+      "Fall River",
+      "Meade",
+      "Butte",
+      "Harding"
+    ]
+  },
+  "wy_lodging": {
+    "page": "https://ai.wyo.gov/divisions/economic-analysis/revenue/sales-and-use",
+    "focus_counties": [
+      "CROOK",
+      "CAMPBELL",
+      "WESTON",
+      "PARK",
+      "SHERIDAN"
+    ]
+  },
+  "statcan": {
+    "table": 24100053,
+    "since": 2015,
+    "provinces": {
+      "213": "Saskatchewan",
+      "188": "Manitoba",
+      "232": "Alberta"
+    },
+    "series": {
+      "47": "Canadian residents returning from the U.S. by automobile",
+      "8": "U.S. residents entering Canada by automobile"
+    },
+    "types": {
+      "1": "travellers",
+      "3": "overnight"
+    }
+  },
+  "ntto": {
+    "page": "https://www.trade.gov/i-94-arrivals-program",
+    "since": 2022,
+    "focus_states": [
+      "North Dakota",
+      "South Dakota",
+      "Montana",
+      "Wyoming",
+      "Minnesota"
+    ]
+  },
+  "orsa": {
+    "page": "https://www.bea.gov/data/special-topics/outdoor-recreation",
+    "extra_urls": [
+      "https://www.bea.gov/sites/default/files/2024-11/orsa1124-state.xlsx"
+    ],
+    "focus_states": [
+      "North Dakota",
+      "South Dakota",
+      "Montana",
+      "Wyoming",
+      "Minnesota",
+      "United States"
+    ]
+  },
+  "population": {
+    "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv"
+  }
 }
