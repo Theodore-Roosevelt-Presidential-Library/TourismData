@@ -51,6 +51,14 @@ async function main() {
     S.sec = s.id;
     try { SECTIONS[s.id](X); } catch (e) { console.error(`section ${s.id}:`, e); sectionEl().insertAdjacentHTML("beforeend", `<p class="note">This section could not be drawn: ${e.message}</p>`); }
   }
+  // Under each section heading, say where its numbers come from
+  for (const s of secs) {
+    if (s.id === "sources") continue;
+    const fs = sectionSources(s.id);
+    if (!fs.length) continue;
+    document.querySelector(`#sec-${s.id} .sec-head`).insertAdjacentHTML("beforeend",
+      `<div class="src"><b>Where this data comes from</b><ul>${fs.map(f => `<li>${srcLink(f)} <span class="src-what">— ${f.name}</span></li>`).join("")}</ul><p>How often each one updates, and the script that pulls it, are under <a href="#sec-sources">Sources</a>.</p></div>`);
+  }
 
   // Highlight the menu item for the section in view
   const links = [...document.querySelectorAll("#nav a")];

@@ -47,7 +47,16 @@ function freshness(key) {
   if (!m && !f) return "";
   const thr = throughLabel(m);
   const badge = f ? `<span class="badge">${f.grain}</span><span class="badge muted">Lag: ${f.lag.charAt(0).toLowerCase() + f.lag.slice(1)}</span>` : "";
-  return `<p class="fresh">${badge}${m ? `Pulled ${fmtDate(m.fetched_at)}` : ""}${thr ? ` · latest ${thr}` : ""}</p>`;
+  const src = f ? `Source: ${srcLink(f)} · ` : "";
+  return `<p class="fresh">${badge}${src}${m ? `Pulled ${fmtDate(m.fetched_at)}` : ""}${thr ? ` · latest ${thr}` : ""}</p>`;
+}
+const srcLink = f => f.url ? `<a href="${f.url}" rel="noopener">${f.source}</a>` : f.source;
+// The feeds behind one section: every feed a card in it draws on, plus feeds assigned to it that have no card of their own
+function sectionSources(id) {
+  const keys = [];
+  document.querySelectorAll(`#sec-${id} .card`).forEach(el => { const k = CARD_FEED[el.id.slice(5)]; if (k && !keys.includes(k)) keys.push(k); });
+  for (const f of Object.values(FEEDS)) if (f.section === id && !(f.cards || []).length && !keys.includes(f.key)) keys.push(f.key);
+  return keys.map(k => FEEDS[k]);
 }
 
 // ---- Placement: cards go into the current section (S.sec), under the current group heading if any
