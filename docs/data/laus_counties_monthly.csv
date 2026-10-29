@@ -137,7 +137,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 38007,Billings,2026,5,678.0,687.0,1.3,False
 38007,Billings,2026,6,767.0,782.0,1.9,False
 38007,Billings,2026,7,786.0,799.0,1.6,False
-38007,Billings,2026,8,794.0,809.0,1.9,True
+38007,Billings,2026,8,793.0,808.0,1.9,False
+38007,Billings,2026,9,729.0,743.0,1.9,True
 38011,Bowman,2015,1,1789.0,1824.0,1.9,False
 38011,Bowman,2015,2,1783.0,1820.0,2.0,False
 38011,Bowman,2015,3,1767.0,1806.0,2.2,False
@@ -276,7 +277,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 38011,Bowman,2026,5,1515.0,1540.0,1.6,False
 38011,Bowman,2026,6,1517.0,1549.0,2.1,False
 38011,Bowman,2026,7,1486.0,1512.0,1.7,False
-38011,Bowman,2026,8,1507.0,1533.0,1.7,True
+38011,Bowman,2026,8,1505.0,1531.0,1.7,False
+38011,Bowman,2026,9,1519.0,1542.0,1.5,True
 46019,Butte (SD),2015,1,4866.0,5042.0,3.5,False
 46019,Butte (SD),2015,2,4871.0,5065.0,3.8,False
 46019,Butte (SD),2015,3,4920.0,5119.0,3.9,False
@@ -415,7 +417,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 46019,Butte (SD),2026,5,5416.0,5513.0,1.8,False
 46019,Butte (SD),2026,6,5490.0,5596.0,1.9,False
 46019,Butte (SD),2026,7,5458.0,5558.0,1.8,False
-46019,Butte (SD),2026,8,5470.0,5567.0,1.7,True
+46019,Butte (SD),2026,8,5468.0,5563.0,1.7,False
+46019,Butte (SD),2026,9,5419.0,5496.0,1.4,True
 30017,Custer (MT),2015,1,6224.0,6505.0,4.3,False
 30017,Custer (MT),2015,2,6212.0,6473.0,4.0,False
 30017,Custer (MT),2015,3,6235.0,6489.0,3.9,False
@@ -554,7 +557,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 30017,Custer (MT),2026,5,6411.0,6555.0,2.2,False
 30017,Custer (MT),2026,6,6162.0,6342.0,2.8,False
 30017,Custer (MT),2026,7,6314.0,6462.0,2.3,False
-30017,Custer (MT),2026,8,6250.0,6407.0,2.5,True
+30017,Custer (MT),2026,8,6235.0,6392.0,2.5,False
+30017,Custer (MT),2026,9,6254.0,6387.0,2.1,True
 30021,Dawson (MT),2015,1,4699.0,4853.0,3.2,False
 30021,Dawson (MT),2015,2,4756.0,4899.0,2.9,False
 30021,Dawson (MT),2015,3,4741.0,4904.0,3.3,False
@@ -693,7 +697,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 30021,Dawson (MT),2026,5,4140.0,4246.0,2.5,False
 30021,Dawson (MT),2026,6,4041.0,4171.0,3.1,False
 30021,Dawson (MT),2026,7,4102.0,4210.0,2.6,False
-30021,Dawson (MT),2026,8,4109.0,4222.0,2.7,True
+30021,Dawson (MT),2026,8,4098.0,4211.0,2.7,False
+30021,Dawson (MT),2026,9,4082.0,4176.0,2.3,True
 38025,Dunn,2015,1,4207.0,4273.0,1.5,False
 38025,Dunn,2015,2,4194.0,4264.0,1.6,False
 38025,Dunn,2015,3,4165.0,4235.0,1.7,False
@@ -832,7 +837,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 38025,Dunn,2026,5,2020.0,2066.0,2.2,False
 38025,Dunn,2026,6,2009.0,2064.0,2.7,False
 38025,Dunn,2026,7,2008.0,2056.0,2.3,False
-38025,Dunn,2026,8,2039.0,2098.0,2.8,True
+38025,Dunn,2026,8,2036.0,2095.0,2.8,False
+38025,Dunn,2026,9,2047.0,2099.0,2.5,True
 30025,Fallon (MT),2015,1,2006.0,2049.0,2.1,False
 30025,Fallon (MT),2015,2,2016.0,2061.0,2.2,False
 30025,Fallon (MT),2015,3,2008.0,2063.0,2.7,False
@@ -971,7 +977,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 30025,Fallon (MT),2026,5,1412.0,1450.0,2.6,False
 30025,Fallon (MT),2026,6,1500.0,1540.0,2.6,False
 30025,Fallon (MT),2026,7,1507.0,1542.0,2.3,False
-30025,Fallon (MT),2026,8,1568.0,1601.0,2.1,True
+30025,Fallon (MT),2026,8,1565.0,1597.0,2.0,False
+30025,Fallon (MT),2026,9,1499.0,1530.0,2.0,True
 38033,Golden Valley,2015,1,937.0,962.0,2.6,False
 38033,Golden Valley,2015,2,928.0,952.0,2.5,False
 38033,Golden Valley,2015,3,951.0,976.0,2.6,False
@@ -1110,7 +1117,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 38033,Golden Valley,2026,5,976.0,990.0,1.4,False
 38033,Golden Valley,2026,6,987.0,1005.0,1.8,False
 38033,Golden Valley,2026,7,931.0,951.0,2.1,False
-38033,Golden Valley,2026,8,953.0,975.0,2.3,True
+38033,Golden Valley,2026,8,951.0,973.0,2.3,False
+38033,Golden Valley,2026,9,977.0,994.0,1.7,True
 46063,Harding (SD),2015,1,703.0,722.0,2.6,False
 46063,Harding (SD),2015,2,711.0,729.0,2.5,False
 46063,Harding (SD),2015,3,748.0,765.0,2.2,False
@@ -1249,7 +1257,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 46063,Harding (SD),2026,5,783.0,793.0,1.3,False
 46063,Harding (SD),2026,6,775.0,787.0,1.5,False
 46063,Harding (SD),2026,7,788.0,799.0,1.4,False
-46063,Harding (SD),2026,8,782.0,793.0,1.4,True
+46063,Harding (SD),2026,8,782.0,793.0,1.4,False
+46063,Harding (SD),2026,9,802.0,814.0,1.5,True
 46081,Lawrence (SD),2015,1,12121.0,12537.0,3.3,False
 46081,Lawrence (SD),2015,2,12244.0,12692.0,3.5,False
 46081,Lawrence (SD),2015,3,12322.0,12746.0,3.3,False
@@ -1388,7 +1397,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 46081,Lawrence (SD),2026,5,15558.0,15830.0,1.7,False
 46081,Lawrence (SD),2026,6,15753.0,16051.0,1.9,False
 46081,Lawrence (SD),2026,7,15778.0,16054.0,1.7,False
-46081,Lawrence (SD),2026,8,15629.0,15924.0,1.9,True
+46081,Lawrence (SD),2026,8,15627.0,15925.0,1.9,False
+46081,Lawrence (SD),2026,9,15439.0,15698.0,1.6,True
 38053,McKenzie,2015,1,9977.0,10155.0,1.8,False
 38053,McKenzie,2015,2,9442.0,9623.0,1.9,False
 38053,McKenzie,2015,3,9255.0,9483.0,2.4,False
@@ -1527,7 +1537,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 38053,McKenzie,2026,5,8057.0,8223.0,2.0,False
 38053,McKenzie,2026,6,7861.0,8072.0,2.6,False
 38053,McKenzie,2026,7,7863.0,8038.0,2.2,False
-38053,McKenzie,2026,8,7948.0,8126.0,2.2,True
+38053,McKenzie,2026,8,7937.0,8115.0,2.2,False
+38053,McKenzie,2026,9,7920.0,8075.0,1.9,True
 38087,Slope,2015,1,445.0,455.0,2.2,False
 38087,Slope,2015,2,426.0,438.0,2.7,False
 38087,Slope,2015,3,430.0,442.0,2.7,False
@@ -1666,7 +1677,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 38087,Slope,2026,5,320.0,326.0,1.8,False
 38087,Slope,2026,6,314.0,322.0,2.5,False
 38087,Slope,2026,7,329.0,335.0,1.8,False
-38087,Slope,2026,8,338.0,346.0,2.3,True
+38087,Slope,2026,8,338.0,346.0,2.3,False
+38087,Slope,2026,9,342.0,350.0,2.3,True
 38089,Stark,2015,1,21074.0,21504.0,2.0,False
 38089,Stark,2015,2,20563.0,21054.0,2.3,False
 38089,Stark,2015,3,20177.0,20732.0,2.7,False
@@ -1805,7 +1817,8 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 38089,Stark,2026,5,16829.0,17177.0,2.0,False
 38089,Stark,2026,6,16629.0,17068.0,2.6,False
 38089,Stark,2026,7,16502.0,16865.0,2.2,False
-38089,Stark,2026,8,16468.0,16843.0,2.2,True
+38089,Stark,2026,8,16446.0,16820.0,2.2,False
+38089,Stark,2026,9,16506.0,16833.0,1.9,True
 30109,Wibaux (MT),2015,1,522.0,537.0,2.8,False
 30109,Wibaux (MT),2015,2,523.0,538.0,2.8,False
 30109,Wibaux (MT),2015,3,519.0,536.0,3.2,False
@@ -1944,4 +1957,5 @@ fips,county,year,month,employment,labor_force,unemployment_rate,prelim
 30109,Wibaux (MT),2026,5,420.0,430.0,2.3,False
 30109,Wibaux (MT),2026,6,412.0,423.0,2.6,False
 30109,Wibaux (MT),2026,7,423.0,433.0,2.3,False
-30109,Wibaux (MT),2026,8,406.0,415.0,2.2,True
+30109,Wibaux (MT),2026,8,406.0,414.0,1.9,False
+30109,Wibaux (MT),2026,9,402.0,410.0,2.0,True
