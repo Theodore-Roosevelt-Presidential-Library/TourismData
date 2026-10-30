@@ -4304,3 +4304,4 @@ date,aqi,category,main_pollutant,pm25,source
 2026-10-26,23.0,Good,OZONE-8HR,2.8,airnow
 2026-10-27,26.0,Good,OZONE-8HR,0.9,airnow
 2026-10-28,28.0,Good,OZONE-8HR,1.0,airnow
+2026-10-29,38.0,Good,PM2.5-24hr,6.8,airnow
