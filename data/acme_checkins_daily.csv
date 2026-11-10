@@ -563,7 +563,7 @@ date,event,tickets,checked_in
 2026-10-25,Architecture and Sustainability Tour,4,4
 2026-10-25,General Admission,498,422
 2026-10-25,T.R. Deep-Dive Tour,2,2
-2026-10-27,General Admission,814,715
+2026-10-27,General Admission,814,713
 2026-10-27,Walk-Up,9,9
 2026-10-28,General Admission,433,351
 2026-10-28,Walk-Up,5,4
@@ -596,3 +596,7 @@ date,event,tickets,checked_in
 2026-11-08,General Admission,277,270
 2026-11-08,In the Room: Sixty Years on the Front Lines of History,4,1
 2026-11-08,T.R. Deep-Dive Tour,5,4
+2026-11-10,David Hume Kennerly Exhibition,2,0
+2026-11-10,General Admission,213,0
+2026-11-10,In the Room: Sixty Years on the Front Lines of History,2,0
+2026-11-10,Walk-Up,25,0

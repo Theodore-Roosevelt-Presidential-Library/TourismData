@@ -1,24 +1,24 @@
 {
   "acme": {
-    "checked_in_since_opening": 154846,
+    "checked_in_since_opening": 154844,
     "checkins_first": "2026-06-22",
-    "checkins_last": "2026-11-08",
+    "checkins_last": "2026-11-10",
     "checkins_unparseable_dates": 0,
-    "fetched_at": "2026-11-09T11:07:24+00:00",
+    "fetched_at": "2026-11-10T11:07:25+00:00",
     "origin_months": 6
   },
   "air_quality": {
-    "airnow_days": 218,
+    "airnow_days": 219,
     "aqs_through": "2026-03-31",
-    "fetched_at": "2026-11-09T11:11:52+00:00",
-    "latest": "2026-11-08"
+    "fetched_at": "2026-11-10T11:12:01+00:00",
+    "latest": "2026-11-09"
   },
   "airports": {
     "annual_years": [
       2005,
       2025
     ],
-    "fetched_at": "2026-11-09T11:09:45+00:00",
+    "fetched_at": "2026-11-10T11:09:51+00:00",
     "monthly_latest": "2026-07"
   },
   "bts_airports_annual": {
@@ -29,12 +29,12 @@
     ]
   },
   "bts_border_monthly": {
-    "fetched_at": "2026-11-09T11:08:33+00:00",
+    "fetched_at": "2026-11-10T11:08:40+00:00",
     "latest_month": "2026-09",
     "rows": 6625
   },
   "census_msrs": {
-    "fetched_at": "2026-11-08T11:10:33+00:00",
+    "fetched_at": "2026-11-10T11:11:56+00:00",
     "latest": "2026-06",
     "states": [
       "ND",
@@ -46,7 +46,7 @@
     ]
   },
   "ces": {
-    "fetched_at": "2026-11-09T11:11:47+00:00",
+    "fetched_at": "2026-11-10T11:11:55+00:00",
     "latest": "2026-09",
     "series": 8
   },
@@ -60,7 +60,7 @@
       "nd_oil_bbl_per_day",
       "nd_rig_count"
     ],
-    "fetched_at": "2026-11-09T11:12:04+00:00",
+    "fetched_at": "2026-11-10T11:12:13+00:00",
     "rows": 143
   },
   "db1b": {
@@ -70,7 +70,7 @@
       "FAR",
       "MOT"
     ],
-    "fetched_at": "2026-11-09T11:10:14+00:00",
+    "fetched_at": "2026-11-10T11:10:24+00:00",
     "latest": "2025Q2",
     "not_posted": [
       "2026Q1",
@@ -81,14 +81,14 @@
     "quarters_added": []
   },
   "interest": {
-    "fetched_at": "2026-11-09T11:12:00+00:00",
+    "fetched_at": "2026-11-10T11:12:09+00:00",
     "trends_rows": 336,
     "wiki_articles": 4,
     "wiki_latest": "2026-11"
   },
   "laus": {
     "counties": 14,
-    "fetched_at": "2026-11-09T11:11:37+00:00",
+    "fetched_at": "2026-11-10T11:11:45+00:00",
     "latest": "2026-09",
     "rows": 1960
   },
@@ -102,7 +102,7 @@
     "visitors_ytd": 204813
   },
   "mt_itrr": {
-    "fetched_at": "2026-11-09T11:10:55+00:00",
+    "fetched_at": "2026-11-10T11:11:02+00:00",
     "survey_n": 43763,
     "survey_years": [
       2021,
@@ -125,7 +125,7 @@
       "Watford City"
     ],
     "failed": [],
-    "fetched_at": "2026-11-09T11:10:50+00:00",
+    "fetched_at": "2026-11-10T11:10:57+00:00",
     "latest_payment": "2026-10-21",
     "rows": 1564
   },
@@ -136,24 +136,24 @@
       2024,
       2025
     ],
-    "fetched_at": "2026-11-09T11:11:46+00:00",
+    "fetched_at": "2026-11-10T11:11:54+00:00",
     "years": "2020\u20132025"
   },
   "nd_taxable_sales_quarterly": {
     "counties": 55,
-    "fetched_at": "2026-11-09T11:10:15+00:00",
+    "fetched_at": "2026-11-10T11:10:25+00:00",
     "latest_quarter": "2026 Q2",
     "rows": 1650
   },
   "ndac": {
-    "fetched_at": "2026-11-09T11:09:52+00:00",
+    "fetched_at": "2026-11-10T11:09:59+00:00",
     "latest": "2026-09",
     "months": 124,
     "reports_ingested": []
   },
   "nddot_atr_monthly": {
     "fetched": [],
-    "fetched_at": "2026-11-09T11:10:06+00:00",
+    "fetched_at": "2026-11-10T11:10:15+00:00",
     "latest_month": "2025-12",
     "missing_reports": [
       "January2026",
@@ -171,7 +171,7 @@
     "rows": 70
   },
   "nps_detail": {
-    "fetched_at": "2026-11-09T11:08:03+00:00",
+    "fetched_at": "2026-11-10T11:08:03+00:00",
     "overnight_latest_year": 2025,
     "painted_canyon_latest": "2026-09",
     "public_use_latest": "2026-09",
@@ -187,9 +187,9 @@
   },
   "nps_monthly": {
     "failed": [],
-    "fetched_at": "2026-11-09T11:07:55+00:00",
+    "fetched_at": "2026-11-10T11:07:57+00:00",
     "latest_month": {
-      "BADL": "2026-10",
+      "BADL": "2026-11",
       "BICA": "2026-07",
       "DETO": "2026-10",
       "FOUS": "2026-09",
@@ -199,13 +199,13 @@
       "MIMI": "2026-09",
       "MORU": "2026-10",
       "THRO": "2026-09",
-      "WICA": "2026-09",
+      "WICA": "2026-10",
       "YELL": "2026-10"
     },
     "parks": 12
   },
   "nps_vse": {
-    "fetched_at": "2026-11-09T11:08:31+00:00",
+    "fetched_at": "2026-11-10T11:08:38+00:00",
     "latest_year": {
       "BADL": 2024,
       "BICA": 2024,
@@ -226,14 +226,14 @@
     "added": [
       "2026-09:p"
     ],
-    "fetched_at": "2026-11-09T11:12:10+00:00",
+    "fetched_at": "2026-11-10T11:12:20+00:00",
     "latest": "2026-09",
     "not_found": [
       "2026-10"
     ]
   },
   "orsa": {
-    "fetched_at": "2026-11-09T11:12:12+00:00",
+    "fetched_at": "2026-11-10T11:12:21+00:00",
     "latest": "2024",
     "years": [
       2023,
@@ -241,12 +241,12 @@
     ]
   },
   "population": {
-    "fetched_at": "2026-11-09T11:12:12+00:00",
+    "fetched_at": "2026-11-10T11:12:22+00:00",
     "latest": "2025",
     "rows": 3195
   },
   "qcew_county_quarterly": {
-    "fetched_at": "2026-11-09T11:11:35+00:00",
+    "fetched_at": "2026-11-10T11:11:43+00:00",
     "latest_quarter": "2026 Q1",
     "missing": [],
     "rows": 3096
@@ -263,7 +263,7 @@
       "Roundup Group Horse Camp",
       "Sather Lake Campground"
     ],
-    "fetched_at": "2026-11-09T11:11:53+00:00",
+    "fetched_at": "2026-11-10T11:12:02+00:00",
     "fiscal_years": [
       2020,
       2021,
@@ -275,17 +275,17 @@
   },
   "sd_tourism": {
     "failed": [],
-    "fetched_at": "2026-11-09T11:12:06+00:00",
+    "fetched_at": "2026-11-10T11:12:15+00:00",
     "latest": "2026-09",
     "months": 80
   },
   "statcan": {
-    "fetched_at": "2026-11-09T11:12:09+00:00",
+    "fetched_at": "2026-11-10T11:12:18+00:00",
     "latest": "2026-08",
     "rows": 1680
   },
   "tmas": {
-    "fetched_at": "2026-11-09T11:10:12+00:00",
+    "fetched_at": "2026-11-10T11:10:21+00:00",
     "latest": "2025-12-31",
     "months_added": [],
     "not_posted": [
@@ -308,7 +308,7 @@
   },
   "wy_county_travel_impacts": {
     "counties": 23,
-    "fetched_at": "2026-11-09T11:11:34+00:00",
+    "fetched_at": "2026-11-10T11:11:41+00:00",
     "rows": 253,
     "years": [
       2015,
@@ -316,7 +316,7 @@
     ]
   },
   "wy_lodging": {
-    "fetched_at": "2026-11-09T11:12:07+00:00",
+    "fetched_at": "2026-11-10T11:12:17+00:00",
     "latest": "FY2025",
     "link": "https://drive.google.com/uc?export=download&id=1vF-DIFA9WNcSjreQ9IxcNxJaibRJNqN5"
   }
