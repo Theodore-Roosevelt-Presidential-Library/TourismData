@@ -123,6 +123,7 @@ year,month,airport,code,boardings
 2026,7,Bismarck,BIS,26631
 2026,8,Bismarck,BIS,24665
 2026,9,Bismarck,BIS,25218
+2026,10,Bismarck,BIS,27927
 2016,1,Dickinson,DIK,1497
 2016,2,Dickinson,DIK,1345
 2016,3,Dickinson,DIK,1245
@@ -247,6 +248,7 @@ year,month,airport,code,boardings
 2026,7,Dickinson,DIK,2264
 2026,8,Dickinson,DIK,2009
 2026,9,Dickinson,DIK,2089
+2026,10,Dickinson,DIK,2329
 2016,1,Devils Lake,DVL,390
 2016,2,Devils Lake,DVL,612
 2016,3,Devils Lake,DVL,566
@@ -371,6 +373,7 @@ year,month,airport,code,boardings
 2026,7,Devils Lake,DVL,1521
 2026,8,Devils Lake,DVL,1124
 2026,9,Devils Lake,DVL,818
+2026,10,Devils Lake,DVL,1391
 2016,1,Fargo,FAR,33828
 2016,2,Fargo,FAR,34497
 2016,3,Fargo,FAR,36953
@@ -495,6 +498,7 @@ year,month,airport,code,boardings
 2026,7,Fargo,FAR,56359
 2026,8,Fargo,FAR,53392
 2026,9,Fargo,FAR,49464
+2026,10,Fargo,FAR,54729
 2016,1,Grand Forks,GFK,10661
 2016,2,Grand Forks,GFK,12394
 2016,3,Grand Forks,GFK,14317
@@ -619,6 +623,7 @@ year,month,airport,code,boardings
 2026,7,Grand Forks,GFK,4657
 2026,8,Grand Forks,GFK,4648
 2026,9,Grand Forks,GFK,5489
+2026,10,Grand Forks,GFK,6156
 2016,1,Williston,ISN,5637
 2016,2,Williston,ISN,5629
 2016,3,Williston,ISN,5232
@@ -743,6 +748,7 @@ year,month,airport,code,boardings
 2026,7,Williston,ISN,8583
 2026,8,Williston,ISN,7530
 2026,9,Williston,ISN,6362
+2026,10,Williston,ISN,6659
 2016,1,Jamestown,JMS,872
 2016,2,Jamestown,JMS,892
 2016,3,Jamestown,JMS,962
@@ -867,6 +873,7 @@ year,month,airport,code,boardings
 2026,7,Jamestown,JMS,1572
 2026,8,Jamestown,JMS,594
 2026,9,Jamestown,JMS,1255
+2026,10,Jamestown,JMS,1402
 2016,1,Minot,MOT,11878
 2016,2,Minot,MOT,12922
 2016,3,Minot,MOT,14928
@@ -991,3 +998,4 @@ year,month,airport,code,boardings
 2026,7,Minot,MOT,15794
 2026,8,Minot,MOT,14498
 2026,9,Minot,MOT,13685
+2026,10,Minot,MOT,14737

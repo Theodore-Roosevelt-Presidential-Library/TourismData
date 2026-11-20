@@ -10548,3 +10548,174 @@ year,month,county,sic,category,taxable_sales,tax_due
 2026,9,Yankton,5999,"Misc. Retail Stores, NEC",59544.44,893.17
 2026,9,Yankton,7011,Hotels & Motels,1298385.38,19475.8
 2026,9,Yankton,7999,"Amusement and Recreation Services, NEC",146580.15,2198.71
+2026,10,Beadle,5999,"Misc. Retail Stores, NEC",464233.3,6963.5
+2026,10,Beadle,7011,Hotels & Motels,744941.51,11174.12
+2026,10,Brookings,5999,"Misc. Retail Stores, NEC",31638.96,474.61
+2026,10,Brookings,7011,Hotels & Motels,1353004.92,20295.07
+2026,10,Brookings,7999,"Amusement and Recreation Services, NEC",38457.95,576.88
+2026,10,Brown,5812,Eating Places,25222.96,378.34
+2026,10,Brown,5813,Drinking Places,58449.31,876.75
+2026,10,Brown,5947,"Gift, Novelty, & Souvenir Shops",5436.99,81.56
+2026,10,Brown,5999,"Misc. Retail Stores, NEC",35583.65,533.76
+2026,10,Brown,7011,Hotels & Motels,2567980.26,38519.71
+2026,10,Brown,7999,"Amusement and Recreation Services, NEC",316232.34,4743.49
+2026,10,Brule,5947,"Gift, Novelty, & Souvenir Shops",77381.58,1160.72
+2026,10,Brule,7011,Hotels & Motels,1094839.03,16422.59
+2026,10,Brule,7032,Sporting & Recreational Camps,264771.23,3971.58
+2026,10,Brule,7033,Trailer Parks & Campsites,44715.11,670.72
+2026,10,Butte,5999,"Misc. Retail Stores, NEC",1955.24,29.34
+2026,10,Butte,7011,Hotels & Motels,366177.8,5492.67
+2026,10,Charles Mix,5999,"Misc. Retail Stores, NEC",915.0,13.73
+2026,10,Charles Mix,7011,Hotels & Motels,102813.33,1542.2
+2026,10,Charles Mix,7032,Sporting & Recreational Camps,404043.93,6060.66
+2026,10,Clay,7011,Hotels & Motels,312406.5,4686.1
+2026,10,Codington,5812,Eating Places,43564.09,653.46
+2026,10,Codington,5999,"Misc. Retail Stores, NEC",4877.01,73.17
+2026,10,Codington,7011,Hotels & Motels,1519983.43,22799.77
+2026,10,Codington,7999,"Amusement and Recreation Services, NEC",23639.81,354.6
+2026,10,Custer,5947,"Gift, Novelty, & Souvenir Shops",1168692.45,17530.39
+2026,10,Custer,5999,"Misc. Retail Stores, NEC",80264.38,1203.98
+2026,10,Custer,7011,Hotels & Motels,5919132.59,88787.02
+2026,10,Custer,7033,Trailer Parks & Campsites,1462538.12,21938.07
+2026,10,Custer,7999,"Amusement and Recreation Services, NEC",311889.11,4678.34
+2026,10,Davison,5812,Eating Places,109742.23,1646.14
+2026,10,Davison,5999,"Misc. Retail Stores, NEC",12406.68,186.13
+2026,10,Davison,7011,Hotels & Motels,2133098.73,31996.48
+2026,10,Davison,7033,Trailer Parks & Campsites,31262.28,468.95
+2026,10,Day,5999,"Misc. Retail Stores, NEC",2557.42,38.37
+2026,10,Day,7011,Hotels & Motels,273512.37,4102.69
+2026,10,Day,7999,"Amusement and Recreation Services, NEC",83319.68,1249.79
+2026,10,Deuel,7011,Hotels & Motels,37269.88,559.05
+2026,10,Dewey,5999,"Misc. Retail Stores, NEC",708.0,10.64
+2026,10,Fall River,5812,Eating Places,53576.7,803.65
+2026,10,Fall River,5999,"Misc. Retail Stores, NEC",11993.7,179.92
+2026,10,Fall River,7011,Hotels & Motels,979355.56,14690.34
+2026,10,Fall River,7033,Trailer Parks & Campsites,79078.57,1186.19
+2026,10,Faulk,7011,Hotels & Motels,76882.87,1153.25
+2026,10,Faulk,7032,Sporting & Recreational Camps,43948.56,659.23
+2026,10,Grant,7011,Hotels & Motels,237110.74,3556.66
+2026,10,Gregory,5999,"Misc. Retail Stores, NEC",2417.0,36.26
+2026,10,Gregory,7011,Hotels & Motels,42301.07,634.52
+2026,10,Gregory,7032,Sporting & Recreational Camps,1203794.43,18056.91
+2026,10,Hamlin,7999,"Amusement and Recreation Services, NEC",93281.4,1399.23
+2026,10,Hand,7011,Hotels & Motels,56747.04,851.2
+2026,10,Hughes,5999,"Misc. Retail Stores, NEC",17033.91,255.51
+2026,10,Hughes,7011,Hotels & Motels,1032091.37,15481.38
+2026,10,Hughes,7514,Passenger Car Rental,74179.22,1112.69
+2026,10,Hughes,7999,"Amusement and Recreation Services, NEC",75798.03,1136.97
+2026,10,Hughes,971,"Hunting, Trapping, Game Propagation",555157.06,8327.37
+2026,10,Hutchinson,5999,"Misc. Retail Stores, NEC",1178.0,17.69
+2026,10,Hyde,5999,"Misc. Retail Stores, NEC",1911.0,28.67
+2026,10,Hyde,7011,Hotels & Motels,15772.12,236.59
+2026,10,Jackson,7011,Hotels & Motels,175888.32,2638.33
+2026,10,Jerauld,7999,"Amusement and Recreation Services, NEC",219032.94,3285.5
+2026,10,Jones,7011,Hotels & Motels,429198.2,6437.97
+2026,10,Kingsbury,7011,Hotels & Motels,69087.85,1036.32
+2026,10,Lake,5999,"Misc. Retail Stores, NEC",869.0,13.04
+2026,10,Lake,7011,Hotels & Motels,359861.68,5397.92
+2026,10,Lawrence,5812,Eating Places,188039.98,2820.62
+2026,10,Lawrence,5947,"Gift, Novelty, & Souvenir Shops",474993.92,7124.91
+2026,10,Lawrence,5999,"Misc. Retail Stores, NEC",99530.92,1492.97
+2026,10,Lawrence,6531,Real Estate Agents & Managers,480594.56,7208.91
+2026,10,Lawrence,7011,Hotels & Motels,9396802.81,140952.05
+2026,10,Lawrence,7032,Sporting & Recreational Camps,186498.9,2797.49
+2026,10,Lawrence,7033,Trailer Parks & Campsites,859278.58,12889.19
+2026,10,Lawrence,7519,Utility Trailer Rental,312883.2,4693.25
+2026,10,Lawrence,7999,"Amusement and Recreation Services, NEC",513181.42,7697.71
+2026,10,Lawrence,8412,Museums & Art Galleries,187730.49,2815.96
+2026,10,Lincoln,5461,Retail Bakeries,16327.26,244.91
+2026,10,Lincoln,5812,Eating Places,57282.64,859.24
+2026,10,Lincoln,5999,"Misc. Retail Stores, NEC",16209.56,243.16
+2026,10,Lincoln,7011,Hotels & Motels,405879.04,6088.2
+2026,10,Lincoln,7999,"Amusement and Recreation Services, NEC",400548.13,6008.22
+2026,10,Lyman,7011,Hotels & Motels,983408.28,14751.14
+2026,10,Lyman,7033,Trailer Parks & Campsites,69664.97,1044.98
+2026,10,Lyman,7999,"Amusement and Recreation Services, NEC",50866.74,763.0
+2026,10,Marshall,7011,Hotels & Motels,59235.88,888.54
+2026,10,McCook,5999,"Misc. Retail Stores, NEC",7373.56,110.62
+2026,10,McCook,7011,Hotels & Motels,55104.88,826.56
+2026,10,McCook,7033,Trailer Parks & Campsites,27672.28,415.08
+2026,10,Meade,5699,Misc. Apparel & Accessory Stores,212694.24,3190.43
+2026,10,Meade,5812,Eating Places,106044.7,1590.68
+2026,10,Meade,5813,Drinking Places,84792.88,1271.9
+2026,10,Meade,5947,"Gift, Novelty, & Souvenir Shops",138954.79,2084.32
+2026,10,Meade,5963,Direct Selling Establishments,26086.82,391.3
+2026,10,Meade,5999,"Misc. Retail Stores, NEC",62123.51,931.89
+2026,10,Meade,7011,Hotels & Motels,1106316.55,16594.75
+2026,10,Meade,7033,Trailer Parks & Campsites,1344953.98,20174.33
+2026,10,Meade,7389,"Business Services, NEC",169955.55,2549.33
+2026,10,Meade,7948,"Racing, Including Track Operation",226568.34,3398.53
+2026,10,Meade,7997,Membership Sports & Recreation Clubs,56957.63,854.36
+2026,10,Meade,7999,"Amusement and Recreation Services, NEC",465705.68,6985.59
+2026,10,Miner,7011,Hotels & Motels,46569.83,698.55
+2026,10,Minnehaha,5461,Retail Bakeries,12452.12,186.79
+2026,10,Minnehaha,5812,Eating Places,892631.38,13389.49
+2026,10,Minnehaha,5813,Drinking Places,120786.16,1811.79
+2026,10,Minnehaha,5941,Sporting Goods & Bicycle Shops,87417.45,1311.27
+2026,10,Minnehaha,5945,"Hobby, Toy, & Game Shops",9066.48,136.0
+2026,10,Minnehaha,5947,"Gift, Novelty, & Souvenir Shops",20563.04,308.45
+2026,10,Minnehaha,5963,Direct Selling Establishments,25031.85,375.5
+2026,10,Minnehaha,5999,"Misc. Retail Stores, NEC",49909.67,748.75
+2026,10,Minnehaha,7011,Hotels & Motels,14442727.76,216640.93
+2026,10,Minnehaha,7033,Trailer Parks & Campsites,282230.14,4233.45
+2026,10,Minnehaha,7359,"Equipment Rental & Leasing, NEC",21103.32,316.55
+2026,10,Minnehaha,7514,Passenger Car Rental,516240.43,7743.6
+2026,10,Minnehaha,7519,Utility Trailer Rental,33454.43,501.83
+2026,10,Minnehaha,7929,Entertainers & Entertainment Groups,9465.5,141.99
+2026,10,Minnehaha,7941,"Sports Clubs, Managers, & Promoters",434704.02,6520.57
+2026,10,Minnehaha,7991,Physical Fitness Facilities,51659.94,774.9
+2026,10,Minnehaha,7992,Public Golf Courses,28777.99,431.67
+2026,10,Minnehaha,7997,Membership Sports & Recreation Clubs,69091.52,1036.37
+2026,10,Minnehaha,7999,"Amusement and Recreation Services, NEC",1112400.79,16686.03
+2026,10,Minnehaha,8422,Botanical and Zoological Gardens,61751.56,926.27
+2026,10,Out of State,5812,Eating Places,1284576.68,19268.66
+2026,10,Out of State,5944,Jewelry Stores,19977.0,299.67
+2026,10,Out of State,5961,Catalog & Mail-Order Houses,222248.74,3333.73
+2026,10,Out of State,5963,Direct Selling Establishments,44473.59,667.1
+2026,10,Out of State,5999,"Misc. Retail Stores, NEC",530909.17,7964.0
+2026,10,Out of State,7011,Hotels & Motels,8497597.14,127463.97
+2026,10,Out of State,7514,Passenger Car Rental,7801925.91,117028.89
+2026,10,Out of State,7999,"Amusement and Recreation Services, NEC",1824719.56,27370.8
+2026,10,Pennington,4119,"Local Passenger Transportation, NEC",194537.68,2918.07
+2026,10,Pennington,4725,Tour Operators,89436.13,1341.54
+2026,10,Pennington,5331,Variety Stores,2318029.72,34770.45
+2026,10,Pennington,5399,Misc. General Merchandise Stores,164589.41,2468.84
+2026,10,Pennington,5441,"Candy, Nut, & Confectionery Stores",218101.5,3271.52
+2026,10,Pennington,5621,Women's Clothing Stores,6886.28,103.29
+2026,10,Pennington,5812,Eating Places,743118.99,11146.8
+2026,10,Pennington,5944,Jewelry Stores,884749.26,13271.24
+2026,10,Pennington,5947,"Gift, Novelty, & Souvenir Shops",5152157.13,77282.37
+2026,10,Pennington,5961,Catalog & Mail-Order Houses,1818.4,27.27
+2026,10,Pennington,5963,Direct Selling Establishments,35050.68,525.77
+2026,10,Pennington,5999,"Misc. Retail Stores, NEC",215189.17,3227.98
+2026,10,Pennington,6531,Real Estate Agents & Managers,932955.49,13994.34
+2026,10,Pennington,7011,Hotels & Motels,24473871.9,367108.1
+2026,10,Pennington,7033,Trailer Parks & Campsites,2309612.16,34644.2
+2026,10,Pennington,7299,"Misc. Personal Services, NEC",110103.34,1651.55
+2026,10,Pennington,7389,"Business Services, NEC",164000.2,2460.01
+2026,10,Pennington,7514,Passenger Car Rental,1573424.04,23601.38
+2026,10,Pennington,7993,Coin-Operated Amusement Devices,366560.54,5498.41
+2026,10,Pennington,7996,Amusement Parks,543744.64,8156.17
+2026,10,Pennington,7997,Membership Sports & Recreation Clubs,54537.29,818.07
+2026,10,Pennington,7999,"Amusement and Recreation Services, NEC",2072308.66,31084.63
+2026,10,Pennington,8412,Museums & Art Galleries,118048.22,1770.73
+2026,10,Perkins,7011,Hotels & Motels,118867.87,1783.02
+2026,10,Potter,5999,"Misc. Retail Stores, NEC",747.8,11.23
+2026,10,Potter,7011,Hotels & Motels,88163.11,1322.46
+2026,10,Roberts,5999,"Misc. Retail Stores, NEC",2749.0,41.25
+2026,10,Roberts,7011,Hotels & Motels,138262.54,2073.95
+2026,10,Spink,5999,"Misc. Retail Stores, NEC",1611.9,24.18
+2026,10,Spink,7011,Hotels & Motels,156099.68,2341.49
+2026,10,Stanley,7011,Hotels & Motels,536099.29,8041.49
+2026,10,State total,TOTAL,All tourism classifications,150568253.93,2258525.88
+2026,10,Sully,7999,"Amusement and Recreation Services, NEC",37963.22,569.45
+2026,10,Tripp,7011,Hotels & Motels,353977.43,5309.67
+2026,10,Tripp,971,"Hunting, Trapping, Game Propagation",263951.17,3959.27
+2026,10,Turner,5999,"Misc. Retail Stores, NEC",5913.28,88.71
+2026,10,Union,5999,"Misc. Retail Stores, NEC",277.0,4.17
+2026,10,Union,7011,Hotels & Motels,575148.38,8627.23
+2026,10,Walworth,7011,Hotels & Motels,331936.25,4979.05
+2026,10,Walworth,7032,Sporting & Recreational Camps,6389.56,95.84
+2026,10,Walworth,7999,"Amusement and Recreation Services, NEC",31825.0,477.38
+2026,10,Yankton,5999,"Misc. Retail Stores, NEC",5414.44,81.21
+2026,10,Yankton,7011,Hotels & Motels,1233205.79,18498.1

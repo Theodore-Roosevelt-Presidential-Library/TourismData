@@ -34856,3 +34856,619 @@ year,month,state,region,arrivals,status
 2026,9,Wyoming,South America,101,preliminary
 2026,9,Wyoming,Total Overseas,1752,preliminary
 2026,9,Wyoming,Western Europe,1066,preliminary
+2026,10,Alabama,Africa,129,preliminary
+2026,10,Alabama,Asia,1815,preliminary
+2026,10,Alabama,Caribbean,226,preliminary
+2026,10,Alabama,Central America,409,preliminary
+2026,10,Alabama,Eastern Europe,282,preliminary
+2026,10,Alabama,Mexico Excl Land,892,preliminary
+2026,10,Alabama,Middle East,157,preliminary
+2026,10,Alabama,Oceania,124,preliminary
+2026,10,Alabama,South America,592,preliminary
+2026,10,Alabama,Total Overseas,6739,preliminary
+2026,10,Alabama,Western Europe,3005,preliminary
+2026,10,Alaska,Africa,27,preliminary
+2026,10,Alaska,Asia,827,preliminary
+2026,10,Alaska,Caribbean,20,preliminary
+2026,10,Alaska,Central America,63,preliminary
+2026,10,Alaska,Eastern Europe,61,preliminary
+2026,10,Alaska,Mexico Excl Land,177,preliminary
+2026,10,Alaska,Middle East,50,preliminary
+2026,10,Alaska,Oceania,86,preliminary
+2026,10,Alaska,South America,114,preliminary
+2026,10,Alaska,Total Overseas,2067,preliminary
+2026,10,Alaska,Western Europe,819,preliminary
+2026,10,Arizona,Africa,258,preliminary
+2026,10,Arizona,Asia,7719,preliminary
+2026,10,Arizona,Caribbean,399,preliminary
+2026,10,Arizona,Central America,606,preliminary
+2026,10,Arizona,Eastern Europe,950,preliminary
+2026,10,Arizona,Mexico Excl Land,5752,preliminary
+2026,10,Arizona,Middle East,647,preliminary
+2026,10,Arizona,Oceania,886,preliminary
+2026,10,Arizona,South America,1412,preliminary
+2026,10,Arizona,Total Overseas,22647,preliminary
+2026,10,Arizona,Western Europe,9770,preliminary
+2026,10,Arkansas,Africa,43,preliminary
+2026,10,Arkansas,Asia,638,preliminary
+2026,10,Arkansas,Caribbean,59,preliminary
+2026,10,Arkansas,Central America,268,preliminary
+2026,10,Arkansas,Eastern Europe,89,preliminary
+2026,10,Arkansas,Mexico Excl Land,613,preliminary
+2026,10,Arkansas,Middle East,75,preliminary
+2026,10,Arkansas,Oceania,91,preliminary
+2026,10,Arkansas,South America,272,preliminary
+2026,10,Arkansas,Total Overseas,2651,preliminary
+2026,10,Arkansas,Western Europe,1116,preliminary
+2026,10,California,Africa,1950,preliminary
+2026,10,California,Asia,128794,preliminary
+2026,10,California,Caribbean,2130,preliminary
+2026,10,California,Central America,17745,preliminary
+2026,10,California,Eastern Europe,16112,preliminary
+2026,10,California,Mexico Excl Land,62590,preliminary
+2026,10,California,Middle East,12173,preliminary
+2026,10,California,Oceania,22853,preliminary
+2026,10,California,South America,29686,preliminary
+2026,10,California,Total Overseas,373403,preliminary
+2026,10,California,Western Europe,141960,preliminary
+2026,10,Colorado,Africa,246,preliminary
+2026,10,Colorado,Asia,3668,preliminary
+2026,10,Colorado,Caribbean,328,preliminary
+2026,10,Colorado,Central America,1082,preliminary
+2026,10,Colorado,Eastern Europe,829,preliminary
+2026,10,Colorado,Mexico Excl Land,4633,preliminary
+2026,10,Colorado,Middle East,577,preliminary
+2026,10,Colorado,Oceania,929,preliminary
+2026,10,Colorado,South America,2107,preliminary
+2026,10,Colorado,Total Overseas,19426,preliminary
+2026,10,Colorado,Western Europe,9660,preliminary
+2026,10,Connecticut,Africa,186,preliminary
+2026,10,Connecticut,Asia,2234,preliminary
+2026,10,Connecticut,Caribbean,1234,preliminary
+2026,10,Connecticut,Central America,619,preliminary
+2026,10,Connecticut,Eastern Europe,726,preliminary
+2026,10,Connecticut,Mexico Excl Land,653,preliminary
+2026,10,Connecticut,Middle East,349,preliminary
+2026,10,Connecticut,Oceania,207,preliminary
+2026,10,Connecticut,South America,2310,preliminary
+2026,10,Connecticut,Total Overseas,14124,preliminary
+2026,10,Connecticut,Western Europe,6259,preliminary
+2026,10,Delaware,Africa,62,preliminary
+2026,10,Delaware,Asia,511,preliminary
+2026,10,Delaware,Caribbean,167,preliminary
+2026,10,Delaware,Central America,139,preliminary
+2026,10,Delaware,Eastern Europe,63,preliminary
+2026,10,Delaware,Mexico Excl Land,210,preliminary
+2026,10,Delaware,Middle East,92,preliminary
+2026,10,Delaware,Oceania,39,preliminary
+2026,10,Delaware,South America,220,preliminary
+2026,10,Delaware,Total Overseas,2176,preliminary
+2026,10,Delaware,Western Europe,883,preliminary
+2026,10,District of Columbia,Africa,613,preliminary
+2026,10,District of Columbia,Asia,3772,preliminary
+2026,10,District of Columbia,Caribbean,392,preliminary
+2026,10,District of Columbia,Central America,1005,preliminary
+2026,10,District of Columbia,Eastern Europe,1227,preliminary
+2026,10,District of Columbia,Mexico Excl Land,1378,preliminary
+2026,10,District of Columbia,Middle East,1670,preliminary
+2026,10,District of Columbia,Oceania,391,preliminary
+2026,10,District of Columbia,South America,3077,preliminary
+2026,10,District of Columbia,Total Overseas,26250,preliminary
+2026,10,District of Columbia,Western Europe,14103,preliminary
+2026,10,Florida,Africa,2668,preliminary
+2026,10,Florida,Asia,14889,preliminary
+2026,10,Florida,Caribbean,57015,preliminary
+2026,10,Florida,Central America,42348,preliminary
+2026,10,Florida,Eastern Europe,13227,preliminary
+2026,10,Florida,Mexico Excl Land,45592,preliminary
+2026,10,Florida,Middle East,8905,preliminary
+2026,10,Florida,Oceania,4450,preliminary
+2026,10,Florida,South America,244618,preliminary
+2026,10,Florida,Total Overseas,605539,preliminary
+2026,10,Florida,Western Europe,217419,preliminary
+2026,10,Georgia,Africa,1334,preliminary
+2026,10,Georgia,Asia,9263,preliminary
+2026,10,Georgia,Caribbean,2886,preliminary
+2026,10,Georgia,Central America,2814,preliminary
+2026,10,Georgia,Eastern Europe,1282,preliminary
+2026,10,Georgia,Mexico Excl Land,4883,preliminary
+2026,10,Georgia,Middle East,1098,preliminary
+2026,10,Georgia,Oceania,759,preliminary
+2026,10,Georgia,South America,6071,preliminary
+2026,10,Georgia,Total Overseas,43072,preliminary
+2026,10,Georgia,Western Europe,17565,preliminary
+2026,10,Grand Total,Africa,28413,preliminary
+2026,10,Grand Total,Asia,638892,preliminary
+2026,10,Grand Total,Caribbean,130580,preliminary
+2026,10,Grand Total,Central America,132646,preliminary
+2026,10,Grand Total,Eastern Europe,97254,preliminary
+2026,10,Grand Total,Mexico Excl Land,327019,preliminary
+2026,10,Grand Total,Middle East,85507,preliminary
+2026,10,Grand Total,Oceania,88695,preliminary
+2026,10,Grand Total,South America,464138,preliminary
+2026,10,Grand Total,Total Overseas,2834188,preliminary
+2026,10,Grand Total,Western Europe,1168063,preliminary
+2026,10,Guam,Africa,5,preliminary
+2026,10,Guam,Asia,23040,preliminary
+2026,10,Guam,Caribbean,3,preliminary
+2026,10,Guam,Central America,5,preliminary
+2026,10,Guam,Eastern Europe,8,preliminary
+2026,10,Guam,Mexico Excl Land,10,preliminary
+2026,10,Guam,Middle East,3,preliminary
+2026,10,Guam,Oceania,82,preliminary
+2026,10,Guam,South America,29,preliminary
+2026,10,Guam,Total Overseas,23264,preliminary
+2026,10,Guam,Western Europe,89,preliminary
+2026,10,Hawaii,Africa,100,preliminary
+2026,10,Hawaii,Asia,71556,preliminary
+2026,10,Hawaii,Caribbean,39,preliminary
+2026,10,Hawaii,Central America,134,preliminary
+2026,10,Hawaii,Eastern Europe,1228,preliminary
+2026,10,Hawaii,Mexico Excl Land,720,preliminary
+2026,10,Hawaii,Middle East,198,preliminary
+2026,10,Hawaii,Oceania,11036,preliminary
+2026,10,Hawaii,South America,861,preliminary
+2026,10,Hawaii,Total Overseas,94136,preliminary
+2026,10,Hawaii,Western Europe,8984,preliminary
+2026,10,Idaho,Africa,16,preliminary
+2026,10,Idaho,Asia,829,preliminary
+2026,10,Idaho,Caribbean,19,preliminary
+2026,10,Idaho,Central America,94,preliminary
+2026,10,Idaho,Eastern Europe,73,preliminary
+2026,10,Idaho,Mexico Excl Land,320,preliminary
+2026,10,Idaho,Middle East,38,preliminary
+2026,10,Idaho,Oceania,106,preliminary
+2026,10,Idaho,South America,148,preliminary
+2026,10,Idaho,Total Overseas,2115,preliminary
+2026,10,Idaho,Western Europe,792,preliminary
+2026,10,Illinois,Africa,1031,preliminary
+2026,10,Illinois,Asia,18329,preliminary
+2026,10,Illinois,Caribbean,1106,preliminary
+2026,10,Illinois,Central America,3691,preliminary
+2026,10,Illinois,Eastern Europe,6264,preliminary
+2026,10,Illinois,Mexico Excl Land,25196,preliminary
+2026,10,Illinois,Middle East,3052,preliminary
+2026,10,Illinois,Oceania,2010,preliminary
+2026,10,Illinois,South America,11807,preliminary
+2026,10,Illinois,Total Overseas,89447,preliminary
+2026,10,Illinois,Western Europe,42157,preliminary
+2026,10,Indiana,Africa,175,preliminary
+2026,10,Indiana,Asia,3207,preliminary
+2026,10,Indiana,Caribbean,313,preliminary
+2026,10,Indiana,Central America,618,preliminary
+2026,10,Indiana,Eastern Europe,311,preliminary
+2026,10,Indiana,Mexico Excl Land,1676,preliminary
+2026,10,Indiana,Middle East,263,preliminary
+2026,10,Indiana,Oceania,219,preliminary
+2026,10,Indiana,South America,1252,preliminary
+2026,10,Indiana,Total Overseas,10900,preliminary
+2026,10,Indiana,Western Europe,4542,preliminary
+2026,10,Iowa,Africa,82,preliminary
+2026,10,Iowa,Asia,657,preliminary
+2026,10,Iowa,Caribbean,52,preliminary
+2026,10,Iowa,Central America,155,preliminary
+2026,10,Iowa,Eastern Europe,111,preliminary
+2026,10,Iowa,Mexico Excl Land,447,preliminary
+2026,10,Iowa,Middle East,73,preliminary
+2026,10,Iowa,Oceania,82,preliminary
+2026,10,Iowa,South America,345,preliminary
+2026,10,Iowa,Total Overseas,3118,preliminary
+2026,10,Iowa,Western Europe,1561,preliminary
+2026,10,Kansas,Africa,72,preliminary
+2026,10,Kansas,Asia,811,preliminary
+2026,10,Kansas,Caribbean,113,preliminary
+2026,10,Kansas,Central America,293,preliminary
+2026,10,Kansas,Eastern Europe,115,preliminary
+2026,10,Kansas,Mexico Excl Land,614,preliminary
+2026,10,Kansas,Middle East,74,preliminary
+2026,10,Kansas,Oceania,102,preliminary
+2026,10,Kansas,South America,425,preliminary
+2026,10,Kansas,Total Overseas,3418,preliminary
+2026,10,Kansas,Western Europe,1413,preliminary
+2026,10,Kentucky,Africa,57,preliminary
+2026,10,Kentucky,Asia,1713,preliminary
+2026,10,Kentucky,Caribbean,123,preliminary
+2026,10,Kentucky,Central America,296,preliminary
+2026,10,Kentucky,Eastern Europe,174,preliminary
+2026,10,Kentucky,Mexico Excl Land,860,preliminary
+2026,10,Kentucky,Middle East,94,preliminary
+2026,10,Kentucky,Oceania,214,preliminary
+2026,10,Kentucky,South America,455,preliminary
+2026,10,Kentucky,Total Overseas,6046,preliminary
+2026,10,Kentucky,Western Europe,2920,preliminary
+2026,10,Louisiana,Africa,167,preliminary
+2026,10,Louisiana,Asia,2282,preliminary
+2026,10,Louisiana,Caribbean,561,preliminary
+2026,10,Louisiana,Central America,1204,preliminary
+2026,10,Louisiana,Eastern Europe,474,preliminary
+2026,10,Louisiana,Mexico Excl Land,1040,preliminary
+2026,10,Louisiana,Middle East,394,preliminary
+2026,10,Louisiana,Oceania,481,preliminary
+2026,10,Louisiana,South America,1397,preliminary
+2026,10,Louisiana,Total Overseas,13987,preliminary
+2026,10,Louisiana,Western Europe,7027,preliminary
+2026,10,Maine,Africa,53,preliminary
+2026,10,Maine,Asia,320,preliminary
+2026,10,Maine,Caribbean,72,preliminary
+2026,10,Maine,Central America,92,preliminary
+2026,10,Maine,Eastern Europe,52,preliminary
+2026,10,Maine,Mexico Excl Land,131,preliminary
+2026,10,Maine,Middle East,38,preliminary
+2026,10,Maine,Oceania,57,preliminary
+2026,10,Maine,South America,208,preliminary
+2026,10,Maine,Total Overseas,2554,preliminary
+2026,10,Maine,Western Europe,1662,preliminary
+2026,10,Maryland,Africa,998,preliminary
+2026,10,Maryland,Asia,4606,preliminary
+2026,10,Maryland,Caribbean,1102,preliminary
+2026,10,Maryland,Central America,2904,preliminary
+2026,10,Maryland,Eastern Europe,594,preliminary
+2026,10,Maryland,Mexico Excl Land,933,preliminary
+2026,10,Maryland,Middle East,810,preliminary
+2026,10,Maryland,Oceania,430,preliminary
+2026,10,Maryland,South America,2811,preliminary
+2026,10,Maryland,Total Overseas,22207,preliminary
+2026,10,Maryland,Western Europe,7952,preliminary
+2026,10,Massachusetts,Africa,1062,preliminary
+2026,10,Massachusetts,Asia,14364,preliminary
+2026,10,Massachusetts,Caribbean,4457,preliminary
+2026,10,Massachusetts,Central America,2600,preliminary
+2026,10,Massachusetts,Eastern Europe,2645,preliminary
+2026,10,Massachusetts,Mexico Excl Land,3950,preliminary
+2026,10,Massachusetts,Middle East,2931,preliminary
+2026,10,Massachusetts,Oceania,1395,preliminary
+2026,10,Massachusetts,South America,7855,preliminary
+2026,10,Massachusetts,Total Overseas,81385,preliminary
+2026,10,Massachusetts,Western Europe,44076,preliminary
+2026,10,Michigan,Africa,313,preliminary
+2026,10,Michigan,Asia,8206,preliminary
+2026,10,Michigan,Caribbean,355,preliminary
+2026,10,Michigan,Central America,397,preliminary
+2026,10,Michigan,Eastern Europe,949,preliminary
+2026,10,Michigan,Mexico Excl Land,3523,preliminary
+2026,10,Michigan,Middle East,824,preliminary
+2026,10,Michigan,Oceania,397,preliminary
+2026,10,Michigan,South America,1694,preliminary
+2026,10,Michigan,Total Overseas,22269,preliminary
+2026,10,Michigan,Western Europe,9134,preliminary
+2026,10,Minnesota,Africa,314,preliminary
+2026,10,Minnesota,Asia,2243,preliminary
+2026,10,Minnesota,Caribbean,179,preliminary
+2026,10,Minnesota,Central America,475,preliminary
+2026,10,Minnesota,Eastern Europe,383,preliminary
+2026,10,Minnesota,Mexico Excl Land,961,preliminary
+2026,10,Minnesota,Middle East,270,preliminary
+2026,10,Minnesota,Oceania,278,preliminary
+2026,10,Minnesota,South America,816,preliminary
+2026,10,Minnesota,Total Overseas,9624,preliminary
+2026,10,Minnesota,Western Europe,4666,preliminary
+2026,10,Mississippi,Africa,12,preliminary
+2026,10,Mississippi,Asia,296,preliminary
+2026,10,Mississippi,Caribbean,89,preliminary
+2026,10,Mississippi,Central America,151,preliminary
+2026,10,Mississippi,Eastern Europe,54,preliminary
+2026,10,Mississippi,Mexico Excl Land,253,preliminary
+2026,10,Mississippi,Middle East,43,preliminary
+2026,10,Mississippi,Oceania,36,preliminary
+2026,10,Mississippi,South America,184,preliminary
+2026,10,Mississippi,Total Overseas,1712,preliminary
+2026,10,Mississippi,Western Europe,847,preliminary
+2026,10,Missouri,Africa,127,preliminary
+2026,10,Missouri,Asia,1455,preliminary
+2026,10,Missouri,Caribbean,228,preliminary
+2026,10,Missouri,Central America,439,preliminary
+2026,10,Missouri,Eastern Europe,277,preliminary
+2026,10,Missouri,Mexico Excl Land,892,preliminary
+2026,10,Missouri,Middle East,179,preliminary
+2026,10,Missouri,Oceania,246,preliminary
+2026,10,Missouri,South America,708,preliminary
+2026,10,Missouri,Total Overseas,6982,preliminary
+2026,10,Missouri,Western Europe,3323,preliminary
+2026,10,Montana,Africa,39,preliminary
+2026,10,Montana,Asia,220,preliminary
+2026,10,Montana,Caribbean,18,preliminary
+2026,10,Montana,Central America,70,preliminary
+2026,10,Montana,Eastern Europe,61,preliminary
+2026,10,Montana,Mexico Excl Land,96,preliminary
+2026,10,Montana,Middle East,18,preliminary
+2026,10,Montana,Oceania,133,preliminary
+2026,10,Montana,South America,127,preliminary
+2026,10,Montana,Total Overseas,1428,preliminary
+2026,10,Montana,Western Europe,742,preliminary
+2026,10,Nebraska,Africa,89,preliminary
+2026,10,Nebraska,Asia,478,preliminary
+2026,10,Nebraska,Caribbean,526,preliminary
+2026,10,Nebraska,Central America,229,preliminary
+2026,10,Nebraska,Eastern Europe,120,preliminary
+2026,10,Nebraska,Mexico Excl Land,513,preliminary
+2026,10,Nebraska,Middle East,84,preliminary
+2026,10,Nebraska,Oceania,76,preliminary
+2026,10,Nebraska,South America,1007,preliminary
+2026,10,Nebraska,Total Overseas,3620,preliminary
+2026,10,Nebraska,Western Europe,1011,preliminary
+2026,10,Nevada,Africa,453,preliminary
+2026,10,Nevada,Asia,15579,preliminary
+2026,10,Nevada,Caribbean,1273,preliminary
+2026,10,Nevada,Central America,2475,preliminary
+2026,10,Nevada,Eastern Europe,3092,preliminary
+2026,10,Nevada,Mexico Excl Land,30331,preliminary
+2026,10,Nevada,Middle East,1921,preliminary
+2026,10,Nevada,Oceania,3769,preliminary
+2026,10,Nevada,South America,8696,preliminary
+2026,10,Nevada,Total Overseas,82217,preliminary
+2026,10,Nevada,Western Europe,44959,preliminary
+2026,10,New Hampshire,Africa,31,preliminary
+2026,10,New Hampshire,Asia,917,preliminary
+2026,10,New Hampshire,Caribbean,220,preliminary
+2026,10,New Hampshire,Central America,138,preliminary
+2026,10,New Hampshire,Eastern Europe,171,preliminary
+2026,10,New Hampshire,Mexico Excl Land,148,preliminary
+2026,10,New Hampshire,Middle East,108,preliminary
+2026,10,New Hampshire,Oceania,73,preliminary
+2026,10,New Hampshire,South America,374,preliminary
+2026,10,New Hampshire,Total Overseas,4286,preliminary
+2026,10,New Hampshire,Western Europe,2254,preliminary
+2026,10,New Jersey,Africa,1145,preliminary
+2026,10,New Jersey,Asia,25016,preliminary
+2026,10,New Jersey,Caribbean,8270,preliminary
+2026,10,New Jersey,Central America,4737,preliminary
+2026,10,New Jersey,Eastern Europe,4577,preliminary
+2026,10,New Jersey,Mexico Excl Land,3825,preliminary
+2026,10,New Jersey,Middle East,4884,preliminary
+2026,10,New Jersey,Oceania,1093,preliminary
+2026,10,New Jersey,South America,14044,preliminary
+2026,10,New Jersey,Total Overseas,103904,preliminary
+2026,10,New Jersey,Western Europe,40138,preliminary
+2026,10,New Mexico,Africa,18,preliminary
+2026,10,New Mexico,Asia,368,preliminary
+2026,10,New Mexico,Caribbean,30,preliminary
+2026,10,New Mexico,Central America,108,preliminary
+2026,10,New Mexico,Eastern Europe,108,preliminary
+2026,10,New Mexico,Mexico Excl Land,199,preliminary
+2026,10,New Mexico,Middle East,39,preliminary
+2026,10,New Mexico,Oceania,105,preliminary
+2026,10,New Mexico,South America,232,preliminary
+2026,10,New Mexico,Total Overseas,2223,preliminary
+2026,10,New Mexico,Western Europe,1215,preliminary
+2026,10,New York,Africa,4213,preliminary
+2026,10,New York,Asia,59667,preliminary
+2026,10,New York,Caribbean,22472,preliminary
+2026,10,New York,Central America,10713,preliminary
+2026,10,New York,Eastern Europe,20911,preliminary
+2026,10,New York,Mexico Excl Land,23512,preliminary
+2026,10,New York,Middle East,24620,preliminary
+2026,10,New York,Oceania,11537,preliminary
+2026,10,New York,South America,56684,preliminary
+2026,10,New York,Total Overseas,513221,preliminary
+2026,10,New York,Western Europe,302404,preliminary
+2026,10,North Carolina,Africa,411,preliminary
+2026,10,North Carolina,Asia,5618,preliminary
+2026,10,North Carolina,Caribbean,1634,preliminary
+2026,10,North Carolina,Central America,2049,preliminary
+2026,10,North Carolina,Eastern Europe,931,preliminary
+2026,10,North Carolina,Mexico Excl Land,3626,preliminary
+2026,10,North Carolina,Middle East,663,preliminary
+2026,10,North Carolina,Oceania,633,preliminary
+2026,10,North Carolina,South America,3209,preliminary
+2026,10,North Carolina,Total Overseas,28238,preliminary
+2026,10,North Carolina,Western Europe,13090,preliminary
+2026,10,North Dakota,Africa,15,preliminary
+2026,10,North Dakota,Asia,224,preliminary
+2026,10,North Dakota,Caribbean,18,preliminary
+2026,10,North Dakota,Central America,32,preliminary
+2026,10,North Dakota,Eastern Europe,19,preliminary
+2026,10,North Dakota,Mexico Excl Land,53,preliminary
+2026,10,North Dakota,Middle East,30,preliminary
+2026,10,North Dakota,Oceania,23,preliminary
+2026,10,North Dakota,South America,47,preliminary
+2026,10,North Dakota,Total Overseas,706,preliminary
+2026,10,North Dakota,Western Europe,298,preliminary
+2026,10,Not Reported,Africa,4147,preliminary
+2026,10,Not Reported,Asia,119733,preliminary
+2026,10,Not Reported,Caribbean,8605,preliminary
+2026,10,Not Reported,Central America,9063,preliminary
+2026,10,Not Reported,Eastern Europe,7558,preliminary
+2026,10,Not Reported,Mexico Excl Land,21983,preliminary
+2026,10,Not Reported,Middle East,7707,preliminary
+2026,10,Not Reported,Oceania,11516,preliminary
+2026,10,Not Reported,South America,23434,preliminary
+2026,10,Not Reported,Total Overseas,251609,preliminary
+2026,10,Not Reported,Western Europe,59846,preliminary
+2026,10,Ohio,Africa,364,preliminary
+2026,10,Ohio,Asia,4236,preliminary
+2026,10,Ohio,Caribbean,485,preliminary
+2026,10,Ohio,Central America,833,preliminary
+2026,10,Ohio,Eastern Europe,670,preliminary
+2026,10,Ohio,Mexico Excl Land,1658,preliminary
+2026,10,Ohio,Middle East,659,preliminary
+2026,10,Ohio,Oceania,503,preliminary
+2026,10,Ohio,South America,1484,preliminary
+2026,10,Ohio,Total Overseas,16360,preliminary
+2026,10,Ohio,Western Europe,7126,preliminary
+2026,10,Oklahoma,Africa,104,preliminary
+2026,10,Oklahoma,Asia,659,preliminary
+2026,10,Oklahoma,Caribbean,97,preliminary
+2026,10,Oklahoma,Central America,388,preliminary
+2026,10,Oklahoma,Eastern Europe,138,preliminary
+2026,10,Oklahoma,Mexico Excl Land,595,preliminary
+2026,10,Oklahoma,Middle East,134,preliminary
+2026,10,Oklahoma,Oceania,168,preliminary
+2026,10,Oklahoma,South America,491,preliminary
+2026,10,Oklahoma,Total Overseas,3660,preliminary
+2026,10,Oklahoma,Western Europe,1481,preliminary
+2026,10,Oregon,Africa,77,preliminary
+2026,10,Oregon,Asia,3741,preliminary
+2026,10,Oregon,Caribbean,93,preliminary
+2026,10,Oregon,Central America,402,preliminary
+2026,10,Oregon,Eastern Europe,275,preliminary
+2026,10,Oregon,Mexico Excl Land,1875,preliminary
+2026,10,Oregon,Middle East,216,preliminary
+2026,10,Oregon,Oceania,393,preliminary
+2026,10,Oregon,South America,679,preliminary
+2026,10,Oregon,Total Overseas,9143,preliminary
+2026,10,Oregon,Western Europe,3267,preliminary
+2026,10,Pennsylvania,Africa,528,preliminary
+2026,10,Pennsylvania,Asia,6145,preliminary
+2026,10,Pennsylvania,Caribbean,3464,preliminary
+2026,10,Pennsylvania,Central America,962,preliminary
+2026,10,Pennsylvania,Eastern Europe,1480,preliminary
+2026,10,Pennsylvania,Mexico Excl Land,2106,preliminary
+2026,10,Pennsylvania,Middle East,1189,preliminary
+2026,10,Pennsylvania,Oceania,697,preliminary
+2026,10,Pennsylvania,South America,2572,preliminary
+2026,10,Pennsylvania,Total Overseas,31061,preliminary
+2026,10,Pennsylvania,Western Europe,14024,preliminary
+2026,10,Puerto Rico,Africa,15,preliminary
+2026,10,Puerto Rico,Asia,134,preliminary
+2026,10,Puerto Rico,Caribbean,3128,preliminary
+2026,10,Puerto Rico,Central America,906,preliminary
+2026,10,Puerto Rico,Eastern Europe,85,preliminary
+2026,10,Puerto Rico,Mexico Excl Land,710,preliminary
+2026,10,Puerto Rico,Middle East,30,preliminary
+2026,10,Puerto Rico,Oceania,57,preliminary
+2026,10,Puerto Rico,South America,2328,preliminary
+2026,10,Puerto Rico,Total Overseas,9117,preliminary
+2026,10,Puerto Rico,Western Europe,2434,preliminary
+2026,10,Rhode Island,Africa,96,preliminary
+2026,10,Rhode Island,Asia,452,preliminary
+2026,10,Rhode Island,Caribbean,541,preliminary
+2026,10,Rhode Island,Central America,396,preliminary
+2026,10,Rhode Island,Eastern Europe,174,preliminary
+2026,10,Rhode Island,Mexico Excl Land,196,preliminary
+2026,10,Rhode Island,Middle East,116,preliminary
+2026,10,Rhode Island,Oceania,67,preliminary
+2026,10,Rhode Island,South America,347,preliminary
+2026,10,Rhode Island,Total Overseas,3947,preliminary
+2026,10,Rhode Island,Western Europe,1758,preliminary
+2026,10,South Carolina,Africa,111,preliminary
+2026,10,South Carolina,Asia,1220,preliminary
+2026,10,South Carolina,Caribbean,409,preliminary
+2026,10,South Carolina,Central America,554,preliminary
+2026,10,South Carolina,Eastern Europe,520,preliminary
+2026,10,South Carolina,Mexico Excl Land,1158,preliminary
+2026,10,South Carolina,Middle East,207,preliminary
+2026,10,South Carolina,Oceania,193,preliminary
+2026,10,South Carolina,South America,1200,preliminary
+2026,10,South Carolina,Total Overseas,9889,preliminary
+2026,10,South Carolina,Western Europe,5475,preliminary
+2026,10,South Dakota,Africa,12,preliminary
+2026,10,South Dakota,Asia,117,preliminary
+2026,10,South Dakota,Caribbean,26,preliminary
+2026,10,South Dakota,Central America,33,preliminary
+2026,10,South Dakota,Eastern Europe,30,preliminary
+2026,10,South Dakota,Mexico Excl Land,78,preliminary
+2026,10,South Dakota,Middle East,15,preliminary
+2026,10,South Dakota,Oceania,55,preliminary
+2026,10,South Dakota,South America,57,preliminary
+2026,10,South Dakota,Total Overseas,682,preliminary
+2026,10,South Dakota,Western Europe,337,preliminary
+2026,10,Tennessee,Africa,251,preliminary
+2026,10,Tennessee,Asia,2727,preliminary
+2026,10,Tennessee,Caribbean,653,preliminary
+2026,10,Tennessee,Central America,1119,preliminary
+2026,10,Tennessee,Eastern Europe,529,preliminary
+2026,10,Tennessee,Mexico Excl Land,2584,preliminary
+2026,10,Tennessee,Middle East,360,preliminary
+2026,10,Tennessee,Oceania,810,preliminary
+2026,10,Tennessee,South America,1473,preliminary
+2026,10,Tennessee,Total Overseas,22054,preliminary
+2026,10,Tennessee,Western Europe,14132,preliminary
+2026,10,Texas,Africa,2401,preliminary
+2026,10,Texas,Asia,31165,preliminary
+2026,10,Texas,Caribbean,2816,preliminary
+2026,10,Texas,Central America,11547,preliminary
+2026,10,Texas,Eastern Europe,3533,preliminary
+2026,10,Texas,Mexico Excl Land,54365,preliminary
+2026,10,Texas,Middle East,4138,preliminary
+2026,10,Texas,Oceania,5356,preliminary
+2026,10,Texas,South America,15036,preliminary
+2026,10,Texas,Total Overseas,126862,preliminary
+2026,10,Texas,Western Europe,50870,preliminary
+2026,10,Utah,Africa,118,preliminary
+2026,10,Utah,Asia,2251,preliminary
+2026,10,Utah,Caribbean,134,preliminary
+2026,10,Utah,Central America,404,preliminary
+2026,10,Utah,Eastern Europe,405,preliminary
+2026,10,Utah,Mexico Excl Land,1603,preliminary
+2026,10,Utah,Middle East,142,preliminary
+2026,10,Utah,Oceania,585,preliminary
+2026,10,Utah,South America,1453,preliminary
+2026,10,Utah,Total Overseas,9023,preliminary
+2026,10,Utah,Western Europe,3531,preliminary
+2026,10,Vermont,Africa,30,preliminary
+2026,10,Vermont,Asia,278,preliminary
+2026,10,Vermont,Caribbean,68,preliminary
+2026,10,Vermont,Central America,41,preliminary
+2026,10,Vermont,Eastern Europe,53,preliminary
+2026,10,Vermont,Mexico Excl Land,53,preliminary
+2026,10,Vermont,Middle East,69,preliminary
+2026,10,Vermont,Oceania,44,preliminary
+2026,10,Vermont,South America,175,preliminary
+2026,10,Vermont,Total Overseas,1765,preliminary
+2026,10,Vermont,Western Europe,1007,preliminary
+2026,10,Virgin Islands,Africa,64,preliminary
+2026,10,Virgin Islands,Asia,34,preliminary
+2026,10,Virgin Islands,Caribbean,547,preliminary
+2026,10,Virgin Islands,Central America,40,preliminary
+2026,10,Virgin Islands,Eastern Europe,17,preliminary
+2026,10,Virgin Islands,Mexico Excl Land,33,preliminary
+2026,10,Virgin Islands,Middle East,2,preliminary
+2026,10,Virgin Islands,Oceania,35,preliminary
+2026,10,Virgin Islands,South America,96,preliminary
+2026,10,Virgin Islands,Total Overseas,1236,preliminary
+2026,10,Virgin Islands,Western Europe,401,preliminary
+2026,10,Virginia,Africa,852,preliminary
+2026,10,Virginia,Asia,6578,preliminary
+2026,10,Virginia,Caribbean,741,preliminary
+2026,10,Virginia,Central America,3243,preliminary
+2026,10,Virginia,Eastern Europe,1149,preliminary
+2026,10,Virginia,Mexico Excl Land,1365,preliminary
+2026,10,Virginia,Middle East,1360,preliminary
+2026,10,Virginia,Oceania,595,preliminary
+2026,10,Virginia,South America,3841,preliminary
+2026,10,Virginia,Total Overseas,30782,preliminary
+2026,10,Virginia,Western Europe,12423,preliminary
+2026,10,Washington,Africa,620,preliminary
+2026,10,Washington,Asia,21460,preliminary
+2026,10,Washington,Caribbean,380,preliminary
+2026,10,Washington,Central America,1095,preliminary
+2026,10,Washington,Eastern Europe,1630,preliminary
+2026,10,Washington,Mexico Excl Land,3691,preliminary
+2026,10,Washington,Middle East,1496,preliminary
+2026,10,Washington,Oceania,1923,preliminary
+2026,10,Washington,South America,2647,preliminary
+2026,10,Washington,Total Overseas,46343,preliminary
+2026,10,Washington,Western Europe,15092,preliminary
+2026,10,West Virginia,Africa,17,preliminary
+2026,10,West Virginia,Asia,186,preliminary
+2026,10,West Virginia,Caribbean,40,preliminary
+2026,10,West Virginia,Central America,50,preliminary
+2026,10,West Virginia,Eastern Europe,38,preliminary
+2026,10,West Virginia,Mexico Excl Land,53,preliminary
+2026,10,West Virginia,Middle East,34,preliminary
+2026,10,West Virginia,Oceania,22,preliminary
+2026,10,West Virginia,South America,102,preliminary
+2026,10,West Virginia,Total Overseas,1049,preliminary
+2026,10,West Virginia,Western Europe,560,preliminary
+2026,10,Wisconsin,Africa,85,preliminary
+2026,10,Wisconsin,Asia,1540,preliminary
+2026,10,Wisconsin,Caribbean,213,preliminary
+2026,10,Wisconsin,Central America,318,preliminary
+2026,10,Wisconsin,Eastern Europe,381,preliminary
+2026,10,Wisconsin,Mexico Excl Land,1637,preliminary
+2026,10,Wisconsin,Middle East,175,preliminary
+2026,10,Wisconsin,Oceania,202,preliminary
+2026,10,Wisconsin,South America,759,preliminary
+2026,10,Wisconsin,Total Overseas,7698,preliminary
+2026,10,Wisconsin,Western Europe,4025,preliminary
+2026,10,Wyoming,Africa,7,preliminary
+2026,10,Wyoming,Asia,105,preliminary
+2026,10,Wyoming,Caribbean,12,preliminary
+2026,10,Wyoming,Central America,55,preliminary
+2026,10,Wyoming,Eastern Europe,39,preliminary
+2026,10,Wyoming,Mexico Excl Land,74,preliminary
+2026,10,Wyoming,Middle East,14,preliminary
+2026,10,Wyoming,Oceania,46,preliminary
+2026,10,Wyoming,South America,70,preliminary
+2026,10,Wyoming,Total Overseas,807,preliminary
+2026,10,Wyoming,Western Europe,459,preliminary
