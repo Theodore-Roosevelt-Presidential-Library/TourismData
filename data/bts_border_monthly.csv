@@ -104,6 +104,7 @@ Del Bonita,Montana,3322,2026-06-01,Personal Vehicle Passengers,2960
 Del Bonita,Montana,3322,2026-07-01,Personal Vehicle Passengers,5518
 Del Bonita,Montana,3322,2026-08-01,Personal Vehicle Passengers,4674
 Del Bonita,Montana,3322,2026-09-01,Personal Vehicle Passengers,2461
+Del Bonita,Montana,3322,2026-10-01,Personal Vehicle Passengers,2319
 Del Bonita,Montana,3322,2019-01-01,Personal Vehicles,1462
 Del Bonita,Montana,3322,2019-02-01,Personal Vehicles,1440
 Del Bonita,Montana,3322,2019-03-01,Personal Vehicles,1540
@@ -197,6 +198,7 @@ Del Bonita,Montana,3322,2026-06-01,Personal Vehicles,1404
 Del Bonita,Montana,3322,2026-07-01,Personal Vehicles,2364
 Del Bonita,Montana,3322,2026-08-01,Personal Vehicles,2024
 Del Bonita,Montana,3322,2026-09-01,Personal Vehicles,1339
+Del Bonita,Montana,3322,2026-10-01,Personal Vehicles,1163
 Morgan,Montana,3319,2019-04-01,Buses,1
 Morgan,Montana,3319,2025-09-01,Buses,1
 Morgan,Montana,3319,2019-01-01,Personal Vehicle Passengers,540
@@ -292,6 +294,7 @@ Morgan,Montana,3319,2026-06-01,Personal Vehicle Passengers,642
 Morgan,Montana,3319,2026-07-01,Personal Vehicle Passengers,931
 Morgan,Montana,3319,2026-08-01,Personal Vehicle Passengers,720
 Morgan,Montana,3319,2026-09-01,Personal Vehicle Passengers,520
+Morgan,Montana,3319,2026-10-01,Personal Vehicle Passengers,582
 Morgan,Montana,3319,2019-01-01,Personal Vehicles,268
 Morgan,Montana,3319,2019-02-01,Personal Vehicles,299
 Morgan,Montana,3319,2019-03-01,Personal Vehicles,296
@@ -385,6 +388,7 @@ Morgan,Montana,3319,2026-06-01,Personal Vehicles,298
 Morgan,Montana,3319,2026-07-01,Personal Vehicles,406
 Morgan,Montana,3319,2026-08-01,Personal Vehicles,344
 Morgan,Montana,3319,2026-09-01,Personal Vehicles,290
+Morgan,Montana,3319,2026-10-01,Personal Vehicles,295
 Opheim,Montana,3317,2019-08-01,Bus Passengers,38
 Opheim,Montana,3317,2019-09-01,Bus Passengers,2
 Opheim,Montana,3317,2022-10-01,Bus Passengers,16
@@ -521,6 +525,7 @@ Opheim,Montana,3317,2026-06-01,Personal Vehicle Passengers,416
 Opheim,Montana,3317,2026-07-01,Personal Vehicle Passengers,585
 Opheim,Montana,3317,2026-08-01,Personal Vehicle Passengers,511
 Opheim,Montana,3317,2026-09-01,Personal Vehicle Passengers,269
+Opheim,Montana,3317,2026-10-01,Personal Vehicle Passengers,269
 Opheim,Montana,3317,2019-01-01,Personal Vehicles,206
 Opheim,Montana,3317,2019-02-01,Personal Vehicles,130
 Opheim,Montana,3317,2019-03-01,Personal Vehicles,235
@@ -614,6 +619,7 @@ Opheim,Montana,3317,2026-06-01,Personal Vehicles,227
 Opheim,Montana,3317,2026-07-01,Personal Vehicles,300
 Opheim,Montana,3317,2026-08-01,Personal Vehicles,269
 Opheim,Montana,3317,2026-09-01,Personal Vehicles,158
+Opheim,Montana,3317,2026-10-01,Personal Vehicles,161
 Piegan,Montana,3316,2019-05-01,Bus Passengers,87
 Piegan,Montana,3316,2019-06-01,Bus Passengers,579
 Piegan,Montana,3316,2019-07-01,Bus Passengers,656
@@ -633,6 +639,7 @@ Piegan,Montana,3316,2025-09-01,Bus Passengers,1596
 Piegan,Montana,3316,2026-07-01,Bus Passengers,56
 Piegan,Montana,3316,2026-08-01,Bus Passengers,49
 Piegan,Montana,3316,2026-09-01,Bus Passengers,25
+Piegan,Montana,3316,2026-10-01,Bus Passengers,28
 Piegan,Montana,3316,2019-05-01,Buses,2
 Piegan,Montana,3316,2019-06-01,Buses,15
 Piegan,Montana,3316,2019-07-01,Buses,20
@@ -651,6 +658,7 @@ Piegan,Montana,3316,2025-09-01,Buses,27
 Piegan,Montana,3316,2026-07-01,Buses,2
 Piegan,Montana,3316,2026-08-01,Buses,3
 Piegan,Montana,3316,2026-09-01,Buses,2
+Piegan,Montana,3316,2026-10-01,Buses,1
 Piegan,Montana,3316,2019-01-01,Personal Vehicle Passengers,5931
 Piegan,Montana,3316,2019-02-01,Personal Vehicle Passengers,5897
 Piegan,Montana,3316,2019-03-01,Personal Vehicle Passengers,8140
@@ -744,6 +752,7 @@ Piegan,Montana,3316,2026-06-01,Personal Vehicle Passengers,17613
 Piegan,Montana,3316,2026-07-01,Personal Vehicle Passengers,35030
 Piegan,Montana,3316,2026-08-01,Personal Vehicle Passengers,28944
 Piegan,Montana,3316,2026-09-01,Personal Vehicle Passengers,17148
+Piegan,Montana,3316,2026-10-01,Personal Vehicle Passengers,11291
 Piegan,Montana,3316,2019-01-01,Personal Vehicles,3064
 Piegan,Montana,3316,2019-02-01,Personal Vehicles,2824
 Piegan,Montana,3316,2019-03-01,Personal Vehicles,3859
@@ -837,6 +846,7 @@ Piegan,Montana,3316,2026-06-01,Personal Vehicles,7657
 Piegan,Montana,3316,2026-07-01,Personal Vehicles,14096
 Piegan,Montana,3316,2026-08-01,Personal Vehicles,11871
 Piegan,Montana,3316,2026-09-01,Personal Vehicles,8183
+Piegan,Montana,3316,2026-10-01,Personal Vehicles,5466
 Raymond,Montana,3301,2019-03-01,Bus Passengers,27
 Raymond,Montana,3301,2019-05-01,Bus Passengers,143
 Raymond,Montana,3301,2019-06-01,Bus Passengers,36
@@ -903,6 +913,7 @@ Raymond,Montana,3301,2024-05-01,Buses,2
 Raymond,Montana,3301,2024-07-01,Buses,4
 Raymond,Montana,3301,2024-09-01,Buses,1
 Raymond,Montana,3301,2024-10-01,Buses,1
+Raymond,Montana,3301,2024-11-01,Buses,1
 Raymond,Montana,3301,2024-12-01,Buses,1
 Raymond,Montana,3301,2025-03-01,Buses,1
 Raymond,Montana,3301,2025-04-01,Buses,4
@@ -987,7 +998,6 @@ Raymond,Montana,3301,2024-08-01,Personal Vehicle Passengers,6193
 Raymond,Montana,3301,2024-09-01,Personal Vehicle Passengers,3952
 Raymond,Montana,3301,2024-10-01,Personal Vehicle Passengers,4324
 Raymond,Montana,3301,2024-11-01,Personal Vehicle Passengers,2823
-Raymond,Montana,3301,2024-11-01,Personal Vehicle Passengers,2823
 Raymond,Montana,3301,2024-12-01,Personal Vehicle Passengers,3542
 Raymond,Montana,3301,2025-01-01,Personal Vehicle Passengers,2081
 Raymond,Montana,3301,2025-02-01,Personal Vehicle Passengers,1981
@@ -1010,6 +1020,7 @@ Raymond,Montana,3301,2026-06-01,Personal Vehicle Passengers,3633
 Raymond,Montana,3301,2026-07-01,Personal Vehicle Passengers,4722
 Raymond,Montana,3301,2026-08-01,Personal Vehicle Passengers,4558
 Raymond,Montana,3301,2026-09-01,Personal Vehicle Passengers,2947
+Raymond,Montana,3301,2026-10-01,Personal Vehicle Passengers,3383
 Raymond,Montana,3301,2019-01-01,Personal Vehicles,1487
 Raymond,Montana,3301,2019-02-01,Personal Vehicles,1348
 Raymond,Montana,3301,2019-03-01,Personal Vehicles,1591
@@ -1103,6 +1114,7 @@ Raymond,Montana,3301,2026-06-01,Personal Vehicles,1761
 Raymond,Montana,3301,2026-07-01,Personal Vehicles,2199
 Raymond,Montana,3301,2026-08-01,Personal Vehicles,2232
 Raymond,Montana,3301,2026-09-01,Personal Vehicles,1565
+Raymond,Montana,3301,2026-10-01,Personal Vehicles,1776
 Roosville,Montana,3318,2019-01-01,Bus Passengers,212
 Roosville,Montana,3318,2019-02-01,Bus Passengers,70
 Roosville,Montana,3318,2019-03-01,Bus Passengers,252
@@ -1289,6 +1301,7 @@ Roosville,Montana,3318,2026-06-01,Personal Vehicle Passengers,26483
 Roosville,Montana,3318,2026-07-01,Personal Vehicle Passengers,42943
 Roosville,Montana,3318,2026-08-01,Personal Vehicle Passengers,35525
 Roosville,Montana,3318,2026-09-01,Personal Vehicle Passengers,22614
+Roosville,Montana,3318,2026-10-01,Personal Vehicle Passengers,14844
 Roosville,Montana,3318,2019-01-01,Personal Vehicles,7414
 Roosville,Montana,3318,2019-02-01,Personal Vehicles,7951
 Roosville,Montana,3318,2019-03-01,Personal Vehicles,9282
@@ -1382,6 +1395,7 @@ Roosville,Montana,3318,2026-06-01,Personal Vehicles,12423
 Roosville,Montana,3318,2026-07-01,Personal Vehicles,19467
 Roosville,Montana,3318,2026-08-01,Personal Vehicles,16559
 Roosville,Montana,3318,2026-09-01,Personal Vehicles,11643
+Roosville,Montana,3318,2026-10-01,Personal Vehicles,7620
 Scobey,Montana,3309,2024-10-01,Bus Passengers,33
 Scobey,Montana,3309,2024-10-01,Buses,1
 Scobey,Montana,3309,2019-01-01,Personal Vehicle Passengers,627
@@ -1477,6 +1491,7 @@ Scobey,Montana,3309,2026-06-01,Personal Vehicle Passengers,915
 Scobey,Montana,3309,2026-07-01,Personal Vehicle Passengers,1281
 Scobey,Montana,3309,2026-08-01,Personal Vehicle Passengers,1329
 Scobey,Montana,3309,2026-09-01,Personal Vehicle Passengers,758
+Scobey,Montana,3309,2026-10-01,Personal Vehicle Passengers,833
 Scobey,Montana,3309,2019-01-01,Personal Vehicles,361
 Scobey,Montana,3309,2019-02-01,Personal Vehicles,277
 Scobey,Montana,3309,2019-03-01,Personal Vehicles,325
@@ -1570,6 +1585,7 @@ Scobey,Montana,3309,2026-06-01,Personal Vehicles,475
 Scobey,Montana,3309,2026-07-01,Personal Vehicles,615
 Scobey,Montana,3309,2026-08-01,Personal Vehicles,651
 Scobey,Montana,3309,2026-09-01,Personal Vehicles,416
+Scobey,Montana,3309,2026-10-01,Personal Vehicles,463
 Sweetgrass,Montana,3310,2019-01-01,Bus Passengers,158
 Sweetgrass,Montana,3310,2019-02-01,Bus Passengers,509
 Sweetgrass,Montana,3310,2019-03-01,Bus Passengers,297
@@ -1625,6 +1641,7 @@ Sweetgrass,Montana,3310,2026-06-01,Bus Passengers,15
 Sweetgrass,Montana,3310,2026-07-01,Bus Passengers,92
 Sweetgrass,Montana,3310,2026-08-01,Bus Passengers,65
 Sweetgrass,Montana,3310,2026-09-01,Bus Passengers,75
+Sweetgrass,Montana,3310,2026-10-01,Bus Passengers,33
 Sweetgrass,Montana,3310,2019-01-01,Buses,5
 Sweetgrass,Montana,3310,2019-02-01,Buses,18
 Sweetgrass,Montana,3310,2019-03-01,Buses,8
@@ -1681,6 +1698,7 @@ Sweetgrass,Montana,3310,2026-06-01,Buses,1
 Sweetgrass,Montana,3310,2026-07-01,Buses,6
 Sweetgrass,Montana,3310,2026-08-01,Buses,2
 Sweetgrass,Montana,3310,2026-09-01,Buses,2
+Sweetgrass,Montana,3310,2026-10-01,Buses,1
 Sweetgrass,Montana,3310,2019-01-01,Personal Vehicle Passengers,26861
 Sweetgrass,Montana,3310,2019-02-01,Personal Vehicle Passengers,21545
 Sweetgrass,Montana,3310,2019-03-01,Personal Vehicle Passengers,25362
@@ -1774,6 +1792,7 @@ Sweetgrass,Montana,3310,2026-06-01,Personal Vehicle Passengers,27110
 Sweetgrass,Montana,3310,2026-07-01,Personal Vehicle Passengers,39379
 Sweetgrass,Montana,3310,2026-08-01,Personal Vehicle Passengers,35336
 Sweetgrass,Montana,3310,2026-09-01,Personal Vehicle Passengers,25079
+Sweetgrass,Montana,3310,2026-10-01,Personal Vehicle Passengers,29319
 Sweetgrass,Montana,3310,2019-01-01,Personal Vehicles,13673
 Sweetgrass,Montana,3310,2019-02-01,Personal Vehicles,10355
 Sweetgrass,Montana,3310,2019-03-01,Personal Vehicles,12414
@@ -1867,6 +1886,7 @@ Sweetgrass,Montana,3310,2026-06-01,Personal Vehicles,12322
 Sweetgrass,Montana,3310,2026-07-01,Personal Vehicles,16399
 Sweetgrass,Montana,3310,2026-08-01,Personal Vehicles,15805
 Sweetgrass,Montana,3310,2026-09-01,Personal Vehicles,12656
+Sweetgrass,Montana,3310,2026-10-01,Personal Vehicles,14931
 Turner,Montana,3306,2019-02-01,Bus Passengers,48
 Turner,Montana,3306,2019-03-01,Bus Passengers,37
 Turner,Montana,3306,2019-04-01,Bus Passengers,65
@@ -2009,6 +2029,7 @@ Turner,Montana,3306,2026-06-01,Personal Vehicle Passengers,653
 Turner,Montana,3306,2026-07-01,Personal Vehicle Passengers,1585
 Turner,Montana,3306,2026-08-01,Personal Vehicle Passengers,970
 Turner,Montana,3306,2026-09-01,Personal Vehicle Passengers,590
+Turner,Montana,3306,2026-10-01,Personal Vehicle Passengers,1015
 Turner,Montana,3306,2019-01-01,Personal Vehicles,667
 Turner,Montana,3306,2019-02-01,Personal Vehicles,481
 Turner,Montana,3306,2019-03-01,Personal Vehicles,486
@@ -2102,6 +2123,7 @@ Turner,Montana,3306,2026-06-01,Personal Vehicles,329
 Turner,Montana,3306,2026-07-01,Personal Vehicles,669
 Turner,Montana,3306,2026-08-01,Personal Vehicles,445
 Turner,Montana,3306,2026-09-01,Personal Vehicles,320
+Turner,Montana,3306,2026-10-01,Personal Vehicles,522
 Whitlash,Montana,3321,2019-01-01,Personal Vehicle Passengers,91
 Whitlash,Montana,3321,2019-02-01,Personal Vehicle Passengers,98
 Whitlash,Montana,3321,2019-03-01,Personal Vehicle Passengers,134
@@ -2195,6 +2217,7 @@ Whitlash,Montana,3321,2026-06-01,Personal Vehicle Passengers,107
 Whitlash,Montana,3321,2026-07-01,Personal Vehicle Passengers,143
 Whitlash,Montana,3321,2026-08-01,Personal Vehicle Passengers,129
 Whitlash,Montana,3321,2026-09-01,Personal Vehicle Passengers,98
+Whitlash,Montana,3321,2026-10-01,Personal Vehicle Passengers,73
 Whitlash,Montana,3321,2019-01-01,Personal Vehicles,41
 Whitlash,Montana,3321,2019-02-01,Personal Vehicles,31
 Whitlash,Montana,3321,2019-03-01,Personal Vehicles,63
@@ -2288,6 +2311,7 @@ Whitlash,Montana,3321,2026-06-01,Personal Vehicles,52
 Whitlash,Montana,3321,2026-07-01,Personal Vehicles,70
 Whitlash,Montana,3321,2026-08-01,Personal Vehicles,67
 Whitlash,Montana,3321,2026-09-01,Personal Vehicles,48
+Whitlash,Montana,3321,2026-10-01,Personal Vehicles,39
 Wildhorse,Montana,3323,2019-03-01,Bus Passengers,11
 Wildhorse,Montana,3323,2019-06-01,Bus Passengers,50
 Wildhorse,Montana,3323,2022-09-01,Bus Passengers,42
@@ -2398,6 +2422,7 @@ Wildhorse,Montana,3323,2026-06-01,Personal Vehicle Passengers,2680
 Wildhorse,Montana,3323,2026-07-01,Personal Vehicle Passengers,4686
 Wildhorse,Montana,3323,2026-08-01,Personal Vehicle Passengers,4040
 Wildhorse,Montana,3323,2026-09-01,Personal Vehicle Passengers,2235
+Wildhorse,Montana,3323,2026-10-01,Personal Vehicle Passengers,1774
 Wildhorse,Montana,3323,2019-01-01,Personal Vehicles,531
 Wildhorse,Montana,3323,2019-02-01,Personal Vehicles,347
 Wildhorse,Montana,3323,2019-03-01,Personal Vehicles,595
@@ -2491,6 +2516,7 @@ Wildhorse,Montana,3323,2026-06-01,Personal Vehicles,1226
 Wildhorse,Montana,3323,2026-07-01,Personal Vehicles,1933
 Wildhorse,Montana,3323,2026-08-01,Personal Vehicles,1748
 Wildhorse,Montana,3323,2026-09-01,Personal Vehicles,1121
+Wildhorse,Montana,3323,2026-10-01,Personal Vehicles,848
 Willow Creek,Montana,3325,2022-08-01,Bus Passengers,40
 Willow Creek,Montana,3325,2023-03-01,Bus Passengers,90
 Willow Creek,Montana,3325,2022-08-01,Buses,1
@@ -2588,6 +2614,7 @@ Willow Creek,Montana,3325,2026-06-01,Personal Vehicle Passengers,583
 Willow Creek,Montana,3325,2026-07-01,Personal Vehicle Passengers,903
 Willow Creek,Montana,3325,2026-08-01,Personal Vehicle Passengers,927
 Willow Creek,Montana,3325,2026-09-01,Personal Vehicle Passengers,515
+Willow Creek,Montana,3325,2026-10-01,Personal Vehicle Passengers,554
 Willow Creek,Montana,3325,2019-01-01,Personal Vehicles,181
 Willow Creek,Montana,3325,2019-02-01,Personal Vehicles,143
 Willow Creek,Montana,3325,2019-03-01,Personal Vehicles,179
@@ -2681,6 +2708,7 @@ Willow Creek,Montana,3325,2026-06-01,Personal Vehicles,266
 Willow Creek,Montana,3325,2026-07-01,Personal Vehicles,366
 Willow Creek,Montana,3325,2026-08-01,Personal Vehicles,405
 Willow Creek,Montana,3325,2026-09-01,Personal Vehicles,266
+Willow Creek,Montana,3325,2026-10-01,Personal Vehicles,261
 Ambrose,North Dakota,3410,2019-01-01,Personal Vehicle Passengers,148
 Ambrose,North Dakota,3410,2019-02-01,Personal Vehicle Passengers,129
 Ambrose,North Dakota,3410,2019-03-01,Personal Vehicle Passengers,128
@@ -2773,6 +2801,7 @@ Ambrose,North Dakota,3410,2026-06-01,Personal Vehicle Passengers,177
 Ambrose,North Dakota,3410,2026-07-01,Personal Vehicle Passengers,408
 Ambrose,North Dakota,3410,2026-08-01,Personal Vehicle Passengers,294
 Ambrose,North Dakota,3410,2026-09-01,Personal Vehicle Passengers,208
+Ambrose,North Dakota,3410,2026-10-01,Personal Vehicle Passengers,129
 Ambrose,North Dakota,3410,2019-01-01,Personal Vehicles,84
 Ambrose,North Dakota,3410,2019-02-01,Personal Vehicles,70
 Ambrose,North Dakota,3410,2019-03-01,Personal Vehicles,78
@@ -2865,6 +2894,7 @@ Ambrose,North Dakota,3410,2026-06-01,Personal Vehicles,110
 Ambrose,North Dakota,3410,2026-07-01,Personal Vehicles,217
 Ambrose,North Dakota,3410,2026-08-01,Personal Vehicles,163
 Ambrose,North Dakota,3410,2026-09-01,Personal Vehicles,133
+Ambrose,North Dakota,3410,2026-10-01,Personal Vehicles,81
 Antler,North Dakota,3413,2019-08-01,Bus Passengers,17
 Antler,North Dakota,3413,2026-03-01,Bus Passengers,23
 Antler,North Dakota,3413,2026-04-01,Bus Passengers,22
@@ -2966,6 +2996,7 @@ Antler,North Dakota,3413,2026-06-01,Personal Vehicle Passengers,1222
 Antler,North Dakota,3413,2026-07-01,Personal Vehicle Passengers,1528
 Antler,North Dakota,3413,2026-08-01,Personal Vehicle Passengers,1607
 Antler,North Dakota,3413,2026-09-01,Personal Vehicle Passengers,1024
+Antler,North Dakota,3413,2026-10-01,Personal Vehicle Passengers,1188
 Antler,North Dakota,3413,2019-01-01,Personal Vehicles,358
 Antler,North Dakota,3413,2019-02-01,Personal Vehicles,361
 Antler,North Dakota,3413,2019-03-01,Personal Vehicles,500
@@ -3059,6 +3090,7 @@ Antler,North Dakota,3413,2026-06-01,Personal Vehicles,645
 Antler,North Dakota,3413,2026-07-01,Personal Vehicles,778
 Antler,North Dakota,3413,2026-08-01,Personal Vehicles,812
 Antler,North Dakota,3413,2026-09-01,Personal Vehicles,586
+Antler,North Dakota,3413,2026-10-01,Personal Vehicles,627
 Carbury,North Dakota,3421,2019-01-01,Bus Passengers,89
 Carbury,North Dakota,3421,2019-02-01,Bus Passengers,84
 Carbury,North Dakota,3421,2019-03-01,Bus Passengers,32
@@ -3168,6 +3200,7 @@ Carbury,North Dakota,3421,2026-06-01,Personal Vehicle Passengers,1103
 Carbury,North Dakota,3421,2026-07-01,Personal Vehicle Passengers,1709
 Carbury,North Dakota,3421,2026-08-01,Personal Vehicle Passengers,1740
 Carbury,North Dakota,3421,2026-09-01,Personal Vehicle Passengers,1291
+Carbury,North Dakota,3421,2026-10-01,Personal Vehicle Passengers,1373
 Carbury,North Dakota,3421,2019-01-01,Personal Vehicles,909
 Carbury,North Dakota,3421,2019-02-01,Personal Vehicles,913
 Carbury,North Dakota,3421,2019-03-01,Personal Vehicles,974
@@ -3261,6 +3294,7 @@ Carbury,North Dakota,3421,2026-06-01,Personal Vehicles,585
 Carbury,North Dakota,3421,2026-07-01,Personal Vehicles,840
 Carbury,North Dakota,3421,2026-08-01,Personal Vehicles,850
 Carbury,North Dakota,3421,2026-09-01,Personal Vehicles,683
+Carbury,North Dakota,3421,2026-10-01,Personal Vehicles,710
 Dunseith,North Dakota,3422,2019-01-01,Bus Passengers,28
 Dunseith,North Dakota,3422,2019-02-01,Bus Passengers,23
 Dunseith,North Dakota,3422,2019-03-01,Bus Passengers,72
@@ -3311,6 +3345,7 @@ Dunseith,North Dakota,3422,2026-06-01,Bus Passengers,104
 Dunseith,North Dakota,3422,2026-07-01,Bus Passengers,34
 Dunseith,North Dakota,3422,2026-08-01,Bus Passengers,95
 Dunseith,North Dakota,3422,2026-09-01,Bus Passengers,128
+Dunseith,North Dakota,3422,2026-10-01,Bus Passengers,95
 Dunseith,North Dakota,3422,2019-01-01,Buses,2
 Dunseith,North Dakota,3422,2019-02-01,Buses,2
 Dunseith,North Dakota,3422,2019-03-01,Buses,2
@@ -3362,6 +3397,7 @@ Dunseith,North Dakota,3422,2026-06-01,Buses,3
 Dunseith,North Dakota,3422,2026-07-01,Buses,3
 Dunseith,North Dakota,3422,2026-08-01,Buses,5
 Dunseith,North Dakota,3422,2026-09-01,Buses,3
+Dunseith,North Dakota,3422,2026-10-01,Buses,3
 Dunseith,North Dakota,3422,2019-01-01,Personal Vehicle Passengers,5369
 Dunseith,North Dakota,3422,2019-02-01,Personal Vehicle Passengers,5350
 Dunseith,North Dakota,3422,2019-03-01,Personal Vehicle Passengers,6397
@@ -3455,6 +3491,7 @@ Dunseith,North Dakota,3422,2026-06-01,Personal Vehicle Passengers,10778
 Dunseith,North Dakota,3422,2026-07-01,Personal Vehicle Passengers,16462
 Dunseith,North Dakota,3422,2026-08-01,Personal Vehicle Passengers,13791
 Dunseith,North Dakota,3422,2026-09-01,Personal Vehicle Passengers,8590
+Dunseith,North Dakota,3422,2026-10-01,Personal Vehicle Passengers,6998
 Dunseith,North Dakota,3422,2019-01-01,Personal Vehicles,2686
 Dunseith,North Dakota,3422,2019-02-01,Personal Vehicles,2526
 Dunseith,North Dakota,3422,2019-03-01,Personal Vehicles,3110
@@ -3548,6 +3585,7 @@ Dunseith,North Dakota,3422,2026-06-01,Personal Vehicles,5110
 Dunseith,North Dakota,3422,2026-07-01,Personal Vehicles,7051
 Dunseith,North Dakota,3422,2026-08-01,Personal Vehicles,6118
 Dunseith,North Dakota,3422,2026-09-01,Personal Vehicles,4059
+Dunseith,North Dakota,3422,2026-10-01,Personal Vehicles,3417
 Fortuna,North Dakota,3417,2019-05-01,Bus Passengers,115
 Fortuna,North Dakota,3417,2020-02-01,Bus Passengers,36
 Fortuna,North Dakota,3417,2022-07-01,Bus Passengers,20
@@ -3670,6 +3708,7 @@ Fortuna,North Dakota,3417,2026-06-01,Personal Vehicle Passengers,1729
 Fortuna,North Dakota,3417,2026-07-01,Personal Vehicle Passengers,2316
 Fortuna,North Dakota,3417,2026-08-01,Personal Vehicle Passengers,2270
 Fortuna,North Dakota,3417,2026-09-01,Personal Vehicle Passengers,1507
+Fortuna,North Dakota,3417,2026-10-01,Personal Vehicle Passengers,1747
 Fortuna,North Dakota,3417,2019-01-01,Personal Vehicles,712
 Fortuna,North Dakota,3417,2019-02-01,Personal Vehicles,603
 Fortuna,North Dakota,3417,2019-03-01,Personal Vehicles,816
@@ -3763,6 +3802,7 @@ Fortuna,North Dakota,3417,2026-06-01,Personal Vehicles,918
 Fortuna,North Dakota,3417,2026-07-01,Personal Vehicles,1125
 Fortuna,North Dakota,3417,2026-08-01,Personal Vehicles,1136
 Fortuna,North Dakota,3417,2026-09-01,Personal Vehicles,831
+Fortuna,North Dakota,3417,2026-10-01,Personal Vehicles,908
 Hannah,North Dakota,3408,2019-01-01,Personal Vehicle Passengers,75
 Hannah,North Dakota,3408,2019-02-01,Personal Vehicle Passengers,66
 Hannah,North Dakota,3408,2019-03-01,Personal Vehicle Passengers,99
@@ -3856,6 +3896,7 @@ Hannah,North Dakota,3408,2026-06-01,Personal Vehicle Passengers,38
 Hannah,North Dakota,3408,2026-07-01,Personal Vehicle Passengers,47
 Hannah,North Dakota,3408,2026-08-01,Personal Vehicle Passengers,31
 Hannah,North Dakota,3408,2026-09-01,Personal Vehicle Passengers,34
+Hannah,North Dakota,3408,2026-10-01,Personal Vehicle Passengers,52
 Hannah,North Dakota,3408,2019-01-01,Personal Vehicles,54
 Hannah,North Dakota,3408,2019-02-01,Personal Vehicles,49
 Hannah,North Dakota,3408,2019-03-01,Personal Vehicles,63
@@ -3949,6 +3990,7 @@ Hannah,North Dakota,3408,2026-06-01,Personal Vehicles,19
 Hannah,North Dakota,3408,2026-07-01,Personal Vehicles,27
 Hannah,North Dakota,3408,2026-08-01,Personal Vehicles,19
 Hannah,North Dakota,3408,2026-09-01,Personal Vehicles,16
+Hannah,North Dakota,3408,2026-10-01,Personal Vehicles,28
 Hansboro,North Dakota,3415,2019-02-01,Bus Passengers,45
 Hansboro,North Dakota,3415,2019-03-01,Bus Passengers,27
 Hansboro,North Dakota,3415,2019-08-01,Bus Passengers,70
@@ -4070,6 +4112,7 @@ Hansboro,North Dakota,3415,2026-06-01,Personal Vehicle Passengers,751
 Hansboro,North Dakota,3415,2026-07-01,Personal Vehicle Passengers,916
 Hansboro,North Dakota,3415,2026-08-01,Personal Vehicle Passengers,912
 Hansboro,North Dakota,3415,2026-09-01,Personal Vehicle Passengers,642
+Hansboro,North Dakota,3415,2026-10-01,Personal Vehicle Passengers,572
 Hansboro,North Dakota,3415,2019-01-01,Personal Vehicles,367
 Hansboro,North Dakota,3415,2019-02-01,Personal Vehicles,274
 Hansboro,North Dakota,3415,2019-03-01,Personal Vehicles,390
@@ -4163,6 +4206,7 @@ Hansboro,North Dakota,3415,2026-06-01,Personal Vehicles,372
 Hansboro,North Dakota,3415,2026-07-01,Personal Vehicles,442
 Hansboro,North Dakota,3415,2026-08-01,Personal Vehicles,497
 Hansboro,North Dakota,3415,2026-09-01,Personal Vehicles,370
+Hansboro,North Dakota,3415,2026-10-01,Personal Vehicles,317
 Maida,North Dakota,3416,2019-02-01,Bus Passengers,16
 Maida,North Dakota,3416,2019-03-01,Bus Passengers,26
 Maida,North Dakota,3416,2019-04-01,Bus Passengers,16
@@ -4264,6 +4308,7 @@ Maida,North Dakota,3416,2026-06-01,Personal Vehicle Passengers,514
 Maida,North Dakota,3416,2026-07-01,Personal Vehicle Passengers,741
 Maida,North Dakota,3416,2026-08-01,Personal Vehicle Passengers,792
 Maida,North Dakota,3416,2026-09-01,Personal Vehicle Passengers,605
+Maida,North Dakota,3416,2026-10-01,Personal Vehicle Passengers,384
 Maida,North Dakota,3416,2019-01-01,Personal Vehicles,345
 Maida,North Dakota,3416,2019-02-01,Personal Vehicles,287
 Maida,North Dakota,3416,2019-03-01,Personal Vehicles,407
@@ -4357,6 +4402,7 @@ Maida,North Dakota,3416,2026-06-01,Personal Vehicles,267
 Maida,North Dakota,3416,2026-07-01,Personal Vehicles,386
 Maida,North Dakota,3416,2026-08-01,Personal Vehicles,410
 Maida,North Dakota,3416,2026-09-01,Personal Vehicles,320
+Maida,North Dakota,3416,2026-10-01,Personal Vehicles,230
 Neche,North Dakota,3404,2019-03-01,Bus Passengers,28
 Neche,North Dakota,3404,2019-03-01,Buses,2
 Neche,North Dakota,3404,2019-01-01,Personal Vehicle Passengers,3373
@@ -4452,6 +4498,7 @@ Neche,North Dakota,3404,2026-06-01,Personal Vehicle Passengers,2251
 Neche,North Dakota,3404,2026-07-01,Personal Vehicle Passengers,3051
 Neche,North Dakota,3404,2026-08-01,Personal Vehicle Passengers,2987
 Neche,North Dakota,3404,2026-09-01,Personal Vehicle Passengers,2472
+Neche,North Dakota,3404,2026-10-01,Personal Vehicle Passengers,1914
 Neche,North Dakota,3404,2019-01-01,Personal Vehicles,2054
 Neche,North Dakota,3404,2019-02-01,Personal Vehicles,1981
 Neche,North Dakota,3404,2019-03-01,Personal Vehicles,2462
@@ -4545,12 +4592,15 @@ Neche,North Dakota,3404,2026-06-01,Personal Vehicles,1367
 Neche,North Dakota,3404,2026-07-01,Personal Vehicles,1550
 Neche,North Dakota,3404,2026-08-01,Personal Vehicles,1586
 Neche,North Dakota,3404,2026-09-01,Personal Vehicles,1367
+Neche,North Dakota,3404,2026-10-01,Personal Vehicles,1189
 Noonan,North Dakota,3420,2019-03-01,Bus Passengers,8
 Noonan,North Dakota,3420,2022-10-01,Bus Passengers,44
 Noonan,North Dakota,3420,2023-10-01,Bus Passengers,46
+Noonan,North Dakota,3420,2026-10-01,Bus Passengers,23
 Noonan,North Dakota,3420,2019-03-01,Buses,1
 Noonan,North Dakota,3420,2022-10-01,Buses,1
 Noonan,North Dakota,3420,2023-10-01,Buses,1
+Noonan,North Dakota,3420,2026-10-01,Buses,1
 Noonan,North Dakota,3420,2019-01-01,Personal Vehicle Passengers,2926
 Noonan,North Dakota,3420,2019-02-01,Personal Vehicle Passengers,2472
 Noonan,North Dakota,3420,2019-03-01,Personal Vehicle Passengers,2779
@@ -4644,6 +4694,7 @@ Noonan,North Dakota,3420,2026-06-01,Personal Vehicle Passengers,2969
 Noonan,North Dakota,3420,2026-07-01,Personal Vehicle Passengers,4120
 Noonan,North Dakota,3420,2026-08-01,Personal Vehicle Passengers,3522
 Noonan,North Dakota,3420,2026-09-01,Personal Vehicle Passengers,2353
+Noonan,North Dakota,3420,2026-10-01,Personal Vehicle Passengers,2446
 Noonan,North Dakota,3420,2019-01-01,Personal Vehicles,1735
 Noonan,North Dakota,3420,2019-02-01,Personal Vehicles,1433
 Noonan,North Dakota,3420,2019-03-01,Personal Vehicles,1706
@@ -4737,6 +4788,7 @@ Noonan,North Dakota,3420,2026-06-01,Personal Vehicles,1662
 Noonan,North Dakota,3420,2026-07-01,Personal Vehicles,2062
 Noonan,North Dakota,3420,2026-08-01,Personal Vehicles,1846
 Noonan,North Dakota,3420,2026-09-01,Personal Vehicles,1385
+Noonan,North Dakota,3420,2026-10-01,Personal Vehicles,1401
 Northgate,North Dakota,3406,2019-01-01,Bus Passengers,36
 Northgate,North Dakota,3406,2019-04-01,Bus Passengers,53
 Northgate,North Dakota,3406,2020-02-01,Bus Passengers,34
@@ -4851,6 +4903,7 @@ Northgate,North Dakota,3406,2026-06-01,Personal Vehicle Passengers,1192
 Northgate,North Dakota,3406,2026-07-01,Personal Vehicle Passengers,1736
 Northgate,North Dakota,3406,2026-08-01,Personal Vehicle Passengers,1614
 Northgate,North Dakota,3406,2026-09-01,Personal Vehicle Passengers,958
+Northgate,North Dakota,3406,2026-10-01,Personal Vehicle Passengers,1130
 Northgate,North Dakota,3406,2019-01-01,Personal Vehicles,724
 Northgate,North Dakota,3406,2019-02-01,Personal Vehicles,762
 Northgate,North Dakota,3406,2019-03-01,Personal Vehicles,839
@@ -4944,6 +4997,7 @@ Northgate,North Dakota,3406,2026-06-01,Personal Vehicles,603
 Northgate,North Dakota,3406,2026-07-01,Personal Vehicles,789
 Northgate,North Dakota,3406,2026-08-01,Personal Vehicles,742
 Northgate,North Dakota,3406,2026-09-01,Personal Vehicles,481
+Northgate,North Dakota,3406,2026-10-01,Personal Vehicles,562
 Pembina,North Dakota,3401,2019-01-01,Bus Passengers,1402
 Pembina,North Dakota,3401,2019-02-01,Bus Passengers,2434
 Pembina,North Dakota,3401,2019-03-01,Bus Passengers,1054
@@ -5021,6 +5075,7 @@ Pembina,North Dakota,3401,2026-06-01,Bus Passengers,259
 Pembina,North Dakota,3401,2026-07-01,Bus Passengers,291
 Pembina,North Dakota,3401,2026-08-01,Bus Passengers,497
 Pembina,North Dakota,3401,2026-09-01,Bus Passengers,672
+Pembina,North Dakota,3401,2026-10-01,Bus Passengers,415
 Pembina,North Dakota,3401,2019-01-01,Buses,50
 Pembina,North Dakota,3401,2019-02-01,Buses,75
 Pembina,North Dakota,3401,2019-03-01,Buses,31
@@ -5099,6 +5154,7 @@ Pembina,North Dakota,3401,2026-06-01,Buses,12
 Pembina,North Dakota,3401,2026-07-01,Buses,14
 Pembina,North Dakota,3401,2026-08-01,Buses,19
 Pembina,North Dakota,3401,2026-09-01,Buses,32
+Pembina,North Dakota,3401,2026-10-01,Buses,15
 Pembina,North Dakota,3401,2019-01-01,Personal Vehicle Passengers,29226
 Pembina,North Dakota,3401,2019-02-01,Personal Vehicle Passengers,29211
 Pembina,North Dakota,3401,2019-03-01,Personal Vehicle Passengers,50040
@@ -5192,6 +5248,7 @@ Pembina,North Dakota,3401,2026-06-01,Personal Vehicle Passengers,34657
 Pembina,North Dakota,3401,2026-07-01,Personal Vehicle Passengers,50069
 Pembina,North Dakota,3401,2026-08-01,Personal Vehicle Passengers,58461
 Pembina,North Dakota,3401,2026-09-01,Personal Vehicle Passengers,37928
+Pembina,North Dakota,3401,2026-10-01,Personal Vehicle Passengers,33873
 Pembina,North Dakota,3401,2019-01-01,Personal Vehicles,13609
 Pembina,North Dakota,3401,2019-02-01,Personal Vehicles,13302
 Pembina,North Dakota,3401,2019-03-01,Personal Vehicles,20513
@@ -5285,6 +5342,7 @@ Pembina,North Dakota,3401,2026-06-01,Personal Vehicles,15095
 Pembina,North Dakota,3401,2026-07-01,Personal Vehicles,19812
 Pembina,North Dakota,3401,2026-08-01,Personal Vehicles,22587
 Pembina,North Dakota,3401,2026-09-01,Personal Vehicles,16543
+Pembina,North Dakota,3401,2026-10-01,Personal Vehicles,15350
 Portal,North Dakota,3403,2019-01-01,Bus Passengers,215
 Portal,North Dakota,3403,2019-02-01,Bus Passengers,303
 Portal,North Dakota,3403,2019-03-01,Bus Passengers,358
@@ -5514,6 +5572,7 @@ Portal,North Dakota,3403,2026-06-01,Personal Vehicle Passengers,10773
 Portal,North Dakota,3403,2026-07-01,Personal Vehicle Passengers,14493
 Portal,North Dakota,3403,2026-08-01,Personal Vehicle Passengers,14777
 Portal,North Dakota,3403,2026-09-01,Personal Vehicle Passengers,9846
+Portal,North Dakota,3403,2026-10-01,Personal Vehicle Passengers,10193
 Portal,North Dakota,3403,2019-01-01,Personal Vehicles,4008
 Portal,North Dakota,3403,2019-02-01,Personal Vehicles,3465
 Portal,North Dakota,3403,2019-03-01,Personal Vehicles,4191
@@ -5607,6 +5666,7 @@ Portal,North Dakota,3403,2026-06-01,Personal Vehicles,5211
 Portal,North Dakota,3403,2026-07-01,Personal Vehicles,6381
 Portal,North Dakota,3403,2026-08-01,Personal Vehicles,6894
 Portal,North Dakota,3403,2026-09-01,Personal Vehicles,5208
+Portal,North Dakota,3403,2026-10-01,Personal Vehicles,5253
 Sarles,North Dakota,3409,2019-01-01,Bus Passengers,20
 Sarles,North Dakota,3409,2019-02-01,Bus Passengers,48
 Sarles,North Dakota,3409,2019-03-01,Bus Passengers,76
@@ -5739,6 +5799,7 @@ Sarles,North Dakota,3409,2026-06-01,Personal Vehicle Passengers,421
 Sarles,North Dakota,3409,2026-07-01,Personal Vehicle Passengers,535
 Sarles,North Dakota,3409,2026-08-01,Personal Vehicle Passengers,472
 Sarles,North Dakota,3409,2026-09-01,Personal Vehicle Passengers,366
+Sarles,North Dakota,3409,2026-10-01,Personal Vehicle Passengers,326
 Sarles,North Dakota,3409,2019-01-01,Personal Vehicles,171
 Sarles,North Dakota,3409,2019-02-01,Personal Vehicles,179
 Sarles,North Dakota,3409,2019-03-01,Personal Vehicles,230
@@ -5832,6 +5893,7 @@ Sarles,North Dakota,3409,2026-06-01,Personal Vehicles,239
 Sarles,North Dakota,3409,2026-07-01,Personal Vehicles,281
 Sarles,North Dakota,3409,2026-08-01,Personal Vehicles,250
 Sarles,North Dakota,3409,2026-09-01,Personal Vehicles,212
+Sarles,North Dakota,3409,2026-10-01,Personal Vehicles,194
 Sherwood,North Dakota,3414,2019-02-01,Bus Passengers,26
 Sherwood,North Dakota,3414,2023-02-01,Bus Passengers,30
 Sherwood,North Dakota,3414,2023-06-01,Bus Passengers,13
@@ -5939,6 +6001,7 @@ Sherwood,North Dakota,3414,2026-06-01,Personal Vehicle Passengers,1714
 Sherwood,North Dakota,3414,2026-07-01,Personal Vehicle Passengers,2680
 Sherwood,North Dakota,3414,2026-08-01,Personal Vehicle Passengers,2778
 Sherwood,North Dakota,3414,2026-09-01,Personal Vehicle Passengers,1748
+Sherwood,North Dakota,3414,2026-10-01,Personal Vehicle Passengers,1969
 Sherwood,North Dakota,3414,2019-01-01,Personal Vehicles,942
 Sherwood,North Dakota,3414,2019-02-01,Personal Vehicles,917
 Sherwood,North Dakota,3414,2019-03-01,Personal Vehicles,1110
@@ -6032,6 +6095,7 @@ Sherwood,North Dakota,3414,2026-06-01,Personal Vehicles,942
 Sherwood,North Dakota,3414,2026-07-01,Personal Vehicles,1322
 Sherwood,North Dakota,3414,2026-08-01,Personal Vehicles,1339
 Sherwood,North Dakota,3414,2026-09-01,Personal Vehicles,945
+Sherwood,North Dakota,3414,2026-10-01,Personal Vehicles,1002
 St John,North Dakota,3405,2019-01-01,Bus Passengers,28
 St John,North Dakota,3405,2019-02-01,Bus Passengers,22
 St John,North Dakota,3405,2019-03-01,Bus Passengers,31
@@ -6148,6 +6212,7 @@ St John,North Dakota,3405,2026-06-01,Personal Vehicle Passengers,941
 St John,North Dakota,3405,2026-07-01,Personal Vehicle Passengers,1266
 St John,North Dakota,3405,2026-08-01,Personal Vehicle Passengers,1127
 St John,North Dakota,3405,2026-09-01,Personal Vehicle Passengers,908
+St John,North Dakota,3405,2026-10-01,Personal Vehicle Passengers,721
 St John,North Dakota,3405,2019-01-01,Personal Vehicles,653
 St John,North Dakota,3405,2019-02-01,Personal Vehicles,681
 St John,North Dakota,3405,2019-03-01,Personal Vehicles,908
@@ -6241,6 +6306,7 @@ St John,North Dakota,3405,2026-06-01,Personal Vehicles,573
 St John,North Dakota,3405,2026-07-01,Personal Vehicles,693
 St John,North Dakota,3405,2026-08-01,Personal Vehicles,636
 St John,North Dakota,3405,2026-09-01,Personal Vehicles,530
+St John,North Dakota,3405,2026-10-01,Personal Vehicles,430
 Walhalla,North Dakota,3407,2019-06-01,Bus Passengers,27
 Walhalla,North Dakota,3407,2019-09-01,Bus Passengers,18
 Walhalla,North Dakota,3407,2019-10-01,Bus Passengers,14
@@ -6345,6 +6411,7 @@ Walhalla,North Dakota,3407,2026-06-01,Personal Vehicle Passengers,3857
 Walhalla,North Dakota,3407,2026-07-01,Personal Vehicle Passengers,6358
 Walhalla,North Dakota,3407,2026-08-01,Personal Vehicle Passengers,5565
 Walhalla,North Dakota,3407,2026-09-01,Personal Vehicle Passengers,4231
+Walhalla,North Dakota,3407,2026-10-01,Personal Vehicle Passengers,3456
 Walhalla,North Dakota,3407,2019-01-01,Personal Vehicles,2160
 Walhalla,North Dakota,3407,2019-02-01,Personal Vehicles,1935
 Walhalla,North Dakota,3407,2019-03-01,Personal Vehicles,2399
@@ -6438,6 +6505,7 @@ Walhalla,North Dakota,3407,2026-06-01,Personal Vehicles,2183
 Walhalla,North Dakota,3407,2026-07-01,Personal Vehicles,3092
 Walhalla,North Dakota,3407,2026-08-01,Personal Vehicles,2724
 Walhalla,North Dakota,3407,2026-09-01,Personal Vehicles,2335
+Walhalla,North Dakota,3407,2026-10-01,Personal Vehicles,1935
 Westhope,North Dakota,3419,2019-01-01,Personal Vehicle Passengers,1127
 Westhope,North Dakota,3419,2019-02-01,Personal Vehicle Passengers,1176
 Westhope,North Dakota,3419,2019-03-01,Personal Vehicle Passengers,1365
@@ -6531,6 +6599,7 @@ Westhope,North Dakota,3419,2026-06-01,Personal Vehicle Passengers,819
 Westhope,North Dakota,3419,2026-07-01,Personal Vehicle Passengers,1413
 Westhope,North Dakota,3419,2026-08-01,Personal Vehicle Passengers,1322
 Westhope,North Dakota,3419,2026-09-01,Personal Vehicle Passengers,763
+Westhope,North Dakota,3419,2026-10-01,Personal Vehicle Passengers,917
 Westhope,North Dakota,3419,2019-01-01,Personal Vehicles,550
 Westhope,North Dakota,3419,2019-02-01,Personal Vehicles,535
 Westhope,North Dakota,3419,2019-03-01,Personal Vehicles,616
@@ -6624,3 +6693,4 @@ Westhope,North Dakota,3419,2026-06-01,Personal Vehicles,392
 Westhope,North Dakota,3419,2026-07-01,Personal Vehicles,616
 Westhope,North Dakota,3419,2026-08-01,Personal Vehicles,621
 Westhope,North Dakota,3419,2026-09-01,Personal Vehicles,400
+Westhope,North Dakota,3419,2026-10-01,Personal Vehicles,494
