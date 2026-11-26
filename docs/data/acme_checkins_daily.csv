@@ -75,7 +75,7 @@ date,event,tickets,checked_in
 2026-07-15,Architecture and Sustainability Tour,2,2
 2026-07-15,Badlands Landscape Tour,6,0
 2026-07-15,Flex Tickets,24,22
-2026-07-15,General Admission,1490,1371
+2026-07-15,General Admission,1490,1373
 2026-07-15,Guided Highlights Tour,20,0
 2026-07-15,"Member ""Behind the Arena"" Tour",14,2
 2026-07-16,Architecture and Sustainability Tour,12,12
@@ -644,5 +644,6 @@ date,event,tickets,checked_in
 2026-11-22,T.R. Deep-Dive Tour,2,2
 2026-11-24,America the Beautiful Film Screening,8,6
 2026-11-24,General Admission,404,288
-2026-11-25,America the Beautiful Film Screening,2,0
-2026-11-25,General Admission,303,0
+2026-11-25,America the Beautiful Film Screening,6,6
+2026-11-25,Free Final Hour,3,3
+2026-11-25,General Admission,403,355
